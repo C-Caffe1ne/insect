@@ -62,15 +62,16 @@
       </div>
 
       <!-- ─── TABS ─── -->
-      <div class="tabs">
+      <div class="tabs" id="discoverTabs" data-active-tab="curated">
         <button class="tab active" data-tab="curated" id="tabCurated">테마 보기</button>
         <button class="tab" data-tab="taxonomy" id="tabTaxonomy">분류 보기</button>
       </div>
 
-      <!-- ═══════════════════════════════════════════ -->
-      <!-- TAB 1: CURATED THEMES                      -->
-      <!-- ═══════════════════════════════════════════ -->
-      <div class="tab-content active" id="panelCurated">
+      <div class="tab-panels" id="discoverTabPanels" data-active-tab="curated">
+        <!-- ═══════════════════════════════════════════ -->
+        <!-- TAB 1: CURATED THEMES                      -->
+        <!-- ═══════════════════════════════════════════ -->
+        <div class="tab-content active" id="panelCurated" aria-hidden="false">
 
         <!-- Featured collections -->
         <section class="section">
@@ -239,29 +240,105 @@
           </div>
         </section>
 
-      </div>
+        </div>
 
-      <!-- ═══════════════════════════════════════════ -->
-      <!-- TAB 2: TAXONOMY BROWSE                     -->
-      <!-- ═══════════════════════════════════════════ -->
-      <div class="tab-content" id="panelTaxonomy">
-        <section class="section">
-          <div class="section-head">
-            <div>
-              <h2 class="section-title">분류 보기</h2>
-              <p class="section-sub" id="orderSubtitle">Loading...</p>
+        <!-- ═══════════════════════════════════════════ -->
+        <!-- TAB 2: TAXONOMY BROWSE                     -->
+        <!-- ═══════════════════════════════════════════ -->
+        <div class="tab-content" id="panelTaxonomy" aria-hidden="true" inert>
+          <section class="section">
+            <div class="section-head">
+              <div>
+                <h2 class="section-title">분류 보기</h2>
+                <p class="section-sub" id="orderSubtitle">Loading...</p>
+              </div>
+              <button class="sort-btn" id="sortBtn">A → Z</button>
             </div>
-            <button class="sort-btn" id="sortBtn">A → Z</button>
-          </div>
 
-          <!-- 목 카드 그리드 -->
-          <div class="order-grid" id="orderGrid"></div>
-        </section>
+            <!-- 목 카드 그리드 -->
+            <div class="order-grid" id="orderGrid"></div>
+          </section>
+        </div>
       </div>
     </div> <!-- End of pageDiscover -->
 
     <!-- ═══════════════════════════════════════════ -->
-    <!-- PAGE 2: SEARCH                              -->
+    <!-- PAGE 2: FAMILY LIST                         -->
+    <!-- ═══════════════════════════════════════════ -->
+    <div class="page" id="pageFamilyList">
+      <div class="family-page-header">
+        <button class="family-back-btn" id="familyBackBtn" aria-label="분류 보기로 돌아가기">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <line x1="19" y1="12" x2="5" y2="12"></line>
+            <polyline points="12 19 5 12 12 5"></polyline>
+          </svg>
+        </button>
+        <div>
+          <h2 class="family-page-title" id="familyPageTitle">과 전체보기</h2>
+          <p class="family-page-sub" id="familyPageSub">Family list</p>
+        </div>
+      </div>
+
+      <div class="search-bar family-search-bar">
+        <div class="search-inner">
+          <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8" />
+            <path d="m21 21-4.3-4.3" />
+          </svg>
+          <input id="familySearchInput" type="text" placeholder="Search family name..." />
+        </div>
+      </div>
+
+      <section class="section family-results-section">
+        <div class="family-card-grid" id="familyCardGrid"></div>
+        <p class="family-empty" id="familyEmpty">검색 결과가 없습니다</p>
+      </section>
+    </div>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- PAGE 3: FAMILY DETAIL                       -->
+    <!-- ═══════════════════════════════════════════ -->
+    <div class="page" id="pageFamilyDetail">
+      <div class="family-detail-topbar">
+        <button class="family-back-btn" id="familyDetailBackBtn" aria-label="과 목록으로 돌아가기">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <line x1="19" y1="12" x2="5" y2="12"></line>
+            <polyline points="12 19 5 12 12 5"></polyline>
+          </svg>
+        </button>
+        <h2 class="family-detail-title" id="familyDetailTitle">과 상세</h2>
+      </div>
+
+      <section class="family-detail-section">
+        <h3 class="family-detail-section-title" id="otherFamilyTitle">Other Families</h3>
+        <p class="family-detail-section-sub" id="otherFamilySub">같은 목의 다른 과</p>
+        <div class="family-carousel" id="otherFamilyCarousel"></div>
+      </section>
+
+      <section class="family-detail-section family-order-section">
+        <h3 class="family-detail-eyebrow">EXPLORE OTHER ORDERS</h3>
+        <div class="order-tag-scroll" id="otherOrderTags"></div>
+      </section>
+
+      <section class="family-detail-section species-detail-section">
+        <div class="species-tabs-row">
+          <div class="species-tabs">
+            <span class="species-tab active">POPULAR</span>
+            <span class="species-tab">A-Z</span>
+            <span class="species-tab">BY COLOR</span>
+          </div>
+          <span class="species-count" id="familySpeciesCount">0 species</span>
+        </div>
+        <div class="species-grid-detail" id="familySpeciesGrid"></div>
+        <p class="family-empty" id="speciesEmpty">표시할 대표 종 데이터가 없습니다</p>
+      </section>
+    </div>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- PAGE 4: SEARCH                              -->
     <!-- ═══════════════════════════════════════════ -->
     <div class="page" id="pageSearch">
 
@@ -401,6 +478,228 @@
 
     </div>
 
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- PAGE 5: SAVED (즐겨찾기)                    -->
+    <!-- ═══════════════════════════════════════════ -->
+    <div class="page" id="pageSaved">
+      <div class="saved-page-header">
+        <h2 class="saved-page-title">즐겨찾는 곤충</h2>
+        <p class="saved-page-sub">관심 있는 곤충들이 여기에 저장됩니다.</p>
+      </div>
+      
+      <!-- Premium Saved Empty State -->
+      <div class="saved-empty-state">
+        <div class="empty-icon-glow">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+          </svg>
+        </div>
+        <p class="empty-title">저장된 곤충이 없습니다</p>
+        <p class="empty-sub">도감에서 마음에 드는 곤충을 발견하면 하트를 눌러보세요.</p>
+      </div>
+    </div>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- PAGE 6: PROFILE (내 정보)                    -->
+    <!-- ═══════════════════════════════════════════ -->
+    <div class="page" id="pageProfile">
+      
+      <!-- Top Action Bar -->
+      <div class="profile-action-bar">
+        <button class="action-btn" aria-label="Go Back" onclick="showPage('pageDiscover')">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="19" y1="12" x2="5" y2="12"></line>
+            <polyline points="12 19 5 12 12 5"></polyline>
+          </svg>
+        </button>
+        <button class="action-btn" aria-label="Settings">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="3"></circle>
+            <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+          </svg>
+        </button>
+      </div>
+
+      <!-- Hero Profile Card Container -->
+      <div class="profile-hero-section">
+        <!-- Floating Dragonfly Background Wings Vector Graphic -->
+        <div class="profile-dragonfly-bg">
+          <svg width="320" height="200" viewBox="0 0 320 200" fill="none" opacity="0.15" style="position: absolute; top: -40px; left: 50%; transform: translateX(-50%); pointer-events: none; color: var(--green-mid);">
+            <path d="M160 100 C180 50, 240 20, 300 30 C300 50, 260 80, 180 95 Z" stroke="currentColor" stroke-width="1.2" fill="none" />
+            <path d="M160 100 C180 80, 250 80, 290 105 C270 120, 220 120, 175 105 Z" stroke="currentColor" stroke-width="0.9" fill="none" />
+            <path d="M160 100 C140 50, 80 20, 20 30 C20 50, 60 80, 140 95 Z" stroke="currentColor" stroke-width="1.2" fill="none" />
+            <path d="M160 100 C140 80, 70 80, 30 105 C50 120, 100 120, 145 105 Z" stroke="currentColor" stroke-width="0.9" fill="none" />
+          </svg>
+        </div>
+
+        <!-- Glass Profile Box -->
+        <div class="profile-glass-card">
+          <!-- Avatar with Glowing Neon Ring -->
+          <div class="profile-avatar-container">
+            <div class="profile-avatar-inner">
+              <img src="images/yujin_profile.png" alt="Yujin Park" />
+            </div>
+            <div class="profile-avatar-glow"></div>
+          </div>
+          
+          <h2 class="profile-name">Yujin Park</h2>
+          <p class="profile-handle-location">@yujin.entoma · Seoul, KR</p>
+          
+          <!-- Statistics capsule -->
+          <div class="profile-stats-container">
+            <div class="profile-stat-item">
+              <span class="profile-stat-number">127</span>
+              <span class="profile-stat-label">VIEWED</span>
+            </div>
+            <div class="profile-stat-divider"></div>
+            <div class="profile-stat-item">
+              <span class="profile-stat-number">42</span>
+              <span class="profile-stat-label">SAVED</span>
+            </div>
+            <div class="profile-stat-divider"></div>
+            <div class="profile-stat-item">
+              <span class="profile-stat-number">8</span>
+              <span class="profile-stat-label">BADGES</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Badges Earned Section -->
+      <section class="profile-section">
+        <div class="profile-section-header">
+          <div>
+            <h3 class="profile-section-title">Badges Earned</h3>
+            <p class="profile-section-subtitle">Achievements from the field</p>
+          </div>
+          <a href="#" class="profile-view-all">VIEW ALL</a>
+        </div>
+        
+        <div class="profile-badges-scroll">
+          <div class="badge-item">
+            <div class="badge-ring badge-ring--leaf">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"></path>
+                <path d="M2 21c0-3 1.85-5.36 5.08-6Q9.5 14.52 12 13 13 12"></path>
+              </svg>
+            </div>
+            <span class="badge-name">Bee Protector</span>
+          </div>
+          <div class="badge-item">
+            <div class="badge-ring badge-ring--star">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+              </svg>
+            </div>
+            <span class="badge-name">Butterfly Finder</span>
+          </div>
+          <div class="badge-item">
+            <div class="badge-ring badge-ring--moon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+              </svg>
+            </div>
+            <span class="badge-name">Night Watcher</span>
+          </div>
+          <div class="badge-item">
+            <div class="badge-ring badge-ring--beetle">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <rect width="8" height="14" x="8" y="6" rx="4" />
+                <path d="m19 7-3 2" />
+                <path d="m5 7 3 2" />
+                <path d="m19 19-3-2" />
+                <path d="m5 19 3-2" />
+                <path d="M20 13h-4" />
+                <path d="M4 13h4" />
+                <path d="m9 4 1 2" />
+                <path d="m15 4-1 2" />
+              </svg>
+            </div>
+            <span class="badge-name">Beetle Scout</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- My Collection Section -->
+      <section class="profile-section">
+        <div class="profile-section-header">
+          <div>
+            <h3 class="profile-section-title">My Collection</h3>
+            <p class="profile-section-subtitle">Species you've fallen for</p>
+          </div>
+          <a href="#" class="profile-view-all">VIEW ALL</a>
+        </div>
+        
+        <div class="profile-collection-row">
+          <div class="collection-card">
+            <img src="images/jewel_beetle.png" alt="Jewel Beetle" />
+            <div class="collection-overlay"></div>
+            <div class="collection-content">
+              <span class="collection-tag">FAVORITE</span>
+              <h4 class="collection-title">Jewel Beetle</h4>
+              <p class="collection-scientific">Chrysochroa fulgidissima</p>
+            </div>
+          </div>
+          <div class="collection-card">
+            <img src="images/asian_swallowtail.png" alt="Asian Swallowtail" />
+            <div class="collection-overlay"></div>
+            <div class="collection-content">
+              <span class="collection-tag">FAVORITE</span>
+              <h4 class="collection-title">Asian Swallowtail</h4>
+              <p class="collection-scientific">Papilio xuthus</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Recently Encountered Section -->
+      <section class="profile-section" style="margin-bottom: 24px;">
+        <div class="profile-section-header">
+          <div>
+            <h3 class="profile-section-title">Recently Encountered</h3>
+            <p class="profile-section-subtitle">Your latest encounters</p>
+          </div>
+          <a href="#" class="profile-view-all">VIEW ALL</a>
+        </div>
+        
+        <div class="profile-recent-scroll">
+          <div class="recent-encounter-card">
+            <div class="recent-img-wrapper">
+              <img src="images/limenitis_camilla.png" alt="검은 나비" />
+            </div>
+            <div class="recent-details">
+              <h4 class="recent-title-kr">검은 나비</h4>
+              <p class="recent-title-sci">Limenitis camilla</p>
+              <div class="recent-time-badge">TODAY</div>
+            </div>
+          </div>
+          
+          <div class="recent-encounter-card">
+            <div class="recent-img-wrapper">
+              <img src="images/catocala_nupta.png" alt="밤나방" />
+            </div>
+            <div class="recent-details">
+              <h4 class="recent-title-kr">밤나방</h4>
+              <p class="recent-title-sci">Catocala nupta</p>
+              <div class="recent-time-badge">YESTERDAY</div>
+            </div>
+          </div>
+          
+          <div class="recent-encounter-card">
+            <div class="recent-img-wrapper">
+              <img src="images/limenitis_camilla.png" alt="푸른하늘소" style="filter: hue-rotate(180deg);" />
+            </div>
+            <div class="recent-details">
+              <h4 class="recent-title-kr">푸른하늘소</h4>
+              <p class="recent-title-sci">Rosalia lameerei</p>
+              <div class="recent-time-badge">2 DAYS AGO</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
     <!-- ─── BOTTOM NAV ─── -->
     <nav class="bottom-nav">
       <button class="nav-item active" id="navDiscover">
@@ -453,14 +752,46 @@
     ];
 
     function formatCount(n) {
-      return n.toLocaleString('ko-KR');
+      return Number(n || 0).toLocaleString('ko-KR');
+    }
+
+    function escapeHTML(value) {
+      return String(value ?? '').replace(/[&<>"']/g, (char) => ({
+        '&': '&amp;',
+        '<': '&lt;',
+        '>': '&gt;',
+        '"': '&quot;',
+        "'": '&#039;'
+      })[char]);
+    }
+
+    function getOrderKey(order) {
+      return order.scientificName;
+    }
+
+    function getFamilyKey(orderKey, familyScientificName) {
+      return `${orderKey}::${familyScientificName}`;
+    }
+
+    function getFamilyImage(index) {
+      const images = [
+        'images/jewel_beetle.png',
+        'images/asian_swallowtail.png',
+        'images/catocala_nupta.png',
+        'images/limenitis_camilla.png'
+      ];
+      return images[index % images.length];
     }
 
     // ── 데이터 ──
     let ordersData = [];
-    let familiesData = [];
+    let speciesByFamily = {};
     let sortAsc = false;
     let expandedOrderKey = null;
+    let selectedOrder = null;
+    let selectedFamilies = [];
+    let selectedFamily = null;
+    let previousFamilyPage = 'pageFamilyList';
 
     // ── 그리드 렌더 ──
     function renderOrders(orders) {
@@ -468,11 +799,14 @@
       grid.innerHTML = '';
 
       // 현재 확장된 카드의 인덱스 찾기
-      const expandedIndex = orders.findIndex(o => o.orderKtsn === expandedOrderKey);
+      const expandedIndex = orders.findIndex(o => getOrderKey(o) === expandedOrderKey);
 
       orders.forEach((order, index) => {
         const bg = ORDER_GRADIENTS[index % ORDER_GRADIENTS.length];
-        const isExpanded = order.orderKtsn === expandedOrderKey;
+        const orderKey = getOrderKey(order);
+        const families = order.families || [];
+        const showFamilies = families.slice(0, 5);
+        const isExpanded = orderKey === expandedOrderKey;
 
         // 오른쪽 카드(홀수 인덱스)가 클릭되었을 때, 왼쪽 카드와 순서를 스왑하여 
         // 오른쪽 카드가 밑으로 떨어지지 않고 그 자리에서 커지며 왼쪽 카드를 밀어내도록 처리
@@ -485,23 +819,20 @@
 
         const card = document.createElement('article');
         card.className = 'order-card-mini' + (isExpanded ? ' expanded' : '');
-        card.style.viewTransitionName = `card-${order.orderKtsn}`;
+        card.style.viewTransitionName = `card-${orderKey}`;
         card.style.order = cssOrder;
 
         if (isExpanded) {
           // 확장된 상태 HTML
-          const families = familiesData.filter(f => f.orderKey === order.orderKtsn);
-          const showFamilies = families.slice(0, 5);
-
           let familyListHTML = '';
           if (showFamilies.length > 0) {
             familyListHTML = showFamilies.map(f => `
             <li class="family-item">
               <div>
-                <p class="family-item-name">${f.scientificName}</p>
-                <p class="family-item-kr">${f.commonName !== f.scientificName ? f.commonName : ''}</p>
+                <p class="family-item-name">${escapeHTML(f.commonName || f.scientificName)}</p>
+                <p class="family-item-kr">${escapeHTML(f.scientificName)}</p>
               </div>
-              <span class="family-item-count">›</span>
+              <span class="family-item-count">${formatCount(f.recordCount)}종</span>
             </li>
           `).join('');
           } else {
@@ -518,10 +849,10 @@
           <div class="expanded-body">
             <h3 class="expanded-title">${order.scientificName}</h3>
             <p class="expanded-kr">${order.commonName}</p>
-            <p class="order-count">${formatCount(order.koreaObservationCount)} 관찰</p>
+            <p class="order-count">${formatCount(order.familyCount)}개 과</p>
             <div class="family-divider">
               <span class="family-divider-label">FAMILIES · ${families.length}</span>
-              <a class="see-all" href="#">VIEW ALL</a>
+              <button class="see-all family-view-all" data-order-key="${escapeHTML(orderKey)}">전체보기</button>
             </div>
             <ul class="family-list">${familyListHTML}</ul>
           </div>
@@ -537,15 +868,32 @@
           <div class="order-mini-body">
             <h3 class="order-name-kr">${order.commonName}</h3>
             <p class="order-sci">${order.scientificName}</p>
-            <p class="order-count">${formatCount(order.koreaObservationCount)} 관찰</p>
+            <p class="order-count">${formatCount(order.familyCount)}개 과</p>
           </div>
         `;
         }
 
         // 카드 전체 영역 클릭 시 토글 (링크나 닫기 버튼 제외)
         card.addEventListener('click', (e) => {
-          if (e.target.closest('a') || e.target.closest('.expanded-close')) return;
-          expandOrder(order.orderKtsn);
+          if (e.target.closest('a') || e.target.closest('button') || e.target.closest('.expanded-close')) return;
+          expandOrder(orderKey);
+        });
+
+        const viewAllBtn = card.querySelector('.family-view-all');
+        if (viewAllBtn) {
+          viewAllBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            openFamilyPage(orderKey);
+          });
+        }
+
+        card.querySelectorAll('.family-item').forEach((familyItem, familyIndex) => {
+          const family = showFamilies[familyIndex];
+          if (!family) return;
+          familyItem.addEventListener('click', (e) => {
+            e.stopPropagation();
+            openFamilyDetail(orderKey, family.scientificName, 'pageDiscover');
+          });
         });
 
         grid.appendChild(card);
@@ -595,16 +943,147 @@
       }
     }
 
+    function openFamilyPage(orderKey) {
+      const order = ordersData.find(item => getOrderKey(item) === orderKey);
+      if (!order) return;
+
+      selectedOrder = order;
+      selectedFamilies = order.families || [];
+      document.getElementById('familySearchInput').value = '';
+      document.getElementById('familyPageTitle').textContent = `${order.commonName}의 과 전체보기`;
+      document.getElementById('familyPageSub').textContent =
+        `${order.scientificName} · ${formatCount(selectedFamilies.length)}개 과`;
+      renderFamilyPage(selectedFamilies);
+      showPage('pageFamilyList', { keepNav: true });
+    }
+
+    function renderFamilyPage(families) {
+      const grid = document.getElementById('familyCardGrid');
+      const empty = document.getElementById('familyEmpty');
+      grid.innerHTML = '';
+
+      empty.classList.toggle('visible', families.length === 0);
+
+      families.forEach((family, index) => {
+        const card = document.createElement('article');
+        card.className = 'family-photo-card';
+        card.setAttribute('role', 'button');
+        card.tabIndex = 0;
+        card.innerHTML = `
+          <img src="${getFamilyImage(index)}" alt="" />
+          <div class="family-photo-overlay"></div>
+          <div class="family-photo-info">
+            <h3>${escapeHTML(family.commonName || family.scientificName)}</h3>
+            <p>${escapeHTML(family.scientificName)}</p>
+            <span>${formatCount(family.recordCount)}종</span>
+          </div>
+        `;
+        card.addEventListener('click', () => {
+          openFamilyDetail(selectedOrder.scientificName, family.scientificName, 'pageFamilyList');
+        });
+        card.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            openFamilyDetail(selectedOrder.scientificName, family.scientificName, 'pageFamilyList');
+          }
+        });
+        grid.appendChild(card);
+      });
+    }
+
+    function filterFamilyPage() {
+      const query = document.getElementById('familySearchInput').value.trim().toLowerCase();
+      const filtered = selectedFamilies.filter(family => {
+        const commonName = (family.commonName || '').toLowerCase();
+        const scientificName = (family.scientificName || '').toLowerCase();
+        return commonName.includes(query) || scientificName.includes(query);
+      });
+      renderFamilyPage(filtered);
+    }
+
+    function openFamilyDetail(orderKey, familyScientificName, fromPage = 'pageFamilyList') {
+      const order = ordersData.find(item => getOrderKey(item) === orderKey);
+      if (!order) return;
+      const family = (order.families || []).find(item => item.scientificName === familyScientificName);
+      if (!family) return;
+
+      selectedOrder = order;
+      selectedFamilies = order.families || [];
+      selectedFamily = family;
+      previousFamilyPage = fromPage;
+      renderFamilyDetail(order, family);
+      showPage('pageFamilyDetail', { keepNav: true });
+    }
+
+    function renderFamilyDetail(order, family) {
+      const orderKey = getOrderKey(order);
+      const familyKey = getFamilyKey(orderKey, family.scientificName);
+      const species = speciesByFamily[familyKey]?.species || [];
+      const siblingFamilies = (order.families || []).filter(item => item.scientificName !== family.scientificName);
+
+      document.getElementById('familyDetailTitle').textContent =
+        `${family.commonName || family.scientificName} (${family.scientificName})`;
+      document.getElementById('otherFamilyTitle').textContent = `Other Families in ${order.scientificName}`;
+      document.getElementById('otherFamilySub').textContent = `${order.commonName}의 다른 과`;
+      document.getElementById('familySpeciesCount').textContent = `${formatCount(family.recordCount)} species`;
+
+      const carousel = document.getElementById('otherFamilyCarousel');
+      carousel.innerHTML = '';
+      siblingFamilies.forEach((item, index) => {
+        const card = document.createElement('button');
+        card.className = 'family-carousel-card';
+        card.innerHTML = `
+          <img src="${getFamilyImage(index + 1)}" alt="" />
+          <span class="family-photo-overlay"></span>
+          <span class="family-carousel-info">
+            <strong>${escapeHTML(item.commonName || item.scientificName)}</strong>
+            <em>${escapeHTML(item.scientificName)}</em>
+          </span>
+        `;
+        card.addEventListener('click', () => openFamilyDetail(orderKey, item.scientificName, 'pageFamilyDetail'));
+        carousel.appendChild(card);
+      });
+
+      const tags = document.getElementById('otherOrderTags');
+      tags.innerHTML = '';
+      ordersData
+        .filter(item => getOrderKey(item) !== orderKey)
+        .forEach(item => {
+          const tag = document.createElement('button');
+          tag.className = 'order-tag';
+          tag.textContent = `${item.commonName} (${item.scientificName})`;
+          tag.addEventListener('click', () => openFamilyPage(getOrderKey(item)));
+          tags.appendChild(tag);
+        });
+
+      const grid = document.getElementById('familySpeciesGrid');
+      const empty = document.getElementById('speciesEmpty');
+      grid.innerHTML = '';
+      empty.classList.toggle('visible', species.length === 0);
+      species.forEach((item, index) => {
+        const card = document.createElement('article');
+        card.className = 'species-detail-card';
+        card.innerHTML = `
+          <div class="species-detail-img">
+            <img src="${getFamilyImage(index)}" alt="" />
+          </div>
+          <h3>${escapeHTML(item.commonName || item.scientificName)}</h3>
+          <p>${escapeHTML(item.scientificName)}</p>
+        `;
+        grid.appendChild(card);
+      });
+    }
+
     // ── 데이터 로드 ──
     Promise.all([
-      fetch('../cached/korea_insect_orders.json').then(r => r.json()),
-      fetch('../cached/cached_families.json').then(r => r.json())
+      fetch('../cached/korea_insect_families_by_order.json').then(r => r.json()),
+      fetch('../cached/korea_insect_species_by_family.json').then(r => r.json())
     ])
-      .then(([orderData, famData]) => {
-        ordersData = orderData.orders;
-        familiesData = famData;
+      .then(([familyByOrderData, speciesData]) => {
+        ordersData = familyByOrderData.orders;
+        speciesByFamily = speciesData.families || {};
         document.getElementById('orderSubtitle').textContent =
-          `한국 서식 ${orderData.totalOrdersFound}개 목`;
+          `한국 서식 ${familyByOrderData.totalOrders}개 목 · ${formatCount(familyByOrderData.totalFamilies)}개 과`;
         renderOrders(ordersData);
       })
       .catch(err => {
@@ -622,7 +1101,7 @@
         ordersData.sort((a, b) => a.commonName.localeCompare(b.commonName, 'ko'));
       } else {
         btn.textContent = 'A → Z';
-        ordersData.sort((a, b) => b.koreaObservationCount - a.koreaObservationCount);
+        ordersData.sort((a, b) => b.familyCount - a.familyCount);
       }
 
       // 정렬 시에도 애니메이션 적용
@@ -634,24 +1113,32 @@
     });
 
     // ── Tab Switching ──
+    const discoverTabs = document.getElementById('discoverTabs');
+    const discoverTabPanels = document.getElementById('discoverTabPanels');
     const tabCurated = document.getElementById('tabCurated');
     const tabTaxonomy = document.getElementById('tabTaxonomy');
     const panelCurated = document.getElementById('panelCurated');
     const panelTaxonomy = document.getElementById('panelTaxonomy');
 
-    tabCurated.addEventListener('click', () => {
-      tabCurated.classList.add('active');
-      tabTaxonomy.classList.remove('active');
-      panelCurated.classList.add('active');
-      panelTaxonomy.classList.remove('active');
-    });
+    function switchDiscoverTab(tabName) {
+      if (discoverTabPanels.dataset.activeTab === tabName) return;
 
-    tabTaxonomy.addEventListener('click', () => {
-      tabTaxonomy.classList.add('active');
-      tabCurated.classList.remove('active');
-      panelTaxonomy.classList.add('active');
-      panelCurated.classList.remove('active');
-    });
+      const isTaxonomy = tabName === 'taxonomy';
+
+      discoverTabs.dataset.activeTab = tabName;
+      discoverTabPanels.dataset.activeTab = tabName;
+      tabCurated.classList.toggle('active', !isTaxonomy);
+      tabTaxonomy.classList.toggle('active', isTaxonomy);
+      panelCurated.classList.toggle('active', !isTaxonomy);
+      panelTaxonomy.classList.toggle('active', isTaxonomy);
+      panelCurated.setAttribute('aria-hidden', String(isTaxonomy));
+      panelTaxonomy.setAttribute('aria-hidden', String(!isTaxonomy));
+      panelCurated.inert = isTaxonomy;
+      panelTaxonomy.inert = !isTaxonomy;
+    }
+
+    tabCurated.addEventListener('click', () => switchDiscoverTab('curated'));
+    tabTaxonomy.addEventListener('click', () => switchDiscoverTab('taxonomy'));
 
     // ── Page Navigation (Bottom Nav) ──
     const pageDiscover = document.getElementById('pageDiscover');
@@ -659,13 +1146,37 @@
     const allNavItems = document.querySelectorAll('.nav-item');
     const allPages = document.querySelectorAll('.page');
 
-    function showPage(pageId) {
+    function showPage(pageId, options = {}) {
       allPages.forEach(p => p.classList.remove('active'));
-      allNavItems.forEach(n => n.classList.remove('active'));
+      if (!options.keepNav) allNavItems.forEach(n => n.classList.remove('active'));
       const target = document.getElementById(pageId);
       if (target) target.classList.add('active');
       window.scrollTo({ top: 0 });
     }
+
+    document.getElementById('familyBackBtn').addEventListener('click', () => {
+      showPage('pageDiscover');
+      document.getElementById('navDiscover').classList.add('active');
+      tabTaxonomy.click();
+    });
+
+    document.getElementById('familySearchInput').addEventListener('input', filterFamilyPage);
+
+    document.getElementById('familyDetailBackBtn').addEventListener('click', () => {
+      if (previousFamilyPage === 'pageDiscover') {
+        showPage('pageDiscover');
+        document.getElementById('navDiscover').classList.add('active');
+        tabTaxonomy.click();
+        return;
+      }
+      if (selectedOrder) {
+        openFamilyPage(selectedOrder.scientificName);
+      } else {
+        showPage('pageDiscover');
+        document.getElementById('navDiscover').classList.add('active');
+        tabTaxonomy.click();
+      }
+    });
 
     document.getElementById('navDiscover').addEventListener('click', () => {
       showPage('pageDiscover');
@@ -678,10 +1189,12 @@
     });
 
     document.getElementById('navSaved').addEventListener('click', () => {
+      showPage('pageSaved');
       document.getElementById('navSaved').classList.add('active');
     });
 
     document.getElementById('navProfile').addEventListener('click', () => {
+      showPage('pageProfile');
       document.getElementById('navProfile').classList.add('active');
     });
   </script>
