@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ENTOMA · KR — Insect Encyclopedia</title>
+  <meta name="description"
+    content="Premium insect encyclopedia featuring curated collections and taxonomy browser for Korean entomology." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <div class="app">
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- PAGE 1: DISCOVER                            -->
+    <!-- ═══════════════════════════════════════════ -->
+    <div class="page active" id="pageDiscover">
+
+      <!-- ─── HEADER ─── -->
+      <header class="hero">
+        <p class="brand-label">한국 곤충도감</p>
+        <h1 class="hero-title">
+          곤충<br />
+          <em>Insecta</em>
+        </h1>
+      </header>
+
+      <!-- ─── SEARCH BAR ─── -->
+      <div class="search-bar">
+        <div class="search-inner">
+          <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8" />
+            <path d="m21 21-4.3-4.3" />
+          </svg>
+          <input id="searchInput" type="text" placeholder="학명, 이름으로 검색" />
+          <button class="filter-btn" aria-label="Filter">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <line x1="4" x2="4" y1="21" y2="14" />
+              <line x1="4" x2="4" y1="10" y2="3" />
+              <line x1="12" x2="12" y1="21" y2="12" />
+              <line x1="12" x2="12" y1="8" y2="3" />
+              <line x1="20" x2="20" y1="21" y2="16" />
+              <line x1="20" x2="20" y1="12" y2="3" />
+              <line x1="1" x2="7" y1="14" y2="14" />
+              <line x1="9" x2="15" y1="8" y2="8" />
+              <line x1="17" x2="23" y1="16" y2="16" />
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- ─── TABS ─── -->
+      <div class="tabs">
+        <button class="tab active" data-tab="curated" id="tabCurated">테마 보기</button>
+        <button class="tab" data-tab="taxonomy" id="tabTaxonomy">분류 보기</button>
+      </div>
+
+      <!-- ═══════════════════════════════════════════ -->
+      <!-- TAB 1: CURATED THEMES                      -->
+      <!-- ═══════════════════════════════════════════ -->
+      <div class="tab-content active" id="panelCurated">
+
+        <!-- Featured collections -->
+        <section class="section">
+          <div class="section-head">
+            <div>
+              <h2 class="section-title">오늘의 곤충</h2>
+              <p class="section-sub">오늘은 어떤 곤충을 만나볼까요?</p>
+            </div>
+          </div>
+
+          <div class="featured-grid">
+            <article class="featured-card featured-card--large">
+              <div class="placeholder-img placeholder-img--night"></div>
+              <div class="featured-overlay"></div>
+              <div class="featured-info">
+                <span class="featured-tag">COLLECTION</span>
+                <h3 class="featured-name">Insects of Summer Night</h3>
+                <p class="featured-count">32 species</p>
+              </div>
+            </article>
+            <article class="featured-card">
+              <div class="placeholder-img placeholder-img--iridescent"></div>
+              <div class="featured-overlay"></div>
+              <div class="featured-info">
+                <span class="featured-tag">COLLECTION</span>
+                <h3 class="featured-name">The Iridescent Ones</h3>
+                <p class="featured-count">18 species</p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <!-- Insects of Summer Night -->
+        <section class="section">
+          <div class="section-head">
+            <div>
+              <h2 class="section-title">여름밤을 장식하는 곤충</h2>
+              <p class="section-sub">여름 곤충소리</p>
+            </div>
+            <a class="see-all" href="#">전체보기</a>
+          </div>
+          <div class="species-scroll">
+            <div class="species-card">
+              <div class="species-img">
+                <div class="placeholder-thumb placeholder-thumb--1"></div>
+              </div>
+              <p class="species-kr">왕나방</p>
+              <p class="species-sci">Coscinocera cribraria</p>
+            </div>
+            <div class="species-card">
+              <div class="species-img">
+                <div class="placeholder-thumb placeholder-thumb--2"></div>
+              </div>
+              <p class="species-kr">잠자리</p>
+              <p class="species-sci">Sympetrum darwinianum</p>
+            </div>
+            <div class="species-card">
+              <div class="species-img">
+                <div class="placeholder-thumb placeholder-thumb--3"></div>
+              </div>
+              <p class="species-kr">귀뚜라미</p>
+              <p class="species-sci">Gryllus bimaculatus</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- The Iridescent Ones -->
+        <section class="section">
+          <div class="section-head">
+            <div>
+              <h2 class="section-title">The Iridescent Ones</h2>
+              <p class="section-sub">Light that bends across the shell</p>
+            </div>
+            <a class="see-all" href="#">전체보기</a>
+          </div>
+          <div class="species-scroll">
+            <div class="species-card">
+              <div class="species-img">
+                <div class="placeholder-thumb placeholder-thumb--4"></div>
+              </div>
+              <p class="species-kr">비단벌레</p>
+              <p class="species-sci">Chrysochroa fulgidissima</p>
+            </div>
+            <div class="species-card">
+              <div class="species-img">
+                <div class="placeholder-thumb placeholder-thumb--5"></div>
+              </div>
+              <p class="species-kr">풍뎅이</p>
+              <p class="species-sci">Protaetia brevitarsis</p>
+            </div>
+            <div class="species-card">
+              <div class="species-img">
+                <div class="placeholder-thumb placeholder-thumb--6"></div>
+              </div>
+              <p class="species-kr">무당벌레</p>
+              <p class="species-sci">Harmonia axyridis</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Quiet Wings of Spring -->
+        <section class="section">
+          <div class="section-head">
+            <div>
+              <h2 class="section-title">Quiet Wings of Spring</h2>
+              <p class="section-sub">First flights of the year</p>
+            </div>
+            <a class="see-all" href="#">전체보기</a>
+          </div>
+          <div class="species-scroll">
+            <div class="species-card">
+              <div class="species-img">
+                <div class="placeholder-thumb placeholder-thumb--7"></div>
+              </div>
+              <p class="species-kr">호랑나비</p>
+              <p class="species-sci">Papilio xuthus</p>
+            </div>
+            <div class="species-card">
+              <div class="species-img">
+                <div class="placeholder-thumb placeholder-thumb--8"></div>
+              </div>
+              <p class="species-kr">검은나비</p>
+              <p class="species-sci">Limenitis camilla</p>
+            </div>
+            <div class="species-card">
+              <div class="species-img">
+                <div class="placeholder-thumb placeholder-thumb--1"></div>
+              </div>
+              <p class="species-kr">배추흰나비</p>
+              <p class="species-sci">Pieris rapae</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Forest Floor Dwellers -->
+        <section class="section">
+          <div class="section-head">
+            <div>
+              <h2 class="section-title">Forest Floor Dwellers</h2>
+              <p class="section-sub">Beneath the leaf litter</p>
+            </div>
+            <a class="see-all" href="#">전체보기</a>
+          </div>
+          <div class="species-scroll">
+            <div class="species-card">
+              <div class="species-img">
+                <div class="placeholder-thumb placeholder-thumb--3"></div>
+              </div>
+              <p class="species-kr">사슴벌레</p>
+              <p class="species-sci">Lucanus maculifemoratus</p>
+            </div>
+            <div class="species-card">
+              <div class="species-img">
+                <div class="placeholder-thumb placeholder-thumb--6"></div>
+              </div>
+              <p class="species-kr">무당벌레</p>
+              <p class="species-sci">Harmonia axyridis</p>
+            </div>
+            <div class="species-card">
+              <div class="species-img">
+                <div class="placeholder-thumb placeholder-thumb--5"></div>
+              </div>
+              <p class="species-kr">장수풍뎅이</p>
+              <p class="species-sci">Allomyrina dichotoma</p>
+            </div>
+          </div>
+        </section>
+
+      </div>
+
+      <!-- ═══════════════════════════════════════════ -->
+      <!-- TAB 2: TAXONOMY BROWSE                     -->
+      <!-- ═══════════════════════════════════════════ -->
+      <div class="tab-content" id="panelTaxonomy">
+        <section class="section">
+          <div class="section-head">
+            <div>
+              <h2 class="section-title">분류 보기</h2>
+              <p class="section-sub" id="orderSubtitle">Loading...</p>
+            </div>
+            <button class="sort-btn" id="sortBtn">A → Z</button>
+          </div>
+
+          <!-- 목 카드 그리드 -->
+          <div class="order-grid" id="orderGrid"></div>
+        </section>
+      </div>
+    </div> <!-- End of pageDiscover -->
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- PAGE 2: SEARCH                              -->
+    <!-- ═══════════════════════════════════════════ -->
+    <div class="page" id="pageSearch">
+
+      <!-- Search Header -->
+      <div class="search-page-header">
+        <h2 class="search-page-title">어떤 곤충을 찾으시나요?</h2>
+        <p class="search-page-sub">수만 종의 곤충 데이터를 검색해보세요.</p>
+      </div>
+
+      <!-- Search Input -->
+      <div class="search-bar">
+        <div class="search-inner">
+          <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8" />
+            <path d="m21 21-4.3-4.3" />
+          </svg>
+          <input type="text" placeholder="곤충 이름, 목, 과 검색..." />
+        </div>
+      </div>
+
+      <!-- 생김새로 찾기 -->
+      <section class="section">
+        <h3 class="search-section-title">생김새로 찾기</h3>
+        <p class="search-section-sub">곤충의 특징을 조합하여 검색합니다.</p>
+
+        <div class="trait-finder-card">
+          <div class="trait-icons">
+            <span class="trait-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <rect width="8" height="14" x="8" y="6" rx="4" />
+                <path d="m19 7-3 2" />
+                <path d="m5 7 3 2" />
+                <path d="m19 19-3-2" />
+                <path d="m5 19 3-2" />
+                <path d="M20 13h-4" />
+                <path d="M4 13h4" />
+                <path d="m9 4 1 2" />
+                <path d="m15 4-1 2" />
+              </svg>
+            </span>
+            <span class="trait-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="11" cy="11" r="8" />
+                <path d="m21 21-4.3-4.3" />
+              </svg>
+            </span>
+            <span class="trait-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+            </span>
+            <span class="trait-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10" />
+                <polyline points="12 6 12 12 16 14" />
+              </svg>
+            </span>
+          </div>
+          <p class="trait-finder-title">특징으로 찾기</p>
+          <p class="trait-finder-sub">곤충의 특징으로 곤충을 찾아보세요.</p>
+        </div>
+      </section>
+
+      <!-- 랜덤(무작위) 보기 -->
+      <section class="section" style="padding-top: 0;">
+        <button class="random-btn" id="btnRandom">
+          <span class="random-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <rect width="18" height="18" x="3" y="3" rx="2" ry="2" />
+              <circle cx="8.5" cy="8.5" r="1.5" />
+              <circle cx="15.5" cy="15.5" r="1.5" />
+              <circle cx="12" cy="12" r="1.5" />
+            </svg>
+          </span>
+          <span>랜덤 곤충 보기</span>
+        </button>
+      </section>
+
+      <!-- 더 둘러보기 -->
+      <section class="section">
+        <h3 class="search-section-title">더 둘러보기</h3>
+        <div class="explore-grid">
+          <article class="explore-card explore-card--danger">
+            <span class="explore-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z" />
+                <line x1="12" x2="12" y1="9" y2="13" />
+                <line x1="12" x2="12.01" y1="17" y2="17" />
+              </svg>
+            </span>
+            <h4 class="explore-card-title">멸종위기종</h4>
+            <p class="explore-card-sub">보호가 필요한</p>
+          </article>
+          <article class="explore-card explore-card--heritage">
+            <span class="explore-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="m2 4 3 12h14l3-12-6 7-4-7-4 7-6-7zm3 16h14" />
+              </svg>
+            </span>
+            <h4 class="explore-card-title">천연기념물</h4>
+            <p class="explore-card-sub">가치있는 생물</p>
+          </article>
+          <article class="explore-card explore-card--endemic">
+            <span class="explore-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z" />
+                <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12" />
+              </svg>
+            </span>
+            <h4 class="explore-card-title">한국고유생물</h4>
+            <p class="explore-card-sub">우리 땅의 생물</p>
+          </article>
+          <article class="explore-card explore-card--invasive">
+            <span class="explore-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="7.86 2 16.14 2 22 7.86 22 16.14 16.14 22 7.86 22 2 16.14 2 7.86 7.86 2" />
+                <line x1="12" x2="12" y1="8" y2="12" />
+                <line x1="12" x2="12.01" y1="16" y2="16" />
+              </svg>
+            </span>
+            <h4 class="explore-card-title">생태계교란종</h4>
+            <p class="explore-card-sub">주의가 필요한</p>
+          </article>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- ─── BOTTOM NAV ─── -->
+    <nav class="bottom-nav">
+      <button class="nav-item active" id="navDiscover">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+          stroke-linecap="round" stroke-linejoin="round">
+          <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9,22 9,12 15,12 15,22" />
+        </svg>
+        <span>홈</span>
+      </button>
+      <button class="nav-item" id="navSearch">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+          stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8" />
+          <path d="m21 21-4.3-4.3" />
+        </svg>
+        <span>검색</span>
+      </button>
+      <button class="nav-item" id="navSaved">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+          stroke-linecap="round" stroke-linejoin="round">
+          <path
+            d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+        </svg>
+        <span>즐겨찾기</span>
+      </button>
+      <button class="nav-item" id="navProfile">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+          stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="8" r="5" />
+          <path d="M20 21a8 8 0 0 0-16 0" />
+        </svg>
+        <span>내정보</span>
+      </button>
+    </nav>
+
+  </div>
+
+  <script>
+    // ── 그라데이션 팔레트 (8종 순환) ──
+    const ORDER_GRADIENTS = [
+      'radial-gradient(ellipse at 40% 50%, rgba(80,60,30,0.5), transparent 50%), linear-gradient(150deg, #1a1510, #20251a, #15180f)',
+      'radial-gradient(ellipse at 50% 50%, rgba(100,60,80,0.4), transparent 50%), linear-gradient(130deg, #1a1218, #221a20, #181015)',
+      'radial-gradient(ellipse at 50% 50%, rgba(40,80,100,0.5), transparent 50%), linear-gradient(160deg, #0f1820, #152530, #101a22)',
+      'radial-gradient(ellipse at 50% 50%, rgba(70,80,40,0.5), transparent 50%), linear-gradient(140deg, #161a10, #202818, #181e12)',
+      'radial-gradient(ellipse at 50% 50%, rgba(100,80,30,0.5), transparent 50%), linear-gradient(150deg, #1a1810, #252018, #1e1a10)',
+      'radial-gradient(ellipse at 60% 40%, rgba(50,90,50,0.5), transparent 50%), linear-gradient(130deg, #121a10, #1a2815, #152010)',
+      'radial-gradient(ellipse at 40% 60%, rgba(60,50,90,0.5), transparent 50%), linear-gradient(140deg, #151020, #1e1830, #181525)',
+      'radial-gradient(ellipse at 50% 50%, rgba(90,50,50,0.4), transparent 50%), linear-gradient(135deg, #1a1210, #251a18, #1e1510)',
+    ];
+
+    function formatCount(n) {
+      return n.toLocaleString('ko-KR');
+    }
+
+    // ── 데이터 ──
+    let ordersData = [];
+    let familiesData = [];
+    let sortAsc = false;
+    let expandedOrderKey = null;
+
+    // ── 그리드 렌더 ──
+    function renderOrders(orders) {
+      const grid = document.getElementById('orderGrid');
+      grid.innerHTML = '';
+
+      // 현재 확장된 카드의 인덱스 찾기
+      const expandedIndex = orders.findIndex(o => o.orderKtsn === expandedOrderKey);
+
+      orders.forEach((order, index) => {
+        const bg = ORDER_GRADIENTS[index % ORDER_GRADIENTS.length];
+        const isExpanded = order.orderKtsn === expandedOrderKey;
+
+        // 오른쪽 카드(홀수 인덱스)가 클릭되었을 때, 왼쪽 카드와 순서를 스왑하여 
+        // 오른쪽 카드가 밑으로 떨어지지 않고 그 자리에서 커지며 왼쪽 카드를 밀어내도록 처리
+        let cssOrder = index;
+        if (isExpanded && index % 2 !== 0) {
+          cssOrder = index - 1; // 오른쪽 확장 카드를 앞 순서로
+        } else if (expandedIndex !== -1 && expandedIndex % 2 !== 0 && index === expandedIndex - 1) {
+          cssOrder = index + 1; // 밀려나는 왼쪽 카드를 뒤 순서로
+        }
+
+        const card = document.createElement('article');
+        card.className = 'order-card-mini' + (isExpanded ? ' expanded' : '');
+        card.style.viewTransitionName = `card-${order.orderKtsn}`;
+        card.style.order = cssOrder;
+
+        if (isExpanded) {
+          // 확장된 상태 HTML
+          const families = familiesData.filter(f => f.orderKey === order.orderKtsn);
+          const showFamilies = families.slice(0, 5);
+
+          let familyListHTML = '';
+          if (showFamilies.length > 0) {
+            familyListHTML = showFamilies.map(f => `
+            <li class="family-item">
+              <div>
+                <p class="family-item-name">${f.scientificName}</p>
+                <p class="family-item-kr">${f.commonName !== f.scientificName ? f.commonName : ''}</p>
+              </div>
+              <span class="family-item-count">›</span>
+            </li>
+          `).join('');
+          } else {
+            familyListHTML = '<li class="family-item"><div><p class="family-item-kr">과 데이터 없음</p></div></li>';
+          }
+
+          card.innerHTML = `
+          <div class="expanded-img">
+            <div class="placeholder-img" style="background: ${bg}"></div>
+            <div class="order-img-overlay"></div>
+            <span class="order-badge">ORDER</span>
+            <button class="expanded-close" onclick="collapseOrder(event)">✕</button>
+          </div>
+          <div class="expanded-body">
+            <h3 class="expanded-title">${order.scientificName}</h3>
+            <p class="expanded-kr">${order.commonName}</p>
+            <p class="order-count">${formatCount(order.koreaObservationCount)} 관찰</p>
+            <div class="family-divider">
+              <span class="family-divider-label">FAMILIES · ${families.length}</span>
+              <a class="see-all" href="#">VIEW ALL</a>
+            </div>
+            <ul class="family-list">${familyListHTML}</ul>
+          </div>
+        `;
+        } else {
+          // 미니 카드 상태 HTML
+          card.innerHTML = `
+          <div class="order-mini-img">
+            <div class="placeholder-img" style="background: ${bg}"></div>
+            <div class="order-img-overlay"></div>
+            <span class="order-badge">ORDER</span>
+          </div>
+          <div class="order-mini-body">
+            <h3 class="order-name-kr">${order.commonName}</h3>
+            <p class="order-sci">${order.scientificName}</p>
+            <p class="order-count">${formatCount(order.koreaObservationCount)} 관찰</p>
+          </div>
+        `;
+        }
+
+        // 카드 전체 영역 클릭 시 토글 (링크나 닫기 버튼 제외)
+        card.addEventListener('click', (e) => {
+          if (e.target.closest('a') || e.target.closest('.expanded-close')) return;
+          expandOrder(order.orderKtsn);
+        });
+
+        grid.appendChild(card);
+      });
+    }
+
+    // ── 확장/축소 액션 ──
+    function expandOrder(key) {
+      if (expandedOrderKey === key) {
+        collapseOrder();
+        return;
+      }
+
+      const updateDOM = () => {
+        expandedOrderKey = key;
+        renderOrders(ordersData);
+
+        // 스크롤을 최상단 확장 카드로 부드럽게 이동
+        setTimeout(() => {
+          const expandedEl = document.querySelector('.order-card-mini.expanded');
+          if (expandedEl) {
+            const y = expandedEl.getBoundingClientRect().top + window.scrollY - 80;
+            window.scrollTo({ top: y, behavior: 'smooth' });
+          }
+        }, 50);
+      };
+
+      if (document.startViewTransition) {
+        document.startViewTransition(() => updateDOM());
+      } else {
+        updateDOM();
+      }
+    }
+
+    function collapseOrder(e) {
+      if (e) e.stopPropagation();
+
+      const updateDOM = () => {
+        expandedOrderKey = null;
+        renderOrders(ordersData);
+      };
+
+      if (document.startViewTransition) {
+        document.startViewTransition(() => updateDOM());
+      } else {
+        updateDOM();
+      }
+    }
+
+    // ── 데이터 로드 ──
+    Promise.all([
+      fetch('../cached/korea_insect_orders.json').then(r => r.json()),
+      fetch('../cached/cached_families.json').then(r => r.json())
+    ])
+      .then(([orderData, famData]) => {
+        ordersData = orderData.orders;
+        familiesData = famData;
+        document.getElementById('orderSubtitle').textContent =
+          `한국 서식 ${orderData.totalOrdersFound}개 목`;
+        renderOrders(ordersData);
+      })
+      .catch(err => {
+        document.getElementById('orderSubtitle').textContent = '데이터 로드 실패';
+        console.error('Data load error:', err);
+      });
+
+    // ── 정렬 토글 ──
+    document.getElementById('sortBtn').addEventListener('click', () => {
+      sortAsc = !sortAsc;
+      const btn = document.getElementById('sortBtn');
+
+      if (sortAsc) {
+        btn.textContent = 'ㄱ → ㅎ';
+        ordersData.sort((a, b) => a.commonName.localeCompare(b.commonName, 'ko'));
+      } else {
+        btn.textContent = 'A → Z';
+        ordersData.sort((a, b) => b.koreaObservationCount - a.koreaObservationCount);
+      }
+
+      // 정렬 시에도 애니메이션 적용
+      if (document.startViewTransition) {
+        document.startViewTransition(() => renderOrders(ordersData));
+      } else {
+        renderOrders(ordersData);
+      }
+    });
+
+    // ── Tab Switching ──
+    const tabCurated = document.getElementById('tabCurated');
+    const tabTaxonomy = document.getElementById('tabTaxonomy');
+    const panelCurated = document.getElementById('panelCurated');
+    const panelTaxonomy = document.getElementById('panelTaxonomy');
+
+    tabCurated.addEventListener('click', () => {
+      tabCurated.classList.add('active');
+      tabTaxonomy.classList.remove('active');
+      panelCurated.classList.add('active');
+      panelTaxonomy.classList.remove('active');
+    });
+
+    tabTaxonomy.addEventListener('click', () => {
+      tabTaxonomy.classList.add('active');
+      tabCurated.classList.remove('active');
+      panelTaxonomy.classList.add('active');
+      panelCurated.classList.remove('active');
+    });
+
+    // ── Page Navigation (Bottom Nav) ──
+    const pageDiscover = document.getElementById('pageDiscover');
+    const pageSearch = document.getElementById('pageSearch');
+    const allNavItems = document.querySelectorAll('.nav-item');
+    const allPages = document.querySelectorAll('.page');
+
+    function showPage(pageId) {
+      allPages.forEach(p => p.classList.remove('active'));
+      allNavItems.forEach(n => n.classList.remove('active'));
+      const target = document.getElementById(pageId);
+      if (target) target.classList.add('active');
+      window.scrollTo({ top: 0 });
+    }
+
+    document.getElementById('navDiscover').addEventListener('click', () => {
+      showPage('pageDiscover');
+      document.getElementById('navDiscover').classList.add('active');
+    });
+
+    document.getElementById('navSearch').addEventListener('click', () => {
+      showPage('pageSearch');
+      document.getElementById('navSearch').classList.add('active');
+    });
+
+    document.getElementById('navSaved').addEventListener('click', () => {
+      document.getElementById('navSaved').classList.add('active');
+    });
+
+    document.getElementById('navProfile').addEventListener('click', () => {
+      document.getElementById('navProfile').classList.add('active');
+    });
+  </script>
+
+</body>
+
+</html>
