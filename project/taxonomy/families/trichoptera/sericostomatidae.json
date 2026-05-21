@@ -1,0 +1,71 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "trichoptera",
+    "scientificName": "Trichoptera",
+    "commonName": "날도래목",
+    "orderKtsn": 120000038521
+  },
+  "family": {
+    "id": "sericostomatidae",
+    "scientificName": "Sericostomatidae",
+    "commonName": "털날도래과",
+    "familyKtsn": 120000038808
+  },
+  "speciesCount": 1,
+  "insects": [
+    {
+      "ktsn": 120000038810,
+      "scientificName": "Gumaga orientalis (Martynov, 1935)",
+      "commonName": "동양털날도래",
+      "terminalLatinName": "orientalis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Trichoptera",
+          "commonName": "날도래목",
+          "ktsn": 120000038521
+        },
+        "family": {
+          "scientificName": "Sericostomatidae",
+          "commonName": "털날도래과",
+          "ktsn": 120000038808
+        },
+        "genus": {
+          "scientificName": "Gumaga",
+          "commonName": "털날도래속",
+          "ktsn": 120000038809
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "orientalis",
+          "commonName": "동양털날도래",
+          "ktsn": 120000038810
+        }
+      }
+    }
+  ]
+}

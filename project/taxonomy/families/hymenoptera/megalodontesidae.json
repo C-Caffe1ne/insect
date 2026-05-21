@@ -1,0 +1,71 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "hymenoptera",
+    "scientificName": "Hymenoptera",
+    "commonName": "벌목",
+    "orderKtsn": 120000027260
+  },
+  "family": {
+    "id": "megalodontesidae",
+    "scientificName": "Megalodontesidae",
+    "commonName": "빗니수염잎벌과",
+    "familyKtsn": 120000030661
+  },
+  "speciesCount": 1,
+  "insects": [
+    {
+      "ktsn": 120000030663,
+      "scientificName": "Megalodontes spiraeae (Klug, 1824)",
+      "commonName": "빗니수염잎벌",
+      "terminalLatinName": "spiraeae",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hymenoptera",
+          "commonName": "벌목",
+          "ktsn": 120000027260
+        },
+        "family": {
+          "scientificName": "Megalodontesidae",
+          "commonName": "빗니수염잎벌과",
+          "ktsn": 120000030661
+        },
+        "genus": {
+          "scientificName": "Megalodontes",
+          "commonName": "",
+          "ktsn": 120000030662
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "spiraeae",
+          "commonName": "빗니수염잎벌",
+          "ktsn": 120000030663
+        }
+      }
+    }
+  ]
+}

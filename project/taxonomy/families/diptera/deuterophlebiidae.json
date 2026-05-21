@@ -1,0 +1,153 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "diptera",
+    "scientificName": "Diptera",
+    "commonName": "파리목",
+    "orderKtsn": 120000020933
+  },
+  "family": {
+    "id": "deuterophlebiidae",
+    "scientificName": "Deuterophlebiidae",
+    "commonName": "어리멧모기과",
+    "familyKtsn": 120000021911
+  },
+  "speciesCount": 2,
+  "insects": [
+    {
+      "ktsn": 120000225282,
+      "scientificName": "Deuterophlebia nipponica Kitakami, 1938",
+      "commonName": "그물어리멧모기",
+      "terminalLatinName": "nipponica",
+      "nomenclaturalAuthor": "Kitakami",
+      "namingYear": "1938",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Deuterophlebiidae",
+          "commonName": "어리멧모기과",
+          "ktsn": 120000021911
+        },
+        "genus": {
+          "scientificName": "Deuterophlebia",
+          "commonName": "어리멧모기속",
+          "ktsn": 120000021912
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "nipponica",
+          "commonName": "그물어리멧모기",
+          "ktsn": 120000225282
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:14:00.878Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      }
+    },
+    {
+      "ktsn": 120000021913,
+      "scientificName": "Deuterophlebia tyosenensis Kitakami, 1938",
+      "commonName": "어리멧모기",
+      "terminalLatinName": "tyosenensis",
+      "nomenclaturalAuthor": "Kitakami",
+      "namingYear": "1938",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "Y",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Deuterophlebiidae",
+          "commonName": "어리멧모기과",
+          "ktsn": 120000021911
+        },
+        "genus": {
+          "scientificName": "Deuterophlebia",
+          "commonName": "어리멧모기속",
+          "ktsn": 120000021912
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "tyosenensis",
+          "commonName": "어리멧모기",
+          "ktsn": 120000021913
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:14:00.878Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      }
+    }
+  ],
+  "digitalContentUpdatedAt": "2026-05-21T09:14:00.878Z",
+  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+}

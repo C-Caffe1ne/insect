@@ -1,0 +1,123 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "hymenoptera",
+    "scientificName": "Hymenoptera",
+    "commonName": "벌목",
+    "orderKtsn": 120000027260
+  },
+  "family": {
+    "id": "melittidae",
+    "scientificName": "Melittidae",
+    "commonName": "털보애꽃벌과",
+    "familyKtsn": 120000030670
+  },
+  "speciesCount": 2,
+  "insects": [
+    {
+      "ktsn": 120000523850,
+      "scientificName": "Dasypoda (Dasypoda) japonica Cockerell, 1911",
+      "commonName": "털보애꽃벌",
+      "terminalLatinName": "japonica",
+      "nomenclaturalAuthor": "Cockerell",
+      "namingYear": "1911",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hymenoptera",
+          "commonName": "벌목",
+          "ktsn": 120000027260
+        },
+        "family": {
+          "scientificName": "Melittidae",
+          "commonName": "털보애꽃벌과",
+          "ktsn": 120000030670
+        },
+        "genus": {
+          "scientificName": "Dasypoda",
+          "commonName": "털보애꽃벌속",
+          "ktsn": 120000030671
+        },
+        "subgenus": {
+          "scientificName": "Dasypoda",
+          "commonName": "털보애꽃벌아속",
+          "ktsn": 120000523849
+        },
+        "species": {
+          "scientificName": "japonica",
+          "commonName": "털보애꽃벌",
+          "ktsn": 120000523850
+        }
+      }
+    },
+    {
+      "ktsn": 120000518372,
+      "scientificName": "Macropis (Macropis) tibialis Yasumatsu and Hirashima, 1956",
+      "commonName": "까치수염털보애꽃벌",
+      "terminalLatinName": "tibialis",
+      "nomenclaturalAuthor": "Yasumatsu and Hirashima",
+      "namingYear": "1956",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hymenoptera",
+          "commonName": "벌목",
+          "ktsn": 120000027260
+        },
+        "family": {
+          "scientificName": "Melittidae",
+          "commonName": "털보애꽃벌과",
+          "ktsn": 120000030670
+        },
+        "genus": {
+          "scientificName": "Macropis",
+          "commonName": "",
+          "ktsn": 120000231951
+        },
+        "subgenus": {
+          "scientificName": "Macropis",
+          "commonName": "",
+          "ktsn": 120000518371
+        },
+        "species": {
+          "scientificName": "tibialis",
+          "commonName": "까치수염털보애꽃벌",
+          "ktsn": 120000518372
+        }
+      }
+    }
+  ]
+}

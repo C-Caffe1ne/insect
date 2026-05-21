@@ -1,0 +1,87 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "coleoptera",
+    "scientificName": "Coleoptera",
+    "commonName": "딱정벌레목",
+    "orderKtsn": 120000013750
+  },
+  "family": {
+    "id": "passandridae",
+    "scientificName": "Passandridae",
+    "commonName": "대롱벌레과",
+    "familyKtsn": 120000018377
+  },
+  "speciesCount": 1,
+  "insects": [
+    {
+      "ktsn": 120000018379,
+      "scientificName": "Ancistria apicalis Reitter, 1889",
+      "commonName": "대롱벌레",
+      "terminalLatinName": "apicalis",
+      "nomenclaturalAuthor": "Reitter",
+      "namingYear": "1889",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Passandridae",
+          "commonName": "대롱벌레과",
+          "ktsn": 120000018377
+        },
+        "genus": {
+          "scientificName": "Ancistria",
+          "commonName": "",
+          "ktsn": 120000018378
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "apicalis",
+          "commonName": "대롱벌레",
+          "ktsn": 120000018379
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:03:56.796Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      }
+    }
+  ],
+  "digitalContentUpdatedAt": "2026-05-21T09:03:56.796Z",
+  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+}

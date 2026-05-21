@@ -1,0 +1,71 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "hymenoptera",
+    "scientificName": "Hymenoptera",
+    "commonName": "벌목",
+    "orderKtsn": 120000027260
+  },
+  "family": {
+    "id": "tanaostigmatidae",
+    "scientificName": "Tanaostigmatidae",
+    "commonName": "뭉툭혹좀벌과",
+    "familyKtsn": 120000218317
+  },
+  "speciesCount": 1,
+  "insects": [
+    {
+      "ktsn": 120000218319,
+      "scientificName": "Protanaostigma kyushuana Masi, 1941",
+      "commonName": "뭉툭혹좀벌",
+      "terminalLatinName": "kyushuana",
+      "nomenclaturalAuthor": "Masi",
+      "namingYear": "1941",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hymenoptera",
+          "commonName": "벌목",
+          "ktsn": 120000027260
+        },
+        "family": {
+          "scientificName": "Tanaostigmatidae",
+          "commonName": "뭉툭혹좀벌과",
+          "ktsn": 120000218317
+        },
+        "genus": {
+          "scientificName": "Protanaostigma",
+          "commonName": "",
+          "ktsn": 120000218318
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "kyushuana",
+          "commonName": "뭉툭혹좀벌",
+          "ktsn": 120000218319
+        }
+      }
+    }
+  ]
+}

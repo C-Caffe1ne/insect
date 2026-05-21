@@ -1,0 +1,807 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "diptera",
+    "scientificName": "Diptera",
+    "commonName": "파리목",
+    "orderKtsn": 120000020933
+  },
+  "family": {
+    "id": "trichoceridae",
+    "scientificName": "Trichoceridae",
+    "commonName": "어리각다귀과",
+    "familyKtsn": 120000023705
+  },
+  "speciesCount": 12,
+  "insects": [
+    {
+      "ktsn": 120000213140,
+      "scientificName": "Paracladura rasnitsyni Krzemińska, 2005",
+      "commonName": "작은어리각다귀",
+      "terminalLatinName": "rasnitsyni",
+      "nomenclaturalAuthor": "Krzemińska",
+      "namingYear": "2005",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Trichoceridae",
+          "commonName": "어리각다귀과",
+          "ktsn": 120000023705
+        },
+        "genus": {
+          "scientificName": "Paracladura",
+          "commonName": "",
+          "ktsn": 120000213139
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "rasnitsyni",
+          "commonName": "작은어리각다귀",
+          "ktsn": 120000213140
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:20:55.982Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      }
+    },
+    {
+      "ktsn": 120000023708,
+      "scientificName": "Trichocera (Metatrichocera) latilobata Alexander, 1938",
+      "commonName": "어리각다귀",
+      "terminalLatinName": "latilobata",
+      "nomenclaturalAuthor": "Alexander",
+      "namingYear": "1938",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "Y",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Trichoceridae",
+          "commonName": "어리각다귀과",
+          "ktsn": 120000023705
+        },
+        "genus": {
+          "scientificName": "Trichocera",
+          "commonName": "어리각다귀속",
+          "ktsn": 120000023706
+        },
+        "subgenus": {
+          "scientificName": "Metatrichocera",
+          "commonName": "",
+          "ktsn": 120000023707
+        },
+        "species": {
+          "scientificName": "latilobata",
+          "commonName": "어리각다귀",
+          "ktsn": 120000023708
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:20:55.982Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      }
+    },
+    {
+      "ktsn": 120000213145,
+      "scientificName": "Trichocera (Saltrichocera) latipons Petrašiūnas and Podenas, 2017",
+      "commonName": "넓은끝어리각다귀",
+      "terminalLatinName": "latipons",
+      "nomenclaturalAuthor": "Petrašiūnas and Podenas",
+      "namingYear": "2017",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Trichoceridae",
+          "commonName": "어리각다귀과",
+          "ktsn": 120000023705
+        },
+        "genus": {
+          "scientificName": "Trichocera",
+          "commonName": "어리각다귀속",
+          "ktsn": 120000023706
+        },
+        "subgenus": {
+          "scientificName": "Saltrichocera",
+          "commonName": "",
+          "ktsn": 120000212198
+        },
+        "species": {
+          "scientificName": "latipons",
+          "commonName": "넓은끝어리각다귀",
+          "ktsn": 120000213145
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:20:55.982Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      }
+    },
+    {
+      "ktsn": 120000213153,
+      "scientificName": "Trichocera (Saltrichocera) maculipennis punctipennis Brunetti, 1912",
+      "commonName": "점박이어리각다귀",
+      "terminalLatinName": "punctipennis",
+      "nomenclaturalAuthor": "Brunetti",
+      "namingYear": "1912",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Trichoceridae",
+          "commonName": "어리각다귀과",
+          "ktsn": 120000023705
+        },
+        "genus": {
+          "scientificName": "Trichocera",
+          "commonName": "어리각다귀속",
+          "ktsn": 120000023706
+        },
+        "subgenus": {
+          "scientificName": "Saltrichocera",
+          "commonName": "",
+          "ktsn": 120000212198
+        },
+        "species": {
+          "scientificName": "maculipennis",
+          "commonName": "",
+          "ktsn": 120000213147
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:20:55.982Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      }
+    },
+    {
+      "ktsn": 120000212199,
+      "scientificName": "Trichocera (Saltrichocera) regelationis (Linnaeus, 1758)",
+      "commonName": "참어리각다귀",
+      "terminalLatinName": "regelationis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Trichoceridae",
+          "commonName": "어리각다귀과",
+          "ktsn": 120000023705
+        },
+        "genus": {
+          "scientificName": "Trichocera",
+          "commonName": "어리각다귀속",
+          "ktsn": 120000023706
+        },
+        "subgenus": {
+          "scientificName": "Saltrichocera",
+          "commonName": "",
+          "ktsn": 120000212198
+        },
+        "species": {
+          "scientificName": "regelationis",
+          "commonName": "참어리각다귀",
+          "ktsn": 120000212199
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:20:55.982Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      }
+    },
+    {
+      "ktsn": 120000213148,
+      "scientificName": "Trichocera (Saltrichocera) sparsa Starý and Martinovský, 1996",
+      "commonName": "털어리각다귀",
+      "terminalLatinName": "sparsa",
+      "nomenclaturalAuthor": "Starý and Martinovský",
+      "namingYear": "1996",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Trichoceridae",
+          "commonName": "어리각다귀과",
+          "ktsn": 120000023705
+        },
+        "genus": {
+          "scientificName": "Trichocera",
+          "commonName": "어리각다귀속",
+          "ktsn": 120000023706
+        },
+        "subgenus": {
+          "scientificName": "Saltrichocera",
+          "commonName": "",
+          "ktsn": 120000212198
+        },
+        "species": {
+          "scientificName": "sparsa",
+          "commonName": "털어리각다귀",
+          "ktsn": 120000213148
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:20:55.982Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      }
+    },
+    {
+      "ktsn": 120000213150,
+      "scientificName": "Trichocera (Trichocera) hiemalis (De Geer, 1776)",
+      "commonName": "노랑무늬어리각다귀",
+      "terminalLatinName": "hiemalis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Trichoceridae",
+          "commonName": "어리각다귀과",
+          "ktsn": 120000023705
+        },
+        "genus": {
+          "scientificName": "Trichocera",
+          "commonName": "어리각다귀속",
+          "ktsn": 120000023706
+        },
+        "subgenus": {
+          "scientificName": "Trichocera",
+          "commonName": "",
+          "ktsn": 120000023711
+        },
+        "species": {
+          "scientificName": "hiemalis",
+          "commonName": "노랑무늬어리각다귀",
+          "ktsn": 120000213150
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:20:55.982Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      }
+    },
+    {
+      "ktsn": 120000213151,
+      "scientificName": "Trichocera (Trichocera) major Edwards, 1921",
+      "commonName": "큰어리각다귀",
+      "terminalLatinName": "major",
+      "nomenclaturalAuthor": "Edwards",
+      "namingYear": "1921",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Trichoceridae",
+          "commonName": "어리각다귀과",
+          "ktsn": 120000023705
+        },
+        "genus": {
+          "scientificName": "Trichocera",
+          "commonName": "어리각다귀속",
+          "ktsn": 120000023706
+        },
+        "subgenus": {
+          "scientificName": "Trichocera",
+          "commonName": "",
+          "ktsn": 120000023711
+        },
+        "species": {
+          "scientificName": "major",
+          "commonName": "큰어리각다귀",
+          "ktsn": 120000213151
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:20:55.982Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      }
+    },
+    {
+      "ktsn": 120000213141,
+      "scientificName": "Trichocera (Trichocera) mirabilis Alexander, 1934",
+      "commonName": "금강어리각다귀",
+      "terminalLatinName": "mirabilis",
+      "nomenclaturalAuthor": "Alexander",
+      "namingYear": "1934",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Trichoceridae",
+          "commonName": "어리각다귀과",
+          "ktsn": 120000023705
+        },
+        "genus": {
+          "scientificName": "Trichocera",
+          "commonName": "어리각다귀속",
+          "ktsn": 120000023706
+        },
+        "subgenus": {
+          "scientificName": "Trichocera",
+          "commonName": "",
+          "ktsn": 120000023711
+        },
+        "species": {
+          "scientificName": "mirabilis",
+          "commonName": "금강어리각다귀",
+          "ktsn": 120000213141
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:20:55.982Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      }
+    },
+    {
+      "ktsn": 120000213152,
+      "scientificName": "Trichocera (Trichocera) sakaguchii Alexander, 1930",
+      "commonName": "겨울어리각다귀",
+      "terminalLatinName": "sakaguchii",
+      "nomenclaturalAuthor": "Alexander",
+      "namingYear": "1930",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Trichoceridae",
+          "commonName": "어리각다귀과",
+          "ktsn": 120000023705
+        },
+        "genus": {
+          "scientificName": "Trichocera",
+          "commonName": "어리각다귀속",
+          "ktsn": 120000023706
+        },
+        "subgenus": {
+          "scientificName": "Trichocera",
+          "commonName": "",
+          "ktsn": 120000023711
+        },
+        "species": {
+          "scientificName": "sakaguchii",
+          "commonName": "겨울어리각다귀",
+          "ktsn": 120000213152
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:20:55.982Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      }
+    },
+    {
+      "ktsn": 120000213142,
+      "scientificName": "Trichocera (Trichocera) sibirica Edwards, 1920",
+      "commonName": "시베리아어리각다귀",
+      "terminalLatinName": "sibirica",
+      "nomenclaturalAuthor": "Edwards",
+      "namingYear": "1920",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Trichoceridae",
+          "commonName": "어리각다귀과",
+          "ktsn": 120000023705
+        },
+        "genus": {
+          "scientificName": "Trichocera",
+          "commonName": "어리각다귀속",
+          "ktsn": 120000023706
+        },
+        "subgenus": {
+          "scientificName": "Trichocera",
+          "commonName": "",
+          "ktsn": 120000023711
+        },
+        "species": {
+          "scientificName": "sibirica",
+          "commonName": "시베리아어리각다귀",
+          "ktsn": 120000213142
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:20:55.982Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      }
+    },
+    {
+      "ktsn": 120000023712,
+      "scientificName": "Trichocera (Trichocera) tuberculifera Alexander, 1938",
+      "commonName": "혹어리각다귀",
+      "terminalLatinName": "tuberculifera",
+      "nomenclaturalAuthor": "Alexander",
+      "namingYear": "1938",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "Y",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Trichoceridae",
+          "commonName": "어리각다귀과",
+          "ktsn": 120000023705
+        },
+        "genus": {
+          "scientificName": "Trichocera",
+          "commonName": "어리각다귀속",
+          "ktsn": 120000023706
+        },
+        "subgenus": {
+          "scientificName": "Trichocera",
+          "commonName": "",
+          "ktsn": 120000023711
+        },
+        "species": {
+          "scientificName": "tuberculifera",
+          "commonName": "혹어리각다귀",
+          "ktsn": 120000023712
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:20:55.982Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      }
+    }
+  ],
+  "digitalContentUpdatedAt": "2026-05-21T09:20:55.982Z",
+  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+}

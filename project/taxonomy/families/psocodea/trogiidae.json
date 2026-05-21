@@ -1,0 +1,123 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "psocodea",
+    "scientificName": "Psocodea",
+    "commonName": "다듬이벌레목",
+    "orderKtsn": 120000038214
+  },
+  "family": {
+    "id": "trogiidae",
+    "scientificName": "Trogiidae",
+    "commonName": "가루민다듬이벌레과",
+    "familyKtsn": 120000038244
+  },
+  "speciesCount": 2,
+  "insects": [
+    {
+      "ktsn": 120000038246,
+      "scientificName": "Lepinotus reticulatus Enderlein, 1905",
+      "commonName": "가루민다듬이벌레",
+      "terminalLatinName": "reticulatus",
+      "nomenclaturalAuthor": "Enderlein",
+      "namingYear": "1905",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Psocodea",
+          "commonName": "다듬이벌레목",
+          "ktsn": 120000038214
+        },
+        "family": {
+          "scientificName": "Trogiidae",
+          "commonName": "가루민다듬이벌레과",
+          "ktsn": 120000038244
+        },
+        "genus": {
+          "scientificName": "Lepinotus",
+          "commonName": "",
+          "ktsn": 120000038245
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "reticulatus",
+          "commonName": "가루민다듬이벌레",
+          "ktsn": 120000038246
+        }
+      }
+    },
+    {
+      "ktsn": 120000038248,
+      "scientificName": "Trogium pulsatorium (Linnaeus, 1758)",
+      "commonName": "분다듬이벌레",
+      "terminalLatinName": "pulsatorium",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Psocodea",
+          "commonName": "다듬이벌레목",
+          "ktsn": 120000038214
+        },
+        "family": {
+          "scientificName": "Trogiidae",
+          "commonName": "가루민다듬이벌레과",
+          "ktsn": 120000038244
+        },
+        "genus": {
+          "scientificName": "Trogium",
+          "commonName": "",
+          "ktsn": 120000038247
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "pulsatorium",
+          "commonName": "분다듬이벌레",
+          "ktsn": 120000038248
+        }
+      }
+    }
+  ]
+}

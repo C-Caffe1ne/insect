@@ -1,0 +1,213 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "ephemeroptera",
+    "scientificName": "Ephemeroptera",
+    "commonName": "하루살이목",
+    "orderKtsn": 120000023873
+  },
+  "family": {
+    "id": "leptophlebiidae",
+    "scientificName": "Leptophlebiidae",
+    "commonName": "갈래하루살이과",
+    "familyKtsn": 120000023972
+  },
+  "speciesCount": 3,
+  "insects": [
+    {
+      "ktsn": 120000023975,
+      "scientificName": "Choroterpes (Euthraulus) altioculus Kluge, 1984",
+      "commonName": "세갈래하루살이",
+      "terminalLatinName": "altioculus",
+      "nomenclaturalAuthor": "Kluge",
+      "namingYear": "1984",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Ephemeroptera",
+          "commonName": "하루살이목",
+          "ktsn": 120000023873
+        },
+        "family": {
+          "scientificName": "Leptophlebiidae",
+          "commonName": "갈래하루살이과",
+          "ktsn": 120000023972
+        },
+        "genus": {
+          "scientificName": "Choroterpes",
+          "commonName": "세갈래하루살이속",
+          "ktsn": 120000023973
+        },
+        "subgenus": {
+          "scientificName": "Euthraulus",
+          "commonName": "",
+          "ktsn": 120000023974
+        },
+        "species": {
+          "scientificName": "altioculus",
+          "commonName": "세갈래하루살이",
+          "ktsn": 120000023975
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:21:41.993Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      }
+    },
+    {
+      "ktsn": 120000023977,
+      "scientificName": "Paraleptophlebia japonica (Matsumura, 1931)",
+      "commonName": "두갈래하루살이",
+      "terminalLatinName": "japonica",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Ephemeroptera",
+          "commonName": "하루살이목",
+          "ktsn": 120000023873
+        },
+        "family": {
+          "scientificName": "Leptophlebiidae",
+          "commonName": "갈래하루살이과",
+          "ktsn": 120000023972
+        },
+        "genus": {
+          "scientificName": "Paraleptophlebia",
+          "commonName": "두갈래하루살이속",
+          "ktsn": 120000023976
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "japonica",
+          "commonName": "두갈래하루살이",
+          "ktsn": 120000023977
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:21:41.993Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      }
+    },
+    {
+      "ktsn": 120000023979,
+      "scientificName": "Thraulus grandis Gose, 1980",
+      "commonName": "여러갈래하루살이",
+      "terminalLatinName": "grandis",
+      "nomenclaturalAuthor": "Gose",
+      "namingYear": "1980",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Ephemeroptera",
+          "commonName": "하루살이목",
+          "ktsn": 120000023873
+        },
+        "family": {
+          "scientificName": "Leptophlebiidae",
+          "commonName": "갈래하루살이과",
+          "ktsn": 120000023972
+        },
+        "genus": {
+          "scientificName": "Thraulus",
+          "commonName": "여러갈래하루살이속",
+          "ktsn": 120000023978
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "grandis",
+          "commonName": "여러갈래하루살이",
+          "ktsn": 120000023979
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:21:41.993Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      }
+    }
+  ],
+  "digitalContentUpdatedAt": "2026-05-21T09:21:41.993Z",
+  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+}

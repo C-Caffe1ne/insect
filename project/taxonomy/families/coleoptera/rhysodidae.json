@@ -1,0 +1,85 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "coleoptera",
+    "scientificName": "Coleoptera",
+    "commonName": "딱정벌레목",
+    "orderKtsn": 120000013750
+  },
+  "family": {
+    "id": "rhysodidae",
+    "scientificName": "Rhysodidae",
+    "commonName": "등줄벌레과",
+    "familyKtsn": 120000018562
+  },
+  "speciesCount": 1,
+  "insects": [
+    {
+      "ktsn": 120000018564,
+      "scientificName": "Rhysodes comes (Lewis, 1888)",
+      "commonName": "등줄벌레",
+      "terminalLatinName": "comes",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Rhysodidae",
+          "commonName": "등줄벌레과",
+          "ktsn": 120000018562
+        },
+        "genus": {
+          "scientificName": "Rhysodes",
+          "commonName": "",
+          "ktsn": 120000018563
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "comes",
+          "commonName": "등줄벌레",
+          "ktsn": 120000018564
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:04:28.083Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      }
+    }
+  ],
+  "digitalContentUpdatedAt": "2026-05-21T09:04:28.083Z",
+  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+}

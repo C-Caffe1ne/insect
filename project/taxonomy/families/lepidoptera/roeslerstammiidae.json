@@ -1,0 +1,71 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "lepidoptera",
+    "scientificName": "Lepidoptera",
+    "commonName": "나비목",
+    "orderKtsn": 120000031663
+  },
+  "family": {
+    "id": "roeslerstammiidae",
+    "scientificName": "Roeslerstammiidae",
+    "commonName": "빛날개좀나방과",
+    "familyKtsn": 120000036236
+  },
+  "speciesCount": 1,
+  "insects": [
+    {
+      "ktsn": 120000036238,
+      "scientificName": "Roeslerstammia nitidella Moriuti, 1972",
+      "commonName": "빛날개좀나방",
+      "terminalLatinName": "nitidella",
+      "nomenclaturalAuthor": "Moriuti",
+      "namingYear": "1972",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Roeslerstammiidae",
+          "commonName": "빛날개좀나방과",
+          "ktsn": 120000036236
+        },
+        "genus": {
+          "scientificName": "Roeslerstammia",
+          "commonName": "",
+          "ktsn": 120000036237
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "nitidella",
+          "commonName": "빛날개좀나방",
+          "ktsn": 120000036238
+        }
+      }
+    }
+  ]
+}

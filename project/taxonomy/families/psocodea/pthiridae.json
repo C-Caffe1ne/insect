@@ -1,0 +1,71 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "psocodea",
+    "scientificName": "Psocodea",
+    "commonName": "다듬이벌레목",
+    "orderKtsn": 120000038214
+  },
+  "family": {
+    "id": "pthiridae",
+    "scientificName": "Pthiridae",
+    "commonName": "사면발이과",
+    "familyKtsn": 120000066728
+  },
+  "speciesCount": 1,
+  "insects": [
+    {
+      "ktsn": 120000037893,
+      "scientificName": "Pthirus pubis (Linnaeus, 1758)",
+      "commonName": "사면발이",
+      "terminalLatinName": "pubis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Psocodea",
+          "commonName": "다듬이벌레목",
+          "ktsn": 120000038214
+        },
+        "family": {
+          "scientificName": "Pthiridae",
+          "commonName": "사면발이과",
+          "ktsn": 120000066728
+        },
+        "genus": {
+          "scientificName": "Pthirus",
+          "commonName": "",
+          "ktsn": 120000037892
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "pubis",
+          "commonName": "사면발이",
+          "ktsn": 120000037893
+        }
+      }
+    }
+  ]
+}

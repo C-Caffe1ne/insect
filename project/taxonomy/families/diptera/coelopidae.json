@@ -1,0 +1,87 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "diptera",
+    "scientificName": "Diptera",
+    "commonName": "파리목",
+    "orderKtsn": 120000020933
+  },
+  "family": {
+    "id": "coelopidae",
+    "scientificName": "Coelopidae",
+    "commonName": "해초파리과",
+    "familyKtsn": 120000021777
+  },
+  "speciesCount": 1,
+  "insects": [
+    {
+      "ktsn": 120000021779,
+      "scientificName": "Coelopa frigida (Fabricius, 1805)",
+      "commonName": "해초파리",
+      "terminalLatinName": "frigida",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Coelopidae",
+          "commonName": "해초파리과",
+          "ktsn": 120000021777
+        },
+        "genus": {
+          "scientificName": "Coelopa",
+          "commonName": "해초파리속",
+          "ktsn": 120000021778
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "frigida",
+          "commonName": "해초파리",
+          "ktsn": 120000021779
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:13:42.003Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      }
+    }
+  ],
+  "digitalContentUpdatedAt": "2026-05-21T09:13:42.003Z",
+  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+}

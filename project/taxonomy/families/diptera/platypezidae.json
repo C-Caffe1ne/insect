@@ -1,0 +1,153 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "diptera",
+    "scientificName": "Diptera",
+    "commonName": "파리목",
+    "orderKtsn": 120000020933
+  },
+  "family": {
+    "id": "platypezidae",
+    "scientificName": "Platypezidae",
+    "commonName": "납작발파리과",
+    "familyKtsn": 120000530725
+  },
+  "speciesCount": 2,
+  "insects": [
+    {
+      "ktsn": 120000530728,
+      "scientificName": "Lindneromyia argyrogyna (Meijere, 1907)",
+      "commonName": "노랑발어리납작발파리",
+      "terminalLatinName": "argyrogyna",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Platypezidae",
+          "commonName": "납작발파리과",
+          "ktsn": 120000530725
+        },
+        "genus": {
+          "scientificName": "Lindneromyia",
+          "commonName": "어리납작발파리속",
+          "ktsn": 120000530727
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "argyrogyna",
+          "commonName": "노랑발어리납작발파리",
+          "ktsn": 120000530728
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:17:09.901Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      }
+    },
+    {
+      "ktsn": 120000530729,
+      "scientificName": "Lindneromyia kerteszi (Oldenberg, 1913)",
+      "commonName": "볼록날개어리납작발파리",
+      "terminalLatinName": "kerteszi",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Platypezidae",
+          "commonName": "납작발파리과",
+          "ktsn": 120000530725
+        },
+        "genus": {
+          "scientificName": "Lindneromyia",
+          "commonName": "어리납작발파리속",
+          "ktsn": 120000530727
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "kerteszi",
+          "commonName": "볼록날개어리납작발파리",
+          "ktsn": 120000530729
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:17:09.901Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      }
+    }
+  ],
+  "digitalContentUpdatedAt": "2026-05-21T09:17:09.901Z",
+  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+}

@@ -1,0 +1,71 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "orthoptera",
+    "scientificName": "Orthoptera",
+    "commonName": "메뚜기목",
+    "orderKtsn": 120000037446
+  },
+  "family": {
+    "id": "tridactylidae",
+    "scientificName": "Tridactylidae",
+    "commonName": "좁쌀메뚜기과",
+    "familyKtsn": 120000037802
+  },
+  "speciesCount": 1,
+  "insects": [
+    {
+      "ktsn": 120000037804,
+      "scientificName": "Xya japonica (De Haan, 1842)",
+      "commonName": "좁쌀메뚜기",
+      "terminalLatinName": "japonica",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Orthoptera",
+          "commonName": "메뚜기목",
+          "ktsn": 120000037446
+        },
+        "family": {
+          "scientificName": "Tridactylidae",
+          "commonName": "좁쌀메뚜기과",
+          "ktsn": 120000037802
+        },
+        "genus": {
+          "scientificName": "Xya",
+          "commonName": "좁쌀메뚜기속",
+          "ktsn": 120000037803
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "japonica",
+          "commonName": "좁쌀메뚜기",
+          "ktsn": 120000037804
+        }
+      }
+    }
+  ]
+}

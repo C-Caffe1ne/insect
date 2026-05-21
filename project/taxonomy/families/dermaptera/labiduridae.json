@@ -1,0 +1,151 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "dermaptera",
+    "scientificName": "Dermaptera",
+    "commonName": "집게벌레목",
+    "orderKtsn": 120000020841
+  },
+  "family": {
+    "id": "labiduridae",
+    "scientificName": "Labiduridae",
+    "commonName": "큰집게벌레과",
+    "familyKtsn": 120000020866
+  },
+  "speciesCount": 2,
+  "insects": [
+    {
+      "ktsn": 120000076327,
+      "scientificName": "Labidura riparia japonica de Haan, 1842",
+      "commonName": "큰집게벌레",
+      "terminalLatinName": "japonica",
+      "nomenclaturalAuthor": "de Haan",
+      "namingYear": "1842",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Dermaptera",
+          "commonName": "집게벌레목",
+          "ktsn": 120000020841
+        },
+        "family": {
+          "scientificName": "Labiduridae",
+          "commonName": "큰집게벌레과",
+          "ktsn": 120000020866
+        },
+        "genus": {
+          "scientificName": "Labidura",
+          "commonName": "큰집게벌레속",
+          "ktsn": 120000020867
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "riparia",
+          "commonName": "",
+          "ktsn": 120000020868
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:09:00.090Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      }
+    },
+    {
+      "ktsn": 120000222220,
+      "scientificName": "Labidura riparia riparia (Pallas, 1773)",
+      "commonName": "리파라집게벌레",
+      "terminalLatinName": "riparia",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Dermaptera",
+          "commonName": "집게벌레목",
+          "ktsn": 120000020841
+        },
+        "family": {
+          "scientificName": "Labiduridae",
+          "commonName": "큰집게벌레과",
+          "ktsn": 120000020866
+        },
+        "genus": {
+          "scientificName": "Labidura",
+          "commonName": "큰집게벌레속",
+          "ktsn": 120000020867
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "riparia",
+          "commonName": "",
+          "ktsn": 120000020868
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:09:00.090Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      }
+    }
+  ],
+  "digitalContentUpdatedAt": "2026-05-21T09:09:00.090Z",
+  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+}

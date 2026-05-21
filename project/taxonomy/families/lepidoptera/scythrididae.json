@@ -1,0 +1,123 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "lepidoptera",
+    "scientificName": "Lepidoptera",
+    "commonName": "나비목",
+    "orderKtsn": 120000031663
+  },
+  "family": {
+    "id": "scythrididae",
+    "scientificName": "Scythrididae",
+    "commonName": "애기비단나방과",
+    "familyKtsn": 120000066812
+  },
+  "speciesCount": 2,
+  "insects": [
+    {
+      "ktsn": 120000407018,
+      "scientificName": "Eretmocera artemisiae Li, 2019",
+      "commonName": "노랑점애기비단나방",
+      "terminalLatinName": "artemisiae",
+      "nomenclaturalAuthor": "Li",
+      "namingYear": "2019",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Scythrididae",
+          "commonName": "애기비단나방과",
+          "ktsn": 120000066812
+        },
+        "genus": {
+          "scientificName": "Eretmocera",
+          "commonName": "",
+          "ktsn": 120000134600
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "artemisiae",
+          "commonName": "노랑점애기비단나방",
+          "ktsn": 120000407018
+        }
+      }
+    },
+    {
+      "ktsn": 120000037013,
+      "scientificName": "Scythris sinensis Felder and Rogenhofer, 1875",
+      "commonName": "두점애기비단나방",
+      "terminalLatinName": "sinensis",
+      "nomenclaturalAuthor": "Felder and Rogenhofer",
+      "namingYear": "1875",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Scythrididae",
+          "commonName": "애기비단나방과",
+          "ktsn": 120000066812
+        },
+        "genus": {
+          "scientificName": "Scythris",
+          "commonName": "",
+          "ktsn": 120000037012
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "sinensis",
+          "commonName": "두점애기비단나방",
+          "ktsn": 120000037013
+        }
+      }
+    }
+  ]
+}

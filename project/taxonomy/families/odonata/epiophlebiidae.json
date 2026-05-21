@@ -1,0 +1,71 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "odonata",
+    "scientificName": "Odonata",
+    "commonName": "잠자리목",
+    "orderKtsn": 120000037253
+  },
+  "family": {
+    "id": "epiophlebiidae",
+    "scientificName": "Epiophlebiidae",
+    "commonName": "옛잠자리과",
+    "familyKtsn": 120000229439
+  },
+  "speciesCount": 1,
+  "insects": [
+    {
+      "ktsn": 120000229441,
+      "scientificName": "Epiophlebia sinensis Li and Nel, 2011",
+      "commonName": "백두산옛잠자리",
+      "terminalLatinName": "sinensis",
+      "nomenclaturalAuthor": "Li and Nel",
+      "namingYear": "2011",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Odonata",
+          "commonName": "잠자리목",
+          "ktsn": 120000037253
+        },
+        "family": {
+          "scientificName": "Epiophlebiidae",
+          "commonName": "옛잠자리과",
+          "ktsn": 120000229439
+        },
+        "genus": {
+          "scientificName": "Epiophlebia",
+          "commonName": "",
+          "ktsn": 120000229440
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "sinensis",
+          "commonName": "백두산옛잠자리",
+          "ktsn": 120000229441
+        }
+      }
+    }
+  ]
+}

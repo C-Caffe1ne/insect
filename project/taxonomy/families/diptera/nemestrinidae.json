@@ -1,0 +1,87 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "diptera",
+    "scientificName": "Diptera",
+    "commonName": "파리목",
+    "orderKtsn": 120000020933
+  },
+  "family": {
+    "id": "nemestrinidae",
+    "scientificName": "Nemestrinidae",
+    "commonName": "어리재니등에과",
+    "familyKtsn": 120000022479
+  },
+  "speciesCount": 1,
+  "insects": [
+    {
+      "ktsn": 120000022481,
+      "scientificName": "Hirmoneura orientalis Lichtwardt, 1909",
+      "commonName": "어리재니등에",
+      "terminalLatinName": "orientalis",
+      "nomenclaturalAuthor": "Lichtwardt",
+      "namingYear": "1909",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Nemestrinidae",
+          "commonName": "어리재니등에과",
+          "ktsn": 120000022479
+        },
+        "genus": {
+          "scientificName": "Hirmoneura",
+          "commonName": "어리재니등에속",
+          "ktsn": 120000022480
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "orientalis",
+          "commonName": "어리재니등에",
+          "ktsn": 120000022481
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:16:39.220Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      }
+    }
+  ],
+  "digitalContentUpdatedAt": "2026-05-21T09:16:39.220Z",
+  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+}

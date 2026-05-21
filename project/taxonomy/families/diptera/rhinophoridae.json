@@ -1,0 +1,153 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "diptera",
+    "scientificName": "Diptera",
+    "commonName": "파리목",
+    "orderKtsn": 120000020933
+  },
+  "family": {
+    "id": "rhinophoridae",
+    "scientificName": "Rhinophoridae",
+    "commonName": "쥐며느리파리과",
+    "familyKtsn": 120000022693
+  },
+  "speciesCount": 2,
+  "insects": [
+    {
+      "ktsn": 120000022695,
+      "scientificName": "Acompomintho lobata Villeneuve, 1927",
+      "commonName": "검정쥐며느리파리",
+      "terminalLatinName": "lobata",
+      "nomenclaturalAuthor": "Villeneuve",
+      "namingYear": "1927",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Rhinophoridae",
+          "commonName": "쥐며느리파리과",
+          "ktsn": 120000022693
+        },
+        "genus": {
+          "scientificName": "Acompomintho",
+          "commonName": "",
+          "ktsn": 120000022694
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "lobata",
+          "commonName": "검정쥐며느리파리",
+          "ktsn": 120000022695
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:17:28.687Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      }
+    },
+    {
+      "ktsn": 120000022697,
+      "scientificName": "Oplisa pollinosa Kugler, 1978",
+      "commonName": "회색쥐며느리파리",
+      "terminalLatinName": "pollinosa",
+      "nomenclaturalAuthor": "Kugler",
+      "namingYear": "1978",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Rhinophoridae",
+          "commonName": "쥐며느리파리과",
+          "ktsn": 120000022693
+        },
+        "genus": {
+          "scientificName": "Oplisa",
+          "commonName": "",
+          "ktsn": 120000022696
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "pollinosa",
+          "commonName": "회색쥐며느리파리",
+          "ktsn": 120000022697
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:17:28.687Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      }
+    }
+  ],
+  "digitalContentUpdatedAt": "2026-05-21T09:17:28.687Z",
+  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+}

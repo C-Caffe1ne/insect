@@ -1,0 +1,151 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "blattodea",
+    "scientificName": "Blattodea",
+    "commonName": "바퀴목",
+    "orderKtsn": 120000224585
+  },
+  "family": {
+    "id": "cryptocercidae",
+    "scientificName": "Cryptocercidae",
+    "commonName": "갑옷바퀴과",
+    "familyKtsn": 120000020885
+  },
+  "speciesCount": 2,
+  "insects": [
+    {
+      "ktsn": 120000020887,
+      "scientificName": "Cryptocercus kyebangensis Grandcolas, 2001",
+      "commonName": "갑옷바퀴",
+      "terminalLatinName": "kyebangensis",
+      "nomenclaturalAuthor": "Grandcolas",
+      "namingYear": "2001",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "Y",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Blattodea",
+          "commonName": "바퀴목",
+          "ktsn": 120000224585
+        },
+        "family": {
+          "scientificName": "Cryptocercidae",
+          "commonName": "갑옷바퀴과",
+          "ktsn": 120000020885
+        },
+        "genus": {
+          "scientificName": "Cryptocercus",
+          "commonName": "갑옷바퀴속",
+          "ktsn": 120000020886
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "kyebangensis",
+          "commonName": "갑옷바퀴",
+          "ktsn": 120000020887
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:49:48.751Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      }
+    },
+    {
+      "ktsn": 120000020888,
+      "scientificName": "Cryptocercus relictus Bey-Bienko, 1935",
+      "commonName": "가시바퀴",
+      "terminalLatinName": "relictus",
+      "nomenclaturalAuthor": "Bey-Bienko",
+      "namingYear": "1935",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Blattodea",
+          "commonName": "바퀴목",
+          "ktsn": 120000224585
+        },
+        "family": {
+          "scientificName": "Cryptocercidae",
+          "commonName": "갑옷바퀴과",
+          "ktsn": 120000020885
+        },
+        "genus": {
+          "scientificName": "Cryptocercus",
+          "commonName": "갑옷바퀴속",
+          "ktsn": 120000020886
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "relictus",
+          "commonName": "가시바퀴",
+          "ktsn": 120000020888
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:43:18.118Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      }
+    }
+  ],
+  "digitalContentUpdatedAt": "2026-05-21T08:49:48.751Z",
+  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+}

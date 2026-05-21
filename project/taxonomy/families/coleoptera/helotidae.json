@@ -1,0 +1,217 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "coleoptera",
+    "scientificName": "Coleoptera",
+    "commonName": "딱정벌레목",
+    "orderKtsn": 120000013750
+  },
+  "family": {
+    "id": "helotidae",
+    "scientificName": "Helotidae",
+    "commonName": "나무쑤시기과",
+    "familyKtsn": 120000017517
+  },
+  "speciesCount": 3,
+  "insects": [
+    {
+      "ktsn": 120000017519,
+      "scientificName": "Helota fulviventris Kolbe, 1886",
+      "commonName": "고려나무쑤시기",
+      "terminalLatinName": "fulviventris",
+      "nomenclaturalAuthor": "Kolbe",
+      "namingYear": "1886",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Helotidae",
+          "commonName": "나무쑤시기과",
+          "ktsn": 120000017517
+        },
+        "genus": {
+          "scientificName": "Helota",
+          "commonName": "나무쑤시기속",
+          "ktsn": 120000017518
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "fulviventris",
+          "commonName": "고려나무쑤시기",
+          "ktsn": 120000017519
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:01:54.528Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      }
+    },
+    {
+      "ktsn": 120000017520,
+      "scientificName": "Helota gemmata Gorham, 1874",
+      "commonName": "넉점나무쑤시기",
+      "terminalLatinName": "gemmata",
+      "nomenclaturalAuthor": "Gorham",
+      "namingYear": "1874",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Helotidae",
+          "commonName": "나무쑤시기과",
+          "ktsn": 120000017517
+        },
+        "genus": {
+          "scientificName": "Helota",
+          "commonName": "나무쑤시기속",
+          "ktsn": 120000017518
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "gemmata",
+          "commonName": "넉점나무쑤시기",
+          "ktsn": 120000017520
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:01:54.528Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      }
+    },
+    {
+      "ktsn": 120000017521,
+      "scientificName": "Helota gorhami Olliff, 1883",
+      "commonName": "나무쑤시기",
+      "terminalLatinName": "gorhami",
+      "nomenclaturalAuthor": "Olliff",
+      "namingYear": "1883",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Helotidae",
+          "commonName": "나무쑤시기과",
+          "ktsn": 120000017517
+        },
+        "genus": {
+          "scientificName": "Helota",
+          "commonName": "나무쑤시기속",
+          "ktsn": 120000017518
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "gorhami",
+          "commonName": "나무쑤시기",
+          "ktsn": 120000017521
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:01:54.528Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      }
+    }
+  ],
+  "digitalContentUpdatedAt": "2026-05-21T09:01:54.528Z",
+  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+}

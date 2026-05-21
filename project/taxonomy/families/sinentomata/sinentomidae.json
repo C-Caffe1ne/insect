@@ -1,0 +1,71 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "sinentomata",
+    "scientificName": "Sinentomata",
+    "commonName": "검은낫발이목",
+    "orderKtsn": 120000221633
+  },
+  "family": {
+    "id": "sinentomidae",
+    "scientificName": "Sinentomidae",
+    "commonName": "검은낫발이과",
+    "familyKtsn": 120000038211
+  },
+  "speciesCount": 1,
+  "insects": [
+    {
+      "ktsn": 120000038213,
+      "scientificName": "Sinentomon chui Tuxen and Paik, 1979",
+      "commonName": "검은낫발이",
+      "terminalLatinName": "chui",
+      "nomenclaturalAuthor": "Tuxen and Paik",
+      "namingYear": "1979",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Protura",
+          "commonName": "낫발이강",
+          "ktsn": 120000125068
+        },
+        "order": {
+          "scientificName": "Sinentomata",
+          "commonName": "검은낫발이목",
+          "ktsn": 120000221633
+        },
+        "family": {
+          "scientificName": "Sinentomidae",
+          "commonName": "검은낫발이과",
+          "ktsn": 120000038211
+        },
+        "genus": {
+          "scientificName": "Sinentomon",
+          "commonName": "",
+          "ktsn": 120000038212
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "chui",
+          "commonName": "검은낫발이",
+          "ktsn": 120000038213
+        }
+      }
+    }
+  ]
+}

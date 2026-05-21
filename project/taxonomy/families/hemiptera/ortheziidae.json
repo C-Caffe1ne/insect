@@ -1,0 +1,123 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "hemiptera",
+    "scientificName": "Hemiptera",
+    "commonName": "노린재목",
+    "orderKtsn": 120000066597
+  },
+  "family": {
+    "id": "ortheziidae",
+    "scientificName": "Ortheziidae",
+    "commonName": "도롱이깍지벌레과",
+    "familyKtsn": 120000026705
+  },
+  "speciesCount": 2,
+  "insects": [
+    {
+      "ktsn": 120000026707,
+      "scientificName": "Orthezia urticae (Linnaeus, 1758)",
+      "commonName": "도롱이깍지벌레",
+      "terminalLatinName": "urticae",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Ortheziidae",
+          "commonName": "도롱이깍지벌레과",
+          "ktsn": 120000026705
+        },
+        "genus": {
+          "scientificName": "Orthezia",
+          "commonName": "도롱이깍지벌레속",
+          "ktsn": 120000026706
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "urticae",
+          "commonName": "도롱이깍지벌레",
+          "ktsn": 120000026707
+        }
+      }
+    },
+    {
+      "ktsn": 120000026708,
+      "scientificName": "Orthezia yasushii Kuwana, 1923",
+      "commonName": "극동도롱이깍지벌레",
+      "terminalLatinName": "yasushii",
+      "nomenclaturalAuthor": "Kuwana",
+      "namingYear": "1923",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Ortheziidae",
+          "commonName": "도롱이깍지벌레과",
+          "ktsn": 120000026705
+        },
+        "genus": {
+          "scientificName": "Orthezia",
+          "commonName": "도롱이깍지벌레속",
+          "ktsn": 120000026706
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "yasushii",
+          "commonName": "극동도롱이깍지벌레",
+          "ktsn": 120000026708
+        }
+      }
+    }
+  ]
+}

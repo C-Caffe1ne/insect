@@ -1,0 +1,71 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "hymenoptera",
+    "scientificName": "Hymenoptera",
+    "commonName": "벌목",
+    "orderKtsn": 120000027260
+  },
+  "family": {
+    "id": "blasticotomidae",
+    "scientificName": "Blasticotomidae",
+    "commonName": "고사리줄기잎벌과",
+    "familyKtsn": 120000027613
+  },
+  "speciesCount": 1,
+  "insects": [
+    {
+      "ktsn": 120000027616,
+      "scientificName": "Blasticotoma filiceti pacifica Malaise, 1931",
+      "commonName": "고사리줄기잎벌",
+      "terminalLatinName": "pacifica",
+      "nomenclaturalAuthor": "Malaise",
+      "namingYear": "1931",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hymenoptera",
+          "commonName": "벌목",
+          "ktsn": 120000027260
+        },
+        "family": {
+          "scientificName": "Blasticotomidae",
+          "commonName": "고사리줄기잎벌과",
+          "ktsn": 120000027613
+        },
+        "genus": {
+          "scientificName": "Blasticotoma",
+          "commonName": "고사리줄기잎벌속",
+          "ktsn": 120000027614
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "filiceti",
+          "commonName": "",
+          "ktsn": 120000027615
+        }
+      }
+    }
+  ]
+}

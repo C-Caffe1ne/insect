@@ -1,0 +1,153 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "coleoptera",
+    "scientificName": "Coleoptera",
+    "commonName": "딱정벌레목",
+    "orderKtsn": 120000013750
+  },
+  "family": {
+    "id": "prostomidae",
+    "scientificName": "Prostomidae",
+    "commonName": "작은발머리대장과",
+    "familyKtsn": 120000018383
+  },
+  "speciesCount": 2,
+  "insects": [
+    {
+      "ktsn": 120000018385,
+      "scientificName": "Prostomis latoris Reitter, 1889",
+      "commonName": "작은발머리대장",
+      "terminalLatinName": "latoris",
+      "nomenclaturalAuthor": "Reitter",
+      "namingYear": "1889",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Prostomidae",
+          "commonName": "작은발머리대장과",
+          "ktsn": 120000018383
+        },
+        "genus": {
+          "scientificName": "Prostomis",
+          "commonName": "",
+          "ktsn": 120000018384
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "latoris",
+          "commonName": "작은발머리대장",
+          "ktsn": 120000018385
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:03:59.373Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      }
+    },
+    {
+      "ktsn": 120000018386,
+      "scientificName": "Prostomis mordax Reitter, 1887",
+      "commonName": "오대산작은발머리대장",
+      "terminalLatinName": "mordax",
+      "nomenclaturalAuthor": "Reitter",
+      "namingYear": "1887",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Prostomidae",
+          "commonName": "작은발머리대장과",
+          "ktsn": 120000018383
+        },
+        "genus": {
+          "scientificName": "Prostomis",
+          "commonName": "",
+          "ktsn": 120000018384
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "mordax",
+          "commonName": "오대산작은발머리대장",
+          "ktsn": 120000018386
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:03:59.373Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      }
+    }
+  ],
+  "digitalContentUpdatedAt": "2026-05-21T09:03:59.373Z",
+  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+}

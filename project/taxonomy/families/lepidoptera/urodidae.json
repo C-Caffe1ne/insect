@@ -1,0 +1,123 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "lepidoptera",
+    "scientificName": "Lepidoptera",
+    "commonName": "나비목",
+    "orderKtsn": 120000031663
+  },
+  "family": {
+    "id": "urodidae",
+    "scientificName": "Urodidae",
+    "commonName": "소쿠리나방과",
+    "familyKtsn": 120000134218
+  },
+  "speciesCount": 2,
+  "insects": [
+    {
+      "ktsn": 120000134220,
+      "scientificName": "Wockia koreana Sohn, 2008",
+      "commonName": "소쿠리나방",
+      "terminalLatinName": "koreana",
+      "nomenclaturalAuthor": "Sohn",
+      "namingYear": "2008",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Urodidae",
+          "commonName": "소쿠리나방과",
+          "ktsn": 120000134218
+        },
+        "genus": {
+          "scientificName": "Wockia",
+          "commonName": "",
+          "ktsn": 120000134219
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "koreana",
+          "commonName": "소쿠리나방",
+          "ktsn": 120000134220
+        }
+      }
+    },
+    {
+      "ktsn": 120000407430,
+      "scientificName": "Wockia magna Sohn, 2014",
+      "commonName": "큰소쿠리나방",
+      "terminalLatinName": "magna",
+      "nomenclaturalAuthor": "Sohn",
+      "namingYear": "2014",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Urodidae",
+          "commonName": "소쿠리나방과",
+          "ktsn": 120000134218
+        },
+        "genus": {
+          "scientificName": "Wockia",
+          "commonName": "",
+          "ktsn": 120000134219
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "magna",
+          "commonName": "큰소쿠리나방",
+          "ktsn": 120000407430
+        }
+      }
+    }
+  ]
+}

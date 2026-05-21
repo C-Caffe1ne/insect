@@ -1,0 +1,87 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "embioptera",
+    "scientificName": "Embioptera",
+    "commonName": "흰개미붙이목",
+    "orderKtsn": 120000023739
+  },
+  "family": {
+    "id": "oligotomidae",
+    "scientificName": "Oligotomidae",
+    "commonName": "흰개미붙이과",
+    "familyKtsn": 120000023740
+  },
+  "speciesCount": 1,
+  "insects": [
+    {
+      "ktsn": 120000023742,
+      "scientificName": "Oligotoma saundersii (Westwood, 1837)",
+      "commonName": "흰개미붙이",
+      "terminalLatinName": "saundersii",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Embioptera",
+          "commonName": "흰개미붙이목",
+          "ktsn": 120000023739
+        },
+        "family": {
+          "scientificName": "Oligotomidae",
+          "commonName": "흰개미붙이과",
+          "ktsn": 120000023740
+        },
+        "genus": {
+          "scientificName": "Oligotoma",
+          "commonName": "",
+          "ktsn": 120000023741
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "saundersii",
+          "commonName": "흰개미붙이",
+          "ktsn": 120000023742
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:21:02.261Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      }
+    }
+  ],
+  "digitalContentUpdatedAt": "2026-05-21T09:21:02.261Z",
+  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+}

@@ -1,0 +1,87 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "diptera",
+    "scientificName": "Diptera",
+    "commonName": "파리목",
+    "orderKtsn": 120000020933
+  },
+  "family": {
+    "id": "hesperinidae",
+    "scientificName": "Hesperinidae",
+    "commonName": "긴수염버섯파리과",
+    "familyKtsn": 120000237320
+  },
+  "speciesCount": 1,
+  "insects": [
+    {
+      "ktsn": 120000237322,
+      "scientificName": "Hesperinus rohdendorfi Krivosheina and Mamaev, 1967",
+      "commonName": "긴수염털파리",
+      "terminalLatinName": "rohdendorfi",
+      "nomenclaturalAuthor": "Krivosheina and Mamaev",
+      "namingYear": "1967",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Hesperinidae",
+          "commonName": "긴수염버섯파리과",
+          "ktsn": 120000237320
+        },
+        "genus": {
+          "scientificName": "Hesperinus",
+          "commonName": "",
+          "ktsn": 120000237321
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "rohdendorfi",
+          "commonName": "긴수염털파리",
+          "ktsn": 120000237322
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:14:52.789Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      }
+    }
+  ],
+  "digitalContentUpdatedAt": "2026-05-21T09:14:52.789Z",
+  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+}

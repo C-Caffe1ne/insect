@@ -1,0 +1,123 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "trichoptera",
+    "scientificName": "Trichoptera",
+    "commonName": "날도래목",
+    "orderKtsn": 120000038521
+  },
+  "family": {
+    "id": "pseudoneureclipsidae",
+    "scientificName": "Pseudoneureclipsidae",
+    "commonName": "가슴띠날도래과",
+    "familyKtsn": 120000226953
+  },
+  "speciesCount": 2,
+  "insects": [
+    {
+      "ktsn": 120000371490,
+      "scientificName": "Pseudoneureclipsis botosaneanui Morse, 2001",
+      "commonName": "한국가슴띠날도래",
+      "terminalLatinName": "botosaneanui",
+      "nomenclaturalAuthor": "Morse",
+      "namingYear": "2001",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Trichoptera",
+          "commonName": "날도래목",
+          "ktsn": 120000038521
+        },
+        "family": {
+          "scientificName": "Pseudoneureclipsidae",
+          "commonName": "가슴띠날도래과",
+          "ktsn": 120000226953
+        },
+        "genus": {
+          "scientificName": "Pseudoneureclipsis",
+          "commonName": "가슴띠날도래속",
+          "ktsn": 120000038544
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "botosaneanui",
+          "commonName": "한국가슴띠날도래",
+          "ktsn": 120000371490
+        }
+      }
+    },
+    {
+      "ktsn": 120000038545,
+      "scientificName": "Pseudoneureclipsis proxima Martynov, 1934",
+      "commonName": "부채띠가슴날도래",
+      "terminalLatinName": "proxima",
+      "nomenclaturalAuthor": "Martynov",
+      "namingYear": "1934",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Trichoptera",
+          "commonName": "날도래목",
+          "ktsn": 120000038521
+        },
+        "family": {
+          "scientificName": "Pseudoneureclipsidae",
+          "commonName": "가슴띠날도래과",
+          "ktsn": 120000226953
+        },
+        "genus": {
+          "scientificName": "Pseudoneureclipsis",
+          "commonName": "가슴띠날도래속",
+          "ktsn": 120000038544
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "proxima",
+          "commonName": "부채띠가슴날도래",
+          "ktsn": 120000038545
+        }
+      }
+    }
+  ]
+}
