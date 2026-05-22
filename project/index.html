@@ -43,7 +43,7 @@
             <circle cx="11" cy="11" r="8" />
             <path d="m21 21-4.3-4.3" />
           </svg>
-          <input id="searchInput" type="text" placeholder="학명, 이름으로 검색" />
+          <input id="searchInput" type="text" placeholder="학명, 이름으로 검색" aria-label="곤충 학명 또는 이름 검색" />
           <button class="filter-btn" aria-label="Filter">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
               stroke-linecap="round" stroke-linejoin="round">
@@ -287,7 +287,7 @@
             <circle cx="11" cy="11" r="8" />
             <path d="m21 21-4.3-4.3" />
           </svg>
-          <input id="familySearchInput" type="text" placeholder="Search family name..." />
+          <input id="familySearchInput" type="text" placeholder="Search family name..." aria-label="과 이름 검색" />
         </div>
       </div>
 
@@ -325,10 +325,10 @@
 
       <section class="family-detail-section species-detail-section">
         <div class="species-tabs-row">
-          <div class="species-tabs">
-            <span class="species-tab active">POPULAR</span>
-            <span class="species-tab">A-Z</span>
-            <span class="species-tab">BY COLOR</span>
+          <div class="species-tabs" id="speciesTabsRow">
+            <span class="species-tab active" data-sort="popular" role="button" tabindex="0">POPULAR</span>
+            <span class="species-tab" data-sort="az" role="button" tabindex="0">A-Z</span>
+            <span class="species-tab" data-sort="color" role="button" tabindex="0">BY COLOR</span>
           </div>
           <span class="species-count" id="familySpeciesCount">0 species</span>
         </div>
@@ -356,7 +356,7 @@
             <circle cx="11" cy="11" r="8" />
             <path d="m21 21-4.3-4.3" />
           </svg>
-          <input type="text" placeholder="곤충 이름, 목, 과 검색..." />
+          <input id="globalSearchInput" type="text" placeholder="곤충 이름, 목, 과 검색..." aria-label="곤충 이름, 목, 과 검색" />
         </div>
       </div>
 
@@ -428,7 +428,7 @@
       <section class="section">
         <h3 class="search-section-title">더 둘러보기</h3>
         <div class="explore-grid">
-          <article class="explore-card explore-card--danger">
+          <article class="explore-card explore-card--danger" role="button" tabindex="0" data-category="멸종위기종">
             <span class="explore-icon">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                 stroke-linecap="round" stroke-linejoin="round">
@@ -440,7 +440,7 @@
             <h4 class="explore-card-title">멸종위기종</h4>
             <p class="explore-card-sub">보호가 필요한</p>
           </article>
-          <article class="explore-card explore-card--heritage">
+          <article class="explore-card explore-card--heritage" role="button" tabindex="0" data-category="천연기념물">
             <span class="explore-icon">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                 stroke-linecap="round" stroke-linejoin="round">
@@ -450,7 +450,7 @@
             <h4 class="explore-card-title">천연기념물</h4>
             <p class="explore-card-sub">가치있는 생물</p>
           </article>
-          <article class="explore-card explore-card--endemic">
+          <article class="explore-card explore-card--endemic" role="button" tabindex="0" data-category="한국고유생물">
             <span class="explore-icon">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                 stroke-linecap="round" stroke-linejoin="round">
@@ -461,7 +461,7 @@
             <h4 class="explore-card-title">한국고유생물</h4>
             <p class="explore-card-sub">우리 땅의 생물</p>
           </article>
-          <article class="explore-card explore-card--invasive">
+          <article class="explore-card explore-card--invasive" role="button" tabindex="0" data-category="생태계교란종">
             <span class="explore-icon">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                 stroke-linecap="round" stroke-linejoin="round">
@@ -507,7 +507,7 @@
 
       <!-- Top Action Bar -->
       <div class="profile-action-bar">
-        <button class="action-btn" aria-label="Go Back" onclick="showPage('pageDiscover')">
+        <button class="action-btn" id="profileBackBtn" aria-label="Go Back">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
             stroke-linecap="round" stroke-linejoin="round">
             <line x1="19" y1="12" x2="5" y2="12"></line>
@@ -809,12 +809,17 @@
     let selectedFamilies = [];
     let selectedFamily = null;
     let previousFamilyPage = 'pageFamilyList';
+    let currentSpeciesList = [];
+    let currentSpeciesSort = 'popular';
 
     // 캐싱된 종 데이터 로드 (korea_insect_species_by_family.json)
     function loadCachedSpecies() {
       if (cachedSpeciesData) return Promise.resolve(cachedSpeciesData);
       return fetch('korea_insect_species_by_family.json')
-        .then(r => r.json())
+        .then(r => {
+          if (!r.ok) throw new Error(`HTTP ${r.status}`);
+          return r.json();
+        })
         .then(data => {
           cachedSpeciesData = data.families || {};
           return cachedSpeciesData;
@@ -887,8 +892,8 @@
             <button class="expanded-close" onclick="collapseOrder(event)">✕</button>
           </div>
           <div class="expanded-body">
-            <h3 class="expanded-title">${order.scientificName}</h3>
-            <p class="expanded-kr">${order.commonName}</p>
+            <h3 class="expanded-title">${escapeHTML(order.scientificName)}</h3>
+            <p class="expanded-kr">${escapeHTML(order.commonName)}</p>
             <p class="order-count">${formatCount(order.familyCount)}개 과</p>
             <div class="family-divider">
               <span class="family-divider-label">FAMILIES · ${families.length}</span>
@@ -906,8 +911,8 @@
             <span class="order-badge">ORDER</span>
           </div>
           <div class="order-mini-body">
-            <h3 class="order-name-kr">${order.commonName}</h3>
-            <p class="order-sci">${order.scientificName}</p>
+            <h3 class="order-name-kr">${escapeHTML(order.commonName)}</h3>
+            <p class="order-sci">${escapeHTML(order.scientificName)}</p>
             <p class="order-count">${formatCount(order.familyCount)}개 과</p>
           </div>
         `;
@@ -951,13 +956,17 @@
       const order = ordersData.find(o => getOrderKey(o) === key);
       if (order && !order.families) {
         fetch(`taxonomy/${order.file}`)
-          .then(r => r.json())
+          .then(r => {
+            if (!r.ok) throw new Error(`HTTP ${r.status}`);
+            return r.json();
+          })
           .then(data => {
-            order.families = data.families;
+            order.families = data.families || [];
             executeExpand(key);
           })
           .catch(err => {
             console.error('Error fetching order families:', err);
+            order.families = order.families || [];
             executeExpand(key);
           });
       } else {
@@ -1019,13 +1028,17 @@
 
       if (!order.families) {
         fetch(`taxonomy/${order.file}`)
-          .then(r => r.json())
+          .then(r => {
+            if (!r.ok) throw new Error(`HTTP ${r.status}`);
+            return r.json();
+          })
           .then(data => {
-            order.families = data.families;
+            order.families = data.families || [];
             executeOpen();
           })
           .catch(err => {
             console.error('Error fetching order families:', err);
+            order.families = order.families || [];
             executeOpen();
           });
       } else {
@@ -1046,7 +1059,7 @@
         card.setAttribute('role', 'button');
         card.tabIndex = 0;
         card.innerHTML = `
-          <img src="${getFamilyImage(index)}" alt="" />
+          <img src="${getFamilyImage(index)}" alt="${escapeHTML(family.commonName || family.scientificName)}" loading="lazy" />
           <div class="family-photo-overlay"></div>
           <div class="family-photo-info">
             <h3>${escapeHTML(family.commonName || family.scientificName)}</h3>
@@ -1095,14 +1108,55 @@
 
       if (!order.families) {
         fetch(`taxonomy/${order.file}`)
-          .then(r => r.json())
+          .then(r => {
+            if (!r.ok) throw new Error(`HTTP ${r.status}`);
+            return r.json();
+          })
           .then(data => {
-            order.families = data.families;
+            order.families = data.families || [];
+            executeDetail();
+          })
+          .catch(err => {
+            console.error('Error fetching order families:', err);
+            order.families = order.families || [];
             executeDetail();
           });
       } else {
         executeDetail();
       }
+    }
+
+    function renderSpeciesSorted() {
+      const grid = document.getElementById('familySpeciesGrid');
+      const empty = document.getElementById('speciesEmpty');
+      if (!grid || !empty) return;
+
+      let list = currentSpeciesList.slice();
+      if (currentSpeciesSort === 'az') {
+        list.sort((a, b) => (a.scientificName || '').localeCompare(b.scientificName || ''));
+      } else if (currentSpeciesSort === 'color') {
+        // 색상 정보가 데이터에 없으므로 임시로 셔플 — 시각적 변화만 제공
+        for (let i = list.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [list[i], list[j]] = [list[j], list[i]];
+        }
+      }
+      // 'popular'는 원본 순서 유지
+
+      grid.innerHTML = '';
+      empty.classList.toggle('visible', list.length === 0);
+      list.forEach((item, index) => {
+        const card = document.createElement('article');
+        card.className = 'species-detail-card';
+        card.innerHTML = `
+          <div class="species-detail-img">
+            <img src="${getFamilyImage(index)}" alt="${escapeHTML(item.commonName || item.scientificName)}" loading="lazy" />
+          </div>
+          <h3>${escapeHTML(item.commonName || item.scientificName)}</h3>
+          <p>${escapeHTML(item.scientificName)}</p>
+        `;
+        grid.appendChild(card);
+      });
     }
 
     function renderFamilyDetail(order, family) {
@@ -1124,7 +1178,7 @@
         card.tabIndex = 0;
         card.className = 'family-carousel-card';
         card.innerHTML = `
-          <img src="${getFamilyImage(index + 1)}" alt="" />
+          <img src="${getFamilyImage(index + 1)}" alt="${escapeHTML(item.commonName || item.scientificName)}" loading="lazy" />
           <span class="family-photo-overlay"></span>
           <span class="family-carousel-info">
             <strong>${escapeHTML(item.commonName || item.scientificName)}</strong>
@@ -1164,28 +1218,17 @@
         });
 
       const renderSpecies = (species) => {
-        const grid = document.getElementById('familySpeciesGrid');
-        const empty = document.getElementById('speciesEmpty');
-        grid.innerHTML = '';
-        empty.classList.toggle('visible', species.length === 0);
-        species.forEach((item, index) => {
-          const card = document.createElement('article');
-          card.className = 'species-detail-card';
-          card.innerHTML = `
-            <div class="species-detail-img">
-              <img src="${getFamilyImage(index)}" alt="" />
-            </div>
-            <h3>${escapeHTML(item.commonName || item.scientificName)}</h3>
-            <p>${escapeHTML(item.scientificName)}</p>
-          `;
-          grid.appendChild(card);
-        });
+        currentSpeciesList = species || [];
+        renderSpeciesSorted();
       };
 
       if (!speciesCache[familyKey]) {
         renderSpecies([]); // clear old data while loading
         fetch(`taxonomy/families/${order.id}/${family.id}.json`)
-          .then(r => r.json())
+          .then(r => {
+            if (!r.ok) throw new Error(`HTTP ${r.status}`);
+            return r.json();
+          })
           .then(data => {
             const insects = data.insects || [];
             if (insects.length > 0) {
@@ -1221,11 +1264,14 @@
 
     // ── 데이터 로드 ──
     fetch('taxonomy/index.json')
-      .then(r => r.json())
+      .then(r => {
+        if (!r.ok) throw new Error(`HTTP ${r.status}`);
+        return r.json();
+      })
       .then(data => {
-        ordersData = data.orders;
+        ordersData = Array.isArray(data?.orders) ? data.orders : [];
         document.getElementById('orderSubtitle').textContent =
-          `한국 서식 ${data.totalOrders}개 목 · ${formatCount(data.totalFamilies)}개 과`;
+          `한국 서식 ${data?.totalOrders ?? ordersData.length}개 목 · ${formatCount(data?.totalFamilies ?? 0)}개 과`;
         renderOrders(ordersData);
       })
       .catch(err => {
@@ -1234,16 +1280,19 @@
       });
 
     // ── 정렬 토글 ──
+    // 라벨은 "현재 적용 중인 정렬"을 의미. 두 모드 모두 이름순으로 통일.
+    //   'A → Z'  : scientificName 오름차순 (라틴 알파벳 기준)
+    //   'ㄱ → ㅎ' : commonName 오름차순 (한국어 가나다순)
     document.getElementById('sortBtn').addEventListener('click', () => {
       sortAsc = !sortAsc;
       const btn = document.getElementById('sortBtn');
 
       if (sortAsc) {
         btn.textContent = 'ㄱ → ㅎ';
-        ordersData.sort((a, b) => a.commonName.localeCompare(b.commonName, 'ko'));
+        ordersData.sort((a, b) => (a.commonName || '').localeCompare(b.commonName || '', 'ko'));
       } else {
         btn.textContent = 'A → Z';
-        ordersData.sort((a, b) => b.familyCount - a.familyCount);
+        ordersData.sort((a, b) => (a.scientificName || '').localeCompare(b.scientificName || ''));
       }
 
       // 정렬 시에도 애니메이션 적용
@@ -1340,18 +1389,130 @@
       document.getElementById('navProfile').classList.add('active');
     });
 
+    // ── F-9: Profile 백버튼 → 홈 + nav 동기화 ──
+    const profileBackBtn = document.getElementById('profileBackBtn');
+    if (profileBackBtn) {
+      profileBackBtn.addEventListener('click', () => {
+        showPage('pageDiscover');
+        document.getElementById('navDiscover').classList.add('active');
+      });
+    }
+
+    // ── C-5 / F-1: 메인 검색 입력 → pageSearch 라우팅 ──
+    const searchInputEl = document.getElementById('searchInput');
+    if (searchInputEl) {
+      searchInputEl.addEventListener('focus', () => {
+        showPage('pageSearch');
+        document.getElementById('navSearch').classList.add('active');
+        document.getElementById('navDiscover').classList.remove('active');
+        const target = document.getElementById('globalSearchInput');
+        if (target) setTimeout(() => target.focus(), 0);
+      });
+    }
+
+    // ── F-2: pageSearch 검색 input → ordersData 필터링 ──
+    const globalSearchEl = document.getElementById('globalSearchInput');
+    if (globalSearchEl) {
+      globalSearchEl.addEventListener('input', (e) => {
+        const q = e.target.value.trim().toLowerCase();
+        if (!q) {
+          globalSearchEl.setAttribute('placeholder', '곤충 이름, 목, 과 검색...');
+          return;
+        }
+        const hits = ordersData.filter(o =>
+          (o.commonName || '').toLowerCase().includes(q) ||
+          (o.scientificName || '').toLowerCase().includes(q)
+        );
+        // 결과 영역 마크업이 없으므로 placeholder로 가벼운 피드백
+        globalSearchEl.setAttribute('placeholder',
+          hits.length > 0
+            ? `${hits.length}개 목 일치 — 첫 결과: ${hits[0].commonName}`
+            : '일치하는 결과 없음');
+      });
+    }
+
+    // ── C-6 / F-3: 랜덤 곤충 보기 버튼 ──
+    const randomBtn = document.getElementById('btnRandom');
+    if (randomBtn) {
+      randomBtn.addEventListener('click', () => {
+        if (!ordersData.length) return;
+        const order = ordersData[Math.floor(Math.random() * ordersData.length)];
+        expandedOrderKey = getOrderKey(order);
+        showPage('pageDiscover');
+        document.getElementById('navDiscover').classList.add('active');
+        switchDiscoverTab('taxonomy');
+        renderOrders(ordersData);
+      });
+    }
+
+    // ── C-6 / F-4: 헤더 필터 버튼 → 정렬 토글로 임시 매핑 ──
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.getElementById('sortBtn')?.click();
+      });
+    });
+
+    // ── F-5: species-tab 정렬 핸들러 ──
+    document.querySelectorAll('#speciesTabsRow .species-tab').forEach(tab => {
+      const activate = () => {
+        const sort = tab.dataset.sort || 'popular';
+        currentSpeciesSort = sort;
+        document.querySelectorAll('#speciesTabsRow .species-tab').forEach(t => t.classList.remove('active'));
+        tab.classList.add('active');
+        renderSpeciesSorted();
+      };
+      tab.addEventListener('click', activate);
+      tab.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          activate();
+        }
+      });
+    });
+
+    // ── F-6: explore-card 클릭 시 검색 prefill ──
+    document.querySelectorAll('.explore-card').forEach(card => {
+      const activate = () => {
+        const cat = card.dataset.category || '';
+        const target = document.getElementById('globalSearchInput');
+        if (target) {
+          target.value = cat;
+          target.dispatchEvent(new Event('input', { bubbles: true }));
+          target.focus();
+        }
+      };
+      card.addEventListener('click', activate);
+      card.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          activate();
+        }
+      });
+    });
+
+    // ── C-9: <a href="#"> 의사 링크 preventDefault ──
+    document.querySelectorAll('a.see-all, a.profile-view-all').forEach(a => {
+      a.addEventListener('click', (e) => { e.preventDefault(); });
+    });
+
     // ── Global Mouse Drag Scrolling for Carousel ──
     const familyCarousel = document.getElementById('otherFamilyCarousel');
     if (familyCarousel) {
-      let isDown = false, startX, scrollLeft, hasDragged = false;
+      let isDown = false, startX = 0, scrollLeft = 0, hasDragged = false;
+
+      const stopDrag = () => {
+        isDown = false;
+        familyCarousel.classList.remove('dragging');
+      };
+
       familyCarousel.addEventListener('mousedown', (e) => {
         isDown = true; hasDragged = false;
         startX = e.pageX - familyCarousel.offsetLeft;
         scrollLeft = familyCarousel.scrollLeft;
         familyCarousel.classList.add('dragging');
       });
-      familyCarousel.addEventListener('mouseleave', () => { isDown = false; familyCarousel.classList.remove('dragging'); });
-      familyCarousel.addEventListener('mouseup', () => { isDown = false; familyCarousel.classList.remove('dragging'); });
+      window.addEventListener('mouseup', stopDrag);
+      familyCarousel.addEventListener('mouseleave', stopDrag);
       familyCarousel.addEventListener('mousemove', (e) => {
         if (!isDown) return;
         e.preventDefault();

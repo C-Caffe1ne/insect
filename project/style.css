@@ -883,9 +883,13 @@ ul { list-style: none; }
   font-weight: 700;
   line-height: 1.28;
   text-align: center;
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+  white-space: normal;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
   overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
 }
 
 .family-detail-section {
