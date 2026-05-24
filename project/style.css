@@ -1809,3 +1809,607 @@ ul { list-style: none; }
   color: var(--text-muted);
   font-weight: 600;
 }
+
+/* ══════════════════════════════════════════════
+   SPECIES DETAIL PAGE (INFOGRAPHIC)
+   ══════════════════════════════════════════════ */
+
+/* ── Status color tokens (only used inside species detail) ── */
+#pageSpeciesDetail {
+  --status-endangered:      #d94a4a;
+  --status-invasive:        #e08a3c;
+  --status-hazardous:       #d9bd3e;
+  --status-natural:         #c79a3b;
+  --status-harmful:         #8c2f2f;
+  --status-endemic:         #4ea38a;
+
+  --data-pending-line:      rgba(255,255,255,0.10);
+  --section-card-bg:        rgba(255,255,255,0.035);
+  --section-card-border:    rgba(255,255,255,0.06);
+}
+
+.species-detail-topbar {
+  border-bottom: none;
+}
+
+/* ── HERO ── */
+.species-detail-hero {
+  padding: 4px 24px 0;
+  margin-bottom: 8px;
+}
+
+.species-hero-img {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  border-radius: 22px;
+  overflow: hidden;
+  border: 1px dashed var(--data-pending-line);
+  background: var(--bg-card);
+  margin-bottom: 18px;
+}
+
+.species-hero-img img {
+  position: absolute;
+  inset: 0;
+  filter: saturate(0.9) brightness(0.85);
+}
+
+.species-hero-placeholder {
+  position: absolute;
+  inset: 0;
+}
+
+.data-pending-tag {
+  position: absolute;
+  left: 14px;
+  bottom: 14px;
+  z-index: 2;
+  padding: 5px 10px;
+  border-radius: var(--radius-pill);
+  background: rgba(0,0,0,0.55);
+  color: var(--text-secondary);
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.species-hero-info {
+  padding: 4px 2px 8px;
+  word-break: keep-all;
+}
+
+.species-detail-kr {
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: 1.2;
+  margin-bottom: 6px;
+}
+
+.species-detail-sci {
+  font-family: 'Cormorant Garamond', var(--font-sci), serif;
+  font-style: italic;
+  font-size: 17px;
+  color: var(--green-soft);
+  line-height: 1.3;
+}
+
+/* ── SECTION SHELL ── */
+.species-info-section {
+  padding: 0 24px;
+  margin-top: 32px;
+}
+
+.species-info-eyebrow {
+  color: var(--text-secondary);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  margin-bottom: 6px;
+}
+
+.species-info-title {
+  color: var(--text-primary);
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  word-break: keep-all;
+}
+
+.info-card {
+  background: var(--section-card-bg);
+  border: 1px solid var(--section-card-border);
+  border-radius: 18px;
+  padding: 18px;
+  word-break: keep-all;
+}
+
+.info-card--text {
+  padding: 20px;
+}
+
+.info-card-primary {
+  font-family: 'Cormorant Garamond', var(--font-sci), serif;
+  font-style: italic;
+  font-size: 18px;
+  color: var(--text-primary);
+  margin-bottom: 14px;
+  line-height: 1.3;
+}
+
+.info-card-secondary {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  padding: 8px 0;
+  border-top: 1px solid var(--border-faint);
+  font-size: 13px;
+}
+
+.info-meta-label {
+  color: var(--text-muted);
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.info-meta-value {
+  color: var(--text-primary);
+  font-size: 13px;
+  text-align: right;
+  overflow-wrap: anywhere;
+}
+
+.info-card-body {
+  color: var(--text-secondary);
+  font-size: 14px;
+  line-height: 1.65;
+  word-break: keep-all;
+}
+
+/* ── STATUS BADGE GRID ── */
+.status-badge-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+@media (min-width: 480px) {
+  .status-badge-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.status-badge {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 16px 14px;
+  border-radius: 16px;
+  background: var(--section-card-bg);
+  border: 1px solid var(--section-card-border);
+  min-height: 116px;
+  transition: transform 0.18s ease;
+  word-break: keep-all;
+}
+
+.status-badge-icon {
+  display: inline-flex;
+  width: 36px;
+  height: 36px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.05);
+  color: var(--text-secondary);
+}
+
+.status-badge-label {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: 0.02em;
+}
+
+.status-badge-value {
+  font-size: 11px;
+  color: var(--text-muted);
+  line-height: 1.3;
+  margin-top: auto;
+  font-weight: 600;
+}
+
+/* Active (해당) state — color by data-badge-key */
+.status-badge[data-status="active"] {
+  border-color: rgba(255,255,255,0.18);
+}
+
+.status-badge[data-status="active"] .status-badge-value {
+  color: #fff;
+  font-weight: 700;
+}
+
+.status-badge[data-status="active"][data-badge-key="endangered"] {
+  background: rgba(217,74,74,0.18);
+  border-color: rgba(217,74,74,0.55);
+}
+.status-badge[data-status="active"][data-badge-key="endangered"] .status-badge-icon {
+  background: var(--status-endangered);
+  color: #fff;
+}
+
+.status-badge[data-status="active"][data-badge-key="invasive"] {
+  background: rgba(224,138,60,0.16);
+  border-color: rgba(224,138,60,0.52);
+}
+.status-badge[data-status="active"][data-badge-key="invasive"] .status-badge-icon {
+  background: var(--status-invasive);
+  color: #fff;
+}
+
+.status-badge[data-status="active"][data-badge-key="hazardous"] {
+  background: rgba(217,189,62,0.16);
+  border-color: rgba(217,189,62,0.5);
+}
+.status-badge[data-status="active"][data-badge-key="hazardous"] .status-badge-icon {
+  background: var(--status-hazardous);
+  color: #1a1a1a;
+}
+
+.status-badge[data-status="active"][data-badge-key="naturalMonument"] {
+  background: rgba(199,154,59,0.18);
+  border-color: rgba(199,154,59,0.55);
+}
+.status-badge[data-status="active"][data-badge-key="naturalMonument"] .status-badge-icon {
+  background: var(--status-natural);
+  color: #1a1a1a;
+}
+
+.status-badge[data-status="active"][data-badge-key="harmful"] {
+  background: rgba(140,47,47,0.22);
+  border-color: rgba(140,47,47,0.6);
+}
+.status-badge[data-status="active"][data-badge-key="harmful"] .status-badge-icon {
+  background: var(--status-harmful);
+  color: #fff;
+}
+
+.status-badge[data-status="active"][data-badge-key="endemic"] {
+  background: rgba(78,163,138,0.16);
+  border-color: rgba(78,163,138,0.55);
+}
+.status-badge[data-status="active"][data-badge-key="endemic"] .status-badge-icon {
+  background: var(--status-endemic);
+  color: #fff;
+}
+
+/* Inactive (비해당) state */
+.status-badge[data-status="inactive"] {
+  background: rgba(255,255,255,0.02);
+  border-color: var(--border-faint);
+}
+
+.status-badge[data-status="inactive"] .status-badge-icon,
+.status-badge[data-status="inactive"] .status-badge-label,
+.status-badge[data-status="inactive"] .status-badge-value {
+  color: var(--text-faint);
+  opacity: 0.7;
+}
+
+/* Unknown (데이터 없음) state */
+.status-badge[data-status="unknown"] {
+  background: transparent;
+  border: 1px dashed var(--data-pending-line);
+}
+
+.status-badge[data-status="unknown"] .status-badge-icon {
+  background: rgba(255,255,255,0.03);
+  color: var(--text-faint);
+}
+
+.status-badge[data-status="unknown"] .status-badge-value {
+  color: var(--text-faint);
+  font-style: italic;
+  font-weight: 500;
+}
+
+/* ── TAXONOMY TREE ── */
+.taxonomy-tree {
+  background: var(--section-card-bg);
+  border: 1px solid var(--section-card-border);
+  border-radius: 18px;
+  padding: 8px 18px;
+}
+
+.taxonomy-step {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 14px 0 14px 24px;
+  border-bottom: 1px solid var(--border-faint);
+}
+
+.taxonomy-step::before {
+  content: '';
+  position: absolute;
+  left: 6px;
+  top: 22px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--green-mid);
+  opacity: 0.55;
+}
+
+.taxonomy-step::after {
+  content: '';
+  position: absolute;
+  left: 9.5px;
+  top: 30px;
+  bottom: -1px;
+  width: 1px;
+  background: var(--border-faint);
+}
+
+.taxonomy-step:last-child {
+  border-bottom: none;
+}
+
+.taxonomy-step:last-child::after {
+  display: none;
+}
+
+.taxonomy-step--leaf::before {
+  background: var(--green-soft);
+  opacity: 1;
+  box-shadow: 0 0 0 4px rgba(140,168,146,0.18);
+}
+
+.taxonomy-rank {
+  color: var(--text-muted);
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.taxonomy-value {
+  color: var(--text-primary);
+  font-size: 14px;
+  font-weight: 600;
+  word-break: keep-all;
+}
+
+.taxonomy-step[data-pending="true"] .taxonomy-value {
+  color: var(--text-faint);
+  font-style: italic;
+  font-weight: 500;
+}
+
+/* ── SIZE VISUALIZATION ── */
+.size-card {
+  padding: 20px 18px;
+}
+
+.size-visual {
+  position: relative;
+  padding: 10px 4px 22px;
+  margin-bottom: 14px;
+}
+
+.size-ruler {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 14px;
+  margin-bottom: 8px;
+}
+
+.size-ruler-tick {
+  width: 1px;
+  height: 8px;
+  background: var(--text-faint);
+}
+
+.size-ruler-tick:nth-child(odd) {
+  height: 14px;
+  background: var(--text-muted);
+}
+
+.size-bar {
+  position: relative;
+  height: 10px;
+  border-radius: var(--radius-pill);
+  background: rgba(255,255,255,0.06);
+  overflow: hidden;
+}
+
+.size-bar-fill {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: var(--size-start, 30%);
+  right: calc(100% - var(--size-end, 65%));
+  background: linear-gradient(90deg, var(--green-mid), var(--green-soft));
+  border-radius: var(--radius-pill);
+}
+
+.size-bar-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+}
+
+.size-bar-arrow--left {
+  left: calc(var(--size-start, 30%) - 6px);
+  border-right: 7px solid var(--green-mid);
+}
+
+.size-bar-arrow--right {
+  left: calc(var(--size-end, 65%) - 1px);
+  border-left: 7px solid var(--green-soft);
+}
+
+.size-text {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.size-range {
+  font-family: 'Cormorant Garamond', var(--font-sci), serif;
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.size-hint {
+  font-size: 11px;
+  color: var(--text-muted);
+  letter-spacing: 0.04em;
+}
+
+/* ── HABITAT ── */
+.habitat-card {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.habitat-row {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+}
+
+.habitat-icon {
+  flex: 0 0 40px;
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  background: rgba(127,168,142,0.16);
+  color: var(--green-soft);
+}
+
+.habitat-text {
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--text-secondary);
+  word-break: keep-all;
+}
+
+.habitat-map {
+  position: relative;
+  width: 100%;
+  height: 160px;
+  border-radius: 14px;
+  border: 1px dashed var(--data-pending-line);
+  background:
+    radial-gradient(ellipse at 50% 60%, rgba(127,168,142,0.10), transparent 60%),
+    linear-gradient(160deg, rgba(255,255,255,0.025), rgba(255,255,255,0.01));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.habitat-map-placeholder {
+  font-size: 11px;
+  color: var(--text-faint);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+/* ── LIFE CYCLE ── */
+.lifecycle-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  position: relative;
+}
+
+.lifecycle-stage {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 6px;
+  padding: 14px 6px 12px;
+  background: var(--section-card-bg);
+  border: 1px solid var(--section-card-border);
+  border-radius: 14px;
+  word-break: keep-all;
+}
+
+.lifecycle-stage:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  right: -7px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 6px solid var(--green-mid);
+  opacity: 0.65;
+  z-index: 1;
+}
+
+.lifecycle-icon {
+  display: inline-flex;
+  width: 38px;
+  height: 38px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgba(127,168,142,0.14);
+  color: var(--green-soft);
+  margin-bottom: 4px;
+}
+
+.lifecycle-name {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.lifecycle-sub {
+  font-family: 'Cormorant Garamond', var(--font-sci), serif;
+  font-style: italic;
+  font-size: 11px;
+  color: var(--text-muted);
+}
+
+.lifecycle-desc {
+  font-size: 10px;
+  color: var(--text-faint);
+  line-height: 1.3;
+  margin-top: 2px;
+  font-weight: 500;
+}
+
+.lifecycle-stage[data-pending="true"] .lifecycle-desc {
+  font-style: italic;
+}
+
+/* Add bottom breathing room for last section before bottom-nav */
+#pageSpeciesDetail .species-info-section:last-of-type {
+  margin-bottom: 40px;
+}

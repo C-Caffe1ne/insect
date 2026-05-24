@@ -338,6 +338,295 @@
     </div>
 
     <!-- ═══════════════════════════════════════════ -->
+    <!-- PAGE 3-B: SPECIES DETAIL (INFOGRAPHIC)      -->
+    <!-- ═══════════════════════════════════════════ -->
+    <div class="page" id="pageSpeciesDetail">
+      <div class="family-detail-topbar species-detail-topbar">
+        <button class="family-back-btn" id="speciesDetailBackBtn" aria-label="이전 페이지로 돌아가기">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+            <line x1="19" y1="12" x2="5" y2="12"></line>
+            <polyline points="12 19 5 12 12 5"></polyline>
+          </svg>
+        </button>
+        <h2 class="family-detail-title">종 상세</h2>
+      </div>
+
+      <!-- ── HERO ── -->
+      <section class="species-detail-hero">
+        <div class="species-hero-img" id="speciesDetailHeroImg" data-slot="heroImg">
+          <div class="placeholder-img placeholder-img--bee species-hero-placeholder"></div>
+          <span class="data-pending-tag">사진 데이터 준비 중</span>
+        </div>
+        <div class="species-hero-info">
+          <p class="species-detail-kr" data-slot="commonName">이름 미상</p>
+          <p class="species-detail-sci" data-slot="scientificName">Scientific name</p>
+        </div>
+      </section>
+
+      <!-- ── STATUS BADGES ── -->
+      <section class="species-info-section">
+        <h3 class="species-info-eyebrow">CONSERVATION STATUS</h3>
+        <p class="species-info-title">보전 상태</p>
+        <div class="status-badge-grid" id="statusBadgeGrid">
+          <article class="status-badge" data-status="unknown" data-badge-key="endangered">
+            <span class="status-badge-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z" />
+                <line x1="12" x2="12" y1="9" y2="13" />
+                <line x1="12" x2="12.01" y1="17" y2="17" />
+              </svg>
+            </span>
+            <span class="status-badge-label">멸종위기</span>
+            <span class="status-badge-value" data-slot="endangered">데이터 없음</span>
+          </article>
+
+          <article class="status-badge" data-status="unknown" data-badge-key="invasive">
+            <span class="status-badge-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="7.86 2 16.14 2 22 7.86 22 16.14 16.14 22 7.86 22 2 16.14 2 7.86 7.86 2" />
+                <line x1="12" x2="12" y1="8" y2="12" />
+                <line x1="12" x2="12.01" y1="16" y2="16" />
+              </svg>
+            </span>
+            <span class="status-badge-label">생태계교란</span>
+            <span class="status-badge-value" data-slot="invasive">데이터 없음</span>
+          </article>
+
+          <article class="status-badge" data-status="unknown" data-badge-key="hazardous">
+            <span class="status-badge-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10" />
+                <line x1="12" y1="8" x2="12" y2="12" />
+                <line x1="12" y1="16" x2="12.01" y2="16" />
+              </svg>
+            </span>
+            <span class="status-badge-label">위해우려</span>
+            <span class="status-badge-value" data-slot="hazardous">데이터 없음</span>
+          </article>
+
+          <article class="status-badge" data-status="unknown" data-badge-key="naturalMonument">
+            <span class="status-badge-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+              </svg>
+            </span>
+            <span class="status-badge-label">천연기념물</span>
+            <span class="status-badge-value" data-slot="naturalMonument">데이터 없음</span>
+          </article>
+
+          <article class="status-badge" data-status="unknown" data-badge-key="harmful">
+            <span class="status-badge-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 9v4" />
+                <path
+                  d="M10.363 3.591 2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0Z" />
+                <path d="M12 16h.01" />
+              </svg>
+            </span>
+            <span class="status-badge-label">유해종</span>
+            <span class="status-badge-value" data-slot="harmful">데이터 없음</span>
+          </article>
+
+          <article class="status-badge" data-status="unknown" data-badge-key="endemic">
+            <span class="status-badge-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z" />
+                <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12" />
+              </svg>
+            </span>
+            <span class="status-badge-label">한국고유종</span>
+            <span class="status-badge-value" data-slot="endemic">데이터 없음</span>
+          </article>
+        </div>
+      </section>
+
+      <!-- ── TAXONOMY TREE ── -->
+      <section class="species-info-section">
+        <h3 class="species-info-eyebrow">TAXONOMY</h3>
+        <p class="species-info-title">분류 계층</p>
+        <ol class="taxonomy-tree" id="taxonomyTree">
+          <li class="taxonomy-step">
+            <span class="taxonomy-rank">계 · Kingdom</span>
+            <span class="taxonomy-value" data-slot="taxKingdom">동물계 (Animalia)</span>
+          </li>
+          <li class="taxonomy-step">
+            <span class="taxonomy-rank">문 · Phylum</span>
+            <span class="taxonomy-value" data-slot="taxPhylum">절지동물문 (Arthropoda)</span>
+          </li>
+          <li class="taxonomy-step">
+            <span class="taxonomy-rank">강 · Class</span>
+            <span class="taxonomy-value" data-slot="taxClass">곤충강 (Insecta)</span>
+          </li>
+          <li class="taxonomy-step">
+            <span class="taxonomy-rank">목 · Order</span>
+            <span class="taxonomy-value" data-slot="taxOrder">데이터 준비 중</span>
+          </li>
+          <li class="taxonomy-step">
+            <span class="taxonomy-rank">과 · Family</span>
+            <span class="taxonomy-value" data-slot="taxFamily">데이터 준비 중</span>
+          </li>
+          <li class="taxonomy-step">
+            <span class="taxonomy-rank">속 · Genus</span>
+            <span class="taxonomy-value" data-slot="taxGenus">데이터 준비 중</span>
+          </li>
+          <li class="taxonomy-step taxonomy-step--leaf">
+            <span class="taxonomy-rank">종 · Species</span>
+            <span class="taxonomy-value" data-slot="taxSpecies">데이터 준비 중</span>
+          </li>
+        </ol>
+      </section>
+
+      <!-- ── SCIENTIFIC NAME / AUTHOR CARD ── -->
+      <section class="species-info-section">
+        <h3 class="species-info-eyebrow">SCIENTIFIC NAME</h3>
+        <p class="species-info-title">학명</p>
+        <div class="info-card">
+          <p class="info-card-primary" data-slot="fullScientificName">— 데이터 준비 중 —</p>
+          <p class="info-card-secondary">
+            <span class="info-meta-label">명명자 · Author</span>
+            <span class="info-meta-value" data-slot="author">— 곧 공개됩니다 —</span>
+          </p>
+          <p class="info-card-secondary">
+            <span class="info-meta-label">연도 · Year</span>
+            <span class="info-meta-value" data-slot="year">—</span>
+          </p>
+        </div>
+      </section>
+
+      <!-- ── DESCRIPTION ── -->
+      <section class="species-info-section">
+        <h3 class="species-info-eyebrow">DESCRIPTION</h3>
+        <p class="species-info-title">곤충 설명</p>
+        <div class="info-card info-card--text">
+          <p class="info-card-body" data-slot="description">
+            이 종에 대한 상세 설명은 데이터 연결 후 표시됩니다. 형태적 특징, 행동 습성, 분포 정보 등이 이곳에 채워질 예정입니다.
+          </p>
+        </div>
+      </section>
+
+      <!-- ── SIZE VISUALIZATION ── -->
+      <section class="species-info-section">
+        <h3 class="species-info-eyebrow">SIZE</h3>
+        <p class="species-info-title">크기</p>
+        <div class="info-card size-card">
+          <div class="size-visual" aria-hidden="true">
+            <div class="size-ruler">
+              <span class="size-ruler-tick"></span>
+              <span class="size-ruler-tick"></span>
+              <span class="size-ruler-tick"></span>
+              <span class="size-ruler-tick"></span>
+              <span class="size-ruler-tick"></span>
+              <span class="size-ruler-tick"></span>
+              <span class="size-ruler-tick"></span>
+              <span class="size-ruler-tick"></span>
+              <span class="size-ruler-tick"></span>
+              <span class="size-ruler-tick"></span>
+              <span class="size-ruler-tick"></span>
+            </div>
+            <div class="size-bar" data-slot="sizeBar" style="--size-start: 30%; --size-end: 65%;">
+              <span class="size-bar-fill"></span>
+              <span class="size-bar-arrow size-bar-arrow--left"></span>
+              <span class="size-bar-arrow size-bar-arrow--right"></span>
+            </div>
+          </div>
+          <p class="size-text">
+            <span class="size-range" data-slot="sizeRange">— ~ — mm</span>
+            <span class="size-hint">성충 기준 · 데이터 준비 중</span>
+          </p>
+        </div>
+      </section>
+
+      <!-- ── HABITAT ── -->
+      <section class="species-info-section">
+        <h3 class="species-info-eyebrow">HABITAT</h3>
+        <p class="species-info-title">서식지</p>
+        <div class="info-card habitat-card">
+          <div class="habitat-row">
+            <span class="habitat-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+            </span>
+            <p class="habitat-text" data-slot="habitat">서식지 정보는 데이터 연결 후 표시됩니다.</p>
+          </div>
+          <div class="habitat-map" data-slot="habitatMap" aria-hidden="true">
+            <span class="habitat-map-placeholder">한국 지도 데이터 준비 중</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── LIFE CYCLE ── -->
+      <section class="species-info-section">
+        <h3 class="species-info-eyebrow">LIFE CYCLE</h3>
+        <p class="species-info-title">생애 주기</p>
+        <ol class="lifecycle-grid" id="lifecycleGrid">
+          <li class="lifecycle-stage" data-stage="egg">
+            <span class="lifecycle-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <ellipse cx="12" cy="13" rx="6" ry="8" />
+              </svg>
+            </span>
+            <span class="lifecycle-name">알</span>
+            <span class="lifecycle-sub">Egg</span>
+            <span class="lifecycle-desc" data-slot="lifecycleEgg">준비 중</span>
+          </li>
+          <li class="lifecycle-stage" data-stage="larva">
+            <span class="lifecycle-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 14c2-3 4-3 5 0s3 3 4 0 3-3 4 0 3 3 5 0" />
+                <circle cx="20" cy="11" r="0.8" fill="currentColor" />
+              </svg>
+            </span>
+            <span class="lifecycle-name">유충</span>
+            <span class="lifecycle-sub">Larva</span>
+            <span class="lifecycle-desc" data-slot="lifecycleLarva">준비 중</span>
+          </li>
+          <li class="lifecycle-stage" data-stage="pupa">
+            <span class="lifecycle-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 3c3 0 6 3 6 8s-3 10-6 10-6-5-6-10 3-8 6-8Z" />
+                <path d="M9 9h6M9 13h6M9 17h6" />
+              </svg>
+            </span>
+            <span class="lifecycle-name">번데기</span>
+            <span class="lifecycle-sub">Pupa</span>
+            <span class="lifecycle-desc" data-slot="lifecyclePupa">준비 중</span>
+          </li>
+          <li class="lifecycle-stage" data-stage="adult">
+            <span class="lifecycle-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <rect width="6" height="12" x="9" y="7" rx="3" />
+                <path d="m18 8-3 2" />
+                <path d="m6 8 3 2" />
+                <path d="m18 18-3-2" />
+                <path d="m6 18 3-2" />
+                <path d="M19 13h-4" />
+                <path d="M5 13h4" />
+              </svg>
+            </span>
+            <span class="lifecycle-name">성충</span>
+            <span class="lifecycle-sub">Adult</span>
+            <span class="lifecycle-desc" data-slot="lifecycleAdult">준비 중</span>
+          </li>
+        </ol>
+      </section>
+    </div>
+
+    <!-- ═══════════════════════════════════════════ -->
     <!-- PAGE 4: SEARCH                              -->
     <!-- ═══════════════════════════════════════════ -->
     <div class="page" id="pageSearch">
@@ -811,6 +1100,12 @@
     let previousFamilyPage = 'pageFamilyList';
     let currentSpeciesList = [];
     let currentSpeciesSort = 'popular';
+    let selectedSpecies = null;
+    let previousSpeciesPage = 'pageFamilyDetail';
+
+    // EOL TraitBank 캐시 — eol_species_cache.json (cached/cache_eol_species.mjs로 생성)
+    let eolCacheData = null;
+    let eolCacheLoading = null;
 
     // 캐싱된 종 데이터 로드 (korea_insect_species_by_family.json)
     function loadCachedSpecies() {
@@ -1148,13 +1443,47 @@
       list.forEach((item, index) => {
         const card = document.createElement('article');
         card.className = 'species-detail-card';
-        card.innerHTML = `
-          <div class="species-detail-img">
-            <img src="${getFamilyImage(index)}" alt="${escapeHTML(item.commonName || item.scientificName)}" loading="lazy" />
-          </div>
-          <h3>${escapeHTML(item.commonName || item.scientificName)}</h3>
-          <p>${escapeHTML(item.scientificName)}</p>
-        `;
+        card.setAttribute('role', 'button');
+        card.tabIndex = 0;
+
+        const imgWrap = document.createElement('div');
+        imgWrap.className = 'species-detail-img';
+        const img = document.createElement('img');
+        img.src = getFamilyImage(index);
+        img.alt = item.commonName || item.scientificName || '';
+        img.loading = 'lazy';
+        imgWrap.appendChild(img);
+
+        const h3 = document.createElement('h3');
+        h3.textContent = item.commonName || item.scientificName || '';
+        const p = document.createElement('p');
+        p.textContent = item.scientificName || '';
+
+        card.append(imgWrap, h3, p);
+
+        const openDetail = () => {
+          const placeholder = buildPlaceholderSpecies(item.scientificName, item.commonName);
+          openSpeciesDetail({
+            ...placeholder,
+            scientificName: item.scientificName || placeholder.scientificName,
+            rawScientificName: item.scientificName,
+            commonName: item.commonName || placeholder.commonName,
+            taxonomy: {
+              ...placeholder.taxonomy,
+              genus: item.genus || placeholder.taxonomy.genus,
+              species: item.species || placeholder.taxonomy.species
+            }
+          }, 'pageFamilyDetail');
+        };
+
+        card.addEventListener('click', openDetail);
+        card.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            openDetail();
+          }
+        });
+
         grid.appendChild(card);
       });
     }
@@ -1261,6 +1590,9 @@
         renderSpecies(speciesCache[familyKey]);
       }
     }
+
+    // ── EOL 캐시 사전 로드 (비차단) — 종 상세 페이지 진입 전 미리 메모리 캐싱 ──
+    loadEolCache();
 
     // ── 데이터 로드 ──
     fetch('taxonomy/index.json')
@@ -1494,6 +1826,371 @@
     document.querySelectorAll('a.see-all, a.profile-view-all').forEach(a => {
       a.addEventListener('click', (e) => { e.preventDefault(); });
     });
+
+    // ══════════════════════════════════════════════
+    // SPECIES DETAIL PAGE (INFOGRAPHIC)
+    // 데이터 연결 후크: openSpeciesDetail(species, fromPage)로 진입
+    // species 객체 스키마는 buildPlaceholderSpecies() 반환 형태와 호환
+    // ══════════════════════════════════════════════
+
+    // 자리표시자 species 객체 생성 — 추후 실제 API/JSON 응답으로 교체 가능
+    function buildPlaceholderSpecies(scientificName, commonName) {
+      return {
+        scientificName: scientificName || '학명 미상',
+        commonName: commonName || '이름 미상',
+        author: null,
+        year: null,
+        images: [],
+        conservationStatus: {
+          endangered: null,       // 'I' | 'II' | '관찰종' | null
+          invasive: null,         // boolean | null
+          hazardous: null,        // boolean | null
+          naturalMonument: null,  // 지정번호 string | null
+          harmful: null,          // boolean | null
+          endemic: null           // boolean | null
+        },
+        taxonomy: {
+          kingdom: '동물계 (Animalia)',
+          phylum: '절지동물문 (Arthropoda)',
+          class: '곤충강 (Insecta)',
+          order: selectedOrder
+            ? ([selectedOrder.commonName, selectedOrder.scientificName ? `(${selectedOrder.scientificName})` : null]
+                .filter(Boolean).join(' ') || null)
+            : null,
+          family: selectedFamily
+            ? ([selectedFamily.commonName, selectedFamily.scientificName ? `(${selectedFamily.scientificName})` : null]
+                .filter(Boolean).join(' ') || null)
+            : null,
+          genus: null,
+          species: null
+        },
+        description: null,
+        habitat: null,
+        habitatRegions: [],
+        lifecycle: { egg: null, larva: null, pupa: null, adult: null },
+        size: null   // { min: number, max: number, unit: 'mm' }
+      };
+    }
+
+    // 슬롯 채우기 헬퍼 — textContent는 안전 출력. 동일 값이면 DOM 갱신을 skip(idempotent)
+    // 같은 species로 재렌더 시 불필요한 깜빡임 방지.
+    function setSlot(root, slotName, value, fallback) {
+      const el = root.querySelector(`[data-slot="${slotName}"]`);
+      if (!el) return false;
+      const hasValue = value !== null && value !== undefined && value !== '';
+      const nextText = hasValue ? String(value) : (fallback ?? '데이터 준비 중');
+      if (el.textContent !== nextText) el.textContent = nextText;
+      const pendingStr = hasValue ? 'false' : 'true';
+      if (el.dataset.pending !== pendingStr) el.dataset.pending = pendingStr;
+      return hasValue;
+    }
+
+    // 배지 상태 매핑 — 각 키별로 'active' | 'inactive' | 'unknown' + 표시 텍스트
+    function resolveBadge(key, raw) {
+      // unknown: 값이 null/undefined
+      if (raw === null || raw === undefined) {
+        return { status: 'unknown', text: '데이터 없음' };
+      }
+      // 키별 표현 규칙
+      switch (key) {
+        case 'endangered': {
+          // 'I' | 'II' | '관찰종' | '해당없음' | falsy → inactive
+          if (!raw || raw === '해당없음') return { status: 'inactive', text: '해당없음' };
+          const labelMap = { 'I': 'Ⅰ급', 'II': 'Ⅱ급', '관찰종': '관찰종' };
+          return { status: 'active', text: labelMap[raw] || String(raw) };
+        }
+        case 'naturalMonument': {
+          // 지정번호 string이 있으면 active, 아니면 inactive
+          if (!raw) return { status: 'inactive', text: '해당없음' };
+          return { status: 'active', text: `제${raw}호` };
+        }
+        case 'invasive':
+        case 'hazardous':
+        case 'harmful':
+        case 'endemic': {
+          // boolean
+          return raw === true
+            ? { status: 'active', text: '해당' }
+            : { status: 'inactive', text: '해당없음' };
+        }
+        default:
+          return { status: 'unknown', text: '데이터 없음' };
+      }
+    }
+
+    function applyBadge(badgeEl, badgeState) {
+      if (!badgeEl) return;
+      badgeEl.dataset.status = badgeState.status;
+      const valueEl = badgeEl.querySelector('.status-badge-value');
+      if (valueEl) valueEl.textContent = badgeState.text;
+    }
+
+    // 히어로 이미지 placeholder DOM 헬퍼 — 초기 마크업과 렌더 분기에서 공통 사용
+    function createHeroPlaceholder() {
+      const frag = document.createDocumentFragment();
+      const ph = document.createElement('div');
+      ph.className = 'placeholder-img placeholder-img--bee species-hero-placeholder';
+      const tag = document.createElement('span');
+      tag.className = 'data-pending-tag';
+      tag.textContent = '사진 데이터 준비 중';
+      frag.append(ph, tag);
+      return frag;
+    }
+
+    // 메인 렌더 — species 객체를 받아 pageSpeciesDetail의 모든 슬롯을 채움
+    function renderSpeciesDetail(species) {
+      const page = document.getElementById('pageSpeciesDetail');
+      if (!page || !species) return;
+
+      // ── 히어로: 이름 ──
+      setSlot(page, 'commonName', species.commonName, '이름 미상');
+      setSlot(page, 'scientificName', species.scientificName, 'Scientific name');
+
+      // ── 히어로 이미지 ── (URL 동일하면 DOM 교체 skip → 깜빡임 제거)
+      const heroImg = page.querySelector('[data-slot="heroImg"]');
+      if (heroImg) {
+        const url = Array.isArray(species.images) && species.images.length > 0 ? species.images[0] : null;
+        const wantUrl = url || '';
+        const currentUrl = heroImg.dataset.currentUrl || '';
+        if (currentUrl !== wantUrl) {
+          heroImg.replaceChildren();
+          if (url) {
+            const img = document.createElement('img');
+            img.src = url;
+            img.alt = species.commonName || species.scientificName || '곤충 사진';
+            img.loading = 'lazy';
+            heroImg.appendChild(img);
+            heroImg.dataset.pending = 'false';
+          } else {
+            heroImg.appendChild(createHeroPlaceholder());
+            heroImg.dataset.pending = 'true';
+          }
+          heroImg.dataset.currentUrl = wantUrl;
+        }
+      }
+
+      // ── 상태 배지 6종 ──
+      const cs = species.conservationStatus || {};
+      ['endangered', 'invasive', 'hazardous', 'naturalMonument', 'harmful', 'endemic'].forEach(key => {
+        const badge = page.querySelector(`.status-badge[data-badge-key="${key}"]`);
+        applyBadge(badge, resolveBadge(key, cs[key]));
+      });
+
+      // ── 분류 트리 ──
+      const tax = species.taxonomy || {};
+      const taxSlots = [
+        ['taxKingdom', tax.kingdom, '동물계 (Animalia)'],
+        ['taxPhylum', tax.phylum, '절지동물문 (Arthropoda)'],
+        ['taxClass', tax.class, '곤충강 (Insecta)'],
+        ['taxOrder', tax.order, '데이터 준비 중'],
+        ['taxFamily', tax.family, '데이터 준비 중'],
+        ['taxGenus', tax.genus, '데이터 준비 중'],
+        ['taxSpecies', tax.species, '데이터 준비 중']
+      ];
+      taxSlots.forEach(([slot, val, fallback]) => {
+        const filled = setSlot(page, slot, val, fallback);
+        const step = page.querySelector(`[data-slot="${slot}"]`)?.closest('.taxonomy-step');
+        if (step) step.dataset.pending = filled ? 'false' : 'true';
+      });
+
+      // ── 학명/명명자/연도 ──
+      const fullName = species.scientificName
+        ? (species.author && species.year
+            ? `${species.scientificName} ${species.author}, ${species.year}`
+            : species.scientificName)
+        : null;
+      setSlot(page, 'fullScientificName', fullName, '— 데이터 준비 중 —');
+      setSlot(page, 'author', species.author, '— 곧 공개됩니다 —');
+      setSlot(page, 'year', species.year, '—');
+
+      // ── 설명 ──
+      setSlot(page, 'description', species.description,
+        '이 종에 대한 상세 설명은 데이터 연결 후 표시됩니다. 형태적 특징, 행동 습성, 분포 정보 등이 이곳에 채워질 예정입니다.');
+
+      // ── 크기 ──
+      const sizeBar = page.querySelector('[data-slot="sizeBar"]');
+      if (species.size && typeof species.size.min === 'number' && typeof species.size.max === 'number') {
+        const unit = species.size.unit || 'mm';
+        setSlot(page, 'sizeRange', `${species.size.min} ~ ${species.size.max} ${unit}`);
+        if (sizeBar) {
+          // 가정 범위 0~100mm — 데이터 연결 시 더 정교한 스케일 가능
+          const maxScale = 100;
+          const startPct = Math.min(100, Math.max(0, (species.size.min / maxScale) * 100));
+          const endPct = Math.min(100, Math.max(startPct + 5, (species.size.max / maxScale) * 100));
+          sizeBar.style.setProperty('--size-start', `${startPct}%`);
+          sizeBar.style.setProperty('--size-end', `${endPct}%`);
+        }
+      } else {
+        setSlot(page, 'sizeRange', null, '— ~ — mm');
+        if (sizeBar) {
+          sizeBar.style.setProperty('--size-start', '30%');
+          sizeBar.style.setProperty('--size-end', '65%');
+        }
+      }
+
+      // ── 서식지 ──
+      setSlot(page, 'habitat', species.habitat,
+        '서식지 정보는 데이터 연결 후 표시됩니다.');
+
+      // ── 생애 주기 ──
+      const lc = species.lifecycle || {};
+      const lifecycleSlots = [
+        ['lifecycleEgg', lc.egg],
+        ['lifecycleLarva', lc.larva],
+        ['lifecyclePupa', lc.pupa],
+        ['lifecycleAdult', lc.adult]
+      ];
+      lifecycleSlots.forEach(([slot, val]) => {
+        const filled = setSlot(page, slot, val, '준비 중');
+        const stage = page.querySelector(`[data-slot="${slot}"]`)?.closest('.lifecycle-stage');
+        if (stage) stage.dataset.pending = filled ? 'false' : 'true';
+      });
+    }
+
+    // ── EOL 캐시 로더 / 학명 정규화 / species 병합 ──
+    // Node 스크립트의 canonicalize 로직을 그대로 이식 — 양쪽 키 형식이 일치해야 함
+    function canonicalizeSciName(raw) {
+      if (!raw) return '';
+      let s = String(raw).replace(/\([^)]*\)/g, ' ');
+      s = s.replace(/,?\s*\d{4}\b.*$/, '');
+      s = s.trim().replace(/\s+/g, ' ');
+      if (!s) return '';
+      const tokens = s.split(' ');
+      const out = [];
+      for (let i = 0; i < tokens.length; i += 1) {
+        const t = tokens[i];
+        if (!t) continue;
+        if (i === 0) out.push(t);
+        else if (/^[a-z]/.test(t) && out.length < 3) out.push(t);
+        else break;
+      }
+      return out.join(' ');
+    }
+
+    function loadEolCache() {
+      if (eolCacheData) return Promise.resolve(eolCacheData);
+      if (eolCacheLoading) return eolCacheLoading;
+      eolCacheLoading = fetch('eol_species_cache.json')
+        .then(r => {
+          if (!r.ok) throw new Error(`HTTP ${r.status}`);
+          return r.json();
+        })
+        .then(data => {
+          eolCacheData = data && typeof data === 'object' ? data : { species: {} };
+          if (!eolCacheData.species) eolCacheData.species = {};
+          return eolCacheData;
+        })
+        .catch(err => {
+          console.warn('EOL 캐시 로드 실패 (자리표시자만 표시):', err.message);
+          eolCacheData = { species: {} };
+          return eolCacheData;
+        });
+      return eolCacheLoading;
+    }
+
+    // EOL 캐시에서 학명으로 조회하여 species 객체의 빈 필드를 보강
+    // 없거나 ok 상태가 아니면 species를 그대로 반환
+    function enrichSpeciesWithEol(species) {
+      if (!eolCacheData || !species || !species.scientificName) return species;
+      const canonical = canonicalizeSciName(species.scientificName);
+      const entry = eolCacheData.species && eolCacheData.species[canonical];
+      if (!entry || entry.status !== 'ok') return species;
+
+      const t = entry.traitsSummary || {};
+      const v = entry.vernaculars || {};
+
+      // 1) 한국어 통명 — 입력이 없을 때만 EOL 통명으로 보강
+      if ((!species.commonName || species.commonName === '이름 미상') && Array.isArray(v.ko) && v.ko.length > 0) {
+        species.commonName = v.ko[0];
+      }
+
+      // 2) 서식지 (habitat ENVO + 분포 지역 요약)
+      const parts = [];
+      if (Array.isArray(t.habitat) && t.habitat.length > 0) parts.push(t.habitat.join(', '));
+      if (Array.isArray(t.geographic) && t.geographic.length > 0) {
+        const regions = t.geographic.slice(0, 10).join(', ');
+        const suffix = t.geographic.length > 10 ? ` 외 ${t.geographic.length - 10}개 지역` : '';
+        parts.push(`분포: ${regions}${suffix}`);
+      }
+      if (!species.habitat && parts.length > 0) {
+        species.habitat = parts.join(' · ');
+      }
+
+      // 3) habitatRegions 배열
+      if ((!Array.isArray(species.habitatRegions) || species.habitatRegions.length === 0) && Array.isArray(t.geographic)) {
+        species.habitatRegions = t.geographic.slice(0, 20);
+      }
+
+      // 4) 설명 — EOL은 description 텍스트 미제공. 통명/상호작용/관측수로 요약 합성
+      if (!species.description) {
+        const desc = [];
+        if (Array.isArray(v.en) && v.en.length > 0) desc.push(`영명: ${v.en.slice(0, 3).join(' / ')}`);
+        if (Array.isArray(v.ja) && v.ja.length > 0) desc.push(`일본어: ${v.ja.slice(0, 2).join(' / ')}`);
+        if (Array.isArray(t.eats) && t.eats.length > 0) desc.push(`먹이: ${t.eats.slice(0, 5).join(', ')}`);
+        if (Array.isArray(t.visitsFlowersOf) && t.visitsFlowersOf.length > 0) desc.push(`방문 꽃: ${t.visitsFlowersOf.slice(0, 5).join(', ')}`);
+        if (t.gbifRecords) desc.push(`GBIF 관측 기록: ${Number(t.gbifRecords).toLocaleString('ko-KR')}건`);
+        if (Array.isArray(t.introduced) && t.introduced.length > 0) desc.push(`도입 지역: ${t.introduced.join(', ')}`);
+        if (desc.length > 0) species.description = desc.join(' · ');
+      }
+
+      // 5) 학명 전체 / 명명자 / 연도 — 원본 학명 문자열에서 파싱
+      if (!species.author || !species.year) {
+        const rawSci = species.rawScientificName || species.scientificName;
+        const yearMatch = rawSci.match(/\b(\d{4})\b/);
+        if (yearMatch && !species.year) species.year = yearMatch[1];
+        // 명명자: ", YYYY" 직전의 대문자 시작 단어들
+        const authorMatch = rawSci.match(/\b([A-Z][A-Za-z'’.\- ]+?)(?:,?\s*\d{4})/);
+        if (authorMatch && !species.author) species.author = authorMatch[1].trim();
+      }
+
+      // 6) EOL 출처 — 페이지 ID 보존 (디버깅/링크용)
+      species.eolPageId = entry.pageId;
+      species.eolCanonical = canonical;
+
+      return species;
+    }
+
+    function openSpeciesDetail(species, fromPage = 'pageFamilyDetail') {
+      if (!species) return;
+      previousSpeciesPage = fromPage;
+      selectedSpecies = species;
+
+      // 깜빡임 방지: 캐시가 이미 로드돼 있으면 단 한 번만 렌더한다.
+      // 캐시가 아직 로드 중이면 200ms까지 짧게 기다렸다가, 그 안에 도착하면 1회 렌더.
+      // 시간 초과 시에만 placeholder를 먼저 보여주고 데이터 도착 후 한 번 더 렌더.
+      const render = () => {
+        if (selectedSpecies !== species) return; // race: 사용자가 다른 종으로 이동
+        enrichSpeciesWithEol(species);
+        renderSpeciesDetail(species);
+      };
+
+      if (eolCacheData) {
+        render();
+        showPage('pageSpeciesDetail', { keepNav: true });
+      } else {
+        let shownPlaceholder = false;
+        const placeholderTimer = setTimeout(() => {
+          if (selectedSpecies !== species) return;
+          shownPlaceholder = true;
+          renderSpeciesDetail(species);
+          showPage('pageSpeciesDetail', { keepNav: true });
+        }, 200);
+        loadEolCache().then(() => {
+          clearTimeout(placeholderTimer);
+          if (selectedSpecies !== species) return;
+          render();
+          if (!shownPlaceholder) showPage('pageSpeciesDetail', { keepNav: true });
+        });
+      }
+    }
+
+    // 백버튼 — 이전 페이지로 복귀 (기본 pageFamilyDetail)
+    const speciesDetailBackBtn = document.getElementById('speciesDetailBackBtn');
+    if (speciesDetailBackBtn) {
+      speciesDetailBackBtn.addEventListener('click', () => {
+        showPage(previousSpeciesPage || 'pageFamilyDetail', { keepNav: true });
+      });
+    }
 
     // ── Global Mouse Drag Scrolling for Carousel ──
     const familyCarousel = document.getElementById('otherFamilyCarousel');
