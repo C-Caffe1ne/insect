@@ -574,20 +574,6 @@ ul { list-style: none; }
   background: linear-gradient(to top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.1) 60%);
 }
 
-.order-badge {
-  position: absolute;
-  top: 14px;
-  left: 14px;
-  font-size: 8px;
-  letter-spacing: 0.22em;
-  color: var(--green-soft);
-  background: rgba(0,0,0,0.5);
-  padding: 4px 10px;
-  border-radius: var(--radius-pill);
-  backdrop-filter: blur(6px);
-  z-index: 2;
-}
-
 .order-body {
   padding: 20px;
 }
@@ -704,7 +690,7 @@ ul { list-style: none; }
 
 /* Dynamic order card names */
 .order-name-kr {
-  font-size: 20px;
+  font-size: 14px;
   font-weight: 600;
   line-height: 1.2;
   margin-bottom: 4px;
@@ -3208,5 +3194,26 @@ ul { list-style: none; }
   font-size: 11px;
   color: var(--text-faint, rgba(255,255,255,0.4));
   line-height: 1.6;
+}
+
+
+/* ══════════════════════════════════════════════
+   ORDER CARD EXPAND/COLLAPSE — FLIP 동반 효과
+   ══════════════════════════════════════════════ */
+
+/* FLIP 변환 시 transform-origin 일관성 유지 — 모든 카드 좌상단 기준
+   추가 키프레임은 적용하지 않는다. 카드 wrapper의 FLIP morph 하나만으로
+   확장/축소/정렬이 자연스럽게 표현되며, 내부 콘텐츠에 별도 페이드인을 걸면
+   비-변경 카드(같이 재렌더되는 다른 목 카드)에서도 페이드가 매번 실행되어
+   화면 전체에 깜빡임이 발생한다. */
+.order-card-mini {
+  transform-origin: 0 0;
+  will-change: transform;
+  backface-visibility: hidden;
+}
+
+/* 사용자가 모션 감소를 선호하면 FLIP 자체도 비활성하도록 JS 측에서 분기 */
+@media (prefers-reduced-motion: reduce) {
+  .order-card-mini { will-change: auto; }
 }
 

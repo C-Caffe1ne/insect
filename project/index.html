@@ -1349,7 +1349,6 @@
           <div class="expanded-img">
             <div class="placeholder-img" style="background: ${bg}"></div>
             <div class="order-img-overlay"></div>
-            <span class="order-badge">ORDER</span>
             <button class="expanded-close" onclick="collapseOrder(event)">✕</button>
           </div>
           <div class="expanded-body">
@@ -1369,7 +1368,6 @@
           <div class="order-mini-img">
             <div class="placeholder-img" style="background: ${bg}"></div>
             <div class="order-img-overlay"></div>
-            <span class="order-badge">ORDER</span>
           </div>
           <div class="order-mini-body">
             <h3 class="order-name-kr">${escapeHTML(order.commonName)}</h3>
@@ -1435,18 +1433,26 @@
       }
     }
 
+    // 현재 활성 페이지(.page.active)가 실제 스크롤 컨테이너 — flex column .app 안에서 자체 스크롤
+    function getActivePageScroller() {
+      return document.querySelector('.page.active') || document.scrollingElement;
+    }
+
     function executeExpand(key) {
       const updateDOM = () => {
         expandedOrderKey = key;
         renderOrders(ordersData);
 
-        // 스크롤을 최상단 확장 카드로 부드럽게 이동
+        // 스크롤을 확장 카드로 부드럽게 이동 — .page.active 안에서 스크롤
         setTimeout(() => {
           const expandedEl = document.querySelector('.order-card-mini.expanded');
-          if (expandedEl) {
-            const y = expandedEl.getBoundingClientRect().top + window.scrollY - 80;
-            window.scrollTo({ top: y, behavior: 'smooth' });
-          }
+          if (!expandedEl) return;
+          const scroller = getActivePageScroller();
+          if (!scroller) return;
+          const scrollerRect = scroller.getBoundingClientRect();
+          const elRect = expandedEl.getBoundingClientRect();
+          const offset = elRect.top - scrollerRect.top - 80;
+          scroller.scrollBy({ top: offset, behavior: 'smooth' });
         }, 50);
       };
 
@@ -1471,7 +1477,6 @@
         updateDOM();
       }
     }
-
     function openFamilyPage(orderKey) {
       const order = ordersData.find(item => getOrderKey(item) === orderKey);
       if (!order) return;
@@ -1634,6 +1639,18 @@
             scientificName: item.scientificName || placeholder.scientificName,
             rawScientificName: item.scientificName,
             commonName: item.commonName || placeholder.commonName,
+            author: item.nomenclaturalAuthor || item.author || placeholder.author,
+            year: item.namingYear || item.year || placeholder.year,
+            description: item.description || item.abstract || placeholder.description,
+            abstract: item.abstract || placeholder.abstract,
+            conservationStatus: {
+              endangered: item.egspcsYn === 'Y' ? 'II' : (item.conservationStatus?.endangered || placeholder.conservationStatus.endangered),
+              invasive: item.phspYn === 'Y' ? true : (item.phspYn === 'N' ? false : placeholder.conservationStatus.invasive),
+              hazardous: item.dispYn === 'Y' ? true : (item.dispYn === 'N' ? false : placeholder.conservationStatus.hazardous),
+              naturalMonument: item.ntmYn === 'Y' ? '지정' : placeholder.conservationStatus.naturalMonument,
+              harmful: item.hrmflSpecsYn === 'Y' ? true : (item.hrmflSpecsYn === 'N' ? false : placeholder.conservationStatus.harmful),
+              endemic: (item.korUnqBispYn === 'Y' || item.corsynSeYn === 'Y') ? true : ((item.korUnqBispYn === 'N' || item.corsynSeYn === 'N') ? false : placeholder.conservationStatus.endemic)
+            },
             taxonomy: {
               ...placeholder.taxonomy,
               genus: item.genus || placeholder.taxonomy.genus,
@@ -1777,6 +1794,39 @@
         console.error('Data load error:', err);
       });
 
+    // ── FLIP 애니메이션 헬퍼 ──
+    function captureCardPositions() {
+      const grid = document.getElementById('orderGrid');
+      if (!grid) return {};
+      const positions = {};
+      grid.querySelectorAll('.order-card-mini').forEach(card => {
+        const key = card.style.viewTransitionName || card.querySelector('.order-name-kr, .expanded-title')?.textContent || '';
+        if (key) positions[key] = card.getBoundingClientRect();
+      });
+      return positions;
+    }
+
+    function playFlipAnimation(before, duration = 420) {
+      const grid = document.getElementById('orderGrid');
+      if (!grid) return;
+      grid.querySelectorAll('.order-card-mini').forEach(card => {
+        const key = card.style.viewTransitionName || card.querySelector('.order-name-kr, .expanded-title')?.textContent || '';
+        const oldRect = before[key];
+        if (!oldRect) return;
+        const newRect = card.getBoundingClientRect();
+        const dx = oldRect.left - newRect.left;
+        const dy = oldRect.top - newRect.top;
+        if (Math.abs(dx) < 1 && Math.abs(dy) < 1) return;
+        card.animate(
+          [
+            { transform: `translate(${dx}px, ${dy}px)`, opacity: 0.7 },
+            { transform: 'translate(0, 0)', opacity: 1 }
+          ],
+          { duration, easing: 'cubic-bezier(0.25, 0.46, 0.45, 0.94)', fill: 'backwards' }
+        );
+      });
+    }
+
     // ── 정렬 토글 ──
     // 라벨은 "현재 적용 중인 정렬"을 의미. 두 모드 모두 이름순으로 통일.
     //   'A → Z'  : scientificName 오름차순 (라틴 알파벳 기준)
@@ -1793,12 +1843,10 @@
         ordersData.sort((a, b) => (a.scientificName || '').localeCompare(b.scientificName || ''));
       }
 
-      // 정렬 시에도 애니메이션 적용
-      if (document.startViewTransition) {
-        document.startViewTransition(() => renderOrders(ordersData));
-      } else {
-        renderOrders(ordersData);
-      }
+      // FLIP: 렌더 전에 위치를 먼저 캡처, 렌더 후에 애니메이션
+      const before = captureCardPositions();
+      renderOrders(ordersData);
+      requestAnimationFrame(() => playFlipAnimation(before, 420));
     });
 
     // ── Tab Switching ──
@@ -1840,7 +1888,9 @@
       if (!options.keepNav) allNavItems.forEach(n => n.classList.remove('active'));
       const target = document.getElementById(pageId);
       if (target) target.classList.add('active');
-      window.scrollTo({ top: 0 });
+      // 페이지 진입 시 새 .page.active 스크롤 컨테이너를 최상단으로
+      // (target은 .active class 부착 직후라 곧장 scrollTop 적용 가능)
+      if (target) target.scrollTop = 0;
     }
 
     document.getElementById('familyBackBtn').addEventListener('click', () => {
@@ -2173,20 +2223,52 @@
         }
       }
 
-      const placeholder = buildPlaceholderSpecies(ins.sci, ins.kr);
-      openSpeciesDetail({
-        ...placeholder,
-        scientificName: ins.sci || placeholder.scientificName,
-        rawScientificName: ins.sci,
-        commonName: ins.kr || placeholder.commonName,
-        taxonomy: {
-          ...placeholder.taxonomy,
-          order: `${ins.oKr || ''} (${ins.os || ''})`.trim(),
-          family: `${ins.fKr || ''} (${ins.fs || ''})`.trim(),
-          genus: ins.g || null,
-          species: ins.s || null
-        }
-      }, 'pageSearch');
+      const proceed = (detailedInsect) => {
+        const placeholder = buildPlaceholderSpecies(ins.sci, ins.kr);
+        const item = detailedInsect || {};
+        openSpeciesDetail({
+          ...placeholder,
+          scientificName: ins.sci || placeholder.scientificName,
+          rawScientificName: ins.sci,
+          commonName: ins.kr || placeholder.commonName,
+          author: item.nomenclaturalAuthor || item.author || placeholder.author,
+          year: item.namingYear || item.year || placeholder.year,
+          description: item.description || item.abstract || placeholder.description,
+          abstract: item.abstract || placeholder.abstract,
+          conservationStatus: {
+            endangered: item.egspcsYn === 'Y' ? 'II' : (item.conservationStatus?.endangered || placeholder.conservationStatus.endangered),
+            invasive: item.phspYn === 'Y' ? true : (item.phspYn === 'N' ? false : placeholder.conservationStatus.invasive),
+            hazardous: item.dispYn === 'Y' ? true : (item.dispYn === 'N' ? false : placeholder.conservationStatus.hazardous),
+            naturalMonument: item.ntmYn === 'Y' ? '지정' : placeholder.conservationStatus.naturalMonument,
+            harmful: item.hrmflSpecsYn === 'Y' ? true : (item.hrmflSpecsYn === 'N' ? false : placeholder.conservationStatus.harmful),
+            endemic: (item.korUnqBispYn === 'Y' || item.corsynSeYn === 'Y') ? true : ((item.korUnqBispYn === 'N' || item.corsynSeYn === 'N') ? false : placeholder.conservationStatus.endemic)
+          },
+          taxonomy: {
+            ...placeholder.taxonomy,
+            order: `${ins.oKr || ''} (${ins.os || ''})`.trim(),
+            family: `${ins.fKr || ''} (${ins.fs || ''})`.trim(),
+            genus: ins.g || item.genus || placeholder.taxonomy.genus,
+            species: ins.s || item.species || placeholder.taxonomy.species
+          }
+        }, 'pageSearch');
+      };
+
+      // Fetch detailed family data to get the abstract and other detailed attributes
+      if (ins.o && ins.f) {
+        fetch(`taxonomy/families/${ins.o}/${ins.f}.json`)
+          .then(r => r.json())
+          .then(data => {
+            const insects = data.insects || [];
+            const detailed = insects.find(x => x.scientificName === ins.sci || x.commonName === ins.kr);
+            proceed(detailed);
+          })
+          .catch(err => {
+            console.error('Error fetching detailed species from family:', err);
+            proceed(null);
+          });
+      } else {
+        proceed(null);
+      }
     }
 
     // 입력/필터 바인딩
