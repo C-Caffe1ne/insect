@@ -1240,6 +1240,29 @@
       return order.scientificName;
     }
 
+    // KTSN 분류 객체 → "한글명 (학명)" 표기 문자열
+    // 입력: { commonName: '딱정벌레목', scientificName: 'Coleoptera', ktsn: ... }
+    // 출력: "딱정벌레목 (Coleoptera)" / 한글명 없으면 학명만 / 학명 없으면 한글명만 / 둘 다 없으면 null
+    function formatTaxonRank(rank) {
+      if (!rank || typeof rank !== 'object') return null;
+      const kr = (rank.commonName || '').trim();
+      const sci = (rank.scientificName || '').trim();
+      if (kr && sci) return `${kr} (${sci})`;
+      return kr || sci || null;
+    }
+
+    // 종(species) 단계 전용 — KTSN species.scientificName은 epithet만(예: "bipunctata")이라
+    // genus와 결합해 binomial(예: "Adalia bipunctata")로 표기한다.
+    function formatSpeciesRank(speciesRank, genusRank) {
+      if (!speciesRank || typeof speciesRank !== 'object') return null;
+      const kr = (speciesRank.commonName || '').trim();
+      const epithet = (speciesRank.scientificName || '').trim();
+      const genusName = (genusRank?.scientificName || '').trim();
+      const binomial = genusName && epithet ? `${genusName} ${epithet}` : epithet;
+      if (kr && binomial) return `${kr} (${binomial})`;
+      return kr || binomial || null;
+    }
+
     function getFamilyKey(orderKey, familyScientificName) {
       return `${orderKey}::${familyScientificName}`;
     }
@@ -1634,6 +1657,22 @@
 
         const openDetail = () => {
           const placeholder = buildPlaceholderSpecies(item.scientificName, item.commonName);
+
+          // KTSN의 item.taxonomy는 각 계층마다 { commonName, scientificName, ktsn } 형태
+          // formatTaxonRank으로 "한글명 (학명)" 표기를 만든다. KTSN 데이터가 없으면
+          // 페이지 컨텍스트의 selectedOrder/selectedFamily에서 만든 placeholder로 폴백.
+          const ktsn = item.taxonomy || {};
+          const fullTaxonomy = {
+            kingdom: placeholder.taxonomy.kingdom,  // KTSN에 kingdom 없음 → 기본 "동물계 (Animalia)"
+            phylum:  formatTaxonRank(ktsn.phylum)  || placeholder.taxonomy.phylum,
+            class:   formatTaxonRank(ktsn.class)   || placeholder.taxonomy.class,
+            order:   formatTaxonRank(ktsn.order)   || placeholder.taxonomy.order,
+            family:  formatTaxonRank(ktsn.family)  || placeholder.taxonomy.family,
+            genus:   formatTaxonRank(ktsn.genus)   || item.genus || placeholder.taxonomy.genus,
+            // 종 단계는 학명만 있으면 binomial(Genus + epithet)로 합쳐 표기
+            species: formatSpeciesRank(ktsn.species, ktsn.genus) || item.species || placeholder.taxonomy.species
+          };
+
           openSpeciesDetail({
             ...placeholder,
             scientificName: item.scientificName || placeholder.scientificName,
@@ -1651,11 +1690,7 @@
               harmful: item.hrmflSpecsYn === 'Y' ? true : (item.hrmflSpecsYn === 'N' ? false : placeholder.conservationStatus.harmful),
               endemic: (item.korUnqBispYn === 'Y' || item.corsynSeYn === 'Y') ? true : ((item.korUnqBispYn === 'N' || item.corsynSeYn === 'N') ? false : placeholder.conservationStatus.endemic)
             },
-            taxonomy: {
-              ...placeholder.taxonomy,
-              genus: item.genus || placeholder.taxonomy.genus,
-              species: item.species || placeholder.taxonomy.species
-            },
+            taxonomy: fullTaxonomy,
             // GBIF 데이터(있는 경우)를 openSpeciesDetail의 render()에서 enrich
             _gbifData: item.gbif || null
           }, 'pageFamilyDetail');
@@ -3032,6 +3067,24 @@
       if (!species.fullScientificName && gbifData.scientificName) {
         species.fullScientificName = gbifData.scientificName;
       }
+
+      // 4.5) 분류 계층 보강 — KTSN에 없는 kingdom 등을 GBIF로 채움 (학명만 있는 경우는 "학명"으로 표기)
+      const gtx = gbifData.taxonomy || {};
+      const tx = species.taxonomy || {};
+      const fillTax = (key, gbifValue, koreanLabel) => {
+        // 이미 KTSN/placeholder가 채운 값이 있으면 유지
+        if (tx[key] && tx[key] !== '데이터 준비 중') return;
+        if (!gbifValue) return;
+        tx[key] = koreanLabel ? `${koreanLabel} (${gbifValue})` : gbifValue;
+      };
+      fillTax('kingdom', gtx.kingdom, '동물계');
+      fillTax('phylum',  gtx.phylum);
+      fillTax('class',   gtx.class);
+      fillTax('order',   gtx.order);
+      fillTax('family',  gtx.family);
+      fillTax('genus',   gtx.genus);
+      fillTax('species', gtx.species);
+      species.taxonomy = tx;
 
       // 5) 서식지 — Habitat_* Boolean 형질을 한국어로 변환
       const byType = gbifData.descriptions?.byType || {};
