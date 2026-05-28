@@ -82,7 +82,55 @@
         "visitsFlowersOf": [],
         "pathogenOf": [],
         "gbifRecords": 302
-      }
+      },
+      "gbif": {
+        "usageKey": 1425057,
+        "matchType": "EXACT",
+        "confidence": 100,
+        "scientificName": "Aeschnophlebia anisoptera Selys, 1883",
+        "canonicalName": "Aeschnophlebia anisoptera",
+        "authorship": "Selys, 1883",
+        "basionym": null,
+        "publishedIn": null,
+        "rank": "SPECIES",
+        "taxonomicStatus": "ACCEPTED",
+        "vernacularName": null,
+        "numDescendants": 0,
+        "taxonomy": {
+          "kingdom": "Animalia",
+          "phylum": "Arthropoda",
+          "class": "Insecta",
+          "order": "Odonata",
+          "family": "Aeshnidae",
+          "genus": "Aeschnophlebia",
+          "species": "Aeschnophlebia anisoptera"
+        },
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": [],
+          "byLang": {}
+        },
+        "distributions": {
+          "native": [],
+          "introduced": [],
+          "other": [],
+          "korea": []
+        },
+        "media": [],
+        "counts": {
+          "vernacularsRaw": 0,
+          "distributionsRaw": 0,
+          "mediaRaw": 0,
+          "descriptionsRaw": 0
+        },
+        "descriptions": {
+          "byType": {},
+          "all": []
+        }
+      },
+      "gbifFetchedAt": "2026-05-28T05:24:22.389Z",
+      "gbifSchemaVersion": 2
     },
     {
       "ktsn": 120000037257,
@@ -158,7 +206,121 @@
         "visitsFlowersOf": [],
         "pathogenOf": [],
         "gbifRecords": 436
-      }
+      },
+      "gbif": {
+        "usageKey": 1425055,
+        "matchType": "EXACT",
+        "confidence": 100,
+        "scientificName": "Aeschnophlebia longistigma Selys, 1883",
+        "canonicalName": "Aeschnophlebia longistigma",
+        "authorship": "Selys, 1883",
+        "basionym": null,
+        "publishedIn": null,
+        "rank": "SPECIES",
+        "taxonomicStatus": "ACCEPTED",
+        "vernacularName": null,
+        "numDescendants": 1,
+        "taxonomy": {
+          "kingdom": "Animalia",
+          "phylum": "Arthropoda",
+          "class": "Insecta",
+          "order": "Odonata",
+          "family": "Aeshnidae",
+          "genus": "Aeschnophlebia",
+          "species": "Aeschnophlebia longistigma"
+        },
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": [
+            "Ao-yamma"
+          ],
+          "byLang": {
+            "jpn": [
+              "Ao-yamma"
+            ]
+          }
+        },
+        "distributions": {
+          "native": [],
+          "introduced": [],
+          "other": [
+            {
+              "locality": "Global",
+              "locationId": "",
+              "establishmentMeans": "",
+              "source": "The IUCN Red List of Threatened Species"
+            }
+          ],
+          "korea": []
+        },
+        "media": [
+          {
+            "url": "https://zenodo.org/record/10084291/files/figure.png",
+            "format": "image/png",
+            "license": "",
+            "rightsHolder": "",
+            "source": "First Record Of The Dra- Gonfly Aeschnophlebia Longistigma Selys, 1883 (Odonata: Aeshnidae) From Khabarovskii Krai",
+            "created": "2016-12-31T00:00:00.000+00:00"
+          }
+        ],
+        "counts": {
+          "vernacularsRaw": 1,
+          "distributionsRaw": 1,
+          "mediaRaw": 1,
+          "descriptionsRaw": 3
+        },
+        "descriptions": {
+          "byType": {
+            "description": [
+              {
+                "type": "description",
+                "description": "Fig. 1",
+                "language": "eng",
+                "source": "First Record Of The Dra- Gonfly Aeschnophlebia Longistigma Selys, 1883 (Odonata: Aeshnidae) From Khabarovskii Krai"
+              }
+            ],
+            "distribution": [
+              {
+                "type": "distribution",
+                "description": "DISTRIBUTION. Russia: south part of Primorskii krai, Khabarovskii krai (new record); North and Central China, Korean Peninsula, Japan (Needham, 1930; Jiang, 2000; Lee, 2001; Malikova & Ivanov, 2001). NOTES. The collected female is characterized by follow: length of hindwing 43 mm, abdomen length with appendages 49 mm; subcostal vein continues beyond the nodes only on forewing.",
+                "language": "eng",
+                "source": "First Record Of The Dra- Gonfly Aeschnophlebia Longistigma Selys, 1883 (Odonata: Aeshnidae) From Khabarovskii Krai"
+              }
+            ],
+            "materials_examined": [
+              {
+                "type": "materials_examined",
+                "description": "MATERIAL EXAMINED. Russia: Khabarovskii krai, central part of Khabarovsk City, 11. VII 2016, 1 ♀ (E. S. Koshkin).",
+                "language": "eng",
+                "source": "First Record Of The Dra- Gonfly Aeschnophlebia Longistigma Selys, 1883 (Odonata: Aeshnidae) From Khabarovskii Krai"
+              }
+            ]
+          },
+          "all": [
+            {
+              "type": "description",
+              "description": "Fig. 1",
+              "language": "eng",
+              "source": "First Record Of The Dra- Gonfly Aeschnophlebia Longistigma Selys, 1883 (Odonata: Aeshnidae) From Khabarovskii Krai"
+            },
+            {
+              "type": "distribution",
+              "description": "DISTRIBUTION. Russia: south part of Primorskii krai, Khabarovskii krai (new record); North and Central China, Korean Peninsula, Japan (Needham, 1930; Jiang, 2000; Lee, 2001; Malikova & Ivanov, 2001). NOTES. The collected female is characterized by follow: length of hindwing 43 mm, abdomen length with appendages 49 mm; subcostal vein continues beyond the nodes only on forewing.",
+              "language": "eng",
+              "source": "First Record Of The Dra- Gonfly Aeschnophlebia Longistigma Selys, 1883 (Odonata: Aeshnidae) From Khabarovskii Krai"
+            },
+            {
+              "type": "materials_examined",
+              "description": "MATERIAL EXAMINED. Russia: Khabarovskii krai, central part of Khabarovsk City, 11. VII 2016, 1 ♀ (E. S. Koshkin).",
+              "language": "eng",
+              "source": "First Record Of The Dra- Gonfly Aeschnophlebia Longistigma Selys, 1883 (Odonata: Aeshnidae) From Khabarovskii Krai"
+            }
+          ]
+        }
+      },
+      "gbifFetchedAt": "2026-05-28T05:24:22.913Z",
+      "gbifSchemaVersion": 2
     },
     {
       "ktsn": 120000037259,
@@ -244,7 +406,125 @@
         "visitsFlowersOf": [],
         "pathogenOf": [],
         "gbifRecords": 1378
-      }
+      },
+      "gbif": {
+        "usageKey": 1425209,
+        "matchType": "EXACT",
+        "confidence": 100,
+        "scientificName": "Aeshna crenata Hagen, 1856",
+        "canonicalName": "Aeshna crenata",
+        "authorship": "Hagen, 1856",
+        "basionym": null,
+        "publishedIn": null,
+        "rank": "SPECIES",
+        "taxonomicStatus": "ACCEPTED",
+        "vernacularName": null,
+        "numDescendants": 1,
+        "taxonomy": {
+          "kingdom": "Animalia",
+          "phylum": "Arthropoda",
+          "class": "Insecta",
+          "order": "Odonata",
+          "family": "Aeshnidae",
+          "genus": "Aeshna",
+          "species": "Aeshna crenata"
+        },
+        "vernaculars": {
+          "ko": [
+            "참별박이왕잠자리"
+          ],
+          "en": [
+            "Canada Darner",
+            "Siberian Hawker"
+          ],
+          "ja": [
+            "オオルリボシヤンマ"
+          ],
+          "byLang": {
+            "fra": [
+              "Aeschne crénelée",
+              "Æschne crénelée"
+            ],
+            "eng": [
+              "Canada Darner",
+              "Siberian Hawker"
+            ],
+            "est": [
+              "Siberi tondihobu"
+            ],
+            "nld": [
+              "Siberische glazenmaker"
+            ],
+            "deu": [
+              "Sibirische Mosaikjungfer"
+            ],
+            "fin": [
+              "isoukonkorento",
+              "Isoukonkorento"
+            ],
+            "swe": [
+              "sibirisk mosaikslända"
+            ],
+            "lit": [
+              "Šiaurinis laumžirgis"
+            ],
+            "rus": [
+              "Коромысло городчатое",
+              "Коромысло зубчатое"
+            ],
+            "jpn": [
+              "オオルリボシヤンマ"
+            ],
+            "kor": [
+              "참별박이왕잠자리"
+            ]
+          }
+        },
+        "distributions": {
+          "native": [],
+          "introduced": [],
+          "other": [
+            {
+              "locality": "Europe & Northern Asia (excluding China)",
+              "locationId": "",
+              "establishmentMeans": "",
+              "source": "Integrated Taxonomic Information System (ITIS)"
+            },
+            {
+              "locality": "Southern Asia",
+              "locationId": "",
+              "establishmentMeans": "",
+              "source": "Integrated Taxonomic Information System (ITIS)"
+            },
+            {
+              "locality": "Global",
+              "locationId": "",
+              "establishmentMeans": "",
+              "source": "The IUCN Red List of Threatened Species"
+            },
+            {
+              "locality": "",
+              "locationId": "",
+              "establishmentMeans": "",
+              "source": "Dyntaxa. Svensk taxonomisk databas"
+            }
+          ],
+          "korea": []
+        },
+        "media": [],
+        "counts": {
+          "vernacularsRaw": 20,
+          "distributionsRaw": 4,
+          "mediaRaw": 0,
+          "descriptionsRaw": 0
+        },
+        "descriptions": {
+          "byType": {},
+          "all": []
+        }
+      },
+      "gbifFetchedAt": "2026-05-28T05:24:23.434Z",
+      "gbifSchemaVersion": 2
     },
     {
       "ktsn": 120000037260,
@@ -368,7 +648,593 @@
         "visitsFlowersOf": [],
         "pathogenOf": [],
         "gbifRecords": 89007
-      }
+      },
+      "gbif": {
+        "usageKey": 1425221,
+        "matchType": "EXACT",
+        "confidence": 100,
+        "scientificName": "Aeshna juncea (Linnaeus, 1758)",
+        "canonicalName": "Aeshna juncea",
+        "authorship": "(Linnaeus, 1758) ",
+        "basionym": "Libellula juncea Linnaeus, 1758",
+        "publishedIn": null,
+        "rank": "SPECIES",
+        "taxonomicStatus": "ACCEPTED",
+        "vernacularName": null,
+        "numDescendants": 2,
+        "taxonomy": {
+          "kingdom": "Animalia",
+          "phylum": "Arthropoda",
+          "class": "Insecta",
+          "order": "Odonata",
+          "family": "Aeshnidae",
+          "genus": "Aeshna",
+          "species": "Aeshna juncea"
+        },
+        "vernaculars": {
+          "ko": [],
+          "en": [
+            "Common Aeshna",
+            "Common Hawker",
+            "Common Hawker Dragonfly",
+            "Moorland Hawker",
+            "Sedge Darner"
+          ],
+          "ja": [],
+          "byLang": {
+            "fra": [
+              "Aeschne des joncs"
+            ],
+            "slv": [
+              "Barjanska deva"
+            ],
+            "srp": [
+              "Barski kraljević"
+            ],
+            "eng": [
+              "Common Aeshna",
+              "Common Hawker",
+              "Common Hawker Dragonfly",
+              "Moorland Hawker",
+              "Sedge Darner"
+            ],
+            "ita": [
+              "Dragone alpino"
+            ],
+            "spa": [
+              "Esna de turbera"
+            ],
+            "cat": [
+              "Espiadimonis de mollera"
+            ],
+            "cym": [
+              "Gwas Neidr Glas",
+              "Gwas-Neidr Glas",
+              "Gweision Neidr Glas"
+            ],
+            "glg": [
+              "Libeliña brañega"
+            ],
+            "bos": [
+              "Planinski kralj"
+            ]
+          }
+        },
+        "distributions": {
+          "native": [
+            {
+              "locality": "Belgium",
+              "locationId": "ISO_3166-2:BE",
+              "establishmentMeans": "NATIVE",
+              "source": "Waarnemingen.be / observations.be - List of species observed in Belgium"
+            },
+            {
+              "locality": "Flemish Region",
+              "locationId": "ISO_3166-2:BE-VLG",
+              "establishmentMeans": "NATIVE",
+              "source": "Waarnemingen.be / observations.be - List of species observed in Belgium"
+            },
+            {
+              "locality": "Walloon Region",
+              "locationId": "ISO_3166-2:BE-WAL",
+              "establishmentMeans": "NATIVE",
+              "source": "Waarnemingen.be / observations.be - List of species observed in Belgium"
+            },
+            {
+              "locality": "Flanders",
+              "locationId": "ISO_3166:BE-VLG",
+              "establishmentMeans": "NATIVE",
+              "source": "Non-validated red list of Flanders, Belgium"
+            },
+            {
+              "locality": "Flanders",
+              "locationId": "ISO_3166:BE-VLG",
+              "establishmentMeans": "NATIVE",
+              "source": "Validated red lists of Flanders, Belgium"
+            },
+            {
+              "locality": "",
+              "locationId": "",
+              "establishmentMeans": "NATIVE",
+              "source": "Dyntaxa. Svensk taxonomisk databas"
+            }
+          ],
+          "introduced": [],
+          "other": [
+            {
+              "locality": "Europe & Northern Asia (excluding China)",
+              "locationId": "",
+              "establishmentMeans": "",
+              "source": "Integrated Taxonomic Information System (ITIS)"
+            },
+            {
+              "locality": "North America",
+              "locationId": "",
+              "establishmentMeans": "",
+              "source": "Integrated Taxonomic Information System (ITIS)"
+            },
+            {
+              "locality": "Southern Asia",
+              "locationId": "",
+              "establishmentMeans": "",
+              "source": "Integrated Taxonomic Information System (ITIS)"
+            },
+            {
+              "locality": "Global",
+              "locationId": "",
+              "establishmentMeans": "",
+              "source": "The IUCN Red List of Threatened Species"
+            },
+            {
+              "locality": "Flanders",
+              "locationId": "MRGID:2469",
+              "establishmentMeans": "",
+              "source": "Red list of dragonflies in Flanders, Belgium"
+            },
+            {
+              "locality": "CA",
+              "locationId": "",
+              "establishmentMeans": "",
+              "source": "Catalogue of Life"
+            },
+            {
+              "locality": "",
+              "locationId": "",
+              "establishmentMeans": "",
+              "source": "National Checklist of all species occurring in Denmark"
+            },
+            {
+              "locality": "Grand Duchy of Luxembourg",
+              "locationId": "ISO:LU",
+              "establishmentMeans": "",
+              "source": "Red list of Odonata of Luxembourg 2006"
+            },
+            {
+              "locality": "ISO:NO",
+              "locationId": "ISO:NO",
+              "establishmentMeans": "",
+              "source": ""
+            },
+            {
+              "locality": "US",
+              "locationId": "",
+              "establishmentMeans": "",
+              "source": "Catalogue of Life"
+            }
+          ],
+          "korea": []
+        },
+        "media": [
+          {
+            "url": "https://images.naturalis.nl/original/100902_venglazenmaker_mg_3142b.jpg",
+            "format": "image/jpeg",
+            "license": "CC BY",
+            "rightsHolder": "Fred Hoorn",
+            "source": "Checklist Dutch Species Register - Nederlands Soortenregister",
+            "created": "2014-09-12T00:00:00.000+00:00"
+          },
+          {
+            "url": "https://images.naturalis.nl/original/100901_venglazenmaker_mg_3090b.jpg",
+            "format": "image/jpeg",
+            "license": "CC BY",
+            "rightsHolder": "Fred Hoorn",
+            "source": "Checklist Dutch Species Register - Nederlands Soortenregister",
+            "created": "2014-09-12T00:00:00.000+00:00"
+          }
+        ],
+        "counts": {
+          "vernacularsRaw": 20,
+          "distributionsRaw": 16,
+          "mediaRaw": 2,
+          "descriptionsRaw": 27
+        },
+        "descriptions": {
+          "byType": {
+            "Habitat_agriculture": [
+              {
+                "type": "Habitat_agriculture",
+                "description": "0",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Habitat_dunes": [
+              {
+                "type": "Habitat_dunes",
+                "description": "0",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Habitat_forest": [
+              {
+                "type": "Habitat_forest",
+                "description": "0",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Habitat_fresh_marshes": [
+              {
+                "type": "Habitat_fresh_marshes",
+                "description": "0",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Habitat_grassland": [
+              {
+                "type": "Habitat_grassland",
+                "description": "0",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Habitat_salt_marshes": [
+              {
+                "type": "Habitat_salt_marshes",
+                "description": "0",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Habitat_urban": [
+              {
+                "type": "Habitat_urban",
+                "description": "0",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Overwintering_adult": [
+              {
+                "type": "Overwintering_adult",
+                "description": "0",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Habitat_heathland": [
+              {
+                "type": "Habitat_heathland",
+                "description": "1",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Overwintering_egg": [
+              {
+                "type": "Overwintering_egg",
+                "description": "1",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Overwintering_larva": [
+              {
+                "type": "Overwintering_larva",
+                "description": "1",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Feeding_guild_adult": [
+              {
+                "type": "Feeding_guild_adult",
+                "description": "carnivore",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Feeding_guild_larva": [
+              {
+                "type": "Feeding_guild_larva",
+                "description": "carnivore",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Diurnality": [
+              {
+                "type": "Diurnality",
+                "description": "diurnal",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Voltinism_max": [
+              {
+                "type": "Voltinism_max",
+                "description": "partivoltine",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Trophic_range_adult": [
+              {
+                "type": "Trophic_range_adult",
+                "description": "polyphagous",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Trophic_range_larva": [
+              {
+                "type": "Trophic_range_larva",
+                "description": "polyphagous",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "biome": [
+              {
+                "type": "biome",
+                "description": "aquatic",
+                "language": "eng",
+                "source": "Validated red lists of Flanders, Belgium"
+              }
+            ],
+            "spine": [
+              {
+                "type": "spine",
+                "description": "invertebrate",
+                "language": "eng",
+                "source": "Validated red lists of Flanders, Belgium"
+              }
+            ],
+            "mobility": [
+              {
+                "type": "mobility",
+                "description": "mobile",
+                "language": "eng",
+                "source": "Validated red lists of Flanders, Belgium"
+              }
+            ],
+            "cuddliness": [
+              {
+                "type": "cuddliness",
+                "description": "non cuddly",
+                "language": "eng",
+                "source": "Validated red lists of Flanders, Belgium"
+              }
+            ],
+            "nutrient level": [
+              {
+                "type": "nutrient level",
+                "description": "oligotrophic",
+                "language": "eng",
+                "source": "Validated red lists of Flanders, Belgium"
+              }
+            ],
+            "lifespan": [
+              {
+                "type": "lifespan",
+                "description": "shortlived",
+                "language": "eng",
+                "source": "Validated red lists of Flanders, Belgium"
+              }
+            ],
+            "biotope": [
+              {
+                "type": "biotope",
+                "description": "standing waters",
+                "language": "eng",
+                "source": "Validated red lists of Flanders, Belgium"
+              }
+            ],
+            "conservation": [
+              {
+                "type": "conservation",
+                "description": "Conservation and breeding status: LC (EU), LC (IT), LC (MED), B This holarctic lentic dragonfly was widespread and abundant in VGNP, being recorded in 5 out of the 7 study areas (LPR, 18; LGE, 21; LPO, 7,8,9,10; CDB, 20; PDS, 15); it was missing from EXP, as this area predominantly lies at a low altitude, and from CPB where suitable standing water habitats are scarce. Reproduction was confirmed in 4 study areas; only in CDB it was not confirmed, despite the site containing a small natural pond lying at suitable altitude, and further visits would be required to establish reproduction. Larvae and exuviae were found in most ponds and lakes surveyed in LPO and LPR, where up to 300 larvae were observed in a single visit (LPO, 9, 28 Aug 2011, Clemente et al. 2011). A. juncea was reported as the most common and widespread dragonfly for the alpine area by Boano et al. (2007), though at the time only one unpublished record was available for VCO and two further observations had been retrieved from De Marmels & Schiess (1978), of which one was collected in Pian dei Sali. Later improved surveys allowed this species to be recorded in north eastern Piedmont and provided 11 new records for VGNP until 2013 (Clemente et al. 2011; Riservato et al. 2014 c). This study added another 28 records, confirming A. juncea as the most abundant and widespread dragonfly in the park. Similar results have been observed in other alpine parks, including from west to east Mont Avic (Aosta Valley, Sindaco et al. 2008), Maritime Alps and Veglia Devero (Piedmont, provinces of Cuneo and VCO, Bionda et al. 2013; Pettavino 2015), Stelvio (Lombardy, province of Sondrio, Trentino and South Tyrol) and Texelgruppe (South Tyrol, Lösch et al. 2013).",
+                "language": "eng",
+                "source": "The Odonate fauna of Val Grande National Park (Insecta: Odonata)"
+              }
+            ],
+            "description": [
+              {
+                "type": "description",
+                "description": "1 juv., 17.8.2014, S. Ältere Nachweise: 1 ♀, 7.1959 (V. Aellen, CSCF 2014); 3 ♀♀, Herbst 1961 (Aubert 1962); Dutzende Ind., Herbst 1963 und 1964, ops. (Aubert 1964 a, Kaiser 1965).",
+                "language": "deu",
+                "source": "Beobachtungen von Libellen (Odonata) auf dem Col de Bretolet (VS)"
+              }
+            ],
+            "materials_examined": [
+              {
+                "type": "materials_examined",
+                "description": "RMNH The Netherlands 228912 25925401 KF 369596 KF 369992 KF 369278 ODOPH 001 - 13",
+                "language": "eng",
+                "source": "Redefining the damselfly families: a comprehensive molecular phylogeny of Zygoptera (Odonata). Supporting Information Table 2: List of analysed samples."
+              }
+            ]
+          },
+          "all": [
+            {
+              "type": "Habitat_agriculture",
+              "description": "0",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Habitat_dunes",
+              "description": "0",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Habitat_forest",
+              "description": "0",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Habitat_fresh_marshes",
+              "description": "0",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Habitat_grassland",
+              "description": "0",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Habitat_salt_marshes",
+              "description": "0",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Habitat_urban",
+              "description": "0",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Overwintering_adult",
+              "description": "0",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Habitat_heathland",
+              "description": "1",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Overwintering_egg",
+              "description": "1",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Overwintering_larva",
+              "description": "1",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Feeding_guild_adult",
+              "description": "carnivore",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Feeding_guild_larva",
+              "description": "carnivore",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Diurnality",
+              "description": "diurnal",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Voltinism_max",
+              "description": "partivoltine",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Trophic_range_adult",
+              "description": "polyphagous",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Trophic_range_larva",
+              "description": "polyphagous",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "biome",
+              "description": "aquatic",
+              "language": "eng",
+              "source": "Validated red lists of Flanders, Belgium"
+            },
+            {
+              "type": "spine",
+              "description": "invertebrate",
+              "language": "eng",
+              "source": "Validated red lists of Flanders, Belgium"
+            },
+            {
+              "type": "mobility",
+              "description": "mobile",
+              "language": "eng",
+              "source": "Validated red lists of Flanders, Belgium"
+            },
+            {
+              "type": "cuddliness",
+              "description": "non cuddly",
+              "language": "eng",
+              "source": "Validated red lists of Flanders, Belgium"
+            },
+            {
+              "type": "nutrient level",
+              "description": "oligotrophic",
+              "language": "eng",
+              "source": "Validated red lists of Flanders, Belgium"
+            },
+            {
+              "type": "lifespan",
+              "description": "shortlived",
+              "language": "eng",
+              "source": "Validated red lists of Flanders, Belgium"
+            },
+            {
+              "type": "biotope",
+              "description": "standing waters",
+              "language": "eng",
+              "source": "Validated red lists of Flanders, Belgium"
+            },
+            {
+              "type": "conservation",
+              "description": "Conservation and breeding status: LC (EU), LC (IT), LC (MED), B This holarctic lentic dragonfly was widespread and abundant in VGNP, being recorded in 5 out of the 7 study areas (LPR, 18; LGE, 21; LPO, 7,8,9,10; CDB, 20; PDS, 15); it was missing from EXP, as this area predominantly lies at a low altitude, and from CPB where suitable standing water habitats are scarce. Reproduction was confirmed in 4 study areas; only in CDB it was not confirmed, despite the site containing a small natural pond lying at suitable altitude, and further visits would be required to establish reproduction. Larvae and exuviae were found in most ponds and lakes surveyed in LPO and LPR, where up to 300 larvae were observed in a single visit (LPO, 9, 28 Aug 2011, Clemente et al. 2011). A. juncea was reported as the most common and widespread dragonfly for the alpine area by Boano et al. (2007), though at the time only one unpublished record was available for VCO and two further observations had been retrieved from De Marmels & Schiess (1978), of which one was collected in Pian dei Sali. Later improved surveys allowed this species to be recorded in north eastern Piedmont and provided 11 new records for VGNP until 2013 (Clemente et al. 2011; Riservato et al. 2014 c). This study added another 28 records, confirming A. juncea as the most abundant and widespread dragonfly in the park. Similar results have been observed in other alpine parks, including from west to east Mont Avic (Aosta Valley, Sindaco et al. 2008), Maritime Alps and Veglia Devero (Piedmont, provinces of Cuneo and VCO, Bionda et al. 2013; Pettavino 2015), Stelvio (Lombardy, province of Sondrio, Trentino and South Tyrol) and Texelgruppe (South Tyrol, Lösch et al. 2013).",
+              "language": "eng",
+              "source": "The Odonate fauna of Val Grande National Park (Insecta: Odonata)"
+            },
+            {
+              "type": "description",
+              "description": "1 juv., 17.8.2014, S. Ältere Nachweise: 1 ♀, 7.1959 (V. Aellen, CSCF 2014); 3 ♀♀, Herbst 1961 (Aubert 1962); Dutzende Ind., Herbst 1963 und 1964, ops. (Aubert 1964 a, Kaiser 1965).",
+              "language": "deu",
+              "source": "Beobachtungen von Libellen (Odonata) auf dem Col de Bretolet (VS)"
+            },
+            {
+              "type": "materials_examined",
+              "description": "RMNH The Netherlands 228912 25925401 KF 369596 KF 369992 KF 369278 ODOPH 001 - 13",
+              "language": "eng",
+              "source": "Redefining the damselfly families: a comprehensive molecular phylogeny of Zygoptera (Odonata). Supporting Information Table 2: List of analysed samples."
+            }
+          ]
+        }
+      },
+      "gbifFetchedAt": "2026-05-28T05:24:23.968Z",
+      "gbifSchemaVersion": 2
     },
     {
       "ktsn": 120000037261,
@@ -479,7 +1345,559 @@
         "visitsFlowersOf": [],
         "pathogenOf": [],
         "gbifRecords": 261127
-      }
+      },
+      "gbif": {
+        "usageKey": 1425177,
+        "matchType": "EXACT",
+        "confidence": 100,
+        "scientificName": "Aeshna mixta Latreille, 1805",
+        "canonicalName": "Aeshna mixta",
+        "authorship": "Latreille, 1805",
+        "basionym": null,
+        "publishedIn": "Latreille, Pierre A. 1805. Histoire naturelle, générale et particulière, des crustacés et des insectes. Ouvrage faisant suite aux oeuvres de Leclerc de Buffon, et partie du cours complet d’histoire naturelle rédigé par C. S. Sonnini. F. Dufart, Paris. Vol. 13: 1-432, pls.97bis, 98-103.",
+        "rank": "SPECIES",
+        "taxonomicStatus": "ACCEPTED",
+        "vernacularName": null,
+        "numDescendants": 1,
+        "taxonomy": {
+          "kingdom": "Animalia",
+          "phylum": "Arthropoda",
+          "class": "Insecta",
+          "order": "Odonata",
+          "family": "Aeshnidae",
+          "genus": "Aeshna",
+          "species": "Aeshna mixta"
+        },
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": [],
+          "byLang": {
+            "fra": [
+              "Aeschne mixte",
+              "L'aeschne Mixte"
+            ],
+            "slv": [
+              "Bleda deva"
+            ],
+            "ita": [
+              "Dragone autunnale"
+            ],
+            "dan": [
+              "Efterårs-mosaikguldsmed",
+              "Efterårsmosaikguldsmed"
+            ],
+            "spa": [
+              "Esna Falso zafiro"
+            ],
+            "cat": [
+              "Espiadimonis tardorenc"
+            ],
+            "cym": [
+              "Gwas Neidr Mudol",
+              "Gwas-Neidr Tramor",
+              "Gweision Neidr Mudol"
+            ],
+            "deu": [
+              "Herbst-Mosaikjungfer",
+              "Herbstmosaikjungfer"
+            ],
+            "bos": [
+              "Jesenji kralj"
+            ],
+            "srp": [
+              "Jesenji kraljević"
+            ],
+            "hrv": [
+              "Jesenski kralj"
+            ]
+          }
+        },
+        "distributions": {
+          "native": [
+            {
+              "locality": "Belgium",
+              "locationId": "ISO_3166-2:BE",
+              "establishmentMeans": "NATIVE",
+              "source": "Waarnemingen.be / observations.be - List of species observed in Belgium"
+            },
+            {
+              "locality": "Brussels-Capital Region",
+              "locationId": "ISO_3166-2:BE-BRU",
+              "establishmentMeans": "NATIVE",
+              "source": "Waarnemingen.be / observations.be - List of species observed in Belgium"
+            },
+            {
+              "locality": "Flemish Region",
+              "locationId": "ISO_3166-2:BE-VLG",
+              "establishmentMeans": "NATIVE",
+              "source": "Waarnemingen.be / observations.be - List of species observed in Belgium"
+            },
+            {
+              "locality": "Walloon Region",
+              "locationId": "ISO_3166-2:BE-WAL",
+              "establishmentMeans": "NATIVE",
+              "source": "Waarnemingen.be / observations.be - List of species observed in Belgium"
+            },
+            {
+              "locality": "Flanders",
+              "locationId": "ISO_3166:BE-VLG",
+              "establishmentMeans": "NATIVE",
+              "source": "Non-validated red list of Flanders, Belgium"
+            },
+            {
+              "locality": "Flanders",
+              "locationId": "ISO_3166:BE-VLG",
+              "establishmentMeans": "NATIVE",
+              "source": "Validated red lists of Flanders, Belgium"
+            },
+            {
+              "locality": "",
+              "locationId": "",
+              "establishmentMeans": "NATIVE",
+              "source": "Dyntaxa. Svensk taxonomisk databas"
+            }
+          ],
+          "introduced": [],
+          "other": [
+            {
+              "locality": "Europe & Northern Asia (excluding China)",
+              "locationId": "",
+              "establishmentMeans": "",
+              "source": "Integrated Taxonomic Information System (ITIS)"
+            },
+            {
+              "locality": "Global",
+              "locationId": "",
+              "establishmentMeans": "",
+              "source": "The IUCN Red List of Threatened Species"
+            },
+            {
+              "locality": "Flanders",
+              "locationId": "MRGID:2469",
+              "establishmentMeans": "",
+              "source": "Red list of dragonflies in Flanders, Belgium"
+            },
+            {
+              "locality": "",
+              "locationId": "",
+              "establishmentMeans": "",
+              "source": "National Checklist of all species occurring in Denmark"
+            },
+            {
+              "locality": "Grand Duchy of Luxembourg",
+              "locationId": "ISO:LU",
+              "establishmentMeans": "",
+              "source": "Red list of Odonata of Luxembourg 2006"
+            },
+            {
+              "locality": "ISO:NO",
+              "locationId": "ISO:NO",
+              "establishmentMeans": "",
+              "source": ""
+            }
+          ],
+          "korea": []
+        },
+        "media": [
+          {
+            "url": "https://images.naturalis.nl/original/117513_blauwe_glazenmaker.jpg",
+            "format": "image/jpeg",
+            "license": "CC BY",
+            "rightsHolder": "Martien van den Heuvel",
+            "source": "Checklist Dutch Species Register - Nederlands Soortenregister",
+            "created": "2017-09-20T00:00:00.000+00:00"
+          },
+          {
+            "url": "https://images.naturalis.nl/original/149536_aeshnidae_aeshna_mixta_paardenbijter_9-8-2023_zoetermeer_6.jpg",
+            "format": "image/jpeg",
+            "license": "CC BY-NC-ND",
+            "rightsHolder": "Louis Westgeest",
+            "source": "Checklist Dutch Species Register - Nederlands Soortenregister",
+            "created": "2023-08-09T00:00:00.000+00:00"
+          },
+          {
+            "url": "https://images.naturalis.nl/original/176058.jpg",
+            "format": "image/jpeg",
+            "license": "CC BY-NC-ND",
+            "rightsHolder": "Hans Jonkman",
+            "source": "Checklist Dutch Species Register - Nederlands Soortenregister",
+            "created": "2010-09-05T00:00:00.000+00:00"
+          },
+          {
+            "url": "https://images.naturalis.nl/original/93826_dsc06354irf22ix14knb_aeshna_mixta_ec_-_nw.jpg",
+            "format": "image/jpeg",
+            "license": "CC BY-NC-ND",
+            "rightsHolder": "Hans Jonkman",
+            "source": "Checklist Dutch Species Register - Nederlands Soortenregister",
+            "created": "2014-09-22T00:00:00.000+00:00"
+          }
+        ],
+        "counts": {
+          "vernacularsRaw": 20,
+          "distributionsRaw": 13,
+          "mediaRaw": 4,
+          "descriptionsRaw": 25
+        },
+        "descriptions": {
+          "byType": {
+            "Habitat_agriculture": [
+              {
+                "type": "Habitat_agriculture",
+                "description": "0",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Habitat_dunes": [
+              {
+                "type": "Habitat_dunes",
+                "description": "0",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Habitat_forest": [
+              {
+                "type": "Habitat_forest",
+                "description": "0",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Habitat_salt_marshes": [
+              {
+                "type": "Habitat_salt_marshes",
+                "description": "0",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Overwintering_adult": [
+              {
+                "type": "Overwintering_adult",
+                "description": "0",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Habitat_fresh_marshes": [
+              {
+                "type": "Habitat_fresh_marshes",
+                "description": "1",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Habitat_grassland": [
+              {
+                "type": "Habitat_grassland",
+                "description": "1",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Habitat_heathland": [
+              {
+                "type": "Habitat_heathland",
+                "description": "1",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Habitat_urban": [
+              {
+                "type": "Habitat_urban",
+                "description": "1",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Overwintering_egg": [
+              {
+                "type": "Overwintering_egg",
+                "description": "1",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Overwintering_larva": [
+              {
+                "type": "Overwintering_larva",
+                "description": "1",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Feeding_guild_adult": [
+              {
+                "type": "Feeding_guild_adult",
+                "description": "carnivore",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Feeding_guild_larva": [
+              {
+                "type": "Feeding_guild_larva",
+                "description": "carnivore",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Diurnality": [
+              {
+                "type": "Diurnality",
+                "description": "diurnal",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Trophic_range_adult": [
+              {
+                "type": "Trophic_range_adult",
+                "description": "polyphagous",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Trophic_range_larva": [
+              {
+                "type": "Trophic_range_larva",
+                "description": "polyphagous",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Voltinism_max": [
+              {
+                "type": "Voltinism_max",
+                "description": "univoltine",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "biome": [
+              {
+                "type": "biome",
+                "description": "aquatic",
+                "language": "eng",
+                "source": "Validated red lists of Flanders, Belgium"
+              }
+            ],
+            "nutrient level": [
+              {
+                "type": "nutrient level",
+                "description": "eutrophic",
+                "language": "eng",
+                "source": "Validated red lists of Flanders, Belgium"
+              }
+            ],
+            "spine": [
+              {
+                "type": "spine",
+                "description": "invertebrate",
+                "language": "eng",
+                "source": "Validated red lists of Flanders, Belgium"
+              }
+            ],
+            "mobility": [
+              {
+                "type": "mobility",
+                "description": "mobile",
+                "language": "eng",
+                "source": "Validated red lists of Flanders, Belgium"
+              }
+            ],
+            "cuddliness": [
+              {
+                "type": "cuddliness",
+                "description": "non cuddly",
+                "language": "eng",
+                "source": "Validated red lists of Flanders, Belgium"
+              }
+            ],
+            "lifespan": [
+              {
+                "type": "lifespan",
+                "description": "shortlived",
+                "language": "eng",
+                "source": "Validated red lists of Flanders, Belgium"
+              }
+            ],
+            "biotope": [
+              {
+                "type": "biotope",
+                "description": "standing waters",
+                "language": "eng",
+                "source": "Validated red lists of Flanders, Belgium"
+              }
+            ],
+            "conservation": [
+              {
+                "type": "conservation",
+                "description": "Conservation and breeding status: LC (EU), LC (IT), LC (MED), NB A. mixta is a palearctic lentic dragonfly which was recorded in EXP (2,4,6) and CPB (12); 2 further records were collected during surveys not targeted on odonates (municipality of Premosello Chiovenda, In La Piana, 46.056100 N 8.419550 E, 950 m, 21 Aug 2014). Breeding of this species was not confirmed in the study areas. Half of the observations refers to adults, single or in groups up to 15 individuals, hunting over grasslands a long way from water bodies up to 1120 m. This dragonfly was reported as new for the Canton Tessin by De Marmels & Schiess (1978) and as uncommon for Piedmont and Valle d’Aosta by Boano et al. (2007), with only two records located in the alpine region at altitudes not exceeding 530 m. The preliminary Atlas of Italian dragonflies and damselflies reported a wider distribution in Piedmont, including 4 observations for VGNP and surrounding areas, all below 400 m (Riservato et al. 2014 c). Seven additional records were collected during this survey. In Switzerland this dragonfly was not reported over 700 m (Wildermuth et al. 2005)",
+                "language": "eng",
+                "source": "The Odonate fauna of Val Grande National Park (Insecta: Odonata)"
+              }
+            ]
+          },
+          "all": [
+            {
+              "type": "Habitat_agriculture",
+              "description": "0",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Habitat_dunes",
+              "description": "0",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Habitat_forest",
+              "description": "0",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Habitat_salt_marshes",
+              "description": "0",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Overwintering_adult",
+              "description": "0",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Habitat_fresh_marshes",
+              "description": "1",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Habitat_grassland",
+              "description": "1",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Habitat_heathland",
+              "description": "1",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Habitat_urban",
+              "description": "1",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Overwintering_egg",
+              "description": "1",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Overwintering_larva",
+              "description": "1",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Feeding_guild_adult",
+              "description": "carnivore",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Feeding_guild_larva",
+              "description": "carnivore",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Diurnality",
+              "description": "diurnal",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Trophic_range_adult",
+              "description": "polyphagous",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Trophic_range_larva",
+              "description": "polyphagous",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Voltinism_max",
+              "description": "univoltine",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "biome",
+              "description": "aquatic",
+              "language": "eng",
+              "source": "Validated red lists of Flanders, Belgium"
+            },
+            {
+              "type": "nutrient level",
+              "description": "eutrophic",
+              "language": "eng",
+              "source": "Validated red lists of Flanders, Belgium"
+            },
+            {
+              "type": "spine",
+              "description": "invertebrate",
+              "language": "eng",
+              "source": "Validated red lists of Flanders, Belgium"
+            },
+            {
+              "type": "mobility",
+              "description": "mobile",
+              "language": "eng",
+              "source": "Validated red lists of Flanders, Belgium"
+            },
+            {
+              "type": "cuddliness",
+              "description": "non cuddly",
+              "language": "eng",
+              "source": "Validated red lists of Flanders, Belgium"
+            },
+            {
+              "type": "lifespan",
+              "description": "shortlived",
+              "language": "eng",
+              "source": "Validated red lists of Flanders, Belgium"
+            },
+            {
+              "type": "biotope",
+              "description": "standing waters",
+              "language": "eng",
+              "source": "Validated red lists of Flanders, Belgium"
+            },
+            {
+              "type": "conservation",
+              "description": "Conservation and breeding status: LC (EU), LC (IT), LC (MED), NB A. mixta is a palearctic lentic dragonfly which was recorded in EXP (2,4,6) and CPB (12); 2 further records were collected during surveys not targeted on odonates (municipality of Premosello Chiovenda, In La Piana, 46.056100 N 8.419550 E, 950 m, 21 Aug 2014). Breeding of this species was not confirmed in the study areas. Half of the observations refers to adults, single or in groups up to 15 individuals, hunting over grasslands a long way from water bodies up to 1120 m. This dragonfly was reported as new for the Canton Tessin by De Marmels & Schiess (1978) and as uncommon for Piedmont and Valle d’Aosta by Boano et al. (2007), with only two records located in the alpine region at altitudes not exceeding 530 m. The preliminary Atlas of Italian dragonflies and damselflies reported a wider distribution in Piedmont, including 4 observations for VGNP and surrounding areas, all below 400 m (Riservato et al. 2014 c). Seven additional records were collected during this survey. In Switzerland this dragonfly was not reported over 700 m (Wildermuth et al. 2005)",
+              "language": "eng",
+              "source": "The Odonate fauna of Val Grande National Park (Insecta: Odonata)"
+            }
+          ]
+        }
+      },
+      "gbifFetchedAt": "2026-05-28T05:24:24.528Z",
+      "gbifSchemaVersion": 2
     },
     {
       "ktsn": 120000037262,
@@ -548,7 +1966,55 @@
         "visitsFlowersOf": [],
         "pathogenOf": [],
         "gbifRecords": null
-      }
+      },
+      "gbif": {
+        "usageKey": 1425176,
+        "matchType": "EXACT",
+        "confidence": 100,
+        "scientificName": "Aeshna nigroflava Martin, 1908",
+        "canonicalName": "Aeshna nigroflava",
+        "authorship": "Martin, 1908",
+        "basionym": null,
+        "publishedIn": null,
+        "rank": "SPECIES",
+        "taxonomicStatus": "SYNONYM",
+        "vernacularName": null,
+        "numDescendants": 0,
+        "taxonomy": {
+          "kingdom": "Animalia",
+          "phylum": "Arthropoda",
+          "class": "Insecta",
+          "order": "Odonata",
+          "family": "Aeshnidae",
+          "genus": "Aeshna",
+          "species": "Aeshna crenata"
+        },
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": [],
+          "byLang": {}
+        },
+        "distributions": {
+          "native": [],
+          "introduced": [],
+          "other": [],
+          "korea": []
+        },
+        "media": [],
+        "counts": {
+          "vernacularsRaw": 0,
+          "distributionsRaw": 0,
+          "mediaRaw": 0,
+          "descriptionsRaw": 0
+        },
+        "descriptions": {
+          "byType": {},
+          "all": []
+        }
+      },
+      "gbifFetchedAt": "2026-05-28T05:24:25.007Z",
+      "gbifSchemaVersion": 2
     },
     {
       "ktsn": 120000037264,
@@ -630,7 +2096,95 @@
         "visitsFlowersOf": [],
         "pathogenOf": [],
         "gbifRecords": 398
-      }
+      },
+      "gbif": {
+        "usageKey": 1424925,
+        "matchType": "EXACT",
+        "confidence": 100,
+        "scientificName": "Anaciaeschna martini (Selys, 1897)",
+        "canonicalName": "Anaciaeschna martini",
+        "authorship": "(Selys, 1897) ",
+        "basionym": "Aeschna martini Selys, 1897",
+        "publishedIn": null,
+        "rank": "SPECIES",
+        "taxonomicStatus": "ACCEPTED",
+        "vernacularName": null,
+        "numDescendants": 0,
+        "taxonomy": {
+          "kingdom": "Animalia",
+          "phylum": "Arthropoda",
+          "class": "Insecta",
+          "order": "Odonata",
+          "family": "Aeshnidae",
+          "genus": "Anaciaeschna",
+          "species": "Anaciaeschna martini"
+        },
+        "vernaculars": {
+          "ko": [
+            "도깨비왕잠자리"
+          ],
+          "en": [
+            "Donald's Hawker",
+            "Martin's Hawker"
+          ],
+          "ja": [
+            "マルタンヤンマ"
+          ],
+          "byLang": {
+            "eng": [
+              "Donald's Hawker",
+              "Martin's Hawker"
+            ],
+            "mal": [
+              "ചോലരാജൻതുമ്പി"
+            ],
+            "tha": [
+              "แมลงปอยักษ์ตาฟ้าดอย"
+            ],
+            "jpn": [
+              "マルタンヤンマ"
+            ],
+            "zho": [
+              "烏基晏蜓"
+            ],
+            "kor": [
+              "도깨비왕잠자리"
+            ]
+          }
+        },
+        "distributions": {
+          "native": [],
+          "introduced": [],
+          "other": [
+            {
+              "locality": "Global",
+              "locationId": "",
+              "establishmentMeans": "",
+              "source": "The IUCN Red List of Threatened Species"
+            },
+            {
+              "locality": "VNM",
+              "locationId": "",
+              "establishmentMeans": "",
+              "source": "Catalogue of Life"
+            }
+          ],
+          "korea": []
+        },
+        "media": [],
+        "counts": {
+          "vernacularsRaw": 7,
+          "distributionsRaw": 2,
+          "mediaRaw": 0,
+          "descriptionsRaw": 0
+        },
+        "descriptions": {
+          "byType": {},
+          "all": []
+        }
+      },
+      "gbifFetchedAt": "2026-05-28T05:24:25.531Z",
+      "gbifSchemaVersion": 2
     },
     {
       "ktsn": 120000037266,
@@ -727,7 +2281,186 @@
         "visitsFlowersOf": [],
         "pathogenOf": [],
         "gbifRecords": 1111
-      }
+      },
+      "gbif": {
+        "usageKey": 5051762,
+        "matchType": "EXACT",
+        "confidence": 100,
+        "scientificName": "Anax guttatus (Burmeister, 1839)",
+        "canonicalName": "Anax guttatus",
+        "authorship": "(Burmeister, 1839) ",
+        "basionym": "Aeschna guttatus Burmeister, 1839",
+        "publishedIn": null,
+        "rank": "SPECIES",
+        "taxonomicStatus": "ACCEPTED",
+        "vernacularName": null,
+        "numDescendants": 1,
+        "taxonomy": {
+          "kingdom": "Animalia",
+          "phylum": "Arthropoda",
+          "class": "Insecta",
+          "order": "Odonata",
+          "family": "Aeshnidae",
+          "genus": "Anax",
+          "species": "Anax guttatus"
+        },
+        "vernaculars": {
+          "ko": [
+            "남방왕잠자리"
+          ],
+          "en": [
+            "Emperor",
+            "Lesser Green Emperor",
+            "Pale-spotted Emperor",
+            "Pale-spotted Emperor Dragonfly"
+          ],
+          "ja": [
+            "オオギンヤンマ"
+          ],
+          "byLang": {
+            "deu": [
+              "Blassgefleckte Königslibelle"
+            ],
+            "ind": [
+              "Capung-Barong Bercak-Biru"
+            ],
+            "eng": [
+              "Emperor",
+              "Lesser Green Emperor",
+              "Pale-spotted Emperor",
+              "Pale-spotted Emperor Dragonfly"
+            ],
+            "fra": [
+              "anax tacheté"
+            ],
+            "mal": [
+              "മരതകരാജൻ"
+            ],
+            "tha": [
+              "แมลงปอยักษ์เขียวธรรมดา"
+            ],
+            "jpn": [
+              "オオギンヤンマ"
+            ],
+            "zho": [
+              "斑偉蜓",
+              "烏點晏蜓"
+            ],
+            "kor": [
+              "남방왕잠자리"
+            ]
+          }
+        },
+        "distributions": {
+          "native": [],
+          "introduced": [],
+          "other": [
+            {
+              "locality": "Oaxaca",
+              "locationId": "",
+              "establishmentMeans": "",
+              "source": "Catalogue of Life"
+            },
+            {
+              "locality": "Oaxaca",
+              "locationId": "",
+              "establishmentMeans": "",
+              "source": "Catalogue of Life"
+            },
+            {
+              "locality": "Global",
+              "locationId": "",
+              "establishmentMeans": "",
+              "source": "The IUCN Red List of Threatened Species"
+            },
+            {
+              "locality": "AU",
+              "locationId": "",
+              "establishmentMeans": "",
+              "source": "Catalogue of Life"
+            },
+            {
+              "locality": "VNM",
+              "locationId": "",
+              "establishmentMeans": "",
+              "source": "Catalogue of Life"
+            }
+          ],
+          "korea": []
+        },
+        "media": [
+          {
+            "url": "https://zenodo.org/record/3342329/files/figure.png",
+            "format": "image/png",
+            "license": "",
+            "rightsHolder": "",
+            "source": "Distribution, habitats, phenology and conservation of New Caledonian Odonata",
+            "created": "2019-07-19T00:00:00.000+00:00"
+          },
+          {
+            "url": "https://zenodo.org/record/3342331/files/figure.png",
+            "format": "image/png",
+            "license": "",
+            "rightsHolder": "",
+            "source": "Distribution, habitats, phenology and conservation of New Caledonian Odonata",
+            "created": "2019-07-19T00:00:00.000+00:00"
+          }
+        ],
+        "counts": {
+          "vernacularsRaw": 16,
+          "distributionsRaw": 5,
+          "mediaRaw": 2,
+          "descriptionsRaw": 3
+        },
+        "descriptions": {
+          "byType": {
+            "description": [
+              {
+                "type": "description",
+                "description": "(Fig. 45)",
+                "language": "eng",
+                "source": "Distribution, habitats, phenology and conservation of New Caledonian Odonata"
+              },
+              {
+                "type": "description",
+                "description": "Widely and commonly spread over the whole of Sumatra. I have seen specimens from Deli. N E. Sumatra. as well as from the Lampoengs.",
+                "language": "eng",
+                "source": "A Synopsis of the Odonata (Dragonflies) of Sumatra"
+              }
+            ],
+            "materials_examined": [
+              {
+                "type": "materials_examined",
+                "description": "Distribution (Fig. 44). This species is known from the whole Oriental biogeographic region, from Papua New Guinea, the north of Australia and most South-West Pacific islands (Tsuda 2000), as well as from Tahiti (Paulian 1998). In New Caledonia, we collected it in the Pocquereux valley (La Foa municipality) and in the Nakutakoin swamp in Dumbéa. Several specimens collected in Nouméa are represented in the ONNC collection. The two Anax species (A. guttatus and A. gibbolosus) are so similar that Paulian (1998) suggested that they might be only just two extreme forms of the same species. Habitat. This species reproduces in standing water, including brackish sites (Theischinger & Hawking 2006). Biology and behaviour. The larva was partially illustrated by Theischinger & Hawking (2006). Its habits are similar to A. gibbosulus. Status. Lacking sufficient information about its status in New Caledonia, we rank A. guttatus as DD.",
+                "language": "eng",
+                "source": "Distribution, habitats, phenology and conservation of New Caledonian Odonata"
+              }
+            ]
+          },
+          "all": [
+            {
+              "type": "description",
+              "description": "(Fig. 45)",
+              "language": "eng",
+              "source": "Distribution, habitats, phenology and conservation of New Caledonian Odonata"
+            },
+            {
+              "type": "materials_examined",
+              "description": "Distribution (Fig. 44). This species is known from the whole Oriental biogeographic region, from Papua New Guinea, the north of Australia and most South-West Pacific islands (Tsuda 2000), as well as from Tahiti (Paulian 1998). In New Caledonia, we collected it in the Pocquereux valley (La Foa municipality) and in the Nakutakoin swamp in Dumbéa. Several specimens collected in Nouméa are represented in the ONNC collection. The two Anax species (A. guttatus and A. gibbolosus) are so similar that Paulian (1998) suggested that they might be only just two extreme forms of the same species. Habitat. This species reproduces in standing water, including brackish sites (Theischinger & Hawking 2006). Biology and behaviour. The larva was partially illustrated by Theischinger & Hawking (2006). Its habits are similar to A. gibbosulus. Status. Lacking sufficient information about its status in New Caledonia, we rank A. guttatus as DD.",
+              "language": "eng",
+              "source": "Distribution, habitats, phenology and conservation of New Caledonian Odonata"
+            },
+            {
+              "type": "description",
+              "description": "Widely and commonly spread over the whole of Sumatra. I have seen specimens from Deli. N E. Sumatra. as well as from the Lampoengs.",
+              "language": "eng",
+              "source": "A Synopsis of the Odonata (Dragonflies) of Sumatra"
+            }
+          ]
+        }
+      },
+      "gbifFetchedAt": "2026-05-28T05:24:26.056Z",
+      "gbifSchemaVersion": 2
     },
     {
       "ktsn": 120000037267,
@@ -779,7 +2512,126 @@
           "commonName": "먹줄왕잠자리",
           "ktsn": 120000037267
         }
-      }
+      },
+      "gbif": {
+        "usageKey": 5051785,
+        "matchType": "EXACT",
+        "confidence": 100,
+        "scientificName": "Anax nigrofasciatus Oguma, 1915",
+        "canonicalName": "Anax nigrofasciatus",
+        "authorship": "Oguma, 1915",
+        "basionym": null,
+        "publishedIn": null,
+        "rank": "SPECIES",
+        "taxonomicStatus": "ACCEPTED",
+        "vernacularName": null,
+        "numDescendants": 3,
+        "taxonomy": {
+          "kingdom": "Animalia",
+          "phylum": "Arthropoda",
+          "class": "Insecta",
+          "order": "Odonata",
+          "family": "Aeshnidae",
+          "genus": "Anax",
+          "species": "Anax nigrofasciatus"
+        },
+        "vernaculars": {
+          "ko": [
+            "먹줄왕잠자리"
+          ],
+          "en": [
+            "Blue-spotted Emperor"
+          ],
+          "ja": [
+            "Kurosuji-gin-yamma",
+            "クロスジギンヤンマ"
+          ],
+          "byLang": {
+            "eng": [
+              "Blue-spotted Emperor"
+            ],
+            "jpn": [
+              "Kurosuji-gin-yamma",
+              "クロスジギンヤンマ"
+            ],
+            "rus": [
+              "Дозорщик чернополосый"
+            ],
+            "tha": [
+              "แมลงปอยักษ์เขียวอกคาดดำ"
+            ],
+            "zho": [
+              "烏帶晏蜓",
+              "黑紋偉蜓"
+            ],
+            "kor": [
+              "먹줄왕잠자리"
+            ]
+          }
+        },
+        "distributions": {
+          "native": [],
+          "introduced": [],
+          "other": [
+            {
+              "locality": "Global",
+              "locationId": "",
+              "establishmentMeans": "",
+              "source": "The IUCN Red List of Threatened Species"
+            },
+            {
+              "locality": "VNM",
+              "locationId": "",
+              "establishmentMeans": "",
+              "source": "Catalogue of Life"
+            }
+          ],
+          "korea": []
+        },
+        "media": [],
+        "counts": {
+          "vernacularsRaw": 10,
+          "distributionsRaw": 2,
+          "mediaRaw": 0,
+          "descriptionsRaw": 2
+        },
+        "descriptions": {
+          "byType": {
+            "materials_examined": [
+              {
+                "type": "materials_examined",
+                "description": "Material. 1 ♂ (photographed in hand and released), Russia, Primorskiy Kray, Nadezhdino District, near the Sadko Garden Non-Commercial Fellowship, 43.4171 N, 131.9327 E, E. G. Emelyanov. Habitat and observation. At ca 16: 30 on 19 June 2021, a mature male was caught and photographed by E. G. Emelyanov at a small (9 × 9 m) artificial fire pond devoid of aquatic vegetation, with very scarce riparian vegetation and quite steep banks (Fig. 1). The male exhibited territorial behaviour, ranging at 2 – 2.5 m above the water surface along the banks and sometimes crossing the pond diagonally. The weather was sunny but with unevenly strong wind and an ongoing heavy thunderstorm front. Other Odonata at the pond were represented by Coenagrion johanssonii, Cordulia aenea amurensis and Pantala flavescens. Further search of this species there at later dates provided no result.",
+                "language": "eng",
+                "source": "Anax nigrofasciatus Oguma, 1915 (Odonata, Aeschnidae): A new addition to the fauna of Russia"
+              }
+            ],
+            "Anax nigrofasciatus Oguma 1915": [
+              {
+                "type": "Anax nigrofasciatus Oguma 1915",
+                "description": "<div><p>20. Anax nigrofasciatus Oguma, 1915</p> <p>A nax nigrofasciatus Oguma, 1915b, p. 121, “Okayama; Kyoto, Totomi; Tokyo ”; Oguma, 1926, p. 78, “Honshu (Tokyo; Okayama)”.</p> <p>In 1935 I found only one male from Tokyo and 2 ♂ 1 ♀ from Okayama, all of them probably belonging to the syntypes. Now I select the male specimen bearing the label “May, 8. 1907, Okayama” as lectotype.</p></div>",
+                "language": "eng",
+                "source": "The Type Specimens of the Odonata in the Entomological Institute, Hokkaido University"
+              }
+            ]
+          },
+          "all": [
+            {
+              "type": "materials_examined",
+              "description": "Material. 1 ♂ (photographed in hand and released), Russia, Primorskiy Kray, Nadezhdino District, near the Sadko Garden Non-Commercial Fellowship, 43.4171 N, 131.9327 E, E. G. Emelyanov. Habitat and observation. At ca 16: 30 on 19 June 2021, a mature male was caught and photographed by E. G. Emelyanov at a small (9 × 9 m) artificial fire pond devoid of aquatic vegetation, with very scarce riparian vegetation and quite steep banks (Fig. 1). The male exhibited territorial behaviour, ranging at 2 – 2.5 m above the water surface along the banks and sometimes crossing the pond diagonally. The weather was sunny but with unevenly strong wind and an ongoing heavy thunderstorm front. Other Odonata at the pond were represented by Coenagrion johanssonii, Cordulia aenea amurensis and Pantala flavescens. Further search of this species there at later dates provided no result.",
+              "language": "eng",
+              "source": "Anax nigrofasciatus Oguma, 1915 (Odonata, Aeschnidae): A new addition to the fauna of Russia"
+            },
+            {
+              "type": "Anax nigrofasciatus Oguma 1915",
+              "description": "<div><p>20. Anax nigrofasciatus Oguma, 1915</p> <p>A nax nigrofasciatus Oguma, 1915b, p. 121, “Okayama; Kyoto, Totomi; Tokyo ”; Oguma, 1926, p. 78, “Honshu (Tokyo; Okayama)”.</p> <p>In 1935 I found only one male from Tokyo and 2 ♂ 1 ♀ from Okayama, all of them probably belonging to the syntypes. Now I select the male specimen bearing the label “May, 8. 1907, Okayama” as lectotype.</p></div>",
+              "language": "eng",
+              "source": "The Type Specimens of the Odonata in the Entomological Institute, Hokkaido University"
+            }
+          ]
+        }
+      },
+      "gbifFetchedAt": "2026-05-28T05:24:26.579Z",
+      "gbifSchemaVersion": 2
     },
     {
       "ktsn": 120000091277,
@@ -831,7 +2683,92 @@
           "commonName": "",
           "ktsn": 120000037268
         }
-      }
+      },
+      "gbif": {
+        "usageKey": 5051759,
+        "matchType": "EXACT",
+        "confidence": 100,
+        "scientificName": "Anax parthenope julius Brauer, 1865",
+        "canonicalName": "Anax parthenope julius",
+        "authorship": "Brauer, 1865",
+        "basionym": null,
+        "publishedIn": null,
+        "rank": "SUBSPECIES",
+        "taxonomicStatus": "ACCEPTED",
+        "vernacularName": null,
+        "numDescendants": 0,
+        "taxonomy": {
+          "kingdom": "Animalia",
+          "phylum": "Arthropoda",
+          "class": "Insecta",
+          "order": "Odonata",
+          "family": "Aeshnidae",
+          "genus": "Anax",
+          "species": "Anax parthenope"
+        },
+        "vernaculars": {
+          "ko": [
+            "왕잠자리"
+          ],
+          "en": [],
+          "ja": [
+            "ギンヤンマ（銀蜻蜒）"
+          ],
+          "byLang": {
+            "jpn": [
+              "ギンヤンマ（銀蜻蜒）"
+            ],
+            "zho": [
+              "綠胸晏蜓"
+            ],
+            "kor": [
+              "왕잠자리"
+            ]
+          }
+        },
+        "distributions": {
+          "native": [
+            {
+              "locality": "",
+              "locationId": "",
+              "establishmentMeans": "NATIVE",
+              "source": "Catalogue of Life"
+            }
+          ],
+          "introduced": [],
+          "other": [],
+          "korea": []
+        },
+        "media": [],
+        "counts": {
+          "vernacularsRaw": 3,
+          "distributionsRaw": 1,
+          "mediaRaw": 0,
+          "descriptionsRaw": 1
+        },
+        "descriptions": {
+          "byType": {
+            "Notes": [
+              {
+                "type": "Notes",
+                "description": "<p>Kim (1971), Lee and Kwon (1981), ME (1993), Kwon et al. (1996), Lee and Jung (2001), Lim and Lee (2012), Lim et al. (2013), HNIBR (2022)</p>",
+                "language": "eng",
+                "source": "Checklist for the insect fauna of two East Sea Islands (Ulleungdo Is. and Dokdo Is.) in the Republic of Korea"
+              }
+            ]
+          },
+          "all": [
+            {
+              "type": "Notes",
+              "description": "<p>Kim (1971), Lee and Kwon (1981), ME (1993), Kwon et al. (1996), Lee and Jung (2001), Lim and Lee (2012), Lim et al. (2013), HNIBR (2022)</p>",
+              "language": "eng",
+              "source": "Checklist for the insect fauna of two East Sea Islands (Ulleungdo Is. and Dokdo Is.) in the Republic of Korea"
+            }
+          ]
+        }
+      },
+      "gbifFetchedAt": "2026-05-28T05:24:27.104Z",
+      "gbifSchemaVersion": 2
     },
     {
       "ktsn": 120000531469,
@@ -883,7 +2820,74 @@
           "commonName": "한국개미허리왕잠자리",
           "ktsn": 120000531469
         }
-      }
+      },
+      "gbif": {
+        "usageKey": 1425143,
+        "matchType": "EXACT",
+        "confidence": 100,
+        "scientificName": "Boyeria karubei Yokoi, 2002",
+        "canonicalName": "Boyeria karubei",
+        "authorship": "Yokoi, 2002",
+        "basionym": null,
+        "publishedIn": null,
+        "rank": "SPECIES",
+        "taxonomicStatus": "ACCEPTED",
+        "vernacularName": null,
+        "numDescendants": 0,
+        "taxonomy": {
+          "kingdom": "Animalia",
+          "phylum": "Arthropoda",
+          "class": "Insecta",
+          "order": "Odonata",
+          "family": "Aeshnidae",
+          "genus": "Boyeria",
+          "species": "Boyeria karubei"
+        },
+        "vernaculars": {
+          "ko": [
+            "한국개미허리왕잠자리"
+          ],
+          "en": [],
+          "ja": [],
+          "byLang": {
+            "kor": [
+              "한국개미허리왕잠자리"
+            ]
+          }
+        },
+        "distributions": {
+          "native": [],
+          "introduced": [],
+          "other": [
+            {
+              "locality": "Global",
+              "locationId": "",
+              "establishmentMeans": "",
+              "source": "The IUCN Red List of Threatened Species"
+            },
+            {
+              "locality": "VNM",
+              "locationId": "",
+              "establishmentMeans": "",
+              "source": "Catalogue of Life"
+            }
+          ],
+          "korea": []
+        },
+        "media": [],
+        "counts": {
+          "vernacularsRaw": 1,
+          "distributionsRaw": 2,
+          "mediaRaw": 0,
+          "descriptionsRaw": 0
+        },
+        "descriptions": {
+          "byType": {},
+          "all": []
+        }
+      },
+      "gbifFetchedAt": "2026-05-28T05:24:27.622Z",
+      "gbifSchemaVersion": 2
     },
     {
       "ktsn": 120000037270,
@@ -935,7 +2939,66 @@
           "commonName": "개미허리왕잠자리",
           "ktsn": 120000037270
         }
-      }
+      },
+      "gbif": {
+        "usageKey": 1425144,
+        "matchType": "EXACT",
+        "confidence": 100,
+        "scientificName": "Boyeria maclachlani (Selys, 1883)",
+        "canonicalName": "Boyeria maclachlani",
+        "authorship": "(Selys, 1883) ",
+        "basionym": "Fonscolombia maclachlani Selys, 1883",
+        "publishedIn": null,
+        "rank": "SPECIES",
+        "taxonomicStatus": "ACCEPTED",
+        "vernacularName": null,
+        "numDescendants": 0,
+        "taxonomy": {
+          "kingdom": "Animalia",
+          "phylum": "Arthropoda",
+          "class": "Insecta",
+          "order": "Odonata",
+          "family": "Aeshnidae",
+          "genus": "Boyeria",
+          "species": "Boyeria maclachlani"
+        },
+        "vernaculars": {
+          "ko": [
+            "개미허리왕잠자리"
+          ],
+          "en": [],
+          "ja": [
+            "コシボソヤンマ"
+          ],
+          "byLang": {
+            "jpn": [
+              "コシボソヤンマ"
+            ],
+            "kor": [
+              "개미허리왕잠자리"
+            ]
+          }
+        },
+        "distributions": {
+          "native": [],
+          "introduced": [],
+          "other": [],
+          "korea": []
+        },
+        "media": [],
+        "counts": {
+          "vernacularsRaw": 2,
+          "distributionsRaw": 0,
+          "mediaRaw": 0,
+          "descriptionsRaw": 0
+        },
+        "descriptions": {
+          "byType": {},
+          "all": []
+        }
+      },
+      "gbifFetchedAt": "2026-05-28T05:24:28.154Z",
+      "gbifSchemaVersion": 2
     },
     {
       "ktsn": 120000217674,
@@ -987,7 +3050,82 @@
           "commonName": "남방잘록허리왕잠자리",
           "ktsn": 120000217674
         }
-      }
+      },
+      "gbif": {
+        "usageKey": 1424769,
+        "matchType": "EXACT",
+        "confidence": 100,
+        "scientificName": "Gynacantha basiguttata Selys, 1882",
+        "canonicalName": "Gynacantha basiguttata",
+        "authorship": "Selys, 1882",
+        "basionym": null,
+        "publishedIn": null,
+        "rank": "SPECIES",
+        "taxonomicStatus": "ACCEPTED",
+        "vernacularName": null,
+        "numDescendants": 0,
+        "taxonomy": {
+          "kingdom": "Animalia",
+          "phylum": "Arthropoda",
+          "class": "Insecta",
+          "order": "Odonata",
+          "family": "Aeshnidae",
+          "genus": "Gynacantha",
+          "species": "Gynacantha basiguttata"
+        },
+        "vernaculars": {
+          "ko": [
+            "남방잘록허리왕잠자리"
+          ],
+          "en": [
+            "Spoon-tailed Duskhawker"
+          ],
+          "ja": [],
+          "byLang": {
+            "eng": [
+              "Spoon-tailed Duskhawker"
+            ],
+            "tha": [
+              "แมลงปอยักษ์รีทีหนา"
+            ],
+            "kor": [
+              "남방잘록허리왕잠자리"
+            ]
+          }
+        },
+        "distributions": {
+          "native": [],
+          "introduced": [],
+          "other": [
+            {
+              "locality": "Global",
+              "locationId": "",
+              "establishmentMeans": "",
+              "source": "The IUCN Red List of Threatened Species"
+            },
+            {
+              "locality": "VNM",
+              "locationId": "",
+              "establishmentMeans": "",
+              "source": "Catalogue of Life"
+            }
+          ],
+          "korea": []
+        },
+        "media": [],
+        "counts": {
+          "vernacularsRaw": 3,
+          "distributionsRaw": 2,
+          "mediaRaw": 0,
+          "descriptionsRaw": 0
+        },
+        "descriptions": {
+          "byType": {},
+          "all": []
+        }
+      },
+      "gbifFetchedAt": "2026-05-28T05:24:28.671Z",
+      "gbifSchemaVersion": 2
     },
     {
       "ktsn": 120000037272,
@@ -1039,7 +3177,82 @@
           "commonName": "잘록허리왕잠자리",
           "ktsn": 120000037272
         }
-      }
+      },
+      "gbif": {
+        "usageKey": 1424794,
+        "matchType": "EXACT",
+        "confidence": 100,
+        "scientificName": "Gynacantha japonica Bartenev, 1910",
+        "canonicalName": "Gynacantha japonica",
+        "authorship": "Bartenev, 1910",
+        "basionym": null,
+        "publishedIn": null,
+        "rank": "SPECIES",
+        "taxonomicStatus": "ACCEPTED",
+        "vernacularName": null,
+        "numDescendants": 1,
+        "taxonomy": {
+          "kingdom": "Animalia",
+          "phylum": "Arthropoda",
+          "class": "Insecta",
+          "order": "Odonata",
+          "family": "Aeshnidae",
+          "genus": "Gynacantha",
+          "species": "Gynacantha japonica"
+        },
+        "vernaculars": {
+          "ko": [
+            "잘록허리왕잠자리"
+          ],
+          "en": [
+            "Blue-spotted Dusk-hawker"
+          ],
+          "ja": [
+            "カトリヤンマ"
+          ],
+          "byLang": {
+            "eng": [
+              "Blue-spotted Dusk-hawker"
+            ],
+            "jpn": [
+              "カトリヤンマ"
+            ],
+            "zho": [
+              "倭鋏晏蜓",
+              "日本長尾蜓"
+            ],
+            "kor": [
+              "잘록허리왕잠자리"
+            ]
+          }
+        },
+        "distributions": {
+          "native": [],
+          "introduced": [],
+          "other": [
+            {
+              "locality": "VNM",
+              "locationId": "",
+              "establishmentMeans": "",
+              "source": "Catalogue of Life"
+            }
+          ],
+          "korea": []
+        },
+        "media": [],
+        "counts": {
+          "vernacularsRaw": 5,
+          "distributionsRaw": 1,
+          "mediaRaw": 0,
+          "descriptionsRaw": 0
+        },
+        "descriptions": {
+          "byType": {},
+          "all": []
+        }
+      },
+      "gbifFetchedAt": "2026-05-28T05:24:29.202Z",
+      "gbifSchemaVersion": 2
     },
     {
       "ktsn": 120000037274,
@@ -1091,7 +3304,73 @@
           "commonName": "황줄왕잠자리",
           "ktsn": 120000037274
         }
-      }
+      },
+      "gbif": {
+        "usageKey": 1425061,
+        "matchType": "EXACT",
+        "confidence": 100,
+        "scientificName": "Polycanthagyna melanictera (Selys, 1883)",
+        "canonicalName": "Polycanthagyna melanictera",
+        "authorship": "(Selys, 1883) ",
+        "basionym": "Aeschna melanictera Selys, 1883",
+        "publishedIn": null,
+        "rank": "SPECIES",
+        "taxonomicStatus": "ACCEPTED",
+        "vernacularName": null,
+        "numDescendants": 1,
+        "taxonomy": {
+          "kingdom": "Animalia",
+          "phylum": "Arthropoda",
+          "class": "Insecta",
+          "order": "Odonata",
+          "family": "Aeshnidae",
+          "genus": "Polycanthagyna",
+          "species": "Polycanthagyna melanictera"
+        },
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": [],
+          "byLang": {
+            "zho": [
+              "描金晏蜓"
+            ]
+          }
+        },
+        "distributions": {
+          "native": [
+            {
+              "locality": "",
+              "locationId": "",
+              "establishmentMeans": "NATIVE",
+              "source": "Catalogue of Life"
+            }
+          ],
+          "introduced": [],
+          "other": [
+            {
+              "locality": "Global",
+              "locationId": "",
+              "establishmentMeans": "",
+              "source": "The IUCN Red List of Threatened Species"
+            }
+          ],
+          "korea": []
+        },
+        "media": [],
+        "counts": {
+          "vernacularsRaw": 1,
+          "distributionsRaw": 2,
+          "mediaRaw": 0,
+          "descriptionsRaw": 0
+        },
+        "descriptions": {
+          "byType": {},
+          "all": []
+        }
+      },
+      "gbifFetchedAt": "2026-05-28T05:24:29.724Z",
+      "gbifSchemaVersion": 2
     },
     {
       "ktsn": 120000037276,
@@ -1143,7 +3422,75 @@
           "commonName": "한라별왕잠자리",
           "ktsn": 120000037276
         }
-      }
+      },
+      "gbif": {
+        "usageKey": 5791747,
+        "matchType": "EXACT",
+        "confidence": 100,
+        "scientificName": "Sarasaeschna pryeri (Martin, 1909)",
+        "canonicalName": "Sarasaeschna pryeri",
+        "authorship": "(Martin, 1909) ",
+        "basionym": "Jagoria pryeri Martin, 1909",
+        "publishedIn": null,
+        "rank": "SPECIES",
+        "taxonomicStatus": "ACCEPTED",
+        "vernacularName": null,
+        "numDescendants": 0,
+        "taxonomy": {
+          "kingdom": "Animalia",
+          "phylum": "Arthropoda",
+          "class": "Insecta",
+          "order": "Odonata",
+          "family": "Aeshnidae",
+          "genus": "Sarasaeschna",
+          "species": "Sarasaeschna pryeri"
+        },
+        "vernaculars": {
+          "ko": [
+            "한라별왕잠자리"
+          ],
+          "en": [],
+          "ja": [
+            "Sarasa-yanma",
+            "サラサヤンマ"
+          ],
+          "byLang": {
+            "jpn": [
+              "Sarasa-yanma",
+              "サラサヤンマ"
+            ],
+            "kor": [
+              "한라별왕잠자리"
+            ]
+          }
+        },
+        "distributions": {
+          "native": [],
+          "introduced": [],
+          "other": [
+            {
+              "locality": "Global",
+              "locationId": "",
+              "establishmentMeans": "",
+              "source": "The IUCN Red List of Threatened Species"
+            }
+          ],
+          "korea": []
+        },
+        "media": [],
+        "counts": {
+          "vernacularsRaw": 4,
+          "distributionsRaw": 1,
+          "mediaRaw": 0,
+          "descriptionsRaw": 0
+        },
+        "descriptions": {
+          "byType": {},
+          "all": []
+        }
+      },
+      "gbifFetchedAt": "2026-05-28T05:24:30.251Z",
+      "gbifSchemaVersion": 2
     }
   ]
 }

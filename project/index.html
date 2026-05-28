@@ -1352,8 +1352,8 @@
             <button class="expanded-close" onclick="collapseOrder(event)">✕</button>
           </div>
           <div class="expanded-body">
-            <h3 class="expanded-title">${escapeHTML(order.scientificName)}</h3>
-            <p class="expanded-kr">${escapeHTML(order.commonName)}</p>
+            <h3 class="expanded-title">${escapeHTML(order.commonName)}</h3>
+            <p class="expanded-kr">${escapeHTML(order.scientificName)}</p>
             <p class="order-count">${formatCount(order.familyCount)}개 과</p>
             <div class="family-divider">
               <span class="family-divider-label">FAMILIES · ${families.length}</span>
@@ -1438,44 +1438,44 @@
       return document.querySelector('.page.active') || document.scrollingElement;
     }
 
+    // FLIP 기반 expand/collapse — transform만 사용하여 .app { overflow: hidden }과 호환.
+    // View Transitions API는 가상 요소를 root에 렌더하여 모바일 셸 프레임을 뚫고 나가지만,
+    // FLIP은 카드 자신의 transform 속성만 변경하므로 안전하다.
     function executeExpand(key) {
-      const updateDOM = () => {
-        expandedOrderKey = key;
-        renderOrders(ordersData);
-
-        // 스크롤을 확장 카드로 부드럽게 이동 — .page.active 안에서 스크롤
-        setTimeout(() => {
-          const expandedEl = document.querySelector('.order-card-mini.expanded');
-          if (!expandedEl) return;
-          const scroller = getActivePageScroller();
-          if (!scroller) return;
-          const scrollerRect = scroller.getBoundingClientRect();
-          const elRect = expandedEl.getBoundingClientRect();
-          const offset = elRect.top - scrollerRect.top - 80;
+      // First: 현재 카드 위치/크기 캡처
+      const before = captureCardPositions();
+      // Last: DOM 갱신
+      expandedOrderKey = key;
+      renderOrders(ordersData);
+      // Invert + Play: 다음 프레임에 역변환 적용 후 자연 상태로 애니메이션
+      // 펼쳐질 때는 다른 카드가 빠르게(240ms) 비켜 겹침 방지
+      requestAnimationFrame(() => {
+        playFlipAnimation(before, 480, /* includeScale */ true, /* positionShiftMs */ 240);
+      });
+      // 스크롤을 확장 카드로 부드럽게 이동 (애니메이션이 중반 정도 진행된 뒤)
+      setTimeout(() => {
+        const expandedEl = document.querySelector('.order-card-mini.expanded');
+        if (!expandedEl) return;
+        const scroller = getActivePageScroller();
+        if (!scroller) return;
+        const scrollerRect = scroller.getBoundingClientRect();
+        const elRect = expandedEl.getBoundingClientRect();
+        const offset = elRect.top - scrollerRect.top - 80;
+        if (Math.abs(offset) > 4) {
           scroller.scrollBy({ top: offset, behavior: 'smooth' });
-        }, 50);
-      };
-
-      if (document.startViewTransition) {
-        document.startViewTransition(() => updateDOM());
-      } else {
-        updateDOM();
-      }
+        }
+      }, 220);
     }
 
     function collapseOrder(e) {
       if (e) e.stopPropagation();
-
-      const updateDOM = () => {
-        expandedOrderKey = null;
-        renderOrders(ordersData);
-      };
-
-      if (document.startViewTransition) {
-        document.startViewTransition(() => updateDOM());
-      } else {
-        updateDOM();
-      }
+      const before = captureCardPositions();
+      expandedOrderKey = null;
+      renderOrders(ordersData);
+      // 축소 시 다른 카드들도 함께 원래 자리로 — positionShiftMs 생략 → 480ms 동일
+      requestAnimationFrame(() => {
+        playFlipAnimation(before, 480, /* includeScale */ true);
+      });
     }
     function openFamilyPage(orderKey) {
       const order = ordersData.find(item => getOrderKey(item) === orderKey);
@@ -1655,7 +1655,9 @@
               ...placeholder.taxonomy,
               genus: item.genus || placeholder.taxonomy.genus,
               species: item.species || placeholder.taxonomy.species
-            }
+            },
+            // GBIF 데이터(있는 경우)를 openSpeciesDetail의 render()에서 enrich
+            _gbifData: item.gbif || null
           }, 'pageFamilyDetail');
         };
 
@@ -1795,34 +1797,57 @@
       });
 
     // ── FLIP 애니메이션 헬퍼 ──
+    // First-Last-Invert-Play 기법으로 모바일 셸 안에서도 안전하게 동작.
+    // transform만 사용하므로 .app { overflow: hidden } 환경에서도 카드가 root에
+    // 튀어나오지 않는다 (View Transitions API와 달리 가상 요소를 만들지 않음).
+    const PREFERS_REDUCED_MOTION = window.matchMedia?.('(prefers-reduced-motion: reduce)')?.matches === true;
+
     function captureCardPositions() {
       const grid = document.getElementById('orderGrid');
       if (!grid) return {};
       const positions = {};
-      grid.querySelectorAll('.order-card-mini').forEach(card => {
+      grid.querySelectorAll('.order-card-mini').forEach((card) => {
         const key = card.style.viewTransitionName || card.querySelector('.order-name-kr, .expanded-title')?.textContent || '';
         if (key) positions[key] = card.getBoundingClientRect();
       });
       return positions;
     }
 
-    function playFlipAnimation(before, duration = 420) {
+    // before: { key → DOMRect } 형태
+    // duration: 크기 변화가 있는 카드(펼쳐지는/축소되는 타겟)의 애니메이션 길이(ms)
+    // includeScale: true면 위치+크기 morph, false면 위치만 (정렬용)
+    // positionShiftMs: 위치만 이동하는 카드의 duration(ms). null이면 duration과 동일.
+    //                  expand 시 짧게 주면 다른 카드가 먼저 비켜주어 겹침 방지.
+    //                  collapse 시 null로 두면 다른 카드들이 함께 원래 자리로 돌아옴.
+    function playFlipAnimation(before, duration = 420, includeScale = false, positionShiftMs = null) {
+      if (PREFERS_REDUCED_MOTION) return;
       const grid = document.getElementById('orderGrid');
       if (!grid) return;
-      grid.querySelectorAll('.order-card-mini').forEach(card => {
+      const easing = 'cubic-bezier(0.4, 0.0, 0.2, 1)';
+      const shiftDuration = positionShiftMs ?? duration;
+      grid.querySelectorAll('.order-card-mini').forEach((card) => {
         const key = card.style.viewTransitionName || card.querySelector('.order-name-kr, .expanded-title')?.textContent || '';
         const oldRect = before[key];
         if (!oldRect) return;
         const newRect = card.getBoundingClientRect();
         const dx = oldRect.left - newRect.left;
         const dy = oldRect.top - newRect.top;
-        if (Math.abs(dx) < 1 && Math.abs(dy) < 1) return;
+        const sx = includeScale ? oldRect.width  / Math.max(newRect.width, 1)  : 1;
+        const sy = includeScale ? oldRect.height / Math.max(newRect.height, 1) : 1;
+        // 변화가 미미하면 스킵 (불필요한 페인트 방지)
+        if (Math.abs(dx) < 0.5 && Math.abs(dy) < 0.5 && Math.abs(sx - 1) < 0.005 && Math.abs(sy - 1) < 0.005) return;
+
+        // 카드별 duration 결정 — 크기 변화가 있으면 풀 duration, 위치만 이동이면 shiftDuration
+        const hasSignificantScale = Math.abs(sx - 1) > 0.05 || Math.abs(sy - 1) > 0.05;
+        const cardDuration = hasSignificantScale ? duration : shiftDuration;
+
         card.animate(
           [
-            { transform: `translate(${dx}px, ${dy}px)`, opacity: 0.7 },
-            { transform: 'translate(0, 0)', opacity: 1 }
+            { transform: `translate(${dx}px, ${dy}px) scale(${sx}, ${sy})`, transformOrigin: '0 0' },
+            { transform: 'translate(0, 0) scale(1, 1)',                     transformOrigin: '0 0' },
           ],
-          { duration, easing: 'cubic-bezier(0.25, 0.46, 0.45, 0.94)', fill: 'backwards' }
+          // fill: 'none' — 애니메이션 후 transform 잔존 없이 자연 상태로 복귀
+          { duration: cardDuration, easing, fill: 'none' }
         );
       });
     }
@@ -1843,10 +1868,10 @@
         ordersData.sort((a, b) => (a.scientificName || '').localeCompare(b.scientificName || ''));
       }
 
-      // FLIP: 렌더 전에 위치를 먼저 캡처, 렌더 후에 애니메이션
+      // FLIP: 렌더 전에 위치를 먼저 캡처, 렌더 후에 애니메이션 (위치만 — 크기 동일)
       const before = captureCardPositions();
       renderOrders(ordersData);
-      requestAnimationFrame(() => playFlipAnimation(before, 420));
+      requestAnimationFrame(() => playFlipAnimation(before, 420, /* includeScale */ false));
     });
 
     // ── Tab Switching ──
@@ -2972,6 +2997,132 @@
       return species;
     }
 
+    // GBIF 캐시 보강 — family JSON의 insect.gbif 필드를 species 객체로 매핑.
+    // EOL과 달리 종 단위 인라인 데이터이므로 별도 fetch가 필요 없음.
+    function enrichSpeciesWithGbif(species, gbifData) {
+      if (!species || !gbifData) return species;
+      if (gbifData.status === 'not_found' || !gbifData.usageKey) return species;
+
+      // 1) 이미지 (CC 라이센스 메타 함께 보존)
+      if (Array.isArray(gbifData.media) && gbifData.media.length > 0) {
+        if (!Array.isArray(species.images) || species.images.length === 0) {
+          species.images = gbifData.media.map((m) => m.url).filter(Boolean);
+        }
+        species.imageCredits = gbifData.media.map((m) => ({
+          url: m.url, license: m.license, rightsHolder: m.rightsHolder, source: m.source,
+        }));
+      }
+
+      // 2) 한국어 통명 — 빈 경우만 보강
+      const v = gbifData.vernaculars || {};
+      if ((!species.commonName || species.commonName === '이름 미상') && Array.isArray(v.ko) && v.ko.length > 0) {
+        species.commonName = v.ko[0];
+      }
+
+      // 3) 명명자 / 연도 — authorship에서 파싱
+      if ((!species.author || !species.year) && gbifData.authorship) {
+        const m = gbifData.authorship.match(/^\(?([^,()]+?),\s*(\d{4})\)?/);
+        if (m) {
+          if (!species.author) species.author = m[1].trim();
+          if (!species.year)   species.year = m[2];
+        }
+      }
+
+      // 4) 학명 전체 표기 (예: "Pantala flavescens (Fabricius, 1798)")
+      if (!species.fullScientificName && gbifData.scientificName) {
+        species.fullScientificName = gbifData.scientificName;
+      }
+
+      // 5) 서식지 — Habitat_* Boolean 형질을 한국어로 변환
+      const byType = gbifData.descriptions?.byType || {};
+      const habitatLabels = {
+        Habitat_agriculture: '농경지',
+        Habitat_dunes: '모래언덕',
+        Habitat_forest: '숲',
+        Habitat_fresh_marshes: '담수 습지',
+        Habitat_grassland: '풀밭',
+        Habitat_heathland: '관목 황무지',
+        Habitat_salt_marshes: '염습지',
+        Habitat_urban: '도시',
+      };
+      const habitats = [];
+      for (const [key, label] of Object.entries(habitatLabels)) {
+        if (byType[key]?.[0]?.description === '1') habitats.push(label);
+      }
+      if (habitats.length > 0 && !species.habitat) {
+        species.habitat = habitats.join(', ');
+      }
+
+      // 6) 분포 지역 — NATIVE + INTRODUCED 결합, 중복 제거
+      if ((!Array.isArray(species.habitatRegions) || species.habitatRegions.length === 0) && gbifData.distributions) {
+        const native = (gbifData.distributions.native || []).map((d) => d.locality).filter(Boolean);
+        const introduced = (gbifData.distributions.introduced || []).map((d) => d.locality).filter(Boolean);
+        const merged = [...new Set([...native, ...introduced])];
+        if (merged.length > 0) species.habitatRegions = merged.slice(0, 30);
+      }
+
+      // 7) 활동 시간 (Diurnality) — 한국어 매핑
+      const diurnality = byType.Diurnality?.[0]?.description;
+      if (diurnality && !species.activity) {
+        const map = { diurnal: '주간', nocturnal: '야간', crepuscular: '여명/황혼', cathemeral: '시간 무관' };
+        species.activity = map[diurnality] || diurnality;
+      }
+
+      // 8) 월동 단계 → lifecycle 필드에 "월동" 라벨 부여
+      const lifecycle = species.lifecycle || { egg: null, larva: null, pupa: null, adult: null };
+      const ovwMap = {
+        egg:   byType.Overwintering_egg?.[0]?.description,
+        larva: byType.Overwintering_larva?.[0]?.description,
+        pupa:  byType.Overwintering_pupa?.[0]?.description,
+        adult: byType.Overwintering_adult?.[0]?.description,
+      };
+      for (const stage of ['egg', 'larva', 'pupa', 'adult']) {
+        if (ovwMap[stage] === '1' && !lifecycle[stage]) {
+          lifecycle[stage] = '월동 단계';
+        }
+      }
+      species.lifecycle = lifecycle;
+
+      // 9) 설명 — 텍스트 서술 우선, 없으면 형질 합성
+      if (!species.description) {
+        const parts = [];
+        const textTypes = ['general', 'description', 'ecology', 'lifecycle', 'reproduction', 'Notes', 'discussion', 'native range'];
+        for (const type of textTypes) {
+          const entry = byType[type]?.[0];
+          if (entry?.description && entry.description.length > 20) {
+            // HTML 태그 제거 + 공백 정규화
+            const clean = entry.description.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
+            if (clean) {
+              parts.push(clean.slice(0, 500));
+              break; // 가장 우선 한 개만
+            }
+          }
+        }
+
+        const traits = [];
+        const feeding = byType.Feeding_guild_adult?.[0]?.description;
+        if (feeding && feeding !== '0') traits.push(`성충 먹이: ${feeding}`);
+        const feedingL = byType.Feeding_guild_larva?.[0]?.description;
+        if (feedingL && feedingL !== '0') traits.push(`유충 먹이: ${feedingL}`);
+        const lifespan = byType.lifespan?.[0]?.description;
+        if (lifespan) traits.push(`수명: ${lifespan}`);
+        const biome = byType.biome?.[0]?.description;
+        if (biome) traits.push(`생태권: ${biome}`);
+        const biotope = byType.biotope?.[0]?.description;
+        if (biotope) traits.push(`서식형: ${biotope}`);
+        const voltinism = byType.Voltinism_max?.[0]?.description;
+        if (voltinism) traits.push(`세대 수: ${voltinism}`);
+        if (traits.length > 0) parts.push(traits.join(' · '));
+
+        if (parts.length > 0) species.description = parts.join('\n\n');
+      }
+
+      // 10) GBIF 메타 — 추적/디버깅용
+      species.gbifPageId = gbifData.usageKey;
+
+      return species;
+    }
+
     function openSpeciesDetail(species, fromPage = 'pageFamilyDetail') {
       if (!species) return;
       previousSpeciesPage = fromPage;
@@ -2983,8 +3134,13 @@
       const render = () => {
         if (selectedSpecies !== species) return; // race: 사용자가 다른 종으로 이동
         enrichSpeciesWithEol(species);
+        // GBIF 데이터는 species._gbifData에 동봉돼 있으면 함께 보강
+        if (species._gbifData) enrichSpeciesWithGbif(species, species._gbifData);
         renderSpeciesDetail(species);
       };
+
+      // GBIF는 동기 데이터(inline)이므로 EOL 캐시 도착 전이라도 미리 보강
+      if (species._gbifData) enrichSpeciesWithGbif(species, species._gbifData);
 
       if (eolCacheData) {
         render();

@@ -65,7 +65,79 @@
           "commonName": "백두산옛잠자리",
           "ktsn": 120000229441
         }
-      }
+      },
+      "gbif": {
+        "usageKey": 12185258,
+        "matchType": "EXACT",
+        "confidence": 100,
+        "scientificName": "Epiophlebia sinensis Li & Nel, 2011",
+        "canonicalName": "Epiophlebia sinensis",
+        "authorship": "Li & Nel, 2011",
+        "basionym": null,
+        "publishedIn": null,
+        "rank": "SPECIES",
+        "taxonomicStatus": "ACCEPTED",
+        "vernacularName": null,
+        "numDescendants": 0,
+        "taxonomy": {
+          "kingdom": "Animalia",
+          "phylum": "Arthropoda",
+          "class": "Insecta",
+          "order": "Odonata",
+          "family": "Epiophlebiidae",
+          "genus": "Epiophlebia",
+          "species": "Epiophlebia sinensis"
+        },
+        "vernaculars": {
+          "ko": [
+            "백두산옛잠자리"
+          ],
+          "en": [],
+          "ja": [
+            "チャバラムカシトンボ",
+            "チュウカムカシトンボ",
+            "ハルピンムカシトンボ",
+            "マンシュウムカシトンボ"
+          ],
+          "byLang": {
+            "jpn": [
+              "チャバラムカシトンボ",
+              "チュウカムカシトンボ",
+              "ハルピンムカシトンボ",
+              "マンシュウムカシトンボ"
+            ],
+            "kor": [
+              "백두산옛잠자리"
+            ]
+          }
+        },
+        "distributions": {
+          "native": [],
+          "introduced": [],
+          "other": [
+            {
+              "locality": "Global",
+              "locationId": "",
+              "establishmentMeans": "",
+              "source": "The IUCN Red List of Threatened Species"
+            }
+          ],
+          "korea": []
+        },
+        "media": [],
+        "counts": {
+          "vernacularsRaw": 5,
+          "distributionsRaw": 1,
+          "mediaRaw": 0,
+          "descriptionsRaw": 0
+        },
+        "descriptions": {
+          "byType": {},
+          "all": []
+        }
+      },
+      "gbifFetchedAt": "2026-05-28T05:24:50.691Z",
+      "gbifSchemaVersion": 2
     }
   ]
 }

@@ -99,7 +99,93 @@
         "visitsFlowersOf": [],
         "pathogenOf": [],
         "gbifRecords": 2557
-      }
+      },
+      "gbif": {
+        "usageKey": 1421222,
+        "matchType": "EXACT",
+        "confidence": 100,
+        "scientificName": "Anotogaster sieboldii (Selys, 1854)",
+        "canonicalName": "Anotogaster sieboldii",
+        "authorship": "(Selys, 1854) ",
+        "basionym": "Cordulegaster sieboldii Selys, 1854",
+        "publishedIn": null,
+        "rank": "SPECIES",
+        "taxonomicStatus": "ACCEPTED",
+        "vernacularName": null,
+        "numDescendants": 1,
+        "taxonomy": {
+          "kingdom": "Animalia",
+          "phylum": "Arthropoda",
+          "class": "Insecta",
+          "order": "Odonata",
+          "family": "Cordulegastridae",
+          "genus": "Anotogaster",
+          "species": "Anotogaster sieboldii"
+        },
+        "vernaculars": {
+          "ko": [
+            "장수잠자리"
+          ],
+          "en": [
+            "Jumbo Dragonfly",
+            "Siebold's Spiketail",
+            "Siebold's dragonfly",
+            "golden-ringed dragonfly"
+          ],
+          "ja": [
+            "オニヤンマ",
+            "オニヤンマ（鬼蜻蜓）"
+          ],
+          "byLang": {
+            "eng": [
+              "Jumbo Dragonfly",
+              "Siebold's Spiketail",
+              "Siebold's dragonfly",
+              "golden-ringed dragonfly"
+            ],
+            "rus": [
+              "Безушник Зибольда"
+            ],
+            "jpn": [
+              "オニヤンマ",
+              "オニヤンマ（鬼蜻蜓）"
+            ],
+            "zho": [
+              "巨圆臀大蜓",
+              "無霸勾蜓"
+            ],
+            "kor": [
+              "장수잠자리"
+            ]
+          }
+        },
+        "distributions": {
+          "native": [],
+          "introduced": [],
+          "other": [
+            {
+              "locality": "Global",
+              "locationId": "",
+              "establishmentMeans": "",
+              "source": "The IUCN Red List of Threatened Species"
+            }
+          ],
+          "korea": []
+        },
+        "media": [],
+        "counts": {
+          "vernacularsRaw": 10,
+          "distributionsRaw": 1,
+          "mediaRaw": 0,
+          "descriptionsRaw": 0
+        },
+        "descriptions": {
+          "byType": {},
+          "all": []
+        }
+      },
+      "gbifFetchedAt": "2026-05-28T05:24:45.448Z",
+      "gbifSchemaVersion": 2
     }
   ]
 }
