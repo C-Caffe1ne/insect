@@ -1,308 +1,383 @@
 {
-  "generatedAt": "2026-05-21T07:47:08.025Z",
-  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
-  "order": {
-    "id": "trichoptera",
-    "scientificName": "Trichoptera",
-    "commonName": "날도래목",
-    "orderKtsn": 120000038521,
-    "abstract": "날도래목은 작거나 중간 크기인 곤충으로서, 생김새가 나방과 비슷하다. 입은 씹는 데 적당하지만 어느 정도 퇴화되어 있다. 유충은 물속에 사는데, 보통 실을 내어 이동할 수 있는 통을 만든 후 그 안에서 생활한다. 종류에 따라 낙엽이나 자갈, 돌, 실 등을 이용하여 여러 모양의 튼튼한 집을 만드는데, 집 근처에 그물을 치고 먹이를 사냥하는 종류도 있다. 한편, 성충은 낮에는 물가의 돌이나 풀숲 등에 조용히 앉아 있다가, 해가 지면 날아다닌다. 유충은 물고기의 먹이가 되므로 생태계에 유익하다. 물날 도래·각날 도래·줄날 도래 등이 이에 속한다.",
-    "description": "날도래목은 작거나 중간 크기인 곤충으로서, 생김새가 나방과 비슷하다. 입은 씹는 데 적당하지만 어느 정도 퇴화되어 있다. 유충은 물속에 사는데, 보통 실을 내어 이동할 수 있는 통을 만든 후 그 안에서 생활한다. 종류에 따라 낙엽이나 자갈, 돌, 실 등을 이용하여 여러 모양의 튼튼한 집을 만드는데, 집 근처에 그물을 치고 먹이를 사냥하는 종류도 있다. 한편, 성충은 낮에는 물가의 돌이나 풀숲 등에 조용히 앉아 있다가, 해가 지면 날아다닌다. 유충은 물고기의 먹이가 되므로 생태계에 유익하다. 물날 도래·각날 도래·줄날 도래 등이 이에 속한다."
-  },
-  "family": {
-    "id": "stenopsychidae",
-    "scientificName": "Stenopsychidae",
-    "commonName": "각날도래과",
-    "familyKtsn": 120000038811
-  },
-  "speciesCount": 4,
-  "insects": [
-    {
-      "ktsn": 120000038813,
-      "scientificName": "Stenopsyche bergeri Martynov, 1926",
-      "commonName": "연날개수염치레각날도래",
-      "terminalLatinName": "bergeri",
-      "nomenclaturalAuthor": "Martynov",
-      "namingYear": "1926",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Trichoptera",
-          "commonName": "날도래목",
-          "ktsn": 120000038521
-        },
-        "family": {
-          "scientificName": "Stenopsychidae",
-          "commonName": "각날도래과",
-          "ktsn": 120000038811
-        },
-        "genus": {
-          "scientificName": "Stenopsyche",
-          "commonName": "각날도래속",
-          "ktsn": 120000038812
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "bergeri",
-          "commonName": "연날개수염치레각날도래",
-          "ktsn": 120000038813
-        }
-      },
-      "eol": {
-        "pageId": 616186,
-        "canonical": "Stenopsyche bergeri",
-        "fetchedAt": "2026-05-24T18:16:01.749Z",
-        "vernaculars": {
-          "ko": [],
-          "en": [],
-          "ja": []
-        },
-        "habitat": [],
-        "geographic": [],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": 627
-      }
-    },
-    {
-      "ktsn": 120000038814,
-      "scientificName": "Stenopsyche coreana (Kuwayama, 1930)",
-      "commonName": "고려수염치레각날도래",
-      "terminalLatinName": "coreana",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Trichoptera",
-          "commonName": "날도래목",
-          "ktsn": 120000038521
-        },
-        "family": {
-          "scientificName": "Stenopsychidae",
-          "commonName": "각날도래과",
-          "ktsn": 120000038811
-        },
-        "genus": {
-          "scientificName": "Stenopsyche",
-          "commonName": "각날도래속",
-          "ktsn": 120000038812
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "coreana",
-          "commonName": "고려수염치레각날도래",
-          "ktsn": 120000038814
-        }
-      },
-      "eol": {
-        "pageId": 616160,
-        "canonical": "Stenopsyche coreana",
-        "fetchedAt": "2026-05-24T18:16:18.413Z",
-        "vernaculars": {
-          "ko": [],
-          "en": [],
-          "ja": []
-        },
-        "habitat": [],
-        "geographic": [],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": 6
-      }
-    },
-    {
-      "ktsn": 120000038816,
-      "scientificName": "Stenopsyche marmorata Navás, 1920",
-      "commonName": "멋쟁이각날도래",
-      "terminalLatinName": "marmorata",
-      "nomenclaturalAuthor": "Navás",
-      "namingYear": "1920",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Trichoptera",
-          "commonName": "날도래목",
-          "ktsn": 120000038521
-        },
-        "family": {
-          "scientificName": "Stenopsychidae",
-          "commonName": "각날도래과",
-          "ktsn": 120000038811
-        },
-        "genus": {
-          "scientificName": "Stenopsyche",
-          "commonName": "각날도래속",
-          "ktsn": 120000038812
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "marmorata",
-          "commonName": "멋쟁이각날도래",
-          "ktsn": 120000038816
-        }
-      },
-      "eol": {
-        "pageId": 616188,
-        "canonical": "Stenopsyche marmorata",
-        "fetchedAt": "2026-05-24T18:16:23.941Z",
-        "vernaculars": {
-          "ko": [],
-          "en": [],
-          "ja": [
-            "ヒゲナガカワトビケラ"
-          ]
-        },
-        "habitat": [],
-        "geographic": [
-          "Siberia",
-          "Mongolia",
-          "Western Siberia",
-          "Japan",
-          "Korea",
-          "China",
-          "Russia",
-          "Eastern Siberia"
-        ],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": 292
-      }
-    },
-    {
-      "ktsn": 120000038817,
-      "scientificName": "Stenopsyche variabilis Kumanski, 1992",
-      "commonName": "한가람각날도래",
-      "terminalLatinName": "variabilis",
-      "nomenclaturalAuthor": "Kumanski",
-      "namingYear": "1992",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Trichoptera",
-          "commonName": "날도래목",
-          "ktsn": 120000038521
-        },
-        "family": {
-          "scientificName": "Stenopsychidae",
-          "commonName": "각날도래과",
-          "ktsn": 120000038811
-        },
-        "genus": {
-          "scientificName": "Stenopsyche",
-          "commonName": "각날도래속",
-          "ktsn": 120000038812
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "variabilis",
-          "commonName": "한가람각날도래",
-          "ktsn": 120000038817
-        }
-      },
-      "eol": {
-        "pageId": 615893,
-        "canonical": "Stenopsyche variabilis",
-        "fetchedAt": "2026-05-24T18:16:28.139Z",
-        "vernaculars": {
-          "ko": [],
-          "en": [],
-          "ja": []
-        },
-        "habitat": [],
-        "geographic": [],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": null
-      }
-    }
-  ]
+    "generatedAt":  "2026-05-21T07:47:08.025Z",
+    "source":  "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+    "order":  {
+                  "id":  "trichoptera",
+                  "scientificName":  "Trichoptera",
+                  "commonName":  "날도래목",
+                  "orderKtsn":  120000038521,
+                  "abstract":  "날도래목은 작거나 중간 크기인 곤충으로서, 생김새가 나방과 비슷하다. 입은 씹는 데 적당하지만 어느 정도 퇴화되어 있다. 유충은 물속에 사는데, 보통 실을 내어 이동할 수 있는 통을 만든 후 그 안에서 생활한다. 종류에 따라 낙엽이나 자갈, 돌, 실 등을 이용하여 여러 모양의 튼튼한 집을 만드는데, 집 근처에 그물을 치고 먹이를 사냥하는 종류도 있다. 한편, 성충은 낮에는 물가의 돌이나 풀숲 등에 조용히 앉아 있다가, 해가 지면 날아다닌다. 유충은 물고기의 먹이가 되므로 생태계에 유익하다. 물날 도래·각날 도래·줄날 도래 등이 이에 속한다.",
+                  "description":  "날도래목은 작거나 중간 크기인 곤충으로서, 생김새가 나방과 비슷하다. 입은 씹는 데 적당하지만 어느 정도 퇴화되어 있다. 유충은 물속에 사는데, 보통 실을 내어 이동할 수 있는 통을 만든 후 그 안에서 생활한다. 종류에 따라 낙엽이나 자갈, 돌, 실 등을 이용하여 여러 모양의 튼튼한 집을 만드는데, 집 근처에 그물을 치고 먹이를 사냥하는 종류도 있다. 한편, 성충은 낮에는 물가의 돌이나 풀숲 등에 조용히 앉아 있다가, 해가 지면 날아다닌다. 유충은 물고기의 먹이가 되므로 생태계에 유익하다. 물날 도래·각날 도래·줄날 도래 등이 이에 속한다."
+              },
+    "family":  {
+                   "id":  "stenopsychidae",
+                   "scientificName":  "Stenopsychidae",
+                   "commonName":  "각날도래과",
+                   "familyKtsn":  120000038811
+               },
+    "speciesCount":  4,
+    "insects":  [
+                    {
+                        "ktsn":  120000038813,
+                        "scientificName":  "Stenopsyche bergeri Martynov, 1926",
+                        "commonName":  "연날개수염치레각날도래",
+                        "terminalLatinName":  "bergeri",
+                        "nomenclaturalAuthor":  "Martynov",
+                        "namingYear":  "1926",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Trichoptera",
+                                                       "commonName":  "날도래목",
+                                                       "ktsn":  120000038521
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Stenopsychidae",
+                                                        "commonName":  "각날도래과",
+                                                        "ktsn":  120000038811
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Stenopsyche",
+                                                       "commonName":  "각날도래속",
+                                                       "ktsn":  120000038812
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "bergeri",
+                                                         "commonName":  "연날개수염치레각날도래",
+                                                         "ktsn":  120000038813
+                                                     }
+                                     },
+                        "eol":  {
+                                    "pageId":  616186,
+                                    "canonical":  "Stenopsyche bergeri",
+                                    "fetchedAt":  "2026-05-24T18:16:01.749Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  627
+                                }
+                    },
+                    {
+                        "ktsn":  120000038814,
+                        "scientificName":  "Stenopsyche coreana (Kuwayama, 1930)",
+                        "commonName":  "고려수염치레각날도래",
+                        "terminalLatinName":  "coreana",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Trichoptera",
+                                                       "commonName":  "날도래목",
+                                                       "ktsn":  120000038521
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Stenopsychidae",
+                                                        "commonName":  "각날도래과",
+                                                        "ktsn":  120000038811
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Stenopsyche",
+                                                       "commonName":  "각날도래속",
+                                                       "ktsn":  120000038812
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "coreana",
+                                                         "commonName":  "고려수염치레각날도래",
+                                                         "ktsn":  120000038814
+                                                     }
+                                     },
+                        "eol":  {
+                                    "pageId":  616160,
+                                    "canonical":  "Stenopsyche coreana",
+                                    "fetchedAt":  "2026-05-24T18:16:18.413Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  6
+                                }
+                    },
+                    {
+                        "ktsn":  120000038816,
+                        "scientificName":  "Stenopsyche marmorata Navás, 1920",
+                        "commonName":  "멋쟁이각날도래",
+                        "terminalLatinName":  "marmorata",
+                        "nomenclaturalAuthor":  "Navás",
+                        "namingYear":  "1920",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Trichoptera",
+                                                       "commonName":  "날도래목",
+                                                       "ktsn":  120000038521
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Stenopsychidae",
+                                                        "commonName":  "각날도래과",
+                                                        "ktsn":  120000038811
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Stenopsyche",
+                                                       "commonName":  "각날도래속",
+                                                       "ktsn":  120000038812
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "marmorata",
+                                                         "commonName":  "멋쟁이각날도래",
+                                                         "ktsn":  120000038816
+                                                     }
+                                     },
+                        "eol":  {
+                                    "pageId":  616188,
+                                    "canonical":  "Stenopsyche marmorata",
+                                    "fetchedAt":  "2026-05-24T18:16:23.941Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+                                                                   "ヒゲナガカワトビケラ"
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+                                                       "Siberia",
+                                                       "Mongolia",
+                                                       "Western Siberia",
+                                                       "Japan",
+                                                       "Korea",
+                                                       "China",
+                                                       "Russia",
+                                                       "Eastern Siberia"
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  292
+                                },
+                        "inat":  {
+                                     "observationCount":  2,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/256910442/medium.jpg",
+                                     "months":  [
+                                                    7
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000038817,
+                        "scientificName":  "Stenopsyche variabilis Kumanski, 1992",
+                        "commonName":  "한가람각날도래",
+                        "terminalLatinName":  "variabilis",
+                        "nomenclaturalAuthor":  "Kumanski",
+                        "namingYear":  "1992",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Trichoptera",
+                                                       "commonName":  "날도래목",
+                                                       "ktsn":  120000038521
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Stenopsychidae",
+                                                        "commonName":  "각날도래과",
+                                                        "ktsn":  120000038811
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Stenopsyche",
+                                                       "commonName":  "각날도래속",
+                                                       "ktsn":  120000038812
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "variabilis",
+                                                         "commonName":  "한가람각날도래",
+                                                         "ktsn":  120000038817
+                                                     }
+                                     },
+                        "eol":  {
+                                    "pageId":  615893,
+                                    "canonical":  "Stenopsyche variabilis",
+                                    "fetchedAt":  "2026-05-24T18:16:28.139Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  null
+                                }
+                    }
+                ]
 }

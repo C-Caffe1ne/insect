@@ -1,504 +1,619 @@
 {
-  "generatedAt": "2026-05-21T07:47:08.025Z",
-  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
-  "order": {
-    "id": "hemiptera",
-    "scientificName": "Hemiptera",
-    "commonName": "노린재목",
-    "orderKtsn": 120000066597
-  },
-  "family": {
-    "id": "monophlebidae",
-    "scientificName": "Monophlebidae",
-    "commonName": "짚신깍지벌레과",
-    "familyKtsn": 120000026628
-  },
-  "speciesCount": 6,
-  "insects": [
-    {
-      "ktsn": 120000026630,
-      "scientificName": "Drosicha corpulenta (Kuwana, 1902)",
-      "commonName": "짚신깍지벌레",
-      "terminalLatinName": "corpulenta",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Monophlebidae",
-          "commonName": "짚신깍지벌레과",
-          "ktsn": 120000026628
-        },
-        "genus": {
-          "scientificName": "Drosicha",
-          "commonName": "짚신깍지벌레속",
-          "ktsn": 120000026629
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "corpulenta",
-          "commonName": "짚신깍지벌레",
-          "ktsn": 120000026630
-        }
-      },
-      "eol": {
-        "pageId": 837359,
-        "canonical": "Drosicha corpulenta",
-        "fetchedAt": "2026-05-24T10:13:40.572Z",
-        "vernaculars": {
-          "ko": [
-            "짚신깍지벌레",
-            "짚신깍지벌레"
-          ],
-          "en": [],
-          "ja": [
-            "オオワラジカイガラムシ"
-          ]
-        },
-        "habitat": [
-          "plant litter"
-        ],
-        "geographic": [
-          "Japan",
-          "China"
-        ],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": 71
-      }
-    },
-    {
-      "ktsn": 120000026631,
-      "scientificName": "Drosicha howardi (Kuwana, 1922)",
-      "commonName": "하워드짚신깍지벌레",
-      "terminalLatinName": "howardi",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Monophlebidae",
-          "commonName": "짚신깍지벌레과",
-          "ktsn": 120000026628
-        },
-        "genus": {
-          "scientificName": "Drosicha",
-          "commonName": "짚신깍지벌레속",
-          "ktsn": 120000026629
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "howardi",
-          "commonName": "하워드짚신깍지벌레",
-          "ktsn": 120000026631
-        }
-      },
-      "eol": {
-        "pageId": 837186,
-        "canonical": "Drosicha howardi",
-        "fetchedAt": "2026-05-24T10:13:44.017Z",
-        "vernaculars": {
-          "ko": [],
-          "en": [],
-          "ja": [
-            "ハワードワラジカイガラムシ"
-          ]
-        },
-        "habitat": [],
-        "geographic": [],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": 3
-      }
-    },
-    {
-      "ktsn": 120000026632,
-      "scientificName": "Drosicha koreiensis Jashenko, 1994",
-      "commonName": "참짚신깍지벌레",
-      "terminalLatinName": "koreiensis",
-      "nomenclaturalAuthor": "Jashenko",
-      "namingYear": "1994",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Monophlebidae",
-          "commonName": "짚신깍지벌레과",
-          "ktsn": 120000026628
-        },
-        "genus": {
-          "scientificName": "Drosicha",
-          "commonName": "짚신깍지벌레속",
-          "ktsn": 120000026629
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "koreiensis",
-          "commonName": "참짚신깍지벌레",
-          "ktsn": 120000026632
-        }
-      },
-      "eol": {
-        "pageId": 837592,
-        "canonical": "Drosicha koreiensis",
-        "fetchedAt": "2026-05-24T10:13:47.096Z",
-        "vernaculars": {
-          "ko": [],
-          "en": [],
-          "ja": []
-        },
-        "habitat": [],
-        "geographic": [],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": null
-      }
-    },
-    {
-      "ktsn": 120000026633,
-      "scientificName": "Drosicha pinicola (Kuwana, 1922)",
-      "commonName": "소나무짚신깍지벌레",
-      "terminalLatinName": "pinicola",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Monophlebidae",
-          "commonName": "짚신깍지벌레과",
-          "ktsn": 120000026628
-        },
-        "genus": {
-          "scientificName": "Drosicha",
-          "commonName": "짚신깍지벌레속",
-          "ktsn": 120000026629
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "pinicola",
-          "commonName": "소나무짚신깍지벌레",
-          "ktsn": 120000026633
-        }
-      },
-      "eol": {
-        "pageId": 837185,
-        "canonical": "Drosicha pinicola",
-        "fetchedAt": "2026-05-24T10:13:56.919Z",
-        "vernaculars": {
-          "ko": [],
-          "en": [],
-          "ja": [
-            "マツワラジカイガラムシ"
-          ]
-        },
-        "habitat": [],
-        "geographic": [],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": 7
-      }
-    },
-    {
-      "ktsn": 120000026635,
-      "scientificName": "Icerya purchasi Maskell, 1878",
-      "commonName": "이세리아깍지벌레",
-      "terminalLatinName": "purchasi",
-      "nomenclaturalAuthor": "Maskell",
-      "namingYear": "1878",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Monophlebidae",
-          "commonName": "짚신깍지벌레과",
-          "ktsn": 120000026628
-        },
-        "genus": {
-          "scientificName": "Icerya",
-          "commonName": "이세리아깍지벌레속",
-          "ktsn": 120000026634
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "purchasi",
-          "commonName": "이세리아깍지벌레",
-          "ktsn": 120000026635
-        }
-      },
-      "eol": {
-        "pageId": 2646082,
-        "canonical": "Icerya purchasi",
-        "fetchedAt": "2026-05-24T10:14:02.247Z",
-        "vernaculars": {
-          "ko": [],
-          "en": [
-            "Australian Bug",
-            "Citrus Fluted Scale",
-            "Fluted Scale",
-            "Cottony cushion scale",
-            "Cottony cushion scale",
-            "Cottony cushion scale"
-          ],
-          "ja": [
-            "ワタフキカイガラムシ",
-            "イセリアカイガラムシ",
-            "ワタフキカイガラムシ"
-          ]
-        },
-        "habitat": [
-          "dell",
-          "tropical",
-          "valley",
-          "terrestrial"
-        ],
-        "geographic": [
-          "United States",
-          "South Pacific",
-          "North Atlantic",
-          "Mexico",
-          "Argentina",
-          "Spain",
-          "South Africa",
-          "Portugal",
-          "New Zealand",
-          "Hong Kong",
-          "China",
-          "Australia"
-        ],
-        "introduced": [
-          "The Contiguous United States",
-          "The Hawaiian Islands",
-          "Czech Republic",
-          "Georgia",
-          "China",
-          "Bulgaria",
-          "United States",
-          "Japan",
-          "GaláPagos Islands",
-          "Saint Helena",
-          "Indiana",
-          "Bermuda",
-          "Montserrat",
-          "Ecuador"
-        ],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": 3819
-      }
-    },
-    {
-      "ktsn": 120000528175,
-      "scientificName": "Icerya seychellarum (Westwood, 1855)",
-      "commonName": "세이셀깍지벌레",
-      "terminalLatinName": "seychellarum",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Monophlebidae",
-          "commonName": "짚신깍지벌레과",
-          "ktsn": 120000026628
-        },
-        "genus": {
-          "scientificName": "Icerya",
-          "commonName": "이세리아깍지벌레속",
-          "ktsn": 120000026634
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "seychellarum",
-          "commonName": "세이셀깍지벌레",
-          "ktsn": 120000528175
-        }
-      },
-      "eol": {
-        "pageId": 3719318,
-        "canonical": "Icerya seychellarum",
-        "fetchedAt": "2026-05-24T10:14:06.474Z",
-        "vernaculars": {
-          "ko": [],
-          "en": [
-            "Breadfruit Scale",
-            "Seychelles Scale",
-            "Seychelles Fluted Scale"
-          ],
-          "ja": [
-            "オカダワタフキカイガラムシ",
-            "キイロワタフキカイガラムシ"
-          ]
-        },
-        "habitat": [
-          "coastal",
-          "terrestrial"
-        ],
-        "geographic": [],
-        "introduced": [
-          "Japan",
-          "South Carolina"
-        ],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": 931
-      }
-    }
-  ]
+    "generatedAt":  "2026-05-21T07:47:08.025Z",
+    "source":  "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+    "order":  {
+                  "id":  "hemiptera",
+                  "scientificName":  "Hemiptera",
+                  "commonName":  "노린재목",
+                  "orderKtsn":  120000066597
+              },
+    "family":  {
+                   "id":  "monophlebidae",
+                   "scientificName":  "Monophlebidae",
+                   "commonName":  "짚신깍지벌레과",
+                   "familyKtsn":  120000026628
+               },
+    "speciesCount":  6,
+    "insects":  [
+                    {
+                        "ktsn":  120000026630,
+                        "scientificName":  "Drosicha corpulenta (Kuwana, 1902)",
+                        "commonName":  "짚신깍지벌레",
+                        "terminalLatinName":  "corpulenta",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Monophlebidae",
+                                                        "commonName":  "짚신깍지벌레과",
+                                                        "ktsn":  120000026628
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Drosicha",
+                                                       "commonName":  "짚신깍지벌레속",
+                                                       "ktsn":  120000026629
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "corpulenta",
+                                                         "commonName":  "짚신깍지벌레",
+                                                         "ktsn":  120000026630
+                                                     }
+                                     },
+                        "eol":  {
+                                    "pageId":  837359,
+                                    "canonical":  "Drosicha corpulenta",
+                                    "fetchedAt":  "2026-05-24T10:13:40.572Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+                                                                   "짚신깍지벌레",
+                                                                   "짚신깍지벌레"
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+                                                                   "オオワラジカイガラムシ"
+                                                               ]
+                                                    },
+                                    "habitat":  [
+                                                    "plant litter"
+                                                ],
+                                    "geographic":  [
+                                                       "Japan",
+                                                       "China"
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  71
+                                },
+                        "inat":  {
+                                     "observationCount":  4,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/285748244/medium.png",
+                                     "months":  [
+                                                    5,
+                                                    6
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000026631,
+                        "scientificName":  "Drosicha howardi (Kuwana, 1922)",
+                        "commonName":  "하워드짚신깍지벌레",
+                        "terminalLatinName":  "howardi",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Monophlebidae",
+                                                        "commonName":  "짚신깍지벌레과",
+                                                        "ktsn":  120000026628
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Drosicha",
+                                                       "commonName":  "짚신깍지벌레속",
+                                                       "ktsn":  120000026629
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "howardi",
+                                                         "commonName":  "하워드짚신깍지벌레",
+                                                         "ktsn":  120000026631
+                                                     }
+                                     },
+                        "eol":  {
+                                    "pageId":  837186,
+                                    "canonical":  "Drosicha howardi",
+                                    "fetchedAt":  "2026-05-24T10:13:44.017Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+                                                                   "ハワードワラジカイガラムシ"
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  3
+                                }
+                    },
+                    {
+                        "ktsn":  120000026632,
+                        "scientificName":  "Drosicha koreiensis Jashenko, 1994",
+                        "commonName":  "참짚신깍지벌레",
+                        "terminalLatinName":  "koreiensis",
+                        "nomenclaturalAuthor":  "Jashenko",
+                        "namingYear":  "1994",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Monophlebidae",
+                                                        "commonName":  "짚신깍지벌레과",
+                                                        "ktsn":  120000026628
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Drosicha",
+                                                       "commonName":  "짚신깍지벌레속",
+                                                       "ktsn":  120000026629
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "koreiensis",
+                                                         "commonName":  "참짚신깍지벌레",
+                                                         "ktsn":  120000026632
+                                                     }
+                                     },
+                        "eol":  {
+                                    "pageId":  837592,
+                                    "canonical":  "Drosicha koreiensis",
+                                    "fetchedAt":  "2026-05-24T10:13:47.096Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  null
+                                }
+                    },
+                    {
+                        "ktsn":  120000026633,
+                        "scientificName":  "Drosicha pinicola (Kuwana, 1922)",
+                        "commonName":  "소나무짚신깍지벌레",
+                        "terminalLatinName":  "pinicola",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Monophlebidae",
+                                                        "commonName":  "짚신깍지벌레과",
+                                                        "ktsn":  120000026628
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Drosicha",
+                                                       "commonName":  "짚신깍지벌레속",
+                                                       "ktsn":  120000026629
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "pinicola",
+                                                         "commonName":  "소나무짚신깍지벌레",
+                                                         "ktsn":  120000026633
+                                                     }
+                                     },
+                        "eol":  {
+                                    "pageId":  837185,
+                                    "canonical":  "Drosicha pinicola",
+                                    "fetchedAt":  "2026-05-24T10:13:56.919Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+                                                                   "マツワラジカイガラムシ"
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  7
+                                }
+                    },
+                    {
+                        "ktsn":  120000026635,
+                        "scientificName":  "Icerya purchasi Maskell, 1878",
+                        "commonName":  "이세리아깍지벌레",
+                        "terminalLatinName":  "purchasi",
+                        "nomenclaturalAuthor":  "Maskell",
+                        "namingYear":  "1878",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Monophlebidae",
+                                                        "commonName":  "짚신깍지벌레과",
+                                                        "ktsn":  120000026628
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Icerya",
+                                                       "commonName":  "이세리아깍지벌레속",
+                                                       "ktsn":  120000026634
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "purchasi",
+                                                         "commonName":  "이세리아깍지벌레",
+                                                         "ktsn":  120000026635
+                                                     }
+                                     },
+                        "eol":  {
+                                    "pageId":  2646082,
+                                    "canonical":  "Icerya purchasi",
+                                    "fetchedAt":  "2026-05-24T10:14:02.247Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+
+                                                               ],
+                                                        "en":  [
+                                                                   "Australian Bug",
+                                                                   "Citrus Fluted Scale",
+                                                                   "Fluted Scale",
+                                                                   "Cottony cushion scale",
+                                                                   "Cottony cushion scale",
+                                                                   "Cottony cushion scale"
+                                                               ],
+                                                        "ja":  [
+                                                                   "ワタフキカイガラムシ",
+                                                                   "イセリアカイガラムシ",
+                                                                   "ワタフキカイガラムシ"
+                                                               ]
+                                                    },
+                                    "habitat":  [
+                                                    "dell",
+                                                    "tropical",
+                                                    "valley",
+                                                    "terrestrial"
+                                                ],
+                                    "geographic":  [
+                                                       "United States",
+                                                       "South Pacific",
+                                                       "North Atlantic",
+                                                       "Mexico",
+                                                       "Argentina",
+                                                       "Spain",
+                                                       "South Africa",
+                                                       "Portugal",
+                                                       "New Zealand",
+                                                       "Hong Kong",
+                                                       "China",
+                                                       "Australia"
+                                                   ],
+                                    "introduced":  [
+                                                       "The Contiguous United States",
+                                                       "The Hawaiian Islands",
+                                                       "Czech Republic",
+                                                       "Georgia",
+                                                       "China",
+                                                       "Bulgaria",
+                                                       "United States",
+                                                       "Japan",
+                                                       "GaláPagos Islands",
+                                                       "Saint Helena",
+                                                       "Indiana",
+                                                       "Bermuda",
+                                                       "Montserrat",
+                                                       "Ecuador"
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  3819
+                                },
+                        "inat":  {
+                                     "observationCount":  35,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/499819272/medium.jpg",
+                                     "months":  [
+                                                    1,
+                                                    2,
+                                                    4,
+                                                    5,
+                                                    6,
+                                                    7,
+                                                    10,
+                                                    11,
+                                                    12
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000528175,
+                        "scientificName":  "Icerya seychellarum (Westwood, 1855)",
+                        "commonName":  "세이셀깍지벌레",
+                        "terminalLatinName":  "seychellarum",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Monophlebidae",
+                                                        "commonName":  "짚신깍지벌레과",
+                                                        "ktsn":  120000026628
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Icerya",
+                                                       "commonName":  "이세리아깍지벌레속",
+                                                       "ktsn":  120000026634
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "seychellarum",
+                                                         "commonName":  "세이셀깍지벌레",
+                                                         "ktsn":  120000528175
+                                                     }
+                                     },
+                        "eol":  {
+                                    "pageId":  3719318,
+                                    "canonical":  "Icerya seychellarum",
+                                    "fetchedAt":  "2026-05-24T10:14:06.474Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+
+                                                               ],
+                                                        "en":  [
+                                                                   "Breadfruit Scale",
+                                                                   "Seychelles Scale",
+                                                                   "Seychelles Fluted Scale"
+                                                               ],
+                                                        "ja":  [
+                                                                   "オカダワタフキカイガラムシ",
+                                                                   "キイロワタフキカイガラムシ"
+                                                               ]
+                                                    },
+                                    "habitat":  [
+                                                    "coastal",
+                                                    "terrestrial"
+                                                ],
+                                    "geographic":  [
+
+                                                   ],
+                                    "introduced":  [
+                                                       "Japan",
+                                                       "South Carolina"
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  931
+                                },
+                        "inat":  {
+                                     "observationCount":  19,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/243115862/medium.jpeg",
+                                     "months":  [
+                                                    1,
+                                                    2,
+                                                    3,
+                                                    4,
+                                                    5,
+                                                    8,
+                                                    11,
+                                                    12
+                                                ]
+                                 }
+                    }
+                ]
 }

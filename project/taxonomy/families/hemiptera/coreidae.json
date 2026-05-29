@@ -1,1429 +1,1924 @@
 {
-  "generatedAt": "2026-05-21T07:47:08.025Z",
-  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
-  "order": {
-    "id": "hemiptera",
-    "scientificName": "Hemiptera",
-    "commonName": "노린재목",
-    "orderKtsn": 120000066597
-  },
-  "family": {
-    "id": "coreidae",
-    "scientificName": "Coreidae",
-    "commonName": "허리노린재과",
-    "familyKtsn": 120000025623
-  },
-  "speciesCount": 19,
-  "insects": [
-    {
-      "ktsn": 120000025625,
-      "scientificName": "Acanthocoris sordidus (Thunberg, 1783)",
-      "commonName": "꽈리허리노린재",
-      "terminalLatinName": "sordidus",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Coreidae",
-          "commonName": "허리노린재과",
-          "ktsn": 120000025623
-        },
-        "genus": {
-          "scientificName": "Acanthocoris",
-          "commonName": "꽈리허리노린재속",
-          "ktsn": 120000025624
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "sordidus",
-          "commonName": "꽈리허리노린재",
-          "ktsn": 120000025625
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:25:50.262Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
-        "thumbnailUrl": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      },
-      "eol": {
-        "pageId": 3687805,
-        "canonical": "Acanthocoris sordidus",
-        "fetchedAt": "2026-05-24T10:00:47.073Z",
-        "vernaculars": {
-          "ko": [
-            "꽈리허리노린재"
-          ],
-          "en": [],
-          "ja": [
-            "ホオズキカメムシ",
-            "ホオズキヘリカメムシ"
-          ]
-        },
-        "habitat": [],
-        "geographic": [
-          "Mexico",
-          "Japan"
-        ],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": 1690
-      }
-    },
-    {
-      "ktsn": 120000025627,
-      "scientificName": "Anoplocnemis dallasi Kiritshenko, 1916",
-      "commonName": "장수허리노린재",
-      "terminalLatinName": "dallasi",
-      "nomenclaturalAuthor": "Kiritshenko",
-      "namingYear": "1916",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Coreidae",
-          "commonName": "허리노린재과",
-          "ktsn": 120000025623
-        },
-        "genus": {
-          "scientificName": "Anoplocnemis",
-          "commonName": "장수허리노린재속",
-          "ktsn": 120000025626
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "dallasi",
-          "commonName": "장수허리노린재",
-          "ktsn": 120000025627
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:25:50.262Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
-        "thumbnailUrl": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      },
-      "eol": {
-        "pageId": 3687817,
-        "canonical": "Anoplocnemis dallasi",
-        "fetchedAt": "2026-05-24T10:00:50.790Z",
-        "vernaculars": {
-          "ko": [
-            "장수허리노린재"
-          ],
-          "en": [],
-          "ja": []
-        },
-        "habitat": [],
-        "geographic": [
-          "South Korea"
-        ],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": 1254
-      }
-    },
-    {
-      "ktsn": 120000025629,
-      "scientificName": "Cletus punctiger (Dallas, 1852)",
-      "commonName": "시골가시허리노린재",
-      "terminalLatinName": "punctiger",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Coreidae",
-          "commonName": "허리노린재과",
-          "ktsn": 120000025623
-        },
-        "genus": {
-          "scientificName": "Cletus",
-          "commonName": "가시허리노린재속",
-          "ktsn": 120000025628
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "punctiger",
-          "commonName": "시골가시허리노린재",
-          "ktsn": 120000025629
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:25:50.262Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
-        "thumbnailUrl": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      },
-      "eol": {
-        "pageId": 3687824,
-        "canonical": "Cletus punctiger",
-        "fetchedAt": "2026-05-24T10:00:54.521Z",
-        "vernaculars": {
-          "ko": [
-            "시골가시허리노린재"
-          ],
-          "en": [],
-          "ja": [
-            "ホソハリカメムシ"
-          ]
-        },
-        "habitat": [],
-        "geographic": [
-          "North Pacific",
-          "Japan",
-          "India",
-          "Hong Kong",
-          "China"
-        ],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": 3749
-      }
-    },
-    {
-      "ktsn": 120000025630,
-      "scientificName": "Cletus schmidti Kiritshenko, 1916",
-      "commonName": "우리가시허리노린재",
-      "terminalLatinName": "schmidti",
-      "nomenclaturalAuthor": "Kiritshenko",
-      "namingYear": "1916",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Coreidae",
-          "commonName": "허리노린재과",
-          "ktsn": 120000025623
-        },
-        "genus": {
-          "scientificName": "Cletus",
-          "commonName": "가시허리노린재속",
-          "ktsn": 120000025628
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "schmidti",
-          "commonName": "우리가시허리노린재",
-          "ktsn": 120000025630
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:25:50.262Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
-        "thumbnailUrl": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      },
-      "eol": {
-        "pageId": 3687828,
-        "canonical": "Cletus schmidti",
-        "fetchedAt": "2026-05-24T10:00:58.107Z",
-        "vernaculars": {
-          "ko": [
-            "우리가시허리노린재"
-          ],
-          "en": [],
-          "ja": [
-            "ハリカメムシ"
-          ]
-        },
-        "habitat": [],
-        "geographic": [
-          "North Pacific",
-          "Japan",
-          "South Korea"
-        ],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": 4228
-      }
-    },
-    {
-      "ktsn": 120000025631,
-      "scientificName": "Cletus trigonus (Thunberg, 1783)",
-      "commonName": "벼가시허리노린재",
-      "terminalLatinName": "trigonus",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Coreidae",
-          "commonName": "허리노린재과",
-          "ktsn": 120000025623
-        },
-        "genus": {
-          "scientificName": "Cletus",
-          "commonName": "가시허리노린재속",
-          "ktsn": 120000025628
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "trigonus",
-          "commonName": "벼가시허리노린재",
-          "ktsn": 120000025631
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:25:50.262Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
-        "thumbnailUrl": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      },
-      "eol": {
-        "pageId": 3687827,
-        "canonical": "Cletus trigonus",
-        "fetchedAt": "2026-05-24T10:01:03.528Z",
-        "vernaculars": {
-          "ko": [],
-          "en": [],
-          "ja": [
-            "ヒメハリカメムシ"
-          ]
-        },
-        "habitat": [],
-        "geographic": [
-          "Japan",
-          "Hong Kong",
-          "China"
-        ],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": 840
-      }
-    },
-    {
-      "ktsn": 120000025634,
-      "scientificName": "Coreus marginatus orientalis (Kiritshenko, 1916)",
-      "commonName": "북방허리노린재",
-      "terminalLatinName": "orientalis",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Coreidae",
-          "commonName": "허리노린재과",
-          "ktsn": 120000025623
-        },
-        "genus": {
-          "scientificName": "Coreus",
-          "commonName": "허리노린재속",
-          "ktsn": 120000025632
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "marginatus",
-          "commonName": "",
-          "ktsn": 120000025633
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:25:50.262Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "totalElements": 0,
-        "totalPages": 1,
-        "thumbnailUrl": null,
-        "thumbnail": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      },
-      "eol": {
-        "pageId": 3687448,
-        "canonical": "Coreus marginatus orientalis",
-        "fetchedAt": "2026-05-24T10:01:07.288Z",
-        "vernaculars": {
-          "ko": [],
-          "en": [],
-          "ja": [
-            "ヘリカメムシ"
-          ]
-        },
-        "habitat": [],
-        "geographic": [],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": 24
-      }
-    },
-    {
-      "ktsn": 120000025637,
-      "scientificName": "Coriomeris scabricornis scabricornis (Panzer, 1805)",
-      "commonName": "양털허리노린재",
-      "terminalLatinName": "scabricornis",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Coreidae",
-          "commonName": "허리노린재과",
-          "ktsn": 120000025623
-        },
-        "genus": {
-          "scientificName": "Coriomeris",
-          "commonName": "양털허리노린재속",
-          "ktsn": 120000025635
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "scabricornis",
-          "commonName": "",
-          "ktsn": 120000025636
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:25:50.262Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "totalElements": 0,
-        "totalPages": 1,
-        "thumbnailUrl": null,
-        "thumbnail": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      },
-      "eol": {
-        "pageId": 3687521,
-        "canonical": "Coriomeris scabricornis scabricornis",
-        "fetchedAt": "2026-05-24T10:01:11.302Z",
-        "vernaculars": {
-          "ko": [],
-          "en": [],
-          "ja": []
-        },
-        "habitat": [],
-        "geographic": [],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": 44
-      }
-    },
-    {
-      "ktsn": 120000025640,
-      "scientificName": "Homoeocerus (Anacanthocoris) striicornis Scott, 1874",
-      "commonName": "자귀나무허리노린재",
-      "terminalLatinName": "striicornis",
-      "nomenclaturalAuthor": "Scott",
-      "namingYear": "1874",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Coreidae",
-          "commonName": "허리노린재과",
-          "ktsn": 120000025623
-        },
-        "genus": {
-          "scientificName": "Homoeocerus",
-          "commonName": "배허리노린재속",
-          "ktsn": 120000025638
-        },
-        "subgenus": {
-          "scientificName": "Anacanthocoris",
-          "commonName": "",
-          "ktsn": 120000025639
-        },
-        "species": {
-          "scientificName": "striicornis",
-          "commonName": "자귀나무허리노린재",
-          "ktsn": 120000025640
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:25:50.262Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
-        "thumbnailUrl": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      },
-      "eol": {
-        "pageId": 3687848,
-        "canonical": "Homoeocerus striicornis",
-        "fetchedAt": "2026-05-24T10:01:15.405Z",
-        "vernaculars": {
-          "ko": [
-            "자귀나무허리노린재"
-          ],
-          "en": [],
-          "ja": [
-            "オオクモヘリカメムシ"
-          ]
-        },
-        "habitat": [],
-        "geographic": [
-          "China"
-        ],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": 156
-      }
-    },
-    {
-      "ktsn": 120000025642,
-      "scientificName": "Homoeocerus (Tliponius) dilatatus Horváth, 1879",
-      "commonName": "넓적배허리노린재",
-      "terminalLatinName": "dilatatus",
-      "nomenclaturalAuthor": "Horváth",
-      "namingYear": "1879",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Coreidae",
-          "commonName": "허리노린재과",
-          "ktsn": 120000025623
-        },
-        "genus": {
-          "scientificName": "Homoeocerus",
-          "commonName": "배허리노린재속",
-          "ktsn": 120000025638
-        },
-        "subgenus": {
-          "scientificName": "Tliponius",
-          "commonName": "",
-          "ktsn": 120000025641
-        },
-        "species": {
-          "scientificName": "dilatatus",
-          "commonName": "넓적배허리노린재",
-          "ktsn": 120000025642
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:25:50.262Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
-        "thumbnailUrl": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      }
-    },
-    {
-      "ktsn": 120000025643,
-      "scientificName": "Homoeocerus (Tliponius) marginiventris Dohrn, 1860",
-      "commonName": "녹두허리노린재",
-      "terminalLatinName": "marginiventris",
-      "nomenclaturalAuthor": "Dohrn",
-      "namingYear": "1860",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Coreidae",
-          "commonName": "허리노린재과",
-          "ktsn": 120000025623
-        },
-        "genus": {
-          "scientificName": "Homoeocerus",
-          "commonName": "배허리노린재속",
-          "ktsn": 120000025638
-        },
-        "subgenus": {
-          "scientificName": "Tliponius",
-          "commonName": "",
-          "ktsn": 120000025641
-        },
-        "species": {
-          "scientificName": "marginiventris",
-          "commonName": "녹두허리노린재",
-          "ktsn": 120000025643
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:25:50.262Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "totalElements": 0,
-        "totalPages": 1,
-        "thumbnailUrl": null,
-        "thumbnail": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      }
-    },
-    {
-      "ktsn": 120000025644,
-      "scientificName": "Homoeocerus (Tliponius) unipunctatus (Thunberg, 1783)",
-      "commonName": "두점배허리노린재",
-      "terminalLatinName": "unipunctatus",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Coreidae",
-          "commonName": "허리노린재과",
-          "ktsn": 120000025623
-        },
-        "genus": {
-          "scientificName": "Homoeocerus",
-          "commonName": "배허리노린재속",
-          "ktsn": 120000025638
-        },
-        "subgenus": {
-          "scientificName": "Tliponius",
-          "commonName": "",
-          "ktsn": 120000025641
-        },
-        "species": {
-          "scientificName": "unipunctatus",
-          "commonName": "두점배허리노린재",
-          "ktsn": 120000025644
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:25:50.262Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
-        "thumbnailUrl": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      }
-    },
-    {
-      "ktsn": 120000025647,
-      "scientificName": "Hygia (Colpura) lativentris (Motschulsky, 1866)",
-      "commonName": "떼허리노린재",
-      "terminalLatinName": "lativentris",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Coreidae",
-          "commonName": "허리노린재과",
-          "ktsn": 120000025623
-        },
-        "genus": {
-          "scientificName": "Hygia",
-          "commonName": "애허리노린재속",
-          "ktsn": 120000025645
-        },
-        "subgenus": {
-          "scientificName": "Colpura",
-          "commonName": "",
-          "ktsn": 120000025646
-        },
-        "species": {
-          "scientificName": "lativentris",
-          "commonName": "떼허리노린재",
-          "ktsn": 120000025647
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:25:50.262Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
-        "thumbnailUrl": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      }
-    },
-    {
-      "ktsn": 120000025649,
-      "scientificName": "Hygia (Hygia) opaca (Uhler, 1860)",
-      "commonName": "애허리노린재",
-      "terminalLatinName": "opaca",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Coreidae",
-          "commonName": "허리노린재과",
-          "ktsn": 120000025623
-        },
-        "genus": {
-          "scientificName": "Hygia",
-          "commonName": "애허리노린재속",
-          "ktsn": 120000025645
-        },
-        "subgenus": {
-          "scientificName": "Hygia",
-          "commonName": "",
-          "ktsn": 120000025648
-        },
-        "species": {
-          "scientificName": "opaca",
-          "commonName": "애허리노린재",
-          "ktsn": 120000025649
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:25:50.262Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
-        "thumbnailUrl": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      }
-    },
-    {
-      "ktsn": 120000235792,
-      "scientificName": "Leptoglossus gonagra (Fabricius, 1775)",
-      "commonName": "주홍무늬허리노린재",
-      "terminalLatinName": "gonagra",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Coreidae",
-          "commonName": "허리노린재과",
-          "ktsn": 120000025623
-        },
-        "genus": {
-          "scientificName": "Leptoglossus",
-          "commonName": "",
-          "ktsn": 120000202318
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "gonagra",
-          "commonName": "주홍무늬허리노린재",
-          "ktsn": 120000235792
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:25:50.262Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "totalElements": 0,
-        "totalPages": 1,
-        "thumbnailUrl": null,
-        "thumbnail": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      }
-    },
-    {
-      "ktsn": 120000202319,
-      "scientificName": "Leptoglossus occidentalis Heidemann, 1910",
-      "commonName": "소나무허리노린재",
-      "terminalLatinName": "occidentalis",
-      "nomenclaturalAuthor": "Heidemann",
-      "namingYear": "1910",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Coreidae",
-          "commonName": "허리노린재과",
-          "ktsn": 120000025623
-        },
-        "genus": {
-          "scientificName": "Leptoglossus",
-          "commonName": "",
-          "ktsn": 120000202318
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "occidentalis",
-          "commonName": "소나무허리노린재",
-          "ktsn": 120000202319
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:25:50.262Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
-        "thumbnailUrl": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      },
-      "abstract": "소나무허리노린재는 노린재목 노린재과의 곤충이다.",
-      "description": "소나무허리노린재는 노린재목 노린재과의 곤충이다."
-    },
-    {
-      "ktsn": 120000025651,
-      "scientificName": "Molipteryx fuliginosa (Uhler, 1860)",
-      "commonName": "큰허리노린재",
-      "terminalLatinName": "fuliginosa",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Coreidae",
-          "commonName": "허리노린재과",
-          "ktsn": 120000025623
-        },
-        "genus": {
-          "scientificName": "Molipteryx",
-          "commonName": "큰허리노린재속",
-          "ktsn": 120000025650
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "fuliginosa",
-          "commonName": "큰허리노린재",
-          "ktsn": 120000025651
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:25:50.262Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
-        "thumbnailUrl": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      }
-    },
-    {
-      "ktsn": 120000217300,
-      "scientificName": "Paradasynus spinosus Hsiao, 1963",
-      "commonName": "완도허리노린재",
-      "terminalLatinName": "spinosus",
-      "nomenclaturalAuthor": "Hsiao",
-      "namingYear": "1963",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Coreidae",
-          "commonName": "허리노린재과",
-          "ktsn": 120000025623
-        },
-        "genus": {
-          "scientificName": "Paradasynus",
-          "commonName": "완도허리노린재속",
-          "ktsn": 120000217299
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "spinosus",
-          "commonName": "완도허리노린재",
-          "ktsn": 120000217300
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:25:50.262Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "totalElements": 0,
-        "totalPages": 1,
-        "thumbnailUrl": null,
-        "thumbnail": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      }
-    },
-    {
-      "ktsn": 120000025653,
-      "scientificName": "Plinachtus bicoloripes Scott, 1874",
-      "commonName": "노랑배허리노린재",
-      "terminalLatinName": "bicoloripes",
-      "nomenclaturalAuthor": "Scott",
-      "namingYear": "1874",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Coreidae",
-          "commonName": "허리노린재과",
-          "ktsn": 120000025623
-        },
-        "genus": {
-          "scientificName": "Plinachtus",
-          "commonName": "노랑배허리노린재속",
-          "ktsn": 120000025652
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "bicoloripes",
-          "commonName": "노랑배허리노린재",
-          "ktsn": 120000025653
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:25:50.262Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
-        "thumbnailUrl": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      }
-    },
-    {
-      "ktsn": 120000025654,
-      "scientificName": "Plinachtus dissimilis Hsiao, 1964",
-      "commonName": "어리노랑배허리노린재",
-      "terminalLatinName": "dissimilis",
-      "nomenclaturalAuthor": "Hsiao",
-      "namingYear": "1964",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Coreidae",
-          "commonName": "허리노린재과",
-          "ktsn": 120000025623
-        },
-        "genus": {
-          "scientificName": "Plinachtus",
-          "commonName": "노랑배허리노린재속",
-          "ktsn": 120000025652
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "dissimilis",
-          "commonName": "어리노랑배허리노린재",
-          "ktsn": 120000025654
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:25:50.262Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
-        "thumbnailUrl": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      }
-    }
-  ],
-  "digitalContentUpdatedAt": "2026-05-21T09:25:50.262Z",
-  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+    "generatedAt":  "2026-05-21T07:47:08.025Z",
+    "source":  "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+    "order":  {
+                  "id":  "hemiptera",
+                  "scientificName":  "Hemiptera",
+                  "commonName":  "노린재목",
+                  "orderKtsn":  120000066597
+              },
+    "family":  {
+                   "id":  "coreidae",
+                   "scientificName":  "Coreidae",
+                   "commonName":  "허리노린재과",
+                   "familyKtsn":  120000025623
+               },
+    "speciesCount":  19,
+    "insects":  [
+                    {
+                        "ktsn":  120000025625,
+                        "scientificName":  "Acanthocoris sordidus (Thunberg, 1783)",
+                        "commonName":  "꽈리허리노린재",
+                        "terminalLatinName":  "sordidus",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Coreidae",
+                                                        "commonName":  "허리노린재과",
+                                                        "ktsn":  120000025623
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Acanthocoris",
+                                                       "commonName":  "꽈리허리노린재속",
+                                                       "ktsn":  120000025624
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "sordidus",
+                                                         "commonName":  "꽈리허리노린재",
+                                                         "ktsn":  120000025625
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:25:50.262Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
+                                               "thumbnailUrl":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "eol":  {
+                                    "pageId":  3687805,
+                                    "canonical":  "Acanthocoris sordidus",
+                                    "fetchedAt":  "2026-05-24T10:00:47.073Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+                                                                   "꽈리허리노린재"
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+                                                                   "ホオズキカメムシ",
+                                                                   "ホオズキヘリカメムシ"
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+                                                       "Mexico",
+                                                       "Japan"
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  1690
+                                },
+                        "inat":  {
+                                     "observationCount":  139,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/385357805/medium.jpg",
+                                     "months":  [
+                                                    4,
+                                                    5,
+                                                    6,
+                                                    7,
+                                                    8,
+                                                    9,
+                                                    10,
+                                                    11
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000025627,
+                        "scientificName":  "Anoplocnemis dallasi Kiritshenko, 1916",
+                        "commonName":  "장수허리노린재",
+                        "terminalLatinName":  "dallasi",
+                        "nomenclaturalAuthor":  "Kiritshenko",
+                        "namingYear":  "1916",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Coreidae",
+                                                        "commonName":  "허리노린재과",
+                                                        "ktsn":  120000025623
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Anoplocnemis",
+                                                       "commonName":  "장수허리노린재속",
+                                                       "ktsn":  120000025626
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "dallasi",
+                                                         "commonName":  "장수허리노린재",
+                                                         "ktsn":  120000025627
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:25:50.262Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
+                                               "thumbnailUrl":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "eol":  {
+                                    "pageId":  3687817,
+                                    "canonical":  "Anoplocnemis dallasi",
+                                    "fetchedAt":  "2026-05-24T10:00:50.790Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+                                                                   "장수허리노린재"
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+                                                       "South Korea"
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  1254
+                                },
+                        "inat":  {
+                                     "observationCount":  175,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/21761207/medium.jpg",
+                                     "months":  [
+                                                    2,
+                                                    3,
+                                                    4,
+                                                    5,
+                                                    6,
+                                                    7,
+                                                    8,
+                                                    9,
+                                                    10,
+                                                    11
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000025629,
+                        "scientificName":  "Cletus punctiger (Dallas, 1852)",
+                        "commonName":  "시골가시허리노린재",
+                        "terminalLatinName":  "punctiger",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Coreidae",
+                                                        "commonName":  "허리노린재과",
+                                                        "ktsn":  120000025623
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Cletus",
+                                                       "commonName":  "가시허리노린재속",
+                                                       "ktsn":  120000025628
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "punctiger",
+                                                         "commonName":  "시골가시허리노린재",
+                                                         "ktsn":  120000025629
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:25:50.262Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
+                                               "thumbnailUrl":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "eol":  {
+                                    "pageId":  3687824,
+                                    "canonical":  "Cletus punctiger",
+                                    "fetchedAt":  "2026-05-24T10:00:54.521Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+                                                                   "시골가시허리노린재"
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+                                                                   "ホソハリカメムシ"
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+                                                       "North Pacific",
+                                                       "Japan",
+                                                       "India",
+                                                       "Hong Kong",
+                                                       "China"
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  3749
+                                },
+                        "inat":  {
+                                     "observationCount":  62,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/26872449/medium.jpg",
+                                     "months":  [
+                                                    5,
+                                                    6,
+                                                    7,
+                                                    8,
+                                                    9,
+                                                    10,
+                                                    11
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000025630,
+                        "scientificName":  "Cletus schmidti Kiritshenko, 1916",
+                        "commonName":  "우리가시허리노린재",
+                        "terminalLatinName":  "schmidti",
+                        "nomenclaturalAuthor":  "Kiritshenko",
+                        "namingYear":  "1916",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Coreidae",
+                                                        "commonName":  "허리노린재과",
+                                                        "ktsn":  120000025623
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Cletus",
+                                                       "commonName":  "가시허리노린재속",
+                                                       "ktsn":  120000025628
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "schmidti",
+                                                         "commonName":  "우리가시허리노린재",
+                                                         "ktsn":  120000025630
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:25:50.262Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
+                                               "thumbnailUrl":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "eol":  {
+                                    "pageId":  3687828,
+                                    "canonical":  "Cletus schmidti",
+                                    "fetchedAt":  "2026-05-24T10:00:58.107Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+                                                                   "우리가시허리노린재"
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+                                                                   "ハリカメムシ"
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+                                                       "North Pacific",
+                                                       "Japan",
+                                                       "South Korea"
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  4228
+                                },
+                        "inat":  {
+                                     "observationCount":  89,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/26089690/medium.jpg",
+                                     "months":  [
+                                                    3,
+                                                    4,
+                                                    5,
+                                                    6,
+                                                    7,
+                                                    8,
+                                                    9,
+                                                    10,
+                                                    11
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000025631,
+                        "scientificName":  "Cletus trigonus (Thunberg, 1783)",
+                        "commonName":  "벼가시허리노린재",
+                        "terminalLatinName":  "trigonus",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Coreidae",
+                                                        "commonName":  "허리노린재과",
+                                                        "ktsn":  120000025623
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Cletus",
+                                                       "commonName":  "가시허리노린재속",
+                                                       "ktsn":  120000025628
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "trigonus",
+                                                         "commonName":  "벼가시허리노린재",
+                                                         "ktsn":  120000025631
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:25:50.262Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
+                                               "thumbnailUrl":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "eol":  {
+                                    "pageId":  3687827,
+                                    "canonical":  "Cletus trigonus",
+                                    "fetchedAt":  "2026-05-24T10:01:03.528Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+                                                                   "ヒメハリカメムシ"
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+                                                       "Japan",
+                                                       "Hong Kong",
+                                                       "China"
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  840
+                                },
+                        "inat":  {
+                                     "observationCount":  5,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/93387411/medium.jpeg",
+                                     "months":  [
+                                                    6,
+                                                    7,
+                                                    8,
+                                                    11
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000025634,
+                        "scientificName":  "Coreus marginatus orientalis (Kiritshenko, 1916)",
+                        "commonName":  "북방허리노린재",
+                        "terminalLatinName":  "orientalis",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Coreidae",
+                                                        "commonName":  "허리노린재과",
+                                                        "ktsn":  120000025623
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Coreus",
+                                                       "commonName":  "허리노린재속",
+                                                       "ktsn":  120000025632
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "marginatus",
+                                                         "commonName":  "",
+                                                         "ktsn":  120000025633
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:25:50.262Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "totalElements":  0,
+                                               "totalPages":  1,
+                                               "thumbnailUrl":  null,
+                                               "thumbnail":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "eol":  {
+                                    "pageId":  3687448,
+                                    "canonical":  "Coreus marginatus orientalis",
+                                    "fetchedAt":  "2026-05-24T10:01:07.288Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+                                                                   "ヘリカメムシ"
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  24
+                                },
+                        "inat":  {
+                                     "observationCount":  98,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/390775717/medium.jpg",
+                                     "months":  [
+                                                    4,
+                                                    5,
+                                                    6,
+                                                    7,
+                                                    8,
+                                                    9,
+                                                    10
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000025637,
+                        "scientificName":  "Coriomeris scabricornis scabricornis (Panzer, 1805)",
+                        "commonName":  "양털허리노린재",
+                        "terminalLatinName":  "scabricornis",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Coreidae",
+                                                        "commonName":  "허리노린재과",
+                                                        "ktsn":  120000025623
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Coriomeris",
+                                                       "commonName":  "양털허리노린재속",
+                                                       "ktsn":  120000025635
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "scabricornis",
+                                                         "commonName":  "",
+                                                         "ktsn":  120000025636
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:25:50.262Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "totalElements":  0,
+                                               "totalPages":  1,
+                                               "thumbnailUrl":  null,
+                                               "thumbnail":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "eol":  {
+                                    "pageId":  3687521,
+                                    "canonical":  "Coriomeris scabricornis scabricornis",
+                                    "fetchedAt":  "2026-05-24T10:01:11.302Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  44
+                                },
+                        "inat":  {
+                                     "observationCount":  8,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/65477739/medium.png",
+                                     "months":  [
+                                                    3,
+                                                    4,
+                                                    5,
+                                                    6,
+                                                    10
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000025640,
+                        "scientificName":  "Homoeocerus (Anacanthocoris) striicornis Scott, 1874",
+                        "commonName":  "자귀나무허리노린재",
+                        "terminalLatinName":  "striicornis",
+                        "nomenclaturalAuthor":  "Scott",
+                        "namingYear":  "1874",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Coreidae",
+                                                        "commonName":  "허리노린재과",
+                                                        "ktsn":  120000025623
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Homoeocerus",
+                                                       "commonName":  "배허리노린재속",
+                                                       "ktsn":  120000025638
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "Anacanthocoris",
+                                                          "commonName":  "",
+                                                          "ktsn":  120000025639
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "striicornis",
+                                                         "commonName":  "자귀나무허리노린재",
+                                                         "ktsn":  120000025640
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:25:50.262Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
+                                               "thumbnailUrl":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "eol":  {
+                                    "pageId":  3687848,
+                                    "canonical":  "Homoeocerus striicornis",
+                                    "fetchedAt":  "2026-05-24T10:01:15.405Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+                                                                   "자귀나무허리노린재"
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+                                                                   "オオクモヘリカメムシ"
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+                                                       "China"
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  156
+                                },
+                        "inat":  {
+                                     "observationCount":  10,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/310723731/medium.jpg",
+                                     "months":  [
+                                                    6,
+                                                    7,
+                                                    8,
+                                                    9,
+                                                    10
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000025642,
+                        "scientificName":  "Homoeocerus (Tliponius) dilatatus Horváth, 1879",
+                        "commonName":  "넓적배허리노린재",
+                        "terminalLatinName":  "dilatatus",
+                        "nomenclaturalAuthor":  "Horváth",
+                        "namingYear":  "1879",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Coreidae",
+                                                        "commonName":  "허리노린재과",
+                                                        "ktsn":  120000025623
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Homoeocerus",
+                                                       "commonName":  "배허리노린재속",
+                                                       "ktsn":  120000025638
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "Tliponius",
+                                                          "commonName":  "",
+                                                          "ktsn":  120000025641
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "dilatatus",
+                                                         "commonName":  "넓적배허리노린재",
+                                                         "ktsn":  120000025642
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:25:50.262Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
+                                               "thumbnailUrl":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "inat":  {
+                                     "observationCount":  129,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/521137796/medium.jpg",
+                                     "months":  [
+                                                    4,
+                                                    5,
+                                                    6,
+                                                    7,
+                                                    8,
+                                                    9,
+                                                    10
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000025643,
+                        "scientificName":  "Homoeocerus (Tliponius) marginiventris Dohrn, 1860",
+                        "commonName":  "녹두허리노린재",
+                        "terminalLatinName":  "marginiventris",
+                        "nomenclaturalAuthor":  "Dohrn",
+                        "namingYear":  "1860",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Coreidae",
+                                                        "commonName":  "허리노린재과",
+                                                        "ktsn":  120000025623
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Homoeocerus",
+                                                       "commonName":  "배허리노린재속",
+                                                       "ktsn":  120000025638
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "Tliponius",
+                                                          "commonName":  "",
+                                                          "ktsn":  120000025641
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "marginiventris",
+                                                         "commonName":  "녹두허리노린재",
+                                                         "ktsn":  120000025643
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:25:50.262Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "totalElements":  0,
+                                               "totalPages":  1,
+                                               "thumbnailUrl":  null,
+                                               "thumbnail":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "inat":  {
+                                     "observationCount":  2,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/164196605/medium.jpeg",
+                                     "months":  [
+                                                    10
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000025644,
+                        "scientificName":  "Homoeocerus (Tliponius) unipunctatus (Thunberg, 1783)",
+                        "commonName":  "두점배허리노린재",
+                        "terminalLatinName":  "unipunctatus",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Coreidae",
+                                                        "commonName":  "허리노린재과",
+                                                        "ktsn":  120000025623
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Homoeocerus",
+                                                       "commonName":  "배허리노린재속",
+                                                       "ktsn":  120000025638
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "Tliponius",
+                                                          "commonName":  "",
+                                                          "ktsn":  120000025641
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "unipunctatus",
+                                                         "commonName":  "두점배허리노린재",
+                                                         "ktsn":  120000025644
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:25:50.262Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
+                                               "thumbnailUrl":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "inat":  {
+                                     "observationCount":  85,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/20300178/medium.jpeg",
+                                     "months":  [
+                                                    4,
+                                                    5,
+                                                    6,
+                                                    7,
+                                                    8,
+                                                    9,
+                                                    10
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000025647,
+                        "scientificName":  "Hygia (Colpura) lativentris (Motschulsky, 1866)",
+                        "commonName":  "떼허리노린재",
+                        "terminalLatinName":  "lativentris",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Coreidae",
+                                                        "commonName":  "허리노린재과",
+                                                        "ktsn":  120000025623
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Hygia",
+                                                       "commonName":  "애허리노린재속",
+                                                       "ktsn":  120000025645
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "Colpura",
+                                                          "commonName":  "",
+                                                          "ktsn":  120000025646
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "lativentris",
+                                                         "commonName":  "떼허리노린재",
+                                                         "ktsn":  120000025647
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:25:50.262Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
+                                               "thumbnailUrl":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "inat":  {
+                                     "observationCount":  29,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/128803526/medium.png",
+                                     "months":  [
+                                                    4,
+                                                    5,
+                                                    6,
+                                                    7,
+                                                    9,
+                                                    10
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000025649,
+                        "scientificName":  "Hygia (Hygia) opaca (Uhler, 1860)",
+                        "commonName":  "애허리노린재",
+                        "terminalLatinName":  "opaca",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Coreidae",
+                                                        "commonName":  "허리노린재과",
+                                                        "ktsn":  120000025623
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Hygia",
+                                                       "commonName":  "애허리노린재속",
+                                                       "ktsn":  120000025645
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "Hygia",
+                                                          "commonName":  "",
+                                                          "ktsn":  120000025648
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "opaca",
+                                                         "commonName":  "애허리노린재",
+                                                         "ktsn":  120000025649
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:25:50.262Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
+                                               "thumbnailUrl":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "inat":  {
+                                     "observationCount":  7,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/133147214/medium.jpg",
+                                     "months":  [
+                                                    4,
+                                                    5,
+                                                    6,
+                                                    7
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000235792,
+                        "scientificName":  "Leptoglossus gonagra (Fabricius, 1775)",
+                        "commonName":  "주홍무늬허리노린재",
+                        "terminalLatinName":  "gonagra",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Coreidae",
+                                                        "commonName":  "허리노린재과",
+                                                        "ktsn":  120000025623
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Leptoglossus",
+                                                       "commonName":  "",
+                                                       "ktsn":  120000202318
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "gonagra",
+                                                         "commonName":  "주홍무늬허리노린재",
+                                                         "ktsn":  120000235792
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:25:50.262Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "totalElements":  0,
+                                               "totalPages":  1,
+                                               "thumbnailUrl":  null,
+                                               "thumbnail":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "inat":  {
+                                     "observationCount":  59,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/170317216/medium.jpeg",
+                                     "months":  [
+                                                    1,
+                                                    2,
+                                                    3,
+                                                    4,
+                                                    5,
+                                                    6,
+                                                    7,
+                                                    8,
+                                                    9,
+                                                    10,
+                                                    11,
+                                                    12
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000202319,
+                        "scientificName":  "Leptoglossus occidentalis Heidemann, 1910",
+                        "commonName":  "소나무허리노린재",
+                        "terminalLatinName":  "occidentalis",
+                        "nomenclaturalAuthor":  "Heidemann",
+                        "namingYear":  "1910",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Coreidae",
+                                                        "commonName":  "허리노린재과",
+                                                        "ktsn":  120000025623
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Leptoglossus",
+                                                       "commonName":  "",
+                                                       "ktsn":  120000202318
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "occidentalis",
+                                                         "commonName":  "소나무허리노린재",
+                                                         "ktsn":  120000202319
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:25:50.262Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
+                                               "thumbnailUrl":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "abstract":  "소나무허리노린재는 노린재목 노린재과의 곤충이다.",
+                        "description":  "소나무허리노린재는 노린재목 노린재과의 곤충이다.",
+                        "inat":  {
+                                     "observationCount":  302,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/485438133/medium.jpg",
+                                     "months":  [
+                                                    1,
+                                                    2,
+                                                    3,
+                                                    4,
+                                                    5,
+                                                    6,
+                                                    7,
+                                                    8,
+                                                    9,
+                                                    10,
+                                                    11,
+                                                    12
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000025651,
+                        "scientificName":  "Molipteryx fuliginosa (Uhler, 1860)",
+                        "commonName":  "큰허리노린재",
+                        "terminalLatinName":  "fuliginosa",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Coreidae",
+                                                        "commonName":  "허리노린재과",
+                                                        "ktsn":  120000025623
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Molipteryx",
+                                                       "commonName":  "큰허리노린재속",
+                                                       "ktsn":  120000025650
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "fuliginosa",
+                                                         "commonName":  "큰허리노린재",
+                                                         "ktsn":  120000025651
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:25:50.262Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
+                                               "thumbnailUrl":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "inat":  {
+                                     "observationCount":  148,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/311905251/medium.jpeg",
+                                     "months":  [
+                                                    4,
+                                                    5,
+                                                    6,
+                                                    7,
+                                                    8,
+                                                    9,
+                                                    10
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000217300,
+                        "scientificName":  "Paradasynus spinosus Hsiao, 1963",
+                        "commonName":  "완도허리노린재",
+                        "terminalLatinName":  "spinosus",
+                        "nomenclaturalAuthor":  "Hsiao",
+                        "namingYear":  "1963",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Coreidae",
+                                                        "commonName":  "허리노린재과",
+                                                        "ktsn":  120000025623
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Paradasynus",
+                                                       "commonName":  "완도허리노린재속",
+                                                       "ktsn":  120000217299
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "spinosus",
+                                                         "commonName":  "완도허리노린재",
+                                                         "ktsn":  120000217300
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:25:50.262Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "totalElements":  0,
+                                               "totalPages":  1,
+                                               "thumbnailUrl":  null,
+                                               "thumbnail":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "inat":  {
+                                     "observationCount":  2,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/451561103/medium.jpeg",
+                                     "months":  [
+                                                    7,
+                                                    9
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000025653,
+                        "scientificName":  "Plinachtus bicoloripes Scott, 1874",
+                        "commonName":  "노랑배허리노린재",
+                        "terminalLatinName":  "bicoloripes",
+                        "nomenclaturalAuthor":  "Scott",
+                        "namingYear":  "1874",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Coreidae",
+                                                        "commonName":  "허리노린재과",
+                                                        "ktsn":  120000025623
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Plinachtus",
+                                                       "commonName":  "노랑배허리노린재속",
+                                                       "ktsn":  120000025652
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "bicoloripes",
+                                                         "commonName":  "노랑배허리노린재",
+                                                         "ktsn":  120000025653
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:25:50.262Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
+                                               "thumbnailUrl":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "inat":  {
+                                     "observationCount":  213,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/164158652/medium.jpeg",
+                                     "months":  [
+                                                    1,
+                                                    2,
+                                                    3,
+                                                    4,
+                                                    5,
+                                                    6,
+                                                    7,
+                                                    8,
+                                                    9,
+                                                    10,
+                                                    11,
+                                                    12
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000025654,
+                        "scientificName":  "Plinachtus dissimilis Hsiao, 1964",
+                        "commonName":  "어리노랑배허리노린재",
+                        "terminalLatinName":  "dissimilis",
+                        "nomenclaturalAuthor":  "Hsiao",
+                        "namingYear":  "1964",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Coreidae",
+                                                        "commonName":  "허리노린재과",
+                                                        "ktsn":  120000025623
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Plinachtus",
+                                                       "commonName":  "노랑배허리노린재속",
+                                                       "ktsn":  120000025652
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "dissimilis",
+                                                         "commonName":  "어리노랑배허리노린재",
+                                                         "ktsn":  120000025654
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:25:50.262Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
+                                               "thumbnailUrl":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           }
+                    }
+                ],
+    "digitalContentUpdatedAt":  "2026-05-21T09:25:50.262Z",
+    "digitalContentSource":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
 }

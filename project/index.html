@@ -96,15 +96,6 @@
                   <p class="featured-count">navy eungdy</p>
                 </div>
               </article>
-              <article class="featured-card">
-                <div class="placeholder-img placeholder-img--iridescent"></div>
-                <div class="featured-overlay"></div>
-                <div class="featured-info">
-                  <span class="featured-tag">COLLECTION</span>
-                  <h3 class="featured-name">The Iridescent Ones</h3>
-                  <p class="featured-count">18 species</p>
-                </div>
-              </article>
             </div>
           </section>
 
@@ -1028,6 +1019,14 @@
 
     </div>
 
+    <!-- ─── Scroll-to-top FAB ─── -->
+    <button class="scroll-top-fab" id="searchScrollTopBtn" aria-label="맨 위로 이동" hidden>
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+        stroke-linecap="round" stroke-linejoin="round">
+        <path d="M18 15l-6-6-6 6"/>
+      </svg>
+    </button>
+
     <!-- ─── BOTTOM NAV ─── -->
     <nav class="bottom-nav">
       <button class="nav-item active" id="navDiscover">
@@ -1064,14 +1063,12 @@
       </button>
     </nav>
 
-  </div>
-
-  <!-- ═══════════════════════════════════════════ -->
-  <!-- FEATURE FINDER MODAL (특징 검색)             -->
-  <!-- ═══════════════════════════════════════════ -->
-  <div class="feature-modal" id="featureModal" hidden aria-hidden="true">
-    <div class="feature-modal-backdrop" id="featureModalBackdrop"></div>
-    <div class="feature-modal-panel" role="dialog" aria-modal="true" aria-labelledby="featureModalTitle">
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- FEATURE FINDER MODAL (특징 검색)             -->
+    <!-- ═══════════════════════════════════════════ -->
+    <div class="feature-modal" id="featureModal" hidden aria-hidden="true">
+      <div class="feature-modal-backdrop" id="featureModalBackdrop"></div>
+      <div class="feature-modal-panel" role="dialog" aria-modal="true" aria-labelledby="featureModalTitle">
 
       <header class="feature-modal-header">
         <button class="feature-modal-close" id="featureModalClose" type="button" aria-label="닫기">
@@ -1207,6 +1204,8 @@
       </footer>
 
     </div>
+    </div>
+
   </div>
 
   <script>
@@ -1690,6 +1689,7 @@
               harmful: item.hrmflSpecsYn === 'Y' ? true : (item.hrmflSpecsYn === 'N' ? false : placeholder.conservationStatus.harmful),
               endemic: (item.korUnqBispYn === 'Y' || item.corsynSeYn === 'Y') ? true : ((item.korUnqBispYn === 'N' || item.corsynSeYn === 'N') ? false : placeholder.conservationStatus.endemic)
             },
+            images: item.inat?.imageUrl ? [item.inat.imageUrl] : placeholder.images,
             taxonomy: fullTaxonomy,
             // GBIF 데이터(있는 경우)를 openSpeciesDetail의 render()에서 enrich
             _gbifData: item.gbif || null
@@ -1948,9 +1948,9 @@
       if (!options.keepNav) allNavItems.forEach(n => n.classList.remove('active'));
       const target = document.getElementById(pageId);
       if (target) target.classList.add('active');
-      // 페이지 진입 시 새 .page.active 스크롤 컨테이너를 최상단으로
-      // (target은 .active class 부착 직후라 곧장 scrollTop 적용 가능)
       if (target) target.scrollTop = 0;
+      const fab = document.getElementById('searchScrollTopBtn');
+      if (fab) fab.hidden = true;
     }
 
     document.getElementById('familyBackBtn').addEventListener('click', () => {
@@ -2208,7 +2208,16 @@
 
       const thumb = document.createElement('div');
       thumb.className = 'result-thumb';
-      thumb.textContent = (ins.sci || '?').charAt(0);
+      if (ins.img) {
+        const img = document.createElement('img');
+        img.src = ins.img;
+        img.alt = ins.kr || ins.sci || '';
+        img.loading = 'lazy';
+        img.decoding = 'async';
+        thumb.appendChild(img);
+      } else {
+        thumb.textContent = (ins.sci || '?').charAt(0);
+      }
 
       const info = document.createElement('div');
       info.className = 'result-info';
@@ -2295,6 +2304,7 @@
           year: item.namingYear || item.year || placeholder.year,
           description: item.description || item.abstract || placeholder.description,
           abstract: item.abstract || placeholder.abstract,
+          images: item.inat?.imageUrl ? [item.inat.imageUrl] : (ins.img ? [ins.img] : placeholder.images),
           conservationStatus: {
             endangered: item.egspcsYn === 'Y' ? 'II' : (item.conservationStatus?.endangered || placeholder.conservationStatus.endangered),
             invasive: item.phspYn === 'Y' ? true : (item.phspYn === 'N' ? false : placeholder.conservationStatus.invasive),
@@ -2400,6 +2410,22 @@
 
     // pageSearch 진입 시 인덱스 사전 로드
     loadSearchIndex();
+
+    // 전체 페이지 스크롤 → 맨 위로 FAB
+    const scrollTopBtn = document.getElementById('searchScrollTopBtn');
+    if (scrollTopBtn) {
+      allPages.forEach(page => {
+        page.addEventListener('scroll', () => {
+          if (page.classList.contains('active')) {
+            scrollTopBtn.hidden = page.scrollTop < 200;
+          }
+        }, { passive: true });
+      });
+      scrollTopBtn.addEventListener('click', () => {
+        const active = document.querySelector('.page.active');
+        if (active) active.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    }
 
     // ══════════════════════════════════════════════
     // FEATURE FINDER MODAL (특징으로 찾기 — 4단계)
@@ -2513,7 +2539,6 @@
       featureModalEl.querySelectorAll('.feature-option').forEach(b => b.classList.remove('selected'));
       featureModalEl.hidden = false;
       featureModalEl.setAttribute('aria-hidden', 'false');
-      document.body.style.overflow = 'hidden';
       renderFeatureStep();
       // 인덱스 사전 로드 (열려있는 동안 백그라운드로)
       loadSearchIndex();
@@ -2525,7 +2550,6 @@
       if (!featureModalEl) return;
       featureModalEl.hidden = true;
       featureModalEl.setAttribute('aria-hidden', 'true');
-      document.body.style.overflow = '';
       document.removeEventListener('keydown', handleFeatureEscape);
     }
     function handleFeatureEscape(e) {

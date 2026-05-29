@@ -1,400 +1,515 @@
 {
-  "generatedAt": "2026-05-21T07:47:08.025Z",
-  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
-  "order": {
-    "id": "hemiptera",
-    "scientificName": "Hemiptera",
-    "commonName": "노린재목",
-    "orderKtsn": 120000066597
-  },
-  "family": {
-    "id": "flatidae",
-    "scientificName": "Flatidae",
-    "commonName": "선녀벌레과",
-    "familyKtsn": 120000025966,
-    "abstract": "선녀벌레과는 꽃매미하목에 속하는 곤충과의 하나이다. 선녀벌레과는 세계적으로 분포하며, 같은 상과에 속한 다른 과들과는 다양한 점에서 구별된다. 어떤 종들의 성체는 날개가 화려하여 쉽게 식별할 수 있지만, 보통은 해부, 식별요소들의 대조가 필요하다. 하위 아과 Flatinae는, 성충의 신체는 위아래로 납작하며 복시는 텐트같은 모양을 띄고 있다. Flatoidinae의 경우, 몸은 위아래로 납작하지 않으며, 복시는 텐트같지 않고 때로 수평하게 눕혀져있다. 시맥의 배열은 꽁무니 부분의 시맥은 중간중간 결졀이 나있고, 늑골쪽 부위에는 수많은 시맥이 날개를 가로지른다는 점에서 독특하다. 더듬이는 작고, 첫 번째 마디는 collar같으며 작다. 두 번째 마디는 좀 더 길고 끝부분이 불거져있으며 거기에서 편모가 뻗어있다. 홑눈은 두 개가 나있다. 유충은 왁스 실로 이루어진 꼬리가 있다.",
-    "description": "선녀벌레과는 꽃매미하목에 속하는 곤충과의 하나이다. 선녀벌레과는 세계적으로 분포하며, 같은 상과에 속한 다른 과들과는 다양한 점에서 구별된다. 어떤 종들의 성체는 날개가 화려하여 쉽게 식별할 수 있지만, 보통은 해부, 식별요소들의 대조가 필요하다. 하위 아과 Flatinae는, 성충의 신체는 위아래로 납작하며 복시는 텐트같은 모양을 띄고 있다. Flatoidinae의 경우, 몸은 위아래로 납작하지 않으며, 복시는 텐트같지 않고 때로 수평하게 눕혀져있다. 시맥의 배열은 꽁무니 부분의 시맥은 중간중간 결졀이 나있고, 늑골쪽 부위에는 수많은 시맥이 날개를 가로지른다는 점에서 독특하다. 더듬이는 작고, 첫 번째 마디는 collar같으며 작다. 두 번째 마디는 좀 더 길고 끝부분이 불거져있으며 거기에서 편모가 뻗어있다. 홑눈은 두 개가 나있다. 유충은 왁스 실로 이루어진 꼬리가 있다."
-  },
-  "speciesCount": 4,
-  "insects": [
-    {
-      "ktsn": 120000025968,
-      "scientificName": "Geisha distinctissima (Walker, 1858)",
-      "commonName": "선녀벌레",
-      "terminalLatinName": "distinctissima",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Flatidae",
-          "commonName": "선녀벌레과",
-          "ktsn": 120000025966
-        },
-        "genus": {
-          "scientificName": "Geisha",
-          "commonName": "선녀벌레속",
-          "ktsn": 120000025967
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "distinctissima",
-          "commonName": "선녀벌레",
-          "ktsn": 120000025968
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:26:41.922Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
-        "thumbnailUrl": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      },
-      "eol": {
-        "pageId": 3729003,
-        "canonical": "Geisha distinctissima",
-        "fetchedAt": "2026-05-24T10:06:10.752Z",
-        "vernaculars": {
-          "ko": [
-            "선녀벌레"
-          ],
-          "en": [],
-          "ja": [
-            "アオバハゴロモ",
-            "ハト"
-          ]
-        },
-        "habitat": [],
-        "geographic": [
-          "Japan",
-          "Hong Kong",
-          "China"
-        ],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": 1650
-      }
-    },
-    {
-      "ktsn": 120000025970,
-      "scientificName": "Metcalfa pruinosa (Say, 1830)",
-      "commonName": "미국선녀벌레",
-      "terminalLatinName": "pruinosa",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "Y",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Flatidae",
-          "commonName": "선녀벌레과",
-          "ktsn": 120000025966
-        },
-        "genus": {
-          "scientificName": "Metcalfa",
-          "commonName": "",
-          "ktsn": 120000025969
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "pruinosa",
-          "commonName": "미국선녀벌레",
-          "ktsn": 120000025970
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:26:41.922Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
-        "thumbnailUrl": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      },
-      "eol": {
-        "pageId": 987469,
-        "canonical": "Metcalfa pruinosa",
-        "fetchedAt": "2026-05-24T10:06:13.897Z",
-        "vernaculars": {
-          "ko": [
-            "미국선녀벌레",
-            "미국선녀벌레"
-          ],
-          "en": [
-            "Citrus Flatid Planthopper",
-            "Floury Mothbug",
-            "Citrus Planthopper",
-            "Citrus Flatid Planthopper",
-            "Citrus Flatid Planthopper"
-          ],
-          "ja": []
-        },
-        "habitat": [
-          "terrestrial"
-        ],
-        "geographic": [
-          "Turkey",
-          "United States",
-          "North Pacific",
-          "North Atlantic",
-          "Mexico",
-          "South Korea",
-          "Serbia",
-          "Italy",
-          "Germany",
-          "France",
-          "Canada",
-          "Austria"
-        ],
-        "introduced": [
-          "Romania",
-          "Slovenia",
-          "Delaware",
-          "Turkey"
-        ],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": 14019
-      }
-    },
-    {
-      "ktsn": 120000025972,
-      "scientificName": "Mimophantia maritima Matsumura, 1900",
-      "commonName": "봉화선녀벌레",
-      "terminalLatinName": "maritima",
-      "nomenclaturalAuthor": "Matsumura",
-      "namingYear": "1900",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Flatidae",
-          "commonName": "선녀벌레과",
-          "ktsn": 120000025966
-        },
-        "genus": {
-          "scientificName": "Mimophantia",
-          "commonName": "봉화선녀벌레속",
-          "ktsn": 120000025971
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "maritima",
-          "commonName": "봉화선녀벌레",
-          "ktsn": 120000025972
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:26:41.922Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
-        "thumbnailUrl": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      },
-      "eol": {
-        "pageId": 3729006,
-        "canonical": "Mimophantia maritima",
-        "fetchedAt": "2026-05-24T10:06:17.631Z",
-        "vernaculars": {
-          "ko": [
-            "봉화선녀벌레"
-          ],
-          "en": [],
-          "ja": [
-            "トビイロハゴロモ"
-          ]
-        },
-        "habitat": [],
-        "geographic": [
-          "Australia"
-        ],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": 286
-      }
-    },
-    {
-      "ktsn": 120000211820,
-      "scientificName": "Salurnis marginella (Guérin-Méneville, 1829)",
-      "commonName": "뾰족날개선녀벌레",
-      "terminalLatinName": "marginella",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Flatidae",
-          "commonName": "선녀벌레과",
-          "ktsn": 120000025966
-        },
-        "genus": {
-          "scientificName": "Salurnis",
-          "commonName": "뾰족날개선녀벌레속",
-          "ktsn": 120000211819
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "marginella",
-          "commonName": "뾰족날개선녀벌레",
-          "ktsn": 120000211820
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:26:41.922Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "totalElements": 0,
-        "totalPages": 1,
-        "thumbnailUrl": null,
-        "thumbnail": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      },
-      "eol": {
-        "pageId": 3729195,
-        "canonical": "Salurnis marginella",
-        "fetchedAt": "2026-05-24T10:06:22.909Z",
-        "vernaculars": {
-          "ko": [
-            "뾰족날개선녀벌레"
-          ],
-          "en": [],
-          "ja": [
-            "キベリハゴロモ",
-            "ヘリチャハゴロモ"
-          ]
-        },
-        "habitat": [],
-        "geographic": [
-          "China"
-        ],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": 325
-      }
-    }
-  ],
-  "digitalContentUpdatedAt": "2026-05-21T09:26:41.922Z",
-  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+    "generatedAt":  "2026-05-21T07:47:08.025Z",
+    "source":  "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+    "order":  {
+                  "id":  "hemiptera",
+                  "scientificName":  "Hemiptera",
+                  "commonName":  "노린재목",
+                  "orderKtsn":  120000066597
+              },
+    "family":  {
+                   "id":  "flatidae",
+                   "scientificName":  "Flatidae",
+                   "commonName":  "선녀벌레과",
+                   "familyKtsn":  120000025966,
+                   "abstract":  "선녀벌레과는 꽃매미하목에 속하는 곤충과의 하나이다. 선녀벌레과는 세계적으로 분포하며, 같은 상과에 속한 다른 과들과는 다양한 점에서 구별된다. 어떤 종들의 성체는 날개가 화려하여 쉽게 식별할 수 있지만, 보통은 해부, 식별요소들의 대조가 필요하다. 하위 아과 Flatinae는, 성충의 신체는 위아래로 납작하며 복시는 텐트같은 모양을 띄고 있다. Flatoidinae의 경우, 몸은 위아래로 납작하지 않으며, 복시는 텐트같지 않고 때로 수평하게 눕혀져있다. 시맥의 배열은 꽁무니 부분의 시맥은 중간중간 결졀이 나있고, 늑골쪽 부위에는 수많은 시맥이 날개를 가로지른다는 점에서 독특하다. 더듬이는 작고, 첫 번째 마디는 collar같으며 작다. 두 번째 마디는 좀 더 길고 끝부분이 불거져있으며 거기에서 편모가 뻗어있다. 홑눈은 두 개가 나있다. 유충은 왁스 실로 이루어진 꼬리가 있다.",
+                   "description":  "선녀벌레과는 꽃매미하목에 속하는 곤충과의 하나이다. 선녀벌레과는 세계적으로 분포하며, 같은 상과에 속한 다른 과들과는 다양한 점에서 구별된다. 어떤 종들의 성체는 날개가 화려하여 쉽게 식별할 수 있지만, 보통은 해부, 식별요소들의 대조가 필요하다. 하위 아과 Flatinae는, 성충의 신체는 위아래로 납작하며 복시는 텐트같은 모양을 띄고 있다. Flatoidinae의 경우, 몸은 위아래로 납작하지 않으며, 복시는 텐트같지 않고 때로 수평하게 눕혀져있다. 시맥의 배열은 꽁무니 부분의 시맥은 중간중간 결졀이 나있고, 늑골쪽 부위에는 수많은 시맥이 날개를 가로지른다는 점에서 독특하다. 더듬이는 작고, 첫 번째 마디는 collar같으며 작다. 두 번째 마디는 좀 더 길고 끝부분이 불거져있으며 거기에서 편모가 뻗어있다. 홑눈은 두 개가 나있다. 유충은 왁스 실로 이루어진 꼬리가 있다."
+               },
+    "speciesCount":  4,
+    "insects":  [
+                    {
+                        "ktsn":  120000025968,
+                        "scientificName":  "Geisha distinctissima (Walker, 1858)",
+                        "commonName":  "선녀벌레",
+                        "terminalLatinName":  "distinctissima",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Flatidae",
+                                                        "commonName":  "선녀벌레과",
+                                                        "ktsn":  120000025966
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Geisha",
+                                                       "commonName":  "선녀벌레속",
+                                                       "ktsn":  120000025967
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "distinctissima",
+                                                         "commonName":  "선녀벌레",
+                                                         "ktsn":  120000025968
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:26:41.922Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
+                                               "thumbnailUrl":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "eol":  {
+                                    "pageId":  3729003,
+                                    "canonical":  "Geisha distinctissima",
+                                    "fetchedAt":  "2026-05-24T10:06:10.752Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+                                                                   "선녀벌레"
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+                                                                   "アオバハゴロモ",
+                                                                   "ハト"
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+                                                       "Japan",
+                                                       "Hong Kong",
+                                                       "China"
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  1650
+                                },
+                        "inat":  {
+                                     "observationCount":  15,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/410099497/medium.jpg",
+                                     "months":  [
+                                                    7,
+                                                    8,
+                                                    9
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000025970,
+                        "scientificName":  "Metcalfa pruinosa (Say, 1830)",
+                        "commonName":  "미국선녀벌레",
+                        "terminalLatinName":  "pruinosa",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "Y",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Flatidae",
+                                                        "commonName":  "선녀벌레과",
+                                                        "ktsn":  120000025966
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Metcalfa",
+                                                       "commonName":  "",
+                                                       "ktsn":  120000025969
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "pruinosa",
+                                                         "commonName":  "미국선녀벌레",
+                                                         "ktsn":  120000025970
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:26:41.922Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
+                                               "thumbnailUrl":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "eol":  {
+                                    "pageId":  987469,
+                                    "canonical":  "Metcalfa pruinosa",
+                                    "fetchedAt":  "2026-05-24T10:06:13.897Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+                                                                   "미국선녀벌레",
+                                                                   "미국선녀벌레"
+                                                               ],
+                                                        "en":  [
+                                                                   "Citrus Flatid Planthopper",
+                                                                   "Floury Mothbug",
+                                                                   "Citrus Planthopper",
+                                                                   "Citrus Flatid Planthopper",
+                                                                   "Citrus Flatid Planthopper"
+                                                               ],
+                                                        "ja":  [
+
+                                                               ]
+                                                    },
+                                    "habitat":  [
+                                                    "terrestrial"
+                                                ],
+                                    "geographic":  [
+                                                       "Turkey",
+                                                       "United States",
+                                                       "North Pacific",
+                                                       "North Atlantic",
+                                                       "Mexico",
+                                                       "South Korea",
+                                                       "Serbia",
+                                                       "Italy",
+                                                       "Germany",
+                                                       "France",
+                                                       "Canada",
+                                                       "Austria"
+                                                   ],
+                                    "introduced":  [
+                                                       "Romania",
+                                                       "Slovenia",
+                                                       "Delaware",
+                                                       "Turkey"
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  14019
+                                },
+                        "inat":  {
+                                     "observationCount":  146,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/21833057/medium.jpg",
+                                     "months":  [
+                                                    6,
+                                                    7,
+                                                    8,
+                                                    9,
+                                                    10,
+                                                    11,
+                                                    12
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000025972,
+                        "scientificName":  "Mimophantia maritima Matsumura, 1900",
+                        "commonName":  "봉화선녀벌레",
+                        "terminalLatinName":  "maritima",
+                        "nomenclaturalAuthor":  "Matsumura",
+                        "namingYear":  "1900",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Flatidae",
+                                                        "commonName":  "선녀벌레과",
+                                                        "ktsn":  120000025966
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Mimophantia",
+                                                       "commonName":  "봉화선녀벌레속",
+                                                       "ktsn":  120000025971
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "maritima",
+                                                         "commonName":  "봉화선녀벌레",
+                                                         "ktsn":  120000025972
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:26:41.922Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
+                                               "thumbnailUrl":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "eol":  {
+                                    "pageId":  3729006,
+                                    "canonical":  "Mimophantia maritima",
+                                    "fetchedAt":  "2026-05-24T10:06:17.631Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+                                                                   "봉화선녀벌레"
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+                                                                   "トビイロハゴロモ"
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+                                                       "Australia"
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  286
+                                },
+                        "inat":  {
+                                     "observationCount":  1,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/118526313/medium.jpeg",
+                                     "months":  [
+                                                    10
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000211820,
+                        "scientificName":  "Salurnis marginella (Guérin-Méneville, 1829)",
+                        "commonName":  "뾰족날개선녀벌레",
+                        "terminalLatinName":  "marginella",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Flatidae",
+                                                        "commonName":  "선녀벌레과",
+                                                        "ktsn":  120000025966
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Salurnis",
+                                                       "commonName":  "뾰족날개선녀벌레속",
+                                                       "ktsn":  120000211819
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "marginella",
+                                                         "commonName":  "뾰족날개선녀벌레",
+                                                         "ktsn":  120000211820
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:26:41.922Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "totalElements":  0,
+                                               "totalPages":  1,
+                                               "thumbnailUrl":  null,
+                                               "thumbnail":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "eol":  {
+                                    "pageId":  3729195,
+                                    "canonical":  "Salurnis marginella",
+                                    "fetchedAt":  "2026-05-24T10:06:22.909Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+                                                                   "뾰족날개선녀벌레"
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+                                                                   "キベリハゴロモ",
+                                                                   "ヘリチャハゴロモ"
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+                                                       "China"
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  325
+                                },
+                        "inat":  {
+                                     "observationCount":  5,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/138127613/medium.jpg",
+                                     "months":  [
+                                                    6,
+                                                    7,
+                                                    8,
+                                                    9
+                                                ]
+                                 }
+                    }
+                ],
+    "digitalContentUpdatedAt":  "2026-05-21T09:26:41.922Z",
+    "digitalContentSource":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
 }

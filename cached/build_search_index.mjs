@@ -107,6 +107,11 @@ function main() {
         withEol += 1;
       }
 
+      // iNaturalist 이미지 URL
+      if (insect.inat?.imageUrl) {
+        entry.img = insect.inat.imageUrl;
+      }
+
       insects.push(entry);
       orderIndex.get(orderId).count += 1;
       familyIndex.get(familyKey).count += 1;

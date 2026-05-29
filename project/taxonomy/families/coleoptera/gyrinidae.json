@@ -1,600 +1,803 @@
 {
-  "generatedAt": "2026-05-21T07:47:08.025Z",
-  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
-  "order": {
-    "id": "coleoptera",
-    "scientificName": "Coleoptera",
-    "commonName": "딱정벌레목",
-    "orderKtsn": 120000013750,
-    "abstract": "딱정벌레목(Coleoptera)은 곤충의 종 가운데 40%인 35만여종을 차지하는 목이다. 아직 발견되지 않은 종까지 합치면 500만~800만여종이 될 것으로 추정된다. 먹는 먹이도 다양해서 식물의 잎, 송사리 등의 작은 물고기, 나무의 즙, 작은 동물, 동물의 시체 등 매우 다양하다. 딱정벌레목에 속한 곤충으로는 무당벌레, 딱정벌레, 길앞잡이, 물방개, 장수풍뎅이 등이 있다. 대부분이 두꺼운 키틴질로 된 딱딱한 껍데기를 가지고 있어서 갑충(甲蟲)이라고도 불린다.",
-    "description": "딱정벌레목(Coleoptera)은 곤충의 종 가운데 40%인 35만여종을 차지하는 목이다. 아직 발견되지 않은 종까지 합치면 500만~800만여종이 될 것으로 추정된다. 먹는 먹이도 다양해서 식물의 잎, 송사리 등의 작은 물고기, 나무의 즙, 작은 동물, 동물의 시체 등 매우 다양하다. 딱정벌레목에 속한 곤충으로는 무당벌레, 딱정벌레, 길앞잡이, 물방개, 장수풍뎅이 등이 있다. 대부분이 두꺼운 키틴질로 된 딱딱한 껍데기를 가지고 있어서 갑충(甲蟲)이라고도 불린다."
-  },
-  "family": {
-    "id": "gyrinidae",
-    "scientificName": "Gyrinidae",
-    "commonName": "물맴이과",
-    "familyKtsn": 120000017489,
-    "abstract": "물맴이과는 수생 딱정벌레의 한 분류이다. 수면을 맴돌기 때문에 물맴이라고 불린다.",
-    "description": "물맴이과는 수생 딱정벌레의 한 분류이다. 수면을 맴돌기 때문에 물맴이라고 불린다."
-  },
-  "speciesCount": 7,
-  "insects": [
-    {
-      "ktsn": 120000017492,
-      "scientificName": "Dineutus (Spinosodineutes) orientalis (Modeer, 1776)",
-      "commonName": "왕물맴이",
-      "terminalLatinName": "orientalis",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Coleoptera",
-          "commonName": "딱정벌레목",
-          "ktsn": 120000013750
-        },
-        "family": {
-          "scientificName": "Gyrinidae",
-          "commonName": "물맴이과",
-          "ktsn": 120000017489
-        },
-        "genus": {
-          "scientificName": "Dineutus",
-          "commonName": "왕물맴이속",
-          "ktsn": 120000017490
-        },
-        "subgenus": {
-          "scientificName": "Spinosodineutes",
-          "commonName": "",
-          "ktsn": 120000017491
-        },
-        "species": {
-          "scientificName": "orientalis",
-          "commonName": "왕물맴이",
-          "ktsn": 120000017492
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:01:51.194Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
-        "thumbnailUrl": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      },
-      "eol": {
-        "pageId": 40958369,
-        "canonical": "Dineutus orientalis",
-        "fetchedAt": "2026-05-24T07:57:57.069Z",
-        "vernaculars": {
-          "ko": [],
-          "en": [],
-          "ja": []
-        },
-        "habitat": [],
-        "geographic": [],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": null
-      }
-    },
-    {
-      "ktsn": 120000017496,
-      "scientificName": "Gyrinus (Gyrinus) gestroi Régimbart, 1883",
-      "commonName": "참물맴이",
-      "terminalLatinName": "gestroi",
-      "nomenclaturalAuthor": "Régimbart",
-      "namingYear": "1883",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Coleoptera",
-          "commonName": "딱정벌레목",
-          "ktsn": 120000013750
-        },
-        "family": {
-          "scientificName": "Gyrinidae",
-          "commonName": "물맴이과",
-          "ktsn": 120000017489
-        },
-        "genus": {
-          "scientificName": "Gyrinus",
-          "commonName": "물맴이속",
-          "ktsn": 120000017493
-        },
-        "subgenus": {
-          "scientificName": "Gyrinus",
-          "commonName": "",
-          "ktsn": 120000017494
-        },
-        "species": {
-          "scientificName": "gestroi",
-          "commonName": "참물맴이",
-          "ktsn": 120000017496
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:01:51.194Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
-        "thumbnailUrl": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      },
-      "eol": {
-        "pageId": 49152766,
-        "canonical": "Gyrinus gestroi",
-        "fetchedAt": "2026-05-24T07:58:03.879Z",
-        "vernaculars": {
-          "ko": [],
-          "en": [],
-          "ja": []
-        },
-        "habitat": [],
-        "geographic": [],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": null
-      }
-    },
-    {
-      "ktsn": 120000017497,
-      "scientificName": "Gyrinus (Gyrinus) japonicus Sharp, 1873",
-      "commonName": "물맴이",
-      "terminalLatinName": "japonicus",
-      "nomenclaturalAuthor": "Sharp",
-      "namingYear": "1873",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Coleoptera",
-          "commonName": "딱정벌레목",
-          "ktsn": 120000013750
-        },
-        "family": {
-          "scientificName": "Gyrinidae",
-          "commonName": "물맴이과",
-          "ktsn": 120000017489
-        },
-        "genus": {
-          "scientificName": "Gyrinus",
-          "commonName": "물맴이속",
-          "ktsn": 120000017493
-        },
-        "subgenus": {
-          "scientificName": "Gyrinus",
-          "commonName": "",
-          "ktsn": 120000017494
-        },
-        "species": {
-          "scientificName": "japonicus",
-          "commonName": "물맴이",
-          "ktsn": 120000017497
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:01:51.194Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
-        "thumbnailUrl": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      },
-      "eol": {
-        "pageId": 49152764,
-        "canonical": "Gyrinus japonicus",
-        "fetchedAt": "2026-05-24T07:58:10.952Z",
-        "vernaculars": {
-          "ko": [],
-          "en": [],
-          "ja": []
-        },
-        "habitat": [],
-        "geographic": [],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": null
-      }
-    },
-    {
-      "ktsn": 120000017498,
-      "scientificName": "Gyrinus (Gyrinus) pullatus Zaitzev, 1908",
-      "commonName": "동쪽물맴이",
-      "terminalLatinName": "pullatus",
-      "nomenclaturalAuthor": "Zaitzev",
-      "namingYear": "1908",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Coleoptera",
-          "commonName": "딱정벌레목",
-          "ktsn": 120000013750
-        },
-        "family": {
-          "scientificName": "Gyrinidae",
-          "commonName": "물맴이과",
-          "ktsn": 120000017489
-        },
-        "genus": {
-          "scientificName": "Gyrinus",
-          "commonName": "물맴이속",
-          "ktsn": 120000017493
-        },
-        "subgenus": {
-          "scientificName": "Gyrinus",
-          "commonName": "",
-          "ktsn": 120000017494
-        },
-        "species": {
-          "scientificName": "pullatus",
-          "commonName": "동쪽물맴이",
-          "ktsn": 120000017498
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:01:51.194Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "totalElements": 0,
-        "totalPages": 1,
-        "thumbnailUrl": null,
-        "thumbnail": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      },
-      "eol": {
-        "pageId": 3480697,
-        "canonical": "Gyrinus pullatus",
-        "fetchedAt": "2026-05-24T07:58:14.676Z",
-        "vernaculars": {
-          "ko": [],
-          "en": [],
-          "ja": []
-        },
-        "habitat": [],
-        "geographic": [],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": null
-      }
-    },
-    {
-      "ktsn": 120000209169,
-      "scientificName": "Orectochilus punctipennis Sharp, 1884",
-      "commonName": "검정꼬리물맴이",
-      "terminalLatinName": "punctipennis",
-      "nomenclaturalAuthor": "Sharp",
-      "namingYear": "1884",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Coleoptera",
-          "commonName": "딱정벌레목",
-          "ktsn": 120000013750
-        },
-        "family": {
-          "scientificName": "Gyrinidae",
-          "commonName": "물맴이과",
-          "ktsn": 120000017489
-        },
-        "genus": {
-          "scientificName": "Orectochilus",
-          "commonName": "꼬리물맴이속",
-          "ktsn": 120000017499
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "punctipennis",
-          "commonName": "검정꼬리물맴이",
-          "ktsn": 120000209169
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:01:51.194Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "totalElements": 0,
-        "totalPages": 1,
-        "thumbnailUrl": null,
-        "thumbnail": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      },
-      "eol": {
-        "pageId": 45525147,
-        "canonical": "Orectochilus punctipennis",
-        "fetchedAt": "2026-05-24T07:58:21.704Z",
-        "vernaculars": {
-          "ko": [],
-          "en": [],
-          "ja": []
-        },
-        "habitat": [],
-        "geographic": [],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": null
-      }
-    },
-    {
-      "ktsn": 120000098425,
-      "scientificName": "Orectochilus regimbarti Sharp, 1884",
-      "commonName": "꼬리물맴이",
-      "terminalLatinName": "regimbarti",
-      "nomenclaturalAuthor": "Sharp",
-      "namingYear": "1884",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Coleoptera",
-          "commonName": "딱정벌레목",
-          "ktsn": 120000013750
-        },
-        "family": {
-          "scientificName": "Gyrinidae",
-          "commonName": "물맴이과",
-          "ktsn": 120000017489
-        },
-        "genus": {
-          "scientificName": "Orectochilus",
-          "commonName": "꼬리물맴이속",
-          "ktsn": 120000017499
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "regimbarti",
-          "commonName": "꼬리물맴이",
-          "ktsn": 120000098425
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:01:51.194Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "totalElements": 0,
-        "totalPages": 1,
-        "thumbnailUrl": null,
-        "thumbnail": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      },
-      "eol": {
-        "pageId": 59079951,
-        "canonical": "Orectochilus regimbarti",
-        "fetchedAt": "2026-05-24T07:58:16.993Z",
-        "vernaculars": {
-          "ko": [],
-          "en": [],
-          "ja": []
-        },
-        "habitat": [],
-        "geographic": [],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": null
-      }
-    },
-    {
-      "ktsn": 120000212692,
-      "scientificName": "Orectochilus villosus (Müller, 1776)",
-      "commonName": "긴꼬리물맴이",
-      "terminalLatinName": "villosus",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Coleoptera",
-          "commonName": "딱정벌레목",
-          "ktsn": 120000013750
-        },
-        "family": {
-          "scientificName": "Gyrinidae",
-          "commonName": "물맴이과",
-          "ktsn": 120000017489
-        },
-        "genus": {
-          "scientificName": "Orectochilus",
-          "commonName": "꼬리물맴이속",
-          "ktsn": 120000017499
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "villosus",
-          "commonName": "긴꼬리물맴이",
-          "ktsn": 120000212692
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:01:51.194Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "totalElements": 0,
-        "totalPages": 1,
-        "thumbnailUrl": null,
-        "thumbnail": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      },
-      "eol": {
-        "pageId": 58292732,
-        "canonical": "Orectochilus villosus",
-        "fetchedAt": "2026-05-24T07:58:24.161Z",
-        "vernaculars": {
-          "ko": [],
-          "en": [],
-          "ja": []
-        },
-        "habitat": [],
-        "geographic": [],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": null
-      }
-    }
-  ],
-  "digitalContentUpdatedAt": "2026-05-21T09:01:51.194Z",
-  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+    "generatedAt":  "2026-05-21T07:47:08.025Z",
+    "source":  "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+    "order":  {
+                  "id":  "coleoptera",
+                  "scientificName":  "Coleoptera",
+                  "commonName":  "딱정벌레목",
+                  "orderKtsn":  120000013750,
+                  "abstract":  "딱정벌레목(Coleoptera)은 곤충의 종 가운데 40%인 35만여종을 차지하는 목이다. 아직 발견되지 않은 종까지 합치면 500만~800만여종이 될 것으로 추정된다. 먹는 먹이도 다양해서 식물의 잎, 송사리 등의 작은 물고기, 나무의 즙, 작은 동물, 동물의 시체 등 매우 다양하다. 딱정벌레목에 속한 곤충으로는 무당벌레, 딱정벌레, 길앞잡이, 물방개, 장수풍뎅이 등이 있다. 대부분이 두꺼운 키틴질로 된 딱딱한 껍데기를 가지고 있어서 갑충(甲蟲)이라고도 불린다.",
+                  "description":  "딱정벌레목(Coleoptera)은 곤충의 종 가운데 40%인 35만여종을 차지하는 목이다. 아직 발견되지 않은 종까지 합치면 500만~800만여종이 될 것으로 추정된다. 먹는 먹이도 다양해서 식물의 잎, 송사리 등의 작은 물고기, 나무의 즙, 작은 동물, 동물의 시체 등 매우 다양하다. 딱정벌레목에 속한 곤충으로는 무당벌레, 딱정벌레, 길앞잡이, 물방개, 장수풍뎅이 등이 있다. 대부분이 두꺼운 키틴질로 된 딱딱한 껍데기를 가지고 있어서 갑충(甲蟲)이라고도 불린다."
+              },
+    "family":  {
+                   "id":  "gyrinidae",
+                   "scientificName":  "Gyrinidae",
+                   "commonName":  "물맴이과",
+                   "familyKtsn":  120000017489,
+                   "abstract":  "물맴이과는 수생 딱정벌레의 한 분류이다. 수면을 맴돌기 때문에 물맴이라고 불린다.",
+                   "description":  "물맴이과는 수생 딱정벌레의 한 분류이다. 수면을 맴돌기 때문에 물맴이라고 불린다."
+               },
+    "speciesCount":  7,
+    "insects":  [
+                    {
+                        "ktsn":  120000017492,
+                        "scientificName":  "Dineutus (Spinosodineutes) orientalis (Modeer, 1776)",
+                        "commonName":  "왕물맴이",
+                        "terminalLatinName":  "orientalis",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Coleoptera",
+                                                       "commonName":  "딱정벌레목",
+                                                       "ktsn":  120000013750
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Gyrinidae",
+                                                        "commonName":  "물맴이과",
+                                                        "ktsn":  120000017489
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Dineutus",
+                                                       "commonName":  "왕물맴이속",
+                                                       "ktsn":  120000017490
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "Spinosodineutes",
+                                                          "commonName":  "",
+                                                          "ktsn":  120000017491
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "orientalis",
+                                                         "commonName":  "왕물맴이",
+                                                         "ktsn":  120000017492
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:01:51.194Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
+                                               "thumbnailUrl":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "eol":  {
+                                    "pageId":  40958369,
+                                    "canonical":  "Dineutus orientalis",
+                                    "fetchedAt":  "2026-05-24T07:57:57.069Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  null
+                                },
+                        "inat":  {
+                                     "observationCount":  1,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/298781427/medium.jpeg",
+                                     "months":  [
+                                                    7
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000017496,
+                        "scientificName":  "Gyrinus (Gyrinus) gestroi Régimbart, 1883",
+                        "commonName":  "참물맴이",
+                        "terminalLatinName":  "gestroi",
+                        "nomenclaturalAuthor":  "Régimbart",
+                        "namingYear":  "1883",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Coleoptera",
+                                                       "commonName":  "딱정벌레목",
+                                                       "ktsn":  120000013750
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Gyrinidae",
+                                                        "commonName":  "물맴이과",
+                                                        "ktsn":  120000017489
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Gyrinus",
+                                                       "commonName":  "물맴이속",
+                                                       "ktsn":  120000017493
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "Gyrinus",
+                                                          "commonName":  "",
+                                                          "ktsn":  120000017494
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "gestroi",
+                                                         "commonName":  "참물맴이",
+                                                         "ktsn":  120000017496
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:01:51.194Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
+                                               "thumbnailUrl":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "eol":  {
+                                    "pageId":  49152766,
+                                    "canonical":  "Gyrinus gestroi",
+                                    "fetchedAt":  "2026-05-24T07:58:03.879Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  null
+                                },
+                        "inat":  {
+                                     "observationCount":  1,
+                                     "imageUrl":  null,
+                                     "months":  [
+                                                    7
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000017497,
+                        "scientificName":  "Gyrinus (Gyrinus) japonicus Sharp, 1873",
+                        "commonName":  "물맴이",
+                        "terminalLatinName":  "japonicus",
+                        "nomenclaturalAuthor":  "Sharp",
+                        "namingYear":  "1873",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Coleoptera",
+                                                       "commonName":  "딱정벌레목",
+                                                       "ktsn":  120000013750
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Gyrinidae",
+                                                        "commonName":  "물맴이과",
+                                                        "ktsn":  120000017489
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Gyrinus",
+                                                       "commonName":  "물맴이속",
+                                                       "ktsn":  120000017493
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "Gyrinus",
+                                                          "commonName":  "",
+                                                          "ktsn":  120000017494
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "japonicus",
+                                                         "commonName":  "물맴이",
+                                                         "ktsn":  120000017497
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:01:51.194Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
+                                               "thumbnailUrl":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "eol":  {
+                                    "pageId":  49152764,
+                                    "canonical":  "Gyrinus japonicus",
+                                    "fetchedAt":  "2026-05-24T07:58:10.952Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  null
+                                },
+                        "inat":  {
+                                     "observationCount":  1,
+                                     "imageUrl":  null,
+                                     "months":  [
+                                                    7
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000017498,
+                        "scientificName":  "Gyrinus (Gyrinus) pullatus Zaitzev, 1908",
+                        "commonName":  "동쪽물맴이",
+                        "terminalLatinName":  "pullatus",
+                        "nomenclaturalAuthor":  "Zaitzev",
+                        "namingYear":  "1908",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Coleoptera",
+                                                       "commonName":  "딱정벌레목",
+                                                       "ktsn":  120000013750
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Gyrinidae",
+                                                        "commonName":  "물맴이과",
+                                                        "ktsn":  120000017489
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Gyrinus",
+                                                       "commonName":  "물맴이속",
+                                                       "ktsn":  120000017493
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "Gyrinus",
+                                                          "commonName":  "",
+                                                          "ktsn":  120000017494
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "pullatus",
+                                                         "commonName":  "동쪽물맴이",
+                                                         "ktsn":  120000017498
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:01:51.194Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "totalElements":  0,
+                                               "totalPages":  1,
+                                               "thumbnailUrl":  null,
+                                               "thumbnail":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "eol":  {
+                                    "pageId":  3480697,
+                                    "canonical":  "Gyrinus pullatus",
+                                    "fetchedAt":  "2026-05-24T07:58:14.676Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  null
+                                }
+                    },
+                    {
+                        "ktsn":  120000209169,
+                        "scientificName":  "Orectochilus punctipennis Sharp, 1884",
+                        "commonName":  "검정꼬리물맴이",
+                        "terminalLatinName":  "punctipennis",
+                        "nomenclaturalAuthor":  "Sharp",
+                        "namingYear":  "1884",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Coleoptera",
+                                                       "commonName":  "딱정벌레목",
+                                                       "ktsn":  120000013750
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Gyrinidae",
+                                                        "commonName":  "물맴이과",
+                                                        "ktsn":  120000017489
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Orectochilus",
+                                                       "commonName":  "꼬리물맴이속",
+                                                       "ktsn":  120000017499
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "punctipennis",
+                                                         "commonName":  "검정꼬리물맴이",
+                                                         "ktsn":  120000209169
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:01:51.194Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "totalElements":  0,
+                                               "totalPages":  1,
+                                               "thumbnailUrl":  null,
+                                               "thumbnail":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "eol":  {
+                                    "pageId":  45525147,
+                                    "canonical":  "Orectochilus punctipennis",
+                                    "fetchedAt":  "2026-05-24T07:58:21.704Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  null
+                                }
+                    },
+                    {
+                        "ktsn":  120000098425,
+                        "scientificName":  "Orectochilus regimbarti Sharp, 1884",
+                        "commonName":  "꼬리물맴이",
+                        "terminalLatinName":  "regimbarti",
+                        "nomenclaturalAuthor":  "Sharp",
+                        "namingYear":  "1884",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Coleoptera",
+                                                       "commonName":  "딱정벌레목",
+                                                       "ktsn":  120000013750
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Gyrinidae",
+                                                        "commonName":  "물맴이과",
+                                                        "ktsn":  120000017489
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Orectochilus",
+                                                       "commonName":  "꼬리물맴이속",
+                                                       "ktsn":  120000017499
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "regimbarti",
+                                                         "commonName":  "꼬리물맴이",
+                                                         "ktsn":  120000098425
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:01:51.194Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "totalElements":  0,
+                                               "totalPages":  1,
+                                               "thumbnailUrl":  null,
+                                               "thumbnail":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "eol":  {
+                                    "pageId":  59079951,
+                                    "canonical":  "Orectochilus regimbarti",
+                                    "fetchedAt":  "2026-05-24T07:58:16.993Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  null
+                                }
+                    },
+                    {
+                        "ktsn":  120000212692,
+                        "scientificName":  "Orectochilus villosus (Müller, 1776)",
+                        "commonName":  "긴꼬리물맴이",
+                        "terminalLatinName":  "villosus",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Coleoptera",
+                                                       "commonName":  "딱정벌레목",
+                                                       "ktsn":  120000013750
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Gyrinidae",
+                                                        "commonName":  "물맴이과",
+                                                        "ktsn":  120000017489
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Orectochilus",
+                                                       "commonName":  "꼬리물맴이속",
+                                                       "ktsn":  120000017499
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "villosus",
+                                                         "commonName":  "긴꼬리물맴이",
+                                                         "ktsn":  120000212692
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:01:51.194Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "totalElements":  0,
+                                               "totalPages":  1,
+                                               "thumbnailUrl":  null,
+                                               "thumbnail":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "eol":  {
+                                    "pageId":  58292732,
+                                    "canonical":  "Orectochilus villosus",
+                                    "fetchedAt":  "2026-05-24T07:58:24.161Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  null
+                                }
+                    }
+                ],
+    "digitalContentUpdatedAt":  "2026-05-21T09:01:51.194Z",
+    "digitalContentSource":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
 }

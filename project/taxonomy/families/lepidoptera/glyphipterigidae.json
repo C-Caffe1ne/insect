@@ -1,606 +1,719 @@
 {
-  "generatedAt": "2026-05-21T07:47:08.025Z",
-  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
-  "order": {
-    "id": "lepidoptera",
-    "scientificName": "Lepidoptera",
-    "commonName": "나비목",
-    "orderKtsn": 120000031663
-  },
-  "family": {
-    "id": "glyphipterigidae",
-    "scientificName": "Glyphipterigidae",
-    "commonName": "그림날개나방과",
-    "familyKtsn": 120000034117
-  },
-  "speciesCount": 8,
-  "insects": [
-    {
-      "ktsn": 120000034119,
-      "scientificName": "Glyphipterix forsterella ",
-      "commonName": "흰눈썹그림날개나방",
-      "terminalLatinName": "forsterella",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Lepidoptera",
-          "commonName": "나비목",
-          "ktsn": 120000031663
-        },
-        "family": {
-          "scientificName": "Glyphipterigidae",
-          "commonName": "그림날개나방과",
-          "ktsn": 120000034117
-        },
-        "genus": {
-          "scientificName": "Glyphipterix",
-          "commonName": "",
-          "ktsn": 120000034118
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "forsterella",
-          "commonName": "흰눈썹그림날개나방",
-          "ktsn": 120000034119
-        }
-      },
-      "eol": {
-        "pageId": 958530,
-        "canonical": "Glyphipterix forsterella",
-        "fetchedAt": "2026-05-24T11:27:27.528Z",
-        "vernaculars": {
-          "ko": [],
-          "en": [
-            "Sedge Fanner"
-          ],
-          "ja": [
-            "シロズホソハマキモドキ"
-          ]
-        },
-        "habitat": [],
-        "geographic": [
-          "United Kingdom",
-          "Sweden",
-          "Slovakia",
-          "Norway",
-          "Luxembourg",
-          "Ireland",
-          "Germany",
-          "France",
-          "Finland",
-          "Estonia",
-          "Denmark",
-          "Austria"
-        ],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": 1166
-      }
-    },
-    {
-      "ktsn": 120000527968,
-      "scientificName": "Glyphipterix gamma Moriuti and Saito, 1964",
-      "commonName": "큰흰눈썹그림날개나방",
-      "terminalLatinName": "gamma",
-      "nomenclaturalAuthor": "Moriuti and Saito",
-      "namingYear": "1964",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Lepidoptera",
-          "commonName": "나비목",
-          "ktsn": 120000031663
-        },
-        "family": {
-          "scientificName": "Glyphipterigidae",
-          "commonName": "그림날개나방과",
-          "ktsn": 120000034117
-        },
-        "genus": {
-          "scientificName": "Glyphipterix",
-          "commonName": "",
-          "ktsn": 120000034118
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "gamma",
-          "commonName": "큰흰눈썹그림날개나방",
-          "ktsn": 120000527968
-        }
-      },
-      "eol": {
-        "pageId": 951659,
-        "canonical": "Glyphipterix gamma",
-        "fetchedAt": "2026-05-24T11:27:46.286Z",
-        "vernaculars": {
-          "ko": [
-            "흰줄무늬그림날개나방"
-          ],
-          "en": [],
-          "ja": [
-            "カラカネホソハマキモドキ"
-          ]
-        },
-        "habitat": [],
-        "geographic": [
-          "China",
-          "Japan"
-        ],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": 13
-      }
-    },
-    {
-      "ktsn": 120000091028,
-      "scientificName": "Glyphipterix gaudialis Diakonoff and Arita, 1976",
-      "commonName": "노랑띠그림날개나방",
-      "terminalLatinName": "gaudialis",
-      "nomenclaturalAuthor": "Diakonoff and Arita",
-      "namingYear": "1976",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Lepidoptera",
-          "commonName": "나비목",
-          "ktsn": 120000031663
-        },
-        "family": {
-          "scientificName": "Glyphipterigidae",
-          "commonName": "그림날개나방과",
-          "ktsn": 120000034117
-        },
-        "genus": {
-          "scientificName": "Glyphipterix",
-          "commonName": "",
-          "ktsn": 120000034118
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "gaudialis",
-          "commonName": "노랑띠그림날개나방",
-          "ktsn": 120000091028
-        }
-      },
-      "eol": {
-        "pageId": 951660,
-        "canonical": "Glyphipterix gaudialis",
-        "fetchedAt": "2026-05-24T11:27:42.377Z",
-        "vernaculars": {
-          "ko": [
-            "노랑띠그림날개나방"
-          ],
-          "en": [],
-          "ja": [
-            "キスジホソハマキモドキ"
-          ]
-        },
-        "habitat": [],
-        "geographic": [],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": 2
-      }
-    },
-    {
-      "ktsn": 120000527969,
-      "scientificName": "Glyphipterix gemmula Diakonoff and Arita, 1976",
-      "commonName": "호랑무늬그림날개나방",
-      "terminalLatinName": "gemmula",
-      "nomenclaturalAuthor": "Diakonoff and Arita",
-      "namingYear": "1976",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Lepidoptera",
-          "commonName": "나비목",
-          "ktsn": 120000031663
-        },
-        "family": {
-          "scientificName": "Glyphipterigidae",
-          "commonName": "그림날개나방과",
-          "ktsn": 120000034117
-        },
-        "genus": {
-          "scientificName": "Glyphipterix",
-          "commonName": "",
-          "ktsn": 120000034118
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "gemmula",
-          "commonName": "호랑무늬그림날개나방",
-          "ktsn": 120000527969
-        }
-      },
-      "eol": {
-        "pageId": 951960,
-        "canonical": "Glyphipterix gemmula",
-        "fetchedAt": "2026-05-24T11:27:51.900Z",
-        "vernaculars": {
-          "ko": [],
-          "en": [],
-          "ja": [
-            "ヒメキスジホソハマキモドキ"
-          ]
-        },
-        "habitat": [],
-        "geographic": [
-          "Japan",
-          "Taiwan",
-          "China"
-        ],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": 15
-      }
-    },
-    {
-      "ktsn": 120000527971,
-      "scientificName": "Glyphipterix koreana Jeong and Byun, 2025",
-      "commonName": "한국그림날개나방",
-      "terminalLatinName": "koreana",
-      "nomenclaturalAuthor": "Jeong and Byun",
-      "namingYear": "2025",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Lepidoptera",
-          "commonName": "나비목",
-          "ktsn": 120000031663
-        },
-        "family": {
-          "scientificName": "Glyphipterigidae",
-          "commonName": "그림날개나방과",
-          "ktsn": 120000034117
-        },
-        "genus": {
-          "scientificName": "Glyphipterix",
-          "commonName": "",
-          "ktsn": 120000034118
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "koreana",
-          "commonName": "한국그림날개나방",
-          "ktsn": 120000527971
-        }
-      }
-    },
-    {
-      "ktsn": 120000034121,
-      "scientificName": "Glyphipterix nigromarginata Issiki, 1930",
-      "commonName": "흰점그림날개나방",
-      "terminalLatinName": "nigromarginata",
-      "nomenclaturalAuthor": "Issiki",
-      "namingYear": "1930",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Lepidoptera",
-          "commonName": "나비목",
-          "ktsn": 120000031663
-        },
-        "family": {
-          "scientificName": "Glyphipterigidae",
-          "commonName": "그림날개나방과",
-          "ktsn": 120000034117
-        },
-        "genus": {
-          "scientificName": "Glyphipterix",
-          "commonName": "",
-          "ktsn": 120000034118
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "nigromarginata",
-          "commonName": "흰점그림날개나방",
-          "ktsn": 120000034121
-        }
-      },
-      "eol": {
-        "pageId": 945050,
-        "canonical": "Glyphipterix nigromarginata",
-        "fetchedAt": "2026-05-24T11:27:33.467Z",
-        "vernaculars": {
-          "ko": [
-            "흰점그림날개나방"
-          ],
-          "en": [],
-          "ja": [
-            "ヘリグロホソハマキモドキ"
-          ]
-        },
-        "habitat": [
-          "farm"
-        ],
-        "geographic": [
-          "Japan",
-          "China",
-          "Russia"
-        ],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": 48
-      }
-    },
-    {
-      "ktsn": 120000527970,
-      "scientificName": "Glyphipterix semiflavana Issiki, 1930",
-      "commonName": "대나무그림날개나방",
-      "terminalLatinName": "semiflavana",
-      "nomenclaturalAuthor": "Issiki",
-      "namingYear": "1930",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Lepidoptera",
-          "commonName": "나비목",
-          "ktsn": 120000031663
-        },
-        "family": {
-          "scientificName": "Glyphipterigidae",
-          "commonName": "그림날개나방과",
-          "ktsn": 120000034117
-        },
-        "genus": {
-          "scientificName": "Glyphipterix",
-          "commonName": "",
-          "ktsn": 120000034118
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "semiflavana",
-          "commonName": "대나무그림날개나방",
-          "ktsn": 120000527970
-        }
-      },
-      "eol": {
-        "pageId": 944217,
-        "canonical": "Glyphipterix semiflavana",
-        "fetchedAt": "2026-05-24T11:27:55.379Z",
-        "vernaculars": {
-          "ko": [],
-          "en": [],
-          "ja": [
-            "ナミホソハマキモドキ"
-          ]
-        },
-        "habitat": [],
-        "geographic": [],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": 20
-      }
-    },
-    {
-      "ktsn": 120000034123,
-      "scientificName": "Lepidotarphius perornatella (Walker, 1877)",
-      "commonName": "창포그림날개나방",
-      "terminalLatinName": "perornatella",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Lepidoptera",
-          "commonName": "나비목",
-          "ktsn": 120000031663
-        },
-        "family": {
-          "scientificName": "Glyphipterigidae",
-          "commonName": "그림날개나방과",
-          "ktsn": 120000034117
-        },
-        "genus": {
-          "scientificName": "Lepidotarphius",
-          "commonName": "",
-          "ktsn": 120000034122
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "perornatella",
-          "commonName": "창포그림날개나방",
-          "ktsn": 120000034123
-        }
-      },
-      "eol": {
-        "pageId": 946110,
-        "canonical": "Lepidotarphius perornatella",
-        "fetchedAt": "2026-05-24T11:27:38.177Z",
-        "vernaculars": {
-          "ko": [
-            "창포그림날개나방"
-          ],
-          "en": [],
-          "ja": [
-            "ツマキホソハマキモドキ"
-          ]
-        },
-        "habitat": [],
-        "geographic": [
-          "South Korea"
-        ],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": 174
-      }
-    }
-  ]
+    "generatedAt":  "2026-05-21T07:47:08.025Z",
+    "source":  "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+    "order":  {
+                  "id":  "lepidoptera",
+                  "scientificName":  "Lepidoptera",
+                  "commonName":  "나비목",
+                  "orderKtsn":  120000031663
+              },
+    "family":  {
+                   "id":  "glyphipterigidae",
+                   "scientificName":  "Glyphipterigidae",
+                   "commonName":  "그림날개나방과",
+                   "familyKtsn":  120000034117
+               },
+    "speciesCount":  8,
+    "insects":  [
+                    {
+                        "ktsn":  120000034119,
+                        "scientificName":  "Glyphipterix forsterella ",
+                        "commonName":  "흰눈썹그림날개나방",
+                        "terminalLatinName":  "forsterella",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Lepidoptera",
+                                                       "commonName":  "나비목",
+                                                       "ktsn":  120000031663
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Glyphipterigidae",
+                                                        "commonName":  "그림날개나방과",
+                                                        "ktsn":  120000034117
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Glyphipterix",
+                                                       "commonName":  "",
+                                                       "ktsn":  120000034118
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "forsterella",
+                                                         "commonName":  "흰눈썹그림날개나방",
+                                                         "ktsn":  120000034119
+                                                     }
+                                     },
+                        "eol":  {
+                                    "pageId":  958530,
+                                    "canonical":  "Glyphipterix forsterella",
+                                    "fetchedAt":  "2026-05-24T11:27:27.528Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+
+                                                               ],
+                                                        "en":  [
+                                                                   "Sedge Fanner"
+                                                               ],
+                                                        "ja":  [
+                                                                   "シロズホソハマキモドキ"
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+                                                       "United Kingdom",
+                                                       "Sweden",
+                                                       "Slovakia",
+                                                       "Norway",
+                                                       "Luxembourg",
+                                                       "Ireland",
+                                                       "Germany",
+                                                       "France",
+                                                       "Finland",
+                                                       "Estonia",
+                                                       "Denmark",
+                                                       "Austria"
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  1166
+                                }
+                    },
+                    {
+                        "ktsn":  120000527968,
+                        "scientificName":  "Glyphipterix gamma Moriuti and Saito, 1964",
+                        "commonName":  "큰흰눈썹그림날개나방",
+                        "terminalLatinName":  "gamma",
+                        "nomenclaturalAuthor":  "Moriuti and Saito",
+                        "namingYear":  "1964",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Lepidoptera",
+                                                       "commonName":  "나비목",
+                                                       "ktsn":  120000031663
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Glyphipterigidae",
+                                                        "commonName":  "그림날개나방과",
+                                                        "ktsn":  120000034117
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Glyphipterix",
+                                                       "commonName":  "",
+                                                       "ktsn":  120000034118
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "gamma",
+                                                         "commonName":  "큰흰눈썹그림날개나방",
+                                                         "ktsn":  120000527968
+                                                     }
+                                     },
+                        "eol":  {
+                                    "pageId":  951659,
+                                    "canonical":  "Glyphipterix gamma",
+                                    "fetchedAt":  "2026-05-24T11:27:46.286Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+                                                                   "흰줄무늬그림날개나방"
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+                                                                   "カラカネホソハマキモドキ"
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+                                                       "China",
+                                                       "Japan"
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  13
+                                }
+                    },
+                    {
+                        "ktsn":  120000091028,
+                        "scientificName":  "Glyphipterix gaudialis Diakonoff and Arita, 1976",
+                        "commonName":  "노랑띠그림날개나방",
+                        "terminalLatinName":  "gaudialis",
+                        "nomenclaturalAuthor":  "Diakonoff and Arita",
+                        "namingYear":  "1976",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Lepidoptera",
+                                                       "commonName":  "나비목",
+                                                       "ktsn":  120000031663
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Glyphipterigidae",
+                                                        "commonName":  "그림날개나방과",
+                                                        "ktsn":  120000034117
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Glyphipterix",
+                                                       "commonName":  "",
+                                                       "ktsn":  120000034118
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "gaudialis",
+                                                         "commonName":  "노랑띠그림날개나방",
+                                                         "ktsn":  120000091028
+                                                     }
+                                     },
+                        "eol":  {
+                                    "pageId":  951660,
+                                    "canonical":  "Glyphipterix gaudialis",
+                                    "fetchedAt":  "2026-05-24T11:27:42.377Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+                                                                   "노랑띠그림날개나방"
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+                                                                   "キスジホソハマキモドキ"
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  2
+                                }
+                    },
+                    {
+                        "ktsn":  120000527969,
+                        "scientificName":  "Glyphipterix gemmula Diakonoff and Arita, 1976",
+                        "commonName":  "호랑무늬그림날개나방",
+                        "terminalLatinName":  "gemmula",
+                        "nomenclaturalAuthor":  "Diakonoff and Arita",
+                        "namingYear":  "1976",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Lepidoptera",
+                                                       "commonName":  "나비목",
+                                                       "ktsn":  120000031663
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Glyphipterigidae",
+                                                        "commonName":  "그림날개나방과",
+                                                        "ktsn":  120000034117
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Glyphipterix",
+                                                       "commonName":  "",
+                                                       "ktsn":  120000034118
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "gemmula",
+                                                         "commonName":  "호랑무늬그림날개나방",
+                                                         "ktsn":  120000527969
+                                                     }
+                                     },
+                        "eol":  {
+                                    "pageId":  951960,
+                                    "canonical":  "Glyphipterix gemmula",
+                                    "fetchedAt":  "2026-05-24T11:27:51.900Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+                                                                   "ヒメキスジホソハマキモドキ"
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+                                                       "Japan",
+                                                       "Taiwan",
+                                                       "China"
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  15
+                                },
+                        "inat":  {
+                                     "observationCount":  1,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/231895845/medium.jpeg",
+                                     "months":  [
+                                                    9
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000527971,
+                        "scientificName":  "Glyphipterix koreana Jeong and Byun, 2025",
+                        "commonName":  "한국그림날개나방",
+                        "terminalLatinName":  "koreana",
+                        "nomenclaturalAuthor":  "Jeong and Byun",
+                        "namingYear":  "2025",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Lepidoptera",
+                                                       "commonName":  "나비목",
+                                                       "ktsn":  120000031663
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Glyphipterigidae",
+                                                        "commonName":  "그림날개나방과",
+                                                        "ktsn":  120000034117
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Glyphipterix",
+                                                       "commonName":  "",
+                                                       "ktsn":  120000034118
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "koreana",
+                                                         "commonName":  "한국그림날개나방",
+                                                         "ktsn":  120000527971
+                                                     }
+                                     }
+                    },
+                    {
+                        "ktsn":  120000034121,
+                        "scientificName":  "Glyphipterix nigromarginata Issiki, 1930",
+                        "commonName":  "흰점그림날개나방",
+                        "terminalLatinName":  "nigromarginata",
+                        "nomenclaturalAuthor":  "Issiki",
+                        "namingYear":  "1930",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Lepidoptera",
+                                                       "commonName":  "나비목",
+                                                       "ktsn":  120000031663
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Glyphipterigidae",
+                                                        "commonName":  "그림날개나방과",
+                                                        "ktsn":  120000034117
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Glyphipterix",
+                                                       "commonName":  "",
+                                                       "ktsn":  120000034118
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "nigromarginata",
+                                                         "commonName":  "흰점그림날개나방",
+                                                         "ktsn":  120000034121
+                                                     }
+                                     },
+                        "eol":  {
+                                    "pageId":  945050,
+                                    "canonical":  "Glyphipterix nigromarginata",
+                                    "fetchedAt":  "2026-05-24T11:27:33.467Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+                                                                   "흰점그림날개나방"
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+                                                                   "ヘリグロホソハマキモドキ"
+                                                               ]
+                                                    },
+                                    "habitat":  [
+                                                    "farm"
+                                                ],
+                                    "geographic":  [
+                                                       "Japan",
+                                                       "China",
+                                                       "Russia"
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  48
+                                },
+                        "inat":  {
+                                     "observationCount":  3,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/268099870/medium.jpg",
+                                     "months":  [
+                                                    4,
+                                                    6
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000527970,
+                        "scientificName":  "Glyphipterix semiflavana Issiki, 1930",
+                        "commonName":  "대나무그림날개나방",
+                        "terminalLatinName":  "semiflavana",
+                        "nomenclaturalAuthor":  "Issiki",
+                        "namingYear":  "1930",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Lepidoptera",
+                                                       "commonName":  "나비목",
+                                                       "ktsn":  120000031663
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Glyphipterigidae",
+                                                        "commonName":  "그림날개나방과",
+                                                        "ktsn":  120000034117
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Glyphipterix",
+                                                       "commonName":  "",
+                                                       "ktsn":  120000034118
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "semiflavana",
+                                                         "commonName":  "대나무그림날개나방",
+                                                         "ktsn":  120000527970
+                                                     }
+                                     },
+                        "eol":  {
+                                    "pageId":  944217,
+                                    "canonical":  "Glyphipterix semiflavana",
+                                    "fetchedAt":  "2026-05-24T11:27:55.379Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+                                                                   "ナミホソハマキモドキ"
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  20
+                                }
+                    },
+                    {
+                        "ktsn":  120000034123,
+                        "scientificName":  "Lepidotarphius perornatella (Walker, 1877)",
+                        "commonName":  "창포그림날개나방",
+                        "terminalLatinName":  "perornatella",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Lepidoptera",
+                                                       "commonName":  "나비목",
+                                                       "ktsn":  120000031663
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Glyphipterigidae",
+                                                        "commonName":  "그림날개나방과",
+                                                        "ktsn":  120000034117
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Lepidotarphius",
+                                                       "commonName":  "",
+                                                       "ktsn":  120000034122
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "perornatella",
+                                                         "commonName":  "창포그림날개나방",
+                                                         "ktsn":  120000034123
+                                                     }
+                                     },
+                        "eol":  {
+                                    "pageId":  946110,
+                                    "canonical":  "Lepidotarphius perornatella",
+                                    "fetchedAt":  "2026-05-24T11:27:38.177Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+                                                                   "창포그림날개나방"
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+                                                                   "ツマキホソハマキモドキ"
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+                                                       "South Korea"
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  174
+                                },
+                        "inat":  {
+                                     "observationCount":  2,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/214716449/medium.jpeg",
+                                     "months":  [
+                                                    6,
+                                                    7
+                                                ]
+                                 }
+                    }
+                ]
 }

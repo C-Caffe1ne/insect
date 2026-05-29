@@ -1,231 +1,288 @@
 {
-  "generatedAt": "2026-05-21T07:47:08.025Z",
-  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
-  "order": {
-    "id": "hemiptera",
-    "scientificName": "Hemiptera",
-    "commonName": "노린재목",
-    "orderKtsn": 120000066597
-  },
-  "family": {
-    "id": "cimicidae",
-    "scientificName": "Cimicidae",
-    "commonName": "빈대과",
-    "familyKtsn": 120000025550
-  },
-  "speciesCount": 2,
-  "insects": [
-    {
-      "ktsn": 120000025552,
-      "scientificName": "Cimex hemipterus (Fabricius, 1803)",
-      "commonName": "반날개빈대",
-      "terminalLatinName": "hemipterus",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Cimicidae",
-          "commonName": "빈대과",
-          "ktsn": 120000025550
-        },
-        "genus": {
-          "scientificName": "Cimex",
-          "commonName": "빈대속",
-          "ktsn": 120000025551
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "hemipterus",
-          "commonName": "반날개빈대",
-          "ktsn": 120000025552
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:25:37.576Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "totalElements": 0,
-        "totalPages": 1,
-        "thumbnailUrl": null,
-        "thumbnail": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      },
-      "eol": {
-        "pageId": 58844704,
-        "canonical": "Cimex hemipterus",
-        "fetchedAt": "2026-05-24T09:58:39.545Z",
-        "vernaculars": {
-          "ko": [],
-          "en": [],
-          "ja": []
-        },
-        "habitat": [],
-        "geographic": [],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": null
-      }
-    },
-    {
-      "ktsn": 120000025553,
-      "scientificName": "Cimex lectularius Linnaeus, 1758",
-      "commonName": "빈대",
-      "terminalLatinName": "lectularius",
-      "nomenclaturalAuthor": "Linnaeus",
-      "namingYear": "1758",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Cimicidae",
-          "commonName": "빈대과",
-          "ktsn": 120000025550
-        },
-        "genus": {
-          "scientificName": "Cimex",
-          "commonName": "빈대속",
-          "ktsn": 120000025551
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "lectularius",
-          "commonName": "빈대",
-          "ktsn": 120000025553
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:25:37.576Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
-        "thumbnailUrl": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      },
-      "eol": {
-        "pageId": 610210,
-        "canonical": "Cimex lectularius",
-        "fetchedAt": "2026-05-24T09:58:42.687Z",
-        "vernaculars": {
-          "ko": [
-            "빈대"
-          ],
-          "en": [
-            "Common Bed Bug",
-            "Scarlet Rambler",
-            "Red Army",
-            "B. Flat",
-            "Cimices",
-            "Mahogany-Flat",
-            "True Bed Bug",
-            "Bed Bug",
-            "Wall Louse",
-            "Heavy Dragon",
-            "Bugg"
-          ],
-          "ja": [
-            "トコジラミ",
-            "ナンキンムシ"
-          ]
-        },
-        "habitat": [],
-        "geographic": [
-          "Iran",
-          "cosmopolitan",
-          "Alaska",
-          "United States",
-          "South Atlantic",
-          "North Pacific",
-          "North Atlantic",
-          "Mexico",
-          "United Kingdom",
-          "The Netherlands",
-          "Sweden",
-          "Spain",
-          "South Africa",
-          "Poland",
-          "Norway",
-          "Nigeria",
-          "Luxembourg",
-          "Italy",
-          "Ireland",
-          "Germany",
-          "Finland",
-          "Czech Republic",
-          "China",
-          "Canada"
-        ],
-        "introduced": [
-          "GaláPagos Islands",
-          "Poland",
-          "Japan"
-        ],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": 1760
-      }
-    }
-  ],
-  "digitalContentUpdatedAt": "2026-05-21T09:25:37.576Z",
-  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+    "generatedAt":  "2026-05-21T07:47:08.025Z",
+    "source":  "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+    "order":  {
+                  "id":  "hemiptera",
+                  "scientificName":  "Hemiptera",
+                  "commonName":  "노린재목",
+                  "orderKtsn":  120000066597
+              },
+    "family":  {
+                   "id":  "cimicidae",
+                   "scientificName":  "Cimicidae",
+                   "commonName":  "빈대과",
+                   "familyKtsn":  120000025550
+               },
+    "speciesCount":  2,
+    "insects":  [
+                    {
+                        "ktsn":  120000025552,
+                        "scientificName":  "Cimex hemipterus (Fabricius, 1803)",
+                        "commonName":  "반날개빈대",
+                        "terminalLatinName":  "hemipterus",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Cimicidae",
+                                                        "commonName":  "빈대과",
+                                                        "ktsn":  120000025550
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Cimex",
+                                                       "commonName":  "빈대속",
+                                                       "ktsn":  120000025551
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "hemipterus",
+                                                         "commonName":  "반날개빈대",
+                                                         "ktsn":  120000025552
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:25:37.576Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "totalElements":  0,
+                                               "totalPages":  1,
+                                               "thumbnailUrl":  null,
+                                               "thumbnail":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "eol":  {
+                                    "pageId":  58844704,
+                                    "canonical":  "Cimex hemipterus",
+                                    "fetchedAt":  "2026-05-24T09:58:39.545Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  null
+                                },
+                        "inat":  {
+                                     "observationCount":  3,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/499980504/medium.jpg",
+                                     "months":  [
+                                                    5,
+                                                    10
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000025553,
+                        "scientificName":  "Cimex lectularius Linnaeus, 1758",
+                        "commonName":  "빈대",
+                        "terminalLatinName":  "lectularius",
+                        "nomenclaturalAuthor":  "Linnaeus",
+                        "namingYear":  "1758",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Cimicidae",
+                                                        "commonName":  "빈대과",
+                                                        "ktsn":  120000025550
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Cimex",
+                                                       "commonName":  "빈대속",
+                                                       "ktsn":  120000025551
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "lectularius",
+                                                         "commonName":  "빈대",
+                                                         "ktsn":  120000025553
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:25:37.576Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
+                                               "thumbnailUrl":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "eol":  {
+                                    "pageId":  610210,
+                                    "canonical":  "Cimex lectularius",
+                                    "fetchedAt":  "2026-05-24T09:58:42.687Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+                                                                   "빈대"
+                                                               ],
+                                                        "en":  [
+                                                                   "Common Bed Bug",
+                                                                   "Scarlet Rambler",
+                                                                   "Red Army",
+                                                                   "B. Flat",
+                                                                   "Cimices",
+                                                                   "Mahogany-Flat",
+                                                                   "True Bed Bug",
+                                                                   "Bed Bug",
+                                                                   "Wall Louse",
+                                                                   "Heavy Dragon",
+                                                                   "Bugg"
+                                                               ],
+                                                        "ja":  [
+                                                                   "トコジラミ",
+                                                                   "ナンキンムシ"
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+                                                       "Iran",
+                                                       "cosmopolitan",
+                                                       "Alaska",
+                                                       "United States",
+                                                       "South Atlantic",
+                                                       "North Pacific",
+                                                       "North Atlantic",
+                                                       "Mexico",
+                                                       "United Kingdom",
+                                                       "The Netherlands",
+                                                       "Sweden",
+                                                       "Spain",
+                                                       "South Africa",
+                                                       "Poland",
+                                                       "Norway",
+                                                       "Nigeria",
+                                                       "Luxembourg",
+                                                       "Italy",
+                                                       "Ireland",
+                                                       "Germany",
+                                                       "Finland",
+                                                       "Czech Republic",
+                                                       "China",
+                                                       "Canada"
+                                                   ],
+                                    "introduced":  [
+                                                       "GaláPagos Islands",
+                                                       "Poland",
+                                                       "Japan"
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  1760
+                                },
+                        "inat":  {
+                                     "observationCount":  1,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/250834121/medium.jpeg",
+                                     "months":  [
+                                                    1
+                                                ]
+                                 }
+                    }
+                ],
+    "digitalContentUpdatedAt":  "2026-05-21T09:25:37.576Z",
+    "digitalContentSource":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
 }

@@ -1,850 +1,1085 @@
 {
-  "generatedAt": "2026-05-21T07:47:08.025Z",
-  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
-  "order": {
-    "id": "coleoptera",
-    "scientificName": "Coleoptera",
-    "commonName": "딱정벌레목",
-    "orderKtsn": 120000013750,
-    "abstract": "딱정벌레목(Coleoptera)은 곤충의 종 가운데 40%인 35만여종을 차지하는 목이다. 아직 발견되지 않은 종까지 합치면 500만~800만여종이 될 것으로 추정된다. 먹는 먹이도 다양해서 식물의 잎, 송사리 등의 작은 물고기, 나무의 즙, 작은 동물, 동물의 시체 등 매우 다양하다. 딱정벌레목에 속한 곤충으로는 무당벌레, 딱정벌레, 길앞잡이, 물방개, 장수풍뎅이 등이 있다. 대부분이 두꺼운 키틴질로 된 딱딱한 껍데기를 가지고 있어서 갑충(甲蟲)이라고도 불린다.",
-    "description": "딱정벌레목(Coleoptera)은 곤충의 종 가운데 40%인 35만여종을 차지하는 목이다. 아직 발견되지 않은 종까지 합치면 500만~800만여종이 될 것으로 추정된다. 먹는 먹이도 다양해서 식물의 잎, 송사리 등의 작은 물고기, 나무의 즙, 작은 동물, 동물의 시체 등 매우 다양하다. 딱정벌레목에 속한 곤충으로는 무당벌레, 딱정벌레, 길앞잡이, 물방개, 장수풍뎅이 등이 있다. 대부분이 두꺼운 키틴질로 된 딱딱한 껍데기를 가지고 있어서 갑충(甲蟲)이라고도 불린다."
-  },
-  "family": {
-    "id": "biphyllidae",
-    "scientificName": "Biphyllidae",
-    "commonName": "배줄벌레과",
-    "familyKtsn": 120000013997
-  },
-  "speciesCount": 10,
-  "insects": [
-    {
-      "ktsn": 120000164006,
-      "scientificName": "Biphyllus aequalis (Reitter, 1889)",
-      "commonName": "둥근배줄벌레",
-      "terminalLatinName": "aequalis",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Coleoptera",
-          "commonName": "딱정벌레목",
-          "ktsn": 120000013750
-        },
-        "family": {
-          "scientificName": "Biphyllidae",
-          "commonName": "배줄벌레과",
-          "ktsn": 120000013997
-        },
-        "genus": {
-          "scientificName": "Biphyllus",
-          "commonName": "배줄벌레속",
-          "ktsn": 120000013998
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "aequalis",
-          "commonName": "둥근배줄벌레",
-          "ktsn": 120000164006
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T08:45:01.441Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "totalElements": 0,
-        "totalPages": 1,
-        "thumbnailUrl": null,
-        "thumbnail": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      },
-      "eol": {
-        "pageId": 3214394,
-        "canonical": "Biphyllus aequalis",
-        "fetchedAt": "2026-05-24T07:38:51.083Z",
-        "vernaculars": {
-          "ko": [],
-          "en": [],
-          "ja": [
-            "ムナビロムクゲキスイ"
-          ]
-        },
-        "habitat": [],
-        "geographic": [],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": null
-      }
-    },
-    {
-      "ktsn": 120000164021,
-      "scientificName": "Biphyllus flexuosus (Reitter, 1889)",
-      "commonName": "담갈무늬배줄벌레",
-      "terminalLatinName": "flexuosus",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Coleoptera",
-          "commonName": "딱정벌레목",
-          "ktsn": 120000013750
-        },
-        "family": {
-          "scientificName": "Biphyllidae",
-          "commonName": "배줄벌레과",
-          "ktsn": 120000013997
-        },
-        "genus": {
-          "scientificName": "Biphyllus",
-          "commonName": "배줄벌레속",
-          "ktsn": 120000013998
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "flexuosus",
-          "commonName": "담갈무늬배줄벌레",
-          "ktsn": 120000164021
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T08:45:01.441Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "totalElements": 0,
-        "totalPages": 1,
-        "thumbnailUrl": null,
-        "thumbnail": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      },
-      "eol": {
-        "pageId": 13605589,
-        "canonical": "Biphyllus flexuosus",
-        "fetchedAt": "2026-05-24T07:39:02.785Z",
-        "vernaculars": {
-          "ko": [],
-          "en": [],
-          "ja": []
-        },
-        "habitat": [],
-        "geographic": [],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": null
-      }
-    },
-    {
-      "ktsn": 120000371948,
-      "scientificName": "Biphyllus japonicus Sasaji, 1983",
-      "commonName": "어깨무늬배줄벌레",
-      "terminalLatinName": "japonicus",
-      "nomenclaturalAuthor": "Sasaji",
-      "namingYear": "1983",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Coleoptera",
-          "commonName": "딱정벌레목",
-          "ktsn": 120000013750
-        },
-        "family": {
-          "scientificName": "Biphyllidae",
-          "commonName": "배줄벌레과",
-          "ktsn": 120000013997
-        },
-        "genus": {
-          "scientificName": "Biphyllus",
-          "commonName": "배줄벌레속",
-          "ktsn": 120000013998
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "japonicus",
-          "commonName": "어깨무늬배줄벌레",
-          "ktsn": 120000371948
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T08:45:01.441Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "totalElements": 0,
-        "totalPages": 1,
-        "thumbnailUrl": null,
-        "thumbnail": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      },
-      "eol": {
-        "pageId": 3214397,
-        "canonical": "Biphyllus japonicus",
-        "fetchedAt": "2026-05-24T07:39:06.215Z",
-        "vernaculars": {
-          "ko": [],
-          "en": [],
-          "ja": []
-        },
-        "habitat": [],
-        "geographic": [],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": null
-      }
-    },
-    {
-      "ktsn": 120000164008,
-      "scientificName": "Biphyllus kuzurius Sasaji, 1985",
-      "commonName": "애배줄벌레",
-      "terminalLatinName": "kuzurius",
-      "nomenclaturalAuthor": "Sasaji",
-      "namingYear": "1985",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Coleoptera",
-          "commonName": "딱정벌레목",
-          "ktsn": 120000013750
-        },
-        "family": {
-          "scientificName": "Biphyllidae",
-          "commonName": "배줄벌레과",
-          "ktsn": 120000013997
-        },
-        "genus": {
-          "scientificName": "Biphyllus",
-          "commonName": "배줄벌레속",
-          "ktsn": 120000013998
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "kuzurius",
-          "commonName": "애배줄벌레",
-          "ktsn": 120000164008
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T08:45:01.441Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "totalElements": 0,
-        "totalPages": 1,
-        "thumbnailUrl": null,
-        "thumbnail": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      },
-      "eol": {
-        "pageId": 13605594,
-        "canonical": "Biphyllus kuzurius",
-        "fetchedAt": "2026-05-24T07:38:58.670Z",
-        "vernaculars": {
-          "ko": [],
-          "en": [],
-          "ja": []
-        },
-        "habitat": [],
-        "geographic": [],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": null
-      }
-    },
-    {
-      "ktsn": 120000013999,
-      "scientificName": "Biphyllus lewisi (Reitter, 1889)",
-      "commonName": "얼룩배줄벌레",
-      "terminalLatinName": "lewisi",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Coleoptera",
-          "commonName": "딱정벌레목",
-          "ktsn": 120000013750
-        },
-        "family": {
-          "scientificName": "Biphyllidae",
-          "commonName": "배줄벌레과",
-          "ktsn": 120000013997
-        },
-        "genus": {
-          "scientificName": "Biphyllus",
-          "commonName": "배줄벌레속",
-          "ktsn": 120000013998
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "lewisi",
-          "commonName": "얼룩배줄벌레",
-          "ktsn": 120000013999
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T08:45:01.441Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "totalElements": 0,
-        "totalPages": 1,
-        "thumbnailUrl": null,
-        "thumbnail": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      }
-    },
-    {
-      "ktsn": 120000371949,
-      "scientificName": "Biphyllus loochooanus Sasaji, 1991",
-      "commonName": "긴줄무늬배줄벌레",
-      "terminalLatinName": "loochooanus",
-      "nomenclaturalAuthor": "Sasaji",
-      "namingYear": "1991",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Coleoptera",
-          "commonName": "딱정벌레목",
-          "ktsn": 120000013750
-        },
-        "family": {
-          "scientificName": "Biphyllidae",
-          "commonName": "배줄벌레과",
-          "ktsn": 120000013997
-        },
-        "genus": {
-          "scientificName": "Biphyllus",
-          "commonName": "배줄벌레속",
-          "ktsn": 120000013998
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "loochooanus",
-          "commonName": "긴줄무늬배줄벌레",
-          "ktsn": 120000371949
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T08:45:01.441Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "totalElements": 0,
-        "totalPages": 1,
-        "thumbnailUrl": null,
-        "thumbnail": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      },
-      "eol": {
-        "pageId": 13605710,
-        "canonical": "Biphyllus loochooanus",
-        "fetchedAt": "2026-05-25T07:11:46.810Z",
-        "vernaculars": {
-          "ko": [],
-          "en": [],
-          "ja": [
-            "リュウキュウクロムクゲキスイ"
-          ]
-        },
-        "habitat": [],
-        "geographic": [],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": null
-      }
-    },
-    {
-      "ktsn": 120000014000,
-      "scientificName": "Biphyllus marmoratus (Reitter, 1889)",
-      "commonName": "구름무늬배줄벌레",
-      "terminalLatinName": "marmoratus",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Coleoptera",
-          "commonName": "딱정벌레목",
-          "ktsn": 120000013750
-        },
-        "family": {
-          "scientificName": "Biphyllidae",
-          "commonName": "배줄벌레과",
-          "ktsn": 120000013997
-        },
-        "genus": {
-          "scientificName": "Biphyllus",
-          "commonName": "배줄벌레속",
-          "ktsn": 120000013998
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "marmoratus",
-          "commonName": "구름무늬배줄벌레",
-          "ktsn": 120000014000
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T08:45:01.441Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "totalElements": 0,
-        "totalPages": 1,
-        "thumbnailUrl": null,
-        "thumbnail": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      },
-      "eol": {
-        "pageId": 3214405,
-        "canonical": "Biphyllus marmoratus",
-        "fetchedAt": "2026-05-24T07:38:38.863Z",
-        "vernaculars": {
-          "ko": [],
-          "en": [],
-          "ja": [
-            "セスジムクゲキスイ"
-          ]
-        },
-        "habitat": [],
-        "geographic": [],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": null
-      }
-    },
-    {
-      "ktsn": 120000371950,
-      "scientificName": "Biphyllus oshimanus Nakane, 1988",
-      "commonName": "네무늬배줄벌레",
-      "terminalLatinName": "oshimanus",
-      "nomenclaturalAuthor": "Nakane",
-      "namingYear": "1988",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Coleoptera",
-          "commonName": "딱정벌레목",
-          "ktsn": 120000013750
-        },
-        "family": {
-          "scientificName": "Biphyllidae",
-          "commonName": "배줄벌레과",
-          "ktsn": 120000013997
-        },
-        "genus": {
-          "scientificName": "Biphyllus",
-          "commonName": "배줄벌레속",
-          "ktsn": 120000013998
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "oshimanus",
-          "commonName": "네무늬배줄벌레",
-          "ktsn": 120000371950
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T08:45:01.441Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "totalElements": 0,
-        "totalPages": 1,
-        "thumbnailUrl": null,
-        "thumbnail": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      },
-      "eol": {
-        "pageId": 3214406,
-        "canonical": "Biphyllus oshimanus",
-        "fetchedAt": "2026-05-25T07:11:50.679Z",
-        "vernaculars": {
-          "ko": [],
-          "en": [],
-          "ja": [
-            "ヨツモンムクゲキスイ"
-          ]
-        },
-        "habitat": [],
-        "geographic": [],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": null
-      }
-    },
-    {
-      "ktsn": 120000014001,
-      "scientificName": "Biphyllus rufopictus (Wollaston, 1874)",
-      "commonName": "붉은무늬배줄벌레",
-      "terminalLatinName": "rufopictus",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Coleoptera",
-          "commonName": "딱정벌레목",
-          "ktsn": 120000013750
-        },
-        "family": {
-          "scientificName": "Biphyllidae",
-          "commonName": "배줄벌레과",
-          "ktsn": 120000013997
-        },
-        "genus": {
-          "scientificName": "Biphyllus",
-          "commonName": "배줄벌레속",
-          "ktsn": 120000013998
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "rufopictus",
-          "commonName": "붉은무늬배줄벌레",
-          "ktsn": 120000014001
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T08:45:01.441Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "totalElements": 0,
-        "totalPages": 1,
-        "thumbnailUrl": null,
-        "thumbnail": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      },
-      "eol": {
-        "pageId": 3214393,
-        "canonical": "Biphyllus rufopictus",
-        "fetchedAt": "2026-05-24T07:38:42.669Z",
-        "vernaculars": {
-          "ko": [
-            "붉은무늬배줄벌레"
-          ],
-          "en": [],
-          "ja": [
-            "ハスモンムクゲキスイ"
-          ]
-        },
-        "habitat": [],
-        "geographic": [],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": null
-      }
-    },
-    {
-      "ktsn": 120000014002,
-      "scientificName": "Biphyllus throscoides (Wollaston, 1874)",
-      "commonName": "아기배줄벌레",
-      "terminalLatinName": "throscoides",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Coleoptera",
-          "commonName": "딱정벌레목",
-          "ktsn": 120000013750
-        },
-        "family": {
-          "scientificName": "Biphyllidae",
-          "commonName": "배줄벌레과",
-          "ktsn": 120000013997
-        },
-        "genus": {
-          "scientificName": "Biphyllus",
-          "commonName": "배줄벌레속",
-          "ktsn": 120000013998
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "throscoides",
-          "commonName": "아기배줄벌레",
-          "ktsn": 120000014002
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T08:45:01.441Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "totalElements": 0,
-        "totalPages": 1,
-        "thumbnailUrl": null,
-        "thumbnail": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      },
-      "eol": {
-        "pageId": 3214396,
-        "canonical": "Biphyllus throscoides",
-        "fetchedAt": "2026-05-24T07:38:46.197Z",
-        "vernaculars": {
-          "ko": [],
-          "en": [],
-          "ja": [
-            "クリイロムクゲキスイ"
-          ]
-        },
-        "habitat": [],
-        "geographic": [],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": null
-      }
-    }
-  ],
-  "digitalContentUpdatedAt": "2026-05-21T08:45:01.441Z",
-  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+    "generatedAt":  "2026-05-21T07:47:08.025Z",
+    "source":  "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+    "order":  {
+                  "id":  "coleoptera",
+                  "scientificName":  "Coleoptera",
+                  "commonName":  "딱정벌레목",
+                  "orderKtsn":  120000013750,
+                  "abstract":  "딱정벌레목(Coleoptera)은 곤충의 종 가운데 40%인 35만여종을 차지하는 목이다. 아직 발견되지 않은 종까지 합치면 500만~800만여종이 될 것으로 추정된다. 먹는 먹이도 다양해서 식물의 잎, 송사리 등의 작은 물고기, 나무의 즙, 작은 동물, 동물의 시체 등 매우 다양하다. 딱정벌레목에 속한 곤충으로는 무당벌레, 딱정벌레, 길앞잡이, 물방개, 장수풍뎅이 등이 있다. 대부분이 두꺼운 키틴질로 된 딱딱한 껍데기를 가지고 있어서 갑충(甲蟲)이라고도 불린다.",
+                  "description":  "딱정벌레목(Coleoptera)은 곤충의 종 가운데 40%인 35만여종을 차지하는 목이다. 아직 발견되지 않은 종까지 합치면 500만~800만여종이 될 것으로 추정된다. 먹는 먹이도 다양해서 식물의 잎, 송사리 등의 작은 물고기, 나무의 즙, 작은 동물, 동물의 시체 등 매우 다양하다. 딱정벌레목에 속한 곤충으로는 무당벌레, 딱정벌레, 길앞잡이, 물방개, 장수풍뎅이 등이 있다. 대부분이 두꺼운 키틴질로 된 딱딱한 껍데기를 가지고 있어서 갑충(甲蟲)이라고도 불린다."
+              },
+    "family":  {
+                   "id":  "biphyllidae",
+                   "scientificName":  "Biphyllidae",
+                   "commonName":  "배줄벌레과",
+                   "familyKtsn":  120000013997
+               },
+    "speciesCount":  10,
+    "insects":  [
+                    {
+                        "ktsn":  120000164006,
+                        "scientificName":  "Biphyllus aequalis (Reitter, 1889)",
+                        "commonName":  "둥근배줄벌레",
+                        "terminalLatinName":  "aequalis",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Coleoptera",
+                                                       "commonName":  "딱정벌레목",
+                                                       "ktsn":  120000013750
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Biphyllidae",
+                                                        "commonName":  "배줄벌레과",
+                                                        "ktsn":  120000013997
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Biphyllus",
+                                                       "commonName":  "배줄벌레속",
+                                                       "ktsn":  120000013998
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "aequalis",
+                                                         "commonName":  "둥근배줄벌레",
+                                                         "ktsn":  120000164006
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T08:45:01.441Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "totalElements":  0,
+                                               "totalPages":  1,
+                                               "thumbnailUrl":  null,
+                                               "thumbnail":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "eol":  {
+                                    "pageId":  3214394,
+                                    "canonical":  "Biphyllus aequalis",
+                                    "fetchedAt":  "2026-05-24T07:38:51.083Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+                                                                   "ムナビロムクゲキスイ"
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  null
+                                }
+                    },
+                    {
+                        "ktsn":  120000164021,
+                        "scientificName":  "Biphyllus flexuosus (Reitter, 1889)",
+                        "commonName":  "담갈무늬배줄벌레",
+                        "terminalLatinName":  "flexuosus",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Coleoptera",
+                                                       "commonName":  "딱정벌레목",
+                                                       "ktsn":  120000013750
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Biphyllidae",
+                                                        "commonName":  "배줄벌레과",
+                                                        "ktsn":  120000013997
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Biphyllus",
+                                                       "commonName":  "배줄벌레속",
+                                                       "ktsn":  120000013998
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "flexuosus",
+                                                         "commonName":  "담갈무늬배줄벌레",
+                                                         "ktsn":  120000164021
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T08:45:01.441Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "totalElements":  0,
+                                               "totalPages":  1,
+                                               "thumbnailUrl":  null,
+                                               "thumbnail":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "eol":  {
+                                    "pageId":  13605589,
+                                    "canonical":  "Biphyllus flexuosus",
+                                    "fetchedAt":  "2026-05-24T07:39:02.785Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  null
+                                }
+                    },
+                    {
+                        "ktsn":  120000371948,
+                        "scientificName":  "Biphyllus japonicus Sasaji, 1983",
+                        "commonName":  "어깨무늬배줄벌레",
+                        "terminalLatinName":  "japonicus",
+                        "nomenclaturalAuthor":  "Sasaji",
+                        "namingYear":  "1983",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Coleoptera",
+                                                       "commonName":  "딱정벌레목",
+                                                       "ktsn":  120000013750
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Biphyllidae",
+                                                        "commonName":  "배줄벌레과",
+                                                        "ktsn":  120000013997
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Biphyllus",
+                                                       "commonName":  "배줄벌레속",
+                                                       "ktsn":  120000013998
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "japonicus",
+                                                         "commonName":  "어깨무늬배줄벌레",
+                                                         "ktsn":  120000371948
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T08:45:01.441Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "totalElements":  0,
+                                               "totalPages":  1,
+                                               "thumbnailUrl":  null,
+                                               "thumbnail":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "eol":  {
+                                    "pageId":  3214397,
+                                    "canonical":  "Biphyllus japonicus",
+                                    "fetchedAt":  "2026-05-24T07:39:06.215Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  null
+                                }
+                    },
+                    {
+                        "ktsn":  120000164008,
+                        "scientificName":  "Biphyllus kuzurius Sasaji, 1985",
+                        "commonName":  "애배줄벌레",
+                        "terminalLatinName":  "kuzurius",
+                        "nomenclaturalAuthor":  "Sasaji",
+                        "namingYear":  "1985",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Coleoptera",
+                                                       "commonName":  "딱정벌레목",
+                                                       "ktsn":  120000013750
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Biphyllidae",
+                                                        "commonName":  "배줄벌레과",
+                                                        "ktsn":  120000013997
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Biphyllus",
+                                                       "commonName":  "배줄벌레속",
+                                                       "ktsn":  120000013998
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "kuzurius",
+                                                         "commonName":  "애배줄벌레",
+                                                         "ktsn":  120000164008
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T08:45:01.441Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "totalElements":  0,
+                                               "totalPages":  1,
+                                               "thumbnailUrl":  null,
+                                               "thumbnail":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "eol":  {
+                                    "pageId":  13605594,
+                                    "canonical":  "Biphyllus kuzurius",
+                                    "fetchedAt":  "2026-05-24T07:38:58.670Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  null
+                                }
+                    },
+                    {
+                        "ktsn":  120000013999,
+                        "scientificName":  "Biphyllus lewisi (Reitter, 1889)",
+                        "commonName":  "얼룩배줄벌레",
+                        "terminalLatinName":  "lewisi",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Coleoptera",
+                                                       "commonName":  "딱정벌레목",
+                                                       "ktsn":  120000013750
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Biphyllidae",
+                                                        "commonName":  "배줄벌레과",
+                                                        "ktsn":  120000013997
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Biphyllus",
+                                                       "commonName":  "배줄벌레속",
+                                                       "ktsn":  120000013998
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "lewisi",
+                                                         "commonName":  "얼룩배줄벌레",
+                                                         "ktsn":  120000013999
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T08:45:01.441Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "totalElements":  0,
+                                               "totalPages":  1,
+                                               "thumbnailUrl":  null,
+                                               "thumbnail":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           }
+                    },
+                    {
+                        "ktsn":  120000371949,
+                        "scientificName":  "Biphyllus loochooanus Sasaji, 1991",
+                        "commonName":  "긴줄무늬배줄벌레",
+                        "terminalLatinName":  "loochooanus",
+                        "nomenclaturalAuthor":  "Sasaji",
+                        "namingYear":  "1991",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Coleoptera",
+                                                       "commonName":  "딱정벌레목",
+                                                       "ktsn":  120000013750
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Biphyllidae",
+                                                        "commonName":  "배줄벌레과",
+                                                        "ktsn":  120000013997
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Biphyllus",
+                                                       "commonName":  "배줄벌레속",
+                                                       "ktsn":  120000013998
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "loochooanus",
+                                                         "commonName":  "긴줄무늬배줄벌레",
+                                                         "ktsn":  120000371949
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T08:45:01.441Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "totalElements":  0,
+                                               "totalPages":  1,
+                                               "thumbnailUrl":  null,
+                                               "thumbnail":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "eol":  {
+                                    "pageId":  13605710,
+                                    "canonical":  "Biphyllus loochooanus",
+                                    "fetchedAt":  "2026-05-25T07:11:46.810Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+                                                                   "リュウキュウクロムクゲキスイ"
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  null
+                                }
+                    },
+                    {
+                        "ktsn":  120000014000,
+                        "scientificName":  "Biphyllus marmoratus (Reitter, 1889)",
+                        "commonName":  "구름무늬배줄벌레",
+                        "terminalLatinName":  "marmoratus",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Coleoptera",
+                                                       "commonName":  "딱정벌레목",
+                                                       "ktsn":  120000013750
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Biphyllidae",
+                                                        "commonName":  "배줄벌레과",
+                                                        "ktsn":  120000013997
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Biphyllus",
+                                                       "commonName":  "배줄벌레속",
+                                                       "ktsn":  120000013998
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "marmoratus",
+                                                         "commonName":  "구름무늬배줄벌레",
+                                                         "ktsn":  120000014000
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T08:45:01.441Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "totalElements":  0,
+                                               "totalPages":  1,
+                                               "thumbnailUrl":  null,
+                                               "thumbnail":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "eol":  {
+                                    "pageId":  3214405,
+                                    "canonical":  "Biphyllus marmoratus",
+                                    "fetchedAt":  "2026-05-24T07:38:38.863Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+                                                                   "セスジムクゲキスイ"
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  null
+                                },
+                        "inat":  {
+                                     "observationCount":  1,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/268698908/medium.jpg",
+                                     "months":  [
+                                                    4
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000371950,
+                        "scientificName":  "Biphyllus oshimanus Nakane, 1988",
+                        "commonName":  "네무늬배줄벌레",
+                        "terminalLatinName":  "oshimanus",
+                        "nomenclaturalAuthor":  "Nakane",
+                        "namingYear":  "1988",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Coleoptera",
+                                                       "commonName":  "딱정벌레목",
+                                                       "ktsn":  120000013750
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Biphyllidae",
+                                                        "commonName":  "배줄벌레과",
+                                                        "ktsn":  120000013997
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Biphyllus",
+                                                       "commonName":  "배줄벌레속",
+                                                       "ktsn":  120000013998
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "oshimanus",
+                                                         "commonName":  "네무늬배줄벌레",
+                                                         "ktsn":  120000371950
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T08:45:01.441Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "totalElements":  0,
+                                               "totalPages":  1,
+                                               "thumbnailUrl":  null,
+                                               "thumbnail":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "eol":  {
+                                    "pageId":  3214406,
+                                    "canonical":  "Biphyllus oshimanus",
+                                    "fetchedAt":  "2026-05-25T07:11:50.679Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+                                                                   "ヨツモンムクゲキスイ"
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  null
+                                }
+                    },
+                    {
+                        "ktsn":  120000014001,
+                        "scientificName":  "Biphyllus rufopictus (Wollaston, 1874)",
+                        "commonName":  "붉은무늬배줄벌레",
+                        "terminalLatinName":  "rufopictus",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Coleoptera",
+                                                       "commonName":  "딱정벌레목",
+                                                       "ktsn":  120000013750
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Biphyllidae",
+                                                        "commonName":  "배줄벌레과",
+                                                        "ktsn":  120000013997
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Biphyllus",
+                                                       "commonName":  "배줄벌레속",
+                                                       "ktsn":  120000013998
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "rufopictus",
+                                                         "commonName":  "붉은무늬배줄벌레",
+                                                         "ktsn":  120000014001
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T08:45:01.441Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "totalElements":  0,
+                                               "totalPages":  1,
+                                               "thumbnailUrl":  null,
+                                               "thumbnail":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "eol":  {
+                                    "pageId":  3214393,
+                                    "canonical":  "Biphyllus rufopictus",
+                                    "fetchedAt":  "2026-05-24T07:38:42.669Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+                                                                   "붉은무늬배줄벌레"
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+                                                                   "ハスモンムクゲキスイ"
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  null
+                                }
+                    },
+                    {
+                        "ktsn":  120000014002,
+                        "scientificName":  "Biphyllus throscoides (Wollaston, 1874)",
+                        "commonName":  "아기배줄벌레",
+                        "terminalLatinName":  "throscoides",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Coleoptera",
+                                                       "commonName":  "딱정벌레목",
+                                                       "ktsn":  120000013750
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Biphyllidae",
+                                                        "commonName":  "배줄벌레과",
+                                                        "ktsn":  120000013997
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Biphyllus",
+                                                       "commonName":  "배줄벌레속",
+                                                       "ktsn":  120000013998
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "throscoides",
+                                                         "commonName":  "아기배줄벌레",
+                                                         "ktsn":  120000014002
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T08:45:01.441Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "totalElements":  0,
+                                               "totalPages":  1,
+                                               "thumbnailUrl":  null,
+                                               "thumbnail":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "eol":  {
+                                    "pageId":  3214396,
+                                    "canonical":  "Biphyllus throscoides",
+                                    "fetchedAt":  "2026-05-24T07:38:46.197Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+                                                                   "クリイロムクゲキスイ"
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  null
+                                }
+                    }
+                ],
+    "digitalContentUpdatedAt":  "2026-05-21T08:45:01.441Z",
+    "digitalContentSource":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
 }

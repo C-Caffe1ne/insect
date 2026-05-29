@@ -1,321 +1,402 @@
 {
-  "generatedAt": "2026-05-21T07:47:08.025Z",
-  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
-  "order": {
-    "id": "dermaptera",
-    "scientificName": "Dermaptera",
-    "commonName": "집게벌레목",
-    "orderKtsn": 120000020841,
-    "abstract": "집게벌레목은 애흰수염집게벌레, 고마로브집게벌레 등 집게벌레과에 속한 곤충들을 통틀어 부르는 분류이다. 집게벌레과, 민집게벌레과, 큰집게벌레과, 꼬마집게벌레과 등의 하위분류를 갖고 있다. 집게벌레는 배 끝에 미모가 변형된 집게를 갖고 있고, 작은 곤충이나 썩은 낙엽, 부식질 등을 먹는 잡식성이다. 습한 곳을 좋아하여 축축한 땅 밑이나 돌 밑, 풀숲, 정원 등에서 볼 수 있는데, 종종 사람의 집에 들어오기도 한다. 하지만 집게벌레는 사람에게 피해를 주지 않는다. 집게벌레 어미는 자신의 알을 보호하는 모성애적인 본능을 갖고 있다.",
-    "description": "집게벌레목은 애흰수염집게벌레, 고마로브집게벌레 등 집게벌레과에 속한 곤충들을 통틀어 부르는 분류이다. 집게벌레과, 민집게벌레과, 큰집게벌레과, 꼬마집게벌레과 등의 하위분류를 갖고 있다. 집게벌레는 배 끝에 미모가 변형된 집게를 갖고 있고, 작은 곤충이나 썩은 낙엽, 부식질 등을 먹는 잡식성이다. 습한 곳을 좋아하여 축축한 땅 밑이나 돌 밑, 풀숲, 정원 등에서 볼 수 있는데, 종종 사람의 집에 들어오기도 한다. 하지만 집게벌레는 사람에게 피해를 주지 않는다. 집게벌레 어미는 자신의 알을 보호하는 모성애적인 본능을 갖고 있다."
-  },
-  "family": {
-    "id": "pygidicranidae",
-    "scientificName": "Pygidicranidae",
-    "commonName": "긴가슴집게벌레과",
-    "familyKtsn": 120000020869
-  },
-  "speciesCount": 4,
-  "insects": [
-    {
-      "ktsn": 120000020871,
-      "scientificName": "Challia fletcheri Burr, 1904",
-      "commonName": "고려집게벌레",
-      "terminalLatinName": "fletcheri",
-      "nomenclaturalAuthor": "Burr",
-      "namingYear": "1904",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Dermaptera",
-          "commonName": "집게벌레목",
-          "ktsn": 120000020841
-        },
-        "family": {
-          "scientificName": "Pygidicranidae",
-          "commonName": "긴가슴집게벌레과",
-          "ktsn": 120000020869
-        },
-        "genus": {
-          "scientificName": "Challia",
-          "commonName": "고려집게벌레속",
-          "ktsn": 120000020870
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "fletcheri",
-          "commonName": "고려집게벌레",
-          "ktsn": 120000020871
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:09:00.575Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
-        "thumbnailUrl": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      },
-      "eol": {
-        "pageId": 24990038,
-        "canonical": "Challia fletcheri",
-        "fetchedAt": "2026-05-24T08:44:02.108Z",
-        "vernaculars": {
-          "ko": [
-            "고려집게벌레"
-          ],
-          "en": [],
-          "ja": [
-            "ムカシハサミムシ"
-          ]
-        },
-        "habitat": [],
-        "geographic": [],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": 19
-      }
-    },
-    {
-      "ktsn": 120000020872,
-      "scientificName": "Challia gigantia Nishikawa, 2006",
-      "commonName": "큰긴가슴집게벌레",
-      "terminalLatinName": "gigantia",
-      "nomenclaturalAuthor": "Nishikawa",
-      "namingYear": "2006",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Dermaptera",
-          "commonName": "집게벌레목",
-          "ktsn": 120000020841
-        },
-        "family": {
-          "scientificName": "Pygidicranidae",
-          "commonName": "긴가슴집게벌레과",
-          "ktsn": 120000020869
-        },
-        "genus": {
-          "scientificName": "Challia",
-          "commonName": "고려집게벌레속",
-          "ktsn": 120000020870
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "gigantia",
-          "commonName": "큰긴가슴집게벌레",
-          "ktsn": 120000020872
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:09:00.575Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "totalElements": 0,
-        "totalPages": 1,
-        "thumbnailUrl": null,
-        "thumbnail": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      }
-    },
-    {
-      "ktsn": 120000020873,
-      "scientificName": "Challia kyusani Moon and Kim, 1985",
-      "commonName": "규산고려집게벌레",
-      "terminalLatinName": "kyusani",
-      "nomenclaturalAuthor": "Moon and Kim",
-      "namingYear": "1985",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "Y",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Dermaptera",
-          "commonName": "집게벌레목",
-          "ktsn": 120000020841
-        },
-        "family": {
-          "scientificName": "Pygidicranidae",
-          "commonName": "긴가슴집게벌레과",
-          "ktsn": 120000020869
-        },
-        "genus": {
-          "scientificName": "Challia",
-          "commonName": "고려집게벌레속",
-          "ktsn": 120000020870
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "kyusani",
-          "commonName": "규산고려집게벌레",
-          "ktsn": 120000020873
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:09:00.575Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
-        "thumbnailUrl": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      },
-      "eol": {
-        "pageId": 46946166,
-        "canonical": "Challia kyusani",
-        "fetchedAt": "2026-05-24T08:44:15.919Z",
-        "vernaculars": {
-          "ko": [],
-          "en": [],
-          "ja": []
-        },
-        "habitat": [],
-        "geographic": [],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": 4
-      }
-    },
-    {
-      "ktsn": 120000020874,
-      "scientificName": "Challia taewooi Nishikawa, 2006",
-      "commonName": "긴가슴집게벌레",
-      "terminalLatinName": "taewooi",
-      "nomenclaturalAuthor": "Nishikawa",
-      "namingYear": "2006",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Dermaptera",
-          "commonName": "집게벌레목",
-          "ktsn": 120000020841
-        },
-        "family": {
-          "scientificName": "Pygidicranidae",
-          "commonName": "긴가슴집게벌레과",
-          "ktsn": 120000020869
-        },
-        "genus": {
-          "scientificName": "Challia",
-          "commonName": "고려집게벌레속",
-          "ktsn": 120000020870
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "taewooi",
-          "commonName": "긴가슴집게벌레",
-          "ktsn": 120000020874
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:09:00.575Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "totalElements": 0,
-        "totalPages": 1,
-        "thumbnailUrl": null,
-        "thumbnail": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      }
-    }
-  ],
-  "digitalContentUpdatedAt": "2026-05-21T09:09:00.575Z",
-  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+    "generatedAt":  "2026-05-21T07:47:08.025Z",
+    "source":  "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+    "order":  {
+                  "id":  "dermaptera",
+                  "scientificName":  "Dermaptera",
+                  "commonName":  "집게벌레목",
+                  "orderKtsn":  120000020841,
+                  "abstract":  "집게벌레목은 애흰수염집게벌레, 고마로브집게벌레 등 집게벌레과에 속한 곤충들을 통틀어 부르는 분류이다. 집게벌레과, 민집게벌레과, 큰집게벌레과, 꼬마집게벌레과 등의 하위분류를 갖고 있다. 집게벌레는 배 끝에 미모가 변형된 집게를 갖고 있고, 작은 곤충이나 썩은 낙엽, 부식질 등을 먹는 잡식성이다. 습한 곳을 좋아하여 축축한 땅 밑이나 돌 밑, 풀숲, 정원 등에서 볼 수 있는데, 종종 사람의 집에 들어오기도 한다. 하지만 집게벌레는 사람에게 피해를 주지 않는다. 집게벌레 어미는 자신의 알을 보호하는 모성애적인 본능을 갖고 있다.",
+                  "description":  "집게벌레목은 애흰수염집게벌레, 고마로브집게벌레 등 집게벌레과에 속한 곤충들을 통틀어 부르는 분류이다. 집게벌레과, 민집게벌레과, 큰집게벌레과, 꼬마집게벌레과 등의 하위분류를 갖고 있다. 집게벌레는 배 끝에 미모가 변형된 집게를 갖고 있고, 작은 곤충이나 썩은 낙엽, 부식질 등을 먹는 잡식성이다. 습한 곳을 좋아하여 축축한 땅 밑이나 돌 밑, 풀숲, 정원 등에서 볼 수 있는데, 종종 사람의 집에 들어오기도 한다. 하지만 집게벌레는 사람에게 피해를 주지 않는다. 집게벌레 어미는 자신의 알을 보호하는 모성애적인 본능을 갖고 있다."
+              },
+    "family":  {
+                   "id":  "pygidicranidae",
+                   "scientificName":  "Pygidicranidae",
+                   "commonName":  "긴가슴집게벌레과",
+                   "familyKtsn":  120000020869
+               },
+    "speciesCount":  4,
+    "insects":  [
+                    {
+                        "ktsn":  120000020871,
+                        "scientificName":  "Challia fletcheri Burr, 1904",
+                        "commonName":  "고려집게벌레",
+                        "terminalLatinName":  "fletcheri",
+                        "nomenclaturalAuthor":  "Burr",
+                        "namingYear":  "1904",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Dermaptera",
+                                                       "commonName":  "집게벌레목",
+                                                       "ktsn":  120000020841
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Pygidicranidae",
+                                                        "commonName":  "긴가슴집게벌레과",
+                                                        "ktsn":  120000020869
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Challia",
+                                                       "commonName":  "고려집게벌레속",
+                                                       "ktsn":  120000020870
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "fletcheri",
+                                                         "commonName":  "고려집게벌레",
+                                                         "ktsn":  120000020871
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:09:00.575Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
+                                               "thumbnailUrl":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "eol":  {
+                                    "pageId":  24990038,
+                                    "canonical":  "Challia fletcheri",
+                                    "fetchedAt":  "2026-05-24T08:44:02.108Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+                                                                   "고려집게벌레"
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+                                                                   "ムカシハサミムシ"
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  19
+                                },
+                        "inat":  {
+                                     "observationCount":  3,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/333080423/medium.jpeg",
+                                     "months":  [
+                                                    6,
+                                                    7,
+                                                    10
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000020872,
+                        "scientificName":  "Challia gigantia Nishikawa, 2006",
+                        "commonName":  "큰긴가슴집게벌레",
+                        "terminalLatinName":  "gigantia",
+                        "nomenclaturalAuthor":  "Nishikawa",
+                        "namingYear":  "2006",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Dermaptera",
+                                                       "commonName":  "집게벌레목",
+                                                       "ktsn":  120000020841
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Pygidicranidae",
+                                                        "commonName":  "긴가슴집게벌레과",
+                                                        "ktsn":  120000020869
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Challia",
+                                                       "commonName":  "고려집게벌레속",
+                                                       "ktsn":  120000020870
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "gigantia",
+                                                         "commonName":  "큰긴가슴집게벌레",
+                                                         "ktsn":  120000020872
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:09:00.575Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "totalElements":  0,
+                                               "totalPages":  1,
+                                               "thumbnailUrl":  null,
+                                               "thumbnail":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           }
+                    },
+                    {
+                        "ktsn":  120000020873,
+                        "scientificName":  "Challia kyusani Moon and Kim, 1985",
+                        "commonName":  "규산고려집게벌레",
+                        "terminalLatinName":  "kyusani",
+                        "nomenclaturalAuthor":  "Moon and Kim",
+                        "namingYear":  "1985",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "Y",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Dermaptera",
+                                                       "commonName":  "집게벌레목",
+                                                       "ktsn":  120000020841
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Pygidicranidae",
+                                                        "commonName":  "긴가슴집게벌레과",
+                                                        "ktsn":  120000020869
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Challia",
+                                                       "commonName":  "고려집게벌레속",
+                                                       "ktsn":  120000020870
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "kyusani",
+                                                         "commonName":  "규산고려집게벌레",
+                                                         "ktsn":  120000020873
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:09:00.575Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
+                                               "thumbnailUrl":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "eol":  {
+                                    "pageId":  46946166,
+                                    "canonical":  "Challia kyusani",
+                                    "fetchedAt":  "2026-05-24T08:44:15.919Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  4
+                                }
+                    },
+                    {
+                        "ktsn":  120000020874,
+                        "scientificName":  "Challia taewooi Nishikawa, 2006",
+                        "commonName":  "긴가슴집게벌레",
+                        "terminalLatinName":  "taewooi",
+                        "nomenclaturalAuthor":  "Nishikawa",
+                        "namingYear":  "2006",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Dermaptera",
+                                                       "commonName":  "집게벌레목",
+                                                       "ktsn":  120000020841
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Pygidicranidae",
+                                                        "commonName":  "긴가슴집게벌레과",
+                                                        "ktsn":  120000020869
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Challia",
+                                                       "commonName":  "고려집게벌레속",
+                                                       "ktsn":  120000020870
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "taewooi",
+                                                         "commonName":  "긴가슴집게벌레",
+                                                         "ktsn":  120000020874
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:09:00.575Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "totalElements":  0,
+                                               "totalPages":  1,
+                                               "thumbnailUrl":  null,
+                                               "thumbnail":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "inat":  {
+                                     "observationCount":  3,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/591481965/medium.jpg",
+                                     "months":  [
+                                                    4,
+                                                    8
+                                                ]
+                                 }
+                    }
+                ],
+    "digitalContentUpdatedAt":  "2026-05-21T09:09:00.575Z",
+    "digitalContentSource":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
 }

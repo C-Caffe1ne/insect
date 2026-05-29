@@ -1,1220 +1,1299 @@
 {
-  "generatedAt": "2026-05-21T07:47:08.025Z",
-  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
-  "order": {
-    "id": "hemiptera",
-    "scientificName": "Hemiptera",
-    "commonName": "노린재목",
-    "orderKtsn": 120000066597
-  },
-  "family": {
-    "id": "nabidae",
-    "scientificName": "Nabidae",
-    "commonName": "쐐기노린재과",
-    "familyKtsn": 120000026636
-  },
-  "speciesCount": 22,
-  "insects": [
-    {
-      "ktsn": 120000236009,
-      "scientificName": "Alloeorhynchus reinhardi Kerzhner and Günther, 1999",
-      "commonName": "검은날개쐐기노린재",
-      "terminalLatinName": "reinhardi",
-      "nomenclaturalAuthor": "Kerzhner and Günther",
-      "namingYear": "1999",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Nabidae",
-          "commonName": "쐐기노린재과",
-          "ktsn": 120000026636
-        },
-        "genus": {
-          "scientificName": "Alloeorhynchus",
-          "commonName": "검은날개쐐기노린재속",
-          "ktsn": 120000217124
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "reinhardi",
-          "commonName": "검은날개쐐기노린재",
-          "ktsn": 120000236009
-        }
-      }
-    },
-    {
-      "ktsn": 120000026641,
-      "scientificName": "Arbela tabida (Uhler, 1896)",
-      "commonName": "어리쐐기노린재",
-      "terminalLatinName": "tabida",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Nabidae",
-          "commonName": "쐐기노린재과",
-          "ktsn": 120000026636
-        },
-        "genus": {
-          "scientificName": "Arbela",
-          "commonName": "어리쐐기노린재속",
-          "ktsn": 120000026640
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "tabida",
-          "commonName": "어리쐐기노린재",
-          "ktsn": 120000026641
-        }
-      }
-    },
-    {
-      "ktsn": 120000148568,
-      "scientificName": "Gorpis brevilineatus (Scott, 1874)",
-      "commonName": "빨간긴쐐기노린재",
-      "terminalLatinName": "brevilineatus",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Nabidae",
-          "commonName": "쐐기노린재과",
-          "ktsn": 120000026636
-        },
-        "genus": {
-          "scientificName": "Gorpis",
-          "commonName": "긴쐐기노린재속",
-          "ktsn": 120000026637
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "brevilineatus",
-          "commonName": "빨간긴쐐기노린재",
-          "ktsn": 120000148568
-        }
-      },
-      "eol": {
-        "pageId": 53817984,
-        "canonical": "Gorpis brevilineatus",
-        "fetchedAt": "2026-05-24T10:15:10.126Z",
-        "vernaculars": {
-          "ko": [],
-          "en": [],
-          "ja": []
-        },
-        "habitat": [],
-        "geographic": [
-          "South Korea"
-        ],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": null
-      }
-    },
-    {
-      "ktsn": 120000148565,
-      "scientificName": "Gorpis japonicus Kerzhner, 1968",
-      "commonName": "노랑긴쐐기노린재",
-      "terminalLatinName": "japonicus",
-      "nomenclaturalAuthor": "Kerzhner",
-      "namingYear": "1968",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Nabidae",
-          "commonName": "쐐기노린재과",
-          "ktsn": 120000026636
-        },
-        "genus": {
-          "scientificName": "Gorpis",
-          "commonName": "긴쐐기노린재속",
-          "ktsn": 120000026637
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "japonicus",
-          "commonName": "노랑긴쐐기노린재",
-          "ktsn": 120000148565
-        }
-      }
-    },
-    {
-      "ktsn": 120000026647,
-      "scientificName": "Himacerus (Aptus) nodipes Hsiao, 1964",
-      "commonName": "다리혹큰쐐기노린재",
-      "terminalLatinName": "nodipes",
-      "nomenclaturalAuthor": "Hsiao",
-      "namingYear": "1964",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Nabidae",
-          "commonName": "쐐기노린재과",
-          "ktsn": 120000026636
-        },
-        "genus": {
-          "scientificName": "Himacerus",
-          "commonName": "큰쐐기노린재속",
-          "ktsn": 120000026644
-        },
-        "subgenus": {
-          "scientificName": "Aptus",
-          "commonName": "",
-          "ktsn": 120000026645
-        },
-        "species": {
-          "scientificName": "nodipes",
-          "commonName": "다리혹큰쐐기노린재",
-          "ktsn": 120000026647
-        }
-      }
-    },
-    {
-      "ktsn": 120000090708,
-      "scientificName": "Himacerus (Himacerus) apterus (Fabricius, 1798)",
-      "commonName": "미니날개큰쐐기노린재",
-      "terminalLatinName": "apterus",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Nabidae",
-          "commonName": "쐐기노린재과",
-          "ktsn": 120000026636
-        },
-        "genus": {
-          "scientificName": "Himacerus",
-          "commonName": "큰쐐기노린재속",
-          "ktsn": 120000026644
-        },
-        "subgenus": {
-          "scientificName": "Himacerus",
-          "commonName": "",
-          "ktsn": 120000078032
-        },
-        "species": {
-          "scientificName": "apterus",
-          "commonName": "미니날개큰쐐기노린재",
-          "ktsn": 120000090708
-        }
-      },
-      "eol": {
-        "pageId": 2643152,
-        "canonical": "Himacerus apterus",
-        "fetchedAt": "2026-05-24T10:14:53.547Z",
-        "vernaculars": {
-          "ko": [
-            "미니날개큰쐐기노린재"
-          ],
-          "en": [
-            "Tree Damsel Bug"
-          ],
-          "ja": [
-            "ハラビロマキバサシガメ"
-          ]
-        },
-        "habitat": [],
-        "geographic": [
-          "Japan",
-          "United Kingdom",
-          "The Netherlands",
-          "Sweden",
-          "South Korea",
-          "Russia",
-          "Poland",
-          "Luxembourg",
-          "Germany",
-          "France",
-          "Estonia",
-          "Czech Republic",
-          "Belgium",
-          "Austria"
-        ],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": 11994
-      }
-    },
-    {
-      "ktsn": 120000231213,
-      "scientificName": "Himacerus (Stalia) dauricus (Kiritshenko, 1911)",
-      "commonName": "흰띠천적꽃노린재",
-      "terminalLatinName": "dauricus",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Nabidae",
-          "commonName": "쐐기노린재과",
-          "ktsn": 120000026636
-        },
-        "genus": {
-          "scientificName": "Himacerus",
-          "commonName": "큰쐐기노린재속",
-          "ktsn": 120000026644
-        },
-        "subgenus": {
-          "scientificName": "Stalia",
-          "commonName": "",
-          "ktsn": 120000231212
-        },
-        "species": {
-          "scientificName": "dauricus",
-          "commonName": "흰띠천적꽃노린재",
-          "ktsn": 120000231213
-        }
-      }
-    },
-    {
-      "ktsn": 120000217989,
-      "scientificName": "Nabis apicalis Matsumura, 1913",
-      "commonName": "미니날개애쐐기노린재",
-      "terminalLatinName": "apicalis",
-      "nomenclaturalAuthor": "Matsumura",
-      "namingYear": "1913",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Nabidae",
-          "commonName": "쐐기노린재과",
-          "ktsn": 120000026636
-        },
-        "genus": {
-          "scientificName": "Nabis",
-          "commonName": "쐐기노린재속",
-          "ktsn": 120000148575
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "apicalis",
-          "commonName": "미니날개애쐐기노린재",
-          "ktsn": 120000217989
-        }
-      }
-    },
-    {
-      "ktsn": 120000148617,
-      "scientificName": "Nabis capsiformis Germar, 1838",
-      "commonName": "등줄갈색날개쐐기노린재",
-      "terminalLatinName": "capsiformis",
-      "nomenclaturalAuthor": "Germar",
-      "namingYear": "1838",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Nabidae",
-          "commonName": "쐐기노린재과",
-          "ktsn": 120000026636
-        },
-        "genus": {
-          "scientificName": "Nabis",
-          "commonName": "쐐기노린재속",
-          "ktsn": 120000148575
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "capsiformis",
-          "commonName": "등줄갈색날개쐐기노린재",
-          "ktsn": 120000148617
-        }
-      }
-    },
-    {
-      "ktsn": 120000148601,
-      "scientificName": "Nabis flavomarginatus Scholtz, 1847",
-      "commonName": "둘레쐐기노린재",
-      "terminalLatinName": "flavomarginatus",
-      "nomenclaturalAuthor": "Scholtz",
-      "namingYear": "1847",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Nabidae",
-          "commonName": "쐐기노린재과",
-          "ktsn": 120000026636
-        },
-        "genus": {
-          "scientificName": "Nabis",
-          "commonName": "쐐기노린재속",
-          "ktsn": 120000148575
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "flavomarginatus",
-          "commonName": "둘레쐐기노린재",
-          "ktsn": 120000148601
-        }
-      }
-    },
-    {
-      "ktsn": 120000148606,
-      "scientificName": "Nabis intermedius Kerzhner, 1963",
-      "commonName": "민쐐기노린재",
-      "terminalLatinName": "intermedius",
-      "nomenclaturalAuthor": "Kerzhner",
-      "namingYear": "1963",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Nabidae",
-          "commonName": "쐐기노린재과",
-          "ktsn": 120000026636
-        },
-        "genus": {
-          "scientificName": "Nabis",
-          "commonName": "쐐기노린재속",
-          "ktsn": 120000148575
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "intermedius",
-          "commonName": "민쐐기노린재",
-          "ktsn": 120000148606
-        }
-      }
-    },
-    {
-      "ktsn": 120000148580,
-      "scientificName": "Nabis limbatus Dahlbom, 1851",
-      "commonName": "북쪽긴쐐기노린재",
-      "terminalLatinName": "limbatus",
-      "nomenclaturalAuthor": "Dahlbom",
-      "namingYear": "1851",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Nabidae",
-          "commonName": "쐐기노린재과",
-          "ktsn": 120000026636
-        },
-        "genus": {
-          "scientificName": "Nabis",
-          "commonName": "쐐기노린재속",
-          "ktsn": 120000148575
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "limbatus",
-          "commonName": "북쪽긴쐐기노린재",
-          "ktsn": 120000148580
-        }
-      }
-    },
-    {
-      "ktsn": 120000217990,
-      "scientificName": "Nabis punctatus mimoferus Hsiao, 1964",
-      "commonName": "점쐐기노린재",
-      "terminalLatinName": "mimoferus",
-      "nomenclaturalAuthor": "Hsiao",
-      "namingYear": "1964",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Nabidae",
-          "commonName": "쐐기노린재과",
-          "ktsn": 120000026636
-        },
-        "genus": {
-          "scientificName": "Nabis",
-          "commonName": "쐐기노린재속",
-          "ktsn": 120000148575
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "punctatus",
-          "commonName": "",
-          "ktsn": 120000148608
-        }
-      }
-    },
-    {
-      "ktsn": 120000148596,
-      "scientificName": "Nabis reuteri Jakovlev, 1876",
-      "commonName": "로이터쐐기노린재",
-      "terminalLatinName": "reuteri",
-      "nomenclaturalAuthor": "Jakovlev",
-      "namingYear": "1876",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Nabidae",
-          "commonName": "쐐기노린재과",
-          "ktsn": 120000026636
-        },
-        "genus": {
-          "scientificName": "Nabis",
-          "commonName": "쐐기노린재속",
-          "ktsn": 120000148575
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "reuteri",
-          "commonName": "로이터쐐기노린재",
-          "ktsn": 120000148596
-        }
-      }
-    },
-    {
-      "ktsn": 120000217988,
-      "scientificName": "Nabis sauteri (Poppius, 1915)",
-      "commonName": "동쪽쐐기노린재",
-      "terminalLatinName": "sauteri",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Nabidae",
-          "commonName": "쐐기노린재과",
-          "ktsn": 120000026636
-        },
-        "genus": {
-          "scientificName": "Nabis",
-          "commonName": "쐐기노린재속",
-          "ktsn": 120000148575
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "sauteri",
-          "commonName": "동쪽쐐기노린재",
-          "ktsn": 120000217988
-        }
-      }
-    },
-    {
-      "ktsn": 120000217987,
-      "scientificName": "Nabis sinicus (Hsiao, 1964)",
-      "commonName": "중국쐐기노린재",
-      "terminalLatinName": "sinicus",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Nabidae",
-          "commonName": "쐐기노린재과",
-          "ktsn": 120000026636
-        },
-        "genus": {
-          "scientificName": "Nabis",
-          "commonName": "쐐기노린재속",
-          "ktsn": 120000148575
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "sinicus",
-          "commonName": "중국쐐기노린재",
-          "ktsn": 120000217987
-        }
-      }
-    },
-    {
-      "ktsn": 120000148612,
-      "scientificName": "Nabis stenoferus Hsiao, 1964",
-      "commonName": "긴날개쐐기노린재",
-      "terminalLatinName": "stenoferus",
-      "nomenclaturalAuthor": "Hsiao",
-      "namingYear": "1964",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Nabidae",
-          "commonName": "쐐기노린재과",
-          "ktsn": 120000026636
-        },
-        "genus": {
-          "scientificName": "Nabis",
-          "commonName": "쐐기노린재속",
-          "ktsn": 120000148575
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "stenoferus",
-          "commonName": "긴날개쐐기노린재",
-          "ktsn": 120000148612
-        }
-      }
-    },
-    {
-      "ktsn": 120000026667,
-      "scientificName": "Prostemma hilgendorfii Stein, 1878",
-      "commonName": "알락날개쐐기노린재",
-      "terminalLatinName": "hilgendorfii",
-      "nomenclaturalAuthor": "Stein",
-      "namingYear": "1878",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Nabidae",
-          "commonName": "쐐기노린재과",
-          "ktsn": 120000026636
-        },
-        "genus": {
-          "scientificName": "Prostemma",
-          "commonName": "색날개쐐기노린재속",
-          "ktsn": 120000026666
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "hilgendorfii",
-          "commonName": "알락날개쐐기노린재",
-          "ktsn": 120000026667
-        }
-      }
-    },
-    {
-      "ktsn": 120000026668,
-      "scientificName": "Prostemma kiborti Jakovlev, 1889",
-      "commonName": "노랑날개쐐기노린재",
-      "terminalLatinName": "kiborti",
-      "nomenclaturalAuthor": "Jakovlev",
-      "namingYear": "1889",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Nabidae",
-          "commonName": "쐐기노린재과",
-          "ktsn": 120000026636
-        },
-        "genus": {
-          "scientificName": "Prostemma",
-          "commonName": "색날개쐐기노린재속",
-          "ktsn": 120000026666
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "kiborti",
-          "commonName": "노랑날개쐐기노린재",
-          "ktsn": 120000026668
-        }
-      }
-    },
-    {
-      "ktsn": 120000217347,
-      "scientificName": "Rhamphocoris hasegawai (Ishihara, 1943)",
-      "commonName": "붉은납작쐐기노린재",
-      "terminalLatinName": "hasegawai",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Nabidae",
-          "commonName": "쐐기노린재과",
-          "ktsn": 120000026636
-        },
-        "genus": {
-          "scientificName": "Rhamphocoris",
-          "commonName": "붉은납작쐐기노린재속",
-          "ktsn": 120000217346
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "hasegawai",
-          "commonName": "붉은납작쐐기노린재",
-          "ktsn": 120000217347
-        }
-      }
-    },
-    {
-      "ktsn": 120000163557,
-      "scientificName": "Stenonabis uhleri Miyamoto, 1964",
-      "commonName": "강변쐐기노린재",
-      "terminalLatinName": "uhleri",
-      "nomenclaturalAuthor": "Miyamoto",
-      "namingYear": "1964",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Nabidae",
-          "commonName": "쐐기노린재과",
-          "ktsn": 120000026636
-        },
-        "genus": {
-          "scientificName": "Stenonabis",
-          "commonName": "미니날개쐐기노린재속",
-          "ktsn": 120000026669
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "uhleri",
-          "commonName": "강변쐐기노린재",
-          "ktsn": 120000163557
-        }
-      }
-    },
-    {
-      "ktsn": 120000026670,
-      "scientificName": "Stenonabis yasumatsui Miyamoto and Lee, 1966",
-      "commonName": "미니날개쐐기노린재",
-      "terminalLatinName": "yasumatsui",
-      "nomenclaturalAuthor": "Miyamoto and Lee",
-      "namingYear": "1966",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Nabidae",
-          "commonName": "쐐기노린재과",
-          "ktsn": 120000026636
-        },
-        "genus": {
-          "scientificName": "Stenonabis",
-          "commonName": "미니날개쐐기노린재속",
-          "ktsn": 120000026669
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "yasumatsui",
-          "commonName": "미니날개쐐기노린재",
-          "ktsn": 120000026670
-        }
-      }
-    }
-  ]
+    "generatedAt":  "2026-05-21T07:47:08.025Z",
+    "source":  "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+    "order":  {
+                  "id":  "hemiptera",
+                  "scientificName":  "Hemiptera",
+                  "commonName":  "노린재목",
+                  "orderKtsn":  120000066597
+              },
+    "family":  {
+                   "id":  "nabidae",
+                   "scientificName":  "Nabidae",
+                   "commonName":  "쐐기노린재과",
+                   "familyKtsn":  120000026636
+               },
+    "speciesCount":  22,
+    "insects":  [
+                    {
+                        "ktsn":  120000236009,
+                        "scientificName":  "Alloeorhynchus reinhardi Kerzhner and Günther, 1999",
+                        "commonName":  "검은날개쐐기노린재",
+                        "terminalLatinName":  "reinhardi",
+                        "nomenclaturalAuthor":  "Kerzhner and Günther",
+                        "namingYear":  "1999",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Nabidae",
+                                                        "commonName":  "쐐기노린재과",
+                                                        "ktsn":  120000026636
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Alloeorhynchus",
+                                                       "commonName":  "검은날개쐐기노린재속",
+                                                       "ktsn":  120000217124
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "reinhardi",
+                                                         "commonName":  "검은날개쐐기노린재",
+                                                         "ktsn":  120000236009
+                                                     }
+                                     },
+                        "inat":  {
+                                     "observationCount":  1,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/628746904/medium.jpg",
+                                     "months":  [
+                                                    3
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000026641,
+                        "scientificName":  "Arbela tabida (Uhler, 1896)",
+                        "commonName":  "어리쐐기노린재",
+                        "terminalLatinName":  "tabida",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Nabidae",
+                                                        "commonName":  "쐐기노린재과",
+                                                        "ktsn":  120000026636
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Arbela",
+                                                       "commonName":  "어리쐐기노린재속",
+                                                       "ktsn":  120000026640
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "tabida",
+                                                         "commonName":  "어리쐐기노린재",
+                                                         "ktsn":  120000026641
+                                                     }
+                                     }
+                    },
+                    {
+                        "ktsn":  120000148568,
+                        "scientificName":  "Gorpis brevilineatus (Scott, 1874)",
+                        "commonName":  "빨간긴쐐기노린재",
+                        "terminalLatinName":  "brevilineatus",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Nabidae",
+                                                        "commonName":  "쐐기노린재과",
+                                                        "ktsn":  120000026636
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Gorpis",
+                                                       "commonName":  "긴쐐기노린재속",
+                                                       "ktsn":  120000026637
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "brevilineatus",
+                                                         "commonName":  "빨간긴쐐기노린재",
+                                                         "ktsn":  120000148568
+                                                     }
+                                     },
+                        "eol":  {
+                                    "pageId":  53817984,
+                                    "canonical":  "Gorpis brevilineatus",
+                                    "fetchedAt":  "2026-05-24T10:15:10.126Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+                                                       "South Korea"
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  null
+                                }
+                    },
+                    {
+                        "ktsn":  120000148565,
+                        "scientificName":  "Gorpis japonicus Kerzhner, 1968",
+                        "commonName":  "노랑긴쐐기노린재",
+                        "terminalLatinName":  "japonicus",
+                        "nomenclaturalAuthor":  "Kerzhner",
+                        "namingYear":  "1968",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Nabidae",
+                                                        "commonName":  "쐐기노린재과",
+                                                        "ktsn":  120000026636
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Gorpis",
+                                                       "commonName":  "긴쐐기노린재속",
+                                                       "ktsn":  120000026637
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "japonicus",
+                                                         "commonName":  "노랑긴쐐기노린재",
+                                                         "ktsn":  120000148565
+                                                     }
+                                     },
+                        "inat":  {
+                                     "observationCount":  8,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/53522832/medium.jpg",
+                                     "months":  [
+                                                    8,
+                                                    9,
+                                                    10
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000026647,
+                        "scientificName":  "Himacerus (Aptus) nodipes Hsiao, 1964",
+                        "commonName":  "다리혹큰쐐기노린재",
+                        "terminalLatinName":  "nodipes",
+                        "nomenclaturalAuthor":  "Hsiao",
+                        "namingYear":  "1964",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Nabidae",
+                                                        "commonName":  "쐐기노린재과",
+                                                        "ktsn":  120000026636
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Himacerus",
+                                                       "commonName":  "큰쐐기노린재속",
+                                                       "ktsn":  120000026644
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "Aptus",
+                                                          "commonName":  "",
+                                                          "ktsn":  120000026645
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "nodipes",
+                                                         "commonName":  "다리혹큰쐐기노린재",
+                                                         "ktsn":  120000026647
+                                                     }
+                                     }
+                    },
+                    {
+                        "ktsn":  120000090708,
+                        "scientificName":  "Himacerus (Himacerus) apterus (Fabricius, 1798)",
+                        "commonName":  "미니날개큰쐐기노린재",
+                        "terminalLatinName":  "apterus",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Nabidae",
+                                                        "commonName":  "쐐기노린재과",
+                                                        "ktsn":  120000026636
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Himacerus",
+                                                       "commonName":  "큰쐐기노린재속",
+                                                       "ktsn":  120000026644
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "Himacerus",
+                                                          "commonName":  "",
+                                                          "ktsn":  120000078032
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "apterus",
+                                                         "commonName":  "미니날개큰쐐기노린재",
+                                                         "ktsn":  120000090708
+                                                     }
+                                     },
+                        "eol":  {
+                                    "pageId":  2643152,
+                                    "canonical":  "Himacerus apterus",
+                                    "fetchedAt":  "2026-05-24T10:14:53.547Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+                                                                   "미니날개큰쐐기노린재"
+                                                               ],
+                                                        "en":  [
+                                                                   "Tree Damsel Bug"
+                                                               ],
+                                                        "ja":  [
+                                                                   "ハラビロマキバサシガメ"
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+                                                       "Japan",
+                                                       "United Kingdom",
+                                                       "The Netherlands",
+                                                       "Sweden",
+                                                       "South Korea",
+                                                       "Russia",
+                                                       "Poland",
+                                                       "Luxembourg",
+                                                       "Germany",
+                                                       "France",
+                                                       "Estonia",
+                                                       "Czech Republic",
+                                                       "Belgium",
+                                                       "Austria"
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  11994
+                                },
+                        "inat":  {
+                                     "observationCount":  59,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/10461322/medium.jpg",
+                                     "months":  [
+                                                    5,
+                                                    6,
+                                                    7,
+                                                    8,
+                                                    9,
+                                                    10,
+                                                    11,
+                                                    12
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000231213,
+                        "scientificName":  "Himacerus (Stalia) dauricus (Kiritshenko, 1911)",
+                        "commonName":  "흰띠천적꽃노린재",
+                        "terminalLatinName":  "dauricus",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Nabidae",
+                                                        "commonName":  "쐐기노린재과",
+                                                        "ktsn":  120000026636
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Himacerus",
+                                                       "commonName":  "큰쐐기노린재속",
+                                                       "ktsn":  120000026644
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "Stalia",
+                                                          "commonName":  "",
+                                                          "ktsn":  120000231212
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "dauricus",
+                                                         "commonName":  "흰띠천적꽃노린재",
+                                                         "ktsn":  120000231213
+                                                     }
+                                     }
+                    },
+                    {
+                        "ktsn":  120000217989,
+                        "scientificName":  "Nabis apicalis Matsumura, 1913",
+                        "commonName":  "미니날개애쐐기노린재",
+                        "terminalLatinName":  "apicalis",
+                        "nomenclaturalAuthor":  "Matsumura",
+                        "namingYear":  "1913",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Nabidae",
+                                                        "commonName":  "쐐기노린재과",
+                                                        "ktsn":  120000026636
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Nabis",
+                                                       "commonName":  "쐐기노린재속",
+                                                       "ktsn":  120000148575
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "apicalis",
+                                                         "commonName":  "미니날개애쐐기노린재",
+                                                         "ktsn":  120000217989
+                                                     }
+                                     },
+                        "inat":  {
+                                     "observationCount":  2,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/464243456/medium.jpeg",
+                                     "months":  [
+                                                    5,
+                                                    6
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000148617,
+                        "scientificName":  "Nabis capsiformis Germar, 1838",
+                        "commonName":  "등줄갈색날개쐐기노린재",
+                        "terminalLatinName":  "capsiformis",
+                        "nomenclaturalAuthor":  "Germar",
+                        "namingYear":  "1838",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Nabidae",
+                                                        "commonName":  "쐐기노린재과",
+                                                        "ktsn":  120000026636
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Nabis",
+                                                       "commonName":  "쐐기노린재속",
+                                                       "ktsn":  120000148575
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "capsiformis",
+                                                         "commonName":  "등줄갈색날개쐐기노린재",
+                                                         "ktsn":  120000148617
+                                                     }
+                                     },
+                        "inat":  {
+                                     "observationCount":  2,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/501297763/medium.jpeg",
+                                     "months":  [
+                                                    4
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000148601,
+                        "scientificName":  "Nabis flavomarginatus Scholtz, 1847",
+                        "commonName":  "둘레쐐기노린재",
+                        "terminalLatinName":  "flavomarginatus",
+                        "nomenclaturalAuthor":  "Scholtz",
+                        "namingYear":  "1847",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Nabidae",
+                                                        "commonName":  "쐐기노린재과",
+                                                        "ktsn":  120000026636
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Nabis",
+                                                       "commonName":  "쐐기노린재속",
+                                                       "ktsn":  120000148575
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "flavomarginatus",
+                                                         "commonName":  "둘레쐐기노린재",
+                                                         "ktsn":  120000148601
+                                                     }
+                                     }
+                    },
+                    {
+                        "ktsn":  120000148606,
+                        "scientificName":  "Nabis intermedius Kerzhner, 1963",
+                        "commonName":  "민쐐기노린재",
+                        "terminalLatinName":  "intermedius",
+                        "nomenclaturalAuthor":  "Kerzhner",
+                        "namingYear":  "1963",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Nabidae",
+                                                        "commonName":  "쐐기노린재과",
+                                                        "ktsn":  120000026636
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Nabis",
+                                                       "commonName":  "쐐기노린재속",
+                                                       "ktsn":  120000148575
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "intermedius",
+                                                         "commonName":  "민쐐기노린재",
+                                                         "ktsn":  120000148606
+                                                     }
+                                     }
+                    },
+                    {
+                        "ktsn":  120000148580,
+                        "scientificName":  "Nabis limbatus Dahlbom, 1851",
+                        "commonName":  "북쪽긴쐐기노린재",
+                        "terminalLatinName":  "limbatus",
+                        "nomenclaturalAuthor":  "Dahlbom",
+                        "namingYear":  "1851",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Nabidae",
+                                                        "commonName":  "쐐기노린재과",
+                                                        "ktsn":  120000026636
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Nabis",
+                                                       "commonName":  "쐐기노린재속",
+                                                       "ktsn":  120000148575
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "limbatus",
+                                                         "commonName":  "북쪽긴쐐기노린재",
+                                                         "ktsn":  120000148580
+                                                     }
+                                     }
+                    },
+                    {
+                        "ktsn":  120000217990,
+                        "scientificName":  "Nabis punctatus mimoferus Hsiao, 1964",
+                        "commonName":  "점쐐기노린재",
+                        "terminalLatinName":  "mimoferus",
+                        "nomenclaturalAuthor":  "Hsiao",
+                        "namingYear":  "1964",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Nabidae",
+                                                        "commonName":  "쐐기노린재과",
+                                                        "ktsn":  120000026636
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Nabis",
+                                                       "commonName":  "쐐기노린재속",
+                                                       "ktsn":  120000148575
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "punctatus",
+                                                         "commonName":  "",
+                                                         "ktsn":  120000148608
+                                                     }
+                                     }
+                    },
+                    {
+                        "ktsn":  120000148596,
+                        "scientificName":  "Nabis reuteri Jakovlev, 1876",
+                        "commonName":  "로이터쐐기노린재",
+                        "terminalLatinName":  "reuteri",
+                        "nomenclaturalAuthor":  "Jakovlev",
+                        "namingYear":  "1876",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Nabidae",
+                                                        "commonName":  "쐐기노린재과",
+                                                        "ktsn":  120000026636
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Nabis",
+                                                       "commonName":  "쐐기노린재속",
+                                                       "ktsn":  120000148575
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "reuteri",
+                                                         "commonName":  "로이터쐐기노린재",
+                                                         "ktsn":  120000148596
+                                                     }
+                                     }
+                    },
+                    {
+                        "ktsn":  120000217988,
+                        "scientificName":  "Nabis sauteri (Poppius, 1915)",
+                        "commonName":  "동쪽쐐기노린재",
+                        "terminalLatinName":  "sauteri",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Nabidae",
+                                                        "commonName":  "쐐기노린재과",
+                                                        "ktsn":  120000026636
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Nabis",
+                                                       "commonName":  "쐐기노린재속",
+                                                       "ktsn":  120000148575
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "sauteri",
+                                                         "commonName":  "동쪽쐐기노린재",
+                                                         "ktsn":  120000217988
+                                                     }
+                                     }
+                    },
+                    {
+                        "ktsn":  120000217987,
+                        "scientificName":  "Nabis sinicus (Hsiao, 1964)",
+                        "commonName":  "중국쐐기노린재",
+                        "terminalLatinName":  "sinicus",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Nabidae",
+                                                        "commonName":  "쐐기노린재과",
+                                                        "ktsn":  120000026636
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Nabis",
+                                                       "commonName":  "쐐기노린재속",
+                                                       "ktsn":  120000148575
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "sinicus",
+                                                         "commonName":  "중국쐐기노린재",
+                                                         "ktsn":  120000217987
+                                                     }
+                                     }
+                    },
+                    {
+                        "ktsn":  120000148612,
+                        "scientificName":  "Nabis stenoferus Hsiao, 1964",
+                        "commonName":  "긴날개쐐기노린재",
+                        "terminalLatinName":  "stenoferus",
+                        "nomenclaturalAuthor":  "Hsiao",
+                        "namingYear":  "1964",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Nabidae",
+                                                        "commonName":  "쐐기노린재과",
+                                                        "ktsn":  120000026636
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Nabis",
+                                                       "commonName":  "쐐기노린재속",
+                                                       "ktsn":  120000148575
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "stenoferus",
+                                                         "commonName":  "긴날개쐐기노린재",
+                                                         "ktsn":  120000148612
+                                                     }
+                                     }
+                    },
+                    {
+                        "ktsn":  120000026667,
+                        "scientificName":  "Prostemma hilgendorfii Stein, 1878",
+                        "commonName":  "알락날개쐐기노린재",
+                        "terminalLatinName":  "hilgendorfii",
+                        "nomenclaturalAuthor":  "Stein",
+                        "namingYear":  "1878",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Nabidae",
+                                                        "commonName":  "쐐기노린재과",
+                                                        "ktsn":  120000026636
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Prostemma",
+                                                       "commonName":  "색날개쐐기노린재속",
+                                                       "ktsn":  120000026666
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "hilgendorfii",
+                                                         "commonName":  "알락날개쐐기노린재",
+                                                         "ktsn":  120000026667
+                                                     }
+                                     }
+                    },
+                    {
+                        "ktsn":  120000026668,
+                        "scientificName":  "Prostemma kiborti Jakovlev, 1889",
+                        "commonName":  "노랑날개쐐기노린재",
+                        "terminalLatinName":  "kiborti",
+                        "nomenclaturalAuthor":  "Jakovlev",
+                        "namingYear":  "1889",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Nabidae",
+                                                        "commonName":  "쐐기노린재과",
+                                                        "ktsn":  120000026636
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Prostemma",
+                                                       "commonName":  "색날개쐐기노린재속",
+                                                       "ktsn":  120000026666
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "kiborti",
+                                                         "commonName":  "노랑날개쐐기노린재",
+                                                         "ktsn":  120000026668
+                                                     }
+                                     }
+                    },
+                    {
+                        "ktsn":  120000217347,
+                        "scientificName":  "Rhamphocoris hasegawai (Ishihara, 1943)",
+                        "commonName":  "붉은납작쐐기노린재",
+                        "terminalLatinName":  "hasegawai",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Nabidae",
+                                                        "commonName":  "쐐기노린재과",
+                                                        "ktsn":  120000026636
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Rhamphocoris",
+                                                       "commonName":  "붉은납작쐐기노린재속",
+                                                       "ktsn":  120000217346
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "hasegawai",
+                                                         "commonName":  "붉은납작쐐기노린재",
+                                                         "ktsn":  120000217347
+                                                     }
+                                     },
+                        "inat":  {
+                                     "observationCount":  3,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/74463671/medium.jpg",
+                                     "months":  [
+                                                    5,
+                                                    6
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000163557,
+                        "scientificName":  "Stenonabis uhleri Miyamoto, 1964",
+                        "commonName":  "강변쐐기노린재",
+                        "terminalLatinName":  "uhleri",
+                        "nomenclaturalAuthor":  "Miyamoto",
+                        "namingYear":  "1964",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Nabidae",
+                                                        "commonName":  "쐐기노린재과",
+                                                        "ktsn":  120000026636
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Stenonabis",
+                                                       "commonName":  "미니날개쐐기노린재속",
+                                                       "ktsn":  120000026669
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "uhleri",
+                                                         "commonName":  "강변쐐기노린재",
+                                                         "ktsn":  120000163557
+                                                     }
+                                     }
+                    },
+                    {
+                        "ktsn":  120000026670,
+                        "scientificName":  "Stenonabis yasumatsui Miyamoto and Lee, 1966",
+                        "commonName":  "미니날개쐐기노린재",
+                        "terminalLatinName":  "yasumatsui",
+                        "nomenclaturalAuthor":  "Miyamoto and Lee",
+                        "namingYear":  "1966",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Nabidae",
+                                                        "commonName":  "쐐기노린재과",
+                                                        "ktsn":  120000026636
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Stenonabis",
+                                                       "commonName":  "미니날개쐐기노린재속",
+                                                       "ktsn":  120000026669
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "yasumatsui",
+                                                         "commonName":  "미니날개쐐기노린재",
+                                                         "ktsn":  120000026670
+                                                     }
+                                     }
+                    }
+                ]
 }

@@ -1,1628 +1,2013 @@
 {
-  "generatedAt": "2026-05-21T07:47:08.025Z",
-  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
-  "order": {
-    "id": "hemiptera",
-    "scientificName": "Hemiptera",
-    "commonName": "노린재목",
-    "orderKtsn": 120000066597
-  },
-  "family": {
-    "id": "derbidae",
-    "scientificName": "Derbidae",
-    "commonName": "긴날개멸구과",
-    "familyKtsn": 120000025797
-  },
-  "speciesCount": 22,
-  "insects": [
-    {
-      "ktsn": 120000025799,
-      "scientificName": "Diostrombus politus Uhler, 1896",
-      "commonName": "주홍긴날개멸구",
-      "terminalLatinName": "politus",
-      "nomenclaturalAuthor": "Uhler",
-      "namingYear": "1896",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Derbidae",
-          "commonName": "긴날개멸구과",
-          "ktsn": 120000025797
-        },
-        "genus": {
-          "scientificName": "Diostrombus",
-          "commonName": "주홍긴날개멸구속",
-          "ktsn": 120000025798
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "politus",
-          "commonName": "주홍긴날개멸구",
-          "ktsn": 120000025799
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:26:15.142Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
-        "thumbnailUrl": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      },
-      "eol": {
-        "pageId": 3731214,
-        "canonical": "Diostrombus politus",
-        "fetchedAt": "2026-05-24T10:04:15.413Z",
-        "vernaculars": {
-          "ko": [
-            "주홍긴날개멸구"
-          ],
-          "en": [],
-          "ja": [
-            "アカハネナガウンカ"
-          ]
-        },
-        "habitat": [],
-        "geographic": [
-          "Japan",
-          "South Korea",
-          "China"
-        ],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": 876
-      }
-    },
-    {
-      "ktsn": 120000025801,
-      "scientificName": "Epotiocerus flexuosus (Uhler, 1896)",
-      "commonName": "정숙긴날개멸구",
-      "terminalLatinName": "flexuosus",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Derbidae",
-          "commonName": "긴날개멸구과",
-          "ktsn": 120000025797
-        },
-        "genus": {
-          "scientificName": "Epotiocerus",
-          "commonName": "정숙긴날개멸구속",
-          "ktsn": 120000025800
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "flexuosus",
-          "commonName": "정숙긴날개멸구",
-          "ktsn": 120000025801
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:26:15.142Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "totalElements": 0,
-        "totalPages": 1,
-        "thumbnailUrl": null,
-        "thumbnail": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      },
-      "eol": {
-        "pageId": 30283876,
-        "canonical": "Epotiocerus flexuosus",
-        "fetchedAt": "2026-05-24T10:04:20.654Z",
-        "vernaculars": {
-          "ko": [],
-          "en": [],
-          "ja": []
-        },
-        "habitat": [],
-        "geographic": [],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": null
-      }
-    },
-    {
-      "ktsn": 120000025803,
-      "scientificName": "Hauptenia palgongsanensis Rahman, Kwon and Suh, 2012",
-      "commonName": "팔공산긴날개멸구",
-      "terminalLatinName": "palgongsanensis",
-      "nomenclaturalAuthor": "Rahman, Kwon and Suh",
-      "namingYear": "2012",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Derbidae",
-          "commonName": "긴날개멸구과",
-          "ktsn": 120000025797
-        },
-        "genus": {
-          "scientificName": "Hauptenia",
-          "commonName": "",
-          "ktsn": 120000025802
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "palgongsanensis",
-          "commonName": "팔공산긴날개멸구",
-          "ktsn": 120000025803
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:26:15.142Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "totalElements": 0,
-        "totalPages": 1,
-        "thumbnailUrl": null,
-        "thumbnail": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      },
-      "eol": {
-        "pageId": 46923398,
-        "canonical": "Hauptenia palgongsanensis",
-        "fetchedAt": "2026-05-24T10:04:25.898Z",
-        "vernaculars": {
-          "ko": [
-            "팔공산긴날개멸구"
-          ],
-          "en": [],
-          "ja": []
-        },
-        "habitat": [],
-        "geographic": [
-          "Korea",
-          "South Korea"
-        ],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": 14
-      }
-    },
-    {
-      "ktsn": 120000025804,
-      "scientificName": "Hauptenia tripartita Rahman, Kwon and Suh, 2012",
-      "commonName": "세갈래긴날개멸구",
-      "terminalLatinName": "tripartita",
-      "nomenclaturalAuthor": "Rahman, Kwon and Suh",
-      "namingYear": "2012",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Derbidae",
-          "commonName": "긴날개멸구과",
-          "ktsn": 120000025797
-        },
-        "genus": {
-          "scientificName": "Hauptenia",
-          "commonName": "",
-          "ktsn": 120000025802
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "tripartita",
-          "commonName": "세갈래긴날개멸구",
-          "ktsn": 120000025804
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:26:15.142Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "totalElements": 0,
-        "totalPages": 1,
-        "thumbnailUrl": null,
-        "thumbnail": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      },
-      "eol": {
-        "pageId": 46923397,
-        "canonical": "Hauptenia tripartita",
-        "fetchedAt": "2026-05-24T10:04:31.755Z",
-        "vernaculars": {
-          "ko": [
-            "세갈래긴날개멸구"
-          ],
-          "en": [],
-          "ja": []
-        },
-        "habitat": [],
-        "geographic": [
-          "Korea",
-          "South Korea"
-        ],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": 6
-      }
-    },
-    {
-      "ktsn": 120000522079,
-      "scientificName": "Kamendaka aculeata Yang and Wu, 1994",
-      "commonName": "가시고려긴날개멸구",
-      "terminalLatinName": "aculeata",
-      "nomenclaturalAuthor": "Yang and Wu",
-      "namingYear": "1994",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Derbidae",
-          "commonName": "긴날개멸구과",
-          "ktsn": 120000025797
-        },
-        "genus": {
-          "scientificName": "Kamendaka",
-          "commonName": "고려긴날개멸구속",
-          "ktsn": 120000025805
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "aculeata",
-          "commonName": "가시고려긴날개멸구",
-          "ktsn": 120000522079
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:26:15.142Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "totalElements": 0,
-        "totalPages": 1,
-        "thumbnailUrl": null,
-        "thumbnail": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      }
-    },
-    {
-      "ktsn": 120000513647,
-      "scientificName": "Kamendaka annulata Yang and Wu, 1994",
-      "commonName": "고리고려긴날개멸구",
-      "terminalLatinName": "annulata",
-      "nomenclaturalAuthor": "Yang and Wu",
-      "namingYear": "1994",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Derbidae",
-          "commonName": "긴날개멸구과",
-          "ktsn": 120000025797
-        },
-        "genus": {
-          "scientificName": "Kamendaka",
-          "commonName": "고려긴날개멸구속",
-          "ktsn": 120000025805
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "annulata",
-          "commonName": "고리고려긴날개멸구",
-          "ktsn": 120000513647
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:26:15.142Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
-        "thumbnailUrl": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      }
-    },
-    {
-      "ktsn": 120000507108,
-      "scientificName": "Kamendaka jejuensis Park and Jung, 2022",
-      "commonName": "광대긴날개멸구",
-      "terminalLatinName": "jejuensis",
-      "nomenclaturalAuthor": "Park and Jung",
-      "namingYear": "2022",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "Y",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Derbidae",
-          "commonName": "긴날개멸구과",
-          "ktsn": 120000025797
-        },
-        "genus": {
-          "scientificName": "Kamendaka",
-          "commonName": "고려긴날개멸구속",
-          "ktsn": 120000025805
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "jejuensis",
-          "commonName": "광대긴날개멸구",
-          "ktsn": 120000507108
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:26:15.142Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "totalElements": 0,
-        "totalPages": 1,
-        "thumbnailUrl": null,
-        "thumbnail": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      }
-    },
-    {
-      "ktsn": 120000025806,
-      "scientificName": "Kamendaka koreana Matsumura, 1915",
-      "commonName": "고려긴날개멸구",
-      "terminalLatinName": "koreana",
-      "nomenclaturalAuthor": "Matsumura",
-      "namingYear": "1915",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "Y",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Derbidae",
-          "commonName": "긴날개멸구과",
-          "ktsn": 120000025797
-        },
-        "genus": {
-          "scientificName": "Kamendaka",
-          "commonName": "고려긴날개멸구속",
-          "ktsn": 120000025805
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "koreana",
-          "commonName": "고려긴날개멸구",
-          "ktsn": 120000025806
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:26:15.142Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
-        "thumbnailUrl": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      },
-      "eol": {
-        "pageId": 228541,
-        "canonical": "Kamendaka koreana",
-        "fetchedAt": "2026-05-24T10:04:33.672Z",
-        "vernaculars": {
-          "ko": [],
-          "en": [],
-          "ja": []
-        },
-        "habitat": [],
-        "geographic": [],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": null
-      }
-    },
-    {
-      "ktsn": 120000108376,
-      "scientificName": "Losbanosia hibarensis (Matsumura, 1935)",
-      "commonName": "동해긴날개멸구",
-      "terminalLatinName": "hibarensis",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Derbidae",
-          "commonName": "긴날개멸구과",
-          "ktsn": 120000025797
-        },
-        "genus": {
-          "scientificName": "Losbanosia",
-          "commonName": "동해긴날개멸구속",
-          "ktsn": 120000025807
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "hibarensis",
-          "commonName": "동해긴날개멸구",
-          "ktsn": 120000108376
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:26:15.142Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
-        "thumbnailUrl": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      }
-    },
-    {
-      "ktsn": 120000025810,
-      "scientificName": "Mysidioides sapporoensis (Matsumura, 1900)",
-      "commonName": "알락긴날개멸구",
-      "terminalLatinName": "sapporoensis",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Derbidae",
-          "commonName": "긴날개멸구과",
-          "ktsn": 120000025797
-        },
-        "genus": {
-          "scientificName": "Mysidioides",
-          "commonName": "알락긴날개멸구속",
-          "ktsn": 120000025809
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "sapporoensis",
-          "commonName": "알락긴날개멸구",
-          "ktsn": 120000025810
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:26:15.142Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "totalElements": 0,
-        "totalPages": 1,
-        "thumbnailUrl": null,
-        "thumbnail": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      },
-      "eol": {
-        "pageId": 227680,
-        "canonical": "Mysidioides sapporoensis",
-        "fetchedAt": "2026-05-24T10:04:35.338Z",
-        "vernaculars": {
-          "ko": [
-            "알락긴날개멸구"
-          ],
-          "en": [],
-          "ja": [
-            "クロフハネナガウンカ"
-          ]
-        },
-        "habitat": [],
-        "geographic": [
-          "Japan",
-          "South Korea"
-        ],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": 29
-      }
-    },
-    {
-      "ktsn": 120000025812,
-      "scientificName": "Pamendanga matsumurae (Muir, 1918)",
-      "commonName": "깨다시긴날개멸구",
-      "terminalLatinName": "matsumurae",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Derbidae",
-          "commonName": "긴날개멸구과",
-          "ktsn": 120000025797
-        },
-        "genus": {
-          "scientificName": "Pamendanga",
-          "commonName": "깨다시긴날개멸구속",
-          "ktsn": 120000025811
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "matsumurae",
-          "commonName": "깨다시긴날개멸구",
-          "ktsn": 120000025812
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:26:15.142Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
-        "thumbnailUrl": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      },
-      "eol": {
-        "pageId": 979079,
-        "canonical": "Pamendanga matsumurae",
-        "fetchedAt": "2026-05-24T10:04:38.877Z",
-        "vernaculars": {
-          "ko": [
-            "깨다시긴날개멸구"
-          ],
-          "en": [],
-          "ja": [
-            "マダラハネナガウンカ"
-          ]
-        },
-        "habitat": [],
-        "geographic": [
-          "Japan"
-        ],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": 35
-      }
-    },
-    {
-      "ktsn": 120000025814,
-      "scientificName": "Produsa koreana Rahman, Kwon and Suh, 2012",
-      "commonName": "한국긴날개멸구",
-      "terminalLatinName": "koreana",
-      "nomenclaturalAuthor": "Rahman, Kwon and Suh",
-      "namingYear": "2012",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Derbidae",
-          "commonName": "긴날개멸구과",
-          "ktsn": 120000025797
-        },
-        "genus": {
-          "scientificName": "Produsa",
-          "commonName": "",
-          "ktsn": 120000025813
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "koreana",
-          "commonName": "한국긴날개멸구",
-          "ktsn": 120000025814
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:26:15.142Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "totalElements": 0,
-        "totalPages": 1,
-        "thumbnailUrl": null,
-        "thumbnail": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      },
-      "eol": {
-        "pageId": 46923210,
-        "canonical": "Produsa koreana",
-        "fetchedAt": "2026-05-24T10:04:44.772Z",
-        "vernaculars": {
-          "ko": [
-            "한국긴날개멸구"
-          ],
-          "en": [],
-          "ja": []
-        },
-        "habitat": [],
-        "geographic": [
-          "Korea"
-        ],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": 8
-      }
-    },
-    {
-      "ktsn": 120000025816,
-      "scientificName": "Rhotana maculata Matsumura, 1914",
-      "commonName": "남방점긴날개멸구",
-      "terminalLatinName": "maculata",
-      "nomenclaturalAuthor": "Matsumura",
-      "namingYear": "1914",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Derbidae",
-          "commonName": "긴날개멸구과",
-          "ktsn": 120000025797
-        },
-        "genus": {
-          "scientificName": "Rhotana",
-          "commonName": "남방점긴날개멸구속",
-          "ktsn": 120000025815
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "maculata",
-          "commonName": "남방점긴날개멸구",
-          "ktsn": 120000025816
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:26:15.142Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
-        "thumbnailUrl": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      }
-    },
-    {
-      "ktsn": 120000235869,
-      "scientificName": "Shirakiana infumata (Matsumura, 1914)",
-      "commonName": "",
-      "terminalLatinName": "infumata",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Derbidae",
-          "commonName": "긴날개멸구과",
-          "ktsn": 120000025797
-        },
-        "genus": {
-          "scientificName": "Shirakiana",
-          "commonName": "",
-          "ktsn": 120000235868
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "infumata",
-          "commonName": "",
-          "ktsn": 120000235869
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:26:15.142Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "totalElements": 0,
-        "totalPages": 1,
-        "thumbnailUrl": null,
-        "thumbnail": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      }
-    },
-    {
-      "ktsn": 120000025818,
-      "scientificName": "Vekunta fuscolineata Rahman, Kwon and Suh, 2012",
-      "commonName": "검은줄긴날개멸구",
-      "terminalLatinName": "fuscolineata",
-      "nomenclaturalAuthor": "Rahman, Kwon and Suh",
-      "namingYear": "2012",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Derbidae",
-          "commonName": "긴날개멸구과",
-          "ktsn": 120000025797
-        },
-        "genus": {
-          "scientificName": "Vekunta",
-          "commonName": "",
-          "ktsn": 120000025817
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "fuscolineata",
-          "commonName": "검은줄긴날개멸구",
-          "ktsn": 120000025818
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:26:15.142Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "totalElements": 0,
-        "totalPages": 1,
-        "thumbnailUrl": null,
-        "thumbnail": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      }
-    },
-    {
-      "ktsn": 120000025819,
-      "scientificName": "Vekunta jahini Rahman, Kwon and Suh, 2012",
-      "commonName": "민무늬긴날개멸구",
-      "terminalLatinName": "jahini",
-      "nomenclaturalAuthor": "Rahman, Kwon and Suh",
-      "namingYear": "2012",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Derbidae",
-          "commonName": "긴날개멸구과",
-          "ktsn": 120000025797
-        },
-        "genus": {
-          "scientificName": "Vekunta",
-          "commonName": "",
-          "ktsn": 120000025817
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "jahini",
-          "commonName": "민무늬긴날개멸구",
-          "ktsn": 120000025819
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:26:15.142Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "totalElements": 0,
-        "totalPages": 1,
-        "thumbnailUrl": null,
-        "thumbnail": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      }
-    },
-    {
-      "ktsn": 120000025821,
-      "scientificName": "Zoraida albicans Anufriev, 1968",
-      "commonName": "무늬긴날개멸구",
-      "terminalLatinName": "albicans",
-      "nomenclaturalAuthor": "Anufriev",
-      "namingYear": "1968",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Derbidae",
-          "commonName": "긴날개멸구과",
-          "ktsn": 120000025797
-        },
-        "genus": {
-          "scientificName": "Zoraida",
-          "commonName": "설악산긴날개멸구속",
-          "ktsn": 120000025820
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "albicans",
-          "commonName": "무늬긴날개멸구",
-          "ktsn": 120000025821
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:26:15.142Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
-        "thumbnailUrl": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      }
-    },
-    {
-      "ktsn": 120000025822,
-      "scientificName": "Zoraida horishana Matsumura, 1914",
-      "commonName": "끝빨간긴날개멸구",
-      "terminalLatinName": "horishana",
-      "nomenclaturalAuthor": "Matsumura",
-      "namingYear": "1914",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Derbidae",
-          "commonName": "긴날개멸구과",
-          "ktsn": 120000025797
-        },
-        "genus": {
-          "scientificName": "Zoraida",
-          "commonName": "설악산긴날개멸구속",
-          "ktsn": 120000025820
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "horishana",
-          "commonName": "끝빨간긴날개멸구",
-          "ktsn": 120000025822
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:26:15.142Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
-        "thumbnailUrl": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      }
-    },
-    {
-      "ktsn": 120000235874,
-      "scientificName": "Zoraida hubeiensis Chou and Huang, 1985",
-      "commonName": "",
-      "terminalLatinName": "hubeiensis",
-      "nomenclaturalAuthor": "Chou and Huang",
-      "namingYear": "1985",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Derbidae",
-          "commonName": "긴날개멸구과",
-          "ktsn": 120000025797
-        },
-        "genus": {
-          "scientificName": "Zoraida",
-          "commonName": "설악산긴날개멸구속",
-          "ktsn": 120000025820
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "hubeiensis",
-          "commonName": "",
-          "ktsn": 120000235874
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:26:15.142Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "totalElements": 0,
-        "totalPages": 1,
-        "thumbnailUrl": null,
-        "thumbnail": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      }
-    },
-    {
-      "ktsn": 120000235875,
-      "scientificName": "Zoraida koannania Matsumura, 1914",
-      "commonName": "",
-      "terminalLatinName": "koannania",
-      "nomenclaturalAuthor": "Matsumura",
-      "namingYear": "1914",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Derbidae",
-          "commonName": "긴날개멸구과",
-          "ktsn": 120000025797
-        },
-        "genus": {
-          "scientificName": "Zoraida",
-          "commonName": "설악산긴날개멸구속",
-          "ktsn": 120000025820
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "koannania",
-          "commonName": "",
-          "ktsn": 120000235875
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:26:15.142Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "totalElements": 0,
-        "totalPages": 1,
-        "thumbnailUrl": null,
-        "thumbnail": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      }
-    },
-    {
-      "ktsn": 120000235876,
-      "scientificName": "Zoraida kuwayamae (Matsumura, 1913)",
-      "commonName": "",
-      "terminalLatinName": "kuwayamae",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Derbidae",
-          "commonName": "긴날개멸구과",
-          "ktsn": 120000025797
-        },
-        "genus": {
-          "scientificName": "Zoraida",
-          "commonName": "설악산긴날개멸구속",
-          "ktsn": 120000025820
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "kuwayamae",
-          "commonName": "",
-          "ktsn": 120000235876
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:26:15.142Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "totalElements": 0,
-        "totalPages": 1,
-        "thumbnailUrl": null,
-        "thumbnail": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      }
-    },
-    {
-      "ktsn": 120000025823,
-      "scientificName": "Zoraida pterophoroides Westwood, 1851",
-      "commonName": "설악산긴날개멸구",
-      "terminalLatinName": "pterophoroides",
-      "nomenclaturalAuthor": "Westwood",
-      "namingYear": "1851",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Derbidae",
-          "commonName": "긴날개멸구과",
-          "ktsn": 120000025797
-        },
-        "genus": {
-          "scientificName": "Zoraida",
-          "commonName": "설악산긴날개멸구속",
-          "ktsn": 120000025820
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "pterophoroides",
-          "commonName": "설악산긴날개멸구",
-          "ktsn": 120000025823
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:26:15.142Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "totalElements": 0,
-        "totalPages": 1,
-        "thumbnailUrl": null,
-        "thumbnail": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      }
-    }
-  ],
-  "digitalContentUpdatedAt": "2026-05-21T09:26:15.142Z",
-  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+    "generatedAt":  "2026-05-21T07:47:08.025Z",
+    "source":  "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+    "order":  {
+                  "id":  "hemiptera",
+                  "scientificName":  "Hemiptera",
+                  "commonName":  "노린재목",
+                  "orderKtsn":  120000066597
+              },
+    "family":  {
+                   "id":  "derbidae",
+                   "scientificName":  "Derbidae",
+                   "commonName":  "긴날개멸구과",
+                   "familyKtsn":  120000025797
+               },
+    "speciesCount":  22,
+    "insects":  [
+                    {
+                        "ktsn":  120000025799,
+                        "scientificName":  "Diostrombus politus Uhler, 1896",
+                        "commonName":  "주홍긴날개멸구",
+                        "terminalLatinName":  "politus",
+                        "nomenclaturalAuthor":  "Uhler",
+                        "namingYear":  "1896",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Derbidae",
+                                                        "commonName":  "긴날개멸구과",
+                                                        "ktsn":  120000025797
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Diostrombus",
+                                                       "commonName":  "주홍긴날개멸구속",
+                                                       "ktsn":  120000025798
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "politus",
+                                                         "commonName":  "주홍긴날개멸구",
+                                                         "ktsn":  120000025799
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:26:15.142Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
+                                               "thumbnailUrl":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "eol":  {
+                                    "pageId":  3731214,
+                                    "canonical":  "Diostrombus politus",
+                                    "fetchedAt":  "2026-05-24T10:04:15.413Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+                                                                   "주홍긴날개멸구"
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+                                                                   "アカハネナガウンカ"
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+                                                       "Japan",
+                                                       "South Korea",
+                                                       "China"
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  876
+                                },
+                        "inat":  {
+                                     "observationCount":  38,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/143653024/medium.jpg",
+                                     "months":  [
+                                                    7,
+                                                    8,
+                                                    9
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000025801,
+                        "scientificName":  "Epotiocerus flexuosus (Uhler, 1896)",
+                        "commonName":  "정숙긴날개멸구",
+                        "terminalLatinName":  "flexuosus",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Derbidae",
+                                                        "commonName":  "긴날개멸구과",
+                                                        "ktsn":  120000025797
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Epotiocerus",
+                                                       "commonName":  "정숙긴날개멸구속",
+                                                       "ktsn":  120000025800
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "flexuosus",
+                                                         "commonName":  "정숙긴날개멸구",
+                                                         "ktsn":  120000025801
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:26:15.142Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "totalElements":  0,
+                                               "totalPages":  1,
+                                               "thumbnailUrl":  null,
+                                               "thumbnail":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "eol":  {
+                                    "pageId":  30283876,
+                                    "canonical":  "Epotiocerus flexuosus",
+                                    "fetchedAt":  "2026-05-24T10:04:20.654Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  null
+                                }
+                    },
+                    {
+                        "ktsn":  120000025803,
+                        "scientificName":  "Hauptenia palgongsanensis Rahman, Kwon and Suh, 2012",
+                        "commonName":  "팔공산긴날개멸구",
+                        "terminalLatinName":  "palgongsanensis",
+                        "nomenclaturalAuthor":  "Rahman, Kwon and Suh",
+                        "namingYear":  "2012",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Derbidae",
+                                                        "commonName":  "긴날개멸구과",
+                                                        "ktsn":  120000025797
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Hauptenia",
+                                                       "commonName":  "",
+                                                       "ktsn":  120000025802
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "palgongsanensis",
+                                                         "commonName":  "팔공산긴날개멸구",
+                                                         "ktsn":  120000025803
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:26:15.142Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "totalElements":  0,
+                                               "totalPages":  1,
+                                               "thumbnailUrl":  null,
+                                               "thumbnail":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "eol":  {
+                                    "pageId":  46923398,
+                                    "canonical":  "Hauptenia palgongsanensis",
+                                    "fetchedAt":  "2026-05-24T10:04:25.898Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+                                                                   "팔공산긴날개멸구"
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+                                                       "Korea",
+                                                       "South Korea"
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  14
+                                },
+                        "inat":  {
+                                     "observationCount":  1,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/112435036/medium.jpeg",
+                                     "months":  [
+                                                    8
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000025804,
+                        "scientificName":  "Hauptenia tripartita Rahman, Kwon and Suh, 2012",
+                        "commonName":  "세갈래긴날개멸구",
+                        "terminalLatinName":  "tripartita",
+                        "nomenclaturalAuthor":  "Rahman, Kwon and Suh",
+                        "namingYear":  "2012",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Derbidae",
+                                                        "commonName":  "긴날개멸구과",
+                                                        "ktsn":  120000025797
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Hauptenia",
+                                                       "commonName":  "",
+                                                       "ktsn":  120000025802
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "tripartita",
+                                                         "commonName":  "세갈래긴날개멸구",
+                                                         "ktsn":  120000025804
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:26:15.142Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "totalElements":  0,
+                                               "totalPages":  1,
+                                               "thumbnailUrl":  null,
+                                               "thumbnail":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "eol":  {
+                                    "pageId":  46923397,
+                                    "canonical":  "Hauptenia tripartita",
+                                    "fetchedAt":  "2026-05-24T10:04:31.755Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+                                                                   "세갈래긴날개멸구"
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+                                                       "Korea",
+                                                       "South Korea"
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  6
+                                },
+                        "inat":  {
+                                     "observationCount":  3,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/24164947/medium.jpg",
+                                     "months":  [
+                                                    8,
+                                                    9
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000522079,
+                        "scientificName":  "Kamendaka aculeata Yang and Wu, 1994",
+                        "commonName":  "가시고려긴날개멸구",
+                        "terminalLatinName":  "aculeata",
+                        "nomenclaturalAuthor":  "Yang and Wu",
+                        "namingYear":  "1994",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Derbidae",
+                                                        "commonName":  "긴날개멸구과",
+                                                        "ktsn":  120000025797
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Kamendaka",
+                                                       "commonName":  "고려긴날개멸구속",
+                                                       "ktsn":  120000025805
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "aculeata",
+                                                         "commonName":  "가시고려긴날개멸구",
+                                                         "ktsn":  120000522079
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:26:15.142Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "totalElements":  0,
+                                               "totalPages":  1,
+                                               "thumbnailUrl":  null,
+                                               "thumbnail":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           }
+                    },
+                    {
+                        "ktsn":  120000513647,
+                        "scientificName":  "Kamendaka annulata Yang and Wu, 1994",
+                        "commonName":  "고리고려긴날개멸구",
+                        "terminalLatinName":  "annulata",
+                        "nomenclaturalAuthor":  "Yang and Wu",
+                        "namingYear":  "1994",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Derbidae",
+                                                        "commonName":  "긴날개멸구과",
+                                                        "ktsn":  120000025797
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Kamendaka",
+                                                       "commonName":  "고려긴날개멸구속",
+                                                       "ktsn":  120000025805
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "annulata",
+                                                         "commonName":  "고리고려긴날개멸구",
+                                                         "ktsn":  120000513647
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:26:15.142Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
+                                               "thumbnailUrl":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           }
+                    },
+                    {
+                        "ktsn":  120000507108,
+                        "scientificName":  "Kamendaka jejuensis Park and Jung, 2022",
+                        "commonName":  "광대긴날개멸구",
+                        "terminalLatinName":  "jejuensis",
+                        "nomenclaturalAuthor":  "Park and Jung",
+                        "namingYear":  "2022",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "Y",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Derbidae",
+                                                        "commonName":  "긴날개멸구과",
+                                                        "ktsn":  120000025797
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Kamendaka",
+                                                       "commonName":  "고려긴날개멸구속",
+                                                       "ktsn":  120000025805
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "jejuensis",
+                                                         "commonName":  "광대긴날개멸구",
+                                                         "ktsn":  120000507108
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:26:15.142Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "totalElements":  0,
+                                               "totalPages":  1,
+                                               "thumbnailUrl":  null,
+                                               "thumbnail":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           }
+                    },
+                    {
+                        "ktsn":  120000025806,
+                        "scientificName":  "Kamendaka koreana Matsumura, 1915",
+                        "commonName":  "고려긴날개멸구",
+                        "terminalLatinName":  "koreana",
+                        "nomenclaturalAuthor":  "Matsumura",
+                        "namingYear":  "1915",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "Y",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Derbidae",
+                                                        "commonName":  "긴날개멸구과",
+                                                        "ktsn":  120000025797
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Kamendaka",
+                                                       "commonName":  "고려긴날개멸구속",
+                                                       "ktsn":  120000025805
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "koreana",
+                                                         "commonName":  "고려긴날개멸구",
+                                                         "ktsn":  120000025806
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:26:15.142Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
+                                               "thumbnailUrl":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "eol":  {
+                                    "pageId":  228541,
+                                    "canonical":  "Kamendaka koreana",
+                                    "fetchedAt":  "2026-05-24T10:04:33.672Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  null
+                                }
+                    },
+                    {
+                        "ktsn":  120000108376,
+                        "scientificName":  "Losbanosia hibarensis (Matsumura, 1935)",
+                        "commonName":  "동해긴날개멸구",
+                        "terminalLatinName":  "hibarensis",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Derbidae",
+                                                        "commonName":  "긴날개멸구과",
+                                                        "ktsn":  120000025797
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Losbanosia",
+                                                       "commonName":  "동해긴날개멸구속",
+                                                       "ktsn":  120000025807
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "hibarensis",
+                                                         "commonName":  "동해긴날개멸구",
+                                                         "ktsn":  120000108376
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:26:15.142Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
+                                               "thumbnailUrl":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "inat":  {
+                                     "observationCount":  10,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/348616812/medium.jpg",
+                                     "months":  [
+                                                    7,
+                                                    8
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000025810,
+                        "scientificName":  "Mysidioides sapporoensis (Matsumura, 1900)",
+                        "commonName":  "알락긴날개멸구",
+                        "terminalLatinName":  "sapporoensis",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Derbidae",
+                                                        "commonName":  "긴날개멸구과",
+                                                        "ktsn":  120000025797
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Mysidioides",
+                                                       "commonName":  "알락긴날개멸구속",
+                                                       "ktsn":  120000025809
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "sapporoensis",
+                                                         "commonName":  "알락긴날개멸구",
+                                                         "ktsn":  120000025810
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:26:15.142Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "totalElements":  0,
+                                               "totalPages":  1,
+                                               "thumbnailUrl":  null,
+                                               "thumbnail":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "eol":  {
+                                    "pageId":  227680,
+                                    "canonical":  "Mysidioides sapporoensis",
+                                    "fetchedAt":  "2026-05-24T10:04:35.338Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+                                                                   "알락긴날개멸구"
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+                                                                   "クロフハネナガウンカ"
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+                                                       "Japan",
+                                                       "South Korea"
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  29
+                                },
+                        "inat":  {
+                                     "observationCount":  3,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/143560761/medium.jpg",
+                                     "months":  [
+                                                    6,
+                                                    7
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000025812,
+                        "scientificName":  "Pamendanga matsumurae (Muir, 1918)",
+                        "commonName":  "깨다시긴날개멸구",
+                        "terminalLatinName":  "matsumurae",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Derbidae",
+                                                        "commonName":  "긴날개멸구과",
+                                                        "ktsn":  120000025797
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Pamendanga",
+                                                       "commonName":  "깨다시긴날개멸구속",
+                                                       "ktsn":  120000025811
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "matsumurae",
+                                                         "commonName":  "깨다시긴날개멸구",
+                                                         "ktsn":  120000025812
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:26:15.142Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
+                                               "thumbnailUrl":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "eol":  {
+                                    "pageId":  979079,
+                                    "canonical":  "Pamendanga matsumurae",
+                                    "fetchedAt":  "2026-05-24T10:04:38.877Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+                                                                   "깨다시긴날개멸구"
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+                                                                   "マダラハネナガウンカ"
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+                                                       "Japan"
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  35
+                                },
+                        "inat":  {
+                                     "observationCount":  4,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/91192657/medium.jpeg",
+                                     "months":  [
+                                                    8
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000025814,
+                        "scientificName":  "Produsa koreana Rahman, Kwon and Suh, 2012",
+                        "commonName":  "한국긴날개멸구",
+                        "terminalLatinName":  "koreana",
+                        "nomenclaturalAuthor":  "Rahman, Kwon and Suh",
+                        "namingYear":  "2012",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Derbidae",
+                                                        "commonName":  "긴날개멸구과",
+                                                        "ktsn":  120000025797
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Produsa",
+                                                       "commonName":  "",
+                                                       "ktsn":  120000025813
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "koreana",
+                                                         "commonName":  "한국긴날개멸구",
+                                                         "ktsn":  120000025814
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:26:15.142Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "totalElements":  0,
+                                               "totalPages":  1,
+                                               "thumbnailUrl":  null,
+                                               "thumbnail":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "eol":  {
+                                    "pageId":  46923210,
+                                    "canonical":  "Produsa koreana",
+                                    "fetchedAt":  "2026-05-24T10:04:44.772Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+                                                                   "한국긴날개멸구"
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+                                                       "Korea"
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  8
+                                },
+                        "inat":  {
+                                     "observationCount":  1,
+                                     "imageUrl":  null,
+                                     "months":  [
+                                                    8
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000025816,
+                        "scientificName":  "Rhotana maculata Matsumura, 1914",
+                        "commonName":  "남방점긴날개멸구",
+                        "terminalLatinName":  "maculata",
+                        "nomenclaturalAuthor":  "Matsumura",
+                        "namingYear":  "1914",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Derbidae",
+                                                        "commonName":  "긴날개멸구과",
+                                                        "ktsn":  120000025797
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Rhotana",
+                                                       "commonName":  "남방점긴날개멸구속",
+                                                       "ktsn":  120000025815
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "maculata",
+                                                         "commonName":  "남방점긴날개멸구",
+                                                         "ktsn":  120000025816
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:26:15.142Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
+                                               "thumbnailUrl":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "inat":  {
+                                     "observationCount":  12,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/577670942/medium.jpg",
+                                     "months":  [
+                                                    7,
+                                                    8,
+                                                    9
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000235869,
+                        "scientificName":  "Shirakiana infumata (Matsumura, 1914)",
+                        "commonName":  "",
+                        "terminalLatinName":  "infumata",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Derbidae",
+                                                        "commonName":  "긴날개멸구과",
+                                                        "ktsn":  120000025797
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Shirakiana",
+                                                       "commonName":  "",
+                                                       "ktsn":  120000235868
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "infumata",
+                                                         "commonName":  "",
+                                                         "ktsn":  120000235869
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:26:15.142Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "totalElements":  0,
+                                               "totalPages":  1,
+                                               "thumbnailUrl":  null,
+                                               "thumbnail":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           }
+                    },
+                    {
+                        "ktsn":  120000025818,
+                        "scientificName":  "Vekunta fuscolineata Rahman, Kwon and Suh, 2012",
+                        "commonName":  "검은줄긴날개멸구",
+                        "terminalLatinName":  "fuscolineata",
+                        "nomenclaturalAuthor":  "Rahman, Kwon and Suh",
+                        "namingYear":  "2012",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Derbidae",
+                                                        "commonName":  "긴날개멸구과",
+                                                        "ktsn":  120000025797
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Vekunta",
+                                                       "commonName":  "",
+                                                       "ktsn":  120000025817
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "fuscolineata",
+                                                         "commonName":  "검은줄긴날개멸구",
+                                                         "ktsn":  120000025818
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:26:15.142Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "totalElements":  0,
+                                               "totalPages":  1,
+                                               "thumbnailUrl":  null,
+                                               "thumbnail":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "inat":  {
+                                     "observationCount":  2,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/250402173/medium.jpg",
+                                     "months":  [
+                                                    7,
+                                                    9
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000025819,
+                        "scientificName":  "Vekunta jahini Rahman, Kwon and Suh, 2012",
+                        "commonName":  "민무늬긴날개멸구",
+                        "terminalLatinName":  "jahini",
+                        "nomenclaturalAuthor":  "Rahman, Kwon and Suh",
+                        "namingYear":  "2012",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Derbidae",
+                                                        "commonName":  "긴날개멸구과",
+                                                        "ktsn":  120000025797
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Vekunta",
+                                                       "commonName":  "",
+                                                       "ktsn":  120000025817
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "jahini",
+                                                         "commonName":  "민무늬긴날개멸구",
+                                                         "ktsn":  120000025819
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:26:15.142Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "totalElements":  0,
+                                               "totalPages":  1,
+                                               "thumbnailUrl":  null,
+                                               "thumbnail":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "inat":  {
+                                     "observationCount":  11,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/213752868/medium.jpg",
+                                     "months":  [
+                                                    8,
+                                                    9
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000025821,
+                        "scientificName":  "Zoraida albicans Anufriev, 1968",
+                        "commonName":  "무늬긴날개멸구",
+                        "terminalLatinName":  "albicans",
+                        "nomenclaturalAuthor":  "Anufriev",
+                        "namingYear":  "1968",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Derbidae",
+                                                        "commonName":  "긴날개멸구과",
+                                                        "ktsn":  120000025797
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Zoraida",
+                                                       "commonName":  "설악산긴날개멸구속",
+                                                       "ktsn":  120000025820
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "albicans",
+                                                         "commonName":  "무늬긴날개멸구",
+                                                         "ktsn":  120000025821
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:26:15.142Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
+                                               "thumbnailUrl":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "inat":  {
+                                     "observationCount":  1,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/144033367/medium.png",
+                                     "months":  [
+                                                    7
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000025822,
+                        "scientificName":  "Zoraida horishana Matsumura, 1914",
+                        "commonName":  "끝빨간긴날개멸구",
+                        "terminalLatinName":  "horishana",
+                        "nomenclaturalAuthor":  "Matsumura",
+                        "namingYear":  "1914",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Derbidae",
+                                                        "commonName":  "긴날개멸구과",
+                                                        "ktsn":  120000025797
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Zoraida",
+                                                       "commonName":  "설악산긴날개멸구속",
+                                                       "ktsn":  120000025820
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "horishana",
+                                                         "commonName":  "끝빨간긴날개멸구",
+                                                         "ktsn":  120000025822
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:26:15.142Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
+                                               "thumbnailUrl":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "inat":  {
+                                     "observationCount":  3,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/249915382/medium.jpg",
+                                     "months":  [
+                                                    7,
+                                                    8,
+                                                    9
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000235874,
+                        "scientificName":  "Zoraida hubeiensis Chou and Huang, 1985",
+                        "commonName":  "",
+                        "terminalLatinName":  "hubeiensis",
+                        "nomenclaturalAuthor":  "Chou and Huang",
+                        "namingYear":  "1985",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Derbidae",
+                                                        "commonName":  "긴날개멸구과",
+                                                        "ktsn":  120000025797
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Zoraida",
+                                                       "commonName":  "설악산긴날개멸구속",
+                                                       "ktsn":  120000025820
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "hubeiensis",
+                                                         "commonName":  "",
+                                                         "ktsn":  120000235874
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:26:15.142Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "totalElements":  0,
+                                               "totalPages":  1,
+                                               "thumbnailUrl":  null,
+                                               "thumbnail":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           }
+                    },
+                    {
+                        "ktsn":  120000235875,
+                        "scientificName":  "Zoraida koannania Matsumura, 1914",
+                        "commonName":  "",
+                        "terminalLatinName":  "koannania",
+                        "nomenclaturalAuthor":  "Matsumura",
+                        "namingYear":  "1914",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Derbidae",
+                                                        "commonName":  "긴날개멸구과",
+                                                        "ktsn":  120000025797
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Zoraida",
+                                                       "commonName":  "설악산긴날개멸구속",
+                                                       "ktsn":  120000025820
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "koannania",
+                                                         "commonName":  "",
+                                                         "ktsn":  120000235875
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:26:15.142Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "totalElements":  0,
+                                               "totalPages":  1,
+                                               "thumbnailUrl":  null,
+                                               "thumbnail":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           }
+                    },
+                    {
+                        "ktsn":  120000235876,
+                        "scientificName":  "Zoraida kuwayamae (Matsumura, 1913)",
+                        "commonName":  "",
+                        "terminalLatinName":  "kuwayamae",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Derbidae",
+                                                        "commonName":  "긴날개멸구과",
+                                                        "ktsn":  120000025797
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Zoraida",
+                                                       "commonName":  "설악산긴날개멸구속",
+                                                       "ktsn":  120000025820
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "kuwayamae",
+                                                         "commonName":  "",
+                                                         "ktsn":  120000235876
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:26:15.142Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "totalElements":  0,
+                                               "totalPages":  1,
+                                               "thumbnailUrl":  null,
+                                               "thumbnail":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           }
+                    },
+                    {
+                        "ktsn":  120000025823,
+                        "scientificName":  "Zoraida pterophoroides Westwood, 1851",
+                        "commonName":  "설악산긴날개멸구",
+                        "terminalLatinName":  "pterophoroides",
+                        "nomenclaturalAuthor":  "Westwood",
+                        "namingYear":  "1851",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Derbidae",
+                                                        "commonName":  "긴날개멸구과",
+                                                        "ktsn":  120000025797
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Zoraida",
+                                                       "commonName":  "설악산긴날개멸구속",
+                                                       "ktsn":  120000025820
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "pterophoroides",
+                                                         "commonName":  "설악산긴날개멸구",
+                                                         "ktsn":  120000025823
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:26:15.142Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "totalElements":  0,
+                                               "totalPages":  1,
+                                               "thumbnailUrl":  null,
+                                               "thumbnail":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           }
+                    }
+                ],
+    "digitalContentUpdatedAt":  "2026-05-21T09:26:15.142Z",
+    "digitalContentSource":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
 }

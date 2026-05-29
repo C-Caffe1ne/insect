@@ -1,990 +1,1205 @@
 {
-  "generatedAt": "2026-05-21T07:47:08.025Z",
-  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
-  "order": {
-    "id": "hemiptera",
-    "scientificName": "Hemiptera",
-    "commonName": "노린재목",
-    "orderKtsn": 120000066597
-  },
-  "family": {
-    "id": "rhopalidae",
-    "scientificName": "Rhopalidae",
-    "commonName": "잡초노린재과",
-    "familyKtsn": 120000027059
-  },
-  "speciesCount": 14,
-  "insects": [
-    {
-      "ktsn": 120000027061,
-      "scientificName": "Brachycarenus tigrinus ",
-      "commonName": "호리잡초노린재",
-      "terminalLatinName": "tigrinus",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Rhopalidae",
-          "commonName": "잡초노린재과",
-          "ktsn": 120000027059
-        },
-        "genus": {
-          "scientificName": "Brachycarenus",
-          "commonName": "호리잡초노린재속",
-          "ktsn": 120000027060
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "tigrinus",
-          "commonName": "호리잡초노린재",
-          "ktsn": 120000027061
-        }
-      },
-      "eol": {
-        "pageId": 3688301,
-        "canonical": "Brachycarenus tigrinus",
-        "fetchedAt": "2026-05-24T10:23:25.571Z",
-        "vernaculars": {
-          "ko": [
-            "호리잡초노린재"
-          ],
-          "en": [
-            "Scentless plant bug"
-          ],
-          "ja": []
-        },
-        "habitat": [],
-        "geographic": [
-          "Austria",
-          "Canada",
-          "Denmark",
-          "Finland",
-          "Germany",
-          "Greece",
-          "Luxembourg",
-          "Sweden",
-          "The Netherlands",
-          "United Kingdom",
-          "Mozambique Channel",
-          "North Atlantic",
-          "United States",
-          "North America",
-          "Iran"
-        ],
-        "introduced": [
-          "The Contiguous United States"
-        ],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": 1367
-      }
-    },
-    {
-      "ktsn": 120000027064,
-      "scientificName": "Corizus hyoscyami hyoscyami (Linnaeus, 1758)",
-      "commonName": "무당잡초노린재",
-      "terminalLatinName": "hyoscyami",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Rhopalidae",
-          "commonName": "잡초노린재과",
-          "ktsn": 120000027059
-        },
-        "genus": {
-          "scientificName": "Corizus",
-          "commonName": "무당잡초노린재속",
-          "ktsn": 120000027062
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "hyoscyami",
-          "commonName": "무당잡초노린재",
-          "ktsn": 120000027063
-        }
-      },
-      "eol": {
-        "pageId": 3685755,
-        "canonical": "Corizus hyoscyami hyoscyami",
-        "fetchedAt": "2026-05-24T10:23:29.752Z",
-        "vernaculars": {
-          "ko": [],
-          "en": [],
-          "ja": []
-        },
-        "habitat": [],
-        "geographic": [],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": 531
-      }
-    },
-    {
-      "ktsn": 120000027065,
-      "scientificName": "Corizus tetraspilus Horváth, 1917",
-      "commonName": "새무당잡초노린재",
-      "terminalLatinName": "tetraspilus",
-      "nomenclaturalAuthor": "Horváth",
-      "namingYear": "1917",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Rhopalidae",
-          "commonName": "잡초노린재과",
-          "ktsn": 120000027059
-        },
-        "genus": {
-          "scientificName": "Corizus",
-          "commonName": "무당잡초노린재속",
-          "ktsn": 120000027062
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "tetraspilus",
-          "commonName": "새무당잡초노린재",
-          "ktsn": 120000027065
-        }
-      },
-      "eol": {
-        "pageId": 3685752,
-        "canonical": "Corizus tetraspilus",
-        "fetchedAt": "2026-05-24T10:23:35.694Z",
-        "vernaculars": {
-          "ko": [
-            "새무당잡초노린재"
-          ],
-          "en": [],
-          "ja": []
-        },
-        "habitat": [],
-        "geographic": [],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": 100
-      }
-    },
-    {
-      "ktsn": 120000027067,
-      "scientificName": "Liorhyssus hyalinus (Fabricius, 1794)",
-      "commonName": "투명잡초노린재",
-      "terminalLatinName": "hyalinus",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Rhopalidae",
-          "commonName": "잡초노린재과",
-          "ktsn": 120000027059
-        },
-        "genus": {
-          "scientificName": "Liorhyssus",
-          "commonName": "투명잡초노린재속",
-          "ktsn": 120000027066
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "hyalinus",
-          "commonName": "투명잡초노린재",
-          "ktsn": 120000027067
-        }
-      },
-      "eol": {
-        "pageId": 609988,
-        "canonical": "Liorhyssus hyalinus",
-        "fetchedAt": "2026-05-24T10:23:38.867Z",
-        "vernaculars": {
-          "ko": [
-            "투명잡초노린재"
-          ],
-          "en": [
-            "Hyaline Grass Bug",
-            "Scentless plant bug",
-            "Hyaline Grass Bug"
-          ],
-          "ja": [
-            "スカシヒメヘリカメムシ"
-          ]
-        },
-        "habitat": [],
-        "geographic": [
-          "Chile",
-          "Guatemala",
-          "Bermuda",
-          "Venezuela",
-          "Colombia",
-          "Haiti",
-          "Paraguay",
-          "Jamaica",
-          "Puerto Rico",
-          "Cuba",
-          "Bolivia",
-          "Grenada",
-          "Argentina",
-          "Antilles",
-          "Brazil",
-          "The Dominican Republic",
-          "Nicaragua",
-          "United States",
-          "Mozambique",
-          "North Pacific",
-          "North Atlantic",
-          "Mexico",
-          "Japan",
-          "United Kingdom",
-          "Turkey",
-          "The Netherlands",
-          "Sweden",
-          "Ireland",
-          "India",
-          "Hong Kong",
-          "Greece",
-          "Germany",
-          "China",
-          "Belgium",
-          "Austria"
-        ],
-        "introduced": [
-          "The Hawaiian Islands"
-        ],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": 5365
-      }
-    },
-    {
-      "ktsn": 120000027069,
-      "scientificName": "Myrmus lateralis Hsiao, 1964",
-      "commonName": "옆소금쟁이잡초노린재",
-      "terminalLatinName": "lateralis",
-      "nomenclaturalAuthor": "Hsiao",
-      "namingYear": "1964",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Rhopalidae",
-          "commonName": "잡초노린재과",
-          "ktsn": 120000027059
-        },
-        "genus": {
-          "scientificName": "Myrmus",
-          "commonName": "소금쟁이잡초노린재속",
-          "ktsn": 120000027068
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "lateralis",
-          "commonName": "옆소금쟁이잡초노린재",
-          "ktsn": 120000027069
-        }
-      },
-      "eol": {
-        "pageId": 24762173,
-        "canonical": "Myrmus lateralis",
-        "fetchedAt": "2026-05-24T10:23:43.547Z",
-        "vernaculars": {
-          "ko": [],
-          "en": [],
-          "ja": []
-        },
-        "habitat": [
-          "lake",
-          "mountain",
-          "temperate"
-        ],
-        "geographic": [
-          "Mongolia",
-          "Asia",
-          "China"
-        ],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": 79
-      }
-    },
-    {
-      "ktsn": 120000027071,
-      "scientificName": "Myrmus miriformis gracilis Lindberg, 1927",
-      "commonName": "소금쟁이잡초노린재",
-      "terminalLatinName": "gracilis",
-      "nomenclaturalAuthor": "Lindberg",
-      "namingYear": "1927",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Rhopalidae",
-          "commonName": "잡초노린재과",
-          "ktsn": 120000027059
-        },
-        "genus": {
-          "scientificName": "Myrmus",
-          "commonName": "소금쟁이잡초노린재속",
-          "ktsn": 120000027068
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "miriformis",
-          "commonName": "",
-          "ktsn": 120000027070
-        }
-      },
-      "eol": {
-        "pageId": 24762171,
-        "canonical": "Myrmus miriformis gracilis",
-        "fetchedAt": "2026-05-24T10:23:48.085Z",
-        "vernaculars": {
-          "ko": [],
-          "en": [],
-          "ja": []
-        },
-        "habitat": [],
-        "geographic": [],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": 12
-      }
-    },
-    {
-      "ktsn": 120000027074,
-      "scientificName": "Rhopalus (Aeschyntelus) latus (Jakovlev, 1883)",
-      "commonName": "긴잡초노린재",
-      "terminalLatinName": "latus",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Rhopalidae",
-          "commonName": "잡초노린재과",
-          "ktsn": 120000027059
-        },
-        "genus": {
-          "scientificName": "Rhopalus",
-          "commonName": "잡초노린재속",
-          "ktsn": 120000027072
-        },
-        "subgenus": {
-          "scientificName": "Aeschyntelus",
-          "commonName": "",
-          "ktsn": 120000027073
-        },
-        "species": {
-          "scientificName": "latus",
-          "commonName": "긴잡초노린재",
-          "ktsn": 120000027074
-        }
-      },
-      "eol": {
-        "pageId": 3688247,
-        "canonical": "Rhopalus latus",
-        "fetchedAt": "2026-05-24T10:23:52.958Z",
-        "vernaculars": {
-          "ko": [
-            "긴잡초노린재"
-          ],
-          "en": [],
-          "ja": [
-            "オオヒメヘリカメムシ"
-          ]
-        },
-        "habitat": [],
-        "geographic": [],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": 208
-      }
-    },
-    {
-      "ktsn": 120000027075,
-      "scientificName": "Rhopalus (Aeschyntelus) maculatus (Fieber, 1837)",
-      "commonName": "붉은잡초노린재",
-      "terminalLatinName": "maculatus",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Rhopalidae",
-          "commonName": "잡초노린재과",
-          "ktsn": 120000027059
-        },
-        "genus": {
-          "scientificName": "Rhopalus",
-          "commonName": "잡초노린재속",
-          "ktsn": 120000027072
-        },
-        "subgenus": {
-          "scientificName": "Aeschyntelus",
-          "commonName": "",
-          "ktsn": 120000027073
-        },
-        "species": {
-          "scientificName": "maculatus",
-          "commonName": "붉은잡초노린재",
-          "ktsn": 120000027075
-        }
-      },
-      "eol": {
-        "pageId": 3688245,
-        "canonical": "Rhopalus maculatus",
-        "fetchedAt": "2026-05-24T10:23:55.559Z",
-        "vernaculars": {
-          "ko": [
-            "붉은잡초노린재"
-          ],
-          "en": [
-            "marsh rhopalid"
-          ],
-          "ja": [
-            "アカヒメヘリカメムシ"
-          ]
-        },
-        "habitat": [],
-        "geographic": [
-          "Iran",
-          "Africa",
-          "the Palearctic",
-          "Norway",
-          "Austria",
-          "Czech Republic",
-          "Denmark",
-          "Estonia",
-          "Finland",
-          "France",
-          "Germany",
-          "Luxembourg",
-          "Poland",
-          "Russia",
-          "Sweden",
-          "United Kingdom",
-          "Japan",
-          "North Pacific"
-        ],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": 5474
-      }
-    },
-    {
-      "ktsn": 120000027076,
-      "scientificName": "Rhopalus (Aeschyntelus) sapporensis (Matsumura, 1905)",
-      "commonName": "삿포로잡초노린재",
-      "terminalLatinName": "sapporensis",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Rhopalidae",
-          "commonName": "잡초노린재과",
-          "ktsn": 120000027059
-        },
-        "genus": {
-          "scientificName": "Rhopalus",
-          "commonName": "잡초노린재속",
-          "ktsn": 120000027072
-        },
-        "subgenus": {
-          "scientificName": "Aeschyntelus",
-          "commonName": "",
-          "ktsn": 120000027073
-        },
-        "species": {
-          "scientificName": "sapporensis",
-          "commonName": "삿포로잡초노린재",
-          "ktsn": 120000027076
-        }
-      }
-    },
-    {
-      "ktsn": 120000027078,
-      "scientificName": "Rhopalus (Rhopalus) parumpunctatus Schilling, 1829",
-      "commonName": "잡초노린재",
-      "terminalLatinName": "parumpunctatus",
-      "nomenclaturalAuthor": "Schilling",
-      "namingYear": "1829",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Rhopalidae",
-          "commonName": "잡초노린재과",
-          "ktsn": 120000027059
-        },
-        "genus": {
-          "scientificName": "Rhopalus",
-          "commonName": "잡초노린재속",
-          "ktsn": 120000027072
-        },
-        "subgenus": {
-          "scientificName": "Rhopalus",
-          "commonName": "",
-          "ktsn": 120000027077
-        },
-        "species": {
-          "scientificName": "parumpunctatus",
-          "commonName": "잡초노린재",
-          "ktsn": 120000027078
-        }
-      }
-    },
-    {
-      "ktsn": 120000027080,
-      "scientificName": "Stictopleurus crassicornis (Linnaeus, 1758)",
-      "commonName": "흑다리잡초노린재",
-      "terminalLatinName": "crassicornis",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Rhopalidae",
-          "commonName": "잡초노린재과",
-          "ktsn": 120000027059
-        },
-        "genus": {
-          "scientificName": "Stictopleurus",
-          "commonName": "흑다리잡초노린재속",
-          "ktsn": 120000027079
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "crassicornis",
-          "commonName": "흑다리잡초노린재",
-          "ktsn": 120000027080
-        }
-      }
-    },
-    {
-      "ktsn": 120000027081,
-      "scientificName": "Stictopleurus minutus Blöte, 1934",
-      "commonName": "점흑다리잡초노린재",
-      "terminalLatinName": "minutus",
-      "nomenclaturalAuthor": "Blöte",
-      "namingYear": "1934",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Rhopalidae",
-          "commonName": "잡초노린재과",
-          "ktsn": 120000027059
-        },
-        "genus": {
-          "scientificName": "Stictopleurus",
-          "commonName": "흑다리잡초노린재속",
-          "ktsn": 120000027079
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "minutus",
-          "commonName": "점흑다리잡초노린재",
-          "ktsn": 120000027081
-        }
-      }
-    },
-    {
-      "ktsn": 120000027082,
-      "scientificName": "Stictopleurus punctatonervosus (Goeze, 1778)",
-      "commonName": "",
-      "terminalLatinName": "punctatonervosus",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Rhopalidae",
-          "commonName": "잡초노린재과",
-          "ktsn": 120000027059
-        },
-        "genus": {
-          "scientificName": "Stictopleurus",
-          "commonName": "흑다리잡초노린재속",
-          "ktsn": 120000027079
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "punctatonervosus",
-          "commonName": "",
-          "ktsn": 120000027082
-        }
-      }
-    },
-    {
-      "ktsn": 120000027083,
-      "scientificName": "Stictopleurus viridicatus Uhler, 1872",
-      "commonName": "팔방흑다리잡초노린재",
-      "terminalLatinName": "viridicatus",
-      "nomenclaturalAuthor": "Uhler",
-      "namingYear": "1872",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Rhopalidae",
-          "commonName": "잡초노린재과",
-          "ktsn": 120000027059
-        },
-        "genus": {
-          "scientificName": "Stictopleurus",
-          "commonName": "흑다리잡초노린재속",
-          "ktsn": 120000027079
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "viridicatus",
-          "commonName": "팔방흑다리잡초노린재",
-          "ktsn": 120000027083
-        }
-      }
-    }
-  ]
+    "generatedAt":  "2026-05-21T07:47:08.025Z",
+    "source":  "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+    "order":  {
+                  "id":  "hemiptera",
+                  "scientificName":  "Hemiptera",
+                  "commonName":  "노린재목",
+                  "orderKtsn":  120000066597
+              },
+    "family":  {
+                   "id":  "rhopalidae",
+                   "scientificName":  "Rhopalidae",
+                   "commonName":  "잡초노린재과",
+                   "familyKtsn":  120000027059
+               },
+    "speciesCount":  14,
+    "insects":  [
+                    {
+                        "ktsn":  120000027061,
+                        "scientificName":  "Brachycarenus tigrinus ",
+                        "commonName":  "호리잡초노린재",
+                        "terminalLatinName":  "tigrinus",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Rhopalidae",
+                                                        "commonName":  "잡초노린재과",
+                                                        "ktsn":  120000027059
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Brachycarenus",
+                                                       "commonName":  "호리잡초노린재속",
+                                                       "ktsn":  120000027060
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "tigrinus",
+                                                         "commonName":  "호리잡초노린재",
+                                                         "ktsn":  120000027061
+                                                     }
+                                     },
+                        "eol":  {
+                                    "pageId":  3688301,
+                                    "canonical":  "Brachycarenus tigrinus",
+                                    "fetchedAt":  "2026-05-24T10:23:25.571Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+                                                                   "호리잡초노린재"
+                                                               ],
+                                                        "en":  [
+                                                                   "Scentless plant bug"
+                                                               ],
+                                                        "ja":  [
+
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+                                                       "Austria",
+                                                       "Canada",
+                                                       "Denmark",
+                                                       "Finland",
+                                                       "Germany",
+                                                       "Greece",
+                                                       "Luxembourg",
+                                                       "Sweden",
+                                                       "The Netherlands",
+                                                       "United Kingdom",
+                                                       "Mozambique Channel",
+                                                       "North Atlantic",
+                                                       "United States",
+                                                       "North America",
+                                                       "Iran"
+                                                   ],
+                                    "introduced":  [
+                                                       "The Contiguous United States"
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  1367
+                                },
+                        "inat":  {
+                                     "observationCount":  3,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/401947446/medium.jpeg",
+                                     "months":  [
+                                                    2,
+                                                    6,
+                                                    7
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000027064,
+                        "scientificName":  "Corizus hyoscyami hyoscyami (Linnaeus, 1758)",
+                        "commonName":  "무당잡초노린재",
+                        "terminalLatinName":  "hyoscyami",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Rhopalidae",
+                                                        "commonName":  "잡초노린재과",
+                                                        "ktsn":  120000027059
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Corizus",
+                                                       "commonName":  "무당잡초노린재속",
+                                                       "ktsn":  120000027062
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "hyoscyami",
+                                                         "commonName":  "무당잡초노린재",
+                                                         "ktsn":  120000027063
+                                                     }
+                                     },
+                        "eol":  {
+                                    "pageId":  3685755,
+                                    "canonical":  "Corizus hyoscyami hyoscyami",
+                                    "fetchedAt":  "2026-05-24T10:23:29.752Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  531
+                                },
+                        "inat":  {
+                                     "observationCount":  41,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/270410049/medium.jpg",
+                                     "months":  [
+                                                    3,
+                                                    4,
+                                                    5,
+                                                    6,
+                                                    7,
+                                                    8,
+                                                    9,
+                                                    10
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000027065,
+                        "scientificName":  "Corizus tetraspilus Horváth, 1917",
+                        "commonName":  "새무당잡초노린재",
+                        "terminalLatinName":  "tetraspilus",
+                        "nomenclaturalAuthor":  "Horváth",
+                        "namingYear":  "1917",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Rhopalidae",
+                                                        "commonName":  "잡초노린재과",
+                                                        "ktsn":  120000027059
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Corizus",
+                                                       "commonName":  "무당잡초노린재속",
+                                                       "ktsn":  120000027062
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "tetraspilus",
+                                                         "commonName":  "새무당잡초노린재",
+                                                         "ktsn":  120000027065
+                                                     }
+                                     },
+                        "eol":  {
+                                    "pageId":  3685752,
+                                    "canonical":  "Corizus tetraspilus",
+                                    "fetchedAt":  "2026-05-24T10:23:35.694Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+                                                                   "새무당잡초노린재"
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  100
+                                }
+                    },
+                    {
+                        "ktsn":  120000027067,
+                        "scientificName":  "Liorhyssus hyalinus (Fabricius, 1794)",
+                        "commonName":  "투명잡초노린재",
+                        "terminalLatinName":  "hyalinus",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Rhopalidae",
+                                                        "commonName":  "잡초노린재과",
+                                                        "ktsn":  120000027059
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Liorhyssus",
+                                                       "commonName":  "투명잡초노린재속",
+                                                       "ktsn":  120000027066
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "hyalinus",
+                                                         "commonName":  "투명잡초노린재",
+                                                         "ktsn":  120000027067
+                                                     }
+                                     },
+                        "eol":  {
+                                    "pageId":  609988,
+                                    "canonical":  "Liorhyssus hyalinus",
+                                    "fetchedAt":  "2026-05-24T10:23:38.867Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+                                                                   "투명잡초노린재"
+                                                               ],
+                                                        "en":  [
+                                                                   "Hyaline Grass Bug",
+                                                                   "Scentless plant bug",
+                                                                   "Hyaline Grass Bug"
+                                                               ],
+                                                        "ja":  [
+                                                                   "スカシヒメヘリカメムシ"
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+                                                       "Chile",
+                                                       "Guatemala",
+                                                       "Bermuda",
+                                                       "Venezuela",
+                                                       "Colombia",
+                                                       "Haiti",
+                                                       "Paraguay",
+                                                       "Jamaica",
+                                                       "Puerto Rico",
+                                                       "Cuba",
+                                                       "Bolivia",
+                                                       "Grenada",
+                                                       "Argentina",
+                                                       "Antilles",
+                                                       "Brazil",
+                                                       "The Dominican Republic",
+                                                       "Nicaragua",
+                                                       "United States",
+                                                       "Mozambique",
+                                                       "North Pacific",
+                                                       "North Atlantic",
+                                                       "Mexico",
+                                                       "Japan",
+                                                       "United Kingdom",
+                                                       "Turkey",
+                                                       "The Netherlands",
+                                                       "Sweden",
+                                                       "Ireland",
+                                                       "India",
+                                                       "Hong Kong",
+                                                       "Greece",
+                                                       "Germany",
+                                                       "China",
+                                                       "Belgium",
+                                                       "Austria"
+                                                   ],
+                                    "introduced":  [
+                                                       "The Hawaiian Islands"
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  5365
+                                },
+                        "inat":  {
+                                     "observationCount":  12,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/95991117/medium.jpg",
+                                     "months":  [
+                                                    2,
+                                                    3,
+                                                    5,
+                                                    6,
+                                                    8,
+                                                    9,
+                                                    10,
+                                                    11
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000027069,
+                        "scientificName":  "Myrmus lateralis Hsiao, 1964",
+                        "commonName":  "옆소금쟁이잡초노린재",
+                        "terminalLatinName":  "lateralis",
+                        "nomenclaturalAuthor":  "Hsiao",
+                        "namingYear":  "1964",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Rhopalidae",
+                                                        "commonName":  "잡초노린재과",
+                                                        "ktsn":  120000027059
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Myrmus",
+                                                       "commonName":  "소금쟁이잡초노린재속",
+                                                       "ktsn":  120000027068
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "lateralis",
+                                                         "commonName":  "옆소금쟁이잡초노린재",
+                                                         "ktsn":  120000027069
+                                                     }
+                                     },
+                        "eol":  {
+                                    "pageId":  24762173,
+                                    "canonical":  "Myrmus lateralis",
+                                    "fetchedAt":  "2026-05-24T10:23:43.547Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+
+                                                               ]
+                                                    },
+                                    "habitat":  [
+                                                    "lake",
+                                                    "mountain",
+                                                    "temperate"
+                                                ],
+                                    "geographic":  [
+                                                       "Mongolia",
+                                                       "Asia",
+                                                       "China"
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  79
+                                }
+                    },
+                    {
+                        "ktsn":  120000027071,
+                        "scientificName":  "Myrmus miriformis gracilis Lindberg, 1927",
+                        "commonName":  "소금쟁이잡초노린재",
+                        "terminalLatinName":  "gracilis",
+                        "nomenclaturalAuthor":  "Lindberg",
+                        "namingYear":  "1927",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Rhopalidae",
+                                                        "commonName":  "잡초노린재과",
+                                                        "ktsn":  120000027059
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Myrmus",
+                                                       "commonName":  "소금쟁이잡초노린재속",
+                                                       "ktsn":  120000027068
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "miriformis",
+                                                         "commonName":  "",
+                                                         "ktsn":  120000027070
+                                                     }
+                                     },
+                        "eol":  {
+                                    "pageId":  24762171,
+                                    "canonical":  "Myrmus miriformis gracilis",
+                                    "fetchedAt":  "2026-05-24T10:23:48.085Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  12
+                                },
+                        "inat":  {
+                                     "observationCount":  2,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/419374284/medium.jpg",
+                                     "months":  [
+                                                    7,
+                                                    8
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000027074,
+                        "scientificName":  "Rhopalus (Aeschyntelus) latus (Jakovlev, 1883)",
+                        "commonName":  "긴잡초노린재",
+                        "terminalLatinName":  "latus",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Rhopalidae",
+                                                        "commonName":  "잡초노린재과",
+                                                        "ktsn":  120000027059
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Rhopalus",
+                                                       "commonName":  "잡초노린재속",
+                                                       "ktsn":  120000027072
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "Aeschyntelus",
+                                                          "commonName":  "",
+                                                          "ktsn":  120000027073
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "latus",
+                                                         "commonName":  "긴잡초노린재",
+                                                         "ktsn":  120000027074
+                                                     }
+                                     },
+                        "eol":  {
+                                    "pageId":  3688247,
+                                    "canonical":  "Rhopalus latus",
+                                    "fetchedAt":  "2026-05-24T10:23:52.958Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+                                                                   "긴잡초노린재"
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+                                                                   "オオヒメヘリカメムシ"
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  208
+                                },
+                        "inat":  {
+                                     "observationCount":  1,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/441729243/medium.jpeg",
+                                     "months":  [
+                                                    10
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000027075,
+                        "scientificName":  "Rhopalus (Aeschyntelus) maculatus (Fieber, 1837)",
+                        "commonName":  "붉은잡초노린재",
+                        "terminalLatinName":  "maculatus",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Rhopalidae",
+                                                        "commonName":  "잡초노린재과",
+                                                        "ktsn":  120000027059
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Rhopalus",
+                                                       "commonName":  "잡초노린재속",
+                                                       "ktsn":  120000027072
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "Aeschyntelus",
+                                                          "commonName":  "",
+                                                          "ktsn":  120000027073
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "maculatus",
+                                                         "commonName":  "붉은잡초노린재",
+                                                         "ktsn":  120000027075
+                                                     }
+                                     },
+                        "eol":  {
+                                    "pageId":  3688245,
+                                    "canonical":  "Rhopalus maculatus",
+                                    "fetchedAt":  "2026-05-24T10:23:55.559Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+                                                                   "붉은잡초노린재"
+                                                               ],
+                                                        "en":  [
+                                                                   "marsh rhopalid"
+                                                               ],
+                                                        "ja":  [
+                                                                   "アカヒメヘリカメムシ"
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+                                                       "Iran",
+                                                       "Africa",
+                                                       "the Palearctic",
+                                                       "Norway",
+                                                       "Austria",
+                                                       "Czech Republic",
+                                                       "Denmark",
+                                                       "Estonia",
+                                                       "Finland",
+                                                       "France",
+                                                       "Germany",
+                                                       "Luxembourg",
+                                                       "Poland",
+                                                       "Russia",
+                                                       "Sweden",
+                                                       "United Kingdom",
+                                                       "Japan",
+                                                       "North Pacific"
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  5474
+                                },
+                        "inat":  {
+                                     "observationCount":  39,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/16373079/medium.jpg",
+                                     "months":  [
+                                                    4,
+                                                    5,
+                                                    6,
+                                                    7,
+                                                    8,
+                                                    9,
+                                                    10,
+                                                    11
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000027076,
+                        "scientificName":  "Rhopalus (Aeschyntelus) sapporensis (Matsumura, 1905)",
+                        "commonName":  "삿포로잡초노린재",
+                        "terminalLatinName":  "sapporensis",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Rhopalidae",
+                                                        "commonName":  "잡초노린재과",
+                                                        "ktsn":  120000027059
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Rhopalus",
+                                                       "commonName":  "잡초노린재속",
+                                                       "ktsn":  120000027072
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "Aeschyntelus",
+                                                          "commonName":  "",
+                                                          "ktsn":  120000027073
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "sapporensis",
+                                                         "commonName":  "삿포로잡초노린재",
+                                                         "ktsn":  120000027076
+                                                     }
+                                     },
+                        "inat":  {
+                                     "observationCount":  28,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/19341982/medium.jpg",
+                                     "months":  [
+                                                    4,
+                                                    5,
+                                                    6,
+                                                    7,
+                                                    8,
+                                                    10
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000027078,
+                        "scientificName":  "Rhopalus (Rhopalus) parumpunctatus Schilling, 1829",
+                        "commonName":  "잡초노린재",
+                        "terminalLatinName":  "parumpunctatus",
+                        "nomenclaturalAuthor":  "Schilling",
+                        "namingYear":  "1829",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Rhopalidae",
+                                                        "commonName":  "잡초노린재과",
+                                                        "ktsn":  120000027059
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Rhopalus",
+                                                       "commonName":  "잡초노린재속",
+                                                       "ktsn":  120000027072
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "Rhopalus",
+                                                          "commonName":  "",
+                                                          "ktsn":  120000027077
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "parumpunctatus",
+                                                         "commonName":  "잡초노린재",
+                                                         "ktsn":  120000027078
+                                                     }
+                                     },
+                        "inat":  {
+                                     "observationCount":  3,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/28615124/medium.jpeg",
+                                     "months":  [
+                                                    7,
+                                                    9
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000027080,
+                        "scientificName":  "Stictopleurus crassicornis (Linnaeus, 1758)",
+                        "commonName":  "흑다리잡초노린재",
+                        "terminalLatinName":  "crassicornis",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Rhopalidae",
+                                                        "commonName":  "잡초노린재과",
+                                                        "ktsn":  120000027059
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Stictopleurus",
+                                                       "commonName":  "흑다리잡초노린재속",
+                                                       "ktsn":  120000027079
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "crassicornis",
+                                                         "commonName":  "흑다리잡초노린재",
+                                                         "ktsn":  120000027080
+                                                     }
+                                     }
+                    },
+                    {
+                        "ktsn":  120000027081,
+                        "scientificName":  "Stictopleurus minutus Blöte, 1934",
+                        "commonName":  "점흑다리잡초노린재",
+                        "terminalLatinName":  "minutus",
+                        "nomenclaturalAuthor":  "Blöte",
+                        "namingYear":  "1934",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Rhopalidae",
+                                                        "commonName":  "잡초노린재과",
+                                                        "ktsn":  120000027059
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Stictopleurus",
+                                                       "commonName":  "흑다리잡초노린재속",
+                                                       "ktsn":  120000027079
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "minutus",
+                                                         "commonName":  "점흑다리잡초노린재",
+                                                         "ktsn":  120000027081
+                                                     }
+                                     },
+                        "inat":  {
+                                     "observationCount":  95,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/42119226/medium.jpg",
+                                     "months":  [
+                                                    4,
+                                                    5,
+                                                    6,
+                                                    7,
+                                                    8,
+                                                    9,
+                                                    11
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000027082,
+                        "scientificName":  "Stictopleurus punctatonervosus (Goeze, 1778)",
+                        "commonName":  "",
+                        "terminalLatinName":  "punctatonervosus",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Rhopalidae",
+                                                        "commonName":  "잡초노린재과",
+                                                        "ktsn":  120000027059
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Stictopleurus",
+                                                       "commonName":  "흑다리잡초노린재속",
+                                                       "ktsn":  120000027079
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "punctatonervosus",
+                                                         "commonName":  "",
+                                                         "ktsn":  120000027082
+                                                     }
+                                     },
+                        "inat":  {
+                                     "observationCount":  3,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/563165003/medium.jpg",
+                                     "months":  [
+                                                    5,
+                                                    9
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000027083,
+                        "scientificName":  "Stictopleurus viridicatus Uhler, 1872",
+                        "commonName":  "팔방흑다리잡초노린재",
+                        "terminalLatinName":  "viridicatus",
+                        "nomenclaturalAuthor":  "Uhler",
+                        "namingYear":  "1872",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Rhopalidae",
+                                                        "commonName":  "잡초노린재과",
+                                                        "ktsn":  120000027059
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Stictopleurus",
+                                                       "commonName":  "흑다리잡초노린재속",
+                                                       "ktsn":  120000027079
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "viridicatus",
+                                                         "commonName":  "팔방흑다리잡초노린재",
+                                                         "ktsn":  120000027083
+                                                     }
+                                     }
+                    }
+                ]
 }

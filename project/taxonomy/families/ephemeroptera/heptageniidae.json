@@ -1,1563 +1,1840 @@
 {
-  "generatedAt": "2026-05-21T07:47:08.025Z",
-  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
-  "order": {
-    "id": "ephemeroptera",
-    "scientificName": "Ephemeroptera",
-    "commonName": "하루살이목",
-    "orderKtsn": 120000023873
-  },
-  "family": {
-    "id": "heptageniidae",
-    "scientificName": "Heptageniidae",
-    "commonName": "납작하루살이과",
-    "familyKtsn": 120000023938
-  },
-  "speciesCount": 23,
-  "insects": [
-    {
-      "ktsn": 120000023940,
-      "scientificName": "Bleptus fasciatus Eaton, 1885",
-      "commonName": "맵시하루살이",
-      "terminalLatinName": "fasciatus",
-      "nomenclaturalAuthor": "Eaton",
-      "namingYear": "1885",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Ephemeroptera",
-          "commonName": "하루살이목",
-          "ktsn": 120000023873
-        },
-        "family": {
-          "scientificName": "Heptageniidae",
-          "commonName": "납작하루살이과",
-          "ktsn": 120000023938
-        },
-        "genus": {
-          "scientificName": "Bleptus",
-          "commonName": "맵시하루살이속",
-          "ktsn": 120000023939
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "fasciatus",
-          "commonName": "맵시하루살이",
-          "ktsn": 120000023940
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:21:37.048Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
-        "thumbnailUrl": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      },
-      "eol": {
-        "pageId": 35146879,
-        "canonical": "Bleptus fasciatus",
-        "fetchedAt": "2026-05-24T09:26:54.150Z",
-        "vernaculars": {
-          "ko": [
-            "맵시하루살이"
-          ],
-          "en": [],
-          "ja": []
-        },
-        "habitat": [],
-        "geographic": [],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": 158
-      }
-    },
-    {
-      "ktsn": 120000023942,
-      "scientificName": "Cinygmula grandifolia Tshernova, 1952",
-      "commonName": "봄처녀하루살이",
-      "terminalLatinName": "grandifolia",
-      "nomenclaturalAuthor": "Tshernova",
-      "namingYear": "1952",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Ephemeroptera",
-          "commonName": "하루살이목",
-          "ktsn": 120000023873
-        },
-        "family": {
-          "scientificName": "Heptageniidae",
-          "commonName": "납작하루살이과",
-          "ktsn": 120000023938
-        },
-        "genus": {
-          "scientificName": "Cinygmula",
-          "commonName": "봄처녀하루살이속",
-          "ktsn": 120000023941
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "grandifolia",
-          "commonName": "봄처녀하루살이",
-          "ktsn": 120000023942
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:21:37.048Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
-        "thumbnailUrl": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      }
-    },
-    {
-      "ktsn": 120000023943,
-      "scientificName": "Cinygmula hirasana Imanishi, 1935",
-      "commonName": "봄총각하루살이",
-      "terminalLatinName": "hirasana",
-      "nomenclaturalAuthor": "Imanishi",
-      "namingYear": "1935",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Ephemeroptera",
-          "commonName": "하루살이목",
-          "ktsn": 120000023873
-        },
-        "family": {
-          "scientificName": "Heptageniidae",
-          "commonName": "납작하루살이과",
-          "ktsn": 120000023938
-        },
-        "genus": {
-          "scientificName": "Cinygmula",
-          "commonName": "봄처녀하루살이속",
-          "ktsn": 120000023941
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "hirasana",
-          "commonName": "봄총각하루살이",
-          "ktsn": 120000023943
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:21:37.048Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
-        "thumbnailUrl": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      },
-      "eol": {
-        "pageId": 35146775,
-        "canonical": "Cinygmula hirasana",
-        "fetchedAt": "2026-05-24T09:27:07.359Z",
-        "vernaculars": {
-          "ko": [],
-          "en": [],
-          "ja": []
-        },
-        "habitat": [],
-        "geographic": [],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": 8
-      }
-    },
-    {
-      "ktsn": 120000023944,
-      "scientificName": "Cinygmula kurenzovi Bajkova, 1965",
-      "commonName": "산처녀하루살이",
-      "terminalLatinName": "kurenzovi",
-      "nomenclaturalAuthor": "Bajkova",
-      "namingYear": "1965",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Ephemeroptera",
-          "commonName": "하루살이목",
-          "ktsn": 120000023873
-        },
-        "family": {
-          "scientificName": "Heptageniidae",
-          "commonName": "납작하루살이과",
-          "ktsn": 120000023938
-        },
-        "genus": {
-          "scientificName": "Cinygmula",
-          "commonName": "봄처녀하루살이속",
-          "ktsn": 120000023941
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "kurenzovi",
-          "commonName": "산처녀하루살이",
-          "ktsn": 120000023944
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:21:37.048Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
-        "thumbnailUrl": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      },
-      "eol": {
-        "pageId": 35146782,
-        "canonical": "Cinygmula kurenzovi",
-        "fetchedAt": "2026-05-24T09:27:14.836Z",
-        "vernaculars": {
-          "ko": [],
-          "en": [],
-          "ja": []
-        },
-        "habitat": [],
-        "geographic": [],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": 50
-      }
-    },
-    {
-      "ktsn": 120000023946,
-      "scientificName": "Ecdyonurus abracadabrus Kluge, 1983",
-      "commonName": "미리내하루살이",
-      "terminalLatinName": "abracadabrus",
-      "nomenclaturalAuthor": "Kluge",
-      "namingYear": "1983",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Ephemeroptera",
-          "commonName": "하루살이목",
-          "ktsn": 120000023873
-        },
-        "family": {
-          "scientificName": "Heptageniidae",
-          "commonName": "납작하루살이과",
-          "ktsn": 120000023938
-        },
-        "genus": {
-          "scientificName": "Ecdyonurus",
-          "commonName": "참납작하루살이속",
-          "ktsn": 120000023945
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "abracadabrus",
-          "commonName": "미리내하루살이",
-          "ktsn": 120000023946
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:21:37.048Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
-        "thumbnailUrl": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      }
-    },
-    {
-      "ktsn": 120000023947,
-      "scientificName": "Ecdyonurus baekdu Bae, 1997",
-      "commonName": "백두하루살이",
-      "terminalLatinName": "baekdu",
-      "nomenclaturalAuthor": "Bae",
-      "namingYear": "1997",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "Y",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Ephemeroptera",
-          "commonName": "하루살이목",
-          "ktsn": 120000023873
-        },
-        "family": {
-          "scientificName": "Heptageniidae",
-          "commonName": "납작하루살이과",
-          "ktsn": 120000023938
-        },
-        "genus": {
-          "scientificName": "Ecdyonurus",
-          "commonName": "참납작하루살이속",
-          "ktsn": 120000023945
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "baekdu",
-          "commonName": "백두하루살이",
-          "ktsn": 120000023947
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:21:37.048Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
-        "thumbnailUrl": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      }
-    },
-    {
-      "ktsn": 120000023948,
-      "scientificName": "Ecdyonurus bajkovae Kluge, 1986",
-      "commonName": "몽땅하루살이",
-      "terminalLatinName": "bajkovae",
-      "nomenclaturalAuthor": "Kluge",
-      "namingYear": "1986",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Ephemeroptera",
-          "commonName": "하루살이목",
-          "ktsn": 120000023873
-        },
-        "family": {
-          "scientificName": "Heptageniidae",
-          "commonName": "납작하루살이과",
-          "ktsn": 120000023938
-        },
-        "genus": {
-          "scientificName": "Ecdyonurus",
-          "commonName": "참납작하루살이속",
-          "ktsn": 120000023945
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "bajkovae",
-          "commonName": "몽땅하루살이",
-          "ktsn": 120000023948
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:21:37.048Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
-        "thumbnailUrl": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      },
-      "eol": {
-        "pageId": 35146647,
-        "canonical": "Ecdyonurus bajkovae",
-        "fetchedAt": "2026-05-24T09:27:41.756Z",
-        "vernaculars": {
-          "ko": [],
-          "en": [],
-          "ja": []
-        },
-        "habitat": [],
-        "geographic": [],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": 495
-      }
-    },
-    {
-      "ktsn": 120000023949,
-      "scientificName": "Ecdyonurus dracon Kluge, 1983",
-      "commonName": "참납작하루살이",
-      "terminalLatinName": "dracon",
-      "nomenclaturalAuthor": "Kluge",
-      "namingYear": "1983",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Ephemeroptera",
-          "commonName": "하루살이목",
-          "ktsn": 120000023873
-        },
-        "family": {
-          "scientificName": "Heptageniidae",
-          "commonName": "납작하루살이과",
-          "ktsn": 120000023938
-        },
-        "genus": {
-          "scientificName": "Ecdyonurus",
-          "commonName": "참납작하루살이속",
-          "ktsn": 120000023945
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "dracon",
-          "commonName": "참납작하루살이",
-          "ktsn": 120000023949
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:21:37.048Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
-        "thumbnailUrl": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      }
-    },
-    {
-      "ktsn": 120000023950,
-      "scientificName": "Ecdyonurus joernensis Bengtsson, 1909",
-      "commonName": "꼬리치레하루살이",
-      "terminalLatinName": "joernensis",
-      "nomenclaturalAuthor": "Bengtsson",
-      "namingYear": "1909",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Ephemeroptera",
-          "commonName": "하루살이목",
-          "ktsn": 120000023873
-        },
-        "family": {
-          "scientificName": "Heptageniidae",
-          "commonName": "납작하루살이과",
-          "ktsn": 120000023938
-        },
-        "genus": {
-          "scientificName": "Ecdyonurus",
-          "commonName": "참납작하루살이속",
-          "ktsn": 120000023945
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "joernensis",
-          "commonName": "꼬리치레하루살이",
-          "ktsn": 120000023950
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:21:37.048Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
-        "thumbnailUrl": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      }
-    },
-    {
-      "ktsn": 120000023951,
-      "scientificName": "Ecdyonurus kibunensis Imanishi, 1936",
-      "commonName": "두점하루살이",
-      "terminalLatinName": "kibunensis",
-      "nomenclaturalAuthor": "Imanishi",
-      "namingYear": "1936",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Ephemeroptera",
-          "commonName": "하루살이목",
-          "ktsn": 120000023873
-        },
-        "family": {
-          "scientificName": "Heptageniidae",
-          "commonName": "납작하루살이과",
-          "ktsn": 120000023938
-        },
-        "genus": {
-          "scientificName": "Ecdyonurus",
-          "commonName": "참납작하루살이속",
-          "ktsn": 120000023945
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "kibunensis",
-          "commonName": "두점하루살이",
-          "ktsn": 120000023951
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:21:37.048Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
-        "thumbnailUrl": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      }
-    },
-    {
-      "ktsn": 120000023952,
-      "scientificName": "Ecdyonurus levis (Navás, 1912)",
-      "commonName": "네점하루살이",
-      "terminalLatinName": "levis",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Ephemeroptera",
-          "commonName": "하루살이목",
-          "ktsn": 120000023873
-        },
-        "family": {
-          "scientificName": "Heptageniidae",
-          "commonName": "납작하루살이과",
-          "ktsn": 120000023938
-        },
-        "genus": {
-          "scientificName": "Ecdyonurus",
-          "commonName": "참납작하루살이속",
-          "ktsn": 120000023945
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "levis",
-          "commonName": "네점하루살이",
-          "ktsn": 120000023952
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:21:37.048Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
-        "thumbnailUrl": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      }
-    },
-    {
-      "ktsn": 120000023953,
-      "scientificName": "Ecdyonurus scalaris Kluge, 1983",
-      "commonName": "가락지하루살이",
-      "terminalLatinName": "scalaris",
-      "nomenclaturalAuthor": "Kluge",
-      "namingYear": "1983",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Ephemeroptera",
-          "commonName": "하루살이목",
-          "ktsn": 120000023873
-        },
-        "family": {
-          "scientificName": "Heptageniidae",
-          "commonName": "납작하루살이과",
-          "ktsn": 120000023938
-        },
-        "genus": {
-          "scientificName": "Ecdyonurus",
-          "commonName": "참납작하루살이속",
-          "ktsn": 120000023945
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "scalaris",
-          "commonName": "가락지하루살이",
-          "ktsn": 120000023953
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:21:37.048Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
-        "thumbnailUrl": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      }
-    },
-    {
-      "ktsn": 120000023954,
-      "scientificName": "Ecdyonurus yoshidae Takahashi, 1924",
-      "commonName": "나도네점하루살이",
-      "terminalLatinName": "yoshidae",
-      "nomenclaturalAuthor": "Takahashi",
-      "namingYear": "1924",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Ephemeroptera",
-          "commonName": "하루살이목",
-          "ktsn": 120000023873
-        },
-        "family": {
-          "scientificName": "Heptageniidae",
-          "commonName": "납작하루살이과",
-          "ktsn": 120000023938
-        },
-        "genus": {
-          "scientificName": "Ecdyonurus",
-          "commonName": "참납작하루살이속",
-          "ktsn": 120000023945
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "yoshidae",
-          "commonName": "나도네점하루살이",
-          "ktsn": 120000023954
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:21:37.048Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
-        "thumbnailUrl": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      }
-    },
-    {
-      "ktsn": 120000023956,
-      "scientificName": "Epeorus aesculus Imanishi, 1934",
-      "commonName": "중부채하루살이",
-      "terminalLatinName": "aesculus",
-      "nomenclaturalAuthor": "Imanishi",
-      "namingYear": "1934",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Ephemeroptera",
-          "commonName": "하루살이목",
-          "ktsn": 120000023873
-        },
-        "family": {
-          "scientificName": "Heptageniidae",
-          "commonName": "납작하루살이과",
-          "ktsn": 120000023938
-        },
-        "genus": {
-          "scientificName": "Epeorus",
-          "commonName": "부채하루살이속",
-          "ktsn": 120000023955
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "aesculus",
-          "commonName": "중부채하루살이",
-          "ktsn": 120000023956
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:21:37.048Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
-        "thumbnailUrl": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      }
-    },
-    {
-      "ktsn": 120000023957,
-      "scientificName": "Epeorus maculatus (Tshernova, 1949)",
-      "commonName": "긴부채하루살이",
-      "terminalLatinName": "maculatus",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Ephemeroptera",
-          "commonName": "하루살이목",
-          "ktsn": 120000023873
-        },
-        "family": {
-          "scientificName": "Heptageniidae",
-          "commonName": "납작하루살이과",
-          "ktsn": 120000023938
-        },
-        "genus": {
-          "scientificName": "Epeorus",
-          "commonName": "부채하루살이속",
-          "ktsn": 120000023955
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "maculatus",
-          "commonName": "긴부채하루살이",
-          "ktsn": 120000023957
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:21:37.048Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
-        "thumbnailUrl": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      }
-    },
-    {
-      "ktsn": 120000023958,
-      "scientificName": "Epeorus nipponicus (Uéno, 1931)",
-      "commonName": "흰부채하루살이",
-      "terminalLatinName": "nipponicus",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Ephemeroptera",
-          "commonName": "하루살이목",
-          "ktsn": 120000023873
-        },
-        "family": {
-          "scientificName": "Heptageniidae",
-          "commonName": "납작하루살이과",
-          "ktsn": 120000023938
-        },
-        "genus": {
-          "scientificName": "Epeorus",
-          "commonName": "부채하루살이속",
-          "ktsn": 120000023955
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "nipponicus",
-          "commonName": "흰부채하루살이",
-          "ktsn": 120000023958
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:21:37.048Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
-        "thumbnailUrl": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      }
-    },
-    {
-      "ktsn": 120000023959,
-      "scientificName": "Epeorus pellucidus (Brodsky, 1930)",
-      "commonName": "부채하루살이",
-      "terminalLatinName": "pellucidus",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Ephemeroptera",
-          "commonName": "하루살이목",
-          "ktsn": 120000023873
-        },
-        "family": {
-          "scientificName": "Heptageniidae",
-          "commonName": "납작하루살이과",
-          "ktsn": 120000023938
-        },
-        "genus": {
-          "scientificName": "Epeorus",
-          "commonName": "부채하루살이속",
-          "ktsn": 120000023955
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "pellucidus",
-          "commonName": "부채하루살이",
-          "ktsn": 120000023959
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:21:37.048Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
-        "thumbnailUrl": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      }
-    },
-    {
-      "ktsn": 120000023961,
-      "scientificName": "Heptagenia guranica Belov, 1981",
-      "commonName": "배점하루살이",
-      "terminalLatinName": "guranica",
-      "nomenclaturalAuthor": "Belov",
-      "namingYear": "1981",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Ephemeroptera",
-          "commonName": "하루살이목",
-          "ktsn": 120000023873
-        },
-        "family": {
-          "scientificName": "Heptageniidae",
-          "commonName": "납작하루살이과",
-          "ktsn": 120000023938
-        },
-        "genus": {
-          "scientificName": "Heptagenia",
-          "commonName": "납작하루살이속",
-          "ktsn": 120000023960
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "guranica",
-          "commonName": "배점하루살이",
-          "ktsn": 120000023961
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:21:37.048Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
-        "thumbnailUrl": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      }
-    },
-    {
-      "ktsn": 120000023962,
-      "scientificName": "Heptagenia kihada Matsumura, 1931",
-      "commonName": "햇님하루살이",
-      "terminalLatinName": "kihada",
-      "nomenclaturalAuthor": "Matsumura",
-      "namingYear": "1931",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Ephemeroptera",
-          "commonName": "하루살이목",
-          "ktsn": 120000023873
-        },
-        "family": {
-          "scientificName": "Heptageniidae",
-          "commonName": "납작하루살이과",
-          "ktsn": 120000023938
-        },
-        "genus": {
-          "scientificName": "Heptagenia",
-          "commonName": "납작하루살이속",
-          "ktsn": 120000023960
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "kihada",
-          "commonName": "햇님하루살이",
-          "ktsn": 120000023962
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:21:37.048Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
-        "thumbnailUrl": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      }
-    },
-    {
-      "ktsn": 120000023963,
-      "scientificName": "Heptagenia kyotoensis Gose, 1963",
-      "commonName": "총채하루살이",
-      "terminalLatinName": "kyotoensis",
-      "nomenclaturalAuthor": "Gose",
-      "namingYear": "1963",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Ephemeroptera",
-          "commonName": "하루살이목",
-          "ktsn": 120000023873
-        },
-        "family": {
-          "scientificName": "Heptageniidae",
-          "commonName": "납작하루살이과",
-          "ktsn": 120000023938
-        },
-        "genus": {
-          "scientificName": "Heptagenia",
-          "commonName": "납작하루살이속",
-          "ktsn": 120000023960
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "kyotoensis",
-          "commonName": "총채하루살이",
-          "ktsn": 120000023963
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:21:37.048Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
-        "thumbnailUrl": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      }
-    },
-    {
-      "ktsn": 120000023965,
-      "scientificName": "Rhithrogena binotata Sinitshenkova, 1982",
-      "commonName": "깊은골하루살이",
-      "terminalLatinName": "binotata",
-      "nomenclaturalAuthor": "Sinitshenkova",
-      "namingYear": "1982",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Ephemeroptera",
-          "commonName": "하루살이목",
-          "ktsn": 120000023873
-        },
-        "family": {
-          "scientificName": "Heptageniidae",
-          "commonName": "납작하루살이과",
-          "ktsn": 120000023938
-        },
-        "genus": {
-          "scientificName": "Rhithrogena",
-          "commonName": "산납작하루살이속",
-          "ktsn": 120000023964
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "binotata",
-          "commonName": "깊은골하루살이",
-          "ktsn": 120000023965
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:21:37.048Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
-        "thumbnailUrl": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      }
-    },
-    {
-      "ktsn": 120000023966,
-      "scientificName": "Rhithrogena japonica Uéno, 1928",
-      "commonName": "골짜기하루살이",
-      "terminalLatinName": "japonica",
-      "nomenclaturalAuthor": "Uéno",
-      "namingYear": "1928",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Ephemeroptera",
-          "commonName": "하루살이목",
-          "ktsn": 120000023873
-        },
-        "family": {
-          "scientificName": "Heptageniidae",
-          "commonName": "납작하루살이과",
-          "ktsn": 120000023938
-        },
-        "genus": {
-          "scientificName": "Rhithrogena",
-          "commonName": "산납작하루살이속",
-          "ktsn": 120000023964
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "japonica",
-          "commonName": "골짜기하루살이",
-          "ktsn": 120000023966
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:21:37.048Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
-        "thumbnailUrl": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      }
-    },
-    {
-      "ktsn": 120000023967,
-      "scientificName": "Rhithrogena lepnevae Brodsky, 1930",
-      "commonName": "깊은산하루살이",
-      "terminalLatinName": "lepnevae",
-      "nomenclaturalAuthor": "Brodsky",
-      "namingYear": "1930",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Ephemeroptera",
-          "commonName": "하루살이목",
-          "ktsn": 120000023873
-        },
-        "family": {
-          "scientificName": "Heptageniidae",
-          "commonName": "납작하루살이과",
-          "ktsn": 120000023938
-        },
-        "genus": {
-          "scientificName": "Rhithrogena",
-          "commonName": "산납작하루살이속",
-          "ktsn": 120000023964
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "lepnevae",
-          "commonName": "깊은산하루살이",
-          "ktsn": 120000023967
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:21:37.048Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
-        "thumbnailUrl": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      }
-    }
-  ],
-  "digitalContentUpdatedAt": "2026-05-21T09:21:37.048Z",
-  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+    "generatedAt":  "2026-05-21T07:47:08.025Z",
+    "source":  "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+    "order":  {
+                  "id":  "ephemeroptera",
+                  "scientificName":  "Ephemeroptera",
+                  "commonName":  "하루살이목",
+                  "orderKtsn":  120000023873
+              },
+    "family":  {
+                   "id":  "heptageniidae",
+                   "scientificName":  "Heptageniidae",
+                   "commonName":  "납작하루살이과",
+                   "familyKtsn":  120000023938
+               },
+    "speciesCount":  23,
+    "insects":  [
+                    {
+                        "ktsn":  120000023940,
+                        "scientificName":  "Bleptus fasciatus Eaton, 1885",
+                        "commonName":  "맵시하루살이",
+                        "terminalLatinName":  "fasciatus",
+                        "nomenclaturalAuthor":  "Eaton",
+                        "namingYear":  "1885",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Ephemeroptera",
+                                                       "commonName":  "하루살이목",
+                                                       "ktsn":  120000023873
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Heptageniidae",
+                                                        "commonName":  "납작하루살이과",
+                                                        "ktsn":  120000023938
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Bleptus",
+                                                       "commonName":  "맵시하루살이속",
+                                                       "ktsn":  120000023939
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "fasciatus",
+                                                         "commonName":  "맵시하루살이",
+                                                         "ktsn":  120000023940
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:21:37.048Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
+                                               "thumbnailUrl":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "eol":  {
+                                    "pageId":  35146879,
+                                    "canonical":  "Bleptus fasciatus",
+                                    "fetchedAt":  "2026-05-24T09:26:54.150Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+                                                                   "맵시하루살이"
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  158
+                                },
+                        "inat":  {
+                                     "observationCount":  5,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/133299182/medium.png",
+                                     "months":  [
+                                                    5,
+                                                    6,
+                                                    7
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000023942,
+                        "scientificName":  "Cinygmula grandifolia Tshernova, 1952",
+                        "commonName":  "봄처녀하루살이",
+                        "terminalLatinName":  "grandifolia",
+                        "nomenclaturalAuthor":  "Tshernova",
+                        "namingYear":  "1952",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Ephemeroptera",
+                                                       "commonName":  "하루살이목",
+                                                       "ktsn":  120000023873
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Heptageniidae",
+                                                        "commonName":  "납작하루살이과",
+                                                        "ktsn":  120000023938
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Cinygmula",
+                                                       "commonName":  "봄처녀하루살이속",
+                                                       "ktsn":  120000023941
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "grandifolia",
+                                                         "commonName":  "봄처녀하루살이",
+                                                         "ktsn":  120000023942
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:21:37.048Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
+                                               "thumbnailUrl":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "inat":  {
+                                     "observationCount":  4,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/120357267/medium.jpg",
+                                     "months":  [
+                                                    4
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000023943,
+                        "scientificName":  "Cinygmula hirasana Imanishi, 1935",
+                        "commonName":  "봄총각하루살이",
+                        "terminalLatinName":  "hirasana",
+                        "nomenclaturalAuthor":  "Imanishi",
+                        "namingYear":  "1935",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Ephemeroptera",
+                                                       "commonName":  "하루살이목",
+                                                       "ktsn":  120000023873
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Heptageniidae",
+                                                        "commonName":  "납작하루살이과",
+                                                        "ktsn":  120000023938
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Cinygmula",
+                                                       "commonName":  "봄처녀하루살이속",
+                                                       "ktsn":  120000023941
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "hirasana",
+                                                         "commonName":  "봄총각하루살이",
+                                                         "ktsn":  120000023943
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:21:37.048Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
+                                               "thumbnailUrl":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "eol":  {
+                                    "pageId":  35146775,
+                                    "canonical":  "Cinygmula hirasana",
+                                    "fetchedAt":  "2026-05-24T09:27:07.359Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  8
+                                }
+                    },
+                    {
+                        "ktsn":  120000023944,
+                        "scientificName":  "Cinygmula kurenzovi Bajkova, 1965",
+                        "commonName":  "산처녀하루살이",
+                        "terminalLatinName":  "kurenzovi",
+                        "nomenclaturalAuthor":  "Bajkova",
+                        "namingYear":  "1965",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Ephemeroptera",
+                                                       "commonName":  "하루살이목",
+                                                       "ktsn":  120000023873
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Heptageniidae",
+                                                        "commonName":  "납작하루살이과",
+                                                        "ktsn":  120000023938
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Cinygmula",
+                                                       "commonName":  "봄처녀하루살이속",
+                                                       "ktsn":  120000023941
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "kurenzovi",
+                                                         "commonName":  "산처녀하루살이",
+                                                         "ktsn":  120000023944
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:21:37.048Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
+                                               "thumbnailUrl":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "eol":  {
+                                    "pageId":  35146782,
+                                    "canonical":  "Cinygmula kurenzovi",
+                                    "fetchedAt":  "2026-05-24T09:27:14.836Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  50
+                                }
+                    },
+                    {
+                        "ktsn":  120000023946,
+                        "scientificName":  "Ecdyonurus abracadabrus Kluge, 1983",
+                        "commonName":  "미리내하루살이",
+                        "terminalLatinName":  "abracadabrus",
+                        "nomenclaturalAuthor":  "Kluge",
+                        "namingYear":  "1983",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Ephemeroptera",
+                                                       "commonName":  "하루살이목",
+                                                       "ktsn":  120000023873
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Heptageniidae",
+                                                        "commonName":  "납작하루살이과",
+                                                        "ktsn":  120000023938
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Ecdyonurus",
+                                                       "commonName":  "참납작하루살이속",
+                                                       "ktsn":  120000023945
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "abracadabrus",
+                                                         "commonName":  "미리내하루살이",
+                                                         "ktsn":  120000023946
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:21:37.048Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
+                                               "thumbnailUrl":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           }
+                    },
+                    {
+                        "ktsn":  120000023947,
+                        "scientificName":  "Ecdyonurus baekdu Bae, 1997",
+                        "commonName":  "백두하루살이",
+                        "terminalLatinName":  "baekdu",
+                        "nomenclaturalAuthor":  "Bae",
+                        "namingYear":  "1997",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "Y",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Ephemeroptera",
+                                                       "commonName":  "하루살이목",
+                                                       "ktsn":  120000023873
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Heptageniidae",
+                                                        "commonName":  "납작하루살이과",
+                                                        "ktsn":  120000023938
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Ecdyonurus",
+                                                       "commonName":  "참납작하루살이속",
+                                                       "ktsn":  120000023945
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "baekdu",
+                                                         "commonName":  "백두하루살이",
+                                                         "ktsn":  120000023947
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:21:37.048Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
+                                               "thumbnailUrl":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           }
+                    },
+                    {
+                        "ktsn":  120000023948,
+                        "scientificName":  "Ecdyonurus bajkovae Kluge, 1986",
+                        "commonName":  "몽땅하루살이",
+                        "terminalLatinName":  "bajkovae",
+                        "nomenclaturalAuthor":  "Kluge",
+                        "namingYear":  "1986",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Ephemeroptera",
+                                                       "commonName":  "하루살이목",
+                                                       "ktsn":  120000023873
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Heptageniidae",
+                                                        "commonName":  "납작하루살이과",
+                                                        "ktsn":  120000023938
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Ecdyonurus",
+                                                       "commonName":  "참납작하루살이속",
+                                                       "ktsn":  120000023945
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "bajkovae",
+                                                         "commonName":  "몽땅하루살이",
+                                                         "ktsn":  120000023948
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:21:37.048Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
+                                               "thumbnailUrl":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "eol":  {
+                                    "pageId":  35146647,
+                                    "canonical":  "Ecdyonurus bajkovae",
+                                    "fetchedAt":  "2026-05-24T09:27:41.756Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  495
+                                }
+                    },
+                    {
+                        "ktsn":  120000023949,
+                        "scientificName":  "Ecdyonurus dracon Kluge, 1983",
+                        "commonName":  "참납작하루살이",
+                        "terminalLatinName":  "dracon",
+                        "nomenclaturalAuthor":  "Kluge",
+                        "namingYear":  "1983",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Ephemeroptera",
+                                                       "commonName":  "하루살이목",
+                                                       "ktsn":  120000023873
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Heptageniidae",
+                                                        "commonName":  "납작하루살이과",
+                                                        "ktsn":  120000023938
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Ecdyonurus",
+                                                       "commonName":  "참납작하루살이속",
+                                                       "ktsn":  120000023945
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "dracon",
+                                                         "commonName":  "참납작하루살이",
+                                                         "ktsn":  120000023949
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:21:37.048Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
+                                               "thumbnailUrl":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           }
+                    },
+                    {
+                        "ktsn":  120000023950,
+                        "scientificName":  "Ecdyonurus joernensis Bengtsson, 1909",
+                        "commonName":  "꼬리치레하루살이",
+                        "terminalLatinName":  "joernensis",
+                        "nomenclaturalAuthor":  "Bengtsson",
+                        "namingYear":  "1909",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Ephemeroptera",
+                                                       "commonName":  "하루살이목",
+                                                       "ktsn":  120000023873
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Heptageniidae",
+                                                        "commonName":  "납작하루살이과",
+                                                        "ktsn":  120000023938
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Ecdyonurus",
+                                                       "commonName":  "참납작하루살이속",
+                                                       "ktsn":  120000023945
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "joernensis",
+                                                         "commonName":  "꼬리치레하루살이",
+                                                         "ktsn":  120000023950
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:21:37.048Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
+                                               "thumbnailUrl":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           }
+                    },
+                    {
+                        "ktsn":  120000023951,
+                        "scientificName":  "Ecdyonurus kibunensis Imanishi, 1936",
+                        "commonName":  "두점하루살이",
+                        "terminalLatinName":  "kibunensis",
+                        "nomenclaturalAuthor":  "Imanishi",
+                        "namingYear":  "1936",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Ephemeroptera",
+                                                       "commonName":  "하루살이목",
+                                                       "ktsn":  120000023873
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Heptageniidae",
+                                                        "commonName":  "납작하루살이과",
+                                                        "ktsn":  120000023938
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Ecdyonurus",
+                                                       "commonName":  "참납작하루살이속",
+                                                       "ktsn":  120000023945
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "kibunensis",
+                                                         "commonName":  "두점하루살이",
+                                                         "ktsn":  120000023951
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:21:37.048Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
+                                               "thumbnailUrl":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "inat":  {
+                                     "observationCount":  1,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/386801887/medium.jpg",
+                                     "months":  [
+                                                    5
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000023952,
+                        "scientificName":  "Ecdyonurus levis (Navás, 1912)",
+                        "commonName":  "네점하루살이",
+                        "terminalLatinName":  "levis",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Ephemeroptera",
+                                                       "commonName":  "하루살이목",
+                                                       "ktsn":  120000023873
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Heptageniidae",
+                                                        "commonName":  "납작하루살이과",
+                                                        "ktsn":  120000023938
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Ecdyonurus",
+                                                       "commonName":  "참납작하루살이속",
+                                                       "ktsn":  120000023945
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "levis",
+                                                         "commonName":  "네점하루살이",
+                                                         "ktsn":  120000023952
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:21:37.048Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
+                                               "thumbnailUrl":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           }
+                    },
+                    {
+                        "ktsn":  120000023953,
+                        "scientificName":  "Ecdyonurus scalaris Kluge, 1983",
+                        "commonName":  "가락지하루살이",
+                        "terminalLatinName":  "scalaris",
+                        "nomenclaturalAuthor":  "Kluge",
+                        "namingYear":  "1983",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Ephemeroptera",
+                                                       "commonName":  "하루살이목",
+                                                       "ktsn":  120000023873
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Heptageniidae",
+                                                        "commonName":  "납작하루살이과",
+                                                        "ktsn":  120000023938
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Ecdyonurus",
+                                                       "commonName":  "참납작하루살이속",
+                                                       "ktsn":  120000023945
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "scalaris",
+                                                         "commonName":  "가락지하루살이",
+                                                         "ktsn":  120000023953
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:21:37.048Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
+                                               "thumbnailUrl":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           }
+                    },
+                    {
+                        "ktsn":  120000023954,
+                        "scientificName":  "Ecdyonurus yoshidae Takahashi, 1924",
+                        "commonName":  "나도네점하루살이",
+                        "terminalLatinName":  "yoshidae",
+                        "nomenclaturalAuthor":  "Takahashi",
+                        "namingYear":  "1924",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Ephemeroptera",
+                                                       "commonName":  "하루살이목",
+                                                       "ktsn":  120000023873
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Heptageniidae",
+                                                        "commonName":  "납작하루살이과",
+                                                        "ktsn":  120000023938
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Ecdyonurus",
+                                                       "commonName":  "참납작하루살이속",
+                                                       "ktsn":  120000023945
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "yoshidae",
+                                                         "commonName":  "나도네점하루살이",
+                                                         "ktsn":  120000023954
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:21:37.048Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
+                                               "thumbnailUrl":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           }
+                    },
+                    {
+                        "ktsn":  120000023956,
+                        "scientificName":  "Epeorus aesculus Imanishi, 1934",
+                        "commonName":  "중부채하루살이",
+                        "terminalLatinName":  "aesculus",
+                        "nomenclaturalAuthor":  "Imanishi",
+                        "namingYear":  "1934",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Ephemeroptera",
+                                                       "commonName":  "하루살이목",
+                                                       "ktsn":  120000023873
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Heptageniidae",
+                                                        "commonName":  "납작하루살이과",
+                                                        "ktsn":  120000023938
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Epeorus",
+                                                       "commonName":  "부채하루살이속",
+                                                       "ktsn":  120000023955
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "aesculus",
+                                                         "commonName":  "중부채하루살이",
+                                                         "ktsn":  120000023956
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:21:37.048Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
+                                               "thumbnailUrl":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           }
+                    },
+                    {
+                        "ktsn":  120000023957,
+                        "scientificName":  "Epeorus maculatus (Tshernova, 1949)",
+                        "commonName":  "긴부채하루살이",
+                        "terminalLatinName":  "maculatus",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Ephemeroptera",
+                                                       "commonName":  "하루살이목",
+                                                       "ktsn":  120000023873
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Heptageniidae",
+                                                        "commonName":  "납작하루살이과",
+                                                        "ktsn":  120000023938
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Epeorus",
+                                                       "commonName":  "부채하루살이속",
+                                                       "ktsn":  120000023955
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "maculatus",
+                                                         "commonName":  "긴부채하루살이",
+                                                         "ktsn":  120000023957
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:21:37.048Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
+                                               "thumbnailUrl":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           }
+                    },
+                    {
+                        "ktsn":  120000023958,
+                        "scientificName":  "Epeorus nipponicus (Uéno, 1931)",
+                        "commonName":  "흰부채하루살이",
+                        "terminalLatinName":  "nipponicus",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Ephemeroptera",
+                                                       "commonName":  "하루살이목",
+                                                       "ktsn":  120000023873
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Heptageniidae",
+                                                        "commonName":  "납작하루살이과",
+                                                        "ktsn":  120000023938
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Epeorus",
+                                                       "commonName":  "부채하루살이속",
+                                                       "ktsn":  120000023955
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "nipponicus",
+                                                         "commonName":  "흰부채하루살이",
+                                                         "ktsn":  120000023958
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:21:37.048Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
+                                               "thumbnailUrl":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           }
+                    },
+                    {
+                        "ktsn":  120000023959,
+                        "scientificName":  "Epeorus pellucidus (Brodsky, 1930)",
+                        "commonName":  "부채하루살이",
+                        "terminalLatinName":  "pellucidus",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Ephemeroptera",
+                                                       "commonName":  "하루살이목",
+                                                       "ktsn":  120000023873
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Heptageniidae",
+                                                        "commonName":  "납작하루살이과",
+                                                        "ktsn":  120000023938
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Epeorus",
+                                                       "commonName":  "부채하루살이속",
+                                                       "ktsn":  120000023955
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "pellucidus",
+                                                         "commonName":  "부채하루살이",
+                                                         "ktsn":  120000023959
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:21:37.048Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
+                                               "thumbnailUrl":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           }
+                    },
+                    {
+                        "ktsn":  120000023961,
+                        "scientificName":  "Heptagenia guranica Belov, 1981",
+                        "commonName":  "배점하루살이",
+                        "terminalLatinName":  "guranica",
+                        "nomenclaturalAuthor":  "Belov",
+                        "namingYear":  "1981",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Ephemeroptera",
+                                                       "commonName":  "하루살이목",
+                                                       "ktsn":  120000023873
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Heptageniidae",
+                                                        "commonName":  "납작하루살이과",
+                                                        "ktsn":  120000023938
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Heptagenia",
+                                                       "commonName":  "납작하루살이속",
+                                                       "ktsn":  120000023960
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "guranica",
+                                                         "commonName":  "배점하루살이",
+                                                         "ktsn":  120000023961
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:21:37.048Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
+                                               "thumbnailUrl":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           }
+                    },
+                    {
+                        "ktsn":  120000023962,
+                        "scientificName":  "Heptagenia kihada Matsumura, 1931",
+                        "commonName":  "햇님하루살이",
+                        "terminalLatinName":  "kihada",
+                        "nomenclaturalAuthor":  "Matsumura",
+                        "namingYear":  "1931",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Ephemeroptera",
+                                                       "commonName":  "하루살이목",
+                                                       "ktsn":  120000023873
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Heptageniidae",
+                                                        "commonName":  "납작하루살이과",
+                                                        "ktsn":  120000023938
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Heptagenia",
+                                                       "commonName":  "납작하루살이속",
+                                                       "ktsn":  120000023960
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "kihada",
+                                                         "commonName":  "햇님하루살이",
+                                                         "ktsn":  120000023962
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:21:37.048Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
+                                               "thumbnailUrl":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           }
+                    },
+                    {
+                        "ktsn":  120000023963,
+                        "scientificName":  "Heptagenia kyotoensis Gose, 1963",
+                        "commonName":  "총채하루살이",
+                        "terminalLatinName":  "kyotoensis",
+                        "nomenclaturalAuthor":  "Gose",
+                        "namingYear":  "1963",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Ephemeroptera",
+                                                       "commonName":  "하루살이목",
+                                                       "ktsn":  120000023873
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Heptageniidae",
+                                                        "commonName":  "납작하루살이과",
+                                                        "ktsn":  120000023938
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Heptagenia",
+                                                       "commonName":  "납작하루살이속",
+                                                       "ktsn":  120000023960
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "kyotoensis",
+                                                         "commonName":  "총채하루살이",
+                                                         "ktsn":  120000023963
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:21:37.048Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
+                                               "thumbnailUrl":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           }
+                    },
+                    {
+                        "ktsn":  120000023965,
+                        "scientificName":  "Rhithrogena binotata Sinitshenkova, 1982",
+                        "commonName":  "깊은골하루살이",
+                        "terminalLatinName":  "binotata",
+                        "nomenclaturalAuthor":  "Sinitshenkova",
+                        "namingYear":  "1982",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Ephemeroptera",
+                                                       "commonName":  "하루살이목",
+                                                       "ktsn":  120000023873
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Heptageniidae",
+                                                        "commonName":  "납작하루살이과",
+                                                        "ktsn":  120000023938
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Rhithrogena",
+                                                       "commonName":  "산납작하루살이속",
+                                                       "ktsn":  120000023964
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "binotata",
+                                                         "commonName":  "깊은골하루살이",
+                                                         "ktsn":  120000023965
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:21:37.048Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
+                                               "thumbnailUrl":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           }
+                    },
+                    {
+                        "ktsn":  120000023966,
+                        "scientificName":  "Rhithrogena japonica Uéno, 1928",
+                        "commonName":  "골짜기하루살이",
+                        "terminalLatinName":  "japonica",
+                        "nomenclaturalAuthor":  "Uéno",
+                        "namingYear":  "1928",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Ephemeroptera",
+                                                       "commonName":  "하루살이목",
+                                                       "ktsn":  120000023873
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Heptageniidae",
+                                                        "commonName":  "납작하루살이과",
+                                                        "ktsn":  120000023938
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Rhithrogena",
+                                                       "commonName":  "산납작하루살이속",
+                                                       "ktsn":  120000023964
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "japonica",
+                                                         "commonName":  "골짜기하루살이",
+                                                         "ktsn":  120000023966
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:21:37.048Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
+                                               "thumbnailUrl":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           }
+                    },
+                    {
+                        "ktsn":  120000023967,
+                        "scientificName":  "Rhithrogena lepnevae Brodsky, 1930",
+                        "commonName":  "깊은산하루살이",
+                        "terminalLatinName":  "lepnevae",
+                        "nomenclaturalAuthor":  "Brodsky",
+                        "namingYear":  "1930",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Ephemeroptera",
+                                                       "commonName":  "하루살이목",
+                                                       "ktsn":  120000023873
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Heptageniidae",
+                                                        "commonName":  "납작하루살이과",
+                                                        "ktsn":  120000023938
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Rhithrogena",
+                                                       "commonName":  "산납작하루살이속",
+                                                       "ktsn":  120000023964
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "lepnevae",
+                                                         "commonName":  "깊은산하루살이",
+                                                         "ktsn":  120000023967
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:21:37.048Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
+                                               "thumbnailUrl":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           }
+                    }
+                ],
+    "digitalContentUpdatedAt":  "2026-05-21T09:21:37.048Z",
+    "digitalContentSource":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
 }

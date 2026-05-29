@@ -1,816 +1,848 @@
 {
-  "generatedAt": "2026-05-21T07:47:08.025Z",
-  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
-  "order": {
-    "id": "lepidoptera",
-    "scientificName": "Lepidoptera",
-    "commonName": "나비목",
-    "orderKtsn": 120000031663
-  },
-  "family": {
-    "id": "autostichidae",
-    "scientificName": "Autostichidae",
-    "commonName": "점원뿔나방과",
-    "familyKtsn": 120000031687
-  },
-  "speciesCount": 15,
-  "insects": [
-    {
-      "ktsn": 120000031689,
-      "scientificName": "Autosticha dimochla Meyrick, 1935",
-      "commonName": "혹붙이원뿔나방",
-      "terminalLatinName": "dimochla",
-      "nomenclaturalAuthor": "Meyrick",
-      "namingYear": "1935",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Lepidoptera",
-          "commonName": "나비목",
-          "ktsn": 120000031663
-        },
-        "family": {
-          "scientificName": "Autostichidae",
-          "commonName": "점원뿔나방과",
-          "ktsn": 120000031687
-        },
-        "genus": {
-          "scientificName": "Autosticha",
-          "commonName": "",
-          "ktsn": 120000031688
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "dimochla",
-          "commonName": "혹붙이원뿔나방",
-          "ktsn": 120000031689
-        }
-      },
-      "eol": {
-        "pageId": 358637,
-        "canonical": "Autosticha dimochla",
-        "fetchedAt": "2026-05-24T11:11:50.110Z",
-        "vernaculars": {
-          "ko": [],
-          "en": [],
-          "ja": []
-        },
-        "habitat": [],
-        "geographic": [],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": 2
-      }
-    },
-    {
-      "ktsn": 120000504447,
-      "scientificName": "Autosticha kyotensis (Matsumura, 1931)",
-      "commonName": "교토점원뿔나방",
-      "terminalLatinName": "kyotensis",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Lepidoptera",
-          "commonName": "나비목",
-          "ktsn": 120000031663
-        },
-        "family": {
-          "scientificName": "Autostichidae",
-          "commonName": "점원뿔나방과",
-          "ktsn": 120000031687
-        },
-        "genus": {
-          "scientificName": "Autosticha",
-          "commonName": "",
-          "ktsn": 120000031688
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "kyotensis",
-          "commonName": "교토점원뿔나방",
-          "ktsn": 120000504447
-        }
-      }
-    },
-    {
-      "ktsn": 120000211937,
-      "scientificName": "Autosticha modicella (Christoph, 1882)",
-      "commonName": "가랑잎뿔나방",
-      "terminalLatinName": "modicella",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Lepidoptera",
-          "commonName": "나비목",
-          "ktsn": 120000031663
-        },
-        "family": {
-          "scientificName": "Autostichidae",
-          "commonName": "점원뿔나방과",
-          "ktsn": 120000031687
-        },
-        "genus": {
-          "scientificName": "Autosticha",
-          "commonName": "",
-          "ktsn": 120000031688
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "modicella",
-          "commonName": "가랑잎뿔나방",
-          "ktsn": 120000211937
-        }
-      }
-    },
-    {
-      "ktsn": 120000031690,
-      "scientificName": "Autosticha opaca Meyrick, 1927",
-      "commonName": "세점낙엽뿔나방",
-      "terminalLatinName": "opaca",
-      "nomenclaturalAuthor": "Meyrick",
-      "namingYear": "1927",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Lepidoptera",
-          "commonName": "나비목",
-          "ktsn": 120000031663
-        },
-        "family": {
-          "scientificName": "Autostichidae",
-          "commonName": "점원뿔나방과",
-          "ktsn": 120000031687
-        },
-        "genus": {
-          "scientificName": "Autosticha",
-          "commonName": "",
-          "ktsn": 120000031688
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "opaca",
-          "commonName": "세점낙엽뿔나방",
-          "ktsn": 120000031690
-        }
-      }
-    },
-    {
-      "ktsn": 120000031691,
-      "scientificName": "Autosticha pachysticta Meyrick, 1936",
-      "commonName": "바둑점원뿔나방",
-      "terminalLatinName": "pachysticta",
-      "nomenclaturalAuthor": "Meyrick",
-      "namingYear": "1936",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Lepidoptera",
-          "commonName": "나비목",
-          "ktsn": 120000031663
-        },
-        "family": {
-          "scientificName": "Autostichidae",
-          "commonName": "점원뿔나방과",
-          "ktsn": 120000031687
-        },
-        "genus": {
-          "scientificName": "Autosticha",
-          "commonName": "",
-          "ktsn": 120000031688
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "pachysticta",
-          "commonName": "바둑점원뿔나방",
-          "ktsn": 120000031691
-        }
-      }
-    },
-    {
-      "ktsn": 120000031692,
-      "scientificName": "Autosticha pyungyangensis Park and Wu, 2003",
-      "commonName": "평양점원뿔나방",
-      "terminalLatinName": "pyungyangensis",
-      "nomenclaturalAuthor": "Park and Wu",
-      "namingYear": "2003",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Lepidoptera",
-          "commonName": "나비목",
-          "ktsn": 120000031663
-        },
-        "family": {
-          "scientificName": "Autostichidae",
-          "commonName": "점원뿔나방과",
-          "ktsn": 120000031687
-        },
-        "genus": {
-          "scientificName": "Autosticha",
-          "commonName": "",
-          "ktsn": 120000031688
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "pyungyangensis",
-          "commonName": "평양점원뿔나방",
-          "ktsn": 120000031692
-        }
-      }
-    },
-    {
-      "ktsn": 120000031693,
-      "scientificName": "Autosticha suwonensis Park and Wu, 2003",
-      "commonName": "수원점원뿔나방",
-      "terminalLatinName": "suwonensis",
-      "nomenclaturalAuthor": "Park and Wu",
-      "namingYear": "2003",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "Y",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Lepidoptera",
-          "commonName": "나비목",
-          "ktsn": 120000031663
-        },
-        "family": {
-          "scientificName": "Autostichidae",
-          "commonName": "점원뿔나방과",
-          "ktsn": 120000031687
-        },
-        "genus": {
-          "scientificName": "Autosticha",
-          "commonName": "",
-          "ktsn": 120000031688
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "suwonensis",
-          "commonName": "수원점원뿔나방",
-          "ktsn": 120000031693
-        }
-      }
-    },
-    {
-      "ktsn": 120000031694,
-      "scientificName": "Autosticha truncicola Ueda, 1997",
-      "commonName": "세로점원뿔나방",
-      "terminalLatinName": "truncicola",
-      "nomenclaturalAuthor": "Ueda",
-      "namingYear": "1997",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Lepidoptera",
-          "commonName": "나비목",
-          "ktsn": 120000031663
-        },
-        "family": {
-          "scientificName": "Autostichidae",
-          "commonName": "점원뿔나방과",
-          "ktsn": 120000031687
-        },
-        "genus": {
-          "scientificName": "Autosticha",
-          "commonName": "",
-          "ktsn": 120000031688
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "truncicola",
-          "commonName": "세로점원뿔나방",
-          "ktsn": 120000031694
-        }
-      }
-    },
-    {
-      "ktsn": 120000207655,
-      "scientificName": "Meleonoma brevicula Park, 2016",
-      "commonName": "애돌기날개뿔나방",
-      "terminalLatinName": "brevicula",
-      "nomenclaturalAuthor": "Park",
-      "namingYear": "2016",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Lepidoptera",
-          "commonName": "나비목",
-          "ktsn": 120000031663
-        },
-        "family": {
-          "scientificName": "Autostichidae",
-          "commonName": "점원뿔나방과",
-          "ktsn": 120000031687
-        },
-        "genus": {
-          "scientificName": "Meleonoma",
-          "commonName": "",
-          "ktsn": 120000206314
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "brevicula",
-          "commonName": "애돌기날개뿔나방",
-          "ktsn": 120000207655
-        }
-      }
-    },
-    {
-      "ktsn": 120000207657,
-      "scientificName": "Meleonoma facialis Li and Wang, 2002",
-      "commonName": "중화날개뿔나방",
-      "terminalLatinName": "facialis",
-      "nomenclaturalAuthor": "Li and Wang",
-      "namingYear": "2002",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Lepidoptera",
-          "commonName": "나비목",
-          "ktsn": 120000031663
-        },
-        "family": {
-          "scientificName": "Autostichidae",
-          "commonName": "점원뿔나방과",
-          "ktsn": 120000031687
-        },
-        "genus": {
-          "scientificName": "Meleonoma",
-          "commonName": "",
-          "ktsn": 120000206314
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "facialis",
-          "commonName": "중화날개뿔나방",
-          "ktsn": 120000207657
-        }
-      }
-    },
-    {
-      "ktsn": 120000501941,
-      "scientificName": "Meleonoma fustiformis (Wang, 2006)",
-      "commonName": "두무늬통원뿔나방",
-      "terminalLatinName": "fustiformis",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Lepidoptera",
-          "commonName": "나비목",
-          "ktsn": 120000031663
-        },
-        "family": {
-          "scientificName": "Autostichidae",
-          "commonName": "점원뿔나방과",
-          "ktsn": 120000031687
-        },
-        "genus": {
-          "scientificName": "Meleonoma",
-          "commonName": "",
-          "ktsn": 120000206314
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "fustiformis",
-          "commonName": "두무늬통원뿔나방",
-          "ktsn": 120000501941
-        }
-      }
-    },
-    {
-      "ktsn": 120000529764,
-      "scientificName": "Meleonoma jugeumensis Kim, 2024",
-      "commonName": "주금점원뿔나방",
-      "terminalLatinName": "jugeumensis",
-      "nomenclaturalAuthor": "Kim",
-      "namingYear": "2024",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Lepidoptera",
-          "commonName": "나비목",
-          "ktsn": 120000031663
-        },
-        "family": {
-          "scientificName": "Autostichidae",
-          "commonName": "점원뿔나방과",
-          "ktsn": 120000031687
-        },
-        "genus": {
-          "scientificName": "Meleonoma",
-          "commonName": "",
-          "ktsn": 120000206314
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "jugeumensis",
-          "commonName": "주금점원뿔나방",
-          "ktsn": 120000529764
-        }
-      }
-    },
-    {
-      "ktsn": 120000212229,
-      "scientificName": "Meleonoma malacobyrsa (Meyrick, 1921)",
-      "commonName": "갈색띠원뿔나방",
-      "terminalLatinName": "malacobyrsa",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Lepidoptera",
-          "commonName": "나비목",
-          "ktsn": 120000031663
-        },
-        "family": {
-          "scientificName": "Autostichidae",
-          "commonName": "점원뿔나방과",
-          "ktsn": 120000031687
-        },
-        "genus": {
-          "scientificName": "Meleonoma",
-          "commonName": "",
-          "ktsn": 120000206314
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "malacobyrsa",
-          "commonName": "갈색띠원뿔나방",
-          "ktsn": 120000212229
-        }
-      }
-    },
-    {
-      "ktsn": 120000207656,
-      "scientificName": "Meleonoma tamraensis Park, 2016",
-      "commonName": "탐라날개뿔나방",
-      "terminalLatinName": "tamraensis",
-      "nomenclaturalAuthor": "Park",
-      "namingYear": "2016",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Lepidoptera",
-          "commonName": "나비목",
-          "ktsn": 120000031663
-        },
-        "family": {
-          "scientificName": "Autostichidae",
-          "commonName": "점원뿔나방과",
-          "ktsn": 120000031687
-        },
-        "genus": {
-          "scientificName": "Meleonoma",
-          "commonName": "",
-          "ktsn": 120000206314
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "tamraensis",
-          "commonName": "탐라날개뿔나방",
-          "ktsn": 120000207656
-        }
-      }
-    },
-    {
-      "ktsn": 120000212230,
-      "scientificName": "Meleonoma torophanes (Meyrick, 1935)",
-      "commonName": "노랑띠원뿔나방",
-      "terminalLatinName": "torophanes",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Lepidoptera",
-          "commonName": "나비목",
-          "ktsn": 120000031663
-        },
-        "family": {
-          "scientificName": "Autostichidae",
-          "commonName": "점원뿔나방과",
-          "ktsn": 120000031687
-        },
-        "genus": {
-          "scientificName": "Meleonoma",
-          "commonName": "",
-          "ktsn": 120000206314
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "torophanes",
-          "commonName": "노랑띠원뿔나방",
-          "ktsn": 120000212230
-        }
-      }
-    }
-  ]
+    "generatedAt":  "2026-05-21T07:47:08.025Z",
+    "source":  "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+    "order":  {
+                  "id":  "lepidoptera",
+                  "scientificName":  "Lepidoptera",
+                  "commonName":  "나비목",
+                  "orderKtsn":  120000031663
+              },
+    "family":  {
+                   "id":  "autostichidae",
+                   "scientificName":  "Autostichidae",
+                   "commonName":  "점원뿔나방과",
+                   "familyKtsn":  120000031687
+               },
+    "speciesCount":  15,
+    "insects":  [
+                    {
+                        "ktsn":  120000031689,
+                        "scientificName":  "Autosticha dimochla Meyrick, 1935",
+                        "commonName":  "혹붙이원뿔나방",
+                        "terminalLatinName":  "dimochla",
+                        "nomenclaturalAuthor":  "Meyrick",
+                        "namingYear":  "1935",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Lepidoptera",
+                                                       "commonName":  "나비목",
+                                                       "ktsn":  120000031663
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Autostichidae",
+                                                        "commonName":  "점원뿔나방과",
+                                                        "ktsn":  120000031687
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Autosticha",
+                                                       "commonName":  "",
+                                                       "ktsn":  120000031688
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "dimochla",
+                                                         "commonName":  "혹붙이원뿔나방",
+                                                         "ktsn":  120000031689
+                                                     }
+                                     },
+                        "eol":  {
+                                    "pageId":  358637,
+                                    "canonical":  "Autosticha dimochla",
+                                    "fetchedAt":  "2026-05-24T11:11:50.110Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  2
+                                }
+                    },
+                    {
+                        "ktsn":  120000504447,
+                        "scientificName":  "Autosticha kyotensis (Matsumura, 1931)",
+                        "commonName":  "교토점원뿔나방",
+                        "terminalLatinName":  "kyotensis",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Lepidoptera",
+                                                       "commonName":  "나비목",
+                                                       "ktsn":  120000031663
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Autostichidae",
+                                                        "commonName":  "점원뿔나방과",
+                                                        "ktsn":  120000031687
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Autosticha",
+                                                       "commonName":  "",
+                                                       "ktsn":  120000031688
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "kyotensis",
+                                                         "commonName":  "교토점원뿔나방",
+                                                         "ktsn":  120000504447
+                                                     }
+                                     }
+                    },
+                    {
+                        "ktsn":  120000211937,
+                        "scientificName":  "Autosticha modicella (Christoph, 1882)",
+                        "commonName":  "가랑잎뿔나방",
+                        "terminalLatinName":  "modicella",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Lepidoptera",
+                                                       "commonName":  "나비목",
+                                                       "ktsn":  120000031663
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Autostichidae",
+                                                        "commonName":  "점원뿔나방과",
+                                                        "ktsn":  120000031687
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Autosticha",
+                                                       "commonName":  "",
+                                                       "ktsn":  120000031688
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "modicella",
+                                                         "commonName":  "가랑잎뿔나방",
+                                                         "ktsn":  120000211937
+                                                     }
+                                     }
+                    },
+                    {
+                        "ktsn":  120000031690,
+                        "scientificName":  "Autosticha opaca Meyrick, 1927",
+                        "commonName":  "세점낙엽뿔나방",
+                        "terminalLatinName":  "opaca",
+                        "nomenclaturalAuthor":  "Meyrick",
+                        "namingYear":  "1927",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Lepidoptera",
+                                                       "commonName":  "나비목",
+                                                       "ktsn":  120000031663
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Autostichidae",
+                                                        "commonName":  "점원뿔나방과",
+                                                        "ktsn":  120000031687
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Autosticha",
+                                                       "commonName":  "",
+                                                       "ktsn":  120000031688
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "opaca",
+                                                         "commonName":  "세점낙엽뿔나방",
+                                                         "ktsn":  120000031690
+                                                     }
+                                     }
+                    },
+                    {
+                        "ktsn":  120000031691,
+                        "scientificName":  "Autosticha pachysticta Meyrick, 1936",
+                        "commonName":  "바둑점원뿔나방",
+                        "terminalLatinName":  "pachysticta",
+                        "nomenclaturalAuthor":  "Meyrick",
+                        "namingYear":  "1936",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Lepidoptera",
+                                                       "commonName":  "나비목",
+                                                       "ktsn":  120000031663
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Autostichidae",
+                                                        "commonName":  "점원뿔나방과",
+                                                        "ktsn":  120000031687
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Autosticha",
+                                                       "commonName":  "",
+                                                       "ktsn":  120000031688
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "pachysticta",
+                                                         "commonName":  "바둑점원뿔나방",
+                                                         "ktsn":  120000031691
+                                                     }
+                                     }
+                    },
+                    {
+                        "ktsn":  120000031692,
+                        "scientificName":  "Autosticha pyungyangensis Park and Wu, 2003",
+                        "commonName":  "평양점원뿔나방",
+                        "terminalLatinName":  "pyungyangensis",
+                        "nomenclaturalAuthor":  "Park and Wu",
+                        "namingYear":  "2003",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Lepidoptera",
+                                                       "commonName":  "나비목",
+                                                       "ktsn":  120000031663
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Autostichidae",
+                                                        "commonName":  "점원뿔나방과",
+                                                        "ktsn":  120000031687
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Autosticha",
+                                                       "commonName":  "",
+                                                       "ktsn":  120000031688
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "pyungyangensis",
+                                                         "commonName":  "평양점원뿔나방",
+                                                         "ktsn":  120000031692
+                                                     }
+                                     }
+                    },
+                    {
+                        "ktsn":  120000031693,
+                        "scientificName":  "Autosticha suwonensis Park and Wu, 2003",
+                        "commonName":  "수원점원뿔나방",
+                        "terminalLatinName":  "suwonensis",
+                        "nomenclaturalAuthor":  "Park and Wu",
+                        "namingYear":  "2003",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "Y",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Lepidoptera",
+                                                       "commonName":  "나비목",
+                                                       "ktsn":  120000031663
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Autostichidae",
+                                                        "commonName":  "점원뿔나방과",
+                                                        "ktsn":  120000031687
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Autosticha",
+                                                       "commonName":  "",
+                                                       "ktsn":  120000031688
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "suwonensis",
+                                                         "commonName":  "수원점원뿔나방",
+                                                         "ktsn":  120000031693
+                                                     }
+                                     }
+                    },
+                    {
+                        "ktsn":  120000031694,
+                        "scientificName":  "Autosticha truncicola Ueda, 1997",
+                        "commonName":  "세로점원뿔나방",
+                        "terminalLatinName":  "truncicola",
+                        "nomenclaturalAuthor":  "Ueda",
+                        "namingYear":  "1997",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Lepidoptera",
+                                                       "commonName":  "나비목",
+                                                       "ktsn":  120000031663
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Autostichidae",
+                                                        "commonName":  "점원뿔나방과",
+                                                        "ktsn":  120000031687
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Autosticha",
+                                                       "commonName":  "",
+                                                       "ktsn":  120000031688
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "truncicola",
+                                                         "commonName":  "세로점원뿔나방",
+                                                         "ktsn":  120000031694
+                                                     }
+                                     }
+                    },
+                    {
+                        "ktsn":  120000207655,
+                        "scientificName":  "Meleonoma brevicula Park, 2016",
+                        "commonName":  "애돌기날개뿔나방",
+                        "terminalLatinName":  "brevicula",
+                        "nomenclaturalAuthor":  "Park",
+                        "namingYear":  "2016",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Lepidoptera",
+                                                       "commonName":  "나비목",
+                                                       "ktsn":  120000031663
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Autostichidae",
+                                                        "commonName":  "점원뿔나방과",
+                                                        "ktsn":  120000031687
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Meleonoma",
+                                                       "commonName":  "",
+                                                       "ktsn":  120000206314
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "brevicula",
+                                                         "commonName":  "애돌기날개뿔나방",
+                                                         "ktsn":  120000207655
+                                                     }
+                                     }
+                    },
+                    {
+                        "ktsn":  120000207657,
+                        "scientificName":  "Meleonoma facialis Li and Wang, 2002",
+                        "commonName":  "중화날개뿔나방",
+                        "terminalLatinName":  "facialis",
+                        "nomenclaturalAuthor":  "Li and Wang",
+                        "namingYear":  "2002",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Lepidoptera",
+                                                       "commonName":  "나비목",
+                                                       "ktsn":  120000031663
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Autostichidae",
+                                                        "commonName":  "점원뿔나방과",
+                                                        "ktsn":  120000031687
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Meleonoma",
+                                                       "commonName":  "",
+                                                       "ktsn":  120000206314
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "facialis",
+                                                         "commonName":  "중화날개뿔나방",
+                                                         "ktsn":  120000207657
+                                                     }
+                                     }
+                    },
+                    {
+                        "ktsn":  120000501941,
+                        "scientificName":  "Meleonoma fustiformis (Wang, 2006)",
+                        "commonName":  "두무늬통원뿔나방",
+                        "terminalLatinName":  "fustiformis",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Lepidoptera",
+                                                       "commonName":  "나비목",
+                                                       "ktsn":  120000031663
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Autostichidae",
+                                                        "commonName":  "점원뿔나방과",
+                                                        "ktsn":  120000031687
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Meleonoma",
+                                                       "commonName":  "",
+                                                       "ktsn":  120000206314
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "fustiformis",
+                                                         "commonName":  "두무늬통원뿔나방",
+                                                         "ktsn":  120000501941
+                                                     }
+                                     }
+                    },
+                    {
+                        "ktsn":  120000529764,
+                        "scientificName":  "Meleonoma jugeumensis Kim, 2024",
+                        "commonName":  "주금점원뿔나방",
+                        "terminalLatinName":  "jugeumensis",
+                        "nomenclaturalAuthor":  "Kim",
+                        "namingYear":  "2024",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Lepidoptera",
+                                                       "commonName":  "나비목",
+                                                       "ktsn":  120000031663
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Autostichidae",
+                                                        "commonName":  "점원뿔나방과",
+                                                        "ktsn":  120000031687
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Meleonoma",
+                                                       "commonName":  "",
+                                                       "ktsn":  120000206314
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "jugeumensis",
+                                                         "commonName":  "주금점원뿔나방",
+                                                         "ktsn":  120000529764
+                                                     }
+                                     }
+                    },
+                    {
+                        "ktsn":  120000212229,
+                        "scientificName":  "Meleonoma malacobyrsa (Meyrick, 1921)",
+                        "commonName":  "갈색띠원뿔나방",
+                        "terminalLatinName":  "malacobyrsa",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Lepidoptera",
+                                                       "commonName":  "나비목",
+                                                       "ktsn":  120000031663
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Autostichidae",
+                                                        "commonName":  "점원뿔나방과",
+                                                        "ktsn":  120000031687
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Meleonoma",
+                                                       "commonName":  "",
+                                                       "ktsn":  120000206314
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "malacobyrsa",
+                                                         "commonName":  "갈색띠원뿔나방",
+                                                         "ktsn":  120000212229
+                                                     }
+                                     },
+                        "inat":  {
+                                     "observationCount":  1,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/542286125/medium.jpg",
+                                     "months":  [
+                                                    7
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000207656,
+                        "scientificName":  "Meleonoma tamraensis Park, 2016",
+                        "commonName":  "탐라날개뿔나방",
+                        "terminalLatinName":  "tamraensis",
+                        "nomenclaturalAuthor":  "Park",
+                        "namingYear":  "2016",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Lepidoptera",
+                                                       "commonName":  "나비목",
+                                                       "ktsn":  120000031663
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Autostichidae",
+                                                        "commonName":  "점원뿔나방과",
+                                                        "ktsn":  120000031687
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Meleonoma",
+                                                       "commonName":  "",
+                                                       "ktsn":  120000206314
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "tamraensis",
+                                                         "commonName":  "탐라날개뿔나방",
+                                                         "ktsn":  120000207656
+                                                     }
+                                     }
+                    },
+                    {
+                        "ktsn":  120000212230,
+                        "scientificName":  "Meleonoma torophanes (Meyrick, 1935)",
+                        "commonName":  "노랑띠원뿔나방",
+                        "terminalLatinName":  "torophanes",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Lepidoptera",
+                                                       "commonName":  "나비목",
+                                                       "ktsn":  120000031663
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Autostichidae",
+                                                        "commonName":  "점원뿔나방과",
+                                                        "ktsn":  120000031687
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Meleonoma",
+                                                       "commonName":  "",
+                                                       "ktsn":  120000206314
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "torophanes",
+                                                         "commonName":  "노랑띠원뿔나방",
+                                                         "ktsn":  120000212230
+                                                     }
+                                     },
+                        "inat":  {
+                                     "observationCount":  1,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/83051985/medium.jpeg",
+                                     "months":  [
+                                                    7
+                                                ]
+                                 }
+                    }
+                ]
 }

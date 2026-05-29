@@ -1,104 +1,140 @@
 {
-  "generatedAt": "2026-05-21T07:47:08.025Z",
-  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
-  "order": {
-    "id": "hemiptera",
-    "scientificName": "Hemiptera",
-    "commonName": "노린재목",
-    "orderKtsn": 120000066597
-  },
-  "family": {
-    "id": "enicocephalidae",
-    "scientificName": "Enicocephalidae",
-    "commonName": "머리목노린재과",
-    "familyKtsn": 120000025945
-  },
-  "speciesCount": 1,
-  "insects": [
-    {
-      "ktsn": 120000025948,
-      "scientificName": "Hoplitocoris (Pseudenicocephalus) lewisi (Distant, 1903)",
-      "commonName": "머리목노린재",
-      "terminalLatinName": "lewisi",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Enicocephalidae",
-          "commonName": "머리목노린재과",
-          "ktsn": 120000025945
-        },
-        "genus": {
-          "scientificName": "Hoplitocoris",
-          "commonName": "머리목노린재속",
-          "ktsn": 120000025946
-        },
-        "subgenus": {
-          "scientificName": "Pseudenicocephalus",
-          "commonName": "",
-          "ktsn": 120000025947
-        },
-        "species": {
-          "scientificName": "lewisi",
-          "commonName": "머리목노린재",
-          "ktsn": 120000025948
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:26:37.463Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "totalElements": 0,
-        "totalPages": 1,
-        "thumbnailUrl": null,
-        "thumbnail": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      },
-      "eol": {
-        "pageId": 50945578,
-        "canonical": "Hoplitocoris lewisi",
-        "fetchedAt": "2026-05-24T10:05:42.352Z",
-        "vernaculars": {
-          "ko": [],
-          "en": [],
-          "ja": []
-        },
-        "habitat": [],
-        "geographic": [],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": null
-      }
-    }
-  ],
-  "digitalContentUpdatedAt": "2026-05-21T09:26:37.463Z",
-  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+    "generatedAt":  "2026-05-21T07:47:08.025Z",
+    "source":  "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+    "order":  {
+                  "id":  "hemiptera",
+                  "scientificName":  "Hemiptera",
+                  "commonName":  "노린재목",
+                  "orderKtsn":  120000066597
+              },
+    "family":  {
+                   "id":  "enicocephalidae",
+                   "scientificName":  "Enicocephalidae",
+                   "commonName":  "머리목노린재과",
+                   "familyKtsn":  120000025945
+               },
+    "speciesCount":  1,
+    "insects":  [
+                    {
+                        "ktsn":  120000025948,
+                        "scientificName":  "Hoplitocoris (Pseudenicocephalus) lewisi (Distant, 1903)",
+                        "commonName":  "머리목노린재",
+                        "terminalLatinName":  "lewisi",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Enicocephalidae",
+                                                        "commonName":  "머리목노린재과",
+                                                        "ktsn":  120000025945
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Hoplitocoris",
+                                                       "commonName":  "머리목노린재속",
+                                                       "ktsn":  120000025946
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "Pseudenicocephalus",
+                                                          "commonName":  "",
+                                                          "ktsn":  120000025947
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "lewisi",
+                                                         "commonName":  "머리목노린재",
+                                                         "ktsn":  120000025948
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:26:37.463Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "totalElements":  0,
+                                               "totalPages":  1,
+                                               "thumbnailUrl":  null,
+                                               "thumbnail":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "eol":  {
+                                    "pageId":  50945578,
+                                    "canonical":  "Hoplitocoris lewisi",
+                                    "fetchedAt":  "2026-05-24T10:05:42.352Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  null
+                                },
+                        "inat":  {
+                                     "observationCount":  4,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/648165959/medium.jpg",
+                                     "months":  [
+                                                    3,
+                                                    4,
+                                                    5,
+                                                    6
+                                                ]
+                                 }
+                    }
+                ],
+    "digitalContentUpdatedAt":  "2026-05-21T09:26:37.463Z",
+    "digitalContentSource":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
 }

@@ -1,466 +1,562 @@
 {
-  "generatedAt": "2026-05-21T07:47:08.025Z",
-  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
-  "order": {
-    "id": "lepidoptera",
-    "scientificName": "Lepidoptera",
-    "commonName": "나비목",
-    "orderKtsn": 120000031663
-  },
-  "family": {
-    "id": "bombycidae",
-    "scientificName": "Bombycidae",
-    "commonName": "누에나방과",
-    "familyKtsn": 120000031701
-  },
-  "speciesCount": 6,
-  "insects": [
-    {
-      "ktsn": 120000031703,
-      "scientificName": "Bombyx mandarina (Moore, 1872)",
-      "commonName": "멧누에나방",
-      "terminalLatinName": "mandarina",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Lepidoptera",
-          "commonName": "나비목",
-          "ktsn": 120000031663
-        },
-        "family": {
-          "scientificName": "Bombycidae",
-          "commonName": "누에나방과",
-          "ktsn": 120000031701
-        },
-        "genus": {
-          "scientificName": "Bombyx",
-          "commonName": "",
-          "ktsn": 120000031702
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "mandarina",
-          "commonName": "멧누에나방",
-          "ktsn": 120000031703
-        }
-      },
-      "eol": {
-        "pageId": 48898790,
-        "canonical": "Bombyx mandarina",
-        "fetchedAt": "2026-05-24T11:13:32.398Z",
-        "vernaculars": {
-          "ko": [],
-          "en": [],
-          "ja": []
-        },
-        "habitat": [],
-        "geographic": [],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": null
-      },
-      "abstract": "멧누에나방(학명: Bombyx mandarina)은 누에나방과의 나방이다. 날개 편 길이는 35~40mm이다. 누에나방과 닮았다. 몸과 날개의 바탕색은 회갈색에 올리브 빛이 난다. 수컷보다 암컷의 색상이 조금 옅다. 양잠업에 쓰려고 기르는 누에(Bombyx mori)의 원종 야생형으로 생각되고 있으며, 실제로 누에와의 사이에 잡종이 만들어진다. 산지의 낙엽 활엽수림 가장자리에서 살며, 애벌레는 주로 뽕나무나 산뽕나무 잎을 먹고, 뽕나무류 이외의 다른 식물의 잎도 먹는다. 5월 중순에서 11월까지 연 2회 발생한다. 밤에 불빛을 따라 날아온다. 한국, 일본(홋카이도), 중국(북부, 중부), 러시아 극동지역, 대만에 분포한다.",
-      "description": "멧누에나방(학명: Bombyx mandarina)은 누에나방과의 나방이다. 날개 편 길이는 35~40mm이다. 누에나방과 닮았다. 몸과 날개의 바탕색은 회갈색에 올리브 빛이 난다. 수컷보다 암컷의 색상이 조금 옅다. 양잠업에 쓰려고 기르는 누에(Bombyx mori)의 원종 야생형으로 생각되고 있으며, 실제로 누에와의 사이에 잡종이 만들어진다. 산지의 낙엽 활엽수림 가장자리에서 살며, 애벌레는 주로 뽕나무나 산뽕나무 잎을 먹고, 뽕나무류 이외의 다른 식물의 잎도 먹는다. 5월 중순에서 11월까지 연 2회 발생한다. 밤에 불빛을 따라 날아온다. 한국, 일본(홋카이도), 중국(북부, 중부), 러시아 극동지역, 대만에 분포한다."
-    },
-    {
-      "ktsn": 120000031704,
-      "scientificName": "Bombyx mori (Linnaeus, 1758)",
-      "commonName": "누에나방",
-      "terminalLatinName": "mori",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Lepidoptera",
-          "commonName": "나비목",
-          "ktsn": 120000031663
-        },
-        "family": {
-          "scientificName": "Bombycidae",
-          "commonName": "누에나방과",
-          "ktsn": 120000031701
-        },
-        "genus": {
-          "scientificName": "Bombyx",
-          "commonName": "",
-          "ktsn": 120000031702
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "mori",
-          "commonName": "누에나방",
-          "ktsn": 120000031704
-        }
-      },
-      "eol": {
-        "pageId": 391618,
-        "canonical": "Bombyx mori",
-        "fetchedAt": "2026-05-24T11:13:35.315Z",
-        "vernaculars": {
-          "ko": [
-            "누에나방"
-          ],
-          "en": [
-            "Domesticated Silkmoth"
-          ],
-          "ja": [
-            "カイコガ",
-            "カイコ"
-          ]
-        },
-        "habitat": [
-          "mountain",
-          "desert oasis",
-          "cave",
-          "forest"
-        ],
-        "geographic": [
-          "Japan",
-          "Vietnam",
-          "Taiwan",
-          "Spain",
-          "China",
-          "Australia"
-        ],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": 882
-      },
-      "abstract": "누에나방(Bombyx mori, 문화어: 누에나비)은 누에나방과의 나방이다. 누에나방의 애벌레는 누에라고 하고, 이를 한자로는 잠(蠶)이라고 한다. 하늘에서 내린 벌레라는 의미로 천충(天蟲)이라고 부르기도 한다. 애벌레 때는 뽕나무 잎만을 먹는데, 뽕나무 잎 이외의 식물도 먹을 수 있다. 하지만, 완전한 생장을 하려면 뽕나무 잎을 먹어야 한다. 다 자라서 고치를 지으면, 삶은 후에 비단실을 뽑는데, 기생 곤충인 기생파리에 감염된 누에의 고치는 누에의 양분을 먹고 자란 파리가 고치를 뚫고 나오기 때문에 상품 가치가 없다. 보통 누에는 잠사업이라고 하여, 실을 얻기 위해서 사람의 손에서 자란다. 야생 누에나방인 산누에나방이 번데기를 만들면서 짓는 실도 있는데, 이를 천잠이라고 한다.",
-      "description": "누에나방(Bombyx mori, 문화어: 누에나비)은 누에나방과의 나방이다. 누에나방의 애벌레는 누에라고 하고, 이를 한자로는 잠(蠶)이라고 한다. 하늘에서 내린 벌레라는 의미로 천충(天蟲)이라고 부르기도 한다. 애벌레 때는 뽕나무 잎만을 먹는데, 뽕나무 잎 이외의 식물도 먹을 수 있다. 하지만, 완전한 생장을 하려면 뽕나무 잎을 먹어야 한다. 다 자라서 고치를 지으면, 삶은 후에 비단실을 뽑는데, 기생 곤충인 기생파리에 감염된 누에의 고치는 누에의 양분을 먹고 자란 파리가 고치를 뚫고 나오기 때문에 상품 가치가 없다. 보통 누에는 잠사업이라고 하여, 실을 얻기 위해서 사람의 손에서 자란다. 야생 누에나방인 산누에나방이 번데기를 만들면서 짓는 실도 있는데, 이를 천잠이라고 한다."
-    },
-    {
-      "ktsn": 120000031705,
-      "scientificName": "Bombyx shini Park & Sohn, 2002",
-      "commonName": "",
-      "terminalLatinName": "shini",
-      "nomenclaturalAuthor": "Park & Sohn",
-      "namingYear": "2002",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "Y",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Lepidoptera",
-          "commonName": "나비목",
-          "ktsn": 120000031663
-        },
-        "family": {
-          "scientificName": "Bombycidae",
-          "commonName": "누에나방과",
-          "ktsn": 120000031701
-        },
-        "genus": {
-          "scientificName": "Bombyx",
-          "commonName": "",
-          "ktsn": 120000031702
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "shini",
-          "commonName": "",
-          "ktsn": 120000031705
-        }
-      }
-    },
-    {
-      "ktsn": 120000031707,
-      "scientificName": "Oberthueria caeca (Oberthür, 1880)",
-      "commonName": "물결멧누에나방",
-      "terminalLatinName": "caeca",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Lepidoptera",
-          "commonName": "나비목",
-          "ktsn": 120000031663
-        },
-        "family": {
-          "scientificName": "Bombycidae",
-          "commonName": "누에나방과",
-          "ktsn": 120000031701
-        },
-        "genus": {
-          "scientificName": "Oberthueria",
-          "commonName": "",
-          "ktsn": 120000031706
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "caeca",
-          "commonName": "물결멧누에나방",
-          "ktsn": 120000031707
-        }
-      },
-      "eol": {
-        "pageId": 49844095,
-        "canonical": "Oberthueria caeca",
-        "fetchedAt": "2026-05-24T11:13:55.938Z",
-        "vernaculars": {
-          "ko": [
-            "물결멧누에나방"
-          ],
-          "en": [],
-          "ja": []
-        },
-        "habitat": [
-          "mountain"
-        ],
-        "geographic": [
-          "Russia",
-          "China",
-          "Japan",
-          "Taiwan"
-        ],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": 654
-      }
-    },
-    {
-      "ktsn": 120000031708,
-      "scientificName": "Oberthueria falcigera (Butler, 1878)",
-      "commonName": "참물결멧누에나방",
-      "terminalLatinName": "falcigera",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Lepidoptera",
-          "commonName": "나비목",
-          "ktsn": 120000031663
-        },
-        "family": {
-          "scientificName": "Bombycidae",
-          "commonName": "누에나방과",
-          "ktsn": 120000031701
-        },
-        "genus": {
-          "scientificName": "Oberthueria",
-          "commonName": "",
-          "ktsn": 120000031706
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "falcigera",
-          "commonName": "참물결멧누에나방",
-          "ktsn": 120000031708
-        }
-      },
-      "eol": {
-        "pageId": 48898789,
-        "canonical": "Oberthueria falcigera",
-        "fetchedAt": "2026-05-24T11:14:02.654Z",
-        "vernaculars": {
-          "ko": [
-            "참물결멧누에나방"
-          ],
-          "en": [],
-          "ja": [
-            "オオクワゴモドキ"
-          ]
-        },
-        "habitat": [],
-        "geographic": [
-          "China",
-          "North Pacific",
-          "Japan"
-        ],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": 284
-      }
-    },
-    {
-      "ktsn": 120000114659,
-      "scientificName": "Rondotia menciana Moore, 1885",
-      "commonName": "왕누에나방",
-      "terminalLatinName": "menciana",
-      "nomenclaturalAuthor": "Moore",
-      "namingYear": "1885",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Lepidoptera",
-          "commonName": "나비목",
-          "ktsn": 120000031663
-        },
-        "family": {
-          "scientificName": "Bombycidae",
-          "commonName": "누에나방과",
-          "ktsn": 120000031701
-        },
-        "genus": {
-          "scientificName": "Rondotia",
-          "commonName": "",
-          "ktsn": 120000114658
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "menciana",
-          "commonName": "왕누에나방",
-          "ktsn": 120000114659
-        }
-      },
-      "eol": {
-        "pageId": 392263,
-        "canonical": "Rondotia menciana",
-        "fetchedAt": "2026-05-24T11:14:05.280Z",
-        "vernaculars": {
-          "ko": [
-            "왕누에나방"
-          ],
-          "en": [],
-          "ja": []
-        },
-        "habitat": [],
-        "geographic": [
-          "Myanmar",
-          "North Korea",
-          "South Korea",
-          "Japan",
-          "China",
-          "India",
-          "Korea"
-        ],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": 33
-      }
-    }
-  ]
+    "generatedAt":  "2026-05-21T07:47:08.025Z",
+    "source":  "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+    "order":  {
+                  "id":  "lepidoptera",
+                  "scientificName":  "Lepidoptera",
+                  "commonName":  "나비목",
+                  "orderKtsn":  120000031663
+              },
+    "family":  {
+                   "id":  "bombycidae",
+                   "scientificName":  "Bombycidae",
+                   "commonName":  "누에나방과",
+                   "familyKtsn":  120000031701
+               },
+    "speciesCount":  6,
+    "insects":  [
+                    {
+                        "ktsn":  120000031703,
+                        "scientificName":  "Bombyx mandarina (Moore, 1872)",
+                        "commonName":  "멧누에나방",
+                        "terminalLatinName":  "mandarina",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Lepidoptera",
+                                                       "commonName":  "나비목",
+                                                       "ktsn":  120000031663
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Bombycidae",
+                                                        "commonName":  "누에나방과",
+                                                        "ktsn":  120000031701
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Bombyx",
+                                                       "commonName":  "",
+                                                       "ktsn":  120000031702
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "mandarina",
+                                                         "commonName":  "멧누에나방",
+                                                         "ktsn":  120000031703
+                                                     }
+                                     },
+                        "eol":  {
+                                    "pageId":  48898790,
+                                    "canonical":  "Bombyx mandarina",
+                                    "fetchedAt":  "2026-05-24T11:13:32.398Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  null
+                                },
+                        "abstract":  "멧누에나방(학명: Bombyx mandarina)은 누에나방과의 나방이다. 날개 편 길이는 35~40mm이다. 누에나방과 닮았다. 몸과 날개의 바탕색은 회갈색에 올리브 빛이 난다. 수컷보다 암컷의 색상이 조금 옅다. 양잠업에 쓰려고 기르는 누에(Bombyx mori)의 원종 야생형으로 생각되고 있으며, 실제로 누에와의 사이에 잡종이 만들어진다. 산지의 낙엽 활엽수림 가장자리에서 살며, 애벌레는 주로 뽕나무나 산뽕나무 잎을 먹고, 뽕나무류 이외의 다른 식물의 잎도 먹는다. 5월 중순에서 11월까지 연 2회 발생한다. 밤에 불빛을 따라 날아온다. 한국, 일본(홋카이도), 중국(북부, 중부), 러시아 극동지역, 대만에 분포한다.",
+                        "description":  "멧누에나방(학명: Bombyx mandarina)은 누에나방과의 나방이다. 날개 편 길이는 35~40mm이다. 누에나방과 닮았다. 몸과 날개의 바탕색은 회갈색에 올리브 빛이 난다. 수컷보다 암컷의 색상이 조금 옅다. 양잠업에 쓰려고 기르는 누에(Bombyx mori)의 원종 야생형으로 생각되고 있으며, 실제로 누에와의 사이에 잡종이 만들어진다. 산지의 낙엽 활엽수림 가장자리에서 살며, 애벌레는 주로 뽕나무나 산뽕나무 잎을 먹고, 뽕나무류 이외의 다른 식물의 잎도 먹는다. 5월 중순에서 11월까지 연 2회 발생한다. 밤에 불빛을 따라 날아온다. 한국, 일본(홋카이도), 중국(북부, 중부), 러시아 극동지역, 대만에 분포한다.",
+                        "inat":  {
+                                     "observationCount":  159,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/66196174/medium.jpg",
+                                     "months":  [
+                                                    4,
+                                                    5,
+                                                    6,
+                                                    7,
+                                                    8,
+                                                    9,
+                                                    10,
+                                                    11
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000031704,
+                        "scientificName":  "Bombyx mori (Linnaeus, 1758)",
+                        "commonName":  "누에나방",
+                        "terminalLatinName":  "mori",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Lepidoptera",
+                                                       "commonName":  "나비목",
+                                                       "ktsn":  120000031663
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Bombycidae",
+                                                        "commonName":  "누에나방과",
+                                                        "ktsn":  120000031701
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Bombyx",
+                                                       "commonName":  "",
+                                                       "ktsn":  120000031702
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "mori",
+                                                         "commonName":  "누에나방",
+                                                         "ktsn":  120000031704
+                                                     }
+                                     },
+                        "eol":  {
+                                    "pageId":  391618,
+                                    "canonical":  "Bombyx mori",
+                                    "fetchedAt":  "2026-05-24T11:13:35.315Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+                                                                   "누에나방"
+                                                               ],
+                                                        "en":  [
+                                                                   "Domesticated Silkmoth"
+                                                               ],
+                                                        "ja":  [
+                                                                   "カイコガ",
+                                                                   "カイコ"
+                                                               ]
+                                                    },
+                                    "habitat":  [
+                                                    "mountain",
+                                                    "desert oasis",
+                                                    "cave",
+                                                    "forest"
+                                                ],
+                                    "geographic":  [
+                                                       "Japan",
+                                                       "Vietnam",
+                                                       "Taiwan",
+                                                       "Spain",
+                                                       "China",
+                                                       "Australia"
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  882
+                                },
+                        "abstract":  "누에나방(Bombyx mori, 문화어: 누에나비)은 누에나방과의 나방이다. 누에나방의 애벌레는 누에라고 하고, 이를 한자로는 잠(蠶)이라고 한다. 하늘에서 내린 벌레라는 의미로 천충(天蟲)이라고 부르기도 한다. 애벌레 때는 뽕나무 잎만을 먹는데, 뽕나무 잎 이외의 식물도 먹을 수 있다. 하지만, 완전한 생장을 하려면 뽕나무 잎을 먹어야 한다. 다 자라서 고치를 지으면, 삶은 후에 비단실을 뽑는데, 기생 곤충인 기생파리에 감염된 누에의 고치는 누에의 양분을 먹고 자란 파리가 고치를 뚫고 나오기 때문에 상품 가치가 없다. 보통 누에는 잠사업이라고 하여, 실을 얻기 위해서 사람의 손에서 자란다. 야생 누에나방인 산누에나방이 번데기를 만들면서 짓는 실도 있는데, 이를 천잠이라고 한다.",
+                        "description":  "누에나방(Bombyx mori, 문화어: 누에나비)은 누에나방과의 나방이다. 누에나방의 애벌레는 누에라고 하고, 이를 한자로는 잠(蠶)이라고 한다. 하늘에서 내린 벌레라는 의미로 천충(天蟲)이라고 부르기도 한다. 애벌레 때는 뽕나무 잎만을 먹는데, 뽕나무 잎 이외의 식물도 먹을 수 있다. 하지만, 완전한 생장을 하려면 뽕나무 잎을 먹어야 한다. 다 자라서 고치를 지으면, 삶은 후에 비단실을 뽑는데, 기생 곤충인 기생파리에 감염된 누에의 고치는 누에의 양분을 먹고 자란 파리가 고치를 뚫고 나오기 때문에 상품 가치가 없다. 보통 누에는 잠사업이라고 하여, 실을 얻기 위해서 사람의 손에서 자란다. 야생 누에나방인 산누에나방이 번데기를 만들면서 짓는 실도 있는데, 이를 천잠이라고 한다."
+                    },
+                    {
+                        "ktsn":  120000031705,
+                        "scientificName":  "Bombyx shini Park \u0026 Sohn, 2002",
+                        "commonName":  "",
+                        "terminalLatinName":  "shini",
+                        "nomenclaturalAuthor":  "Park \u0026 Sohn",
+                        "namingYear":  "2002",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "Y",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Lepidoptera",
+                                                       "commonName":  "나비목",
+                                                       "ktsn":  120000031663
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Bombycidae",
+                                                        "commonName":  "누에나방과",
+                                                        "ktsn":  120000031701
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Bombyx",
+                                                       "commonName":  "",
+                                                       "ktsn":  120000031702
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "shini",
+                                                         "commonName":  "",
+                                                         "ktsn":  120000031705
+                                                     }
+                                     }
+                    },
+                    {
+                        "ktsn":  120000031707,
+                        "scientificName":  "Oberthueria caeca (Oberthür, 1880)",
+                        "commonName":  "물결멧누에나방",
+                        "terminalLatinName":  "caeca",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Lepidoptera",
+                                                       "commonName":  "나비목",
+                                                       "ktsn":  120000031663
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Bombycidae",
+                                                        "commonName":  "누에나방과",
+                                                        "ktsn":  120000031701
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Oberthueria",
+                                                       "commonName":  "",
+                                                       "ktsn":  120000031706
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "caeca",
+                                                         "commonName":  "물결멧누에나방",
+                                                         "ktsn":  120000031707
+                                                     }
+                                     },
+                        "eol":  {
+                                    "pageId":  49844095,
+                                    "canonical":  "Oberthueria caeca",
+                                    "fetchedAt":  "2026-05-24T11:13:55.938Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+                                                                   "물결멧누에나방"
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+
+                                                               ]
+                                                    },
+                                    "habitat":  [
+                                                    "mountain"
+                                                ],
+                                    "geographic":  [
+                                                       "Russia",
+                                                       "China",
+                                                       "Japan",
+                                                       "Taiwan"
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  654
+                                },
+                        "inat":  {
+                                     "observationCount":  17,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/306106060/medium.jpeg",
+                                     "months":  [
+                                                    5,
+                                                    6,
+                                                    7,
+                                                    8
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000031708,
+                        "scientificName":  "Oberthueria falcigera (Butler, 1878)",
+                        "commonName":  "참물결멧누에나방",
+                        "terminalLatinName":  "falcigera",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Lepidoptera",
+                                                       "commonName":  "나비목",
+                                                       "ktsn":  120000031663
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Bombycidae",
+                                                        "commonName":  "누에나방과",
+                                                        "ktsn":  120000031701
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Oberthueria",
+                                                       "commonName":  "",
+                                                       "ktsn":  120000031706
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "falcigera",
+                                                         "commonName":  "참물결멧누에나방",
+                                                         "ktsn":  120000031708
+                                                     }
+                                     },
+                        "eol":  {
+                                    "pageId":  48898789,
+                                    "canonical":  "Oberthueria falcigera",
+                                    "fetchedAt":  "2026-05-24T11:14:02.654Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+                                                                   "참물결멧누에나방"
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+                                                                   "オオクワゴモドキ"
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+                                                       "China",
+                                                       "North Pacific",
+                                                       "Japan"
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  284
+                                }
+                    },
+                    {
+                        "ktsn":  120000114659,
+                        "scientificName":  "Rondotia menciana Moore, 1885",
+                        "commonName":  "왕누에나방",
+                        "terminalLatinName":  "menciana",
+                        "nomenclaturalAuthor":  "Moore",
+                        "namingYear":  "1885",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Lepidoptera",
+                                                       "commonName":  "나비목",
+                                                       "ktsn":  120000031663
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Bombycidae",
+                                                        "commonName":  "누에나방과",
+                                                        "ktsn":  120000031701
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Rondotia",
+                                                       "commonName":  "",
+                                                       "ktsn":  120000114658
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "menciana",
+                                                         "commonName":  "왕누에나방",
+                                                         "ktsn":  120000114659
+                                                     }
+                                     },
+                        "eol":  {
+                                    "pageId":  392263,
+                                    "canonical":  "Rondotia menciana",
+                                    "fetchedAt":  "2026-05-24T11:14:05.280Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+                                                                   "왕누에나방"
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+                                                       "Myanmar",
+                                                       "North Korea",
+                                                       "South Korea",
+                                                       "Japan",
+                                                       "China",
+                                                       "India",
+                                                       "Korea"
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  33
+                                },
+                        "inat":  {
+                                     "observationCount":  3,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/218577004/medium.jpg",
+                                     "months":  [
+                                                    7,
+                                                    8
+                                                ]
+                                 }
+                    }
+                ]
 }

@@ -1,281 +1,353 @@
 {
-  "generatedAt": "2026-05-21T07:47:08.025Z",
-  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
-  "order": {
-    "id": "hemiptera",
-    "scientificName": "Hemiptera",
-    "commonName": "노린재목",
-    "orderKtsn": 120000066597
-  },
-  "family": {
-    "id": "fulgoridae",
-    "scientificName": "Fulgoridae",
-    "commonName": "꽃매미과",
-    "familyKtsn": 120000025973
-  },
-  "speciesCount": 3,
-  "insects": [
-    {
-      "ktsn": 120000025975,
-      "scientificName": "Limois emelianovi Oshanin, 1908",
-      "commonName": "희조꽃매미",
-      "terminalLatinName": "emelianovi",
-      "nomenclaturalAuthor": "Oshanin",
-      "namingYear": "1908",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Fulgoridae",
-          "commonName": "꽃매미과",
-          "ktsn": 120000025973
-        },
-        "genus": {
-          "scientificName": "Limois",
-          "commonName": "꽃매미속",
-          "ktsn": 120000025974
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "emelianovi",
-          "commonName": "희조꽃매미",
-          "ktsn": 120000025975
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:26:43.215Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
-        "thumbnailUrl": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      },
-      "abstract": "희조꽃매미는 노린재목 꽃매미과의 곤충이다.",
-      "description": "희조꽃매미는 노린재목 꽃매미과의 곤충이다."
-    },
-    {
-      "ktsn": 120000501525,
-      "scientificName": "Limois kikuchii Kato, 1932",
-      "commonName": "",
-      "terminalLatinName": "kikuchii",
-      "nomenclaturalAuthor": "Kato",
-      "namingYear": "1932",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Fulgoridae",
-          "commonName": "꽃매미과",
-          "ktsn": 120000025973
-        },
-        "genus": {
-          "scientificName": "Limois",
-          "commonName": "꽃매미속",
-          "ktsn": 120000025974
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "kikuchii",
-          "commonName": "",
-          "ktsn": 120000501525
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:26:43.215Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "totalElements": 0,
-        "totalPages": 1,
-        "thumbnailUrl": null,
-        "thumbnail": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      },
-      "eol": {
-        "pageId": 241518,
-        "canonical": "Limois kikuchii",
-        "fetchedAt": "2026-05-24T10:06:36.291Z",
-        "vernaculars": {
-          "ko": [],
-          "en": [],
-          "ja": []
-        },
-        "habitat": [],
-        "geographic": [
-          "Korea",
-          "China"
-        ],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": 17
-      }
-    },
-    {
-      "ktsn": 120000025977,
-      "scientificName": "Lycorma delicatula (White, 1845)",
-      "commonName": "꽃매미",
-      "terminalLatinName": "delicatula",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "Y",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Hemiptera",
-          "commonName": "노린재목",
-          "ktsn": 120000066597
-        },
-        "family": {
-          "scientificName": "Fulgoridae",
-          "commonName": "꽃매미과",
-          "ktsn": 120000025973
-        },
-        "genus": {
-          "scientificName": "Lycorma",
-          "commonName": "주홍날개꽃매미속",
-          "ktsn": 120000025976
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "delicatula",
-          "commonName": "꽃매미",
-          "ktsn": 120000025977
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:26:43.215Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
-        "thumbnailUrl": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      },
-      "eol": {
-        "pageId": 241504,
-        "canonical": "Lycorma delicatula",
-        "fetchedAt": "2026-05-24T10:06:33.827Z",
-        "vernaculars": {
-          "ko": [
-            "꽃매미",
-            "꽃매미"
-          ],
-          "en": [
-            "Spotted Lanternfly",
-            "Spotted Lantern Fly",
-            "SLF",
-            "Spotted lanternfly",
-            "Spotted Lanternfly",
-            "Spotted Lanternfly"
-          ],
-          "ja": [
-            "シタベニハゴロモ",
-            "斑点のあるランタンフライ"
-          ]
-        },
-        "habitat": [
-          "temperate",
-          "subtropical",
-          "woodland canopy",
-          "ground",
-          "vineyard",
-          "farm"
-        ],
-        "geographic": [
-          "United States",
-          "China",
-          "South Korea",
-          "Japan"
-        ],
-        "introduced": [
-          "The Contiguous United States"
-        ],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": 24959
-      }
-    }
-  ],
-  "digitalContentUpdatedAt": "2026-05-21T09:26:43.215Z",
-  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+    "generatedAt":  "2026-05-21T07:47:08.025Z",
+    "source":  "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+    "order":  {
+                  "id":  "hemiptera",
+                  "scientificName":  "Hemiptera",
+                  "commonName":  "노린재목",
+                  "orderKtsn":  120000066597
+              },
+    "family":  {
+                   "id":  "fulgoridae",
+                   "scientificName":  "Fulgoridae",
+                   "commonName":  "꽃매미과",
+                   "familyKtsn":  120000025973
+               },
+    "speciesCount":  3,
+    "insects":  [
+                    {
+                        "ktsn":  120000025975,
+                        "scientificName":  "Limois emelianovi Oshanin, 1908",
+                        "commonName":  "희조꽃매미",
+                        "terminalLatinName":  "emelianovi",
+                        "nomenclaturalAuthor":  "Oshanin",
+                        "namingYear":  "1908",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Fulgoridae",
+                                                        "commonName":  "꽃매미과",
+                                                        "ktsn":  120000025973
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Limois",
+                                                       "commonName":  "꽃매미속",
+                                                       "ktsn":  120000025974
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "emelianovi",
+                                                         "commonName":  "희조꽃매미",
+                                                         "ktsn":  120000025975
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:26:43.215Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
+                                               "thumbnailUrl":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "abstract":  "희조꽃매미는 노린재목 꽃매미과의 곤충이다.",
+                        "description":  "희조꽃매미는 노린재목 꽃매미과의 곤충이다.",
+                        "inat":  {
+                                     "observationCount":  12,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/577259938/medium.jpg",
+                                     "months":  [
+                                                    8,
+                                                    9,
+                                                    10
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000501525,
+                        "scientificName":  "Limois kikuchii Kato, 1932",
+                        "commonName":  "",
+                        "terminalLatinName":  "kikuchii",
+                        "nomenclaturalAuthor":  "Kato",
+                        "namingYear":  "1932",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Fulgoridae",
+                                                        "commonName":  "꽃매미과",
+                                                        "ktsn":  120000025973
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Limois",
+                                                       "commonName":  "꽃매미속",
+                                                       "ktsn":  120000025974
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "kikuchii",
+                                                         "commonName":  "",
+                                                         "ktsn":  120000501525
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:26:43.215Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "totalElements":  0,
+                                               "totalPages":  1,
+                                               "thumbnailUrl":  null,
+                                               "thumbnail":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "eol":  {
+                                    "pageId":  241518,
+                                    "canonical":  "Limois kikuchii",
+                                    "fetchedAt":  "2026-05-24T10:06:36.291Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+                                                       "Korea",
+                                                       "China"
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  17
+                                }
+                    },
+                    {
+                        "ktsn":  120000025977,
+                        "scientificName":  "Lycorma delicatula (White, 1845)",
+                        "commonName":  "꽃매미",
+                        "terminalLatinName":  "delicatula",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "Y",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Hemiptera",
+                                                       "commonName":  "노린재목",
+                                                       "ktsn":  120000066597
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Fulgoridae",
+                                                        "commonName":  "꽃매미과",
+                                                        "ktsn":  120000025973
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Lycorma",
+                                                       "commonName":  "주홍날개꽃매미속",
+                                                       "ktsn":  120000025976
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "delicatula",
+                                                         "commonName":  "꽃매미",
+                                                         "ktsn":  120000025977
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:26:43.215Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
+                                               "thumbnailUrl":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "eol":  {
+                                    "pageId":  241504,
+                                    "canonical":  "Lycorma delicatula",
+                                    "fetchedAt":  "2026-05-24T10:06:33.827Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+                                                                   "꽃매미",
+                                                                   "꽃매미"
+                                                               ],
+                                                        "en":  [
+                                                                   "Spotted Lanternfly",
+                                                                   "Spotted Lantern Fly",
+                                                                   "SLF",
+                                                                   "Spotted lanternfly",
+                                                                   "Spotted Lanternfly",
+                                                                   "Spotted Lanternfly"
+                                                               ],
+                                                        "ja":  [
+                                                                   "シタベニハゴロモ",
+                                                                   "斑点のあるランタンフライ"
+                                                               ]
+                                                    },
+                                    "habitat":  [
+                                                    "temperate",
+                                                    "subtropical",
+                                                    "woodland canopy",
+                                                    "ground",
+                                                    "vineyard",
+                                                    "farm"
+                                                ],
+                                    "geographic":  [
+                                                       "United States",
+                                                       "China",
+                                                       "South Korea",
+                                                       "Japan"
+                                                   ],
+                                    "introduced":  [
+                                                       "The Contiguous United States"
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  24959
+                                },
+                        "inat":  {
+                                     "observationCount":  723,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/19738891/medium.jpeg",
+                                     "months":  [
+                                                    2,
+                                                    3,
+                                                    4,
+                                                    5,
+                                                    6,
+                                                    7,
+                                                    8,
+                                                    9,
+                                                    10,
+                                                    11,
+                                                    12
+                                                ]
+                                 }
+                    }
+                ],
+    "digitalContentUpdatedAt":  "2026-05-21T09:26:43.215Z",
+    "digitalContentSource":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
 }

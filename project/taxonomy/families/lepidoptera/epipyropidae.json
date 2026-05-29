@@ -1,94 +1,115 @@
 {
-  "generatedAt": "2026-05-21T07:47:08.025Z",
-  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
-  "order": {
-    "id": "lepidoptera",
-    "scientificName": "Lepidoptera",
-    "commonName": "나비목",
-    "orderKtsn": 120000031663
-  },
-  "family": {
-    "id": "epipyropidae",
-    "scientificName": "Epipyropidae",
-    "commonName": "매미기생나방과",
-    "familyKtsn": 120000032328
-  },
-  "speciesCount": 1,
-  "insects": [
-    {
-      "ktsn": 120000032330,
-      "scientificName": "Epipomponia nawai (Dyar, 1904)",
-      "commonName": "매미기생나방",
-      "terminalLatinName": "nawai",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Lepidoptera",
-          "commonName": "나비목",
-          "ktsn": 120000031663
-        },
-        "family": {
-          "scientificName": "Epipyropidae",
-          "commonName": "매미기생나방과",
-          "ktsn": 120000032328
-        },
-        "genus": {
-          "scientificName": "Epipomponia",
-          "commonName": "",
-          "ktsn": 120000032329
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "nawai",
-          "commonName": "매미기생나방",
-          "ktsn": 120000032330
-        }
-      },
-      "eol": {
-        "pageId": 376584,
-        "canonical": "Epipomponia nawai",
-        "fetchedAt": "2026-05-24T11:23:15.342Z",
-        "vernaculars": {
-          "ko": [
-            "매미기생나방",
-            "매미기생나방"
-          ],
-          "en": [],
-          "ja": [
-            "セミヤドリガ",
-            "セミヤドリガ"
-          ]
-        },
-        "habitat": [],
-        "geographic": [],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": 73
-      }
-    }
-  ]
+    "generatedAt":  "2026-05-21T07:47:08.025Z",
+    "source":  "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+    "order":  {
+                  "id":  "lepidoptera",
+                  "scientificName":  "Lepidoptera",
+                  "commonName":  "나비목",
+                  "orderKtsn":  120000031663
+              },
+    "family":  {
+                   "id":  "epipyropidae",
+                   "scientificName":  "Epipyropidae",
+                   "commonName":  "매미기생나방과",
+                   "familyKtsn":  120000032328
+               },
+    "speciesCount":  1,
+    "insects":  [
+                    {
+                        "ktsn":  120000032330,
+                        "scientificName":  "Epipomponia nawai (Dyar, 1904)",
+                        "commonName":  "매미기생나방",
+                        "terminalLatinName":  "nawai",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Lepidoptera",
+                                                       "commonName":  "나비목",
+                                                       "ktsn":  120000031663
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Epipyropidae",
+                                                        "commonName":  "매미기생나방과",
+                                                        "ktsn":  120000032328
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Epipomponia",
+                                                       "commonName":  "",
+                                                       "ktsn":  120000032329
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "nawai",
+                                                         "commonName":  "매미기생나방",
+                                                         "ktsn":  120000032330
+                                                     }
+                                     },
+                        "eol":  {
+                                    "pageId":  376584,
+                                    "canonical":  "Epipomponia nawai",
+                                    "fetchedAt":  "2026-05-24T11:23:15.342Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+                                                                   "매미기생나방",
+                                                                   "매미기생나방"
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+                                                                   "セミヤドリガ",
+                                                                   "セミヤドリガ"
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  73
+                                },
+                        "inat":  {
+                                     "observationCount":  9,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/222941461/medium.png",
+                                     "months":  [
+                                                    8
+                                                ]
+                                 }
+                    }
+                ]
 }
