@@ -1,794 +1,993 @@
 {
-  "generatedAt": "2026-05-21T07:47:08.025Z",
-  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
-  "order": {
-    "id": "coleoptera",
-    "scientificName": "Coleoptera",
-    "commonName": "딱정벌레목",
-    "orderKtsn": 120000013750,
-    "abstract": "딱정벌레목(Coleoptera)은 곤충의 종 가운데 40%인 35만여종을 차지하는 목이다. 아직 발견되지 않은 종까지 합치면 500만~800만여종이 될 것으로 추정된다. 먹는 먹이도 다양해서 식물의 잎, 송사리 등의 작은 물고기, 나무의 즙, 작은 동물, 동물의 시체 등 매우 다양하다. 딱정벌레목에 속한 곤충으로는 무당벌레, 딱정벌레, 길앞잡이, 물방개, 장수풍뎅이 등이 있다. 대부분이 두꺼운 키틴질로 된 딱딱한 껍데기를 가지고 있어서 갑충(甲蟲)이라고도 불린다.",
-    "description": "딱정벌레목(Coleoptera)은 곤충의 종 가운데 40%인 35만여종을 차지하는 목이다. 아직 발견되지 않은 종까지 합치면 500만~800만여종이 될 것으로 추정된다. 먹는 먹이도 다양해서 식물의 잎, 송사리 등의 작은 물고기, 나무의 즙, 작은 동물, 동물의 시체 등 매우 다양하다. 딱정벌레목에 속한 곤충으로는 무당벌레, 딱정벌레, 길앞잡이, 물방개, 장수풍뎅이 등이 있다. 대부분이 두꺼운 키틴질로 된 딱딱한 껍데기를 가지고 있어서 갑충(甲蟲)이라고도 불린다."
-  },
-  "family": {
-    "id": "latridiidae",
-    "scientificName": "Latridiidae",
-    "commonName": "섶벌레과",
-    "familyKtsn": 120000066645
-  },
-  "speciesCount": 10,
-  "insects": [
-    {
-      "ktsn": 120000089289,
-      "scientificName": "Corticaria ornata Reitter, 1877",
-      "commonName": "톱니가슴섶벌레",
-      "terminalLatinName": "ornata",
-      "nomenclaturalAuthor": "Reitter",
-      "namingYear": "1877",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Coleoptera",
-          "commonName": "딱정벌레목",
-          "ktsn": 120000013750
-        },
-        "family": {
-          "scientificName": "Latridiidae",
-          "commonName": "섶벌레과",
-          "ktsn": 120000066645
-        },
-        "genus": {
-          "scientificName": "Corticaria",
-          "commonName": "톱니섶벌레속",
-          "ktsn": 120000089288
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "ornata",
-          "commonName": "톱니가슴섶벌레",
-          "ktsn": 120000089289
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:02:32.321Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "totalElements": 0,
-        "totalPages": 1,
-        "thumbnailUrl": null,
-        "thumbnail": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      }
-    },
-    {
-      "ktsn": 120000017802,
-      "scientificName": "Corticarina khnzoriani Johnson, 1976",
-      "commonName": "큰조리안섶벌레",
-      "terminalLatinName": "khnzoriani",
-      "nomenclaturalAuthor": "Johnson",
-      "namingYear": "1976",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Coleoptera",
-          "commonName": "딱정벌레목",
-          "ktsn": 120000013750
-        },
-        "family": {
-          "scientificName": "Latridiidae",
-          "commonName": "섶벌레과",
-          "ktsn": 120000066645
-        },
-        "genus": {
-          "scientificName": "Corticarina",
-          "commonName": "",
-          "ktsn": 120000017801
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "khnzoriani",
-          "commonName": "큰조리안섶벌레",
-          "ktsn": 120000017802
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:02:32.321Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "totalElements": 0,
-        "totalPages": 1,
-        "thumbnailUrl": null,
-        "thumbnail": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      },
-      "eol": {
-        "pageId": 41007625,
-        "canonical": "Corticarina khnzoriani",
-        "fetchedAt": "2026-05-24T08:04:32.905Z",
-        "vernaculars": {
-          "ko": [],
-          "en": [],
-          "ja": []
-        },
-        "habitat": [],
-        "geographic": [],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": null
-      }
-    },
-    {
-      "ktsn": 120000017803,
-      "scientificName": "Corticarina lutea Rücker, 1979",
-      "commonName": "민섶벌레",
-      "terminalLatinName": "lutea",
-      "nomenclaturalAuthor": "Rücker",
-      "namingYear": "1979",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Coleoptera",
-          "commonName": "딱정벌레목",
-          "ktsn": 120000013750
-        },
-        "family": {
-          "scientificName": "Latridiidae",
-          "commonName": "섶벌레과",
-          "ktsn": 120000066645
-        },
-        "genus": {
-          "scientificName": "Corticarina",
-          "commonName": "",
-          "ktsn": 120000017801
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "lutea",
-          "commonName": "민섶벌레",
-          "ktsn": 120000017803
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:02:32.321Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "totalElements": 0,
-        "totalPages": 1,
-        "thumbnailUrl": null,
-        "thumbnail": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      },
-      "eol": {
-        "pageId": 41007628,
-        "canonical": "Corticarina lutea",
-        "fetchedAt": "2026-05-24T08:04:38.028Z",
-        "vernaculars": {
-          "ko": [],
-          "en": [],
-          "ja": []
-        },
-        "habitat": [],
-        "geographic": [],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": null
-      }
-    },
-    {
-      "ktsn": 120000017804,
-      "scientificName": "Corticarina truncatella (Mannerheim, 1884)",
-      "commonName": "꼬마섶벌레",
-      "terminalLatinName": "truncatella",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Coleoptera",
-          "commonName": "딱정벌레목",
-          "ktsn": 120000013750
-        },
-        "family": {
-          "scientificName": "Latridiidae",
-          "commonName": "섶벌레과",
-          "ktsn": 120000066645
-        },
-        "genus": {
-          "scientificName": "Corticarina",
-          "commonName": "",
-          "ktsn": 120000017801
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "truncatella",
-          "commonName": "꼬마섶벌레",
-          "ktsn": 120000017804
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:02:32.321Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "totalElements": 0,
-        "totalPages": 1,
-        "thumbnailUrl": null,
-        "thumbnail": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      },
-      "eol": {
-        "pageId": 3486231,
-        "canonical": "Corticarina truncatella",
-        "fetchedAt": "2026-05-24T08:04:41.712Z",
-        "vernaculars": {
-          "ko": [],
-          "en": [],
-          "ja": []
-        },
-        "habitat": [],
-        "geographic": [],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": null
-      }
-    },
-    {
-      "ktsn": 120000017806,
-      "scientificName": "Cortinicara gibbosa (Herbst, 1793)",
-      "commonName": "모래섶벌레",
-      "terminalLatinName": "gibbosa",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Coleoptera",
-          "commonName": "딱정벌레목",
-          "ktsn": 120000013750
-        },
-        "family": {
-          "scientificName": "Latridiidae",
-          "commonName": "섶벌레과",
-          "ktsn": 120000066645
-        },
-        "genus": {
-          "scientificName": "Cortinicara",
-          "commonName": "",
-          "ktsn": 120000017805
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "gibbosa",
-          "commonName": "모래섶벌레",
-          "ktsn": 120000017806
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:02:32.321Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "totalElements": 0,
-        "totalPages": 1,
-        "thumbnailUrl": null,
-        "thumbnail": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      },
-      "eol": {
-        "pageId": 58293189,
-        "canonical": "Cortinicara gibbosa",
-        "fetchedAt": "2026-05-24T08:04:43.799Z",
-        "vernaculars": {
-          "ko": [],
-          "en": [],
-          "ja": []
-        },
-        "habitat": [],
-        "geographic": [],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": null
-      }
-    },
-    {
-      "ktsn": 120000209016,
-      "scientificName": "Dienerella (Dienerella) costulata (Reitter, 1877)",
-      "commonName": "곰보섶벌레",
-      "terminalLatinName": "costulata",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Coleoptera",
-          "commonName": "딱정벌레목",
-          "ktsn": 120000013750
-        },
-        "family": {
-          "scientificName": "Latridiidae",
-          "commonName": "섶벌레과",
-          "ktsn": 120000066645
-        },
-        "genus": {
-          "scientificName": "Dienerella",
-          "commonName": "곰보섶벌레속",
-          "ktsn": 120000209014
-        },
-        "subgenus": {
-          "scientificName": "Dienerella",
-          "commonName": "",
-          "ktsn": 120000209015
-        },
-        "species": {
-          "scientificName": "costulata",
-          "commonName": "곰보섶벌레",
-          "ktsn": 120000209016
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:02:32.321Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "totalElements": 0,
-        "totalPages": 1,
-        "thumbnailUrl": null,
-        "thumbnail": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      }
-    },
-    {
-      "ktsn": 120000017808,
-      "scientificName": "Enicmus histrio Joy and Tomlin, 1910",
-      "commonName": "길쭉애기섶벌레",
-      "terminalLatinName": "histrio",
-      "nomenclaturalAuthor": "Joy and Tomlin",
-      "namingYear": "1910",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Coleoptera",
-          "commonName": "딱정벌레목",
-          "ktsn": 120000013750
-        },
-        "family": {
-          "scientificName": "Latridiidae",
-          "commonName": "섶벌레과",
-          "ktsn": 120000066645
-        },
-        "genus": {
-          "scientificName": "Enicmus",
-          "commonName": "",
-          "ktsn": 120000017807
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "histrio",
-          "commonName": "길쭉애기섶벌레",
-          "ktsn": 120000017808
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:02:32.321Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "totalElements": 0,
-        "totalPages": 1,
-        "thumbnailUrl": null,
-        "thumbnail": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      },
-      "eol": {
-        "pageId": 58293191,
-        "canonical": "Enicmus histrio",
-        "fetchedAt": "2026-05-24T08:04:46.832Z",
-        "vernaculars": {
-          "ko": [],
-          "en": [],
-          "ja": []
-        },
-        "habitat": [],
-        "geographic": [],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": null
-      }
-    },
-    {
-      "ktsn": 120000017819,
-      "scientificName": "Melanophthalma (Melanophthalma) transversalis (Gyllenhal, 1827)",
-      "commonName": "가로진섶벌레",
-      "terminalLatinName": "transversalis",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Coleoptera",
-          "commonName": "딱정벌레목",
-          "ktsn": 120000013750
-        },
-        "family": {
-          "scientificName": "Latridiidae",
-          "commonName": "섶벌레과",
-          "ktsn": 120000066645
-        },
-        "genus": {
-          "scientificName": "Melanophthalma",
-          "commonName": "",
-          "ktsn": 120000102133
-        },
-        "subgenus": {
-          "scientificName": "Melanophthalma",
-          "commonName": "",
-          "ktsn": 120000017818
-        },
-        "species": {
-          "scientificName": "transversalis",
-          "commonName": "가로진섶벌레",
-          "ktsn": 120000017819
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:02:32.321Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "totalElements": 0,
-        "totalPages": 1,
-        "thumbnailUrl": null,
-        "thumbnail": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      },
-      "eol": {
-        "pageId": 3484911,
-        "canonical": "Melanophthalma transversalis",
-        "fetchedAt": "2026-05-24T08:04:49.663Z",
-        "vernaculars": {
-          "ko": [],
-          "en": [],
-          "ja": []
-        },
-        "habitat": [],
-        "geographic": [
-          "United Kingdom",
-          "The Netherlands",
-          "Sweden",
-          "Norway",
-          "Luxembourg",
-          "Hungary",
-          "France",
-          "Austria"
-        ],
-        "introduced": [],
-        "eats": [],
-        "visitsFlowersOf": [],
-        "pathogenOf": [],
-        "gbifRecords": null
-      }
-    },
-    {
-      "ktsn": 120000017833,
-      "scientificName": "Stephostethus chinensis (Reitter, 1877)",
-      "commonName": "애기섶벌레",
-      "terminalLatinName": "chinensis",
-      "nomenclaturalAuthor": "",
-      "namingYear": "",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Coleoptera",
-          "commonName": "딱정벌레목",
-          "ktsn": 120000013750
-        },
-        "family": {
-          "scientificName": "Latridiidae",
-          "commonName": "섶벌레과",
-          "ktsn": 120000066645
-        },
-        "genus": {
-          "scientificName": "Stephostethus",
-          "commonName": "",
-          "ktsn": 120000017832
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "chinensis",
-          "commonName": "애기섶벌레",
-          "ktsn": 120000017833
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:02:32.321Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "totalElements": 0,
-        "totalPages": 1,
-        "thumbnailUrl": null,
-        "thumbnail": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      }
-    },
-    {
-      "ktsn": 120000530731,
-      "scientificName": "Stephostethus setosus Rücker, 2004",
-      "commonName": "",
-      "terminalLatinName": "setosus",
-      "nomenclaturalAuthor": "Rücker",
-      "namingYear": "2004",
-      "corsynSeYn": "Y",
-      "egspcsYn": "N",
-      "hrmflSpecsYn": "N",
-      "dispYn": "N",
-      "phspYn": "N",
-      "korUnqBispYn": "N",
-      "ntmYn": "N",
-      "taxonomy": {
-        "phylum": {
-          "scientificName": "Arthropoda",
-          "commonName": "절지동물문",
-          "ktsn": 120000013748
-        },
-        "class": {
-          "scientificName": "Insecta",
-          "commonName": "곤충강",
-          "ktsn": 120000013749
-        },
-        "order": {
-          "scientificName": "Coleoptera",
-          "commonName": "딱정벌레목",
-          "ktsn": 120000013750
-        },
-        "family": {
-          "scientificName": "Latridiidae",
-          "commonName": "섶벌레과",
-          "ktsn": 120000066645
-        },
-        "genus": {
-          "scientificName": "Stephostethus",
-          "commonName": "",
-          "ktsn": 120000017832
-        },
-        "subgenus": {
-          "scientificName": "",
-          "commonName": "",
-          "ktsn": null
-        },
-        "species": {
-          "scientificName": "setosus",
-          "commonName": "",
-          "ktsn": 120000530731
-        }
-      },
-      "digitalContent": {
-        "cachedAt": "2026-05-21T09:02:32.321Z",
-        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-        "totalElements": 0,
-        "totalPages": 1,
-        "thumbnailUrl": null,
-        "thumbnail": null,
-        "contents": {
-          "EO": [],
-          "FR": [],
-          "DT": [],
-          "EX": []
-        }
-      }
-    }
-  ],
-  "digitalContentUpdatedAt": "2026-05-21T09:02:32.321Z",
-  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+    "generatedAt":  "2026-05-21T07:47:08.025Z",
+    "source":  "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+    "order":  {
+                  "id":  "coleoptera",
+                  "scientificName":  "Coleoptera",
+                  "commonName":  "딱정벌레목",
+                  "orderKtsn":  120000013750,
+                  "abstract":  "딱정벌레목(Coleoptera)은 곤충의 종 가운데 40%인 35만여종을 차지하는 목이다. 아직 발견되지 않은 종까지 합치면 500만~800만여종이 될 것으로 추정된다. 먹는 먹이도 다양해서 식물의 잎, 송사리 등의 작은 물고기, 나무의 즙, 작은 동물, 동물의 시체 등 매우 다양하다. 딱정벌레목에 속한 곤충으로는 무당벌레, 딱정벌레, 길앞잡이, 물방개, 장수풍뎅이 등이 있다. 대부분이 두꺼운 키틴질로 된 딱딱한 껍데기를 가지고 있어서 갑충(甲蟲)이라고도 불린다.",
+                  "description":  "딱정벌레목(Coleoptera)은 곤충의 종 가운데 40%인 35만여종을 차지하는 목이다. 아직 발견되지 않은 종까지 합치면 500만~800만여종이 될 것으로 추정된다. 먹는 먹이도 다양해서 식물의 잎, 송사리 등의 작은 물고기, 나무의 즙, 작은 동물, 동물의 시체 등 매우 다양하다. 딱정벌레목에 속한 곤충으로는 무당벌레, 딱정벌레, 길앞잡이, 물방개, 장수풍뎅이 등이 있다. 대부분이 두꺼운 키틴질로 된 딱딱한 껍데기를 가지고 있어서 갑충(甲蟲)이라고도 불린다."
+              },
+    "family":  {
+                   "id":  "latridiidae",
+                   "scientificName":  "Latridiidae",
+                   "commonName":  "섶벌레과",
+                   "familyKtsn":  120000066645
+               },
+    "speciesCount":  10,
+    "insects":  [
+                    {
+                        "ktsn":  120000089289,
+                        "scientificName":  "Corticaria ornata Reitter, 1877",
+                        "commonName":  "톱니가슴섶벌레",
+                        "terminalLatinName":  "ornata",
+                        "nomenclaturalAuthor":  "Reitter",
+                        "namingYear":  "1877",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Coleoptera",
+                                                       "commonName":  "딱정벌레목",
+                                                       "ktsn":  120000013750
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Latridiidae",
+                                                        "commonName":  "섶벌레과",
+                                                        "ktsn":  120000066645
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Corticaria",
+                                                       "commonName":  "톱니섶벌레속",
+                                                       "ktsn":  120000089288
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "ornata",
+                                                         "commonName":  "톱니가슴섶벌레",
+                                                         "ktsn":  120000089289
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:02:32.321Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "totalElements":  0,
+                                               "totalPages":  1,
+                                               "thumbnailUrl":  null,
+                                               "thumbnail":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           }
+                    },
+                    {
+                        "ktsn":  120000017802,
+                        "scientificName":  "Corticarina khnzoriani Johnson, 1976",
+                        "commonName":  "큰조리안섶벌레",
+                        "terminalLatinName":  "khnzoriani",
+                        "nomenclaturalAuthor":  "Johnson",
+                        "namingYear":  "1976",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Coleoptera",
+                                                       "commonName":  "딱정벌레목",
+                                                       "ktsn":  120000013750
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Latridiidae",
+                                                        "commonName":  "섶벌레과",
+                                                        "ktsn":  120000066645
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Corticarina",
+                                                       "commonName":  "",
+                                                       "ktsn":  120000017801
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "khnzoriani",
+                                                         "commonName":  "큰조리안섶벌레",
+                                                         "ktsn":  120000017802
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:02:32.321Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "totalElements":  0,
+                                               "totalPages":  1,
+                                               "thumbnailUrl":  null,
+                                               "thumbnail":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "eol":  {
+                                    "pageId":  41007625,
+                                    "canonical":  "Corticarina khnzoriani",
+                                    "fetchedAt":  "2026-05-24T08:04:32.905Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  null
+                                }
+                    },
+                    {
+                        "ktsn":  120000017803,
+                        "scientificName":  "Corticarina lutea Rücker, 1979",
+                        "commonName":  "민섶벌레",
+                        "terminalLatinName":  "lutea",
+                        "nomenclaturalAuthor":  "Rücker",
+                        "namingYear":  "1979",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Coleoptera",
+                                                       "commonName":  "딱정벌레목",
+                                                       "ktsn":  120000013750
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Latridiidae",
+                                                        "commonName":  "섶벌레과",
+                                                        "ktsn":  120000066645
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Corticarina",
+                                                       "commonName":  "",
+                                                       "ktsn":  120000017801
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "lutea",
+                                                         "commonName":  "민섶벌레",
+                                                         "ktsn":  120000017803
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:02:32.321Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "totalElements":  0,
+                                               "totalPages":  1,
+                                               "thumbnailUrl":  null,
+                                               "thumbnail":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "eol":  {
+                                    "pageId":  41007628,
+                                    "canonical":  "Corticarina lutea",
+                                    "fetchedAt":  "2026-05-24T08:04:38.028Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  null
+                                }
+                    },
+                    {
+                        "ktsn":  120000017804,
+                        "scientificName":  "Corticarina truncatella (Mannerheim, 1884)",
+                        "commonName":  "꼬마섶벌레",
+                        "terminalLatinName":  "truncatella",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Coleoptera",
+                                                       "commonName":  "딱정벌레목",
+                                                       "ktsn":  120000013750
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Latridiidae",
+                                                        "commonName":  "섶벌레과",
+                                                        "ktsn":  120000066645
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Corticarina",
+                                                       "commonName":  "",
+                                                       "ktsn":  120000017801
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "truncatella",
+                                                         "commonName":  "꼬마섶벌레",
+                                                         "ktsn":  120000017804
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:02:32.321Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "totalElements":  0,
+                                               "totalPages":  1,
+                                               "thumbnailUrl":  null,
+                                               "thumbnail":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "eol":  {
+                                    "pageId":  3486231,
+                                    "canonical":  "Corticarina truncatella",
+                                    "fetchedAt":  "2026-05-24T08:04:41.712Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  null
+                                }
+                    },
+                    {
+                        "ktsn":  120000017806,
+                        "scientificName":  "Cortinicara gibbosa (Herbst, 1793)",
+                        "commonName":  "모래섶벌레",
+                        "terminalLatinName":  "gibbosa",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Coleoptera",
+                                                       "commonName":  "딱정벌레목",
+                                                       "ktsn":  120000013750
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Latridiidae",
+                                                        "commonName":  "섶벌레과",
+                                                        "ktsn":  120000066645
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Cortinicara",
+                                                       "commonName":  "",
+                                                       "ktsn":  120000017805
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "gibbosa",
+                                                         "commonName":  "모래섶벌레",
+                                                         "ktsn":  120000017806
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:02:32.321Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "totalElements":  0,
+                                               "totalPages":  1,
+                                               "thumbnailUrl":  null,
+                                               "thumbnail":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "eol":  {
+                                    "pageId":  58293189,
+                                    "canonical":  "Cortinicara gibbosa",
+                                    "fetchedAt":  "2026-05-24T08:04:43.799Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  null
+                                },
+                        "inat":  {
+                                     "observationCount":  43,
+                                     "imageUrl":  "http://www.boldsystems.org/pics/GMPSE/BIOUG97336-F01+1678148512.jpg",
+                                     "months":  [
+                                                    1,
+                                                    3,
+                                                    7,
+                                                    8,
+                                                    9,
+                                                    10,
+                                                    11
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000209016,
+                        "scientificName":  "Dienerella (Dienerella) costulata (Reitter, 1877)",
+                        "commonName":  "곰보섶벌레",
+                        "terminalLatinName":  "costulata",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Coleoptera",
+                                                       "commonName":  "딱정벌레목",
+                                                       "ktsn":  120000013750
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Latridiidae",
+                                                        "commonName":  "섶벌레과",
+                                                        "ktsn":  120000066645
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Dienerella",
+                                                       "commonName":  "곰보섶벌레속",
+                                                       "ktsn":  120000209014
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "Dienerella",
+                                                          "commonName":  "",
+                                                          "ktsn":  120000209015
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "costulata",
+                                                         "commonName":  "곰보섶벌레",
+                                                         "ktsn":  120000209016
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:02:32.321Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "totalElements":  0,
+                                               "totalPages":  1,
+                                               "thumbnailUrl":  null,
+                                               "thumbnail":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           }
+                    },
+                    {
+                        "ktsn":  120000017808,
+                        "scientificName":  "Enicmus histrio Joy and Tomlin, 1910",
+                        "commonName":  "길쭉애기섶벌레",
+                        "terminalLatinName":  "histrio",
+                        "nomenclaturalAuthor":  "Joy and Tomlin",
+                        "namingYear":  "1910",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Coleoptera",
+                                                       "commonName":  "딱정벌레목",
+                                                       "ktsn":  120000013750
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Latridiidae",
+                                                        "commonName":  "섶벌레과",
+                                                        "ktsn":  120000066645
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Enicmus",
+                                                       "commonName":  "",
+                                                       "ktsn":  120000017807
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "histrio",
+                                                         "commonName":  "길쭉애기섶벌레",
+                                                         "ktsn":  120000017808
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:02:32.321Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "totalElements":  0,
+                                               "totalPages":  1,
+                                               "thumbnailUrl":  null,
+                                               "thumbnail":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "eol":  {
+                                    "pageId":  58293191,
+                                    "canonical":  "Enicmus histrio",
+                                    "fetchedAt":  "2026-05-24T08:04:46.832Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  null
+                                }
+                    },
+                    {
+                        "ktsn":  120000017819,
+                        "scientificName":  "Melanophthalma (Melanophthalma) transversalis (Gyllenhal, 1827)",
+                        "commonName":  "가로진섶벌레",
+                        "terminalLatinName":  "transversalis",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Coleoptera",
+                                                       "commonName":  "딱정벌레목",
+                                                       "ktsn":  120000013750
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Latridiidae",
+                                                        "commonName":  "섶벌레과",
+                                                        "ktsn":  120000066645
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Melanophthalma",
+                                                       "commonName":  "",
+                                                       "ktsn":  120000102133
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "Melanophthalma",
+                                                          "commonName":  "",
+                                                          "ktsn":  120000017818
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "transversalis",
+                                                         "commonName":  "가로진섶벌레",
+                                                         "ktsn":  120000017819
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:02:32.321Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "totalElements":  0,
+                                               "totalPages":  1,
+                                               "thumbnailUrl":  null,
+                                               "thumbnail":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           },
+                        "eol":  {
+                                    "pageId":  3484911,
+                                    "canonical":  "Melanophthalma transversalis",
+                                    "fetchedAt":  "2026-05-24T08:04:49.663Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+                                                       "United Kingdom",
+                                                       "The Netherlands",
+                                                       "Sweden",
+                                                       "Norway",
+                                                       "Luxembourg",
+                                                       "Hungary",
+                                                       "France",
+                                                       "Austria"
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  null
+                                }
+                    },
+                    {
+                        "ktsn":  120000017833,
+                        "scientificName":  "Stephostethus chinensis (Reitter, 1877)",
+                        "commonName":  "애기섶벌레",
+                        "terminalLatinName":  "chinensis",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Coleoptera",
+                                                       "commonName":  "딱정벌레목",
+                                                       "ktsn":  120000013750
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Latridiidae",
+                                                        "commonName":  "섶벌레과",
+                                                        "ktsn":  120000066645
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Stephostethus",
+                                                       "commonName":  "",
+                                                       "ktsn":  120000017832
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "chinensis",
+                                                         "commonName":  "애기섶벌레",
+                                                         "ktsn":  120000017833
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:02:32.321Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "totalElements":  0,
+                                               "totalPages":  1,
+                                               "thumbnailUrl":  null,
+                                               "thumbnail":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           }
+                    },
+                    {
+                        "ktsn":  120000530731,
+                        "scientificName":  "Stephostethus setosus Rücker, 2004",
+                        "commonName":  "",
+                        "terminalLatinName":  "setosus",
+                        "nomenclaturalAuthor":  "Rücker",
+                        "namingYear":  "2004",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Coleoptera",
+                                                       "commonName":  "딱정벌레목",
+                                                       "ktsn":  120000013750
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Latridiidae",
+                                                        "commonName":  "섶벌레과",
+                                                        "ktsn":  120000066645
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Stephostethus",
+                                                       "commonName":  "",
+                                                       "ktsn":  120000017832
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "setosus",
+                                                         "commonName":  "",
+                                                         "ktsn":  120000530731
+                                                     }
+                                     },
+                        "digitalContent":  {
+                                               "cachedAt":  "2026-05-21T09:02:32.321Z",
+                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+                                               "totalElements":  0,
+                                               "totalPages":  1,
+                                               "thumbnailUrl":  null,
+                                               "thumbnail":  null,
+                                               "contents":  {
+                                                                "EO":  [
+
+                                                                       ],
+                                                                "FR":  [
+
+                                                                       ],
+                                                                "DT":  [
+
+                                                                       ],
+                                                                "EX":  [
+
+                                                                       ]
+                                                            }
+                                           }
+                    }
+                ],
+    "digitalContentUpdatedAt":  "2026-05-21T09:02:32.321Z",
+    "digitalContentSource":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
 }

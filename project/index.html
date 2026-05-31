@@ -1546,8 +1546,9 @@
         card.className = 'family-photo-card';
         card.setAttribute('role', 'button');
         card.tabIndex = 0;
+        const famImgSrc = family.representativeImage || getFamilyImage(index);
         card.innerHTML = `
-          <img src="${getFamilyImage(index)}" alt="${escapeHTML(family.commonName || family.scientificName)}" loading="lazy" />
+          <img src="${escapeHTML(famImgSrc)}" alt="${escapeHTML(family.commonName || family.scientificName)}" loading="lazy" decoding="async" />
           <div class="family-photo-overlay"></div>
           <div class="family-photo-info">
             <h3>${escapeHTML(family.commonName || family.scientificName)}</h3>
@@ -1641,11 +1642,20 @@
 
         const imgWrap = document.createElement('div');
         imgWrap.className = 'species-detail-img';
-        const img = document.createElement('img');
-        img.src = getFamilyImage(index);
-        img.alt = item.commonName || item.scientificName || '';
-        img.loading = 'lazy';
-        imgWrap.appendChild(img);
+        const inatUrl = item.inat?.imageUrl || null;
+        if (inatUrl) {
+          const img = document.createElement('img');
+          img.src = inatUrl;
+          img.alt = item.commonName || item.scientificName || '';
+          img.loading = 'lazy';
+          img.decoding = 'async';
+          imgWrap.appendChild(img);
+        } else {
+          const ph = document.createElement('div');
+          ph.className = 'card-placeholder';
+          ph.textContent = (item.scientificName || '?').charAt(0);
+          imgWrap.appendChild(ph);
+        }
 
         const h3 = document.createElement('h3');
         h3.textContent = item.commonName || item.scientificName || '';
@@ -1726,8 +1736,9 @@
         card.setAttribute('role', 'button');
         card.tabIndex = 0;
         card.className = 'family-carousel-card';
+        const carouselImgSrc = item.representativeImage || getFamilyImage(index + 1);
         card.innerHTML = `
-          <img src="${getFamilyImage(index + 1)}" alt="${escapeHTML(item.commonName || item.scientificName)}" loading="lazy" />
+          <img src="${escapeHTML(carouselImgSrc)}" alt="${escapeHTML(item.commonName || item.scientificName)}" loading="lazy" decoding="async" />
           <span class="family-photo-overlay"></span>
           <span class="family-carousel-info">
             <strong>${escapeHTML(item.commonName || item.scientificName)}</strong>
