@@ -3216,19 +3216,34 @@
       previousSpeciesPage = fromPage;
       selectedSpecies = species;
 
+      // enrich/render는 절대 navigation을 막지 않게 try/catch로 감싼다.
+      // 어떤 데이터 결함으로 throw돼도 showPage는 반드시 실행되어
+      // "클릭해도 홈으로 돌아가는" 회귀 현상을 차단한다.
+      const safeEnrichGbif = (sp) => {
+        try { if (sp._gbifData) enrichSpeciesWithGbif(sp, sp._gbifData); }
+        catch (err) { console.error('GBIF enrich failed:', err); }
+      };
+      const safeEnrichEol = (sp) => {
+        try { enrichSpeciesWithEol(sp); }
+        catch (err) { console.error('EOL enrich failed:', err); }
+      };
+      const safeRender = (sp) => {
+        try { renderSpeciesDetail(sp); }
+        catch (err) { console.error('renderSpeciesDetail failed:', err); }
+      };
+
       // 깜빡임 방지: 캐시가 이미 로드돼 있으면 단 한 번만 렌더한다.
       // 캐시가 아직 로드 중이면 200ms까지 짧게 기다렸다가, 그 안에 도착하면 1회 렌더.
       // 시간 초과 시에만 placeholder를 먼저 보여주고 데이터 도착 후 한 번 더 렌더.
       const render = () => {
         if (selectedSpecies !== species) return; // race: 사용자가 다른 종으로 이동
-        enrichSpeciesWithEol(species);
-        // GBIF 데이터는 species._gbifData에 동봉돼 있으면 함께 보강
-        if (species._gbifData) enrichSpeciesWithGbif(species, species._gbifData);
-        renderSpeciesDetail(species);
+        safeEnrichEol(species);
+        safeEnrichGbif(species);
+        safeRender(species);
       };
 
       // GBIF는 동기 데이터(inline)이므로 EOL 캐시 도착 전이라도 미리 보강
-      if (species._gbifData) enrichSpeciesWithGbif(species, species._gbifData);
+      safeEnrichGbif(species);
 
       if (eolCacheData) {
         render();
@@ -3238,7 +3253,7 @@
         const placeholderTimer = setTimeout(() => {
           if (selectedSpecies !== species) return;
           shownPlaceholder = true;
-          renderSpeciesDetail(species);
+          safeRender(species);
           showPage('pageSpeciesDetail', { keepNav: true });
         }, 200);
         loadEolCache().then(() => {
