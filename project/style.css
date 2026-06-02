@@ -23,12 +23,10 @@
   --bg-app:     #121212;
   --bg-card:    #1a1d1b;
   --bg-input:   #1c1f1d;
-  --bg-elevated:#1e2320;
 
   --green-dim:  #5c6b62;
   --green-mid:  #7fa88e;
   --green-soft: #8ca892;
-  --green-pale: #b9c4be;
 
   --text-primary:   #edefec;
   --text-secondary: #90a198;
@@ -142,48 +140,11 @@ ul { list-style: none; }
     linear-gradient(160deg, #0d1f15 0%, #162218 40%, #0b1a10 100%);
 }
 
-.placeholder-img--iridescent {
-  background:
-    radial-gradient(ellipse at 50% 60%, rgba(60,120,80,0.5), transparent 50%),
-    radial-gradient(ellipse at 20% 30%, rgba(30,80,100,0.3), transparent 40%),
-    linear-gradient(140deg, #0f1e18 0%, #1a3028 50%, #122520 100%);
-}
-
 /* ── Taxonomy order backgrounds ── */
-.placeholder-img--beetle {
-  background:
-    radial-gradient(ellipse at 40% 50%, rgba(80,60,30,0.5), transparent 50%),
-    linear-gradient(150deg, #1a1510 0%, #20251a 50%, #15180f 100%);
-}
-
-.placeholder-img--butterfly {
-  background:
-    radial-gradient(ellipse at 50% 50%, rgba(100,60,80,0.4), transparent 50%),
-    linear-gradient(130deg, #1a1218 0%, #221a20 50%, #181015 100%);
-}
-
-.placeholder-img--dragonfly {
-  background:
-    radial-gradient(ellipse at 50% 50%, rgba(40,80,100,0.5), transparent 50%),
-    linear-gradient(160deg, #0f1820 0%, #152530 50%, #101a22 100%);
-}
-
-.placeholder-img--bug {
-  background:
-    radial-gradient(ellipse at 50% 50%, rgba(70,80,40,0.5), transparent 50%),
-    linear-gradient(140deg, #161a10 0%, #202818 50%, #181e12 100%);
-}
-
 .placeholder-img--bee {
   background:
     radial-gradient(ellipse at 50% 50%, rgba(100,80,30,0.5), transparent 50%),
     linear-gradient(150deg, #1a1810 0%, #252018 50%, #1e1a10 100%);
-}
-
-.placeholder-img--grasshopper {
-  background:
-    radial-gradient(ellipse at 60% 40%, rgba(50,90,50,0.5), transparent 50%),
-    linear-gradient(130deg, #121a10 0%, #1a2815 50%, #152010 100%);
 }
 
 /* ── Small species thumbnails ── */
@@ -554,15 +515,6 @@ ul { list-style: none; }
   background: var(--bg-card);
 }
 
-/* Expanded Order Card */
-.order-card--expanded {
-  border-radius: var(--radius-card);
-  overflow: hidden;
-  border: 1px solid var(--border-subtle);
-  background: var(--bg-card);
-  margin-bottom: 16px;
-}
-
 .order-img {
   position: relative;
   height: 180px;
@@ -574,22 +526,12 @@ ul { list-style: none; }
   background: linear-gradient(to top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.1) 60%);
 }
 
-.order-body {
-  padding: 20px;
-}
-
 .order-name {
   font-family: var(--font-display);
   font-size: 32px;
   font-weight: 400;
   line-height: 1;
   margin-bottom: 4px;
-}
-
-.order-kr {
-  font-size: 13px;
-  color: var(--text-secondary);
-  margin-bottom: 6px;
 }
 
 .order-count {
@@ -685,11 +627,6 @@ ul { list-style: none; }
 .order-mini-body .order-name {
   font-size: 22px;
   margin-bottom: 4px;
-}
-
-.order-mini-body .order-kr {
-  font-size: 11px;
-  line-height: 1.3;
 }
 
 .order-mini-body .order-count {
@@ -1163,23 +1100,6 @@ ul { list-style: none; }
   -webkit-box-orient: vertical;
 }
 
-/* Single full-width order card */
-.order-card-single {
-  border-radius: var(--radius-card);
-  overflow: hidden;
-  border: 1px solid var(--border-subtle);
-  background: var(--bg-card);
-}
-
-.order-single-img {
-  position: relative;
-  height: 140px;
-}
-
-.order-card-single .order-mini-body .order-name {
-  font-size: 28px;
-}
-
 /* ══════════════════════════════════════════════
    BOTTOM NAVIGATION
    ══════════════════════════════════════════════ */
@@ -1297,45 +1217,6 @@ ul { list-style: none; }
   margin-bottom: 16px;
 }
 
-/* Trait Finder Card */
-.trait-finder-card {
-  background: var(--bg-card);
-  border: 1px solid var(--border-subtle);
-  border-radius: 16px;
-  padding: 24px;
-  text-align: center;
-}
-
-.trait-icons {
-  display: flex;
-  justify-content: center;
-  gap: 12px;
-  margin-bottom: 16px;
-}
-
-.trait-icon {
-  width: 40px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: rgba(255,255,255,0.03);
-  border-radius: 50%;
-  font-size: 18px;
-}
-
-.trait-finder-title {
-  font-size: 16px;
-  font-weight: 600;
-  color: var(--text-primary);
-  margin-bottom: 6px;
-}
-
-.trait-finder-sub {
-  font-size: 13px;
-  color: var(--text-muted);
-}
-
 /* Explore Grid */
 .explore-grid {
   display: grid;
@@ -1362,11 +1243,6 @@ ul { list-style: none; }
   margin-bottom: 4px;
 }
 
-.explore-card-sub {
-  font-size: 12px;
-  color: rgba(255,255,255,0.6);
-}
-
 /* Explore Card Colors */
 .explore-card--danger {
   background: linear-gradient(135deg, #3a1c1c, #2a1515);
@@ -1382,33 +1258,6 @@ ul { list-style: none; }
 
 .explore-card--invasive {
   background: linear-gradient(135deg, #2a1c3a, #1a1228);
-}
-
-/* Random Button */
-.random-btn {
-  width: 100%;
-  padding: 18px;
-  border-radius: 16px;
-  background: linear-gradient(135deg, rgba(255,255,255,0.05), rgba(255,255,255,0.02));
-  border: 1px solid rgba(255,255,255,0.1);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 12px;
-  font-size: 15px;
-  font-weight: 600;
-  color: var(--text-primary);
-  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
-  transition: transform 0.2s ease, background 0.2s ease;
-}
-
-.random-btn:active {
-  transform: scale(0.98);
-  background: rgba(255,255,255,0.08);
-}
-
-.random-icon {
-  font-size: 22px;
 }
 
 /* ══════════════════════════════════════════════
@@ -2897,58 +2746,6 @@ ul { list-style: none; }
 .explore-card--danger   { background: var(--search-cat-endangered); }
 .explore-card--endemic  { background: var(--search-cat-endemic); }
 .explore-card--invasive { background: var(--search-cat-invasive); }
-.explore-card--random   { background: var(--search-cat-random); }
-
-/* ── Popular Order List ── */
-.popular-order-list {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-  margin-top: 12px;
-}
-.popular-order-row {
-  display: grid;
-  grid-template-columns: 28px 1fr auto;
-  gap: 12px;
-  align-items: center;
-  padding: 12px 14px;
-  background: var(--search-card-bg);
-  border: 1px solid var(--search-card-border);
-  border-radius: 10px;
-  cursor: pointer;
-  font-family: inherit;
-  text-align: left;
-  width: 100%;
-  color: inherit;
-}
-.popular-order-row:hover {
-  background: var(--search-card-bg-hover);
-  border-color: rgba(255,255,255,0.14);
-}
-.popular-order-rank {
-  font-family: 'Cormorant Garamond', serif;
-  font-style: italic;
-  font-size: 18px;
-  color: rgba(255,255,255,0.4);
-  text-align: center;
-}
-.popular-order-name {
-  font-size: 14px;
-  font-weight: 500;
-  color: var(--text-primary);
-  margin-bottom: 1px;
-}
-.popular-order-sci {
-  font-family: 'Cormorant Garamond', serif;
-  font-style: italic;
-  font-size: 12px;
-  color: var(--text-muted);
-}
-.popular-order-count {
-  font-size: 11.5px;
-  color: var(--text-muted);
-  letter-spacing: 0.02em;
-}
 
 
 /* ══════════════════════════════════════════════

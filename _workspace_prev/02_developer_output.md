@@ -1,55 +1,159 @@
 ## 구현 완료
 
-### 수정된 파일
-- `project/index.html`: 인라인 script 구조 유지하면서 보안(XSS) 패치, fetch 에러 처리 일관화, dead UI 핸들러 부착, 접근성 보강. 라인 수는 ~+150줄(주로 핸들러 블록 추가).
-- `project/style.css`: `.family-detail-title`을 nowrap 단일 줄 → 2줄 line-clamp + 한글/학명 친화적 word-break으로 변경.
+신규 페이지 `pageSpeciesDetail` (인포그래픽 스타일 곤충 상세) 스캐폴드 + 자리표시자 UI 구현. 데이터 연결은 이후 단계에서 `openSpeciesDetail(species)` 호출 한 번이면 모든 슬롯이 자동으로 채워지도록 후크를 통일했다.
 
-### 적용한 패치
-- **C-1, C-2**: `renderOrders` 확장 카드(890–895)와 미니 카드(914–915)의 `order.scientificName`/`order.commonName`을 모두 `escapeHTML(...)`으로 감쌌다. 미니 카드의 `data-order-key`는 기존부터 escape되어 있어 유지.
-- **C-3 / F-11**: `openFamilyDetail` 내부 fetch(라인 1109~)에 `.catch()` 추가 + `r.ok` 검사. 실패 시 `order.families`를 빈 배열로 폴백 후 `executeDetail()` 호출.
-- **C-4**: 6개 fetch 호출(loadCachedSpecies / expandOrder / openFamilyPage / openFamilyDetail / renderFamilyDetail species fetch / taxonomy/index.json 최초 로드) 모두에 `if (!r.ok) throw new Error('HTTP ' + r.status)` 패턴 적용. 404/500 응답 시 SyntaxError 대신 의미 있는 catch 흐름으로 진입.
-- **C-5 / F-1**: `#searchInput`(상단 검색바)에 focus 핸들러 부착 → `pageSearch`로 라우팅 + `navSearch.active` 동기화 + `globalSearchInput` 포커스 이동.
-- **F-2**: `pageSearch`의 검색 input에 `id="globalSearchInput"` 부여 + `input` 이벤트 핸들러로 `ordersData` 부분 일치(common/scientific) 필터. 결과는 placeholder 텍스트로 가벼운 피드백 ("N개 목 일치 — 첫 결과: …" 또는 "일치하는 결과 없음"). 별도 결과 영역 마크업이 없어 placeholder 방식 채택.
-- **C-6 / F-3**: `#btnRandom` 클릭 시 랜덤 order 선택 → `expandedOrderKey` 설정 → `showPage('pageDiscover')` + `navDiscover.active` + `switchDiscoverTab('taxonomy')` + 재렌더.
-- **C-6 / F-4**: 모든 `.filter-btn`에 클릭 핸들러 부착, 임시로 `#sortBtn` 클릭 위임(상세 필터 모달 미정).
-- **F-5**: species-tab(POPULAR/A-Z/BY COLOR)에 `data-sort` + `role="button"` + `tabindex="0"` 부여. `currentSpeciesList`/`currentSpeciesSort` 모듈 상태 도입, `renderSpeciesSorted()` 헬퍼 추가. POPULAR=원본, A-Z=scientificName 오름차순, BY COLOR=색상 정보가 데이터에 없어 Fisher-Yates 셔플로 시각적 변화만 제공. 클릭/Enter/Space 모두 active 토글 + 재렌더.
-- **F-6**: 4개 `.explore-card`에 `role="button"` + `tabindex="0"` + `data-category` 부여. 클릭/Enter/Space 시 카테고리명을 `globalSearchInput`에 prefill + input 이벤트 dispatch + 포커스. (실제 카테고리별 필터링 데이터가 없어 검색바 prefill로 통합)
-- **C-7**: 캐러셀 mouseup을 `window`에 등록. `stopDrag` 헬퍼로 mouseleave/mouseup 동일 처리. 윈도우 밖에서 손을 떼도 isDown=false로 안전 복귀.
-- **C-8**: 검색 input 3개(`searchInput`, `familySearchInput`, `globalSearchInput`) 모두 `aria-label` 추가.
-- **C-9**: 페이지 내 모든 `a.see-all`, `a.profile-view-all`에 `preventDefault` 부착. `<a href="#">` 클릭 시 상단 스크롤 점프 차단.
-- **F-7**: 정렬 라벨 의미 일관화. 두 모드 모두 이름순으로 통일:
-  - `A → Z`: `scientificName` 오름차순 (라틴 알파벳)
-  - `ㄱ → ㅎ`: `commonName` 오름차순 (한국어, locale='ko')
-  - 기존 `b.familyCount - a.familyCount` (숫자 정렬)는 제거. 코드 주석으로 "라벨은 현재 적용 중인 정렬" 의미 명시.
-- **F-9**: profile 페이지 백버튼의 inline `onclick="showPage('pageDiscover')"`를 제거하고 `id="profileBackBtn"` 부여. JS 핸들러에서 `showPage('pageDiscover')` + `navDiscover.active` 동기화.
-- **F-10**: family-photo-card / family-carousel-card / species-detail-card의 `<img alt="">`에 `escapeHTML(commonName || scientificName)`로 의미 있는 alt 부여. `loading="lazy"`도 함께 추가하여 초기 페인트 가속.
-- **W-5**: `.family-detail-title`에 `word-break: keep-all`, `overflow-wrap: anywhere`, `white-space: normal`, `-webkit-line-clamp: 2` 추가. 긴 한글+학명 조합도 모바일 폭 안에서 두 줄로 깔끔히 보임.
-- **W-8**: `taxonomy/index.json` 응답 처리부 — `data.orders`가 배열이 아니면 `[]`로 폴백. `totalOrders`/`totalFamilies`도 옵셔널 체이닝 + nullish 폴백.
+### 수정/추가된 파일
+- `/Users/hwanghyeonseong/Documents/GitHub/insect/project/index.html` — 1530줄 → 2058줄 (+528줄)
+  - 마크업 추가: `pageFamilyDetail` 직후 새 `<div class="page" id="pageSpeciesDetail">` 1블록 (≈310줄)
+  - 인라인 `<script>`에 신규 함수 4종 및 핸들러 추가
+  - 기존 `renderSpeciesSorted` 종 카드 생성 부에 클릭/키보드 핸들러 부착 (1줄 수정 + 약 18줄 추가)
+- `/Users/hwanghyeonseong/Documents/GitHub/insect/project/style.css` — 1811줄 → 2415줄 (+604줄)
+  - 끝부분에 `SPECIES DETAIL PAGE (INFOGRAPHIC)` 섹션 신규 추가
 
-### Skip한 항목 + 이유
-- **W-1 (selectedOrder 클로저 캡처)**: 현재 흐름에서 race 미발생. 별도 리팩토링 시 처리.
-- **W-2 (showPage unknown id 경고)**: 모든 호출처에서 유효한 id를 전달함이 확인됨. 디버깅 보조용이라 우선순위 낮음.
-- **W-3 (sub-page nav 동기화)**: F-9에서 profile/saved 백버튼은 명시 동기화. family-list/detail의 `keepNav: true` 흐름은 현재 정상.
-- **W-4 (인라인 style 클래스화)**: 별도 리팩토링 작업으로 분리. 동작 영향 없음.
-- **W-6 (inert 폴리필)**: 모던 브라우저 가정.
-- **W-7 (`tabTaxonomy.click()` 직접 호출)**: 동작 동일, 코드 가독성만 영향. 우선순위 낮음.
-- **W-9 (View Transition race)**: 현재 무해.
-- **S-1 ~ S-10**: 모두 Suggestion (선택). 별도 작업 시 처리.
-- **F-5의 'BY COLOR' 정확 매핑**: 데이터에 색상 정보 없음. 셔플로 대체 (시각적 변화만 보장, 의미 있는 정렬 아님).
-- **F-8 (종 이미지가 family 이미지 fallback 4장 순환)**: 데이터 자체에 종별 이미지/thumbnail 없음. fallback 외 해결 불가. 이번 패치 범위 밖.
+### 추가된 마크업 (pageSpeciesDetail)
 
-### QA 재검증 요청 포인트
-1. **XSS 안전성 (C-1/C-2)**: `taxonomy/index.json`의 `orders[].commonName`을 일시적으로 `<script>alert(1)</script>` 같은 페이로드로 교체하고 분류 보기 탭 → 카드 확장 → DOM에 `<script>`가 텍스트로만 나오는지 확인.
-2. **fetch 실패 폴백 (C-3/C-4)**: 네트워크 차단 또는 잘못된 경로로 `taxonomy/<order>.json` 404 상황 재현. 콘솔에 unhandled rejection 없는지, "과 데이터 없음" 폴백이 보이는지.
-3. **검색 라우팅 (C-5/F-1)**: 홈 상단 `#searchInput` 클릭 → pageSearch로 즉시 이동 + `globalSearchInput`에 포커스 + 하단 nav가 "검색" 활성으로 동기화.
-4. **검색 필터 (F-2)**: pageSearch input에 "딱정벌레", "Coleoptera", "ㅂ" 등 입력 → placeholder가 "N개 목 일치 — 첫 결과: …"로 갱신되는지. 빈 문자열로 지우면 원래 placeholder 복귀.
-5. **랜덤 버튼 (C-6/F-3)**: pageSearch → "랜덤 곤충 보기" 반복 클릭 → 매번 다른(or 같을 수도 있는) order로 확장된 상태로 pageDiscover 분류 탭 진입.
-6. **filter-btn (C-6/F-4)**: 헤더 SVG 필터 아이콘 클릭 → 정렬 토글이 실행되어 라벨이 "A → Z" ↔ "ㄱ → ㅎ" 전환.
-7. **species-tab (F-5)**: family 상세 진입 → POPULAR/A-Z/BY COLOR 클릭 시 active 클래스 이동 + 종 카드 순서 변경. Tab키 + Enter/Space로도 동일하게 동작.
-8. **explore-card (F-6)**: pageSearch의 4개 카드 클릭/Enter → `globalSearchInput`에 카테고리명 prefill + 필터 결과(placeholder) 갱신.
-9. **캐러셀 mouseup (C-7)**: family 상세에서 캐러셀 mousedown 후 윈도우 밖에서 손 떼기 → 돌아와서 클릭해도 드래그 잠김 없는지.
-10. **family-detail-title 줄바꿈 (W-5)**: 긴 commonName + scientificName 조합(예: "장수풍뎅이과 (Dynastidae)") family로 진입 → 모바일 폭(430px)에서 2줄로 정상 표시.
-11. **profile 백버튼 nav 동기화 (F-9)**: profile 진입 → 좌상단 ← 클릭 → 홈으로 돌아오면서 하단 nav "홈"이 active.
-12. **이미지 alt (F-10)**: VoiceOver/스크린리더로 family-photo-card 탐색 시 한국어 이름 또는 학명이 읽히는지.
-13. **정렬 라벨 의미 (F-7)**: 분류 보기 탭에서 sortBtn 클릭 반복 → "A → Z"일 때 학명 알파벳순, "ㄱ → ㅎ"일 때 한글명 가나다순.
-14. **빈/잘못된 index.json (W-8)**: `taxonomy/index.json`을 `{}`로 교체해도 콘솔에 TypeError 없이 "데이터 로드 실패" 또는 빈 그리드만 표시.
+페이지 구조 트리:
+```
+#pageSpeciesDetail .page
+├─ .family-detail-topbar.species-detail-topbar
+│  ├─ button#speciesDetailBackBtn.family-back-btn (← 백버튼)
+│  └─ h2.family-detail-title ("종 상세")
+├─ section.species-detail-hero
+│  ├─ div#speciesDetailHeroImg.species-hero-img [data-slot="heroImg"]
+│  │  ├─ .placeholder-img.placeholder-img--bee.species-hero-placeholder
+│  │  └─ .data-pending-tag ("사진 데이터 준비 중")
+│  └─ .species-hero-info
+│     ├─ p.species-detail-kr [data-slot="commonName"]
+│     └─ p.species-detail-sci [data-slot="scientificName"] (Cormorant Garamond italic)
+├─ section.species-info-section — CONSERVATION STATUS
+│  └─ .status-badge-grid#statusBadgeGrid (6개 배지)
+│     └─ article.status-badge [data-status][data-badge-key=...]
+│        ├─ .status-badge-icon (인라인 SVG)
+│        ├─ .status-badge-label (멸종위기/생태계교란/위해우려/천연기념물/유해종/한국고유종)
+│        └─ .status-badge-value [data-slot=...]
+├─ section.species-info-section — TAXONOMY
+│  └─ ol.taxonomy-tree#taxonomyTree
+│     └─ li.taxonomy-step × 7 (Kingdom→Species, 마지막은 .taxonomy-step--leaf)
+│        ├─ span.taxonomy-rank
+│        └─ span.taxonomy-value [data-slot="tax{Kingdom..Species}"]
+├─ section.species-info-section — SCIENTIFIC NAME
+│  └─ .info-card
+│     ├─ p.info-card-primary [data-slot="fullScientificName"]
+│     └─ p.info-card-secondary × 2 (author / year)
+├─ section.species-info-section — DESCRIPTION
+│  └─ .info-card.info-card--text > p.info-card-body [data-slot="description"]
+├─ section.species-info-section — SIZE
+│  └─ .info-card.size-card
+│     ├─ .size-visual > .size-ruler (11틱) + .size-bar [data-slot="sizeBar"]
+│     └─ .size-text > .size-range [data-slot="sizeRange"]
+├─ section.species-info-section — HABITAT
+│  └─ .info-card.habitat-card
+│     ├─ .habitat-row (icon + p.habitat-text [data-slot="habitat"])
+│     └─ .habitat-map [data-slot="habitatMap"] (placeholder)
+└─ section.species-info-section — LIFE CYCLE
+   └─ ol.lifecycle-grid#lifecycleGrid (4 stages)
+      └─ li.lifecycle-stage [data-stage=egg|larva|pupa|adult]
+         ├─ .lifecycle-icon (SVG)
+         ├─ .lifecycle-name (알/유충/번데기/성충)
+         ├─ .lifecycle-sub (Egg/Larva/Pupa/Adult)
+         └─ .lifecycle-desc [data-slot="lifecycle{Egg|Larva|Pupa|Adult}"]
+```
+
+신규 ID 목록:
+- `pageSpeciesDetail` — 페이지 컨테이너
+- `speciesDetailBackBtn` — 백버튼
+- `speciesDetailHeroImg` — 히어로 이미지 컨테이너 (data-slot도 동시 부여)
+- `statusBadgeGrid` — 상태 배지 그리드
+- `taxonomyTree` — 분류 트리 OL
+- `lifecycleGrid` — 생애 주기 OL
+
+신규 클래스 목록 (kebab-case + 네임스페이스):
+- 페이지: `species-detail-topbar`, `species-detail-hero`, `species-hero-img`, `species-hero-placeholder`, `species-hero-info`, `species-detail-kr`, `species-detail-sci`, `data-pending-tag`
+- 섹션: `species-info-section`, `species-info-eyebrow`, `species-info-title`
+- 정보 카드: `info-card`, `info-card--text`, `info-card-primary`, `info-card-secondary`, `info-card-body`, `info-meta-label`, `info-meta-value`
+- 상태 배지: `status-badge-grid`, `status-badge`, `status-badge-icon`, `status-badge-label`, `status-badge-value`
+- 분류: `taxonomy-tree`, `taxonomy-step`, `taxonomy-step--leaf`, `taxonomy-rank`, `taxonomy-value`
+- 크기: `size-card`, `size-visual`, `size-ruler`, `size-ruler-tick`, `size-bar`, `size-bar-fill`, `size-bar-arrow`, `size-bar-arrow--left`, `size-bar-arrow--right`, `size-text`, `size-range`, `size-hint`
+- 서식지: `habitat-card`, `habitat-row`, `habitat-icon`, `habitat-text`, `habitat-map`, `habitat-map-placeholder`
+- 생애: `lifecycle-grid`, `lifecycle-stage`, `lifecycle-icon`, `lifecycle-name`, `lifecycle-sub`, `lifecycle-desc`
+
+### 추가된 CSS (섹션별 요약)
+- **`#pageSpeciesDetail` 스코프 색 토큰**: 6개 배지 의미 색 (endangered/invasive/hazardous/natural/harmful/endemic) + 데이터 미연결 점선 색을 페이지 내부에서만 정의 → 다른 페이지 오염 없음
+- **Hero**: 4:3 비율, 점선 테두리(자리표시자 표시), `data-pending-tag` 흑반투명 배지
+- **Section shell**: 공용 `species-info-section` 패딩 + `species-info-eyebrow`(레터스페이싱 0.2em) + `species-info-title` 헤드
+- **`info-card`**: 카드형 배경(`rgba(255,255,255,0.035)`), 라운드 18px, 학명 카드/설명 카드 등에서 재사용
+- **Status badge grid**: 모바일 `repeat(2, 1fr)`, 480px+ `repeat(3, 1fr)`. 3개 상태(`active`/`inactive`/`unknown`)별 시각 차이:
+  - `active`: 배지별 의미 색 배경 + 아이콘 컬러 채움 + 흰색 텍스트
+  - `inactive`: dim + 반투명
+  - `unknown`: 점선 테두리 + dim italic 텍스트 — 데이터 미연결 표시
+- **Taxonomy tree**: 좌측 8px 도트 + 세로 연결선(`::before`/`::after`), 마지막 종 단계는 `--leaf` 강조(글로우 box-shadow)
+- **Size visualization**: 11틱 자(odd 틱 더 길게) + 그라데이션 막대 + 좌/우 화살표 (CSS 변수 `--size-start`/`--size-end`로 JS에서 제어)
+- **Habitat**: 아이콘+텍스트 + 한국 지도 자리표시자 영역(점선 테두리, 라디얼 그라데이션)
+- **Life cycle**: `grid-template-columns: repeat(4, 1fr)` + 카드 사이 → 화살표 (`::after` 삼각형, 마지막 카드 제외)
+- 모든 한글 컨테이너에 `word-break: keep-all`
+
+### 추가된 JS 함수
+1. **`buildPlaceholderSpecies(scientificName, commonName)`** — 표준 species 스키마(자리표시자) 반환. 현재 선택된 `selectedOrder`/`selectedFamily`가 있으면 taxonomy.order/family에 자동 주입.
+2. **`setSlot(root, slotName, value, fallback)`** — `[data-slot="..."]` 요소를 안전하게 채우고 `dataset.pending` 표시. 모든 텍스트는 `textContent`로 세팅(XSS 안전).
+3. **`resolveBadge(key, raw)`** — 6개 배지 각 키별 값을 `{ status, text }`로 정규화 (멸종위기 등급 매핑, 천연기념물 지정번호 포맷, boolean 처리).
+4. **`applyBadge(badgeEl, badgeState)`** — `data-status` + value 텍스트 동기화.
+5. **`renderSpeciesDetail(species)`** — 메인 렌더러. 위 헬퍼들을 사용해 페이지의 모든 슬롯을 일괄 채움. 이미지 배열이 있으면 `<img loading="lazy">` 동적 삽입, 없으면 placeholder + 점선.
+6. **`openSpeciesDetail(species, fromPage = 'pageFamilyDetail')`** — 진입 엔트리. 상태 갱신 → 렌더 → `showPage('pageSpeciesDetail', { keepNav: true })`.
+
+신규 모듈 스코프 변수: `selectedSpecies`, `previousSpeciesPage`.
+
+### 데이터 연결 후크
+이후 species 객체만 다음 스키마로 만들어 `openSpeciesDetail(species, fromPage)`에 전달하면 모든 슬롯이 자동으로 채워진다:
+
+```js
+{
+  scientificName: string,         // → .species-detail-sci, fullScientificName 베이스
+  commonName: string,             // → .species-detail-kr
+  author: string | null,          // → info-card author 슬롯, fullScientificName에 합성
+  year: number | string | null,   // → info-card year 슬롯
+  images: string[],               // → 히어로 <img>; 빈 배열이면 placeholder + 점선
+  conservationStatus: {
+    endangered: 'I' | 'II' | '관찰종' | '해당없음' | null,  // null→unknown, 해당없음→inactive
+    invasive: boolean | null,     // true→active 해당, false→inactive 해당없음, null→unknown
+    hazardous: boolean | null,
+    naturalMonument: string | null,  // 지정번호 (예: '218') → 'active 제218호'
+    harmful: boolean | null,
+    endemic: boolean | null
+  },
+  taxonomy: { kingdom, phylum, class, order, family, genus, species },
+  description: string | null,
+  habitat: string | null,
+  habitatRegions: string[],       // (현재 미사용, 추후 한국 지도 시각화용 슬롯)
+  lifecycle: { egg, larva, pupa, adult },  // 각 단계 짧은 설명
+  size: { min: number, max: number, unit: 'mm' } | null  // 막대 위치는 0~100mm 가정
+}
+```
+
+값이 null/undefined/빈 문자열이면 슬롯마다 의미 있는 자리표시자 텍스트("데이터 준비 중", "곧 공개됩니다", "데이터 없음" 등)가 채워지고 `data-pending="true"`가 부여되어 CSS에서 시각적으로 dim 처리.
+
+### 진입/이탈 경로
+- **진입**: `renderSpeciesSorted()` 내부 종 카드 생성 부에 `click` + `keydown(Enter/Space)` 핸들러 부착. 클릭 시 `buildPlaceholderSpecies(...)` + 카드의 `scientificName/commonName/genus/species` 머지 → `openSpeciesDetail(species, 'pageFamilyDetail')` 호출. `role="button"` + `tabIndex=0` 부여로 키보드/스크린리더 접근.
+- **이탈**: `#speciesDetailBackBtn` 클릭 → `showPage(previousSpeciesPage || 'pageFamilyDetail', { keepNav: true })`. `keepNav: true`로 하단 네비 active 상태 보존.
+- **호환성**: F-5 정렬 함수(`renderSpeciesSorted`)가 카드를 생성하는 유일한 지점이라 정렬 변경 후에도 클릭 핸들러가 매번 다시 부착됨 (재바인딩 누수 없음 — 카드 자체가 재생성되며 같이 사라짐).
+
+### 자리표시자 처리
+1. **사진 없음**: 점선 테두리(`border: 1px dashed var(--data-pending-line)`) + `.data-pending-tag` ("사진 데이터 준비 중") 좌하단 배지
+2. **상태 배지**: `data-status="unknown"` → 점선 테두리 + 아이콘/텍스트 dim + value "데이터 없음" italic
+3. **분류 트리/생애 주기**: 빈 슬롯은 `data-pending="true"` 부여 → italic + faint 색
+4. **크기**: 데이터 없으면 막대를 30%~65% 기본 위치에 두고 텍스트만 "— ~ — mm"
+5. **서식지 지도**: 자리표시자 영역에 라디얼 그라데이션 + "한국 지도 데이터 준비 중" 배지
+6. **학명/설명**: "— 데이터 준비 중 —", "— 곧 공개됩니다 —" 등 명시적 한국어 자리표시자
+
+### 코드 리뷰어 확인 요청 사항
+1. **모든 동적 텍스트는 `setSlot()`에서 `textContent`로 세팅** — innerHTML을 쓰는 곳은 히어로 이미지의 `<img>` DOM 생성(`createElement`) 한 곳뿐. XSS 방어 확인 부탁.
+2. **`buildPlaceholderSpecies` 내부에서 `selectedOrder`/`selectedFamily` 전역 참조** — taxonomy.order/family를 자동 주입하기 위해. 종 카드 진입은 항상 `pageFamilyDetail` 컨텍스트에서 일어나므로 항상 truthy 가정. 다른 진입 경로(검색 결과 직접 클릭 등) 추가 시 이 가정이 깨질 수 있음 — 향후 확장 시 검토 필요.
+3. **`renderSpeciesSorted` 안의 카드 핸들러가 호이스팅된 `buildPlaceholderSpecies`/`openSpeciesDetail`를 참조** — 두 함수 모두 function 선언(호이스팅 OK)이지만, 스크립트가 로드 순서에 민감해질 가능성이 있는지 점검 부탁.
+4. **IDE 경고 (style.css 890, 1107줄)**: `-webkit-line-clamp` 표준 속성 미정의 — **기존 코드** 영역이므로 이번 작업 범위 밖, 별도 픽스 PR 권장.
+
+### QA가 검증해야 할 동작
+1. **종 카드 → 상세 페이지 진입**: 분류 탭 → 임의의 목 확장 → 과 선택 → `pageFamilyDetail`에서 종 카드 클릭 시 `pageSpeciesDetail`이 열리고 학명·한글명이 카드와 일치하게 채워지는가.
+2. **백버튼 동작**: 상세 페이지에서 ← 클릭 시 직전 `pageFamilyDetail`로 복귀하며 하단 네비 active 유지되는가. 정렬 탭(POPULAR/A-Z/BY COLOR) 상태가 보존되는지도 확인.
+3. **키보드 접근성**: 종 카드에 Tab으로 포커스 → Enter/Space로 상세 진입 가능한가. 백버튼도 Enter로 동작하는가.
+4. **자리표시자 시각 표현**: 데이터 미연결 상태에서 (a) 6개 상태 배지가 모두 "데이터 없음" + 점선, (b) 분류 트리 하단 4단계(목/과/속/종)는 italic dim, 상단 3단계(계/문/강)는 고정값으로 정상 표시, (c) 생애 주기 4단계 카드 사이 → 화살표가 보이고 마지막 카드에는 없음.
+5. **반응형 배지 그리드**: 모바일(현재 max-width: 430px) 2컬럼, 480px 뷰포트에서 3컬럼으로 전환. 외부 브라우저에서 확장 시 시각 확인.
+6. **`renderSpeciesDetail` 단위 호출**: 콘솔에서 `openSpeciesDetail({ scientificName: 'Papilio xuthus', commonName: '호랑나비', conservationStatus: { endangered: 'II', invasive: false, hazardous: null, naturalMonument: '218', harmful: false, endemic: true }, taxonomy: { kingdom:'동물계 (Animalia)', phylum:'절지동물문 (Arthropoda)', class:'곤충강 (Insecta)', order:'나비목 (Lepidoptera)', family:'호랑나비과 (Papilionidae)', genus:'Papilio', species:'P. xuthus' }, size: { min: 30, max: 50, unit: 'mm' } }, 'pageFamilyDetail')` 호출 시 모든 슬롯이 즉시 정확히 채워지는가(active/inactive/unknown 배지 색 구분, 크기 막대 30~50mm 위치).

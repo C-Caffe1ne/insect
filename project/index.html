@@ -2135,49 +2135,6 @@
       setCount('count-endemic',    flags.endemic);
       setCount('count-invasive',   flags.invasive);
       setCount('count-natural-monument', NATURAL_MONUMENT_CANONICALS.size);
-
-      // 인기 목 Top 6
-      const popList = document.getElementById('popularOrderList');
-      if (popList) {
-        popList.replaceChildren();
-        (searchIndexData.orders || []).slice(0, 6).forEach((o, idx) => {
-          const row = document.createElement('button');
-          row.className = 'popular-order-row';
-          row.type = 'button';
-          row.dataset.orderId = o.id;
-
-          const rank = document.createElement('span');
-          rank.className = 'popular-order-rank';
-          rank.textContent = idx + 1;
-
-          const info = document.createElement('div');
-          info.className = 'popular-order-info';
-          const nameEl = document.createElement('p');
-          nameEl.className = 'popular-order-name';
-          nameEl.textContent = o.kr || o.sci || o.id;
-          const sciEl = document.createElement('p');
-          sciEl.className = 'popular-order-sci';
-          sciEl.textContent = o.sci || '';
-          info.append(nameEl, sciEl);
-
-          const count = document.createElement('span');
-          count.className = 'popular-order-count';
-          count.textContent = fmt(o.count);
-
-          row.append(rank, info, count);
-          row.addEventListener('click', () => {
-            // 분류 보기 탭으로 이동 + 해당 목 펼치기
-            const targetOrder = ordersData.find(d => d.id === o.id || d.scientificName === o.sci);
-            if (targetOrder) expandedOrderKey = getOrderKey(targetOrder);
-            showPage('pageDiscover');
-            document.getElementById('navDiscover').classList.add('active');
-            document.getElementById('navSearch').classList.remove('active');
-            switchDiscoverTab('taxonomy');
-            renderOrders(ordersData);
-          });
-          popList.appendChild(row);
-        });
-      }
     }
 
     // 검색 매칭 — scope와 카테고리 필터에 따라 인덱스 인섹트 배열에서 필터링
@@ -3191,7 +3148,6 @@
         if (Array.isArray(v.ja) && v.ja.length > 0) desc.push(`일본어: ${v.ja.slice(0, 2).join(' / ')}`);
         if (Array.isArray(t.eats) && t.eats.length > 0) desc.push(`먹이: ${t.eats.slice(0, 5).join(', ')}`);
         if (Array.isArray(t.visitsFlowersOf) && t.visitsFlowersOf.length > 0) desc.push(`방문 꽃: ${t.visitsFlowersOf.slice(0, 5).join(', ')}`);
-        if (t.gbifRecords) desc.push(`GBIF 관측 기록: ${Number(t.gbifRecords).toLocaleString('ko-KR')}건`);
         if (Array.isArray(t.introduced) && t.introduced.length > 0) desc.push(`도입 지역: ${t.introduced.join(', ')}`);
         if (desc.length > 0) species.description = desc.join(' · ');
       }

@@ -1,128 +1,100 @@
-## QA 검증 결과 (pageSpeciesDetail 최종 검증)
+## QA 회귀 검증 결과
 
-대상: `project/index.html` (2078줄) + `project/style.css` (2415줄)
-검증 방식: 실제 파일 내용 직접 Read + grep 교차 검증. 보고서 의존 없음.
-
----
-
-### Critical 패치 적용 확인 ✅
-
-- **C-1 (renderSpeciesSorted 카드 createElement 전환)**: ✅ 적용됨
-  - `index.html:1440~1458` — `document.createElement('article')` + `imgWrap.createElement('img')` + `h3.textContent` + `p.textContent`. `innerHTML` 템플릿 완전 제거됨.
-  - 이전 escapeHTML 템플릿(`<img src=...alt=...>` 형태)이 사라지고 DOM 노드로만 구성. XSS 회귀 위험 0.
-
-- **C-2 (renderSpeciesDetail 히어로 이미지 replaceChildren + 헬퍼)**: ✅ 적용됨
-  - `index.html:1937~1951` — `heroImg.replaceChildren();` 호출 후 `url` 분기에서 `createElement('img')` + alt fallback `species.commonName || species.scientificName || '곤충 사진'`. else 분기에서 `heroImg.appendChild(createHeroPlaceholder())` 호출.
-  - `dataset.pending` 'false'/'true' 명시적 토글.
-
-- **C-3 (speciesDetailBackBtn SVG aria-hidden + focusable)**: ✅ 적용됨
-  - `index.html:346~347` — `<svg ... aria-hidden="true" focusable="false">`. button 자체에 `aria-label="이전 페이지로 돌아가기"` 부여(345줄).
-  - grep으로 다른 백버튼들(271, 306줄 — familyBackBtn / familyDetailBackBtn)에는 여전히 누락이지만 **기존 코드 영역**으로 이번 작업 범위 밖. 회귀 항목으로 기록.
-
-- **C-4 (buildPlaceholderSpecies filter(Boolean).join 가드)**: ✅ 적용됨
-  - `index.html:1845~1852` — `[selectedOrder.commonName, selectedOrder.scientificName ? \`(${...})\` : null].filter(Boolean).join(' ') || null` 패턴으로 변경. family도 동일 패턴.
-  - 두 값 모두 빈 문자열이면 `filter(Boolean)` 결과 빈 배열 → `join(' ')` 빈 문자열 → `|| null`로 null 반환 → setSlot의 fallback("데이터 준비 중") 활성화.
-
-- **헬퍼 추가 (createHeroPlaceholder)**: ✅ 적용됨
-  - `index.html:1915~1924` — DocumentFragment 반환. `placeholder-img placeholder-img--bee species-hero-placeholder` div + `data-pending-tag` span("사진 데이터 준비 중"). HTML 357~360줄의 초기 마크업과 동일 구조.
-  - `renderSpeciesDetail`에서 url 없을 때 `heroImg.appendChild(createHeroPlaceholder())`로 호출 — 단일 진실 소스.
+> 검증 모드: 정적 분석 (grep / jq / node `new Function`). 실제 브라우저 런타임은 "수동 테스트 필요" 항목으로 분리.
+> 입력: `_workspace/02_developer_output.md`, `_workspace/03_review_output.md`.
+> 작업 대상: `project/index.html`, `project/style.css`, `cached/`.
 
 ---
 
-### Pass ✅
+### Pass
 
-#### A. DOM 셀렉터 ↔ HTML 교차 검증
-- **모든 data-slot 매칭 완료** — JS에서 호출하는 슬롯 30종이 HTML에 1:1 존재.
-  - 텍스트 슬롯: commonName(362), scientificName(363), fullScientificName(492), author(495), year(499), description(509), habitat(560), sizeRange(541)
-  - 배지 6종 + value 슬롯: endangered(382), invasive(395), hazardous(408), naturalMonument(420), harmful(434), endemic(446)
-  - 분류 트리 7단계: taxKingdom/Phylum/Class/Order/Family/Genus/Species(458, 462, 466, 470, 474, 478, 482)
-  - 생애 4단계: lifecycleEgg/Larva/Pupa/Adult(582, 594, 606, 623)
-  - 히어로/크기: heroImg(357), sizeBar(534), habitatMap(562)
-- **신규 ID 매칭**: pageSpeciesDetail(343), speciesDetailBackBtn(345), speciesDetailHeroImg(357), statusBadgeGrid(371), taxonomyTree(455), lifecycleGrid(572). JS는 pageSpeciesDetail(1928), speciesDetailBackBtn(2040)만 직접 참조 — 나머지는 [data-slot] 셀렉터로 접근. 모두 일치.
-- **`.status-badge[data-badge-key="<key>"]` × 6 매칭**: JS의 1955줄 6개 키 배열이 HTML 372/385/398/411/423/437줄 6개 `data-badge-key` 속성과 1:1 일치. `.status-badge-value` 자식도 6개 모두 존재.
+#### A. 데이터 무결성 (모두 OK)
+- `project/eol_species_cache.json` (3,816,410 B) — JSON 파싱 OK
+- `project/korea_insect_species_by_family.json` (1,023,813 B) — JSON 파싱 OK
+- `project/search_index.json` (6,410,138 B) — JSON 파싱 OK
+- `cached/eol_species_cache.json` (3,816,410 B) — 보존, JSON OK
+- `cached/korea_insect_species_by_family.json` (1,023,813 B) — 보존, JSON OK
+- `cached/eol_api_state.json` (70 B), `cached/inat_taxa_state.json` (69 B) — 보존, JSON OK
+- `cached/ktsn_taxonomy_map.json` (144,830 B) — 보존, JSON OK
+- `cached/digital_content_cache_index.json` (270 B) — 보존, JSON OK
 
-#### B. 페이지 진입/이탈 흐름
-- **카드 클릭 진입**: `renderSpeciesSorted` 1471줄 `card.addEventListener('click', openDetail)` → 1460~1469줄 `openDetail`에서 `buildPlaceholderSpecies(...)` + spread + `openSpeciesDetail({...}, 'pageFamilyDetail')` 호출 → 2031줄 `openSpeciesDetail` → `renderSpeciesDetail(species)` (2035) + `showPage('pageSpeciesDetail', { keepNav: true })` (2036).
-- **키보드 진입**: 1472~1477줄 `keydown` 핸들러 — Enter/Space 모두 `e.preventDefault()` + `openDetail()`. `role="button"` + `tabIndex=0`(1442~1443) 부여로 Tab 포커스 가능.
-- **백버튼 이탈**: 2040~2045 — `speciesDetailBackBtn` 클릭 시 `showPage(previousSpeciesPage || 'pageFamilyDetail', { keepNav: true })`. `<button>` 요소라 Enter/Space 기본 동작.
-- **keepNav 옵션 동작**: `showPage` 1661~1667줄 `if (!options.keepNav) allNavItems.forEach(...remove('active'))` — keepNav: true일 때 하단 nav active 유지 확인.
+#### B. 삭제 검증 — 22개 파일 모두 부재 확인
+- `cached/`에서 `merge.log`, `gbif_names.json`, `korea_insect_families_by_order.json`, `insect_data.json`, `cached_families.json`, `cached_orders.json`, `cached_insect_orders.json`, `korea_insect_orders.json`, `korea_insect_all_species_by_family.json`, `ktsn_in_page1_raw.json`, `ktsn_in_page1_summary.json`, `nibr_cache.json`, `api.js`, `test_cypher.js`, `cache_orders.js`, `cache_taxonomy.js`, `korea_insects.js`, `merge_species.js`, `scratch_nibr.py`, `scratch_nibr2.py`, `scratch_nibr_orders.mjs`, `extract_hwp_text.py` — 22/22 모두 부재 확인
+- cached/ 디렉토리 현재 파일 수: 24 (보고서 일치)
 
-#### C. 자리표시자 동작 (데이터 미연결)
-- **setSlot null/undefined/'' 분기**: 1868줄 `hasValue = value !== null && value !== undefined && value !== ''`. !hasValue → `el.textContent = fallback ?? '데이터 준비 중'` + `el.dataset.pending = 'true'`. 모두 명시적 검증.
-- **6개 배지 unknown**: `buildPlaceholderSpecies` conservationStatus 6필드 전부 null → `resolveBadge` 1877줄 `raw === null` 분기 → `{ status: 'unknown', text: '데이터 없음' }` → `applyBadge` 1909줄 `dataset.status = 'unknown'`. HTML 372줄 등 초기값과 동일.
-- **분류 트리**: kingdom/phylum/class 3단계는 placeholder에 한국어/학명 채워짐(1842~1844). order/family는 selectedOrder/selectedFamily에 따라 채워지거나 null. genus/species는 null → fallback "데이터 준비 중" 표시 + `taxonomy-step[data-pending="true"]` (1973~1974).
-- **생애 4단계**: placeholder.lifecycle 모두 null → setSlot fallback "준비 중" + `lifecycle-stage[data-pending="true"]` (2026~2027).
-- **크기**: placeholder.size = null → 2004~2009 `setSlot('sizeRange', null, '— ~ — mm')` + sizeBar 기본 30%~65%.
+#### C. project/ 의존성 검증
+- `project/index.html` fetch 호출 4건 모두 대상 파일 존재:
+  - `fetch('korea_insect_species_by_family.json')` (line 1315) → 존재
+  - `fetch('taxonomy/index.json')` (line 1888) → 존재
+  - `fetch('search_index.json')` (line 2105) → 존재
+  - `fetch('eol_species_cache.json')` (line 3093) → 존재
+- `project/taxonomy/`: index.json + orders/(34) + families/(36 디렉토리) 모두 존재
+- 인라인 `<script>` 1개(2,182줄) — Node `new Function(body)` syntax 통과. 중괄호 556/556 균형.
 
-#### D. 데이터 연결 후크 검증 (코드 트레이싱)
-실제 species 객체에 필드 채워질 때 동작:
-- `images: ['url']` → 1938 url 존재 → 1941~1946 img 동적 생성, src/alt/loading 부여. ✅
-- `conservationStatus.endangered: 'I'` → resolveBadge 1882~1887 labelMap['I'] = 'Ⅰ급' + status 'active' → 배지 active 색상. ✅
-- `conservationStatus.invasive: true` → resolveBadge 1898 `raw === true` → 'active 해당'. ✅
-- `conservationStatus.naturalMonument: '210'` → resolveBadge 1889~1891 → 'active 제210호'. ✅
-- `taxonomy.genus: 'Papilio'` → 1968 taxGenus 슬롯 setSlot으로 채워짐. ✅
-- `description: '나비목...'` → 1988 setSlot('description', ...). ✅
-- `habitat: '평지...'` → 2013 setSlot('habitat', ...). ✅
-- `lifecycle.{egg/larva/pupa/adult}` → 2018~2028 4번 setSlot 호출. ✅
-- `size: {min: 30, max: 50, unit: 'mm'}` → 1993 typeof === 'number' 가드 → 1995 setSlot('sizeRange', `30 ~ 50 mm`) + 1999~2002 `--size-start: 30%`, `--size-end: 50%` setProperty로 막대 위치. ✅
+#### D. 텍스트/코드 잔존 검사
+- `grep -c "GBIF 관측 기록" project/index.html` = 0
+- `grep -c "popularOrderList" project/index.html` = 0
+- 삭제된 CSS 클래스 21개 (`.trait-finder-*`, `.random-btn/-icon`, `.order-card-single`, `.order-card--expanded`, `.order-card-body`, `.order-card-kr`, `.order-body`, `.order-kr`, `.order-single-img`, `.placeholder-img--{beetle,bug,butterfly,dragonfly,grasshopper,iridescent}`, `.explore-card--random`, `.explore-card-sub`, `.popular-order-list`) → HTML/CSS 모두에서 grep 결과 0건
+- 보존 권장된 GBIF 데이터 파이프라인은 정상 유지: 라인 1716/1719/1736-1744/1763-1764(이미지 폴백, source/license), 라인 3172-3174(enrichSpeciesWithGbif 함수 진입점), 3208-3215(분류 보강), 3247-3249(distribution), 3370(console.error)
 
-#### E. 회귀 검증 (기존 기능 영향)
-- **기존 페이지 영향 0**: pageDiscover(27), pageFamilyList(268), pageFamilyDetail(303), pageSearch(632), pageSaved(773), pageProfile(795) 모두 마크업 보존. showPage는 모든 .page를 remove('active') 후 target만 add('active')하는 단순 로직이라 신규 페이지 추가가 기존 흐름에 영향 없음.
-- **공유 상태 호환**: selectedOrder(1097), selectedFamily(1099), previousFamilyPage(1100) 기존 변수와 selectedSpecies(1103), previousSpeciesPage(1104) 신규 변수 명확히 분리. 충돌 없음.
-- **정렬 탭 영향 없음**: `#speciesTabsRow .species-tab` 핸들러(1777~1791)는 페이지 로드 시 1회 부착되어 `renderSpeciesSorted()` 호출. 정렬 변경 → grid.innerHTML = '' (1437) → forEach로 새 카드 생성 → 핸들러 매번 새로 부착. 카드 재생성과 함께 이전 핸들러는 GC. 정렬 시 모든 카드에 click+keydown 정상 부착 확인.
+#### E. cached/ 현역 스크립트 영향 — 모두 OK
+삭제된 22개 파일을 입력으로 읽는 곳은 없음(모두 출력 대상이거나 optional cache):
+- `fetch_orders.mjs:82` `existsSync()` 가드 후 read, `writeFileSync(JSON_FILE)`로 항상 출력 → optional 입력
+- `fetch_species_by_family.mjs:365` `korea_insect_all_species_by_family.json`은 출력 전용
+- `nibr_search.mjs:35` `existsSync()` 가드 후 read → optional 캐시
+- `nibr_orders_fetch.mjs:18,123` `korea_insect_orders.json`은 출력 전용
+- `fetch_ktsn_page1.mjs` 두 ktsn 파일 모두 출력 전용
+- `process_ktsn_in_page1.mjs:74` `existsSync(RAW)` 가드 — RAW 없으면 종료 (fetch_ktsn_page1.mjs 선행 실행 필요, 정상 흐름)
+- 결론: 어떤 .mjs도 깨지지 않음. 재실행 시 모두 정상 생성.
 
-#### F. 접근성
-- **상태 배지 의미 텍스트**: 6개 모두 `.status-badge-label`(고정 텍스트) + `.status-badge-value`(동적 텍스트). 스크린리더 친화 (시각 색상 외 텍스트도 함께).
-- **SVG aria-hidden 일관성**: 신규 페이지(pageSpeciesDetail) 내 상태배지 6개 SVG는 parent `<span class="status-badge-icon" aria-hidden="true">`로 감싸여 OK(373, 386, 399, 412, 424, 438). 생애주기 4개 SVG도 parent `<span class="lifecycle-icon" aria-hidden="true">` (574, 585, 597, 609). 서식지 SVG도 parent span aria-hidden(553). 백버튼 SVG는 C-3 패치로 직접 aria-hidden 부여.
-- **카드 접근성**: role="button" + tabIndex=0 + keydown 핸들러(Enter/Space) 부여. 정렬 변경 후에도 forEach 안에서 매번 부착되므로 일관성 보장.
-- **자리표시자 텍스트**: setSlot fallback이 모두 의미 있는 한국어("데이터 준비 중", "이름 미상", "— 데이터 준비 중 —" 등). 스크린리더 "이름 미상, Scientific name" 같이 빈 영역 없이 읽음.
+#### F. CSS 변수 검증
+- `--bg-elevated`, `--green-pale`: 정의 0건, var() 호출 0건 — 정상 제거 확인
+- `--ghost`, `--leaf`, `--primary`: 정의 0건, var() 호출 0건 — web-developer 보고대로 원래 정의가 없었음을 재확인
+- `:root`에 정의된 CSS custom property 정상 (--bg-deep, --bg-app, --bg-card, --bg-input, --green-dim/-mid/-soft, --text-primary/-secondary/-muted/-faint, --border-*, --radius-*, --font-*, --status-*, --section-*, --search-card-* 등)
 
-#### G. XSS 안전성 재검증
-- **카드 마크업**: createElement + textContent로 완전 전환. `<script>` 페이로드를 학명에 넣어도 1454줄 `h3.textContent = item.commonName || ...`로 텍스트 그대로 출력, 파싱 안 됨. ✅
-- **setSlot 내부**: 1869줄 `el.textContent = ...` — innerHTML 사용 없음. ✅
-- **히어로 img.alt**: 1943줄 `species.commonName || species.scientificName || '곤충 사진'` — fallback 3단계로 견고. alt 자체는 IDL 속성이라 HTML 파싱 위험 0.
-- **상태배지 value 텍스트**: 1911줄 `valueEl.textContent = badgeState.text` — textContent 일관 사용. ✅
-- **resolveBadge 매핑값**: 1885줄 labelMap 객체 내부 'Ⅰ급'/'Ⅱ급' 고정 문자열. 외부 raw가 'I'/'II'/'관찰종' 외의 값이면 1886줄 `labelMap[raw] || String(raw)` fallback — raw가 어떤 임의 텍스트라도 textContent로 출력되므로 안전.
-
-#### CSS 정합성
-- 신규 클래스 87개 정의 모두 `style.css` 1818~2415줄 신규 섹션 + 기존 영역에 존재.
-- `[data-pending="true"]` CSS 셀렉터(2190, 2408): JS에서 dataset.pending 토글 → CSS 시각 dim 처리 자동 연동.
-- `[data-status="active"/"inactive"/"unknown"]` 셀렉터(2029, 2093, 2106): JS applyBadge 1909줄과 매칭.
-- `[data-badge-key="endangered"]` 등 6개 키별 색상(2038~2087): JS 매핑 키와 1:1.
-- `--size-start`, `--size-end` CSS 변수(2238~2260): JS setProperty와 매칭. 인라인 style fallback(534)이 있어도 setProperty가 덮어쓰므로 안전.
+#### G. 회귀 시나리오 — 정적 분석 Pass
+- **시나리오 1 (분류 보기 탭 → 목 카드 펼치기)**: `.order-card-mini` (1363), `.order-card-mini.expanded` (1493/2914/2926 등) 셀렉터-요소-JS 핸들러 매칭 정상. popularOrderList 블록 제거가 영향 주지 않음 (블록 자체가 dead code였음).
+- **시나리오 2 (종 상세 description 합성)**: `enrichSpeciesWithEol` 내부 `desc.push` 분기 5개 (영명/일본어/먹이/방문 꽃/도입 지역) 정상 존재 (line 3147-3151). ' · ' join 정상 동작. GBIF 라인만 제거됨. 다른 EOL/GBIF 보강 경로(이미지, vernaculars.ko 통명, authorship 명명자, taxonomy 보강, distributions habitat 보강)는 모두 그대로.
+- **시나리오 3 (검색 카테고리 카드 → 필터 → 제거 버튼)**: `#searchResultArea`/`#searchResultHeader`/`#searchResultSummary`/`#searchResultList`/`#searchResultSort`/`#searchClearFilterBtn` HTML-JS 셀렉터 모두 매칭. `.explore-card--danger/-endemic/-invasive/-heritage` 4종 모두 CSS 정의 + HTML 사용 + JS data-category 처리 정상.
 
 ---
 
-### Fail ❌
-
-없음. 모든 검증 항목 통과.
+### Fail
+없음. (작업으로 생긴 새 버그·깨진 셀렉터·잘못된 파싱 0건)
 
 ---
 
-### 회귀 (잠재)
+### 회귀 (작업으로 인한 새 버그)
+없음. 22개 파일 삭제, 1줄 텍스트 제거, dead JS 블록 제거, 미사용 CSS 21클래스/2변수 제거가 사용처 영향 없이 완료됨.
 
-- **[index.html:271, 306] 기존 백버튼 SVG (familyBackBtn/familyDetailBackBtn)에 aria-hidden 누락**: 이번 작업과 무관한 기존 영역. 신규 speciesDetailBackBtn은 C-3 패치로 부여됨. **이번 작업으로 새로 생긴 문제는 아님** — 일관성 차원에서 차후 별도 PR 권장 (리뷰 보고서도 동일 지적).
-- **[index.html:1466~1467] 카드 클릭 시 species 객체 최상위에 `genus`/`species` 키 주입 후 placeholder의 taxonomy.genus/species는 null 그대로 전달**: `openSpeciesDetail` 호출 직후 `renderSpeciesDetail`이 `species.taxonomy.genus`를 읽으므로(1968) 최상위 키는 무시됨. 결과는 placeholder의 null이 그대로 fallback "데이터 준비 중"으로 표시되어 시각적으로는 일관됨. 다만 **데이터 전달이 효과 없는 dead code**. taxonomy 객체 내부로 병합하도록 후속 개선 가능.
-- **[style.css:534] size-bar 인라인 style (--size-start: 30%; --size-end: 65%;)**: CSS fallback(`var(--size-start, 30%)`)과 중복이지만 JS setProperty(1999~2008)가 항상 덮어쓰므로 동작은 일치. 리뷰 Warning 항목이며 회귀 영향 없음.
+---
+
+### 정리 미흡 (Critical 아님, 정보성)
+다음은 회귀 버그가 아니라 web-developer가 함께 정리할 수 있었던 잔재 후보. 03 리뷰 문서의 "2-E. Medium / Low (조심)" 절에서도 동반 제거 후보로 언급됨.
+
+1. **`--search-cat-random` 변수가 고아로 남음** (`project/style.css:2357`)
+   - `.explore-card--random` 클래스를 제거했기 때문에 이 CSS 변수의 사용처가 0건이 됨.
+   - 다른 동일 그룹(`--search-cat-endangered/-endemic/-invasive`)은 모두 `.explore-card--*` 룰(2746-2748)에서 사용 중.
+   - 영향: 없음(미사용 변수일 뿐, 런타임 동작에 영향 없음). 차회 정리 시 함께 제거 가능.
+
+2. **`cached/package.json`의 `"main": "api.js"` 깨진 참조** (`cached/package.json:5`)
+   - `api.js`가 삭제됐는데 package.json은 그대로.
+   - 영향: 없음(npm 실행 진입점이 아니라 metadata. `node cached/cache_*.mjs` 같은 직접 실행에 영향 없음). 차회 정리 시 `"main"` 필드 삭제 또는 보존 mjs 중 하나로 교체 권장.
+
+3. **web-developer 보고의 cached/ 시작 파일수 불일치** (지시문 47 vs 실측 46)
+   - 보고서에서 명시. 검증 결과 현재 24개로 차분(-22)은 정확. 결과 정상.
 
 ---
 
 ### 수동 테스트 필요
-
-- **반응형 배지 그리드 전환**: 모바일 max-width 430px 2컬럼, 480px 뷰포트에서 3컬럼 전환. 코드 레벨로 CSS 미디어쿼리 정합성은 확인했으나 실제 브라우저 시각 확인 필요.
-- **size-bar 30%~65% 막대 시각화**: JS는 `setProperty('--size-start', '30%')`로 정확히 부여하나 실제 막대 그리기는 CSS 합성 결과. 시각적 위치 확인 필요.
-- **분류 트리 ::before/::after 라인**: 7개 step의 좌측 도트+라인이 첫 단계 상단/마지막 단계 하단에서 깔끔히 잘리는지. 리뷰에서도 같은 Suggestion 지적.
-- **View Transitions API 동작**: `showPage`는 단순 class toggle만 수행, View Transitions API 사용은 별도 코드 없음. 페이지 전환 애니메이션은 CSS `pageFadeIn` keyframes(1182~1191)만 적용. 브라우저 동작 확인 필요.
-- **`prefers-reduced-motion`**: CSS 1193~1197에 정의 있음. OS 설정 토글로 확인 필요.
-- **드래그 스크롤 vs 카드 클릭 stopPropagation**: 종 카드는 carousel과 별개라 영향 없으나, otherFamilyCarousel(2048~2074)의 hasDragged 핸들러는 family-carousel-card에만 영향. 회귀 0.
+정적 분석으로 충분히 검증되지 않는 항목:
+- **시각적 회귀**: 21개 클래스 제거로 인한 카드 레이아웃·간격·여백 미세 변화는 브라우저로 직접 비교 필요 (특히 `.order-mini-body` 자식 셀렉터 일부 제거된 후 mini 카드 텍스트 정렬)
+- **종 상세 다이얼로그**: GBIF 관측 기록 라인 제거 후 description 영역이 짧아진 경우의 시각적 균형 (다른 4개 분기가 모두 비어있는 종에서 description 자체가 empty가 될 수 있음 — 단, 이는 기존부터 가능한 상태)
+- **EOL 캐시 미로드 시 폴백**: 네트워크 실패 또는 캐시 파일 누락 시 enrich 함수의 catch 경로 동작
+- **인기 목 Top 6 기획 부활 시**: 블록을 제거했으므로 향후 기능 재도입 시 HTML 요소 추가 + JS 블록 재작성 필요
 
 ---
 
-### 종합 평가: 전체 Pass ✅
+### 종합: 전체 Pass
 
-- Pass: **24개** (Critical 패치 5건 + 검증 항목 19건 — A 셀렉터 매칭, B 진입/이탈, C 자리표시자, D 데이터 후크 9건, E 회귀 무결, F 접근성, G XSS, CSS 정합성)
-- Fail: **0개**
-- 회귀(경미/기존): 3건 (모두 이번 작업과 무관 또는 동작 일치)
-- 수동 테스트 권장: 6건 (브라우저 시각/모션 확인)
-
-**결론**: Critical 4건 + 헬퍼 추가 패치가 모두 정확히 적용되었고, 신규 `pageSpeciesDetail` 페이지의 HTML/CSS/JS 연결 정합성이 완전합니다. 종 카드 → 상세 페이지 진입, 자리표시자 렌더링, 데이터 연결 후크, 접근성, XSS 방어 모두 코드 레벨에서 검증 완료. 데이터 연결 단계로 안전하게 진행 가능합니다.
+정리 작업은 의도한 범위를 정확히 수행했고, 회귀 부작용이 정적 분석 수준에서 발견되지 않음. 데이터 무결성, 셀렉터 일관성, 인라인 script syntax, 시나리오 코드 흐름 모두 통과. `--search-cat-random` 고아 변수와 `cached/package.json`의 `main` 필드는 사소한 정리 잔재로 차회 처리 권장(차단 사유 아님).
