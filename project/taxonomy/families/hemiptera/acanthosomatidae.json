@@ -1,2084 +1,1841 @@
 {
-    "generatedAt":  "2026-05-21T07:47:08.025Z",
-    "source":  "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
-    "order":  {
-                  "id":  "hemiptera",
-                  "scientificName":  "Hemiptera",
-                  "commonName":  "노린재목",
-                  "orderKtsn":  120000066597
-              },
-    "family":  {
-                   "id":  "acanthosomatidae",
-                   "scientificName":  "Acanthosomatidae",
-                   "commonName":  "뿔노린재과",
-                   "familyKtsn":  120000024015
-               },
-    "speciesCount":  23,
-    "insects":  [
-                    {
-                        "ktsn":  120000024017,
-                        "scientificName":  "Acanthosoma crassicaudum Jakovlev, 1880",
-                        "commonName":  "굵은가위뿔노린재",
-                        "terminalLatinName":  "crassicaudum",
-                        "nomenclaturalAuthor":  "Jakovlev",
-                        "namingYear":  "1880",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hemiptera",
-                                                       "commonName":  "노린재목",
-                                                       "ktsn":  120000066597
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Acanthosomatidae",
-                                                        "commonName":  "뿔노린재과",
-                                                        "ktsn":  120000024015
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Acanthosoma",
-                                                       "commonName":  "뿔노린재속",
-                                                       "ktsn":  120000024016
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "crassicaudum",
-                                                         "commonName":  "굵은가위뿔노린재",
-                                                         "ktsn":  120000024017
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:21:46.699Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "inat":  {
-                                     "observationCount":  7,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/38927747/medium.png",
-                                     "months":  [
-                                                    5,
-                                                    6,
-                                                    7,
-                                                    8,
-                                                    9
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000024018,
-                        "scientificName":  "Acanthosoma denticaudum Jakovlev, 1880",
-                        "commonName":  "등빨간뿔노린재",
-                        "terminalLatinName":  "denticaudum",
-                        "nomenclaturalAuthor":  "Jakovlev",
-                        "namingYear":  "1880",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hemiptera",
-                                                       "commonName":  "노린재목",
-                                                       "ktsn":  120000066597
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Acanthosomatidae",
-                                                        "commonName":  "뿔노린재과",
-                                                        "ktsn":  120000024015
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Acanthosoma",
-                                                       "commonName":  "뿔노린재속",
-                                                       "ktsn":  120000024016
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "denticaudum",
-                                                         "commonName":  "등빨간뿔노린재",
-                                                         "ktsn":  120000024018
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:21:46.699Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  49863134,
-                                    "canonical":  "Acanthosoma denticaudum",
-                                    "fetchedAt":  "2026-05-24T09:32:16.814Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-                                                                   "등빨간뿔노린재"
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-                                                                   "セアカツノカメムシ"
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  null
-                                },
-                        "inat":  {
-                                     "observationCount":  44,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/179233505/medium.jpg",
-                                     "months":  [
-                                                    4,
-                                                    5,
-                                                    6,
-                                                    7,
-                                                    8,
-                                                    9,
-                                                    10
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000237280,
-                        "scientificName":  "Acanthosoma firmatum (Walker, 1868)",
-                        "commonName":  "황소홍뿔노린재",
-                        "terminalLatinName":  "firmatum",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hemiptera",
-                                                       "commonName":  "노린재목",
-                                                       "ktsn":  120000066597
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Acanthosomatidae",
-                                                        "commonName":  "뿔노린재과",
-                                                        "ktsn":  120000024015
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Acanthosoma",
-                                                       "commonName":  "뿔노린재속",
-                                                       "ktsn":  120000024016
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "firmatum",
-                                                         "commonName":  "황소홍뿔노린재",
-                                                         "ktsn":  120000237280
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:21:46.699Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "inat":  {
-                                     "observationCount":  3,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/368843976/medium.jpeg",
-                                     "months":  [
-                                                    4,
-                                                    11
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000024019,
-                        "scientificName":  "Acanthosoma forficula Jakovlev, 1880",
-                        "commonName":  "녹색가위뿔노린재",
-                        "terminalLatinName":  "forficula",
-                        "nomenclaturalAuthor":  "Jakovlev",
-                        "namingYear":  "1880",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hemiptera",
-                                                       "commonName":  "노린재목",
-                                                       "ktsn":  120000066597
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Acanthosomatidae",
-                                                        "commonName":  "뿔노린재과",
-                                                        "ktsn":  120000024015
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Acanthosoma",
-                                                       "commonName":  "뿔노린재속",
-                                                       "ktsn":  120000024016
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "forficula",
-                                                         "commonName":  "녹색가위뿔노린재",
-                                                         "ktsn":  120000024019
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:21:46.699Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  47369009,
-                                    "canonical":  "Acanthosoma forficula",
-                                    "fetchedAt":  "2026-05-24T09:32:25.211Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  null
-                                },
-                        "inat":  {
-                                     "observationCount":  4,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/407731447/medium.jpeg",
-                                     "months":  [
-                                                    4,
-                                                    6,
-                                                    7,
-                                                    10
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000237279,
-                        "scientificName":  "Acanthosoma haemorrhoidale angulatum (Linnaeus, 1758)",
-                        "commonName":  "뿔노린재",
-                        "terminalLatinName":  "angulatum",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hemiptera",
-                                                       "commonName":  "노린재목",
-                                                       "ktsn":  120000066597
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Acanthosomatidae",
-                                                        "commonName":  "뿔노린재과",
-                                                        "ktsn":  120000024015
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Acanthosoma",
-                                                       "commonName":  "뿔노린재속",
-                                                       "ktsn":  120000024016
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "haemorrhoidale",
-                                                         "commonName":  "",
-                                                         "ktsn":  120000024020
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:21:46.699Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "inat":  {
-                                     "observationCount":  2,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/73711116/medium.png",
-                                     "months":  [
-                                                    5,
-                                                    6
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000024022,
-                        "scientificName":  "Acanthosoma labiduroides Jakovlev, 1880",
-                        "commonName":  "긴가위뿔노린재",
-                        "terminalLatinName":  "labiduroides",
-                        "nomenclaturalAuthor":  "Jakovlev",
-                        "namingYear":  "1880",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hemiptera",
-                                                       "commonName":  "노린재목",
-                                                       "ktsn":  120000066597
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Acanthosomatidae",
-                                                        "commonName":  "뿔노린재과",
-                                                        "ktsn":  120000024015
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Acanthosoma",
-                                                       "commonName":  "뿔노린재속",
-                                                       "ktsn":  120000024016
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "labiduroides",
-                                                         "commonName":  "긴가위뿔노린재",
-                                                         "ktsn":  120000024022
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:21:46.699Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  53817969,
-                                    "canonical":  "Acanthosoma labiduroides",
-                                    "fetchedAt":  "2026-05-24T09:32:34.734Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-                                                       "South Korea"
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  null
-                                },
-                        "inat":  {
-                                     "observationCount":  74,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/130025433/medium.png",
-                                     "months":  [
-                                                    5,
-                                                    6,
-                                                    7,
-                                                    8,
-                                                    9,
-                                                    10
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000024023,
-                        "scientificName":  "Acanthosoma spinicolle Jakovlev, 1880",
-                        "commonName":  "붉은가위뿔노린재",
-                        "terminalLatinName":  "spinicolle",
-                        "nomenclaturalAuthor":  "Jakovlev",
-                        "namingYear":  "1880",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hemiptera",
-                                                       "commonName":  "노린재목",
-                                                       "ktsn":  120000066597
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Acanthosomatidae",
-                                                        "commonName":  "뿔노린재과",
-                                                        "ktsn":  120000024015
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Acanthosoma",
-                                                       "commonName":  "뿔노린재속",
-                                                       "ktsn":  120000024016
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "spinicolle",
-                                                         "commonName":  "붉은가위뿔노린재",
-                                                         "ktsn":  120000024023
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:21:46.699Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  53817968,
-                                    "canonical":  "Acanthosoma spinicolle",
-                                    "fetchedAt":  "2026-05-24T09:32:43.335Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-                                                       "South Korea"
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  null
-                                },
-                        "inat":  {
-                                     "observationCount":  58,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/170710965/medium.jpeg",
-                                     "months":  [
-                                                    3,
-                                                    4,
-                                                    5,
-                                                    6,
-                                                    8,
-                                                    10,
-                                                    11
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000024025,
-                        "scientificName":  "Anaxandra gigantea (Matsumura, 1913)",
-                        "commonName":  "홍뿔노린재",
-                        "terminalLatinName":  "gigantea",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hemiptera",
-                                                       "commonName":  "노린재목",
-                                                       "ktsn":  120000066597
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Acanthosomatidae",
-                                                        "commonName":  "뿔노린재과",
-                                                        "ktsn":  120000024015
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Anaxandra",
-                                                       "commonName":  "홍뿔노린재속",
-                                                       "ktsn":  120000024024
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "gigantea",
-                                                         "commonName":  "홍뿔노린재",
-                                                         "ktsn":  120000024025
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:21:46.699Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    },
-                    {
-                        "ktsn":  120000024027,
-                        "scientificName":  "Elasmostethus brevis Lindberg, 1934",
-                        "commonName":  "닮은얼룩뿔노린재",
-                        "terminalLatinName":  "brevis",
-                        "nomenclaturalAuthor":  "Lindberg",
-                        "namingYear":  "1934",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hemiptera",
-                                                       "commonName":  "노린재목",
-                                                       "ktsn":  120000066597
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Acanthosomatidae",
-                                                        "commonName":  "뿔노린재과",
-                                                        "ktsn":  120000024015
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Elasmostethus",
-                                                       "commonName":  "얼룩뿔노린재속",
-                                                       "ktsn":  120000024026
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "brevis",
-                                                         "commonName":  "닮은얼룩뿔노린재",
-                                                         "ktsn":  120000024027
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:21:46.699Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  3684786,
-                                    "canonical":  "Elasmostethus brevis",
-                                    "fetchedAt":  "2026-05-24T09:32:58.185Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-                                                                   "フトセグロベニモンツノカメムシ"
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-                                                       "Norway"
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  null
-                                }
-                    },
-                    {
-                        "ktsn":  120000024028,
-                        "scientificName":  "Elasmostethus humeralis Jakovlev, 1883",
-                        "commonName":  "얼룩뿔노린재",
-                        "terminalLatinName":  "humeralis",
-                        "nomenclaturalAuthor":  "Jakovlev",
-                        "namingYear":  "1883",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hemiptera",
-                                                       "commonName":  "노린재목",
-                                                       "ktsn":  120000066597
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Acanthosomatidae",
-                                                        "commonName":  "뿔노린재과",
-                                                        "ktsn":  120000024015
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Elasmostethus",
-                                                       "commonName":  "얼룩뿔노린재속",
-                                                       "ktsn":  120000024026
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "humeralis",
-                                                         "commonName":  "얼룩뿔노린재",
-                                                         "ktsn":  120000024028
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:21:46.699Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  53817971,
-                                    "canonical":  "Elasmostethus humeralis",
-                                    "fetchedAt":  "2026-05-24T09:33:05.054Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-                                                       "South Korea"
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  null
-                                },
-                        "inat":  {
-                                     "observationCount":  4,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/53016128/medium.jpg",
-                                     "months":  [
-                                                    6,
-                                                    7,
-                                                    10
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000024029,
-                        "scientificName":  "Elasmostethus interstinctus (Linnaeus, 1758)",
-                        "commonName":  "진얼룩뿔노린재",
-                        "terminalLatinName":  "interstinctus",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hemiptera",
-                                                       "commonName":  "노린재목",
-                                                       "ktsn":  120000066597
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Acanthosomatidae",
-                                                        "commonName":  "뿔노린재과",
-                                                        "ktsn":  120000024015
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Elasmostethus",
-                                                       "commonName":  "얼룩뿔노린재속",
-                                                       "ktsn":  120000024026
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "interstinctus",
-                                                         "commonName":  "진얼룩뿔노린재",
-                                                         "ktsn":  120000024029
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:21:46.699Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "inat":  {
-                                     "observationCount":  5,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/419888740/medium.jpeg",
-                                     "months":  [
-                                                    6,
-                                                    7,
-                                                    8,
-                                                    9
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000024031,
-                        "scientificName":  "Elasmostethus nubilus (Dallas, 1851)",
-                        "commonName":  "남방뿔노린재",
-                        "terminalLatinName":  "nubilus",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hemiptera",
-                                                       "commonName":  "노린재목",
-                                                       "ktsn":  120000066597
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Acanthosomatidae",
-                                                        "commonName":  "뿔노린재과",
-                                                        "ktsn":  120000024015
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Elasmostethus",
-                                                       "commonName":  "얼룩뿔노린재속",
-                                                       "ktsn":  120000024026
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "nubilus",
-                                                         "commonName":  "남방뿔노린재",
-                                                         "ktsn":  120000024031
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:21:46.699Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "inat":  {
-                                     "observationCount":  13,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/425375943/medium.jpeg",
-                                     "months":  [
-                                                    4,
-                                                    5,
-                                                    6,
-                                                    7,
-                                                    8,
-                                                    9,
-                                                    10,
-                                                    11
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000213942,
-                        "scientificName":  "Elasmostethus rotundus Yamamoto, 2003",
-                        "commonName":  "넓은남방뿔노린재",
-                        "terminalLatinName":  "rotundus",
-                        "nomenclaturalAuthor":  "Yamamoto",
-                        "namingYear":  "2003",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hemiptera",
-                                                       "commonName":  "노린재목",
-                                                       "ktsn":  120000066597
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Acanthosomatidae",
-                                                        "commonName":  "뿔노린재과",
-                                                        "ktsn":  120000024015
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Elasmostethus",
-                                                       "commonName":  "얼룩뿔노린재속",
-                                                       "ktsn":  120000024026
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "rotundus",
-                                                         "commonName":  "넓은남방뿔노린재",
-                                                         "ktsn":  120000213942
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:21:46.699Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    },
-                    {
-                        "ktsn":  120000213941,
-                        "scientificName":  "Elasmostethus yunnanus Hsiao and Liu, 1977",
-                        "commonName":  "가시얼룩뿔노린재",
-                        "terminalLatinName":  "yunnanus",
-                        "nomenclaturalAuthor":  "Hsiao and Liu",
-                        "namingYear":  "1977",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hemiptera",
-                                                       "commonName":  "노린재목",
-                                                       "ktsn":  120000066597
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Acanthosomatidae",
-                                                        "commonName":  "뿔노린재과",
-                                                        "ktsn":  120000024015
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Elasmostethus",
-                                                       "commonName":  "얼룩뿔노린재속",
-                                                       "ktsn":  120000024026
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "yunnanus",
-                                                         "commonName":  "가시얼룩뿔노린재",
-                                                         "ktsn":  120000213941
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:21:46.699Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "inat":  {
-                                     "observationCount":  1,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/10422618/medium.jpg",
-                                     "months":  [
-                                                    11
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000024033,
-                        "scientificName":  "Elasmucha amurensis Kerzhner, 1972",
-                        "commonName":  "극동꼬마뿔노린재",
-                        "terminalLatinName":  "amurensis",
-                        "nomenclaturalAuthor":  "Kerzhner",
-                        "namingYear":  "1972",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hemiptera",
-                                                       "commonName":  "노린재목",
-                                                       "ktsn":  120000066597
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Acanthosomatidae",
-                                                        "commonName":  "뿔노린재과",
-                                                        "ktsn":  120000024015
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Elasmucha",
-                                                       "commonName":  "꼬마뿔노린재속",
-                                                       "ktsn":  120000024032
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "amurensis",
-                                                         "commonName":  "극동꼬마뿔노린재",
-                                                         "ktsn":  120000024033
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:21:46.699Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    },
-                    {
-                        "ktsn":  120000024034,
-                        "scientificName":  "Elasmucha dorsalis (Jakovlev, 1876)",
-                        "commonName":  "꼬마뿔노린재",
-                        "terminalLatinName":  "dorsalis",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hemiptera",
-                                                       "commonName":  "노린재목",
-                                                       "ktsn":  120000066597
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Acanthosomatidae",
-                                                        "commonName":  "뿔노린재과",
-                                                        "ktsn":  120000024015
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Elasmucha",
-                                                       "commonName":  "꼬마뿔노린재속",
-                                                       "ktsn":  120000024032
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "dorsalis",
-                                                         "commonName":  "꼬마뿔노린재",
-                                                         "ktsn":  120000024034
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:21:46.699Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "inat":  {
-                                     "observationCount":  1,
-                                     "imageUrl":  null,
-                                     "months":  [
-                                                    7
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000024035,
-                        "scientificName":  "Elasmucha ferrugata (Fabricius, 1787)",
-                        "commonName":  "뾰족침뿔노린재",
-                        "terminalLatinName":  "ferrugata",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hemiptera",
-                                                       "commonName":  "노린재목",
-                                                       "ktsn":  120000066597
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Acanthosomatidae",
-                                                        "commonName":  "뿔노린재과",
-                                                        "ktsn":  120000024015
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Elasmucha",
-                                                       "commonName":  "꼬마뿔노린재속",
-                                                       "ktsn":  120000024032
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "ferrugata",
-                                                         "commonName":  "뾰족침뿔노린재",
-                                                         "ktsn":  120000024035
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:21:46.699Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "inat":  {
-                                     "observationCount":  3,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/145343953/medium.png",
-                                     "months":  [
-                                                    5,
-                                                    6,
-                                                    7
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000024036,
-                        "scientificName":  "Elasmucha fieberi (Jakovlev, 1865)",
-                        "commonName":  "알락꼬마뿔노린재",
-                        "terminalLatinName":  "fieberi",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hemiptera",
-                                                       "commonName":  "노린재목",
-                                                       "ktsn":  120000066597
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Acanthosomatidae",
-                                                        "commonName":  "뿔노린재과",
-                                                        "ktsn":  120000024015
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Elasmucha",
-                                                       "commonName":  "꼬마뿔노린재속",
-                                                       "ktsn":  120000024032
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "fieberi",
-                                                         "commonName":  "알락꼬마뿔노린재",
-                                                         "ktsn":  120000024036
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:21:46.699Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    },
-                    {
-                        "ktsn":  120000024037,
-                        "scientificName":  "Elasmucha putoni Scott, 1874",
-                        "commonName":  "푸토니뿔노린재",
-                        "terminalLatinName":  "putoni",
-                        "nomenclaturalAuthor":  "Scott",
-                        "namingYear":  "1874",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hemiptera",
-                                                       "commonName":  "노린재목",
-                                                       "ktsn":  120000066597
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Acanthosomatidae",
-                                                        "commonName":  "뿔노린재과",
-                                                        "ktsn":  120000024015
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Elasmucha",
-                                                       "commonName":  "꼬마뿔노린재속",
-                                                       "ktsn":  120000024032
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "putoni",
-                                                         "commonName":  "푸토니뿔노린재",
-                                                         "ktsn":  120000024037
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:21:46.699Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "inat":  {
-                                     "observationCount":  73,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/308955236/medium.jpg",
-                                     "months":  [
-                                                    4,
-                                                    5,
-                                                    6,
-                                                    7,
-                                                    8,
-                                                    9,
-                                                    10
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000024038,
-                        "scientificName":  "Elasmucha signoreti Scott, 1874",
-                        "commonName":  "등검은뿔노린재",
-                        "terminalLatinName":  "signoreti",
-                        "nomenclaturalAuthor":  "Scott",
-                        "namingYear":  "1874",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hemiptera",
-                                                       "commonName":  "노린재목",
-                                                       "ktsn":  120000066597
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Acanthosomatidae",
-                                                        "commonName":  "뿔노린재과",
-                                                        "ktsn":  120000024015
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Elasmucha",
-                                                       "commonName":  "꼬마뿔노린재속",
-                                                       "ktsn":  120000024032
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "signoreti",
-                                                         "commonName":  "등검은뿔노린재",
-                                                         "ktsn":  120000024038
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:21:46.699Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "inat":  {
-                                     "observationCount":  1,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/400767793/medium.jpg",
-                                     "months":  [
-                                                    6
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000024040,
-                        "scientificName":  "Lindbergicoris gramineus (Distant, 1883)",
-                        "commonName":  "침뿔노린재",
-                        "terminalLatinName":  "gramineus",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hemiptera",
-                                                       "commonName":  "노린재목",
-                                                       "ktsn":  120000066597
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Acanthosomatidae",
-                                                        "commonName":  "뿔노린재과",
-                                                        "ktsn":  120000024015
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Lindbergicoris",
-                                                       "commonName":  "침뿔노린재속",
-                                                       "ktsn":  120000024039
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "gramineus",
-                                                         "commonName":  "침뿔노린재",
-                                                         "ktsn":  120000024040
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:21:46.699Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    },
-                    {
-                        "ktsn":  120000024042,
-                        "scientificName":  "Sastragala esakii Hasegawa, 1959",
-                        "commonName":  "에사키뿔노린재",
-                        "terminalLatinName":  "esakii",
-                        "nomenclaturalAuthor":  "Hasegawa",
-                        "namingYear":  "1959",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hemiptera",
-                                                       "commonName":  "노린재목",
-                                                       "ktsn":  120000066597
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Acanthosomatidae",
-                                                        "commonName":  "뿔노린재과",
-                                                        "ktsn":  120000024015
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Sastragala",
-                                                       "commonName":  "무늬뿔노린재속",
-                                                       "ktsn":  120000024041
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "esakii",
-                                                         "commonName":  "에사키뿔노린재",
-                                                         "ktsn":  120000024042
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:21:46.699Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "inat":  {
-                                     "observationCount":  164,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/128501091/medium.png",
-                                     "months":  [
-                                                    3,
-                                                    4,
-                                                    5,
-                                                    6,
-                                                    7,
-                                                    8,
-                                                    9,
-                                                    10,
-                                                    11,
-                                                    12
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000024043,
-                        "scientificName":  "Sastragala scutellata (Scott, 1874)",
-                        "commonName":  "노랑무늬뿔노린재",
-                        "terminalLatinName":  "scutellata",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hemiptera",
-                                                       "commonName":  "노린재목",
-                                                       "ktsn":  120000066597
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Acanthosomatidae",
-                                                        "commonName":  "뿔노린재과",
-                                                        "ktsn":  120000024015
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Sastragala",
-                                                       "commonName":  "무늬뿔노린재속",
-                                                       "ktsn":  120000024041
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "scutellata",
-                                                         "commonName":  "노랑무늬뿔노린재",
-                                                         "ktsn":  120000024043
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:21:46.699Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "inat":  {
-                                     "observationCount":  2,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/134553967/medium.jpg",
-                                     "months":  [
-                                                    5,
-                                                    6
-                                                ]
-                                 }
-                    }
-                ],
-    "digitalContentUpdatedAt":  "2026-05-21T09:21:46.699Z",
-    "digitalContentSource":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "hemiptera",
+    "scientificName": "Hemiptera",
+    "commonName": "노린재목",
+    "orderKtsn": 120000066597
+  },
+  "family": {
+    "id": "acanthosomatidae",
+    "scientificName": "Acanthosomatidae",
+    "commonName": "뿔노린재과",
+    "familyKtsn": 120000024015
+  },
+  "speciesCount": 23,
+  "insects": [
+    {
+      "ktsn": 120000024017,
+      "scientificName": "Acanthosoma crassicaudum Jakovlev, 1880",
+      "commonName": "굵은가위뿔노린재",
+      "terminalLatinName": "crassicaudum",
+      "nomenclaturalAuthor": "Jakovlev",
+      "namingYear": "1880",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Acanthosomatidae",
+          "commonName": "뿔노린재과",
+          "ktsn": 120000024015
+        },
+        "genus": {
+          "scientificName": "Acanthosoma",
+          "commonName": "뿔노린재속",
+          "ktsn": 120000024016
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "crassicaudum",
+          "commonName": "굵은가위뿔노린재",
+          "ktsn": 120000024017
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:21:46.699Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 7,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/38927747/medium.png",
+        "months": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    },
+    {
+      "ktsn": 120000024018,
+      "scientificName": "Acanthosoma denticaudum Jakovlev, 1880",
+      "commonName": "등빨간뿔노린재",
+      "terminalLatinName": "denticaudum",
+      "nomenclaturalAuthor": "Jakovlev",
+      "namingYear": "1880",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Acanthosomatidae",
+          "commonName": "뿔노린재과",
+          "ktsn": 120000024015
+        },
+        "genus": {
+          "scientificName": "Acanthosoma",
+          "commonName": "뿔노린재속",
+          "ktsn": 120000024016
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "denticaudum",
+          "commonName": "등빨간뿔노린재",
+          "ktsn": 120000024018
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:21:46.699Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 49863134,
+        "canonical": "Acanthosoma denticaudum",
+        "fetchedAt": "2026-05-24T09:32:16.814Z",
+        "vernaculars": {
+          "ko": [
+            "등빨간뿔노린재"
+          ],
+          "en": [],
+          "ja": [
+            "セアカツノカメムシ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "inat": {
+        "observationCount": 44,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/179233505/medium.jpg",
+        "months": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "ktsn": 120000237280,
+      "scientificName": "Acanthosoma firmatum (Walker, 1868)",
+      "commonName": "황소홍뿔노린재",
+      "terminalLatinName": "firmatum",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Acanthosomatidae",
+          "commonName": "뿔노린재과",
+          "ktsn": 120000024015
+        },
+        "genus": {
+          "scientificName": "Acanthosoma",
+          "commonName": "뿔노린재속",
+          "ktsn": 120000024016
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "firmatum",
+          "commonName": "황소홍뿔노린재",
+          "ktsn": 120000237280
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:21:46.699Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 3,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/368843976/medium.jpeg",
+        "months": [
+          4,
+          11
+        ]
+      }
+    },
+    {
+      "ktsn": 120000024019,
+      "scientificName": "Acanthosoma forficula Jakovlev, 1880",
+      "commonName": "녹색가위뿔노린재",
+      "terminalLatinName": "forficula",
+      "nomenclaturalAuthor": "Jakovlev",
+      "namingYear": "1880",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Acanthosomatidae",
+          "commonName": "뿔노린재과",
+          "ktsn": 120000024015
+        },
+        "genus": {
+          "scientificName": "Acanthosoma",
+          "commonName": "뿔노린재속",
+          "ktsn": 120000024016
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "forficula",
+          "commonName": "녹색가위뿔노린재",
+          "ktsn": 120000024019
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:21:46.699Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 47369009,
+        "canonical": "Acanthosoma forficula",
+        "fetchedAt": "2026-05-24T09:32:25.211Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "inat": {
+        "observationCount": 4,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/407731447/medium.jpeg",
+        "months": [
+          4,
+          6,
+          7,
+          10
+        ]
+      }
+    },
+    {
+      "ktsn": 120000237279,
+      "scientificName": "Acanthosoma haemorrhoidale angulatum (Linnaeus, 1758)",
+      "commonName": "뿔노린재",
+      "terminalLatinName": "angulatum",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Acanthosomatidae",
+          "commonName": "뿔노린재과",
+          "ktsn": 120000024015
+        },
+        "genus": {
+          "scientificName": "Acanthosoma",
+          "commonName": "뿔노린재속",
+          "ktsn": 120000024016
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "haemorrhoidale",
+          "commonName": "",
+          "ktsn": 120000024020
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:21:46.699Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 2,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/73711116/medium.png",
+        "months": [
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "ktsn": 120000024022,
+      "scientificName": "Acanthosoma labiduroides Jakovlev, 1880",
+      "commonName": "긴가위뿔노린재",
+      "terminalLatinName": "labiduroides",
+      "nomenclaturalAuthor": "Jakovlev",
+      "namingYear": "1880",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Acanthosomatidae",
+          "commonName": "뿔노린재과",
+          "ktsn": 120000024015
+        },
+        "genus": {
+          "scientificName": "Acanthosoma",
+          "commonName": "뿔노린재속",
+          "ktsn": 120000024016
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "labiduroides",
+          "commonName": "긴가위뿔노린재",
+          "ktsn": 120000024022
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:21:46.699Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 53817969,
+        "canonical": "Acanthosoma labiduroides",
+        "fetchedAt": "2026-05-24T09:32:34.734Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [
+          "South Korea"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "inat": {
+        "observationCount": 74,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/130025433/medium.png",
+        "months": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "ktsn": 120000024023,
+      "scientificName": "Acanthosoma spinicolle Jakovlev, 1880",
+      "commonName": "붉은가위뿔노린재",
+      "terminalLatinName": "spinicolle",
+      "nomenclaturalAuthor": "Jakovlev",
+      "namingYear": "1880",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Acanthosomatidae",
+          "commonName": "뿔노린재과",
+          "ktsn": 120000024015
+        },
+        "genus": {
+          "scientificName": "Acanthosoma",
+          "commonName": "뿔노린재속",
+          "ktsn": 120000024016
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "spinicolle",
+          "commonName": "붉은가위뿔노린재",
+          "ktsn": 120000024023
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:21:46.699Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 53817968,
+        "canonical": "Acanthosoma spinicolle",
+        "fetchedAt": "2026-05-24T09:32:43.335Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [
+          "South Korea"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "inat": {
+        "observationCount": 58,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/170710965/medium.jpeg",
+        "months": [
+          3,
+          4,
+          5,
+          6,
+          8,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "ktsn": 120000024025,
+      "scientificName": "Anaxandra gigantea (Matsumura, 1913)",
+      "commonName": "홍뿔노린재",
+      "terminalLatinName": "gigantea",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Acanthosomatidae",
+          "commonName": "뿔노린재과",
+          "ktsn": 120000024015
+        },
+        "genus": {
+          "scientificName": "Anaxandra",
+          "commonName": "홍뿔노린재속",
+          "ktsn": 120000024024
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "gigantea",
+          "commonName": "홍뿔노린재",
+          "ktsn": 120000024025
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:21:46.699Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:22.801Z"
+      }
+    },
+    {
+      "ktsn": 120000024027,
+      "scientificName": "Elasmostethus brevis Lindberg, 1934",
+      "commonName": "닮은얼룩뿔노린재",
+      "terminalLatinName": "brevis",
+      "nomenclaturalAuthor": "Lindberg",
+      "namingYear": "1934",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Acanthosomatidae",
+          "commonName": "뿔노린재과",
+          "ktsn": 120000024015
+        },
+        "genus": {
+          "scientificName": "Elasmostethus",
+          "commonName": "얼룩뿔노린재속",
+          "ktsn": 120000024026
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "brevis",
+          "commonName": "닮은얼룩뿔노린재",
+          "ktsn": 120000024027
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:21:46.699Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 3684786,
+        "canonical": "Elasmostethus brevis",
+        "fetchedAt": "2026-05-24T09:32:58.185Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": [
+            "フトセグロベニモンツノカメムシ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "Norway"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:23.451Z"
+      }
+    },
+    {
+      "ktsn": 120000024028,
+      "scientificName": "Elasmostethus humeralis Jakovlev, 1883",
+      "commonName": "얼룩뿔노린재",
+      "terminalLatinName": "humeralis",
+      "nomenclaturalAuthor": "Jakovlev",
+      "namingYear": "1883",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Acanthosomatidae",
+          "commonName": "뿔노린재과",
+          "ktsn": 120000024015
+        },
+        "genus": {
+          "scientificName": "Elasmostethus",
+          "commonName": "얼룩뿔노린재속",
+          "ktsn": 120000024026
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "humeralis",
+          "commonName": "얼룩뿔노린재",
+          "ktsn": 120000024028
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:21:46.699Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 53817971,
+        "canonical": "Elasmostethus humeralis",
+        "fetchedAt": "2026-05-24T09:33:05.054Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [
+          "South Korea"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "inat": {
+        "observationCount": 4,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/53016128/medium.jpg",
+        "months": [
+          6,
+          7,
+          10
+        ]
+      }
+    },
+    {
+      "ktsn": 120000024029,
+      "scientificName": "Elasmostethus interstinctus (Linnaeus, 1758)",
+      "commonName": "진얼룩뿔노린재",
+      "terminalLatinName": "interstinctus",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Acanthosomatidae",
+          "commonName": "뿔노린재과",
+          "ktsn": 120000024015
+        },
+        "genus": {
+          "scientificName": "Elasmostethus",
+          "commonName": "얼룩뿔노린재속",
+          "ktsn": 120000024026
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "interstinctus",
+          "commonName": "진얼룩뿔노린재",
+          "ktsn": 120000024029
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:21:46.699Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 5,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/419888740/medium.jpeg",
+        "months": [
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    },
+    {
+      "ktsn": 120000024031,
+      "scientificName": "Elasmostethus nubilus (Dallas, 1851)",
+      "commonName": "남방뿔노린재",
+      "terminalLatinName": "nubilus",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Acanthosomatidae",
+          "commonName": "뿔노린재과",
+          "ktsn": 120000024015
+        },
+        "genus": {
+          "scientificName": "Elasmostethus",
+          "commonName": "얼룩뿔노린재속",
+          "ktsn": 120000024026
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "nubilus",
+          "commonName": "남방뿔노린재",
+          "ktsn": 120000024031
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:21:46.699Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 13,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/425375943/medium.jpeg",
+        "months": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "ktsn": 120000213942,
+      "scientificName": "Elasmostethus rotundus Yamamoto, 2003",
+      "commonName": "넓은남방뿔노린재",
+      "terminalLatinName": "rotundus",
+      "nomenclaturalAuthor": "Yamamoto",
+      "namingYear": "2003",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Acanthosomatidae",
+          "commonName": "뿔노린재과",
+          "ktsn": 120000024015
+        },
+        "genus": {
+          "scientificName": "Elasmostethus",
+          "commonName": "얼룩뿔노린재속",
+          "ktsn": 120000024026
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "rotundus",
+          "commonName": "넓은남방뿔노린재",
+          "ktsn": 120000213942
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:21:46.699Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:23.451Z"
+      }
+    },
+    {
+      "ktsn": 120000213941,
+      "scientificName": "Elasmostethus yunnanus Hsiao and Liu, 1977",
+      "commonName": "가시얼룩뿔노린재",
+      "terminalLatinName": "yunnanus",
+      "nomenclaturalAuthor": "Hsiao and Liu",
+      "namingYear": "1977",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Acanthosomatidae",
+          "commonName": "뿔노린재과",
+          "ktsn": 120000024015
+        },
+        "genus": {
+          "scientificName": "Elasmostethus",
+          "commonName": "얼룩뿔노린재속",
+          "ktsn": 120000024026
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "yunnanus",
+          "commonName": "가시얼룩뿔노린재",
+          "ktsn": 120000213941
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:21:46.699Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/10422618/medium.jpg",
+        "months": [
+          11
+        ]
+      }
+    },
+    {
+      "ktsn": 120000024033,
+      "scientificName": "Elasmucha amurensis Kerzhner, 1972",
+      "commonName": "극동꼬마뿔노린재",
+      "terminalLatinName": "amurensis",
+      "nomenclaturalAuthor": "Kerzhner",
+      "namingYear": "1972",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Acanthosomatidae",
+          "commonName": "뿔노린재과",
+          "ktsn": 120000024015
+        },
+        "genus": {
+          "scientificName": "Elasmucha",
+          "commonName": "꼬마뿔노린재속",
+          "ktsn": 120000024032
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "amurensis",
+          "commonName": "극동꼬마뿔노린재",
+          "ktsn": 120000024033
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:21:46.699Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:23.451Z"
+      }
+    },
+    {
+      "ktsn": 120000024034,
+      "scientificName": "Elasmucha dorsalis (Jakovlev, 1876)",
+      "commonName": "꼬마뿔노린재",
+      "terminalLatinName": "dorsalis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Acanthosomatidae",
+          "commonName": "뿔노린재과",
+          "ktsn": 120000024015
+        },
+        "genus": {
+          "scientificName": "Elasmucha",
+          "commonName": "꼬마뿔노린재속",
+          "ktsn": 120000024032
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "dorsalis",
+          "commonName": "꼬마뿔노린재",
+          "ktsn": 120000024034
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:21:46.699Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": null,
+        "months": [
+          7
+        ]
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:23.451Z"
+      }
+    },
+    {
+      "ktsn": 120000024035,
+      "scientificName": "Elasmucha ferrugata (Fabricius, 1787)",
+      "commonName": "뾰족침뿔노린재",
+      "terminalLatinName": "ferrugata",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Acanthosomatidae",
+          "commonName": "뿔노린재과",
+          "ktsn": 120000024015
+        },
+        "genus": {
+          "scientificName": "Elasmucha",
+          "commonName": "꼬마뿔노린재속",
+          "ktsn": 120000024032
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "ferrugata",
+          "commonName": "뾰족침뿔노린재",
+          "ktsn": 120000024035
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:21:46.699Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 3,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/145343953/medium.png",
+        "months": [
+          5,
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "ktsn": 120000024036,
+      "scientificName": "Elasmucha fieberi (Jakovlev, 1865)",
+      "commonName": "알락꼬마뿔노린재",
+      "terminalLatinName": "fieberi",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Acanthosomatidae",
+          "commonName": "뿔노린재과",
+          "ktsn": 120000024015
+        },
+        "genus": {
+          "scientificName": "Elasmucha",
+          "commonName": "꼬마뿔노린재속",
+          "ktsn": 120000024032
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "fieberi",
+          "commonName": "알락꼬마뿔노린재",
+          "ktsn": 120000024036
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:21:46.699Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:23.451Z"
+      }
+    },
+    {
+      "ktsn": 120000024037,
+      "scientificName": "Elasmucha putoni Scott, 1874",
+      "commonName": "푸토니뿔노린재",
+      "terminalLatinName": "putoni",
+      "nomenclaturalAuthor": "Scott",
+      "namingYear": "1874",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Acanthosomatidae",
+          "commonName": "뿔노린재과",
+          "ktsn": 120000024015
+        },
+        "genus": {
+          "scientificName": "Elasmucha",
+          "commonName": "꼬마뿔노린재속",
+          "ktsn": 120000024032
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "putoni",
+          "commonName": "푸토니뿔노린재",
+          "ktsn": 120000024037
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:21:46.699Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 73,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/308955236/medium.jpg",
+        "months": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "ktsn": 120000024038,
+      "scientificName": "Elasmucha signoreti Scott, 1874",
+      "commonName": "등검은뿔노린재",
+      "terminalLatinName": "signoreti",
+      "nomenclaturalAuthor": "Scott",
+      "namingYear": "1874",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Acanthosomatidae",
+          "commonName": "뿔노린재과",
+          "ktsn": 120000024015
+        },
+        "genus": {
+          "scientificName": "Elasmucha",
+          "commonName": "꼬마뿔노린재속",
+          "ktsn": 120000024032
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "signoreti",
+          "commonName": "등검은뿔노린재",
+          "ktsn": 120000024038
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:21:46.699Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/400767793/medium.jpg",
+        "months": [
+          6
+        ]
+      }
+    },
+    {
+      "ktsn": 120000024040,
+      "scientificName": "Lindbergicoris gramineus (Distant, 1883)",
+      "commonName": "침뿔노린재",
+      "terminalLatinName": "gramineus",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Acanthosomatidae",
+          "commonName": "뿔노린재과",
+          "ktsn": 120000024015
+        },
+        "genus": {
+          "scientificName": "Lindbergicoris",
+          "commonName": "침뿔노린재속",
+          "ktsn": 120000024039
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "gramineus",
+          "commonName": "침뿔노린재",
+          "ktsn": 120000024040
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:21:46.699Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:23.451Z"
+      }
+    },
+    {
+      "ktsn": 120000024042,
+      "scientificName": "Sastragala esakii Hasegawa, 1959",
+      "commonName": "에사키뿔노린재",
+      "terminalLatinName": "esakii",
+      "nomenclaturalAuthor": "Hasegawa",
+      "namingYear": "1959",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Acanthosomatidae",
+          "commonName": "뿔노린재과",
+          "ktsn": 120000024015
+        },
+        "genus": {
+          "scientificName": "Sastragala",
+          "commonName": "무늬뿔노린재속",
+          "ktsn": 120000024041
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "esakii",
+          "commonName": "에사키뿔노린재",
+          "ktsn": 120000024042
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:21:46.699Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 164,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/128501091/medium.png",
+        "months": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "ktsn": 120000024043,
+      "scientificName": "Sastragala scutellata (Scott, 1874)",
+      "commonName": "노랑무늬뿔노린재",
+      "terminalLatinName": "scutellata",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Acanthosomatidae",
+          "commonName": "뿔노린재과",
+          "ktsn": 120000024015
+        },
+        "genus": {
+          "scientificName": "Sastragala",
+          "commonName": "무늬뿔노린재속",
+          "ktsn": 120000024041
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "scutellata",
+          "commonName": "노랑무늬뿔노린재",
+          "ktsn": 120000024043
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:21:46.699Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 2,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/134553967/medium.jpg",
+        "months": [
+          5,
+          6
+        ]
+      }
+    }
+  ],
+  "digitalContentUpdatedAt": "2026-05-21T09:21:46.699Z",
+  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
 }

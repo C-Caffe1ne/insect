@@ -1,2201 +1,2074 @@
 {
-    "generatedAt":  "2026-05-21T07:47:08.025Z",
-    "source":  "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
-    "order":  {
-                  "id":  "coleoptera",
-                  "scientificName":  "Coleoptera",
-                  "commonName":  "딱정벌레목",
-                  "orderKtsn":  120000013750,
-                  "abstract":  "딱정벌레목(Coleoptera)은 곤충의 종 가운데 40%인 35만여종을 차지하는 목이다. 아직 발견되지 않은 종까지 합치면 500만~800만여종이 될 것으로 추정된다. 먹는 먹이도 다양해서 식물의 잎, 송사리 등의 작은 물고기, 나무의 즙, 작은 동물, 동물의 시체 등 매우 다양하다. 딱정벌레목에 속한 곤충으로는 무당벌레, 딱정벌레, 길앞잡이, 물방개, 장수풍뎅이 등이 있다. 대부분이 두꺼운 키틴질로 된 딱딱한 껍데기를 가지고 있어서 갑충(甲蟲)이라고도 불린다.",
-                  "description":  "딱정벌레목(Coleoptera)은 곤충의 종 가운데 40%인 35만여종을 차지하는 목이다. 아직 발견되지 않은 종까지 합치면 500만~800만여종이 될 것으로 추정된다. 먹는 먹이도 다양해서 식물의 잎, 송사리 등의 작은 물고기, 나무의 즙, 작은 동물, 동물의 시체 등 매우 다양하다. 딱정벌레목에 속한 곤충으로는 무당벌레, 딱정벌레, 길앞잡이, 물방개, 장수풍뎅이 등이 있다. 대부분이 두꺼운 키틴질로 된 딱딱한 껍데기를 가지고 있어서 갑충(甲蟲)이라고도 불린다."
-              },
-    "family":  {
-                   "id":  "oedemeridae",
-                   "scientificName":  "Oedemeridae",
-                   "commonName":  "하늘소붙이과",
-                   "familyKtsn":  120000018320
-               },
-    "speciesCount":  29,
-    "insects":  [
-                    {
-                        "ktsn":  120000018323,
-                        "scientificName":  "Anogcodes coarctata croceiventris (Motschulsky, 1859)",
-                        "commonName":  "유리하늘소붙이",
-                        "terminalLatinName":  "croceiventris",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Oedemeridae",
-                                                        "commonName":  "하늘소붙이과",
-                                                        "ktsn":  120000018320
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Anogcodes",
-                                                       "commonName":  "유리하늘소붙이속",
-                                                       "ktsn":  120000018321
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "coarctata",
-                                                         "commonName":  "",
-                                                         "ktsn":  120000018322
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:03:51.084Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    },
-                    {
-                        "ktsn":  120000201857,
-                        "scientificName":  "Chrysanthia geniculata geniculata W.L.E. Schmidt, 1846",
-                        "commonName":  "닮은녹색하늘소붙이",
-                        "terminalLatinName":  "geniculata",
-                        "nomenclaturalAuthor":  "W.L.E. Schmidt",
-                        "namingYear":  "1846",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Oedemeridae",
-                                                        "commonName":  "하늘소붙이과",
-                                                        "ktsn":  120000018320
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Chrysanthia",
-                                                       "commonName":  "녹색하늘소붙이속",
-                                                       "ktsn":  120000018324
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "geniculata",
-                                                         "commonName":  "",
-                                                         "ktsn":  120000018325
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:03:51.084Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "inat":  {
-                                     "observationCount":  4,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/87549503/medium.jpg",
-                                     "months":  [
-                                                    5,
-                                                    8
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000018326,
-                        "scientificName":  "Chrysanthia geniculata integricollis Heyden, 1886",
-                        "commonName":  "녹색하늘소붙이",
-                        "terminalLatinName":  "integricollis",
-                        "nomenclaturalAuthor":  "Heyden",
-                        "namingYear":  "1886",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Oedemeridae",
-                                                        "commonName":  "하늘소붙이과",
-                                                        "ktsn":  120000018320
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Chrysanthia",
-                                                       "commonName":  "녹색하늘소붙이속",
-                                                       "ktsn":  120000018324
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "geniculata",
-                                                         "commonName":  "",
-                                                         "ktsn":  120000018325
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:03:51.084Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "inat":  {
-                                     "observationCount":  4,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/87549503/medium.jpg",
-                                     "months":  [
-                                                    5,
-                                                    8
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000018329,
-                        "scientificName":  "Diasclera sibirica laevithorax (Pic, 1915)",
-                        "commonName":  "민줄하늘소붙이",
-                        "terminalLatinName":  "laevithorax",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Oedemeridae",
-                                                        "commonName":  "하늘소붙이과",
-                                                        "ktsn":  120000018320
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Diasclera",
-                                                       "commonName":  "민줄하늘소붙이속",
-                                                       "ktsn":  120000018327
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "sibirica",
-                                                         "commonName":  "",
-                                                         "ktsn":  120000018328
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:03:51.084Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    },
-                    {
-                        "ktsn":  120000018332,
-                        "scientificName":  "Ditylus laevis laevis (Fabricius, 1787)",
-                        "commonName":  "산하늘소붙이",
-                        "terminalLatinName":  "laevis",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Oedemeridae",
-                                                        "commonName":  "하늘소붙이과",
-                                                        "ktsn":  120000018320
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Ditylus",
-                                                       "commonName":  "산하늘소붙이속",
-                                                       "ktsn":  120000018330
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "laevis",
-                                                         "commonName":  "산하늘소붙이",
-                                                         "ktsn":  120000018331
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:03:51.084Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "inat":  {
-                                     "observationCount":  4,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/138120612/medium.jpeg",
-                                     "months":  [
-                                                    4,
-                                                    5,
-                                                    6,
-                                                    7
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000508051,
-                        "scientificName":  "Eobia (Eobia) chinensis ambusta Lewis, 1895",
-                        "commonName":  "밑검은섬하늘소붙이",
-                        "terminalLatinName":  "ambusta",
-                        "nomenclaturalAuthor":  "Lewis",
-                        "namingYear":  "1895",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Oedemeridae",
-                                                        "commonName":  "하늘소붙이과",
-                                                        "ktsn":  120000018320
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Eobia",
-                                                       "commonName":  "섬하늘소붙이속",
-                                                       "ktsn":  120000018333
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "Eobia",
-                                                          "commonName":  "",
-                                                          "ktsn":  120000018334
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "chinensis",
-                                                         "commonName":  "",
-                                                         "ktsn":  120000018335
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:03:51.084Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "inat":  {
-                                     "observationCount":  1,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/554961077/medium.jpg",
-                                     "months":  [
-                                                    7
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000018338,
-                        "scientificName":  "Eobia (Eobia) cinereipennis cinereipennis (Motschulsky, 1866)",
-                        "commonName":  "잿빛섬하늘소붙이",
-                        "terminalLatinName":  "cinereipennis",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Oedemeridae",
-                                                        "commonName":  "하늘소붙이과",
-                                                        "ktsn":  120000018320
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Eobia",
-                                                       "commonName":  "섬하늘소붙이속",
-                                                       "ktsn":  120000018333
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "Eobia",
-                                                          "commonName":  "",
-                                                          "ktsn":  120000018334
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "cinereipennis",
-                                                         "commonName":  "",
-                                                         "ktsn":  120000018337
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:03:51.084Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    },
-                    {
-                        "ktsn":  120000470103,
-                        "scientificName":  "Indasclera japonica japonica (Pic, 1910)",
-                        "commonName":  "일본넓적하늘소붙이",
-                        "terminalLatinName":  "japonica",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Oedemeridae",
-                                                        "commonName":  "하늘소붙이과",
-                                                        "ktsn":  120000018320
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Indasclera",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000018339
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "japonica",
-                                                         "commonName":  "",
-                                                         "ktsn":  120000470102
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:03:51.084Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    },
-                    {
-                        "ktsn":  120000018340,
-                        "scientificName":  "Indasclera ruficollis (Lewis, 1895)",
-                        "commonName":  "일본하늘소붙이",
-                        "terminalLatinName":  "ruficollis",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Oedemeridae",
-                                                        "commonName":  "하늘소붙이과",
-                                                        "ktsn":  120000018320
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Indasclera",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000018339
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "ruficollis",
-                                                         "commonName":  "일본하늘소붙이",
-                                                         "ktsn":  120000018340
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:03:51.084Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    },
-                    {
-                        "ktsn":  120000018344,
-                        "scientificName":  "Ischnomera nigrocyanea koreana Fleischer, 1919",
-                        "commonName":  "고려산줄하늘소붙이",
-                        "terminalLatinName":  "koreana",
-                        "nomenclaturalAuthor":  "Fleischer",
-                        "namingYear":  "1919",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Oedemeridae",
-                                                        "commonName":  "하늘소붙이과",
-                                                        "ktsn":  120000018320
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Ischnomera",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000018341
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "nigrocyanea",
-                                                         "commonName":  "",
-                                                         "ktsn":  120000018342
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:03:51.084Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    },
-                    {
-                        "ktsn":  120000018343,
-                        "scientificName":  "Ischnomera nigrocyanea nigrocyanea ",
-                        "commonName":  "검은산줄하늘소붙이",
-                        "terminalLatinName":  "nigrocyanea",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Oedemeridae",
-                                                        "commonName":  "하늘소붙이과",
-                                                        "ktsn":  120000018320
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Ischnomera",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000018341
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "nigrocyanea",
-                                                         "commonName":  "",
-                                                         "ktsn":  120000018342
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:03:51.084Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    },
-                    {
-                        "ktsn":  120000018347,
-                        "scientificName":  "Nacerdes (Nacerdes) melanura (Linnaeus, 1758)",
-                        "commonName":  "끝검은하늘소붙이",
-                        "terminalLatinName":  "melanura",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Oedemeridae",
-                                                        "commonName":  "하늘소붙이과",
-                                                        "ktsn":  120000018320
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Nacerdes",
-                                                       "commonName":  "노랑하늘소붙이속",
-                                                       "ktsn":  120000018345
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "Nacerdes",
-                                                          "commonName":  "",
-                                                          "ktsn":  120000018346
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "melanura",
-                                                         "commonName":  "끝검은하늘소붙이",
-                                                         "ktsn":  120000018347
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:03:51.084Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "inat":  {
-                                     "observationCount":  3,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/404585829/medium.jpeg",
-                                     "months":  [
-                                                    5,
-                                                    6
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000018350,
-                        "scientificName":  "Nacerdes (Xanthochroa) atriceps atriceps (Lewis, 1895)",
-                        "commonName":  "노랑가슴하늘소붙이",
-                        "terminalLatinName":  "atriceps",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Oedemeridae",
-                                                        "commonName":  "하늘소붙이과",
-                                                        "ktsn":  120000018320
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Nacerdes",
-                                                       "commonName":  "노랑하늘소붙이속",
-                                                       "ktsn":  120000018345
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "Xanthochroa",
-                                                          "commonName":  "",
-                                                          "ktsn":  120000018348
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "atriceps",
-                                                         "commonName":  "",
-                                                         "ktsn":  120000018349
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:03:51.084Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    },
-                    {
-                        "ktsn":  120000018352,
-                        "scientificName":  "Nacerdes (Xanthochroa) hilleri hilleri (Harold, 1878)",
-                        "commonName":  "큰노랑하늘소붙이",
-                        "terminalLatinName":  "hilleri",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Oedemeridae",
-                                                        "commonName":  "하늘소붙이과",
-                                                        "ktsn":  120000018320
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Nacerdes",
-                                                       "commonName":  "노랑하늘소붙이속",
-                                                       "ktsn":  120000018345
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "Xanthochroa",
-                                                          "commonName":  "",
-                                                          "ktsn":  120000018348
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "hilleri",
-                                                         "commonName":  "",
-                                                         "ktsn":  120000018351
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:03:51.084Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    },
-                    {
-                        "ktsn":  120000018353,
-                        "scientificName":  "Nacerdes (Xanthochroa) luteipennis (Marseul, 1877)",
-                        "commonName":  "노랑하늘소붙이",
-                        "terminalLatinName":  "luteipennis",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Oedemeridae",
-                                                        "commonName":  "하늘소붙이과",
-                                                        "ktsn":  120000018320
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Nacerdes",
-                                                       "commonName":  "노랑하늘소붙이속",
-                                                       "ktsn":  120000018345
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "Xanthochroa",
-                                                          "commonName":  "",
-                                                          "ktsn":  120000018348
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "luteipennis",
-                                                         "commonName":  "노랑하늘소붙이",
-                                                         "ktsn":  120000018353
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:03:51.084Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    },
-                    {
-                        "ktsn":  120000018354,
-                        "scientificName":  "Nacerdes (Xanthochroa) ocularis (Lewis, 1895)",
-                        "commonName":  "알통수염하늘소붙이",
-                        "terminalLatinName":  "ocularis",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Oedemeridae",
-                                                        "commonName":  "하늘소붙이과",
-                                                        "ktsn":  120000018320
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Nacerdes",
-                                                       "commonName":  "노랑하늘소붙이속",
-                                                       "ktsn":  120000018345
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "Xanthochroa",
-                                                          "commonName":  "",
-                                                          "ktsn":  120000018348
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "ocularis",
-                                                         "commonName":  "알통수염하늘소붙이",
-                                                         "ktsn":  120000018354
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:03:51.084Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    },
-                    {
-                        "ktsn":  120000018355,
-                        "scientificName":  "Nacerdes (Xanthochroa) strandi (Kôno, 1936)",
-                        "commonName":  "회갈색하늘소붙이",
-                        "terminalLatinName":  "strandi",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Oedemeridae",
-                                                        "commonName":  "하늘소붙이과",
-                                                        "ktsn":  120000018320
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Nacerdes",
-                                                       "commonName":  "노랑하늘소붙이속",
-                                                       "ktsn":  120000018345
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "Xanthochroa",
-                                                          "commonName":  "",
-                                                          "ktsn":  120000018348
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "strandi",
-                                                         "commonName":  "회갈색하늘소붙이",
-                                                         "ktsn":  120000018355
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:03:51.084Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    },
-                    {
-                        "ktsn":  120000018356,
-                        "scientificName":  "Nacerdes (Xanthochroa) waterhousei (Harold, 1875)",
-                        "commonName":  "청색하늘소붙이",
-                        "terminalLatinName":  "waterhousei",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Oedemeridae",
-                                                        "commonName":  "하늘소붙이과",
-                                                        "ktsn":  120000018320
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Nacerdes",
-                                                       "commonName":  "노랑하늘소붙이속",
-                                                       "ktsn":  120000018345
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "Xanthochroa",
-                                                          "commonName":  "",
-                                                          "ktsn":  120000018348
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "waterhousei",
-                                                         "commonName":  "청색하늘소붙이",
-                                                         "ktsn":  120000018356
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:03:51.084Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "inat":  {
-                                     "observationCount":  18,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/8741032/medium.jpg",
-                                     "months":  [
-                                                    6,
-                                                    7
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000018359,
-                        "scientificName":  "Oedemera (Oedemera) concolor Lewis, 1895",
-                        "commonName":  "흑청색하늘소붙이",
-                        "terminalLatinName":  "concolor",
-                        "nomenclaturalAuthor":  "Lewis",
-                        "namingYear":  "1895",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Oedemeridae",
-                                                        "commonName":  "하늘소붙이과",
-                                                        "ktsn":  120000018320
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Oedemera",
-                                                       "commonName":  "하늘소붙이속",
-                                                       "ktsn":  120000018357
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "Oedemera",
-                                                          "commonName":  "",
-                                                          "ktsn":  120000018358
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "concolor",
-                                                         "commonName":  "흑청색하늘소붙이",
-                                                         "ktsn":  120000018359
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:03:51.084Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    },
-                    {
-                        "ktsn":  120000018361,
-                        "scientificName":  "Oedemera (Oedemera) lucidicollis flaviventris Fairmaire, 1891",
-                        "commonName":  "시베르스하늘소붙이",
-                        "terminalLatinName":  "flaviventris",
-                        "nomenclaturalAuthor":  "Fairmaire",
-                        "namingYear":  "1891",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Oedemeridae",
-                                                        "commonName":  "하늘소붙이과",
-                                                        "ktsn":  120000018320
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Oedemera",
-                                                       "commonName":  "하늘소붙이속",
-                                                       "ktsn":  120000018357
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "Oedemera",
-                                                          "commonName":  "",
-                                                          "ktsn":  120000018358
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "lucidicollis",
-                                                         "commonName":  "",
-                                                         "ktsn":  120000018360
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:03:51.084Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    },
-                    {
-                        "ktsn":  120000018362,
-                        "scientificName":  "Oedemera (Oedemera) lucidicollis lucidicollis Motschulsky, 1866",
-                        "commonName":  "알통다리하늘소붙이",
-                        "terminalLatinName":  "lucidicollis",
-                        "nomenclaturalAuthor":  "Motschulsky",
-                        "namingYear":  "1866",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Oedemeridae",
-                                                        "commonName":  "하늘소붙이과",
-                                                        "ktsn":  120000018320
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Oedemera",
-                                                       "commonName":  "하늘소붙이속",
-                                                       "ktsn":  120000018357
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "Oedemera",
-                                                          "commonName":  "",
-                                                          "ktsn":  120000018358
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "lucidicollis",
-                                                         "commonName":  "",
-                                                         "ktsn":  120000018360
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:03:51.084Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    },
-                    {
-                        "ktsn":  120000018364,
-                        "scientificName":  "Oedemera (Oedemera) lurida lurida (Marsham, 1802)",
-                        "commonName":  "하늘소붙이",
-                        "terminalLatinName":  "lurida",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Oedemeridae",
-                                                        "commonName":  "하늘소붙이과",
-                                                        "ktsn":  120000018320
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Oedemera",
-                                                       "commonName":  "하늘소붙이속",
-                                                       "ktsn":  120000018357
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "Oedemera",
-                                                          "commonName":  "",
-                                                          "ktsn":  120000018358
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "lurida",
-                                                         "commonName":  "",
-                                                         "ktsn":  120000018363
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:03:51.084Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    },
-                    {
-                        "ktsn":  120000018365,
-                        "scientificName":  "Oedemera (Oedemera) parallelipennis Seidlitz, 1899",
-                        "commonName":  "흑색알통다리하늘소붙이",
-                        "terminalLatinName":  "parallelipennis",
-                        "nomenclaturalAuthor":  "Seidlitz",
-                        "namingYear":  "1899",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Oedemeridae",
-                                                        "commonName":  "하늘소붙이과",
-                                                        "ktsn":  120000018320
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Oedemera",
-                                                       "commonName":  "하늘소붙이속",
-                                                       "ktsn":  120000018357
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "Oedemera",
-                                                          "commonName":  "",
-                                                          "ktsn":  120000018358
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "parallelipennis",
-                                                         "commonName":  "흑색알통다리하늘소붙이",
-                                                         "ktsn":  120000018365
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:03:51.084Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    },
-                    {
-                        "ktsn":  120000018366,
-                        "scientificName":  "Oedemera (Oedemera) robusta Lewis, 1895",
-                        "commonName":  "남색하늘소붙이",
-                        "terminalLatinName":  "robusta",
-                        "nomenclaturalAuthor":  "Lewis",
-                        "namingYear":  "1895",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Oedemeridae",
-                                                        "commonName":  "하늘소붙이과",
-                                                        "ktsn":  120000018320
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Oedemera",
-                                                       "commonName":  "하늘소붙이속",
-                                                       "ktsn":  120000018357
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "Oedemera",
-                                                          "commonName":  "",
-                                                          "ktsn":  120000018358
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "robusta",
-                                                         "commonName":  "남색하늘소붙이",
-                                                         "ktsn":  120000018366
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:03:51.084Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    },
-                    {
-                        "ktsn":  120000092730,
-                        "scientificName":  "Oedemera (Oedemera) sexualis Marseul, 1877",
-                        "commonName":  "노랑알통다리하늘소붙이",
-                        "terminalLatinName":  "sexualis",
-                        "nomenclaturalAuthor":  "Marseul",
-                        "namingYear":  "1877",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Oedemeridae",
-                                                        "commonName":  "하늘소붙이과",
-                                                        "ktsn":  120000018320
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Oedemera",
-                                                       "commonName":  "하늘소붙이속",
-                                                       "ktsn":  120000018357
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "Oedemera",
-                                                          "commonName":  "",
-                                                          "ktsn":  120000018358
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "sexualis",
-                                                         "commonName":  "노랑알통다리하늘소붙이",
-                                                         "ktsn":  120000092730
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:03:51.084Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    },
-                    {
-                        "ktsn":  120000018367,
-                        "scientificName":  "Oedemera (Oedemera) subrobusta (Nakane, 1954)",
-                        "commonName":  "주름살하늘소붙이",
-                        "terminalLatinName":  "subrobusta",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Oedemeridae",
-                                                        "commonName":  "하늘소붙이과",
-                                                        "ktsn":  120000018320
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Oedemera",
-                                                       "commonName":  "하늘소붙이속",
-                                                       "ktsn":  120000018357
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "Oedemera",
-                                                          "commonName":  "",
-                                                          "ktsn":  120000018358
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "subrobusta",
-                                                         "commonName":  "주름살하늘소붙이",
-                                                         "ktsn":  120000018367
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:03:51.084Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    },
-                    {
-                        "ktsn":  120000018369,
-                        "scientificName":  "Oedemera (Oedemera) virescens virescens (Linnaeus, 1767)",
-                        "commonName":  "녹색알통다리하늘소붙이",
-                        "terminalLatinName":  "virescens",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Oedemeridae",
-                                                        "commonName":  "하늘소붙이과",
-                                                        "ktsn":  120000018320
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Oedemera",
-                                                       "commonName":  "하늘소붙이속",
-                                                       "ktsn":  120000018357
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "Oedemera",
-                                                          "commonName":  "",
-                                                          "ktsn":  120000018358
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "virescens",
-                                                         "commonName":  "",
-                                                         "ktsn":  120000018368
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:03:51.084Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "inat":  {
-                                     "observationCount":  2,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/133070092/medium.jpeg",
-                                     "months":  [
-                                                    4,
-                                                    6
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000018371,
-                        "scientificName":  "Oedemera (Oncomera) venosa (Lewis, 1895)",
-                        "commonName":  "얼룩하늘소붙이",
-                        "terminalLatinName":  "venosa",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Oedemeridae",
-                                                        "commonName":  "하늘소붙이과",
-                                                        "ktsn":  120000018320
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Oedemera",
-                                                       "commonName":  "하늘소붙이속",
-                                                       "ktsn":  120000018357
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "Oncomera",
-                                                          "commonName":  "",
-                                                          "ktsn":  120000018370
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "venosa",
-                                                         "commonName":  "얼룩하늘소붙이",
-                                                         "ktsn":  120000018371
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:03:51.084Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    },
-                    {
-                        "ktsn":  120000018373,
-                        "scientificName":  "Oedemera (Stenaxis) amurensis Heyden, 1884",
-                        "commonName":  "아무르하늘소붙이",
-                        "terminalLatinName":  "amurensis",
-                        "nomenclaturalAuthor":  "Heyden",
-                        "namingYear":  "1884",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Oedemeridae",
-                                                        "commonName":  "하늘소붙이과",
-                                                        "ktsn":  120000018320
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Oedemera",
-                                                       "commonName":  "하늘소붙이속",
-                                                       "ktsn":  120000018357
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "Stenaxis",
-                                                          "commonName":  "",
-                                                          "ktsn":  120000018372
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "amurensis",
-                                                         "commonName":  "아무르하늘소붙이",
-                                                         "ktsn":  120000018373
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:03:51.084Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "inat":  {
-                                     "observationCount":  24,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/75498059/medium.png",
-                                     "months":  [
-                                                    5,
-                                                    6,
-                                                    7
-                                                ]
-                                 }
-                    }
-                ],
-    "digitalContentUpdatedAt":  "2026-05-21T09:03:51.084Z",
-    "digitalContentSource":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "coleoptera",
+    "scientificName": "Coleoptera",
+    "commonName": "딱정벌레목",
+    "orderKtsn": 120000013750,
+    "abstract": "딱정벌레목(Coleoptera)은 곤충의 종 가운데 40%인 35만여종을 차지하는 목이다. 아직 발견되지 않은 종까지 합치면 500만~800만여종이 될 것으로 추정된다. 먹는 먹이도 다양해서 식물의 잎, 송사리 등의 작은 물고기, 나무의 즙, 작은 동물, 동물의 시체 등 매우 다양하다. 딱정벌레목에 속한 곤충으로는 무당벌레, 딱정벌레, 길앞잡이, 물방개, 장수풍뎅이 등이 있다. 대부분이 두꺼운 키틴질로 된 딱딱한 껍데기를 가지고 있어서 갑충(甲蟲)이라고도 불린다.",
+    "description": "딱정벌레목(Coleoptera)은 곤충의 종 가운데 40%인 35만여종을 차지하는 목이다. 아직 발견되지 않은 종까지 합치면 500만~800만여종이 될 것으로 추정된다. 먹는 먹이도 다양해서 식물의 잎, 송사리 등의 작은 물고기, 나무의 즙, 작은 동물, 동물의 시체 등 매우 다양하다. 딱정벌레목에 속한 곤충으로는 무당벌레, 딱정벌레, 길앞잡이, 물방개, 장수풍뎅이 등이 있다. 대부분이 두꺼운 키틴질로 된 딱딱한 껍데기를 가지고 있어서 갑충(甲蟲)이라고도 불린다."
+  },
+  "family": {
+    "id": "oedemeridae",
+    "scientificName": "Oedemeridae",
+    "commonName": "하늘소붙이과",
+    "familyKtsn": 120000018320
+  },
+  "speciesCount": 29,
+  "insects": [
+    {
+      "ktsn": 120000018323,
+      "scientificName": "Anogcodes coarctata croceiventris (Motschulsky, 1859)",
+      "commonName": "유리하늘소붙이",
+      "terminalLatinName": "croceiventris",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Oedemeridae",
+          "commonName": "하늘소붙이과",
+          "ktsn": 120000018320
+        },
+        "genus": {
+          "scientificName": "Anogcodes",
+          "commonName": "유리하늘소붙이속",
+          "ktsn": 120000018321
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "coarctata",
+          "commonName": "",
+          "ktsn": 120000018322
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:03:51.084Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:04:26.836Z"
+      }
+    },
+    {
+      "ktsn": 120000201857,
+      "scientificName": "Chrysanthia geniculata geniculata W.L.E. Schmidt, 1846",
+      "commonName": "닮은녹색하늘소붙이",
+      "terminalLatinName": "geniculata",
+      "nomenclaturalAuthor": "W.L.E. Schmidt",
+      "namingYear": "1846",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Oedemeridae",
+          "commonName": "하늘소붙이과",
+          "ktsn": 120000018320
+        },
+        "genus": {
+          "scientificName": "Chrysanthia",
+          "commonName": "녹색하늘소붙이속",
+          "ktsn": 120000018324
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "geniculata",
+          "commonName": "",
+          "ktsn": 120000018325
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:03:51.084Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 4,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/87549503/medium.jpg",
+        "months": [
+          5,
+          8
+        ]
+      }
+    },
+    {
+      "ktsn": 120000018326,
+      "scientificName": "Chrysanthia geniculata integricollis Heyden, 1886",
+      "commonName": "녹색하늘소붙이",
+      "terminalLatinName": "integricollis",
+      "nomenclaturalAuthor": "Heyden",
+      "namingYear": "1886",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Oedemeridae",
+          "commonName": "하늘소붙이과",
+          "ktsn": 120000018320
+        },
+        "genus": {
+          "scientificName": "Chrysanthia",
+          "commonName": "녹색하늘소붙이속",
+          "ktsn": 120000018324
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "geniculata",
+          "commonName": "",
+          "ktsn": 120000018325
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:03:51.084Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 4,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/87549503/medium.jpg",
+        "months": [
+          5,
+          8
+        ]
+      }
+    },
+    {
+      "ktsn": 120000018329,
+      "scientificName": "Diasclera sibirica laevithorax (Pic, 1915)",
+      "commonName": "민줄하늘소붙이",
+      "terminalLatinName": "laevithorax",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Oedemeridae",
+          "commonName": "하늘소붙이과",
+          "ktsn": 120000018320
+        },
+        "genus": {
+          "scientificName": "Diasclera",
+          "commonName": "민줄하늘소붙이속",
+          "ktsn": 120000018327
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "sibirica",
+          "commonName": "",
+          "ktsn": 120000018328
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:03:51.084Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:04:26.836Z"
+      }
+    },
+    {
+      "ktsn": 120000018332,
+      "scientificName": "Ditylus laevis laevis (Fabricius, 1787)",
+      "commonName": "산하늘소붙이",
+      "terminalLatinName": "laevis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Oedemeridae",
+          "commonName": "하늘소붙이과",
+          "ktsn": 120000018320
+        },
+        "genus": {
+          "scientificName": "Ditylus",
+          "commonName": "산하늘소붙이속",
+          "ktsn": 120000018330
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "laevis",
+          "commonName": "산하늘소붙이",
+          "ktsn": 120000018331
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:03:51.084Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 4,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/138120612/medium.jpeg",
+        "months": [
+          4,
+          5,
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "ktsn": 120000508051,
+      "scientificName": "Eobia (Eobia) chinensis ambusta Lewis, 1895",
+      "commonName": "밑검은섬하늘소붙이",
+      "terminalLatinName": "ambusta",
+      "nomenclaturalAuthor": "Lewis",
+      "namingYear": "1895",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Oedemeridae",
+          "commonName": "하늘소붙이과",
+          "ktsn": 120000018320
+        },
+        "genus": {
+          "scientificName": "Eobia",
+          "commonName": "섬하늘소붙이속",
+          "ktsn": 120000018333
+        },
+        "subgenus": {
+          "scientificName": "Eobia",
+          "commonName": "",
+          "ktsn": 120000018334
+        },
+        "species": {
+          "scientificName": "chinensis",
+          "commonName": "",
+          "ktsn": 120000018335
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:03:51.084Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/554961077/medium.jpg",
+        "months": [
+          7
+        ]
+      }
+    },
+    {
+      "ktsn": 120000018338,
+      "scientificName": "Eobia (Eobia) cinereipennis cinereipennis (Motschulsky, 1866)",
+      "commonName": "잿빛섬하늘소붙이",
+      "terminalLatinName": "cinereipennis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Oedemeridae",
+          "commonName": "하늘소붙이과",
+          "ktsn": 120000018320
+        },
+        "genus": {
+          "scientificName": "Eobia",
+          "commonName": "섬하늘소붙이속",
+          "ktsn": 120000018333
+        },
+        "subgenus": {
+          "scientificName": "Eobia",
+          "commonName": "",
+          "ktsn": 120000018334
+        },
+        "species": {
+          "scientificName": "cinereipennis",
+          "commonName": "",
+          "ktsn": 120000018337
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:03:51.084Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:04:26.836Z"
+      }
+    },
+    {
+      "ktsn": 120000470103,
+      "scientificName": "Indasclera japonica japonica (Pic, 1910)",
+      "commonName": "일본넓적하늘소붙이",
+      "terminalLatinName": "japonica",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Oedemeridae",
+          "commonName": "하늘소붙이과",
+          "ktsn": 120000018320
+        },
+        "genus": {
+          "scientificName": "Indasclera",
+          "commonName": "",
+          "ktsn": 120000018339
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "japonica",
+          "commonName": "",
+          "ktsn": 120000470102
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:03:51.084Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:04:26.836Z"
+      }
+    },
+    {
+      "ktsn": 120000018340,
+      "scientificName": "Indasclera ruficollis (Lewis, 1895)",
+      "commonName": "일본하늘소붙이",
+      "terminalLatinName": "ruficollis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Oedemeridae",
+          "commonName": "하늘소붙이과",
+          "ktsn": 120000018320
+        },
+        "genus": {
+          "scientificName": "Indasclera",
+          "commonName": "",
+          "ktsn": 120000018339
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "ruficollis",
+          "commonName": "일본하늘소붙이",
+          "ktsn": 120000018340
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:03:51.084Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:04:27.577Z"
+      }
+    },
+    {
+      "ktsn": 120000018344,
+      "scientificName": "Ischnomera nigrocyanea koreana Fleischer, 1919",
+      "commonName": "고려산줄하늘소붙이",
+      "terminalLatinName": "koreana",
+      "nomenclaturalAuthor": "Fleischer",
+      "namingYear": "1919",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Oedemeridae",
+          "commonName": "하늘소붙이과",
+          "ktsn": 120000018320
+        },
+        "genus": {
+          "scientificName": "Ischnomera",
+          "commonName": "",
+          "ktsn": 120000018341
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "nigrocyanea",
+          "commonName": "",
+          "ktsn": 120000018342
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:03:51.084Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:04:27.577Z"
+      }
+    },
+    {
+      "ktsn": 120000018343,
+      "scientificName": "Ischnomera nigrocyanea nigrocyanea ",
+      "commonName": "검은산줄하늘소붙이",
+      "terminalLatinName": "nigrocyanea",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Oedemeridae",
+          "commonName": "하늘소붙이과",
+          "ktsn": 120000018320
+        },
+        "genus": {
+          "scientificName": "Ischnomera",
+          "commonName": "",
+          "ktsn": 120000018341
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "nigrocyanea",
+          "commonName": "",
+          "ktsn": 120000018342
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:03:51.084Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:04:27.577Z"
+      }
+    },
+    {
+      "ktsn": 120000018347,
+      "scientificName": "Nacerdes (Nacerdes) melanura (Linnaeus, 1758)",
+      "commonName": "끝검은하늘소붙이",
+      "terminalLatinName": "melanura",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Oedemeridae",
+          "commonName": "하늘소붙이과",
+          "ktsn": 120000018320
+        },
+        "genus": {
+          "scientificName": "Nacerdes",
+          "commonName": "노랑하늘소붙이속",
+          "ktsn": 120000018345
+        },
+        "subgenus": {
+          "scientificName": "Nacerdes",
+          "commonName": "",
+          "ktsn": 120000018346
+        },
+        "species": {
+          "scientificName": "melanura",
+          "commonName": "끝검은하늘소붙이",
+          "ktsn": 120000018347
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:03:51.084Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 3,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/404585829/medium.jpeg",
+        "months": [
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "ktsn": 120000018350,
+      "scientificName": "Nacerdes (Xanthochroa) atriceps atriceps (Lewis, 1895)",
+      "commonName": "노랑가슴하늘소붙이",
+      "terminalLatinName": "atriceps",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Oedemeridae",
+          "commonName": "하늘소붙이과",
+          "ktsn": 120000018320
+        },
+        "genus": {
+          "scientificName": "Nacerdes",
+          "commonName": "노랑하늘소붙이속",
+          "ktsn": 120000018345
+        },
+        "subgenus": {
+          "scientificName": "Xanthochroa",
+          "commonName": "",
+          "ktsn": 120000018348
+        },
+        "species": {
+          "scientificName": "atriceps",
+          "commonName": "",
+          "ktsn": 120000018349
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:03:51.084Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:04:27.577Z"
+      }
+    },
+    {
+      "ktsn": 120000018352,
+      "scientificName": "Nacerdes (Xanthochroa) hilleri hilleri (Harold, 1878)",
+      "commonName": "큰노랑하늘소붙이",
+      "terminalLatinName": "hilleri",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Oedemeridae",
+          "commonName": "하늘소붙이과",
+          "ktsn": 120000018320
+        },
+        "genus": {
+          "scientificName": "Nacerdes",
+          "commonName": "노랑하늘소붙이속",
+          "ktsn": 120000018345
+        },
+        "subgenus": {
+          "scientificName": "Xanthochroa",
+          "commonName": "",
+          "ktsn": 120000018348
+        },
+        "species": {
+          "scientificName": "hilleri",
+          "commonName": "",
+          "ktsn": 120000018351
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:03:51.084Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:04:27.577Z"
+      }
+    },
+    {
+      "ktsn": 120000018353,
+      "scientificName": "Nacerdes (Xanthochroa) luteipennis (Marseul, 1877)",
+      "commonName": "노랑하늘소붙이",
+      "terminalLatinName": "luteipennis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Oedemeridae",
+          "commonName": "하늘소붙이과",
+          "ktsn": 120000018320
+        },
+        "genus": {
+          "scientificName": "Nacerdes",
+          "commonName": "노랑하늘소붙이속",
+          "ktsn": 120000018345
+        },
+        "subgenus": {
+          "scientificName": "Xanthochroa",
+          "commonName": "",
+          "ktsn": 120000018348
+        },
+        "species": {
+          "scientificName": "luteipennis",
+          "commonName": "노랑하늘소붙이",
+          "ktsn": 120000018353
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:03:51.084Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:04:27.577Z"
+      }
+    },
+    {
+      "ktsn": 120000018354,
+      "scientificName": "Nacerdes (Xanthochroa) ocularis (Lewis, 1895)",
+      "commonName": "알통수염하늘소붙이",
+      "terminalLatinName": "ocularis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Oedemeridae",
+          "commonName": "하늘소붙이과",
+          "ktsn": 120000018320
+        },
+        "genus": {
+          "scientificName": "Nacerdes",
+          "commonName": "노랑하늘소붙이속",
+          "ktsn": 120000018345
+        },
+        "subgenus": {
+          "scientificName": "Xanthochroa",
+          "commonName": "",
+          "ktsn": 120000018348
+        },
+        "species": {
+          "scientificName": "ocularis",
+          "commonName": "알통수염하늘소붙이",
+          "ktsn": 120000018354
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:03:51.084Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:04:27.577Z"
+      }
+    },
+    {
+      "ktsn": 120000018355,
+      "scientificName": "Nacerdes (Xanthochroa) strandi (Kôno, 1936)",
+      "commonName": "회갈색하늘소붙이",
+      "terminalLatinName": "strandi",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Oedemeridae",
+          "commonName": "하늘소붙이과",
+          "ktsn": 120000018320
+        },
+        "genus": {
+          "scientificName": "Nacerdes",
+          "commonName": "노랑하늘소붙이속",
+          "ktsn": 120000018345
+        },
+        "subgenus": {
+          "scientificName": "Xanthochroa",
+          "commonName": "",
+          "ktsn": 120000018348
+        },
+        "species": {
+          "scientificName": "strandi",
+          "commonName": "회갈색하늘소붙이",
+          "ktsn": 120000018355
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:03:51.084Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:04:27.577Z"
+      }
+    },
+    {
+      "ktsn": 120000018356,
+      "scientificName": "Nacerdes (Xanthochroa) waterhousei (Harold, 1875)",
+      "commonName": "청색하늘소붙이",
+      "terminalLatinName": "waterhousei",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Oedemeridae",
+          "commonName": "하늘소붙이과",
+          "ktsn": 120000018320
+        },
+        "genus": {
+          "scientificName": "Nacerdes",
+          "commonName": "노랑하늘소붙이속",
+          "ktsn": 120000018345
+        },
+        "subgenus": {
+          "scientificName": "Xanthochroa",
+          "commonName": "",
+          "ktsn": 120000018348
+        },
+        "species": {
+          "scientificName": "waterhousei",
+          "commonName": "청색하늘소붙이",
+          "ktsn": 120000018356
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:03:51.084Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 18,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/8741032/medium.jpg",
+        "months": [
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "ktsn": 120000018359,
+      "scientificName": "Oedemera (Oedemera) concolor Lewis, 1895",
+      "commonName": "흑청색하늘소붙이",
+      "terminalLatinName": "concolor",
+      "nomenclaturalAuthor": "Lewis",
+      "namingYear": "1895",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Oedemeridae",
+          "commonName": "하늘소붙이과",
+          "ktsn": 120000018320
+        },
+        "genus": {
+          "scientificName": "Oedemera",
+          "commonName": "하늘소붙이속",
+          "ktsn": 120000018357
+        },
+        "subgenus": {
+          "scientificName": "Oedemera",
+          "commonName": "",
+          "ktsn": 120000018358
+        },
+        "species": {
+          "scientificName": "concolor",
+          "commonName": "흑청색하늘소붙이",
+          "ktsn": 120000018359
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:03:51.084Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:04:27.577Z"
+      }
+    },
+    {
+      "ktsn": 120000018361,
+      "scientificName": "Oedemera (Oedemera) lucidicollis flaviventris Fairmaire, 1891",
+      "commonName": "시베르스하늘소붙이",
+      "terminalLatinName": "flaviventris",
+      "nomenclaturalAuthor": "Fairmaire",
+      "namingYear": "1891",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Oedemeridae",
+          "commonName": "하늘소붙이과",
+          "ktsn": 120000018320
+        },
+        "genus": {
+          "scientificName": "Oedemera",
+          "commonName": "하늘소붙이속",
+          "ktsn": 120000018357
+        },
+        "subgenus": {
+          "scientificName": "Oedemera",
+          "commonName": "",
+          "ktsn": 120000018358
+        },
+        "species": {
+          "scientificName": "lucidicollis",
+          "commonName": "",
+          "ktsn": 120000018360
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:03:51.084Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:04:27.577Z"
+      }
+    },
+    {
+      "ktsn": 120000018362,
+      "scientificName": "Oedemera (Oedemera) lucidicollis lucidicollis Motschulsky, 1866",
+      "commonName": "알통다리하늘소붙이",
+      "terminalLatinName": "lucidicollis",
+      "nomenclaturalAuthor": "Motschulsky",
+      "namingYear": "1866",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Oedemeridae",
+          "commonName": "하늘소붙이과",
+          "ktsn": 120000018320
+        },
+        "genus": {
+          "scientificName": "Oedemera",
+          "commonName": "하늘소붙이속",
+          "ktsn": 120000018357
+        },
+        "subgenus": {
+          "scientificName": "Oedemera",
+          "commonName": "",
+          "ktsn": 120000018358
+        },
+        "species": {
+          "scientificName": "lucidicollis",
+          "commonName": "",
+          "ktsn": 120000018360
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:03:51.084Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:04:27.577Z"
+      }
+    },
+    {
+      "ktsn": 120000018364,
+      "scientificName": "Oedemera (Oedemera) lurida lurida (Marsham, 1802)",
+      "commonName": "하늘소붙이",
+      "terminalLatinName": "lurida",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Oedemeridae",
+          "commonName": "하늘소붙이과",
+          "ktsn": 120000018320
+        },
+        "genus": {
+          "scientificName": "Oedemera",
+          "commonName": "하늘소붙이속",
+          "ktsn": 120000018357
+        },
+        "subgenus": {
+          "scientificName": "Oedemera",
+          "commonName": "",
+          "ktsn": 120000018358
+        },
+        "species": {
+          "scientificName": "lurida",
+          "commonName": "",
+          "ktsn": 120000018363
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:03:51.084Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:04:27.577Z"
+      }
+    },
+    {
+      "ktsn": 120000018365,
+      "scientificName": "Oedemera (Oedemera) parallelipennis Seidlitz, 1899",
+      "commonName": "흑색알통다리하늘소붙이",
+      "terminalLatinName": "parallelipennis",
+      "nomenclaturalAuthor": "Seidlitz",
+      "namingYear": "1899",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Oedemeridae",
+          "commonName": "하늘소붙이과",
+          "ktsn": 120000018320
+        },
+        "genus": {
+          "scientificName": "Oedemera",
+          "commonName": "하늘소붙이속",
+          "ktsn": 120000018357
+        },
+        "subgenus": {
+          "scientificName": "Oedemera",
+          "commonName": "",
+          "ktsn": 120000018358
+        },
+        "species": {
+          "scientificName": "parallelipennis",
+          "commonName": "흑색알통다리하늘소붙이",
+          "ktsn": 120000018365
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:03:51.084Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:04:27.577Z"
+      }
+    },
+    {
+      "ktsn": 120000018366,
+      "scientificName": "Oedemera (Oedemera) robusta Lewis, 1895",
+      "commonName": "남색하늘소붙이",
+      "terminalLatinName": "robusta",
+      "nomenclaturalAuthor": "Lewis",
+      "namingYear": "1895",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Oedemeridae",
+          "commonName": "하늘소붙이과",
+          "ktsn": 120000018320
+        },
+        "genus": {
+          "scientificName": "Oedemera",
+          "commonName": "하늘소붙이속",
+          "ktsn": 120000018357
+        },
+        "subgenus": {
+          "scientificName": "Oedemera",
+          "commonName": "",
+          "ktsn": 120000018358
+        },
+        "species": {
+          "scientificName": "robusta",
+          "commonName": "남색하늘소붙이",
+          "ktsn": 120000018366
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:03:51.084Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:04:27.577Z"
+      }
+    },
+    {
+      "ktsn": 120000092730,
+      "scientificName": "Oedemera (Oedemera) sexualis Marseul, 1877",
+      "commonName": "노랑알통다리하늘소붙이",
+      "terminalLatinName": "sexualis",
+      "nomenclaturalAuthor": "Marseul",
+      "namingYear": "1877",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Oedemeridae",
+          "commonName": "하늘소붙이과",
+          "ktsn": 120000018320
+        },
+        "genus": {
+          "scientificName": "Oedemera",
+          "commonName": "하늘소붙이속",
+          "ktsn": 120000018357
+        },
+        "subgenus": {
+          "scientificName": "Oedemera",
+          "commonName": "",
+          "ktsn": 120000018358
+        },
+        "species": {
+          "scientificName": "sexualis",
+          "commonName": "노랑알통다리하늘소붙이",
+          "ktsn": 120000092730
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:03:51.084Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:04:27.577Z"
+      }
+    },
+    {
+      "ktsn": 120000018367,
+      "scientificName": "Oedemera (Oedemera) subrobusta (Nakane, 1954)",
+      "commonName": "주름살하늘소붙이",
+      "terminalLatinName": "subrobusta",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Oedemeridae",
+          "commonName": "하늘소붙이과",
+          "ktsn": 120000018320
+        },
+        "genus": {
+          "scientificName": "Oedemera",
+          "commonName": "하늘소붙이속",
+          "ktsn": 120000018357
+        },
+        "subgenus": {
+          "scientificName": "Oedemera",
+          "commonName": "",
+          "ktsn": 120000018358
+        },
+        "species": {
+          "scientificName": "subrobusta",
+          "commonName": "주름살하늘소붙이",
+          "ktsn": 120000018367
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:03:51.084Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:04:27.577Z"
+      }
+    },
+    {
+      "ktsn": 120000018369,
+      "scientificName": "Oedemera (Oedemera) virescens virescens (Linnaeus, 1767)",
+      "commonName": "녹색알통다리하늘소붙이",
+      "terminalLatinName": "virescens",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Oedemeridae",
+          "commonName": "하늘소붙이과",
+          "ktsn": 120000018320
+        },
+        "genus": {
+          "scientificName": "Oedemera",
+          "commonName": "하늘소붙이속",
+          "ktsn": 120000018357
+        },
+        "subgenus": {
+          "scientificName": "Oedemera",
+          "commonName": "",
+          "ktsn": 120000018358
+        },
+        "species": {
+          "scientificName": "virescens",
+          "commonName": "",
+          "ktsn": 120000018368
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:03:51.084Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 2,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/133070092/medium.jpeg",
+        "months": [
+          4,
+          6
+        ]
+      }
+    },
+    {
+      "ktsn": 120000018371,
+      "scientificName": "Oedemera (Oncomera) venosa (Lewis, 1895)",
+      "commonName": "얼룩하늘소붙이",
+      "terminalLatinName": "venosa",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Oedemeridae",
+          "commonName": "하늘소붙이과",
+          "ktsn": 120000018320
+        },
+        "genus": {
+          "scientificName": "Oedemera",
+          "commonName": "하늘소붙이속",
+          "ktsn": 120000018357
+        },
+        "subgenus": {
+          "scientificName": "Oncomera",
+          "commonName": "",
+          "ktsn": 120000018370
+        },
+        "species": {
+          "scientificName": "venosa",
+          "commonName": "얼룩하늘소붙이",
+          "ktsn": 120000018371
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:03:51.084Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:04:27.577Z"
+      }
+    },
+    {
+      "ktsn": 120000018373,
+      "scientificName": "Oedemera (Stenaxis) amurensis Heyden, 1884",
+      "commonName": "아무르하늘소붙이",
+      "terminalLatinName": "amurensis",
+      "nomenclaturalAuthor": "Heyden",
+      "namingYear": "1884",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Oedemeridae",
+          "commonName": "하늘소붙이과",
+          "ktsn": 120000018320
+        },
+        "genus": {
+          "scientificName": "Oedemera",
+          "commonName": "하늘소붙이속",
+          "ktsn": 120000018357
+        },
+        "subgenus": {
+          "scientificName": "Stenaxis",
+          "commonName": "",
+          "ktsn": 120000018372
+        },
+        "species": {
+          "scientificName": "amurensis",
+          "commonName": "아무르하늘소붙이",
+          "ktsn": 120000018373
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:03:51.084Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 24,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/75498059/medium.png",
+        "months": [
+          5,
+          6,
+          7
+        ]
+      }
+    }
+  ],
+  "digitalContentUpdatedAt": "2026-05-21T09:03:51.084Z",
+  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
 }

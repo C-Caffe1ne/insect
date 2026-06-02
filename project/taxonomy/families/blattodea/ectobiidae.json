@@ -1,693 +1,805 @@
 {
-    "generatedAt":  "2026-05-21T07:47:08.025Z",
-    "source":  "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
-    "order":  {
-                  "id":  "blattodea",
-                  "scientificName":  "Blattodea",
-                  "commonName":  "바퀴목",
-                  "orderKtsn":  120000224585
-              },
-    "family":  {
-                   "id":  "ectobiidae",
-                   "scientificName":  "Ectobiidae",
-                   "commonName":  "바퀴과",
-                   "familyKtsn":  120000020889
-               },
-    "speciesCount":  5,
-    "insects":  [
-                    {
-                        "ktsn":  120000020891,
-                        "scientificName":  "Asiablatta kyotensis (Asahina, 1976)",
-                        "commonName":  "경도바퀴",
-                        "terminalLatinName":  "kyotensis",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Blattodea",
-                                                       "commonName":  "바퀴목",
-                                                       "ktsn":  120000224585
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Ectobiidae",
-                                                        "commonName":  "바퀴과",
-                                                        "ktsn":  120000020889
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Asiablatta",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000020890
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "kyotensis",
-                                                         "commonName":  "경도바퀴",
-                                                         "ktsn":  120000020891
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T08:49:49.579Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  1074584,
-                                    "canonical":  "Asiablatta kyotensis",
-                                    "fetchedAt":  "2026-05-24T08:44:46.412Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-                                                                   "경도바퀴"
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-                                                                   "キョウトゴキブリ",
-                                                                   "キョウトゴキブリ"
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  1
-                                },
-                        "inat":  {
-                                     "observationCount":  2,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/404955929/medium.jpeg",
-                                     "months":  [
-                                                    6
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000222270,
-                        "scientificName":  "Balta notulata (Stål, 1860)",
-                        "commonName":  "유리날개바퀴",
-                        "terminalLatinName":  "notulata",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Blattodea",
-                                                       "commonName":  "바퀴목",
-                                                       "ktsn":  120000224585
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Ectobiidae",
-                                                        "commonName":  "바퀴과",
-                                                        "ktsn":  120000020889
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Balta",
-                                                       "commonName":  "유리날개바퀴속",
-                                                       "ktsn":  120000222269
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "notulata",
-                                                         "commonName":  "유리날개바퀴",
-                                                         "ktsn":  120000222270
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T08:43:22.936Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  498584,
-                                    "canonical":  "Balta notulata",
-                                    "fetchedAt":  "2026-05-24T08:44:58.928Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-                                                                   "유리날개바퀴"
-                                                               ],
-                                                        "en":  [
-                                                                   "Small-spotted Cockroach",
-                                                                   "Cockroach"
-                                                               ],
-                                                        "ja":  [
-                                                                   "アミメヒラタゴキブリ"
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-                                                       "Singapore"
-                                                   ],
-                                    "introduced":  [
-                                                       "The Hawaiian Islands"
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  146
-                                },
-                        "inat":  {
-                                     "observationCount":  25,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/54921675/medium.jpeg",
-                                     "months":  [
-                                                    2,
-                                                    3,
-                                                    4,
-                                                    5,
-                                                    7,
-                                                    9,
-                                                    10,
-                                                    11,
-                                                    12
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000020893,
-                        "scientificName":  "Blattella germanica (Linnaeus, 1767)",
-                        "commonName":  "바퀴",
-                        "terminalLatinName":  "germanica",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Blattodea",
-                                                       "commonName":  "바퀴목",
-                                                       "ktsn":  120000224585
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Ectobiidae",
-                                                        "commonName":  "바퀴과",
-                                                        "ktsn":  120000020889
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Blattella",
-                                                       "commonName":  "바퀴속",
-                                                       "ktsn":  120000020892
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "germanica",
-                                                         "commonName":  "바퀴",
-                                                         "ktsn":  120000020893
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T08:49:49.579Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  1074540,
-                                    "canonical":  "Blattella germanica",
-                                    "fetchedAt":  "2026-05-24T08:44:49.182Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-                                                                   "독일바퀴"
-                                                               ],
-                                                        "en":  [
-                                                                   "German Cockroach",
-                                                                   "Croton Bug",
-                                                                   "German cockroach",
-                                                                   "German cockroach",
-                                                                   "German cockroach"
-                                                               ],
-                                                        "ja":  [
-                                                                   "チャバネゴキブリ",
-                                                                   "チャバネゴキブリ"
-                                                               ]
-                                                    },
-                                    "habitat":  [
-                                                    "clay",
-                                                    "chaparral",
-                                                    "boreal forests (taiga)",
-                                                    "fossorial and/or ground dwelling only",
-                                                    "cave",
-                                                    "oceanic island",
-                                                    "tropical",
-                                                    "temperate",
-                                                    "tropical rainforest",
-                                                    "agricultural",
-                                                    "city",
-                                                    "anthropogenic",
-                                                    "scrubland",
-                                                    "forest",
-                                                    "terrestrial",
-                                                    "grassland"
-                                                ],
-                                    "geographic":  [
-                                                       "Ecuador",
-                                                       "cosmopolitan",
-                                                       "Alaska",
-                                                       "Florida",
-                                                       "United States",
-                                                       "Mozambique",
-                                                       "the palearctic",
-                                                       "low arctic",
-                                                       "Quebec",
-                                                       "Greenland",
-                                                       "Labrador",
-                                                       "Canadian Arctic Archipelago",
-                                                       "Nunavut",
-                                                       "Northwest Territories",
-                                                       "Yukon",
-                                                       "high arctic",
-                                                       "subarctic",
-                                                       "South Pacific",
-                                                       "North Pacific",
-                                                       "North Atlantic",
-                                                       "Indian Ocean",
-                                                       "Mexico",
-                                                       "Japan",
-                                                       "United Kingdom",
-                                                       "The Netherlands",
-                                                       "Sweden",
-                                                       "South Korea",
-                                                       "Singapore",
-                                                       "Saudi Arabia",
-                                                       "Russia",
-                                                       "Puerto Rico",
-                                                       "Poland",
-                                                       "Norway",
-                                                       "Italy",
-                                                       "Ireland",
-                                                       "Hong Kong",
-                                                       "Germany",
-                                                       "French Polynesia",
-                                                       "France",
-                                                       "Finland",
-                                                       "Estonia",
-                                                       "Czech Republic",
-                                                       "Colombia",
-                                                       "China",
-                                                       "Canada"
-                                                   ],
-                                    "introduced":  [
-                                                       "Alaska",
-                                                       "The Contiguous United States",
-                                                       "The Hawaiian Islands",
-                                                       "Ethiopia",
-                                                       "The Neotropics",
-                                                       "the Palearctic",
-                                                       "The Nearctic",
-                                                       "Oceania continent (Australia, NZ and islands)",
-                                                       "South Africa",
-                                                       "China",
-                                                       "Latvia",
-                                                       "Spain",
-                                                       "Estonia",
-                                                       "Poland",
-                                                       "Japan",
-                                                       "GaláPagos Islands"
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  4156
-                                },
-                        "inat":  {
-                                     "observationCount":  9,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/109289176/medium.jpeg",
-                                     "months":  [
-                                                    1,
-                                                    3,
-                                                    5,
-                                                    9,
-                                                    12
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000020894,
-                        "scientificName":  "Blattella nipponica Asahina, 1963",
-                        "commonName":  "산바퀴",
-                        "terminalLatinName":  "nipponica",
-                        "nomenclaturalAuthor":  "Asahina",
-                        "namingYear":  "1963",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Blattodea",
-                                                       "commonName":  "바퀴목",
-                                                       "ktsn":  120000224585
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Ectobiidae",
-                                                        "commonName":  "바퀴과",
-                                                        "ktsn":  120000020889
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Blattella",
-                                                       "commonName":  "바퀴속",
-                                                       "ktsn":  120000020892
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "nipponica",
-                                                         "commonName":  "산바퀴",
-                                                         "ktsn":  120000020894
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T08:49:49.579Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  1074525,
-                                    "canonical":  "Blattella nipponica",
-                                    "fetchedAt":  "2026-05-24T08:44:52.742Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-                                                                   "산바퀴"
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-                                                                   "モリチャバネゴキブリ"
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-                                                       "Japan",
-                                                       "India",
-                                                       "South Korea"
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  1441
-                                },
-                        "inat":  {
-                                     "observationCount":  144,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/344729513/medium.jpeg",
-                                     "months":  [
-                                                    2,
-                                                    3,
-                                                    4,
-                                                    5,
-                                                    6,
-                                                    7,
-                                                    8,
-                                                    9,
-                                                    10,
-                                                    11,
-                                                    12
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000020896,
-                        "scientificName":  "Symploce striata (Shiraki, 1906)",
-                        "commonName":  "줄바퀴",
-                        "terminalLatinName":  "striata",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Blattodea",
-                                                       "commonName":  "바퀴목",
-                                                       "ktsn":  120000224585
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Ectobiidae",
-                                                        "commonName":  "바퀴과",
-                                                        "ktsn":  120000020889
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Symploce",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000020895
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "striata",
-                                                         "commonName":  "줄바퀴",
-                                                         "ktsn":  120000020896
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T08:43:22.936Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  1073831,
-                                    "canonical":  "Symploce striata",
-                                    "fetchedAt":  "2026-05-24T08:44:56.100Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  7
-                                }
-                    }
-                ],
-    "digitalContentUpdatedAt":  "2026-05-21T08:49:49.579Z",
-    "digitalContentSource":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "blattodea",
+    "scientificName": "Blattodea",
+    "commonName": "바퀴목",
+    "orderKtsn": 120000224585
+  },
+  "family": {
+    "id": "ectobiidae",
+    "scientificName": "Ectobiidae",
+    "commonName": "바퀴과",
+    "familyKtsn": 120000020889
+  },
+  "speciesCount": 5,
+  "insects": [
+    {
+      "ktsn": 120000020891,
+      "scientificName": "Asiablatta kyotensis (Asahina, 1976)",
+      "commonName": "경도바퀴",
+      "terminalLatinName": "kyotensis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Blattodea",
+          "commonName": "바퀴목",
+          "ktsn": 120000224585
+        },
+        "family": {
+          "scientificName": "Ectobiidae",
+          "commonName": "바퀴과",
+          "ktsn": 120000020889
+        },
+        "genus": {
+          "scientificName": "Asiablatta",
+          "commonName": "",
+          "ktsn": 120000020890
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "kyotensis",
+          "commonName": "경도바퀴",
+          "ktsn": 120000020891
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:49:49.579Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 1074584,
+        "canonical": "Asiablatta kyotensis",
+        "fetchedAt": "2026-05-24T08:44:46.412Z",
+        "vernaculars": {
+          "ko": [
+            "경도바퀴"
+          ],
+          "en": [],
+          "ja": [
+            "キョウトゴキブリ",
+            "キョウトゴキブリ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 1
+      },
+      "inat": {
+        "observationCount": 2,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/404955929/medium.jpeg",
+        "months": [
+          6
+        ]
+      },
+      "inatTaxon": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:52:42.657Z",
+        "taxonId": 1087288,
+        "preferredCommonName": null,
+        "observationsCount": 10,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Asiablatta_kyotensis",
+        "defaultPhoto": {
+          "mediumUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/86302901/medium.jpg",
+          "squareUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/86302901/square.jpg",
+          "originalDimensions": {
+            "height": 2048,
+            "width": 1536
+          },
+          "license": "cc-by",
+          "attribution": "(c) mister_bumble, some rights reserved (CC BY), uploaded by mister_bumble",
+          "attributionName": "mister_bumble"
+        },
+        "wikipediaSummary": "<i><b>Asiablatta kyotensis</b></i>, formerly in the genus <i>Parcoblatta</i>, is an endemic roach from Far Eastern Asia. On June 24, 1962, an unfamiliar male roach was captured in Kyoto City. This cockroach was an entirely unknown insect from Japan, and was later described as <i>Parcoblatta kyotensis</i> by Asahina in 1976.",
+        "taxonPhotos": [
+          {
+            "mediumUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/86302901/medium.jpg",
+            "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/86302901/large.jpg",
+            "license": "cc-by",
+            "attribution": "(c) mister_bumble, some rights reserved (CC BY), uploaded by mister_bumble",
+            "attributionName": "mister_bumble"
+          }
+        ]
+      }
+    },
+    {
+      "ktsn": 120000222270,
+      "scientificName": "Balta notulata (Stål, 1860)",
+      "commonName": "유리날개바퀴",
+      "terminalLatinName": "notulata",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Blattodea",
+          "commonName": "바퀴목",
+          "ktsn": 120000224585
+        },
+        "family": {
+          "scientificName": "Ectobiidae",
+          "commonName": "바퀴과",
+          "ktsn": 120000020889
+        },
+        "genus": {
+          "scientificName": "Balta",
+          "commonName": "유리날개바퀴속",
+          "ktsn": 120000222269
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "notulata",
+          "commonName": "유리날개바퀴",
+          "ktsn": 120000222270
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:43:22.936Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 498584,
+        "canonical": "Balta notulata",
+        "fetchedAt": "2026-05-24T08:44:58.928Z",
+        "vernaculars": {
+          "ko": [
+            "유리날개바퀴"
+          ],
+          "en": [
+            "Small-spotted Cockroach",
+            "Cockroach"
+          ],
+          "ja": [
+            "アミメヒラタゴキブリ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "Singapore"
+        ],
+        "introduced": [
+          "The Hawaiian Islands"
+        ],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 146
+      },
+      "inat": {
+        "observationCount": 25,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/54921675/medium.jpeg",
+        "months": [
+          2,
+          3,
+          4,
+          5,
+          7,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "inatTaxon": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:52:43.800Z",
+        "taxonId": 522579,
+        "preferredCommonName": "Small-spotted Cockroach",
+        "observationsCount": 386,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Balta_notulata",
+        "defaultPhoto": {
+          "mediumUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/6200269/medium.jpg",
+          "squareUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/6200269/square.jpg",
+          "originalDimensions": {
+            "height": 1000,
+            "width": 1500
+          },
+          "license": "cc-by-nc",
+          "attribution": "(c) budak, some rights reserved (CC BY-NC), uploaded by budak",
+          "attributionName": "budak"
+        },
+        "wikipediaSummary": "<i><b>Balta notulata</b></i>, also known by the common name <b>small-spotted cockroach</b>, is a species from the genus <i>Balta</i>. By the 1960s it was spread in an area between Sri Lanka, Japan and Easter Island. Already in 1980s it was a domicilary cockroach in Madang Province.",
+        "taxonPhotos": [
+          {
+            "mediumUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/6200269/medium.jpg",
+            "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/6200269/large.jpg",
+            "license": "cc-by-nc",
+            "attribution": "(c) budak, some rights reserved (CC BY-NC), uploaded by budak",
+            "attributionName": "budak"
+          },
+          {
+            "mediumUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/290757606/medium.jpg",
+            "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/290757606/large.jpg",
+            "license": "cc-by",
+            "attribution": "(c) Dominik Maximilián Ramík, some rights reserved (CC BY), uploaded by Dominik Maximilián Ramík",
+            "attributionName": "Dominik Maximilián Ramík"
+          },
+          {
+            "mediumUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/203156733/medium.jpeg",
+            "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/203156733/large.jpeg",
+            "license": "cc-by-nc",
+            "attribution": "(c) Cristian Lucanas, some rights reserved (CC BY-NC), uploaded by Cristian Lucanas",
+            "attributionName": "Cristian Lucanas"
+          },
+          {
+            "mediumUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/235927883/medium.jpeg",
+            "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/235927883/large.jpeg",
+            "license": "cc-by",
+            "attribution": "(c) Dominik Maximilián Ramík, some rights reserved (CC BY), uploaded by Dominik Maximilián Ramík",
+            "attributionName": "Dominik Maximilián Ramík"
+          },
+          {
+            "mediumUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/9814647/medium.jpg",
+            "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/9814647/large.jpg",
+            "license": "cc-by-nc",
+            "attribution": "(c) budak, some rights reserved (CC BY-NC), uploaded by budak",
+            "attributionName": "budak"
+          }
+        ]
+      }
+    },
+    {
+      "ktsn": 120000020893,
+      "scientificName": "Blattella germanica (Linnaeus, 1767)",
+      "commonName": "바퀴",
+      "terminalLatinName": "germanica",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Blattodea",
+          "commonName": "바퀴목",
+          "ktsn": 120000224585
+        },
+        "family": {
+          "scientificName": "Ectobiidae",
+          "commonName": "바퀴과",
+          "ktsn": 120000020889
+        },
+        "genus": {
+          "scientificName": "Blattella",
+          "commonName": "바퀴속",
+          "ktsn": 120000020892
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "germanica",
+          "commonName": "바퀴",
+          "ktsn": 120000020893
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:49:49.579Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 1074540,
+        "canonical": "Blattella germanica",
+        "fetchedAt": "2026-05-24T08:44:49.182Z",
+        "vernaculars": {
+          "ko": [
+            "독일바퀴"
+          ],
+          "en": [
+            "German Cockroach",
+            "Croton Bug",
+            "German cockroach",
+            "German cockroach",
+            "German cockroach"
+          ],
+          "ja": [
+            "チャバネゴキブリ",
+            "チャバネゴキブリ"
+          ]
+        },
+        "habitat": [
+          "clay",
+          "chaparral",
+          "boreal forests (taiga)",
+          "fossorial and/or ground dwelling only",
+          "cave",
+          "oceanic island",
+          "tropical",
+          "temperate",
+          "tropical rainforest",
+          "agricultural",
+          "city",
+          "anthropogenic",
+          "scrubland",
+          "forest",
+          "terrestrial",
+          "grassland"
+        ],
+        "geographic": [
+          "Ecuador",
+          "cosmopolitan",
+          "Alaska",
+          "Florida",
+          "United States",
+          "Mozambique",
+          "the palearctic",
+          "low arctic",
+          "Quebec",
+          "Greenland",
+          "Labrador",
+          "Canadian Arctic Archipelago",
+          "Nunavut",
+          "Northwest Territories",
+          "Yukon",
+          "high arctic",
+          "subarctic",
+          "South Pacific",
+          "North Pacific",
+          "North Atlantic",
+          "Indian Ocean",
+          "Mexico",
+          "Japan",
+          "United Kingdom",
+          "The Netherlands",
+          "Sweden",
+          "South Korea",
+          "Singapore",
+          "Saudi Arabia",
+          "Russia",
+          "Puerto Rico",
+          "Poland",
+          "Norway",
+          "Italy",
+          "Ireland",
+          "Hong Kong",
+          "Germany",
+          "French Polynesia",
+          "France",
+          "Finland",
+          "Estonia",
+          "Czech Republic",
+          "Colombia",
+          "China",
+          "Canada"
+        ],
+        "introduced": [
+          "Alaska",
+          "The Contiguous United States",
+          "The Hawaiian Islands",
+          "Ethiopia",
+          "The Neotropics",
+          "the Palearctic",
+          "The Nearctic",
+          "Oceania continent (Australia, NZ and islands)",
+          "South Africa",
+          "China",
+          "Latvia",
+          "Spain",
+          "Estonia",
+          "Poland",
+          "Japan",
+          "GaláPagos Islands"
+        ],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 4156
+      },
+      "inat": {
+        "observationCount": 9,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/109289176/medium.jpeg",
+        "months": [
+          1,
+          3,
+          5,
+          9,
+          12
+        ]
+      },
+      "inatTaxon": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:52:45.014Z",
+        "taxonId": 121237,
+        "preferredCommonName": "German Cockroach",
+        "observationsCount": 10881,
+        "wikipediaUrl": "http://en.wikipedia.org/wiki/German_cockroach",
+        "defaultPhoto": {
+          "mediumUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/150412244/medium.jpg",
+          "squareUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/150412244/square.jpg",
+          "originalDimensions": {
+            "height": 1066,
+            "width": 1600
+          },
+          "license": "cc-by-nc-sa",
+          "attribution": "(c) Bogdan V. Kryzhatyuk, some rights reserved (CC BY-NC-SA), uploaded by Bogdan V. Kryzhatyuk",
+          "attributionName": "Bogdan V. Kryzhatyuk"
+        },
+        "wikipediaSummary": "The <b>German cockroach</b> (<i>Blattella germanica</i>) is a small species of cockroach, typically about 1.1 to 1.6 cm (0.43 to 0.63 in) long. In colour it varies from tan to almost black, and it has two dark, roughly parallel, streaks on the pronotum running anteroposteriorly from behind the head to the base of the wings. Although <i>Blattella germanica</i> has wings, it can barely fly, although it may glide when disturbed. Of the few species of cockroach that are domestic...",
+        "taxonPhotos": [
+          {
+            "mediumUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/150412244/medium.jpg",
+            "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/150412244/large.jpg",
+            "license": "cc-by-nc-sa",
+            "attribution": "(c) Bogdan V. Kryzhatyuk, some rights reserved (CC BY-NC-SA), uploaded by Bogdan V. Kryzhatyuk",
+            "attributionName": "Bogdan V. Kryzhatyuk"
+          },
+          {
+            "mediumUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/123921622/medium.jpeg",
+            "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/123921622/large.jpeg",
+            "license": "cc-by-nc",
+            "attribution": "(c) juju98, some rights reserved (CC BY-NC), uploaded by juju98",
+            "attributionName": "juju98"
+          },
+          {
+            "mediumUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/614451441/medium.jpg",
+            "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/614451441/large.jpg",
+            "license": "cc-by-nc",
+            "attribution": "(c) Andrew Galloway, some rights reserved (CC BY-NC), uploaded by Andrew Galloway",
+            "attributionName": "Andrew Galloway"
+          },
+          {
+            "mediumUrl": "https://static.inaturalist.org/photos/102159027/medium.jpg",
+            "largeUrl": "https://static.inaturalist.org/photos/102159027/large.jpg",
+            "license": null,
+            "attribution": "(c) hlchan, all rights reserved, uploaded by hlchan",
+            "attributionName": "hlchan"
+          },
+          {
+            "mediumUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/67642/medium.jpg",
+            "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/67642/large.jpg",
+            "license": "cc-by-sa",
+            "attribution": "(c) D. Sikes, some rights reserved (CC BY-SA)",
+            "attributionName": "D. Sikes"
+          }
+        ]
+      }
+    },
+    {
+      "ktsn": 120000020894,
+      "scientificName": "Blattella nipponica Asahina, 1963",
+      "commonName": "산바퀴",
+      "terminalLatinName": "nipponica",
+      "nomenclaturalAuthor": "Asahina",
+      "namingYear": "1963",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Blattodea",
+          "commonName": "바퀴목",
+          "ktsn": 120000224585
+        },
+        "family": {
+          "scientificName": "Ectobiidae",
+          "commonName": "바퀴과",
+          "ktsn": 120000020889
+        },
+        "genus": {
+          "scientificName": "Blattella",
+          "commonName": "바퀴속",
+          "ktsn": 120000020892
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "nipponica",
+          "commonName": "산바퀴",
+          "ktsn": 120000020894
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:49:49.579Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 1074525,
+        "canonical": "Blattella nipponica",
+        "fetchedAt": "2026-05-24T08:44:52.742Z",
+        "vernaculars": {
+          "ko": [
+            "산바퀴"
+          ],
+          "en": [],
+          "ja": [
+            "モリチャバネゴキブリ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "Japan",
+          "India",
+          "South Korea"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 1441
+      },
+      "inat": {
+        "observationCount": 144,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/344729513/medium.jpeg",
+        "months": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "inatTaxon": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:52:46.226Z",
+        "taxonId": 358428,
+        "preferredCommonName": null,
+        "observationsCount": 1268,
+        "wikipediaUrl": null,
+        "defaultPhoto": {
+          "mediumUrl": "https://static.inaturalist.org/photos/408505263/medium.jpeg",
+          "squareUrl": "https://static.inaturalist.org/photos/408505263/square.jpeg",
+          "originalDimensions": {
+            "height": 1362,
+            "width": 2048
+          },
+          "license": null,
+          "attribution": "(c) Wonwoong Kim, all rights reserved, uploaded by Wonwoong Kim",
+          "attributionName": "Wonwoong Kim"
+        },
+        "wikipediaSummary": null,
+        "taxonPhotos": [
+          {
+            "mediumUrl": "https://static.inaturalist.org/photos/408505263/medium.jpeg",
+            "largeUrl": "https://static.inaturalist.org/photos/408505263/large.jpeg",
+            "license": null,
+            "attribution": "(c) Wonwoong Kim, all rights reserved, uploaded by Wonwoong Kim",
+            "attributionName": "Wonwoong Kim"
+          },
+          {
+            "mediumUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/20392163/medium.jpg",
+            "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/20392163/large.jpg",
+            "license": "cc-by-nc",
+            "attribution": "(c) Javier, some rights reserved (CC BY-NC), uploaded by Javier",
+            "attributionName": "Javier"
+          },
+          {
+            "mediumUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/21754431/medium.jpg",
+            "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/21754431/large.jpg",
+            "license": "cc-by-nc",
+            "attribution": "(c) Kim, Hyun-tae, some rights reserved (CC BY-NC), uploaded by Kim, Hyun-tae",
+            "attributionName": "Kim, Hyun-tae"
+          },
+          {
+            "mediumUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/38855864/medium.jpg",
+            "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/38855864/large.jpg",
+            "license": "cc-by-nc-nd",
+            "attribution": "(c) Paul B., some rights reserved (CC BY-NC-ND), uploaded by Paul B.",
+            "attributionName": "Paul B."
+          },
+          {
+            "mediumUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/10944116/medium.jpg",
+            "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/10944116/large.jpg",
+            "license": "cc-by-nc-nd",
+            "attribution": "(c) Paul B., some rights reserved (CC BY-NC-ND), uploaded by Paul B.",
+            "attributionName": "Paul B."
+          }
+        ]
+      }
+    },
+    {
+      "ktsn": 120000020896,
+      "scientificName": "Symploce striata (Shiraki, 1906)",
+      "commonName": "줄바퀴",
+      "terminalLatinName": "striata",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Blattodea",
+          "commonName": "바퀴목",
+          "ktsn": 120000224585
+        },
+        "family": {
+          "scientificName": "Ectobiidae",
+          "commonName": "바퀴과",
+          "ktsn": 120000020889
+        },
+        "genus": {
+          "scientificName": "Symploce",
+          "commonName": "",
+          "ktsn": 120000020895
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "striata",
+          "commonName": "줄바퀴",
+          "ktsn": 120000020896
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:43:22.936Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 1073831,
+        "canonical": "Symploce striata",
+        "fetchedAt": "2026-05-24T08:44:56.100Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 7
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:03:09.256Z"
+      },
+      "inatTaxon": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:52:46.788Z"
+      }
+    }
+  ],
+  "digitalContentUpdatedAt": "2026-05-21T08:49:49.579Z",
+  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
 }

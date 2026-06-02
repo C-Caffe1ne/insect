@@ -1,538 +1,455 @@
 {
-    "generatedAt":  "2026-05-21T07:47:08.025Z",
-    "source":  "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
-    "order":  {
-                  "id":  "hemiptera",
-                  "scientificName":  "Hemiptera",
-                  "commonName":  "노린재목",
-                  "orderKtsn":  120000066597
-              },
-    "family":  {
-                   "id":  "achilidae",
-                   "scientificName":  "Achilidae",
-                   "commonName":  "좀머리멸구과",
-                   "familyKtsn":  120000024044
-               },
-    "speciesCount":  5,
-    "insects":  [
-                    {
-                        "ktsn":  120000024046,
-                        "scientificName":  "Akotropis fumata Matsumura, 1914",
-                        "commonName":  "좀머리멸구",
-                        "terminalLatinName":  "fumata",
-                        "nomenclaturalAuthor":  "Matsumura",
-                        "namingYear":  "1914",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hemiptera",
-                                                       "commonName":  "노린재목",
-                                                       "ktsn":  120000066597
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Achilidae",
-                                                        "commonName":  "좀머리멸구과",
-                                                        "ktsn":  120000024044
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Akotropis",
-                                                       "commonName":  "좀머리멸구속",
-                                                       "ktsn":  120000024045
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "fumata",
-                                                         "commonName":  "좀머리멸구",
-                                                         "ktsn":  120000024046
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:21:51.820Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  1011564,
-                                    "canonical":  "Akotropis fumata",
-                                    "fetchedAt":  "2026-05-24T09:33:09.458Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-                                                                   "ウスグロコガシラウンカ"
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  14
-                                }
-                    },
-                    {
-                        "ktsn":  120000024048,
-                        "scientificName":  "Deferunda rubrostigma (Matsumura, 1914)",
-                        "commonName":  "알락좀머리멸구",
-                        "terminalLatinName":  "rubrostigma",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hemiptera",
-                                                       "commonName":  "노린재목",
-                                                       "ktsn":  120000066597
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Achilidae",
-                                                        "commonName":  "좀머리멸구과",
-                                                        "ktsn":  120000024044
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Deferunda",
-                                                       "commonName":  "알락좀머리멸구속",
-                                                       "ktsn":  120000067468
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "rubrostigma",
-                                                         "commonName":  "알락좀머리멸구",
-                                                         "ktsn":  120000024048
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:21:51.820Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    },
-                    {
-                        "ktsn":  120000024050,
-                        "scientificName":  "Errada nawae (Matsumura, 1914)",
-                        "commonName":  "울도좀머리멸구",
-                        "terminalLatinName":  "nawae",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hemiptera",
-                                                       "commonName":  "노린재목",
-                                                       "ktsn":  120000066597
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Achilidae",
-                                                        "commonName":  "좀머리멸구과",
-                                                        "ktsn":  120000024044
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Errada",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000024049
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "nawae",
-                                                         "commonName":  "울도좀머리멸구",
-                                                         "ktsn":  120000024050
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:21:51.820Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  984657,
-                                    "canonical":  "Errada nawae",
-                                    "fetchedAt":  "2026-05-24T09:33:25.014Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-                                                                   "울도좀머리멸구"
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-                                                                   "ナワコガシラウンカ"
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-                                                       "Japan"
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  35
-                                }
-                    },
-                    {
-                        "ktsn":  120000024052,
-                        "scientificName":  "Kosalya flavostrigata Distant, 1906",
-                        "commonName":  "정숙머리멸구",
-                        "terminalLatinName":  "flavostrigata",
-                        "nomenclaturalAuthor":  "Distant",
-                        "namingYear":  "1906",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hemiptera",
-                                                       "commonName":  "노린재목",
-                                                       "ktsn":  120000066597
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Achilidae",
-                                                        "commonName":  "좀머리멸구과",
-                                                        "ktsn":  120000024044
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Kosalya",
-                                                       "commonName":  "정숙머리멸구속",
-                                                       "ktsn":  120000024051
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "flavostrigata",
-                                                         "commonName":  "정숙머리멸구",
-                                                         "ktsn":  120000024052
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:21:51.820Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  236373,
-                                    "canonical":  "Kosalya flavostrigata",
-                                    "fetchedAt":  "2026-05-24T09:33:28.290Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-                                                                   "정숙머리멸구"
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-                                                       "South Korea",
-                                                       "China"
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  51
-                                },
-                        "inat":  {
-                                     "observationCount":  5,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/10465057/medium.jpg",
-                                     "months":  [
-                                                    7,
-                                                    8
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000024054,
-                        "scientificName":  "Usana yanonis Matsumura, 1914",
-                        "commonName":  "야노좀머리멸구",
-                        "terminalLatinName":  "yanonis",
-                        "nomenclaturalAuthor":  "Matsumura",
-                        "namingYear":  "1914",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hemiptera",
-                                                       "commonName":  "노린재목",
-                                                       "ktsn":  120000066597
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Achilidae",
-                                                        "commonName":  "좀머리멸구과",
-                                                        "ktsn":  120000024044
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Usana",
-                                                       "commonName":  "야노좀머리멸구속",
-                                                       "ktsn":  120000024053
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "yanonis",
-                                                         "commonName":  "야노좀머리멸구",
-                                                         "ktsn":  120000024054
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:21:51.820Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  987104,
-                                    "canonical":  "Usana yanonis",
-                                    "fetchedAt":  "2026-05-24T09:33:34.332Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-                                                                   "야노좀머리멸구"
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  7
-                                },
-                        "inat":  {
-                                     "observationCount":  2,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/150883873/medium.jpeg",
-                                     "months":  [
-                                                    7,
-                                                    8
-                                                ]
-                                 }
-                    }
-                ],
-    "digitalContentUpdatedAt":  "2026-05-21T09:21:51.820Z",
-    "digitalContentSource":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "hemiptera",
+    "scientificName": "Hemiptera",
+    "commonName": "노린재목",
+    "orderKtsn": 120000066597
+  },
+  "family": {
+    "id": "achilidae",
+    "scientificName": "Achilidae",
+    "commonName": "좀머리멸구과",
+    "familyKtsn": 120000024044
+  },
+  "speciesCount": 5,
+  "insects": [
+    {
+      "ktsn": 120000024046,
+      "scientificName": "Akotropis fumata Matsumura, 1914",
+      "commonName": "좀머리멸구",
+      "terminalLatinName": "fumata",
+      "nomenclaturalAuthor": "Matsumura",
+      "namingYear": "1914",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Achilidae",
+          "commonName": "좀머리멸구과",
+          "ktsn": 120000024044
+        },
+        "genus": {
+          "scientificName": "Akotropis",
+          "commonName": "좀머리멸구속",
+          "ktsn": 120000024045
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "fumata",
+          "commonName": "좀머리멸구",
+          "ktsn": 120000024046
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:21:51.820Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 1011564,
+        "canonical": "Akotropis fumata",
+        "fetchedAt": "2026-05-24T09:33:09.458Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": [
+            "ウスグロコガシラウンカ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 14
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:23.452Z"
+      }
+    },
+    {
+      "ktsn": 120000024048,
+      "scientificName": "Deferunda rubrostigma (Matsumura, 1914)",
+      "commonName": "알락좀머리멸구",
+      "terminalLatinName": "rubrostigma",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Achilidae",
+          "commonName": "좀머리멸구과",
+          "ktsn": 120000024044
+        },
+        "genus": {
+          "scientificName": "Deferunda",
+          "commonName": "알락좀머리멸구속",
+          "ktsn": 120000067468
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "rubrostigma",
+          "commonName": "알락좀머리멸구",
+          "ktsn": 120000024048
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:21:51.820Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:23.452Z"
+      }
+    },
+    {
+      "ktsn": 120000024050,
+      "scientificName": "Errada nawae (Matsumura, 1914)",
+      "commonName": "울도좀머리멸구",
+      "terminalLatinName": "nawae",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Achilidae",
+          "commonName": "좀머리멸구과",
+          "ktsn": 120000024044
+        },
+        "genus": {
+          "scientificName": "Errada",
+          "commonName": "",
+          "ktsn": 120000024049
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "nawae",
+          "commonName": "울도좀머리멸구",
+          "ktsn": 120000024050
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:21:51.820Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 984657,
+        "canonical": "Errada nawae",
+        "fetchedAt": "2026-05-24T09:33:25.014Z",
+        "vernaculars": {
+          "ko": [
+            "울도좀머리멸구"
+          ],
+          "en": [],
+          "ja": [
+            "ナワコガシラウンカ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "Japan"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 35
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:23.452Z"
+      }
+    },
+    {
+      "ktsn": 120000024052,
+      "scientificName": "Kosalya flavostrigata Distant, 1906",
+      "commonName": "정숙머리멸구",
+      "terminalLatinName": "flavostrigata",
+      "nomenclaturalAuthor": "Distant",
+      "namingYear": "1906",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Achilidae",
+          "commonName": "좀머리멸구과",
+          "ktsn": 120000024044
+        },
+        "genus": {
+          "scientificName": "Kosalya",
+          "commonName": "정숙머리멸구속",
+          "ktsn": 120000024051
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "flavostrigata",
+          "commonName": "정숙머리멸구",
+          "ktsn": 120000024052
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:21:51.820Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 236373,
+        "canonical": "Kosalya flavostrigata",
+        "fetchedAt": "2026-05-24T09:33:28.290Z",
+        "vernaculars": {
+          "ko": [
+            "정숙머리멸구"
+          ],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [
+          "South Korea",
+          "China"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 51
+      },
+      "inat": {
+        "observationCount": 5,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/10465057/medium.jpg",
+        "months": [
+          7,
+          8
+        ]
+      }
+    },
+    {
+      "ktsn": 120000024054,
+      "scientificName": "Usana yanonis Matsumura, 1914",
+      "commonName": "야노좀머리멸구",
+      "terminalLatinName": "yanonis",
+      "nomenclaturalAuthor": "Matsumura",
+      "namingYear": "1914",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Achilidae",
+          "commonName": "좀머리멸구과",
+          "ktsn": 120000024044
+        },
+        "genus": {
+          "scientificName": "Usana",
+          "commonName": "야노좀머리멸구속",
+          "ktsn": 120000024053
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "yanonis",
+          "commonName": "야노좀머리멸구",
+          "ktsn": 120000024054
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:21:51.820Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 987104,
+        "canonical": "Usana yanonis",
+        "fetchedAt": "2026-05-24T09:33:34.332Z",
+        "vernaculars": {
+          "ko": [
+            "야노좀머리멸구"
+          ],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 7
+      },
+      "inat": {
+        "observationCount": 2,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/150883873/medium.jpeg",
+        "months": [
+          7,
+          8
+        ]
+      }
+    }
+  ],
+  "digitalContentUpdatedAt": "2026-05-21T09:21:51.820Z",
+  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
 }

@@ -1,691 +1,656 @@
 {
-    "generatedAt":  "2026-05-21T07:47:08.025Z",
-    "source":  "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
-    "order":  {
-                  "id":  "lepidoptera",
-                  "scientificName":  "Lepidoptera",
-                  "commonName":  "나비목",
-                  "orderKtsn":  120000031663
-              },
-    "family":  {
-                   "id":  "lyonetiidae",
-                   "scientificName":  "Lyonetiidae",
-                   "commonName":  "굴나방과",
-                   "familyKtsn":  120000034493
-               },
-    "speciesCount":  7,
-    "insects":  [
-                    {
-                        "ktsn":  120000034495,
-                        "scientificName":  "Lyonetia clerkella (Linné, 1758)",
-                        "commonName":  "복숭아굴나방",
-                        "terminalLatinName":  "clerkella",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Lyonetiidae",
-                                                        "commonName":  "굴나방과",
-                                                        "ktsn":  120000034493
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Lyonetia",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000034494
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "clerkella",
-                                                         "commonName":  "복숭아굴나방",
-                                                         "ktsn":  120000034495
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  956187,
-                                    "canonical":  "Lyonetia clerkella",
-                                    "fetchedAt":  "2026-05-24T11:32:09.058Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-                                                                   "복숭아굴나방"
-                                                               ],
-                                                        "en":  [
-                                                                   "Apple Leafminer",
-                                                                   "apple leaf miner"
-                                                               ],
-                                                        "ja":  [
-                                                                   "モモハモグリガ"
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-                                                       "Madagascar",
-                                                       "South Korea",
-                                                       "Japan",
-                                                       "China",
-                                                       "Africa",
-                                                       "Europe",
-                                                       "Turkey",
-                                                       "Middle East",
-                                                       "Taiwan",
-                                                       "Korea",
-                                                       "India",
-                                                       "North America",
-                                                       "Mongolia",
-                                                       "North Atlantic",
-                                                       "United Kingdom",
-                                                       "The Netherlands",
-                                                       "Sweden",
-                                                       "Slovakia",
-                                                       "Russia",
-                                                       "Norway",
-                                                       "Luxembourg",
-                                                       "Italy",
-                                                       "Ireland",
-                                                       "Germany",
-                                                       "France",
-                                                       "Finland",
-                                                       "Estonia",
-                                                       "Denmark",
-                                                       "Bulgaria",
-                                                       "Austria"
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  13621
-                                },
-                        "inat":  {
-                                     "observationCount":  2,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/107491902/medium.jpg",
-                                     "months":  [
-                                                    7,
-                                                    8
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000034496,
-                        "scientificName":  "Lyonetia ledi Wocke, 1859",
-                        "commonName":  "진달래굴나방",
-                        "terminalLatinName":  "ledi",
-                        "nomenclaturalAuthor":  "Wocke",
-                        "namingYear":  "1859",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Lyonetiidae",
-                                                        "commonName":  "굴나방과",
-                                                        "ktsn":  120000034493
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Lyonetia",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000034494
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "ledi",
-                                                         "commonName":  "진달래굴나방",
-                                                         "ktsn":  120000034496
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  957346,
-                                    "canonical":  "Lyonetia ledi",
-                                    "fetchedAt":  "2026-05-24T11:32:12.271Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-                                                                   "진달래굴나방"
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-                                                                   "ツツジハモグリガ"
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-                                                       "Norway",
-                                                       "Canada",
-                                                       "Estonia",
-                                                       "Finland",
-                                                       "Germany",
-                                                       "Sweden",
-                                                       "Russia",
-                                                       "Denmark",
-                                                       "Slovakia",
-                                                       "Lithuania",
-                                                       "Austria",
-                                                       "Latvia",
-                                                       "Korea",
-                                                       "Poland",
-                                                       "France",
-                                                       "Czech Republic",
-                                                       "Switzerland",
-                                                       "Romania",
-                                                       "Japan",
-                                                       "China",
-                                                       "South Korea"
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  562
-                                },
-                        "inat":  {
-                                     "observationCount":  1,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/129985636/medium.jpeg",
-                                     "months":  [
-                                                    5
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000034497,
-                        "scientificName":  "Lyonetia prunifoliella ",
-                        "commonName":  "은무늬굴나방",
-                        "terminalLatinName":  "prunifoliella",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Lyonetiidae",
-                                                        "commonName":  "굴나방과",
-                                                        "ktsn":  120000034493
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Lyonetia",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000034494
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "prunifoliella",
-                                                         "commonName":  "은무늬굴나방",
-                                                         "ktsn":  120000034497
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  954565,
-                                    "canonical":  "Lyonetia prunifoliella",
-                                    "fetchedAt":  "2026-05-24T11:32:15.679Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-                                                                   "은무늬굴나방"
-                                                               ],
-                                                        "en":  [
-                                                                   "Striped Bent-wing",
-                                                                   "Blackthorn Blister Moth",
-                                                                   "striped bent-wing"
-                                                               ],
-                                                        "ja":  [
-                                                                   "リンゴハモグリガ"
-                                                               ]
-                                                    },
-                                    "habitat":  [
-                                                    "farm",
-                                                    "heath"
-                                                ],
-                                    "geographic":  [
-                                                       "Central Asia",
-                                                       "South Korea",
-                                                       "Asia",
-                                                       "North America",
-                                                       "Mongolia",
-                                                       "The Netherlands",
-                                                       "Japan",
-                                                       "Europe",
-                                                       "Luxembourg",
-                                                       "Korea",
-                                                       "China",
-                                                       "Turkey",
-                                                       "Russia",
-                                                       "United States",
-                                                       "Austria",
-                                                       "Canada",
-                                                       "Estonia",
-                                                       "Finland",
-                                                       "France",
-                                                       "Germany",
-                                                       "Sweden",
-                                                       "United Kingdom",
-                                                       "North Pacific"
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  970
-                                },
-                        "inat":  {
-                                     "observationCount":  2,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/63551333/medium.jpeg",
-                                     "months":  [
-                                                    5,
-                                                    9
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000034499,
-                        "scientificName":  "Microthauma glycinella Kuroko, 1964",
-                        "commonName":  "콩굴나방",
-                        "terminalLatinName":  "glycinella",
-                        "nomenclaturalAuthor":  "Kuroko",
-                        "namingYear":  "1964",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Lyonetiidae",
-                                                        "commonName":  "굴나방과",
-                                                        "ktsn":  120000034493
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Microthauma",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000034498
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "glycinella",
-                                                         "commonName":  "콩굴나방",
-                                                         "ktsn":  120000034499
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  51520354,
-                                    "canonical":  "Microthauma glycinella",
-                                    "fetchedAt":  "2026-05-24T11:32:23.768Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  null
-                                }
-                    },
-                    {
-                        "ktsn":  120000034501,
-                        "scientificName":  "Paraleucoptera sinuella (Reutti, 1853)",
-                        "commonName":  "미류굴나방",
-                        "terminalLatinName":  "sinuella",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Lyonetiidae",
-                                                        "commonName":  "굴나방과",
-                                                        "ktsn":  120000034493
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Paraleucoptera",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000034500
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "sinuella",
-                                                         "commonName":  "미류굴나방",
-                                                         "ktsn":  120000034501
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000034503,
-                        "scientificName":  "Proleucoptera celastrella Kuroko, 1964",
-                        "commonName":  "노박덩굴굴나방",
-                        "terminalLatinName":  "celastrella",
-                        "nomenclaturalAuthor":  "Kuroko",
-                        "namingYear":  "1964",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Lyonetiidae",
-                                                        "commonName":  "굴나방과",
-                                                        "ktsn":  120000034493
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Proleucoptera",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000034502
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "celastrella",
-                                                         "commonName":  "노박덩굴굴나방",
-                                                         "ktsn":  120000034503
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  957811,
-                                    "canonical":  "Proleucoptera celastrella",
-                                    "fetchedAt":  "2026-05-24T11:32:37.020Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-                                                                   "노박덩굴굴나방"
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-                                                                   "ツルウメモドキシロハモグリ"
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  null
-                                }
-                    },
-                    {
-                        "ktsn":  120000034504,
-                        "scientificName":  "Proleucoptera smilactis Kuroko, 1964",
-                        "commonName":  "청미래굴나방",
-                        "terminalLatinName":  "smilactis",
-                        "nomenclaturalAuthor":  "Kuroko",
-                        "namingYear":  "1964",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Lyonetiidae",
-                                                        "commonName":  "굴나방과",
-                                                        "ktsn":  120000034493
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Proleucoptera",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000034502
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "smilactis",
-                                                         "commonName":  "청미래굴나방",
-                                                         "ktsn":  120000034504
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  956579,
-                                    "canonical":  "Proleucoptera smilactis",
-                                    "fetchedAt":  "2026-05-24T11:32:51.826Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-                                                                   "청미래굴나방"
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-                                                                   "サルトリイバラシロハモグリ"
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  null
-                                }
-                    }
-                ]
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "lepidoptera",
+    "scientificName": "Lepidoptera",
+    "commonName": "나비목",
+    "orderKtsn": 120000031663
+  },
+  "family": {
+    "id": "lyonetiidae",
+    "scientificName": "Lyonetiidae",
+    "commonName": "굴나방과",
+    "familyKtsn": 120000034493
+  },
+  "speciesCount": 7,
+  "insects": [
+    {
+      "ktsn": 120000034495,
+      "scientificName": "Lyonetia clerkella (Linné, 1758)",
+      "commonName": "복숭아굴나방",
+      "terminalLatinName": "clerkella",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Lyonetiidae",
+          "commonName": "굴나방과",
+          "ktsn": 120000034493
+        },
+        "genus": {
+          "scientificName": "Lyonetia",
+          "commonName": "",
+          "ktsn": 120000034494
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "clerkella",
+          "commonName": "복숭아굴나방",
+          "ktsn": 120000034495
+        }
+      },
+      "eol": {
+        "pageId": 956187,
+        "canonical": "Lyonetia clerkella",
+        "fetchedAt": "2026-05-24T11:32:09.058Z",
+        "vernaculars": {
+          "ko": [
+            "복숭아굴나방"
+          ],
+          "en": [
+            "Apple Leafminer",
+            "apple leaf miner"
+          ],
+          "ja": [
+            "モモハモグリガ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "Madagascar",
+          "South Korea",
+          "Japan",
+          "China",
+          "Africa",
+          "Europe",
+          "Turkey",
+          "Middle East",
+          "Taiwan",
+          "Korea",
+          "India",
+          "North America",
+          "Mongolia",
+          "North Atlantic",
+          "United Kingdom",
+          "The Netherlands",
+          "Sweden",
+          "Slovakia",
+          "Russia",
+          "Norway",
+          "Luxembourg",
+          "Italy",
+          "Ireland",
+          "Germany",
+          "France",
+          "Finland",
+          "Estonia",
+          "Denmark",
+          "Bulgaria",
+          "Austria"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 13621
+      },
+      "inat": {
+        "observationCount": 2,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/107491902/medium.jpg",
+        "months": [
+          7,
+          8
+        ]
+      }
+    },
+    {
+      "ktsn": 120000034496,
+      "scientificName": "Lyonetia ledi Wocke, 1859",
+      "commonName": "진달래굴나방",
+      "terminalLatinName": "ledi",
+      "nomenclaturalAuthor": "Wocke",
+      "namingYear": "1859",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Lyonetiidae",
+          "commonName": "굴나방과",
+          "ktsn": 120000034493
+        },
+        "genus": {
+          "scientificName": "Lyonetia",
+          "commonName": "",
+          "ktsn": 120000034494
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "ledi",
+          "commonName": "진달래굴나방",
+          "ktsn": 120000034496
+        }
+      },
+      "eol": {
+        "pageId": 957346,
+        "canonical": "Lyonetia ledi",
+        "fetchedAt": "2026-05-24T11:32:12.271Z",
+        "vernaculars": {
+          "ko": [
+            "진달래굴나방"
+          ],
+          "en": [],
+          "ja": [
+            "ツツジハモグリガ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "Norway",
+          "Canada",
+          "Estonia",
+          "Finland",
+          "Germany",
+          "Sweden",
+          "Russia",
+          "Denmark",
+          "Slovakia",
+          "Lithuania",
+          "Austria",
+          "Latvia",
+          "Korea",
+          "Poland",
+          "France",
+          "Czech Republic",
+          "Switzerland",
+          "Romania",
+          "Japan",
+          "China",
+          "South Korea"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 562
+      },
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/129985636/medium.jpeg",
+        "months": [
+          5
+        ]
+      }
+    },
+    {
+      "ktsn": 120000034497,
+      "scientificName": "Lyonetia prunifoliella ",
+      "commonName": "은무늬굴나방",
+      "terminalLatinName": "prunifoliella",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Lyonetiidae",
+          "commonName": "굴나방과",
+          "ktsn": 120000034493
+        },
+        "genus": {
+          "scientificName": "Lyonetia",
+          "commonName": "",
+          "ktsn": 120000034494
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "prunifoliella",
+          "commonName": "은무늬굴나방",
+          "ktsn": 120000034497
+        }
+      },
+      "eol": {
+        "pageId": 954565,
+        "canonical": "Lyonetia prunifoliella",
+        "fetchedAt": "2026-05-24T11:32:15.679Z",
+        "vernaculars": {
+          "ko": [
+            "은무늬굴나방"
+          ],
+          "en": [
+            "Striped Bent-wing",
+            "Blackthorn Blister Moth",
+            "striped bent-wing"
+          ],
+          "ja": [
+            "リンゴハモグリガ"
+          ]
+        },
+        "habitat": [
+          "farm",
+          "heath"
+        ],
+        "geographic": [
+          "Central Asia",
+          "South Korea",
+          "Asia",
+          "North America",
+          "Mongolia",
+          "The Netherlands",
+          "Japan",
+          "Europe",
+          "Luxembourg",
+          "Korea",
+          "China",
+          "Turkey",
+          "Russia",
+          "United States",
+          "Austria",
+          "Canada",
+          "Estonia",
+          "Finland",
+          "France",
+          "Germany",
+          "Sweden",
+          "United Kingdom",
+          "North Pacific"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 970
+      },
+      "inat": {
+        "observationCount": 2,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/63551333/medium.jpeg",
+        "months": [
+          5,
+          9
+        ]
+      }
+    },
+    {
+      "ktsn": 120000034499,
+      "scientificName": "Microthauma glycinella Kuroko, 1964",
+      "commonName": "콩굴나방",
+      "terminalLatinName": "glycinella",
+      "nomenclaturalAuthor": "Kuroko",
+      "namingYear": "1964",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Lyonetiidae",
+          "commonName": "굴나방과",
+          "ktsn": 120000034493
+        },
+        "genus": {
+          "scientificName": "Microthauma",
+          "commonName": "",
+          "ktsn": 120000034498
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "glycinella",
+          "commonName": "콩굴나방",
+          "ktsn": 120000034499
+        }
+      },
+      "eol": {
+        "pageId": 51520354,
+        "canonical": "Microthauma glycinella",
+        "fetchedAt": "2026-05-24T11:32:23.768Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:09:52.915Z",
+        "title": "Microthauma glycinella",
+        "description": "species of insect"
+      }
+    },
+    {
+      "ktsn": 120000034501,
+      "scientificName": "Paraleucoptera sinuella (Reutti, 1853)",
+      "commonName": "미류굴나방",
+      "terminalLatinName": "sinuella",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Lyonetiidae",
+          "commonName": "굴나방과",
+          "ktsn": 120000034493
+        },
+        "genus": {
+          "scientificName": "Paraleucoptera",
+          "commonName": "",
+          "ktsn": 120000034500
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "sinuella",
+          "commonName": "미류굴나방",
+          "ktsn": 120000034501
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:09:52.915Z",
+        "title": "Leucoptera sinuella",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Leucoptera_sinuella_%2842390597571%29.jpg/500px-Leucoptera_sinuella_%2842390597571%29.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Leucoptera_sinuella_%2842390597571%29.jpg",
+        "thumbnailSize": {
+          "width": 500,
+          "height": 375
+        },
+        "originalSize": {
+          "width": 1368,
+          "height": 1026
+        },
+        "filename": "Leucoptera_sinuella_(42390597571).jpg",
+        "description": "species of insect",
+        "pageUrl": "https://en.wikipedia.org/wiki/Leucoptera_sinuella",
+        "license": "see Wikimedia Commons",
+        "source": "Wikipedia"
+      }
+    },
+    {
+      "ktsn": 120000034503,
+      "scientificName": "Proleucoptera celastrella Kuroko, 1964",
+      "commonName": "노박덩굴굴나방",
+      "terminalLatinName": "celastrella",
+      "nomenclaturalAuthor": "Kuroko",
+      "namingYear": "1964",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Lyonetiidae",
+          "commonName": "굴나방과",
+          "ktsn": 120000034493
+        },
+        "genus": {
+          "scientificName": "Proleucoptera",
+          "commonName": "",
+          "ktsn": 120000034502
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "celastrella",
+          "commonName": "노박덩굴굴나방",
+          "ktsn": 120000034503
+        }
+      },
+      "eol": {
+        "pageId": 957811,
+        "canonical": "Proleucoptera celastrella",
+        "fetchedAt": "2026-05-24T11:32:37.020Z",
+        "vernaculars": {
+          "ko": [
+            "노박덩굴굴나방"
+          ],
+          "en": [],
+          "ja": [
+            "ツルウメモドキシロハモグリ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:09:52.915Z",
+        "title": "Leucoptera celastrella",
+        "description": "species of moths"
+      }
+    },
+    {
+      "ktsn": 120000034504,
+      "scientificName": "Proleucoptera smilactis Kuroko, 1964",
+      "commonName": "청미래굴나방",
+      "terminalLatinName": "smilactis",
+      "nomenclaturalAuthor": "Kuroko",
+      "namingYear": "1964",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Lyonetiidae",
+          "commonName": "굴나방과",
+          "ktsn": 120000034493
+        },
+        "genus": {
+          "scientificName": "Proleucoptera",
+          "commonName": "",
+          "ktsn": 120000034502
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "smilactis",
+          "commonName": "청미래굴나방",
+          "ktsn": 120000034504
+        }
+      },
+      "eol": {
+        "pageId": 956579,
+        "canonical": "Proleucoptera smilactis",
+        "fetchedAt": "2026-05-24T11:32:51.826Z",
+        "vernaculars": {
+          "ko": [
+            "청미래굴나방"
+          ],
+          "en": [],
+          "ja": [
+            "サルトリイバラシロハモグリ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:09:52.915Z",
+        "title": "Leucoptera smilactis",
+        "description": "species of insect"
+      }
+    }
+  ]
 }

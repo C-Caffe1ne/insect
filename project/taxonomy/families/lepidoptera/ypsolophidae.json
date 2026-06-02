@@ -1,1310 +1,1428 @@
 {
-    "generatedAt":  "2026-05-21T07:47:08.025Z",
-    "source":  "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
-    "order":  {
-                  "id":  "lepidoptera",
-                  "scientificName":  "Lepidoptera",
-                  "commonName":  "나비목",
-                  "orderKtsn":  120000031663
-              },
-    "family":  {
-                   "id":  "ypsolophidae",
-                   "scientificName":  "Ypsolophidae",
-                   "commonName":  "갈고리좀나방과",
-                   "familyKtsn":  120000037048
-               },
-    "speciesCount":  21,
-    "insects":  [
-                    {
-                        "ktsn":  120000218129,
-                        "scientificName":  "Ypsolopha acerella Ponomarenko, Sohn and Zinchenko, 2011",
-                        "commonName":  "신나무좀나방",
-                        "terminalLatinName":  "acerella",
-                        "nomenclaturalAuthor":  "Ponomarenko, Sohn and Zinchenko",
-                        "namingYear":  "2011",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Ypsolophidae",
-                                                        "commonName":  "갈고리좀나방과",
-                                                        "ktsn":  120000037048
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Ypsolopha",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000037049
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "acerella",
-                                                         "commonName":  "신나무좀나방",
-                                                         "ktsn":  120000218129
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000218117,
-                        "scientificName":  "Ypsolopha acuminata (Butler, 1879)",
-                        "commonName":  "줄무늬좀나방",
-                        "terminalLatinName":  "acuminata",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Ypsolophidae",
-                                                        "commonName":  "갈고리좀나방과",
-                                                        "ktsn":  120000037048
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Ypsolopha",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000037049
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "acuminata",
-                                                         "commonName":  "줄무늬좀나방",
-                                                         "ktsn":  120000218117
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  20367317,
-                                    "canonical":  "Ypsolopha acuminata",
-                                    "fetchedAt":  "2026-05-24T17:03:14.539Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  null
-                                }
-                    },
-                    {
-                        "ktsn":  120000218126,
-                        "scientificName":  "Ypsolopha amoenella (Christoph, 1882)",
-                        "commonName":  "",
-                        "terminalLatinName":  "amoenella",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Ypsolophidae",
-                                                        "commonName":  "갈고리좀나방과",
-                                                        "ktsn":  120000037048
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Ypsolopha",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000037049
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "amoenella",
-                                                         "commonName":  "",
-                                                         "ktsn":  120000218126
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000218127,
-                        "scientificName":  "Ypsolopha asperella (Linnaeus, 1761)",
-                        "commonName":  "",
-                        "terminalLatinName":  "asperella",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Ypsolophidae",
-                                                        "commonName":  "갈고리좀나방과",
-                                                        "ktsn":  120000037048
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Ypsolopha",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000037049
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "asperella",
-                                                         "commonName":  "",
-                                                         "ktsn":  120000218127
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000202012,
-                        "scientificName":  "Ypsolopha atrobrunella Ponomarenko and Sohn, 2011",
-                        "commonName":  "야광나무좀나방",
-                        "terminalLatinName":  "atrobrunella",
-                        "nomenclaturalAuthor":  "Ponomarenko and Sohn",
-                        "namingYear":  "2011",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Ypsolophidae",
-                                                        "commonName":  "갈고리좀나방과",
-                                                        "ktsn":  120000037048
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Ypsolopha",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000037049
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "atrobrunella",
-                                                         "commonName":  "야광나무좀나방",
-                                                         "ktsn":  120000202012
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000218118,
-                        "scientificName":  "Ypsolopha blandella (Chrostoph, 1882)",
-                        "commonName":  "갈고리좀나방",
-                        "terminalLatinName":  "blandella",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Ypsolophidae",
-                                                        "commonName":  "갈고리좀나방과",
-                                                        "ktsn":  120000037048
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Ypsolopha",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000037049
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "blandella",
-                                                         "commonName":  "갈고리좀나방",
-                                                         "ktsn":  120000218118
-                                                     }
-                                     },
-                        "inat":  {
-                                     "observationCount":  4,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/113261882/medium.jpg",
-                                     "months":  [
-                                                    6,
-                                                    7
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000218128,
-                        "scientificName":  "Ypsolopha contractella (Caradja, 1920)",
-                        "commonName":  "",
-                        "terminalLatinName":  "contractella",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Ypsolophidae",
-                                                        "commonName":  "갈고리좀나방과",
-                                                        "ktsn":  120000037048
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Ypsolopha",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000037049
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "contractella",
-                                                         "commonName":  "",
-                                                         "ktsn":  120000218128
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000218119,
-                        "scientificName":  "Ypsolopha cristata Moriuti, 1977",
-                        "commonName":  "얼룩무늬좀나방",
-                        "terminalLatinName":  "cristata",
-                        "nomenclaturalAuthor":  "Moriuti",
-                        "namingYear":  "1977",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Ypsolophidae",
-                                                        "commonName":  "갈고리좀나방과",
-                                                        "ktsn":  120000037048
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Ypsolopha",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000037049
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "cristata",
-                                                         "commonName":  "얼룩무늬좀나방",
-                                                         "ktsn":  120000218119
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000407051,
-                        "scientificName":  "Ypsolopha distinctata Moriuti, 1977",
-                        "commonName":  "졸가시나무좀나방",
-                        "terminalLatinName":  "distinctata",
-                        "nomenclaturalAuthor":  "Moriuti",
-                        "namingYear":  "1977",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Ypsolophidae",
-                                                        "commonName":  "갈고리좀나방과",
-                                                        "ktsn":  120000037048
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Ypsolopha",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000037049
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "distinctata",
-                                                         "commonName":  "졸가시나무좀나방",
-                                                         "ktsn":  120000407051
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000208982,
-                        "scientificName":  "Ypsolopha fujimotoi Moriuti, 1964",
-                        "commonName":  "적갈색갈고리좀나방",
-                        "terminalLatinName":  "fujimotoi",
-                        "nomenclaturalAuthor":  "Moriuti",
-                        "namingYear":  "1964",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Ypsolophidae",
-                                                        "commonName":  "갈고리좀나방과",
-                                                        "ktsn":  120000037048
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Ypsolopha",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000037049
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "fujimotoi",
-                                                         "commonName":  "적갈색갈고리좀나방",
-                                                         "ktsn":  120000208982
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  3839796,
-                                    "canonical":  "Ypsolopha fujimotoi",
-                                    "fetchedAt":  "2026-05-24T17:03:00.612Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-                                                                   "적갈색갈고리좀나방"
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-                                                                   "サビイロクチブサガ"
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  null
-                                }
-                    },
-                    {
-                        "ktsn":  120000218120,
-                        "scientificName":  "Ypsolopha japonica Moriuti, 1964",
-                        "commonName":  "검은띠좀나방",
-                        "terminalLatinName":  "japonica",
-                        "nomenclaturalAuthor":  "Moriuti",
-                        "namingYear":  "1964",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Ypsolophidae",
-                                                        "commonName":  "갈고리좀나방과",
-                                                        "ktsn":  120000037048
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Ypsolopha",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000037049
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "japonica",
-                                                         "commonName":  "검은띠좀나방",
-                                                         "ktsn":  120000218120
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000218125,
-                        "scientificName":  "Ypsolopha leuconotella (Snellen, 1884)",
-                        "commonName":  "흰물결갈고리좀나방",
-                        "terminalLatinName":  "leuconotella",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Ypsolophidae",
-                                                        "commonName":  "갈고리좀나방과",
-                                                        "ktsn":  120000037048
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Ypsolopha",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000037049
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "leuconotella",
-                                                         "commonName":  "흰물결갈고리좀나방",
-                                                         "ktsn":  120000218125
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000209303,
-                        "scientificName":  "Ypsolopha longa Moriuti, 1964",
-                        "commonName":  "큰좀나방",
-                        "terminalLatinName":  "longa",
-                        "nomenclaturalAuthor":  "Moriuti",
-                        "namingYear":  "1964",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Ypsolophidae",
-                                                        "commonName":  "갈고리좀나방과",
-                                                        "ktsn":  120000037048
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Ypsolopha",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000037049
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "longa",
-                                                         "commonName":  "큰좀나방",
-                                                         "ktsn":  120000209303
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000202013,
-                        "scientificName":  "Ypsolopha melanofuscella Ponomarenko \u0026 Zinchenko, 2013",
-                        "commonName":  "홀로세좀나방",
-                        "terminalLatinName":  "melanofuscella",
-                        "nomenclaturalAuthor":  "Ponomarenko \u0026 Zinchenko",
-                        "namingYear":  "2013",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Ypsolophidae",
-                                                        "commonName":  "갈고리좀나방과",
-                                                        "ktsn":  120000037048
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Ypsolopha",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000037049
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "melanofuscella",
-                                                         "commonName":  "홀로세좀나방",
-                                                         "ktsn":  120000202013
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  36453384,
-                                    "canonical":  "Ypsolopha melanofuscella",
-                                    "fetchedAt":  "2026-05-24T17:02:43.409Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  null
-                                }
-                    },
-                    {
-                        "ktsn":  120000218121,
-                        "scientificName":  "Ypsolopha nigrimaculata Byun and Park, 2001",
-                        "commonName":  "검은점좀나방",
-                        "terminalLatinName":  "nigrimaculata",
-                        "nomenclaturalAuthor":  "Byun and Park",
-                        "namingYear":  "2001",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Ypsolophidae",
-                                                        "commonName":  "갈고리좀나방과",
-                                                        "ktsn":  120000037048
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Ypsolopha",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000037049
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "nigrimaculata",
-                                                         "commonName":  "검은점좀나방",
-                                                         "ktsn":  120000218121
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000208981,
-                        "scientificName":  "Ypsolopha nigrofasciata Yang, 1977",
-                        "commonName":  "세줄수염좀나방",
-                        "terminalLatinName":  "nigrofasciata",
-                        "nomenclaturalAuthor":  "Yang",
-                        "namingYear":  "1977",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Ypsolophidae",
-                                                        "commonName":  "갈고리좀나방과",
-                                                        "ktsn":  120000037048
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Ypsolopha",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000037049
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "nigrofasciata",
-                                                         "commonName":  "세줄수염좀나방",
-                                                         "ktsn":  120000208981
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000218122,
-                        "scientificName":  "Ypsolopha parallela (Caradja, 1939)",
-                        "commonName":  "가로줄좀나방",
-                        "terminalLatinName":  "parallela",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Ypsolophidae",
-                                                        "commonName":  "갈고리좀나방과",
-                                                        "ktsn":  120000037048
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Ypsolopha",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000037049
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "parallela",
-                                                         "commonName":  "가로줄좀나방",
-                                                         "ktsn":  120000218122
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000218123,
-                        "scientificName":  "Ypsolopha parenthesella (Linnaeus, 1761)",
-                        "commonName":  "갈색줄무늬좀나방",
-                        "terminalLatinName":  "parenthesella",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Ypsolophidae",
-                                                        "commonName":  "갈고리좀나방과",
-                                                        "ktsn":  120000037048
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Ypsolopha",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000037049
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "parenthesella",
-                                                         "commonName":  "갈색줄무늬좀나방",
-                                                         "ktsn":  120000218123
-                                                     }
-                                     },
-                        "inat":  {
-                                     "observationCount":  15,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/61649501/medium.jpeg",
-                                     "months":  [
-                                                    7,
-                                                    8,
-                                                    9
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000218124,
-                        "scientificName":  "Ypsolopha strigosa (Butler, 1879)",
-                        "commonName":  "흰줄좀나방",
-                        "terminalLatinName":  "strigosa",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Ypsolophidae",
-                                                        "commonName":  "갈고리좀나방과",
-                                                        "ktsn":  120000037048
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Ypsolopha",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000037049
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "strigosa",
-                                                         "commonName":  "흰줄좀나방",
-                                                         "ktsn":  120000218124
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000208980,
-                        "scientificName":  "Ypsolopha vittella (Linnaeus, 1758)",
-                        "commonName":  "수염좀나방",
-                        "terminalLatinName":  "vittella",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Ypsolophidae",
-                                                        "commonName":  "갈고리좀나방과",
-                                                        "ktsn":  120000037048
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Ypsolopha",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000037049
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "vittella",
-                                                         "commonName":  "수염좀나방",
-                                                         "ktsn":  120000208980
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  3839758,
-                                    "canonical":  "Ypsolopha vittella",
-                                    "fetchedAt":  "2026-05-24T17:02:47.198Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-                                                       "Norway"
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  null
-                                }
-                    },
-                    {
-                        "ktsn":  120000037059,
-                        "scientificName":  "Ypsolopha yasudai Moriuti, 1964",
-                        "commonName":  "작은갈고리좀나방",
-                        "terminalLatinName":  "yasudai",
-                        "nomenclaturalAuthor":  "Moriuti",
-                        "namingYear":  "1964",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Ypsolophidae",
-                                                        "commonName":  "갈고리좀나방과",
-                                                        "ktsn":  120000037048
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Ypsolopha",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000037049
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "yasudai",
-                                                         "commonName":  "작은갈고리좀나방",
-                                                         "ktsn":  120000037059
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  3839763,
-                                    "canonical":  "Ypsolopha yasudai",
-                                    "fetchedAt":  "2026-05-24T17:02:27.772Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  null
-                                },
-                        "inat":  {
-                                     "observationCount":  1,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/174761189/medium.jpg",
-                                     "months":  [
-                                                    5
-                                                ]
-                                 }
-                    }
-                ]
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "lepidoptera",
+    "scientificName": "Lepidoptera",
+    "commonName": "나비목",
+    "orderKtsn": 120000031663
+  },
+  "family": {
+    "id": "ypsolophidae",
+    "scientificName": "Ypsolophidae",
+    "commonName": "갈고리좀나방과",
+    "familyKtsn": 120000037048
+  },
+  "speciesCount": 21,
+  "insects": [
+    {
+      "ktsn": 120000218129,
+      "scientificName": "Ypsolopha acerella Ponomarenko, Sohn and Zinchenko, 2011",
+      "commonName": "신나무좀나방",
+      "terminalLatinName": "acerella",
+      "nomenclaturalAuthor": "Ponomarenko, Sohn and Zinchenko",
+      "namingYear": "2011",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Ypsolophidae",
+          "commonName": "갈고리좀나방과",
+          "ktsn": 120000037048
+        },
+        "genus": {
+          "scientificName": "Ypsolopha",
+          "commonName": "",
+          "ktsn": 120000037049
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "acerella",
+          "commonName": "신나무좀나방",
+          "ktsn": 120000218129
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:10:24.377Z",
+        "title": "Ypsolopha acerella",
+        "description": "species of insect"
+      }
+    },
+    {
+      "ktsn": 120000218117,
+      "scientificName": "Ypsolopha acuminata (Butler, 1879)",
+      "commonName": "줄무늬좀나방",
+      "terminalLatinName": "acuminata",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Ypsolophidae",
+          "commonName": "갈고리좀나방과",
+          "ktsn": 120000037048
+        },
+        "genus": {
+          "scientificName": "Ypsolopha",
+          "commonName": "",
+          "ktsn": 120000037049
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "acuminata",
+          "commonName": "줄무늬좀나방",
+          "ktsn": 120000218117
+        }
+      },
+      "eol": {
+        "pageId": 20367317,
+        "canonical": "Ypsolopha acuminata",
+        "fetchedAt": "2026-05-24T17:03:14.539Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:10:24.377Z",
+        "title": "Ypsolopha acuminata",
+        "description": "species of insect"
+      }
+    },
+    {
+      "ktsn": 120000218126,
+      "scientificName": "Ypsolopha amoenella (Christoph, 1882)",
+      "commonName": "",
+      "terminalLatinName": "amoenella",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Ypsolophidae",
+          "commonName": "갈고리좀나방과",
+          "ktsn": 120000037048
+        },
+        "genus": {
+          "scientificName": "Ypsolopha",
+          "commonName": "",
+          "ktsn": 120000037049
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "amoenella",
+          "commonName": "",
+          "ktsn": 120000218126
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:10:24.377Z",
+        "title": "Ypsolopha amoenella",
+        "description": "species of insect"
+      }
+    },
+    {
+      "ktsn": 120000218127,
+      "scientificName": "Ypsolopha asperella (Linnaeus, 1761)",
+      "commonName": "",
+      "terminalLatinName": "asperella",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Ypsolophidae",
+          "commonName": "갈고리좀나방과",
+          "ktsn": 120000037048
+        },
+        "genus": {
+          "scientificName": "Ypsolopha",
+          "commonName": "",
+          "ktsn": 120000037049
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "asperella",
+          "commonName": "",
+          "ktsn": 120000218127
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:10:24.377Z",
+        "title": "Ypsolopha asperella",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Ypsolopha.asperella.7136.jpg/500px-Ypsolopha.asperella.7136.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Ypsolopha.asperella.7136.jpg",
+        "thumbnailSize": {
+          "width": 500,
+          "height": 333
+        },
+        "originalSize": {
+          "width": 2000,
+          "height": 1333
+        },
+        "filename": "Ypsolopha.asperella.7136.jpg",
+        "description": "moth",
+        "pageUrl": "https://en.wikipedia.org/wiki/Ypsolopha_asperella",
+        "license": "see Wikimedia Commons",
+        "source": "Wikipedia"
+      }
+    },
+    {
+      "ktsn": 120000202012,
+      "scientificName": "Ypsolopha atrobrunella Ponomarenko and Sohn, 2011",
+      "commonName": "야광나무좀나방",
+      "terminalLatinName": "atrobrunella",
+      "nomenclaturalAuthor": "Ponomarenko and Sohn",
+      "namingYear": "2011",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Ypsolophidae",
+          "commonName": "갈고리좀나방과",
+          "ktsn": 120000037048
+        },
+        "genus": {
+          "scientificName": "Ypsolopha",
+          "commonName": "",
+          "ktsn": 120000037049
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "atrobrunella",
+          "commonName": "야광나무좀나방",
+          "ktsn": 120000202012
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:10:24.377Z"
+      }
+    },
+    {
+      "ktsn": 120000218118,
+      "scientificName": "Ypsolopha blandella (Chrostoph, 1882)",
+      "commonName": "갈고리좀나방",
+      "terminalLatinName": "blandella",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Ypsolophidae",
+          "commonName": "갈고리좀나방과",
+          "ktsn": 120000037048
+        },
+        "genus": {
+          "scientificName": "Ypsolopha",
+          "commonName": "",
+          "ktsn": 120000037049
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "blandella",
+          "commonName": "갈고리좀나방",
+          "ktsn": 120000218118
+        }
+      },
+      "inat": {
+        "observationCount": 4,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/113261882/medium.jpg",
+        "months": [
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "ktsn": 120000218128,
+      "scientificName": "Ypsolopha contractella (Caradja, 1920)",
+      "commonName": "",
+      "terminalLatinName": "contractella",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Ypsolophidae",
+          "commonName": "갈고리좀나방과",
+          "ktsn": 120000037048
+        },
+        "genus": {
+          "scientificName": "Ypsolopha",
+          "commonName": "",
+          "ktsn": 120000037049
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "contractella",
+          "commonName": "",
+          "ktsn": 120000218128
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:10:25.045Z",
+        "title": "Ypsolopha contractella",
+        "description": "species of insect"
+      }
+    },
+    {
+      "ktsn": 120000218119,
+      "scientificName": "Ypsolopha cristata Moriuti, 1977",
+      "commonName": "얼룩무늬좀나방",
+      "terminalLatinName": "cristata",
+      "nomenclaturalAuthor": "Moriuti",
+      "namingYear": "1977",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Ypsolophidae",
+          "commonName": "갈고리좀나방과",
+          "ktsn": 120000037048
+        },
+        "genus": {
+          "scientificName": "Ypsolopha",
+          "commonName": "",
+          "ktsn": 120000037049
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "cristata",
+          "commonName": "얼룩무늬좀나방",
+          "ktsn": 120000218119
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:10:25.045Z",
+        "title": "Ypsolopha cristata",
+        "description": "species of insect"
+      }
+    },
+    {
+      "ktsn": 120000407051,
+      "scientificName": "Ypsolopha distinctata Moriuti, 1977",
+      "commonName": "졸가시나무좀나방",
+      "terminalLatinName": "distinctata",
+      "nomenclaturalAuthor": "Moriuti",
+      "namingYear": "1977",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Ypsolophidae",
+          "commonName": "갈고리좀나방과",
+          "ktsn": 120000037048
+        },
+        "genus": {
+          "scientificName": "Ypsolopha",
+          "commonName": "",
+          "ktsn": 120000037049
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "distinctata",
+          "commonName": "졸가시나무좀나방",
+          "ktsn": 120000407051
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:10:25.045Z",
+        "title": "Ypsolopha distinctata",
+        "description": "species of insect"
+      }
+    },
+    {
+      "ktsn": 120000208982,
+      "scientificName": "Ypsolopha fujimotoi Moriuti, 1964",
+      "commonName": "적갈색갈고리좀나방",
+      "terminalLatinName": "fujimotoi",
+      "nomenclaturalAuthor": "Moriuti",
+      "namingYear": "1964",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Ypsolophidae",
+          "commonName": "갈고리좀나방과",
+          "ktsn": 120000037048
+        },
+        "genus": {
+          "scientificName": "Ypsolopha",
+          "commonName": "",
+          "ktsn": 120000037049
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "fujimotoi",
+          "commonName": "적갈색갈고리좀나방",
+          "ktsn": 120000208982
+        }
+      },
+      "eol": {
+        "pageId": 3839796,
+        "canonical": "Ypsolopha fujimotoi",
+        "fetchedAt": "2026-05-24T17:03:00.612Z",
+        "vernaculars": {
+          "ko": [
+            "적갈색갈고리좀나방"
+          ],
+          "en": [],
+          "ja": [
+            "サビイロクチブサガ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:10:25.045Z",
+        "title": "Ypsolopha fujimotoi",
+        "description": "species of insect"
+      }
+    },
+    {
+      "ktsn": 120000218120,
+      "scientificName": "Ypsolopha japonica Moriuti, 1964",
+      "commonName": "검은띠좀나방",
+      "terminalLatinName": "japonica",
+      "nomenclaturalAuthor": "Moriuti",
+      "namingYear": "1964",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Ypsolophidae",
+          "commonName": "갈고리좀나방과",
+          "ktsn": 120000037048
+        },
+        "genus": {
+          "scientificName": "Ypsolopha",
+          "commonName": "",
+          "ktsn": 120000037049
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "japonica",
+          "commonName": "검은띠좀나방",
+          "ktsn": 120000218120
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:10:25.045Z",
+        "title": "Ypsolopha japonica",
+        "description": "species of insect"
+      }
+    },
+    {
+      "ktsn": 120000218125,
+      "scientificName": "Ypsolopha leuconotella (Snellen, 1884)",
+      "commonName": "흰물결갈고리좀나방",
+      "terminalLatinName": "leuconotella",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Ypsolophidae",
+          "commonName": "갈고리좀나방과",
+          "ktsn": 120000037048
+        },
+        "genus": {
+          "scientificName": "Ypsolopha",
+          "commonName": "",
+          "ktsn": 120000037049
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "leuconotella",
+          "commonName": "흰물결갈고리좀나방",
+          "ktsn": 120000218125
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:10:25.045Z",
+        "title": "Ypsolopha leuconotella",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Ypsolopha_leuconotella.gif",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Ypsolopha_leuconotella.gif",
+        "thumbnailSize": {
+          "width": 300,
+          "height": 200
+        },
+        "originalSize": {
+          "width": 300,
+          "height": 200
+        },
+        "filename": "Ypsolopha_leuconotella.gif",
+        "description": "species of insect",
+        "pageUrl": "https://en.wikipedia.org/wiki/Ypsolopha_leuconotella",
+        "license": "see Wikimedia Commons",
+        "source": "Wikipedia"
+      }
+    },
+    {
+      "ktsn": 120000209303,
+      "scientificName": "Ypsolopha longa Moriuti, 1964",
+      "commonName": "큰좀나방",
+      "terminalLatinName": "longa",
+      "nomenclaturalAuthor": "Moriuti",
+      "namingYear": "1964",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Ypsolophidae",
+          "commonName": "갈고리좀나방과",
+          "ktsn": 120000037048
+        },
+        "genus": {
+          "scientificName": "Ypsolopha",
+          "commonName": "",
+          "ktsn": 120000037049
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "longa",
+          "commonName": "큰좀나방",
+          "ktsn": 120000209303
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:10:25.045Z",
+        "title": "Ypsolopha longa",
+        "description": "species of insect"
+      }
+    },
+    {
+      "ktsn": 120000202013,
+      "scientificName": "Ypsolopha melanofuscella Ponomarenko & Zinchenko, 2013",
+      "commonName": "홀로세좀나방",
+      "terminalLatinName": "melanofuscella",
+      "nomenclaturalAuthor": "Ponomarenko & Zinchenko",
+      "namingYear": "2013",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Ypsolophidae",
+          "commonName": "갈고리좀나방과",
+          "ktsn": 120000037048
+        },
+        "genus": {
+          "scientificName": "Ypsolopha",
+          "commonName": "",
+          "ktsn": 120000037049
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "melanofuscella",
+          "commonName": "홀로세좀나방",
+          "ktsn": 120000202013
+        }
+      },
+      "eol": {
+        "pageId": 36453384,
+        "canonical": "Ypsolopha melanofuscella",
+        "fetchedAt": "2026-05-24T17:02:43.409Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:10:25.045Z",
+        "title": "Ypsolopha melanofuscella",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Ypsolopha_melanofuscella.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Ypsolopha_melanofuscella.jpg",
+        "thumbnailSize": {
+          "width": 486,
+          "height": 254
+        },
+        "originalSize": {
+          "width": 486,
+          "height": 254
+        },
+        "filename": "Ypsolopha_melanofuscella.jpg",
+        "description": "species of insect",
+        "pageUrl": "https://en.wikipedia.org/wiki/Ypsolopha_melanofuscella",
+        "license": "see Wikimedia Commons",
+        "source": "Wikipedia"
+      }
+    },
+    {
+      "ktsn": 120000218121,
+      "scientificName": "Ypsolopha nigrimaculata Byun and Park, 2001",
+      "commonName": "검은점좀나방",
+      "terminalLatinName": "nigrimaculata",
+      "nomenclaturalAuthor": "Byun and Park",
+      "namingYear": "2001",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Ypsolophidae",
+          "commonName": "갈고리좀나방과",
+          "ktsn": 120000037048
+        },
+        "genus": {
+          "scientificName": "Ypsolopha",
+          "commonName": "",
+          "ktsn": 120000037049
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "nigrimaculata",
+          "commonName": "검은점좀나방",
+          "ktsn": 120000218121
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:10:25.045Z",
+        "title": "Ypsolopha nigrimaculata",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Ypsolopha_nigrimaculata.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Ypsolopha_nigrimaculata.jpg",
+        "thumbnailSize": {
+          "width": 431,
+          "height": 216
+        },
+        "originalSize": {
+          "width": 431,
+          "height": 216
+        },
+        "filename": "Ypsolopha_nigrimaculata.jpg",
+        "description": "species of insect",
+        "pageUrl": "https://en.wikipedia.org/wiki/Ypsolopha_nigrimaculata",
+        "license": "see Wikimedia Commons",
+        "source": "Wikipedia"
+      }
+    },
+    {
+      "ktsn": 120000208981,
+      "scientificName": "Ypsolopha nigrofasciata Yang, 1977",
+      "commonName": "세줄수염좀나방",
+      "terminalLatinName": "nigrofasciata",
+      "nomenclaturalAuthor": "Yang",
+      "namingYear": "1977",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Ypsolophidae",
+          "commonName": "갈고리좀나방과",
+          "ktsn": 120000037048
+        },
+        "genus": {
+          "scientificName": "Ypsolopha",
+          "commonName": "",
+          "ktsn": 120000037049
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "nigrofasciata",
+          "commonName": "세줄수염좀나방",
+          "ktsn": 120000208981
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:10:25.045Z",
+        "title": "Ypsolopha nigrofasciata",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/08/Ypsolopha_nigrofasciata.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/08/Ypsolopha_nigrofasciata.jpg",
+        "thumbnailSize": {
+          "width": 484,
+          "height": 310
+        },
+        "originalSize": {
+          "width": 484,
+          "height": 310
+        },
+        "filename": "Ypsolopha_nigrofasciata.jpg",
+        "description": "species of insect",
+        "pageUrl": "https://en.wikipedia.org/wiki/Ypsolopha_nigrofasciata",
+        "license": "see Wikimedia Commons",
+        "source": "Wikipedia"
+      }
+    },
+    {
+      "ktsn": 120000218122,
+      "scientificName": "Ypsolopha parallela (Caradja, 1939)",
+      "commonName": "가로줄좀나방",
+      "terminalLatinName": "parallela",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Ypsolophidae",
+          "commonName": "갈고리좀나방과",
+          "ktsn": 120000037048
+        },
+        "genus": {
+          "scientificName": "Ypsolopha",
+          "commonName": "",
+          "ktsn": 120000037049
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "parallela",
+          "commonName": "가로줄좀나방",
+          "ktsn": 120000218122
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:10:25.045Z",
+        "title": "Ypsolopha parallela",
+        "description": "species of insect"
+      }
+    },
+    {
+      "ktsn": 120000218123,
+      "scientificName": "Ypsolopha parenthesella (Linnaeus, 1761)",
+      "commonName": "갈색줄무늬좀나방",
+      "terminalLatinName": "parenthesella",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Ypsolophidae",
+          "commonName": "갈고리좀나방과",
+          "ktsn": 120000037048
+        },
+        "genus": {
+          "scientificName": "Ypsolopha",
+          "commonName": "",
+          "ktsn": 120000037049
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "parenthesella",
+          "commonName": "갈색줄무늬좀나방",
+          "ktsn": 120000218123
+        }
+      },
+      "inat": {
+        "observationCount": 15,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/61649501/medium.jpeg",
+        "months": [
+          7,
+          8,
+          9
+        ]
+      }
+    },
+    {
+      "ktsn": 120000218124,
+      "scientificName": "Ypsolopha strigosa (Butler, 1879)",
+      "commonName": "흰줄좀나방",
+      "terminalLatinName": "strigosa",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Ypsolophidae",
+          "commonName": "갈고리좀나방과",
+          "ktsn": 120000037048
+        },
+        "genus": {
+          "scientificName": "Ypsolopha",
+          "commonName": "",
+          "ktsn": 120000037049
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "strigosa",
+          "commonName": "흰줄좀나방",
+          "ktsn": 120000218124
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:10:25.045Z",
+        "title": "Ypsolopha strigosa",
+        "description": "species of insect"
+      }
+    },
+    {
+      "ktsn": 120000208980,
+      "scientificName": "Ypsolopha vittella (Linnaeus, 1758)",
+      "commonName": "수염좀나방",
+      "terminalLatinName": "vittella",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Ypsolophidae",
+          "commonName": "갈고리좀나방과",
+          "ktsn": 120000037048
+        },
+        "genus": {
+          "scientificName": "Ypsolopha",
+          "commonName": "",
+          "ktsn": 120000037049
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "vittella",
+          "commonName": "수염좀나방",
+          "ktsn": 120000208980
+        }
+      },
+      "eol": {
+        "pageId": 3839758,
+        "canonical": "Ypsolopha vittella",
+        "fetchedAt": "2026-05-24T17:02:47.198Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [
+          "Norway"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:10:25.045Z",
+        "title": "Ypsolopha vittella",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Ypsolopha_vittella_-_Elm_autumn_moth_-_%D0%A1%D0%B5%D1%80%D0%BF%D0%BE%D0%BA%D1%80%D1%8B%D0%BB%D0%B0%D1%8F_%D0%BC%D0%BE%D0%BB%D1%8C_%D0%B2%D1%8F%D0%B7%D0%BE%D0%B2%D0%B0%D1%8F_%2841371125811%29.jpg/500px-Ypsolopha_vittella_-_Elm_autumn_moth_-_%D0%A1%D0%B5%D1%80%D0%BF%D0%BE%D0%BA%D1%80%D1%8B%D0%BB%D0%B0%D1%8F_%D0%BC%D0%BE%D0%BB%D1%8C_%D0%B2%D1%8F%D0%B7%D0%BE%D0%B2%D0%B0%D1%8F_%2841371125811%29.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Ypsolopha_vittella_-_Elm_autumn_moth_-_%D0%A1%D0%B5%D1%80%D0%BF%D0%BE%D0%BA%D1%80%D1%8B%D0%BB%D0%B0%D1%8F_%D0%BC%D0%BE%D0%BB%D1%8C_%D0%B2%D1%8F%D0%B7%D0%BE%D0%B2%D0%B0%D1%8F_%2841371125811%29.jpg",
+        "thumbnailSize": {
+          "width": 500,
+          "height": 375
+        },
+        "originalSize": {
+          "width": 1024,
+          "height": 768
+        },
+        "filename": "Ypsolopha_vittella_-_Elm_autumn_moth_-_Серпокрылая_моль_вязовая_(41371125811).jpg",
+        "description": "species of insect",
+        "pageUrl": "https://en.wikipedia.org/wiki/Ypsolopha_vittella",
+        "license": "see Wikimedia Commons",
+        "source": "Wikipedia"
+      }
+    },
+    {
+      "ktsn": 120000037059,
+      "scientificName": "Ypsolopha yasudai Moriuti, 1964",
+      "commonName": "작은갈고리좀나방",
+      "terminalLatinName": "yasudai",
+      "nomenclaturalAuthor": "Moriuti",
+      "namingYear": "1964",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Ypsolophidae",
+          "commonName": "갈고리좀나방과",
+          "ktsn": 120000037048
+        },
+        "genus": {
+          "scientificName": "Ypsolopha",
+          "commonName": "",
+          "ktsn": 120000037049
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "yasudai",
+          "commonName": "작은갈고리좀나방",
+          "ktsn": 120000037059
+        }
+      },
+      "eol": {
+        "pageId": 3839763,
+        "canonical": "Ypsolopha yasudai",
+        "fetchedAt": "2026-05-24T17:02:27.772Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/174761189/medium.jpg",
+        "months": [
+          5
+        ]
+      }
+    }
+  ]
 }

@@ -1,1051 +1,916 @@
 {
-    "generatedAt":  "2026-05-21T07:47:08.025Z",
-    "source":  "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
-    "order":  {
-                  "id":  "coleoptera",
-                  "scientificName":  "Coleoptera",
-                  "commonName":  "딱정벌레목",
-                  "orderKtsn":  120000013750,
-                  "abstract":  "딱정벌레목(Coleoptera)은 곤충의 종 가운데 40%인 35만여종을 차지하는 목이다. 아직 발견되지 않은 종까지 합치면 500만~800만여종이 될 것으로 추정된다. 먹는 먹이도 다양해서 식물의 잎, 송사리 등의 작은 물고기, 나무의 즙, 작은 동물, 동물의 시체 등 매우 다양하다. 딱정벌레목에 속한 곤충으로는 무당벌레, 딱정벌레, 길앞잡이, 물방개, 장수풍뎅이 등이 있다. 대부분이 두꺼운 키틴질로 된 딱딱한 껍데기를 가지고 있어서 갑충(甲蟲)이라고도 불린다.",
-                  "description":  "딱정벌레목(Coleoptera)은 곤충의 종 가운데 40%인 35만여종을 차지하는 목이다. 아직 발견되지 않은 종까지 합치면 500만~800만여종이 될 것으로 추정된다. 먹는 먹이도 다양해서 식물의 잎, 송사리 등의 작은 물고기, 나무의 즙, 작은 동물, 동물의 시체 등 매우 다양하다. 딱정벌레목에 속한 곤충으로는 무당벌레, 딱정벌레, 길앞잡이, 물방개, 장수풍뎅이 등이 있다. 대부분이 두꺼운 키틴질로 된 딱딱한 껍데기를 가지고 있어서 갑충(甲蟲)이라고도 불린다."
-              },
-    "family":  {
-                   "id":  "trogossitidae",
-                   "scientificName":  "Trogossitidae",
-                   "commonName":  "쌀도적과",
-                   "familyKtsn":  120000018415,
-                   "abstract":  "쌀도적과(㐘盜賊科, Trogossitidae 트로고시티다이[*])는 쌀도적, 느치 등의 곤충이 속하는, 딱정벌레목에 딸린 한 과다. 산하 28속이 있다.",
-                   "description":  "쌀도적과(㐘盜賊科, Trogossitidae 트로고시티다이[*])는 쌀도적, 느치 등의 곤충이 속하는, 딱정벌레목에 딸린 한 과다. 산하 28속이 있다."
-               },
-    "speciesCount":  10,
-    "insects":  [
-                    {
-                        "ktsn":  120000237103,
-                        "scientificName":  "Ancyrona diversa (Pic, 1921)",
-                        "commonName":  "애쌀도적",
-                        "terminalLatinName":  "diversa",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Trogossitidae",
-                                                        "commonName":  "쌀도적과",
-                                                        "ktsn":  120000018415
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Ancyrona",
-                                                       "commonName":  "애쌀도적속",
-                                                       "ktsn":  120000201848
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "diversa",
-                                                         "commonName":  "애쌀도적",
-                                                         "ktsn":  120000237103
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:08:48.987Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    },
-                    {
-                        "ktsn":  120000201849,
-                        "scientificName":  "Ancyrona marginata Grouvelle, 1913",
-                        "commonName":  "대만애쌀도적",
-                        "terminalLatinName":  "marginata",
-                        "nomenclaturalAuthor":  "Grouvelle",
-                        "namingYear":  "1913",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Trogossitidae",
-                                                        "commonName":  "쌀도적과",
-                                                        "ktsn":  120000018415
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Ancyrona",
-                                                       "commonName":  "애쌀도적속",
-                                                       "ktsn":  120000201848
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "marginata",
-                                                         "commonName":  "대만애쌀도적",
-                                                         "ktsn":  120000201849
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:08:48.987Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  46851297,
-                                    "canonical":  "Ancyrona marginata",
-                                    "fetchedAt":  "2026-05-24T08:19:54.559Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  null
-                                }
-                    },
-                    {
-                        "ktsn":  120000221777,
-                        "scientificName":  "Ancyrona shibatai Nakane, 1963",
-                        "commonName":  "납작털쌀도적",
-                        "terminalLatinName":  "shibatai",
-                        "nomenclaturalAuthor":  "Nakane",
-                        "namingYear":  "1963",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Trogossitidae",
-                                                        "commonName":  "쌀도적과",
-                                                        "ktsn":  120000018415
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Ancyrona",
-                                                       "commonName":  "애쌀도적속",
-                                                       "ktsn":  120000201848
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "shibatai",
-                                                         "commonName":  "납작털쌀도적",
-                                                         "ktsn":  120000221777
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:08:48.987Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  46851298,
-                                    "canonical":  "Ancyrona shibatai",
-                                    "fetchedAt":  "2026-05-24T08:20:00.676Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  null
-                                }
-                    },
-                    {
-                        "ktsn":  120000018417,
-                        "scientificName":  "Leperina squamulosa (Gebler, 1830)",
-                        "commonName":  "얼러지쌀도적",
-                        "terminalLatinName":  "squamulosa",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Trogossitidae",
-                                                        "commonName":  "쌀도적과",
-                                                        "ktsn":  120000018415
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Leperina",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000018416
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "squamulosa",
-                                                         "commonName":  "얼러지쌀도적",
-                                                         "ktsn":  120000018417
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:08:48.987Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  40961064,
-                                    "canonical":  "Leperina squamulosa",
-                                    "fetchedAt":  "2026-05-24T08:19:19.327Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  null
-                                }
-                    },
-                    {
-                        "ktsn":  120000018419,
-                        "scientificName":  "Lophocateres pusillus (Klug, 1833)",
-                        "commonName":  "길쭉쌀도적",
-                        "terminalLatinName":  "pusillus",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Trogossitidae",
-                                                        "commonName":  "쌀도적과",
-                                                        "ktsn":  120000018415
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Lophocateres",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000018418
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "pusillus",
-                                                         "commonName":  "길쭉쌀도적",
-                                                         "ktsn":  120000018419
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:08:48.987Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  48713982,
-                                    "canonical":  "Lophocateres pusillus",
-                                    "fetchedAt":  "2026-05-24T08:19:25.939Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  null
-                                }
-                    },
-                    {
-                        "ktsn":  120000018429,
-                        "scientificName":  "Peltis ferruginea (Linnaeus, 1758)",
-                        "commonName":  "붉은반달쌀도적",
-                        "terminalLatinName":  "ferruginea",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Trogossitidae",
-                                                        "commonName":  "쌀도적과",
-                                                        "ktsn":  120000018415
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Peltis",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000018428
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "ferruginea",
-                                                         "commonName":  "붉은반달쌀도적",
-                                                         "ktsn":  120000018429
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:08:48.987Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  43631489,
-                                    "canonical":  "Peltis ferruginea",
-                                    "fetchedAt":  "2026-05-24T08:19:32.602Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-                                                                   "カバイロコクヌスト"
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-                                                       "Norway"
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  null
-                                },
-                        "inat":  {
-                                     "observationCount":  4,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/200437223/medium.jpeg",
-                                     "months":  [
-                                                    5,
-                                                    6
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000018445,
-                        "scientificName":  "Temnoscheila japonica (Reitter, 1875)",
-                        "commonName":  "큰쌀도적",
-                        "terminalLatinName":  "japonica",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Trogossitidae",
-                                                        "commonName":  "쌀도적과",
-                                                        "ktsn":  120000018415
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Temnoscheila",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000018444
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "japonica",
-                                                         "commonName":  "큰쌀도적",
-                                                         "ktsn":  120000018445
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:08:48.987Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "inat":  {
-                                     "observationCount":  9,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/133300537/medium.jpg",
-                                     "months":  [
-                                                    6,
-                                                    9,
-                                                    10
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000018447,
-                        "scientificName":  "Tenebroides mauritanicus (Linnaeus, 1758)",
-                        "commonName":  "쌀도적",
-                        "terminalLatinName":  "mauritanicus",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Trogossitidae",
-                                                        "commonName":  "쌀도적과",
-                                                        "ktsn":  120000018415
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Tenebroides",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000018446
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "mauritanicus",
-                                                         "commonName":  "쌀도적",
-                                                         "ktsn":  120000018447
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:08:48.987Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  1174644,
-                                    "canonical":  "Tenebroides mauritanicus",
-                                    "fetchedAt":  "2026-05-24T08:19:44.601Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-                                                                   "Cadelle",
-                                                                   "Cadelle Beetle",
-                                                                   "Cadelle",
-                                                                   "Cadelle",
-                                                                   "cadelle beetle",
-                                                                   "Cadelle"
-                                                               ],
-                                                        "ja":  [
-                                                                   "コクヌスト"
-                                                               ]
-                                                    },
-                                    "habitat":  [
-                                                    "terrestrial"
-                                                ],
-                                    "geographic":  [
-                                                       "United States",
-                                                       "Mozambique",
-                                                       "Norway",
-                                                       "Australia",
-                                                       "Micronesia",
-                                                       "France",
-                                                       "Germany",
-                                                       "Nauru",
-                                                       "South Africa",
-                                                       "Sweden",
-                                                       "The Netherlands",
-                                                       "United Kingdom",
-                                                       "Coral Sea",
-                                                       "Indian Ocean",
-                                                       "Mozambique Channel",
-                                                       "Tasman Sea",
-                                                       "South Pacific"
-                                                   ],
-                                    "introduced":  [
-                                                       "The Hawaiian Islands",
-                                                       "The Contiguous United States",
-                                                       "Czech Republic",
-                                                       "Estonia",
-                                                       "Latvia",
-                                                       "Slovenia"
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  692
-                                }
-                    },
-                    {
-                        "ktsn":  120000514155,
-                        "scientificName":  "Thymalus laticeps Lewis, 1894",
-                        "commonName":  "남생이쌀도적",
-                        "terminalLatinName":  "laticeps",
-                        "nomenclaturalAuthor":  "Lewis",
-                        "namingYear":  "1894",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Trogossitidae",
-                                                        "commonName":  "쌀도적과",
-                                                        "ktsn":  120000018415
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Thymalus",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000072074
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "laticeps",
-                                                         "commonName":  "남생이쌀도적",
-                                                         "ktsn":  120000514155
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:08:48.987Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    },
-                    {
-                        "ktsn":  120000018449,
-                        "scientificName":  "Xenoglena quadrisignata (Mannerheim, 1852)",
-                        "commonName":  "넉점쌀도적",
-                        "terminalLatinName":  "quadrisignata",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Trogossitidae",
-                                                        "commonName":  "쌀도적과",
-                                                        "ktsn":  120000018415
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Xenoglena",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000018448
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "quadrisignata",
-                                                         "commonName":  "넉점쌀도적",
-                                                         "ktsn":  120000018449
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:08:48.987Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  40961125,
-                                    "canonical":  "Xenoglena quadrisignata",
-                                    "fetchedAt":  "2026-05-24T08:19:49.483Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-                                                                   "넉점쌀도적"
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  null
-                                }
-                    }
-                ],
-    "digitalContentUpdatedAt":  "2026-05-21T09:08:48.987Z",
-    "digitalContentSource":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "coleoptera",
+    "scientificName": "Coleoptera",
+    "commonName": "딱정벌레목",
+    "orderKtsn": 120000013750,
+    "abstract": "딱정벌레목(Coleoptera)은 곤충의 종 가운데 40%인 35만여종을 차지하는 목이다. 아직 발견되지 않은 종까지 합치면 500만~800만여종이 될 것으로 추정된다. 먹는 먹이도 다양해서 식물의 잎, 송사리 등의 작은 물고기, 나무의 즙, 작은 동물, 동물의 시체 등 매우 다양하다. 딱정벌레목에 속한 곤충으로는 무당벌레, 딱정벌레, 길앞잡이, 물방개, 장수풍뎅이 등이 있다. 대부분이 두꺼운 키틴질로 된 딱딱한 껍데기를 가지고 있어서 갑충(甲蟲)이라고도 불린다.",
+    "description": "딱정벌레목(Coleoptera)은 곤충의 종 가운데 40%인 35만여종을 차지하는 목이다. 아직 발견되지 않은 종까지 합치면 500만~800만여종이 될 것으로 추정된다. 먹는 먹이도 다양해서 식물의 잎, 송사리 등의 작은 물고기, 나무의 즙, 작은 동물, 동물의 시체 등 매우 다양하다. 딱정벌레목에 속한 곤충으로는 무당벌레, 딱정벌레, 길앞잡이, 물방개, 장수풍뎅이 등이 있다. 대부분이 두꺼운 키틴질로 된 딱딱한 껍데기를 가지고 있어서 갑충(甲蟲)이라고도 불린다."
+  },
+  "family": {
+    "id": "trogossitidae",
+    "scientificName": "Trogossitidae",
+    "commonName": "쌀도적과",
+    "familyKtsn": 120000018415,
+    "abstract": "쌀도적과(㐘盜賊科, Trogossitidae 트로고시티다이[*])는 쌀도적, 느치 등의 곤충이 속하는, 딱정벌레목에 딸린 한 과다. 산하 28속이 있다.",
+    "description": "쌀도적과(㐘盜賊科, Trogossitidae 트로고시티다이[*])는 쌀도적, 느치 등의 곤충이 속하는, 딱정벌레목에 딸린 한 과다. 산하 28속이 있다."
+  },
+  "speciesCount": 10,
+  "insects": [
+    {
+      "ktsn": 120000237103,
+      "scientificName": "Ancyrona diversa (Pic, 1921)",
+      "commonName": "애쌀도적",
+      "terminalLatinName": "diversa",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Trogossitidae",
+          "commonName": "쌀도적과",
+          "ktsn": 120000018415
+        },
+        "genus": {
+          "scientificName": "Ancyrona",
+          "commonName": "애쌀도적속",
+          "ktsn": 120000201848
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "diversa",
+          "commonName": "애쌀도적",
+          "ktsn": 120000237103
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:08:48.987Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:05:00.743Z"
+      }
+    },
+    {
+      "ktsn": 120000201849,
+      "scientificName": "Ancyrona marginata Grouvelle, 1913",
+      "commonName": "대만애쌀도적",
+      "terminalLatinName": "marginata",
+      "nomenclaturalAuthor": "Grouvelle",
+      "namingYear": "1913",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Trogossitidae",
+          "commonName": "쌀도적과",
+          "ktsn": 120000018415
+        },
+        "genus": {
+          "scientificName": "Ancyrona",
+          "commonName": "애쌀도적속",
+          "ktsn": 120000201848
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "marginata",
+          "commonName": "대만애쌀도적",
+          "ktsn": 120000201849
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:08:48.987Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 46851297,
+        "canonical": "Ancyrona marginata",
+        "fetchedAt": "2026-05-24T08:19:54.559Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:05:00.743Z"
+      }
+    },
+    {
+      "ktsn": 120000221777,
+      "scientificName": "Ancyrona shibatai Nakane, 1963",
+      "commonName": "납작털쌀도적",
+      "terminalLatinName": "shibatai",
+      "nomenclaturalAuthor": "Nakane",
+      "namingYear": "1963",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Trogossitidae",
+          "commonName": "쌀도적과",
+          "ktsn": 120000018415
+        },
+        "genus": {
+          "scientificName": "Ancyrona",
+          "commonName": "애쌀도적속",
+          "ktsn": 120000201848
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "shibatai",
+          "commonName": "납작털쌀도적",
+          "ktsn": 120000221777
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:08:48.987Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 46851298,
+        "canonical": "Ancyrona shibatai",
+        "fetchedAt": "2026-05-24T08:20:00.676Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:05:00.743Z"
+      }
+    },
+    {
+      "ktsn": 120000018417,
+      "scientificName": "Leperina squamulosa (Gebler, 1830)",
+      "commonName": "얼러지쌀도적",
+      "terminalLatinName": "squamulosa",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Trogossitidae",
+          "commonName": "쌀도적과",
+          "ktsn": 120000018415
+        },
+        "genus": {
+          "scientificName": "Leperina",
+          "commonName": "",
+          "ktsn": 120000018416
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "squamulosa",
+          "commonName": "얼러지쌀도적",
+          "ktsn": 120000018417
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:08:48.987Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 40961064,
+        "canonical": "Leperina squamulosa",
+        "fetchedAt": "2026-05-24T08:19:19.327Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:05:00.743Z"
+      }
+    },
+    {
+      "ktsn": 120000018419,
+      "scientificName": "Lophocateres pusillus (Klug, 1833)",
+      "commonName": "길쭉쌀도적",
+      "terminalLatinName": "pusillus",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Trogossitidae",
+          "commonName": "쌀도적과",
+          "ktsn": 120000018415
+        },
+        "genus": {
+          "scientificName": "Lophocateres",
+          "commonName": "",
+          "ktsn": 120000018418
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "pusillus",
+          "commonName": "길쭉쌀도적",
+          "ktsn": 120000018419
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:08:48.987Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 48713982,
+        "canonical": "Lophocateres pusillus",
+        "fetchedAt": "2026-05-24T08:19:25.939Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:05:00.743Z"
+      }
+    },
+    {
+      "ktsn": 120000018429,
+      "scientificName": "Peltis ferruginea (Linnaeus, 1758)",
+      "commonName": "붉은반달쌀도적",
+      "terminalLatinName": "ferruginea",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Trogossitidae",
+          "commonName": "쌀도적과",
+          "ktsn": 120000018415
+        },
+        "genus": {
+          "scientificName": "Peltis",
+          "commonName": "",
+          "ktsn": 120000018428
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "ferruginea",
+          "commonName": "붉은반달쌀도적",
+          "ktsn": 120000018429
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:08:48.987Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 43631489,
+        "canonical": "Peltis ferruginea",
+        "fetchedAt": "2026-05-24T08:19:32.602Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": [
+            "カバイロコクヌスト"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "Norway"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "inat": {
+        "observationCount": 4,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/200437223/medium.jpeg",
+        "months": [
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "ktsn": 120000018445,
+      "scientificName": "Temnoscheila japonica (Reitter, 1875)",
+      "commonName": "큰쌀도적",
+      "terminalLatinName": "japonica",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Trogossitidae",
+          "commonName": "쌀도적과",
+          "ktsn": 120000018415
+        },
+        "genus": {
+          "scientificName": "Temnoscheila",
+          "commonName": "",
+          "ktsn": 120000018444
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "japonica",
+          "commonName": "큰쌀도적",
+          "ktsn": 120000018445
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:08:48.987Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 9,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/133300537/medium.jpg",
+        "months": [
+          6,
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "ktsn": 120000018447,
+      "scientificName": "Tenebroides mauritanicus (Linnaeus, 1758)",
+      "commonName": "쌀도적",
+      "terminalLatinName": "mauritanicus",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Trogossitidae",
+          "commonName": "쌀도적과",
+          "ktsn": 120000018415
+        },
+        "genus": {
+          "scientificName": "Tenebroides",
+          "commonName": "",
+          "ktsn": 120000018446
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "mauritanicus",
+          "commonName": "쌀도적",
+          "ktsn": 120000018447
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:08:48.987Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 1174644,
+        "canonical": "Tenebroides mauritanicus",
+        "fetchedAt": "2026-05-24T08:19:44.601Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [
+            "Cadelle",
+            "Cadelle Beetle",
+            "Cadelle",
+            "Cadelle",
+            "cadelle beetle",
+            "Cadelle"
+          ],
+          "ja": [
+            "コクヌスト"
+          ]
+        },
+        "habitat": [
+          "terrestrial"
+        ],
+        "geographic": [
+          "United States",
+          "Mozambique",
+          "Norway",
+          "Australia",
+          "Micronesia",
+          "France",
+          "Germany",
+          "Nauru",
+          "South Africa",
+          "Sweden",
+          "The Netherlands",
+          "United Kingdom",
+          "Coral Sea",
+          "Indian Ocean",
+          "Mozambique Channel",
+          "Tasman Sea",
+          "South Pacific"
+        ],
+        "introduced": [
+          "The Hawaiian Islands",
+          "The Contiguous United States",
+          "Czech Republic",
+          "Estonia",
+          "Latvia",
+          "Slovenia"
+        ],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 692
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:05:00.743Z",
+        "title": "Tenebroides mauritanicus",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Tenebroides_mauritanicus1.jpg/500px-Tenebroides_mauritanicus1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/Tenebroides_mauritanicus1.jpg",
+        "thumbnailSize": {
+          "width": 500,
+          "height": 375
+        },
+        "originalSize": {
+          "width": 720,
+          "height": 540
+        },
+        "filename": "Tenebroides_mauritanicus1.jpg",
+        "description": "species of beetle",
+        "pageUrl": "https://en.wikipedia.org/wiki/Tenebroides_mauritanicus",
+        "license": "see Wikimedia Commons",
+        "source": "Wikipedia"
+      }
+    },
+    {
+      "ktsn": 120000514155,
+      "scientificName": "Thymalus laticeps Lewis, 1894",
+      "commonName": "남생이쌀도적",
+      "terminalLatinName": "laticeps",
+      "nomenclaturalAuthor": "Lewis",
+      "namingYear": "1894",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Trogossitidae",
+          "commonName": "쌀도적과",
+          "ktsn": 120000018415
+        },
+        "genus": {
+          "scientificName": "Thymalus",
+          "commonName": "",
+          "ktsn": 120000072074
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "laticeps",
+          "commonName": "남생이쌀도적",
+          "ktsn": 120000514155
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:08:48.987Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:05:00.743Z"
+      }
+    },
+    {
+      "ktsn": 120000018449,
+      "scientificName": "Xenoglena quadrisignata (Mannerheim, 1852)",
+      "commonName": "넉점쌀도적",
+      "terminalLatinName": "quadrisignata",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Trogossitidae",
+          "commonName": "쌀도적과",
+          "ktsn": 120000018415
+        },
+        "genus": {
+          "scientificName": "Xenoglena",
+          "commonName": "",
+          "ktsn": 120000018448
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "quadrisignata",
+          "commonName": "넉점쌀도적",
+          "ktsn": 120000018449
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:08:48.987Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 40961125,
+        "canonical": "Xenoglena quadrisignata",
+        "fetchedAt": "2026-05-24T08:19:49.483Z",
+        "vernaculars": {
+          "ko": [
+            "넉점쌀도적"
+          ],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:05:00.743Z"
+      }
+    }
+  ],
+  "digitalContentUpdatedAt": "2026-05-21T09:08:48.987Z",
+  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
 }

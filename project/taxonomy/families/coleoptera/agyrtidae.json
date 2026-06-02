@@ -1,362 +1,388 @@
 {
-    "generatedAt":  "2026-05-21T07:47:08.025Z",
-    "source":  "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
-    "order":  {
-                  "id":  "coleoptera",
-                  "scientificName":  "Coleoptera",
-                  "commonName":  "딱정벌레목",
-                  "orderKtsn":  120000013750,
-                  "abstract":  "딱정벌레목(Coleoptera)은 곤충의 종 가운데 40%인 35만여종을 차지하는 목이다. 아직 발견되지 않은 종까지 합치면 500만~800만여종이 될 것으로 추정된다. 먹는 먹이도 다양해서 식물의 잎, 송사리 등의 작은 물고기, 나무의 즙, 작은 동물, 동물의 시체 등 매우 다양하다. 딱정벌레목에 속한 곤충으로는 무당벌레, 딱정벌레, 길앞잡이, 물방개, 장수풍뎅이 등이 있다. 대부분이 두꺼운 키틴질로 된 딱딱한 껍데기를 가지고 있어서 갑충(甲蟲)이라고도 불린다.",
-                  "description":  "딱정벌레목(Coleoptera)은 곤충의 종 가운데 40%인 35만여종을 차지하는 목이다. 아직 발견되지 않은 종까지 합치면 500만~800만여종이 될 것으로 추정된다. 먹는 먹이도 다양해서 식물의 잎, 송사리 등의 작은 물고기, 나무의 즙, 작은 동물, 동물의 시체 등 매우 다양하다. 딱정벌레목에 속한 곤충으로는 무당벌레, 딱정벌레, 길앞잡이, 물방개, 장수풍뎅이 등이 있다. 대부분이 두꺼운 키틴질로 된 딱딱한 껍데기를 가지고 있어서 갑충(甲蟲)이라고도 불린다."
-              },
-    "family":  {
-                   "id":  "agyrtidae",
-                   "scientificName":  "Agyrtidae",
-                   "commonName":  "먼지송장벌레과",
-                   "familyKtsn":  120000013754
-               },
-    "speciesCount":  4,
-    "insects":  [
-                    {
-                        "ktsn":  120000013757,
-                        "scientificName":  "Apteroloma kozlovi kozlovi Senenov and Znojko, 1932",
-                        "commonName":  "먼지송장벌레",
-                        "terminalLatinName":  "kozlovi",
-                        "nomenclaturalAuthor":  "Senenov and Znojko",
-                        "namingYear":  "1932",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Agyrtidae",
-                                                        "commonName":  "먼지송장벌레과",
-                                                        "ktsn":  120000013754
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Apteroloma",
-                                                       "commonName":  "먼지송장벌레속",
-                                                       "ktsn":  120000013755
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "kozlovi",
-                                                         "commonName":  "",
-                                                         "ktsn":  120000013756
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T08:49:55.022Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "inat":  {
-                                     "observationCount":  3,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/578358237/medium.jpg",
-                                     "months":  [
-                                                    4,
-                                                    5
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000201847,
-                        "scientificName":  "Lyrosoma opacum Mannerheim, 1853",
-                        "commonName":  "큰바다먼지송장벌레",
-                        "terminalLatinName":  "opacum",
-                        "nomenclaturalAuthor":  "Mannerheim",
-                        "namingYear":  "1853",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Agyrtidae",
-                                                        "commonName":  "먼지송장벌레과",
-                                                        "ktsn":  120000013754
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Lyrosoma",
-                                                       "commonName":  "바다먼지송장벌레속",
-                                                       "ktsn":  120000201845
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "opacum",
-                                                         "commonName":  "큰바다먼지송장벌레",
-                                                         "ktsn":  120000201847
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T08:43:39.451Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  37589330,
-                                    "canonical":  "Lyrosoma opacum",
-                                    "fetchedAt":  "2026-05-24T07:34:11.626Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-                                                       "Russia",
-                                                       "Alaska",
-                                                       "United States",
-                                                       "North Pacific",
-                                                       "Japan"
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  286
-                                }
-                    },
-                    {
-                        "ktsn":  120000201846,
-                        "scientificName":  "Lyrosoma pallidum (Eschscholtz, 1829)",
-                        "commonName":  "바다먼지송장벌레",
-                        "terminalLatinName":  "pallidum",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Agyrtidae",
-                                                        "commonName":  "먼지송장벌레과",
-                                                        "ktsn":  120000013754
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Lyrosoma",
-                                                       "commonName":  "바다먼지송장벌레속",
-                                                       "ktsn":  120000201845
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "pallidum",
-                                                         "commonName":  "바다먼지송장벌레",
-                                                         "ktsn":  120000201846
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T08:43:39.451Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    },
-                    {
-                        "ktsn":  120000013759,
-                        "scientificName":  "Pteroloma koebelei Van Dyke, 1928",
-                        "commonName":  "큰먼지송장벌레",
-                        "terminalLatinName":  "koebelei",
-                        "nomenclaturalAuthor":  "Van Dyke",
-                        "namingYear":  "1928",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Agyrtidae",
-                                                        "commonName":  "먼지송장벌레과",
-                                                        "ktsn":  120000013754
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Pteroloma",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000013758
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "koebelei",
-                                                         "commonName":  "큰먼지송장벌레",
-                                                         "ktsn":  120000013759
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T08:49:55.022Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    }
-                ],
-    "digitalContentUpdatedAt":  "2026-05-21T08:49:55.022Z",
-    "digitalContentSource":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "coleoptera",
+    "scientificName": "Coleoptera",
+    "commonName": "딱정벌레목",
+    "orderKtsn": 120000013750,
+    "abstract": "딱정벌레목(Coleoptera)은 곤충의 종 가운데 40%인 35만여종을 차지하는 목이다. 아직 발견되지 않은 종까지 합치면 500만~800만여종이 될 것으로 추정된다. 먹는 먹이도 다양해서 식물의 잎, 송사리 등의 작은 물고기, 나무의 즙, 작은 동물, 동물의 시체 등 매우 다양하다. 딱정벌레목에 속한 곤충으로는 무당벌레, 딱정벌레, 길앞잡이, 물방개, 장수풍뎅이 등이 있다. 대부분이 두꺼운 키틴질로 된 딱딱한 껍데기를 가지고 있어서 갑충(甲蟲)이라고도 불린다.",
+    "description": "딱정벌레목(Coleoptera)은 곤충의 종 가운데 40%인 35만여종을 차지하는 목이다. 아직 발견되지 않은 종까지 합치면 500만~800만여종이 될 것으로 추정된다. 먹는 먹이도 다양해서 식물의 잎, 송사리 등의 작은 물고기, 나무의 즙, 작은 동물, 동물의 시체 등 매우 다양하다. 딱정벌레목에 속한 곤충으로는 무당벌레, 딱정벌레, 길앞잡이, 물방개, 장수풍뎅이 등이 있다. 대부분이 두꺼운 키틴질로 된 딱딱한 껍데기를 가지고 있어서 갑충(甲蟲)이라고도 불린다."
+  },
+  "family": {
+    "id": "agyrtidae",
+    "scientificName": "Agyrtidae",
+    "commonName": "먼지송장벌레과",
+    "familyKtsn": 120000013754
+  },
+  "speciesCount": 4,
+  "insects": [
+    {
+      "ktsn": 120000013757,
+      "scientificName": "Apteroloma kozlovi kozlovi Senenov and Znojko, 1932",
+      "commonName": "먼지송장벌레",
+      "terminalLatinName": "kozlovi",
+      "nomenclaturalAuthor": "Senenov and Znojko",
+      "namingYear": "1932",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Agyrtidae",
+          "commonName": "먼지송장벌레과",
+          "ktsn": 120000013754
+        },
+        "genus": {
+          "scientificName": "Apteroloma",
+          "commonName": "먼지송장벌레속",
+          "ktsn": 120000013755
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "kozlovi",
+          "commonName": "",
+          "ktsn": 120000013756
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:49:55.022Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 3,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/578358237/medium.jpg",
+        "months": [
+          4,
+          5
+        ]
+      },
+      "inatTaxon": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:52:53.152Z"
+      }
+    },
+    {
+      "ktsn": 120000201847,
+      "scientificName": "Lyrosoma opacum Mannerheim, 1853",
+      "commonName": "큰바다먼지송장벌레",
+      "terminalLatinName": "opacum",
+      "nomenclaturalAuthor": "Mannerheim",
+      "namingYear": "1853",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Agyrtidae",
+          "commonName": "먼지송장벌레과",
+          "ktsn": 120000013754
+        },
+        "genus": {
+          "scientificName": "Lyrosoma",
+          "commonName": "바다먼지송장벌레속",
+          "ktsn": 120000201845
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "opacum",
+          "commonName": "큰바다먼지송장벌레",
+          "ktsn": 120000201847
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:43:39.451Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 37589330,
+        "canonical": "Lyrosoma opacum",
+        "fetchedAt": "2026-05-24T07:34:11.626Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [
+          "Russia",
+          "Alaska",
+          "United States",
+          "North Pacific",
+          "Japan"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 286
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:03:09.256Z",
+        "title": "Lyrosoma opacum",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Lyrosoma_opacum_Jacobson.png",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Lyrosoma_opacum_Jacobson.png",
+        "thumbnailSize": {
+          "width": 284,
+          "height": 531
+        },
+        "originalSize": {
+          "width": 284,
+          "height": 531
+        },
+        "filename": "Lyrosoma_opacum_Jacobson.png",
+        "description": "species of insect",
+        "pageUrl": "https://en.wikipedia.org/wiki/Lyrosoma_opacum",
+        "license": "see Wikimedia Commons",
+        "source": "Wikipedia"
+      },
+      "inatTaxon": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:52:53.700Z"
+      }
+    },
+    {
+      "ktsn": 120000201846,
+      "scientificName": "Lyrosoma pallidum (Eschscholtz, 1829)",
+      "commonName": "바다먼지송장벌레",
+      "terminalLatinName": "pallidum",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Agyrtidae",
+          "commonName": "먼지송장벌레과",
+          "ktsn": 120000013754
+        },
+        "genus": {
+          "scientificName": "Lyrosoma",
+          "commonName": "바다먼지송장벌레속",
+          "ktsn": 120000201845
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "pallidum",
+          "commonName": "바다먼지송장벌레",
+          "ktsn": 120000201846
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:43:39.451Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:03:09.256Z"
+      },
+      "inatTaxon": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:52:54.837Z",
+        "taxonId": 1651718,
+        "preferredCommonName": null,
+        "observationsCount": 1,
+        "wikipediaUrl": null,
+        "defaultPhoto": {
+          "mediumUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/588226544/medium.jpg",
+          "squareUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/588226544/square.jpg",
+          "originalDimensions": {
+            "height": 696,
+            "width": 1140
+          },
+          "license": "cc-by-nc",
+          "attribution": "(c) lymantriman, some rights reserved (CC BY-NC)",
+          "attributionName": "lymantriman"
+        },
+        "wikipediaSummary": null,
+        "taxonPhotos": [
+          {
+            "mediumUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/588226544/medium.jpg",
+            "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/588226544/large.jpg",
+            "license": "cc-by-nc",
+            "attribution": "(c) lymantriman, some rights reserved (CC BY-NC)",
+            "attributionName": "lymantriman"
+          }
+        ]
+      }
+    },
+    {
+      "ktsn": 120000013759,
+      "scientificName": "Pteroloma koebelei Van Dyke, 1928",
+      "commonName": "큰먼지송장벌레",
+      "terminalLatinName": "koebelei",
+      "nomenclaturalAuthor": "Van Dyke",
+      "namingYear": "1928",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Agyrtidae",
+          "commonName": "먼지송장벌레과",
+          "ktsn": 120000013754
+        },
+        "genus": {
+          "scientificName": "Pteroloma",
+          "commonName": "",
+          "ktsn": 120000013758
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "koebelei",
+          "commonName": "큰먼지송장벌레",
+          "ktsn": 120000013759
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:49:55.022Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:03:09.256Z"
+      },
+      "inatTaxon": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:52:55.390Z"
+      }
+    }
+  ],
+  "digitalContentUpdatedAt": "2026-05-21T08:49:55.022Z",
+  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
 }

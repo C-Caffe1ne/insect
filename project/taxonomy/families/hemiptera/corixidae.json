@@ -1,1305 +1,1209 @@
 {
-    "generatedAt":  "2026-05-21T07:47:08.025Z",
-    "source":  "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
-    "order":  {
-                  "id":  "hemiptera",
-                  "scientificName":  "Hemiptera",
-                  "commonName":  "노린재목",
-                  "orderKtsn":  120000066597
-              },
-    "family":  {
-                   "id":  "corixidae",
-                   "scientificName":  "Corixidae",
-                   "commonName":  "물벌레과",
-                   "familyKtsn":  120000025655
-               },
-    "speciesCount":  16,
-    "insects":  [
-                    {
-                        "ktsn":  120000025657,
-                        "scientificName":  "Cymatia apparens (Distant, 1911)",
-                        "commonName":  "각시손톱물벌레",
-                        "terminalLatinName":  "apparens",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hemiptera",
-                                                       "commonName":  "노린재목",
-                                                       "ktsn":  120000066597
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Corixidae",
-                                                        "commonName":  "물벌레과",
-                                                        "ktsn":  120000025655
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Cymatia",
-                                                       "commonName":  "손톱물벌레속",
-                                                       "ktsn":  120000025656
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "apparens",
-                                                         "commonName":  "각시손톱물벌레",
-                                                         "ktsn":  120000025657
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:25:54.711Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  46906316,
-                                    "canonical":  "Cymatia apparens",
-                                    "fetchedAt":  "2026-05-24T10:01:20.836Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-                                                                   "ミゾナシミズムシ"
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  null
-                                }
-                    },
-                    {
-                        "ktsn":  120000025659,
-                        "scientificName":  "Hesperocorixa crassipala (Hungerford, 1940)",
-                        "commonName":  "해동물벌레",
-                        "terminalLatinName":  "crassipala",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hemiptera",
-                                                       "commonName":  "노린재목",
-                                                       "ktsn":  120000066597
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Corixidae",
-                                                        "commonName":  "물벌레과",
-                                                        "ktsn":  120000025655
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Hesperocorixa",
-                                                       "commonName":  "물벌레속",
-                                                       "ktsn":  120000025658
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "crassipala",
-                                                         "commonName":  "해동물벌레",
-                                                         "ktsn":  120000025659
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:25:54.711Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    },
-                    {
-                        "ktsn":  120000025660,
-                        "scientificName":  "Hesperocorixa distanti (Kirkaldy, 1899)",
-                        "commonName":  "물벌레",
-                        "terminalLatinName":  "distanti",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hemiptera",
-                                                       "commonName":  "노린재목",
-                                                       "ktsn":  120000066597
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Corixidae",
-                                                        "commonName":  "물벌레과",
-                                                        "ktsn":  120000025655
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Hesperocorixa",
-                                                       "commonName":  "물벌레속",
-                                                       "ktsn":  120000025658
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "distanti",
-                                                         "commonName":  "물벌레",
-                                                         "ktsn":  120000025660
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:25:54.711Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    },
-                    {
-                        "ktsn":  120000025661,
-                        "scientificName":  "Hesperocorixa hokkensis (Matsumura, 1905)",
-                        "commonName":  "왕물벌레",
-                        "terminalLatinName":  "hokkensis",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hemiptera",
-                                                       "commonName":  "노린재목",
-                                                       "ktsn":  120000066597
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Corixidae",
-                                                        "commonName":  "물벌레과",
-                                                        "ktsn":  120000025655
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Hesperocorixa",
-                                                       "commonName":  "물벌레속",
-                                                       "ktsn":  120000025658
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "hokkensis",
-                                                         "commonName":  "왕물벌레",
-                                                         "ktsn":  120000025661
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:25:54.711Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    },
-                    {
-                        "ktsn":  120000091925,
-                        "scientificName":  "Hesperocorixa mandshurica (Jaczewski , 1924)",
-                        "commonName":  "닮은물벌레",
-                        "terminalLatinName":  "mandshurica",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hemiptera",
-                                                       "commonName":  "노린재목",
-                                                       "ktsn":  120000066597
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Corixidae",
-                                                        "commonName":  "물벌레과",
-                                                        "ktsn":  120000025655
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Hesperocorixa",
-                                                       "commonName":  "물벌레속",
-                                                       "ktsn":  120000025658
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "mandshurica",
-                                                         "commonName":  "닮은물벌레",
-                                                         "ktsn":  120000091925
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:25:54.711Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    },
-                    {
-                        "ktsn":  120000025665,
-                        "scientificName":  "Micronecta (Basileonecta) sahlbergii (Jakovlev, 1881)",
-                        "commonName":  "동쪽꼬마물벌레",
-                        "terminalLatinName":  "sahlbergii",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hemiptera",
-                                                       "commonName":  "노린재목",
-                                                       "ktsn":  120000066597
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Corixidae",
-                                                        "commonName":  "물벌레과",
-                                                        "ktsn":  120000025655
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Micronecta",
-                                                       "commonName":  "꼬마물벌레속",
-                                                       "ktsn":  120000025663
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "Basileonecta",
-                                                          "commonName":  "",
-                                                          "ktsn":  120000025664
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "sahlbergii",
-                                                         "commonName":  "동쪽꼬마물벌레",
-                                                         "ktsn":  120000025665
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:25:54.711Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  53664832,
-                                    "canonical":  "Micronecta sahlbergii",
-                                    "fetchedAt":  "2026-05-24T10:01:54.294Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-                                                       "Hong Kong"
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  null
-                                }
-                    },
-                    {
-                        "ktsn":  120000025666,
-                        "scientificName":  "Micronecta (Basileonecta) sedula Horváth, 1905",
-                        "commonName":  "꼬마물벌레",
-                        "terminalLatinName":  "sedula",
-                        "nomenclaturalAuthor":  "Horváth",
-                        "namingYear":  "1905",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hemiptera",
-                                                       "commonName":  "노린재목",
-                                                       "ktsn":  120000066597
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Corixidae",
-                                                        "commonName":  "물벌레과",
-                                                        "ktsn":  120000025655
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Micronecta",
-                                                       "commonName":  "꼬마물벌레속",
-                                                       "ktsn":  120000025663
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "Basileonecta",
-                                                          "commonName":  "",
-                                                          "ktsn":  120000025664
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "sedula",
-                                                         "commonName":  "꼬마물벌레",
-                                                         "ktsn":  120000025666
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:25:54.711Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "inat":  {
-                                     "observationCount":  1,
-                                     "imageUrl":  null,
-                                     "months":  [
-                                                    5
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000025668,
-                        "scientificName":  "Micronecta (Micronecta) guttata Matsumura, 1905",
-                        "commonName":  "꼬마손자물벌레",
-                        "terminalLatinName":  "guttata",
-                        "nomenclaturalAuthor":  "Matsumura",
-                        "namingYear":  "1905",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hemiptera",
-                                                       "commonName":  "노린재목",
-                                                       "ktsn":  120000066597
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Corixidae",
-                                                        "commonName":  "물벌레과",
-                                                        "ktsn":  120000025655
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Micronecta",
-                                                       "commonName":  "꼬마물벌레속",
-                                                       "ktsn":  120000025663
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "Micronecta",
-                                                          "commonName":  "",
-                                                          "ktsn":  120000025667
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "guttata",
-                                                         "commonName":  "꼬마손자물벌레",
-                                                         "ktsn":  120000025668
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:25:54.711Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    },
-                    {
-                        "ktsn":  120000025671,
-                        "scientificName":  "Sigara (Pseudovermicorixa) septemlineata (Paiva, 1918)",
-                        "commonName":  "어리방물벌레",
-                        "terminalLatinName":  "septemlineata",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hemiptera",
-                                                       "commonName":  "노린재목",
-                                                       "ktsn":  120000066597
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Corixidae",
-                                                        "commonName":  "물벌레과",
-                                                        "ktsn":  120000025655
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Sigara",
-                                                       "commonName":  "방물벌레속",
-                                                       "ktsn":  120000148967
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "Pseudovermicorixa",
-                                                          "commonName":  "",
-                                                          "ktsn":  120000148976
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "septemlineata",
-                                                         "commonName":  "어리방물벌레",
-                                                         "ktsn":  120000025671
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:25:54.711Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  49863121,
-                                    "canonical":  "Sigara septemlineata",
-                                    "fetchedAt":  "2026-05-24T10:02:21.518Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-                                                                   "エサキコミズムシ"
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  81
-                                }
-                    },
-                    {
-                        "ktsn":  120000148981,
-                        "scientificName":  "Sigara (Sigara) weymarni Hungerford, 1940",
-                        "commonName":  "꼭지방물벌레",
-                        "terminalLatinName":  "weymarni",
-                        "nomenclaturalAuthor":  "Hungerford",
-                        "namingYear":  "1940",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hemiptera",
-                                                       "commonName":  "노린재목",
-                                                       "ktsn":  120000066597
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Corixidae",
-                                                        "commonName":  "물벌레과",
-                                                        "ktsn":  120000025655
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Sigara",
-                                                       "commonName":  "방물벌레속",
-                                                       "ktsn":  120000148967
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "Sigara",
-                                                          "commonName":  "",
-                                                          "ktsn":  120000148980
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "weymarni",
-                                                         "commonName":  "꼭지방물벌레",
-                                                         "ktsn":  120000148981
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:25:54.711Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    },
-                    {
-                        "ktsn":  120000148984,
-                        "scientificName":  "Sigara (Tropocorixa) bellura (Horváth, 1879)",
-                        "commonName":  "진방물벌레",
-                        "terminalLatinName":  "bellura",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hemiptera",
-                                                       "commonName":  "노린재목",
-                                                       "ktsn":  120000066597
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Corixidae",
-                                                        "commonName":  "물벌레과",
-                                                        "ktsn":  120000025655
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Sigara",
-                                                       "commonName":  "방물벌레속",
-                                                       "ktsn":  120000148967
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "Tropocorixa",
-                                                          "commonName":  "",
-                                                          "ktsn":  120000148983
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "bellura",
-                                                         "commonName":  "진방물벌레",
-                                                         "ktsn":  120000148984
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:25:54.711Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    },
-                    {
-                        "ktsn":  120000148988,
-                        "scientificName":  "Sigara (Tropocorixa) formosana (Matsumura, 1915)",
-                        "commonName":  "대만물벌레",
-                        "terminalLatinName":  "formosana",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hemiptera",
-                                                       "commonName":  "노린재목",
-                                                       "ktsn":  120000066597
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Corixidae",
-                                                        "commonName":  "물벌레과",
-                                                        "ktsn":  120000025655
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Sigara",
-                                                       "commonName":  "방물벌레속",
-                                                       "ktsn":  120000148967
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "Tropocorixa",
-                                                          "commonName":  "",
-                                                          "ktsn":  120000148983
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "formosana",
-                                                         "commonName":  "대만물벌레",
-                                                         "ktsn":  120000148988
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:25:54.711Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    },
-                    {
-                        "ktsn":  120000148991,
-                        "scientificName":  "Sigara (Tropocorixa) gaginae Jaczewski, 1960",
-                        "commonName":  "극동진방물벌레",
-                        "terminalLatinName":  "gaginae",
-                        "nomenclaturalAuthor":  "Jaczewski",
-                        "namingYear":  "1960",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hemiptera",
-                                                       "commonName":  "노린재목",
-                                                       "ktsn":  120000066597
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Corixidae",
-                                                        "commonName":  "물벌레과",
-                                                        "ktsn":  120000025655
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Sigara",
-                                                       "commonName":  "방물벌레속",
-                                                       "ktsn":  120000148967
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "Tropocorixa",
-                                                          "commonName":  "",
-                                                          "ktsn":  120000148983
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "gaginae",
-                                                         "commonName":  "극동진방물벌레",
-                                                         "ktsn":  120000148991
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:25:54.711Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    },
-                    {
-                        "ktsn":  120000025678,
-                        "scientificName":  "Sigara (Tropocorixa) nigroventralis (Matsumura, 1905)",
-                        "commonName":  "검정배물벌레",
-                        "terminalLatinName":  "nigroventralis",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hemiptera",
-                                                       "commonName":  "노린재목",
-                                                       "ktsn":  120000066597
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Corixidae",
-                                                        "commonName":  "물벌레과",
-                                                        "ktsn":  120000025655
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Sigara",
-                                                       "commonName":  "방물벌레속",
-                                                       "ktsn":  120000148967
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "Tropocorixa",
-                                                          "commonName":  "",
-                                                          "ktsn":  120000148983
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "nigroventralis",
-                                                         "commonName":  "검정배물벌레",
-                                                         "ktsn":  120000025678
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:25:54.711Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    },
-                    {
-                        "ktsn":  120000148997,
-                        "scientificName":  "Sigara (Tropocorixa) paivai Lundblad, 1928",
-                        "commonName":  "남쪽진방물벌레",
-                        "terminalLatinName":  "paivai",
-                        "nomenclaturalAuthor":  "Lundblad",
-                        "namingYear":  "1928",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hemiptera",
-                                                       "commonName":  "노린재목",
-                                                       "ktsn":  120000066597
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Corixidae",
-                                                        "commonName":  "물벌레과",
-                                                        "ktsn":  120000025655
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Sigara",
-                                                       "commonName":  "방물벌레속",
-                                                       "ktsn":  120000148967
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "Tropocorixa",
-                                                          "commonName":  "",
-                                                          "ktsn":  120000148983
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "paivai",
-                                                         "commonName":  "남쪽진방물벌레",
-                                                         "ktsn":  120000148997
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:25:54.711Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    },
-                    {
-                        "ktsn":  120000025680,
-                        "scientificName":  "Sigara (Tropocorixa) substriata (Uhler, 1896)",
-                        "commonName":  "방물벌레",
-                        "terminalLatinName":  "substriata",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hemiptera",
-                                                       "commonName":  "노린재목",
-                                                       "ktsn":  120000066597
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Corixidae",
-                                                        "commonName":  "물벌레과",
-                                                        "ktsn":  120000025655
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Sigara",
-                                                       "commonName":  "방물벌레속",
-                                                       "ktsn":  120000148967
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "Tropocorixa",
-                                                          "commonName":  "",
-                                                          "ktsn":  120000148983
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "substriata",
-                                                         "commonName":  "방물벌레",
-                                                         "ktsn":  120000025680
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:25:54.711Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    }
-                ],
-    "digitalContentUpdatedAt":  "2026-05-21T09:25:54.711Z",
-    "digitalContentSource":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "hemiptera",
+    "scientificName": "Hemiptera",
+    "commonName": "노린재목",
+    "orderKtsn": 120000066597
+  },
+  "family": {
+    "id": "corixidae",
+    "scientificName": "Corixidae",
+    "commonName": "물벌레과",
+    "familyKtsn": 120000025655
+  },
+  "speciesCount": 16,
+  "insects": [
+    {
+      "ktsn": 120000025657,
+      "scientificName": "Cymatia apparens (Distant, 1911)",
+      "commonName": "각시손톱물벌레",
+      "terminalLatinName": "apparens",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Corixidae",
+          "commonName": "물벌레과",
+          "ktsn": 120000025655
+        },
+        "genus": {
+          "scientificName": "Cymatia",
+          "commonName": "손톱물벌레속",
+          "ktsn": 120000025656
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "apparens",
+          "commonName": "각시손톱물벌레",
+          "ktsn": 120000025657
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:25:54.711Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 46906316,
+        "canonical": "Cymatia apparens",
+        "fetchedAt": "2026-05-24T10:01:20.836Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": [
+            "ミゾナシミズムシ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:50.470Z"
+      }
+    },
+    {
+      "ktsn": 120000025659,
+      "scientificName": "Hesperocorixa crassipala (Hungerford, 1940)",
+      "commonName": "해동물벌레",
+      "terminalLatinName": "crassipala",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Corixidae",
+          "commonName": "물벌레과",
+          "ktsn": 120000025655
+        },
+        "genus": {
+          "scientificName": "Hesperocorixa",
+          "commonName": "물벌레속",
+          "ktsn": 120000025658
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "crassipala",
+          "commonName": "해동물벌레",
+          "ktsn": 120000025659
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:25:54.711Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:50.470Z"
+      }
+    },
+    {
+      "ktsn": 120000025660,
+      "scientificName": "Hesperocorixa distanti (Kirkaldy, 1899)",
+      "commonName": "물벌레",
+      "terminalLatinName": "distanti",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Corixidae",
+          "commonName": "물벌레과",
+          "ktsn": 120000025655
+        },
+        "genus": {
+          "scientificName": "Hesperocorixa",
+          "commonName": "물벌레속",
+          "ktsn": 120000025658
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "distanti",
+          "commonName": "물벌레",
+          "ktsn": 120000025660
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:25:54.711Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:50.470Z"
+      }
+    },
+    {
+      "ktsn": 120000025661,
+      "scientificName": "Hesperocorixa hokkensis (Matsumura, 1905)",
+      "commonName": "왕물벌레",
+      "terminalLatinName": "hokkensis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Corixidae",
+          "commonName": "물벌레과",
+          "ktsn": 120000025655
+        },
+        "genus": {
+          "scientificName": "Hesperocorixa",
+          "commonName": "물벌레속",
+          "ktsn": 120000025658
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "hokkensis",
+          "commonName": "왕물벌레",
+          "ktsn": 120000025661
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:25:54.711Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:50.470Z"
+      }
+    },
+    {
+      "ktsn": 120000091925,
+      "scientificName": "Hesperocorixa mandshurica (Jaczewski , 1924)",
+      "commonName": "닮은물벌레",
+      "terminalLatinName": "mandshurica",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Corixidae",
+          "commonName": "물벌레과",
+          "ktsn": 120000025655
+        },
+        "genus": {
+          "scientificName": "Hesperocorixa",
+          "commonName": "물벌레속",
+          "ktsn": 120000025658
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "mandshurica",
+          "commonName": "닮은물벌레",
+          "ktsn": 120000091925
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:25:54.711Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:50.470Z"
+      }
+    },
+    {
+      "ktsn": 120000025665,
+      "scientificName": "Micronecta (Basileonecta) sahlbergii (Jakovlev, 1881)",
+      "commonName": "동쪽꼬마물벌레",
+      "terminalLatinName": "sahlbergii",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Corixidae",
+          "commonName": "물벌레과",
+          "ktsn": 120000025655
+        },
+        "genus": {
+          "scientificName": "Micronecta",
+          "commonName": "꼬마물벌레속",
+          "ktsn": 120000025663
+        },
+        "subgenus": {
+          "scientificName": "Basileonecta",
+          "commonName": "",
+          "ktsn": 120000025664
+        },
+        "species": {
+          "scientificName": "sahlbergii",
+          "commonName": "동쪽꼬마물벌레",
+          "ktsn": 120000025665
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:25:54.711Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 53664832,
+        "canonical": "Micronecta sahlbergii",
+        "fetchedAt": "2026-05-24T10:01:54.294Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [
+          "Hong Kong"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:50.470Z"
+      }
+    },
+    {
+      "ktsn": 120000025666,
+      "scientificName": "Micronecta (Basileonecta) sedula Horváth, 1905",
+      "commonName": "꼬마물벌레",
+      "terminalLatinName": "sedula",
+      "nomenclaturalAuthor": "Horváth",
+      "namingYear": "1905",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Corixidae",
+          "commonName": "물벌레과",
+          "ktsn": 120000025655
+        },
+        "genus": {
+          "scientificName": "Micronecta",
+          "commonName": "꼬마물벌레속",
+          "ktsn": 120000025663
+        },
+        "subgenus": {
+          "scientificName": "Basileonecta",
+          "commonName": "",
+          "ktsn": 120000025664
+        },
+        "species": {
+          "scientificName": "sedula",
+          "commonName": "꼬마물벌레",
+          "ktsn": 120000025666
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:25:54.711Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": null,
+        "months": [
+          5
+        ]
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:50.470Z"
+      }
+    },
+    {
+      "ktsn": 120000025668,
+      "scientificName": "Micronecta (Micronecta) guttata Matsumura, 1905",
+      "commonName": "꼬마손자물벌레",
+      "terminalLatinName": "guttata",
+      "nomenclaturalAuthor": "Matsumura",
+      "namingYear": "1905",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Corixidae",
+          "commonName": "물벌레과",
+          "ktsn": 120000025655
+        },
+        "genus": {
+          "scientificName": "Micronecta",
+          "commonName": "꼬마물벌레속",
+          "ktsn": 120000025663
+        },
+        "subgenus": {
+          "scientificName": "Micronecta",
+          "commonName": "",
+          "ktsn": 120000025667
+        },
+        "species": {
+          "scientificName": "guttata",
+          "commonName": "꼬마손자물벌레",
+          "ktsn": 120000025668
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:25:54.711Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:50.471Z"
+      }
+    },
+    {
+      "ktsn": 120000025671,
+      "scientificName": "Sigara (Pseudovermicorixa) septemlineata (Paiva, 1918)",
+      "commonName": "어리방물벌레",
+      "terminalLatinName": "septemlineata",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Corixidae",
+          "commonName": "물벌레과",
+          "ktsn": 120000025655
+        },
+        "genus": {
+          "scientificName": "Sigara",
+          "commonName": "방물벌레속",
+          "ktsn": 120000148967
+        },
+        "subgenus": {
+          "scientificName": "Pseudovermicorixa",
+          "commonName": "",
+          "ktsn": 120000148976
+        },
+        "species": {
+          "scientificName": "septemlineata",
+          "commonName": "어리방물벌레",
+          "ktsn": 120000025671
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:25:54.711Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 49863121,
+        "canonical": "Sigara septemlineata",
+        "fetchedAt": "2026-05-24T10:02:21.518Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": [
+            "エサキコミズムシ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 81
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:50.471Z"
+      }
+    },
+    {
+      "ktsn": 120000148981,
+      "scientificName": "Sigara (Sigara) weymarni Hungerford, 1940",
+      "commonName": "꼭지방물벌레",
+      "terminalLatinName": "weymarni",
+      "nomenclaturalAuthor": "Hungerford",
+      "namingYear": "1940",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Corixidae",
+          "commonName": "물벌레과",
+          "ktsn": 120000025655
+        },
+        "genus": {
+          "scientificName": "Sigara",
+          "commonName": "방물벌레속",
+          "ktsn": 120000148967
+        },
+        "subgenus": {
+          "scientificName": "Sigara",
+          "commonName": "",
+          "ktsn": 120000148980
+        },
+        "species": {
+          "scientificName": "weymarni",
+          "commonName": "꼭지방물벌레",
+          "ktsn": 120000148981
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:25:54.711Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:50.471Z"
+      }
+    },
+    {
+      "ktsn": 120000148984,
+      "scientificName": "Sigara (Tropocorixa) bellura (Horváth, 1879)",
+      "commonName": "진방물벌레",
+      "terminalLatinName": "bellura",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Corixidae",
+          "commonName": "물벌레과",
+          "ktsn": 120000025655
+        },
+        "genus": {
+          "scientificName": "Sigara",
+          "commonName": "방물벌레속",
+          "ktsn": 120000148967
+        },
+        "subgenus": {
+          "scientificName": "Tropocorixa",
+          "commonName": "",
+          "ktsn": 120000148983
+        },
+        "species": {
+          "scientificName": "bellura",
+          "commonName": "진방물벌레",
+          "ktsn": 120000148984
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:25:54.711Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:50.471Z"
+      }
+    },
+    {
+      "ktsn": 120000148988,
+      "scientificName": "Sigara (Tropocorixa) formosana (Matsumura, 1915)",
+      "commonName": "대만물벌레",
+      "terminalLatinName": "formosana",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Corixidae",
+          "commonName": "물벌레과",
+          "ktsn": 120000025655
+        },
+        "genus": {
+          "scientificName": "Sigara",
+          "commonName": "방물벌레속",
+          "ktsn": 120000148967
+        },
+        "subgenus": {
+          "scientificName": "Tropocorixa",
+          "commonName": "",
+          "ktsn": 120000148983
+        },
+        "species": {
+          "scientificName": "formosana",
+          "commonName": "대만물벌레",
+          "ktsn": 120000148988
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:25:54.711Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:50.471Z"
+      }
+    },
+    {
+      "ktsn": 120000148991,
+      "scientificName": "Sigara (Tropocorixa) gaginae Jaczewski, 1960",
+      "commonName": "극동진방물벌레",
+      "terminalLatinName": "gaginae",
+      "nomenclaturalAuthor": "Jaczewski",
+      "namingYear": "1960",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Corixidae",
+          "commonName": "물벌레과",
+          "ktsn": 120000025655
+        },
+        "genus": {
+          "scientificName": "Sigara",
+          "commonName": "방물벌레속",
+          "ktsn": 120000148967
+        },
+        "subgenus": {
+          "scientificName": "Tropocorixa",
+          "commonName": "",
+          "ktsn": 120000148983
+        },
+        "species": {
+          "scientificName": "gaginae",
+          "commonName": "극동진방물벌레",
+          "ktsn": 120000148991
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:25:54.711Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:50.471Z"
+      }
+    },
+    {
+      "ktsn": 120000025678,
+      "scientificName": "Sigara (Tropocorixa) nigroventralis (Matsumura, 1905)",
+      "commonName": "검정배물벌레",
+      "terminalLatinName": "nigroventralis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Corixidae",
+          "commonName": "물벌레과",
+          "ktsn": 120000025655
+        },
+        "genus": {
+          "scientificName": "Sigara",
+          "commonName": "방물벌레속",
+          "ktsn": 120000148967
+        },
+        "subgenus": {
+          "scientificName": "Tropocorixa",
+          "commonName": "",
+          "ktsn": 120000148983
+        },
+        "species": {
+          "scientificName": "nigroventralis",
+          "commonName": "검정배물벌레",
+          "ktsn": 120000025678
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:25:54.711Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:50.471Z"
+      }
+    },
+    {
+      "ktsn": 120000148997,
+      "scientificName": "Sigara (Tropocorixa) paivai Lundblad, 1928",
+      "commonName": "남쪽진방물벌레",
+      "terminalLatinName": "paivai",
+      "nomenclaturalAuthor": "Lundblad",
+      "namingYear": "1928",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Corixidae",
+          "commonName": "물벌레과",
+          "ktsn": 120000025655
+        },
+        "genus": {
+          "scientificName": "Sigara",
+          "commonName": "방물벌레속",
+          "ktsn": 120000148967
+        },
+        "subgenus": {
+          "scientificName": "Tropocorixa",
+          "commonName": "",
+          "ktsn": 120000148983
+        },
+        "species": {
+          "scientificName": "paivai",
+          "commonName": "남쪽진방물벌레",
+          "ktsn": 120000148997
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:25:54.711Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:50.471Z"
+      }
+    },
+    {
+      "ktsn": 120000025680,
+      "scientificName": "Sigara (Tropocorixa) substriata (Uhler, 1896)",
+      "commonName": "방물벌레",
+      "terminalLatinName": "substriata",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Corixidae",
+          "commonName": "물벌레과",
+          "ktsn": 120000025655
+        },
+        "genus": {
+          "scientificName": "Sigara",
+          "commonName": "방물벌레속",
+          "ktsn": 120000148967
+        },
+        "subgenus": {
+          "scientificName": "Tropocorixa",
+          "commonName": "",
+          "ktsn": 120000148983
+        },
+        "species": {
+          "scientificName": "substriata",
+          "commonName": "방물벌레",
+          "ktsn": 120000025680
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:25:54.711Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:50.471Z"
+      }
+    }
+  ],
+  "digitalContentUpdatedAt": "2026-05-21T09:25:54.711Z",
+  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
 }

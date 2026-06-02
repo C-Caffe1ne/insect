@@ -1,2246 +1,2091 @@
 {
-    "generatedAt":  "2026-05-21T07:47:08.025Z",
-    "source":  "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
-    "order":  {
-                  "id":  "coleoptera",
-                  "scientificName":  "Coleoptera",
-                  "commonName":  "딱정벌레목",
-                  "orderKtsn":  120000013750,
-                  "abstract":  "딱정벌레목(Coleoptera)은 곤충의 종 가운데 40%인 35만여종을 차지하는 목이다. 아직 발견되지 않은 종까지 합치면 500만~800만여종이 될 것으로 추정된다. 먹는 먹이도 다양해서 식물의 잎, 송사리 등의 작은 물고기, 나무의 즙, 작은 동물, 동물의 시체 등 매우 다양하다. 딱정벌레목에 속한 곤충으로는 무당벌레, 딱정벌레, 길앞잡이, 물방개, 장수풍뎅이 등이 있다. 대부분이 두꺼운 키틴질로 된 딱딱한 껍데기를 가지고 있어서 갑충(甲蟲)이라고도 불린다.",
-                  "description":  "딱정벌레목(Coleoptera)은 곤충의 종 가운데 40%인 35만여종을 차지하는 목이다. 아직 발견되지 않은 종까지 합치면 500만~800만여종이 될 것으로 추정된다. 먹는 먹이도 다양해서 식물의 잎, 송사리 등의 작은 물고기, 나무의 즙, 작은 동물, 동물의 시체 등 매우 다양하다. 딱정벌레목에 속한 곤충으로는 무당벌레, 딱정벌레, 길앞잡이, 물방개, 장수풍뎅이 등이 있다. 대부분이 두꺼운 키틴질로 된 딱딱한 껍데기를 가지고 있어서 갑충(甲蟲)이라고도 불린다."
-              },
-    "family":  {
-                   "id":  "silphidae",
-                   "scientificName":  "Silphidae",
-                   "commonName":  "송장벌레과",
-                   "familyKtsn":  120000019600
-               },
-    "speciesCount":  26,
-    "insects":  [
-                    {
-                        "ktsn":  120000019602,
-                        "scientificName":  "Aclypea daurica (Gebler, 1832)",
-                        "commonName":  "금털송장벌레",
-                        "terminalLatinName":  "daurica",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Silphidae",
-                                                        "commonName":  "송장벌레과",
-                                                        "ktsn":  120000019600
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Aclypea",
-                                                       "commonName":  "금털송장벌레속",
-                                                       "ktsn":  120000019601
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "daurica",
-                                                         "commonName":  "금털송장벌레",
-                                                         "ktsn":  120000019602
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:05:12.390Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "inat":  {
-                                     "observationCount":  2,
-                                     "imageUrl":  null,
-                                     "months":  [
-                                                    6
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000019604,
-                        "scientificName":  "Dendroxena sexcarinata (Motschulsky, 1861)",
-                        "commonName":  "네눈박이송장벌레",
-                        "terminalLatinName":  "sexcarinata",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Silphidae",
-                                                        "commonName":  "송장벌레과",
-                                                        "ktsn":  120000019600
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Dendroxena",
-                                                       "commonName":  "네눈박이송장벌레",
-                                                       "ktsn":  120000019603
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "sexcarinata",
-                                                         "commonName":  "네눈박이송장벌레",
-                                                         "ktsn":  120000019604
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:05:12.390Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  49866483,
-                                    "canonical":  "Dendroxena sexcarinata",
-                                    "fetchedAt":  "2026-05-24T08:26:06.306Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-                                                                   "네눈박이송장벌레"
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-                                                                   "ヨツボシヒラタシデムシ"
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-                                                       "Japan"
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  323
-                                },
-                        "inat":  {
-                                     "observationCount":  26,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/63784861/medium.jpg",
-                                     "months":  [
-                                                    4,
-                                                    5,
-                                                    6
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000019606,
-                        "scientificName":  "Necrodes littoralis (Linnaeus, 1758)",
-                        "commonName":  "큰수중다리송장벌레",
-                        "terminalLatinName":  "littoralis",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Silphidae",
-                                                        "commonName":  "송장벌레과",
-                                                        "ktsn":  120000019600
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Necrodes",
-                                                       "commonName":  "수중다리송장벌레속",
-                                                       "ktsn":  120000019605
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "littoralis",
-                                                         "commonName":  "큰수중다리송장벌레",
-                                                         "ktsn":  120000019606
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:05:12.390Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  3383901,
-                                    "canonical":  "Necrodes littoralis",
-                                    "fetchedAt":  "2026-05-24T08:26:15.701Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-                                                                   "큰수중다리송장벌레"
-                                                               ],
-                                                        "en":  [
-                                                                   "Shore Sexton Beetle"
-                                                               ],
-                                                        "ja":  [
-                                                                   "オオモモブトシデムシ"
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-                                                       "Turkey",
-                                                       "North Pacific",
-                                                       "Japan",
-                                                       "United Kingdom",
-                                                       "The Netherlands",
-                                                       "Sweden",
-                                                       "Spain",
-                                                       "Slovenia",
-                                                       "Serbia",
-                                                       "Russia",
-                                                       "Poland",
-                                                       "Norway",
-                                                       "Luxembourg",
-                                                       "Latvia",
-                                                       "Italy",
-                                                       "Ireland",
-                                                       "Germany",
-                                                       "France",
-                                                       "Finland",
-                                                       "Estonia",
-                                                       "Czech Republic",
-                                                       "Austria"
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  11221
-                                },
-                        "inat":  {
-                                     "observationCount":  25,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/133863180/medium.jpg",
-                                     "months":  [
-                                                    6,
-                                                    7,
-                                                    8,
-                                                    9,
-                                                    10
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000019607,
-                        "scientificName":  "Necrodes nigricornis Harold, 1875",
-                        "commonName":  "수중다리송장벌레",
-                        "terminalLatinName":  "nigricornis",
-                        "nomenclaturalAuthor":  "Harold",
-                        "namingYear":  "1875",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Silphidae",
-                                                        "commonName":  "송장벌레과",
-                                                        "ktsn":  120000019600
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Necrodes",
-                                                       "commonName":  "수중다리송장벌레속",
-                                                       "ktsn":  120000019605
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "nigricornis",
-                                                         "commonName":  "수중다리송장벌레",
-                                                         "ktsn":  120000019607
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:05:12.390Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  48900087,
-                                    "canonical":  "Necrodes nigricornis",
-                                    "fetchedAt":  "2026-05-24T08:26:22.223Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-                                                                   "수중다리송장벌레"
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-                                                                   "モモブトシデムシ"
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-                                                       "North Pacific",
-                                                       "Japan"
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  726
-                                },
-                        "inat":  {
-                                     "observationCount":  3,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/86851500/medium.jpg",
-                                     "months":  [
-                                                    4,
-                                                    7
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000019611,
-                        "scientificName":  "Necrophila (Calosilpha) brunneicollis brunneicollis (Kraatz, 1877)",
-                        "commonName":  "대모송장벌레",
-                        "terminalLatinName":  "brunneicollis",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Silphidae",
-                                                        "commonName":  "송장벌레과",
-                                                        "ktsn":  120000019600
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Necrophila",
-                                                       "commonName":  "큰넓적송장벌레속",
-                                                       "ktsn":  120000019608
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "Calosilpha",
-                                                          "commonName":  "",
-                                                          "ktsn":  120000019609
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "brunneicollis",
-                                                         "commonName":  "",
-                                                         "ktsn":  120000019610
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:05:12.390Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    },
-                    {
-                        "ktsn":  120000019614,
-                        "scientificName":  "Necrophila (Eusilpha) jakowlewi jakowlewi (Semenov, 1891)",
-                        "commonName":  "큰넓적송장벌레",
-                        "terminalLatinName":  "jakowlewi",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Silphidae",
-                                                        "commonName":  "송장벌레과",
-                                                        "ktsn":  120000019600
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Necrophila",
-                                                       "commonName":  "큰넓적송장벌레속",
-                                                       "ktsn":  120000019608
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "Eusilpha",
-                                                          "commonName":  "",
-                                                          "ktsn":  120000019612
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "jakowlewi",
-                                                         "commonName":  "",
-                                                         "ktsn":  120000019613
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:05:12.390Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    },
-                    {
-                        "ktsn":  120000019616,
-                        "scientificName":  "Nicrophorus basalis Faldermann, 1835",
-                        "commonName":  "작은송장벌레",
-                        "terminalLatinName":  "basalis",
-                        "nomenclaturalAuthor":  "Faldermann",
-                        "namingYear":  "1835",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Silphidae",
-                                                        "commonName":  "송장벌레과",
-                                                        "ktsn":  120000019600
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Nicrophorus",
-                                                       "commonName":  "송장벌레속",
-                                                       "ktsn":  120000019615
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "basalis",
-                                                         "commonName":  "작은송장벌레",
-                                                         "ktsn":  120000019616
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:05:12.390Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  1043297,
-                                    "canonical":  "Nicrophorus basalis",
-                                    "fetchedAt":  "2026-05-24T08:37:33.850Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  2
-                                }
-                    },
-                    {
-                        "ktsn":  120000019617,
-                        "scientificName":  "Nicrophorus concolor Kraatz, 1877",
-                        "commonName":  "검정송장벌레",
-                        "terminalLatinName":  "concolor",
-                        "nomenclaturalAuthor":  "Kraatz",
-                        "namingYear":  "1877",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Silphidae",
-                                                        "commonName":  "송장벌레과",
-                                                        "ktsn":  120000019600
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Nicrophorus",
-                                                       "commonName":  "송장벌레속",
-                                                       "ktsn":  120000019615
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "concolor",
-                                                         "commonName":  "검정송장벌레",
-                                                         "ktsn":  120000019617
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:05:12.390Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  1043301,
-                                    "canonical":  "Nicrophorus concolor",
-                                    "fetchedAt":  "2026-05-24T08:37:37.270Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-                                                                   "검정송장벌레"
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-                                                                   "クロシデムシ"
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-                                                       "North Pacific",
-                                                       "Japan",
-                                                       "Taiwan",
-                                                       "Nepal",
-                                                       "China"
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  2306
-                                },
-                        "inat":  {
-                                     "observationCount":  32,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/130906739/medium.jpg",
-                                     "months":  [
-                                                    5,
-                                                    6,
-                                                    7,
-                                                    8,
-                                                    9,
-                                                    10
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000019618,
-                        "scientificName":  "Nicrophorus dauricus Motschulsky, 1860",
-                        "commonName":  "다우리아송장벌레",
-                        "terminalLatinName":  "dauricus",
-                        "nomenclaturalAuthor":  "Motschulsky",
-                        "namingYear":  "1860",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Silphidae",
-                                                        "commonName":  "송장벌레과",
-                                                        "ktsn":  120000019600
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Nicrophorus",
-                                                       "commonName":  "송장벌레속",
-                                                       "ktsn":  120000019615
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "dauricus",
-                                                         "commonName":  "다우리아송장벌레",
-                                                         "ktsn":  120000019618
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:05:12.390Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    },
-                    {
-                        "ktsn":  120000019619,
-                        "scientificName":  "Nicrophorus investigator Zetterstedt, 1824",
-                        "commonName":  "긴무늬송장벌레",
-                        "terminalLatinName":  "investigator",
-                        "nomenclaturalAuthor":  "Zetterstedt",
-                        "namingYear":  "1824",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Silphidae",
-                                                        "commonName":  "송장벌레과",
-                                                        "ktsn":  120000019600
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Nicrophorus",
-                                                       "commonName":  "송장벌레속",
-                                                       "ktsn":  120000019615
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "investigator",
-                                                         "commonName":  "긴무늬송장벌레",
-                                                         "ktsn":  120000019619
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:05:12.390Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "inat":  {
-                                     "observationCount":  3,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/577260511/medium.jpg",
-                                     "months":  [
-                                                    7,
-                                                    9,
-                                                    10
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000019620,
-                        "scientificName":  "Nicrophorus japonicus Harold, 1877",
-                        "commonName":  "송장벌레",
-                        "terminalLatinName":  "japonicus",
-                        "nomenclaturalAuthor":  "Harold",
-                        "namingYear":  "1877",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Silphidae",
-                                                        "commonName":  "송장벌레과",
-                                                        "ktsn":  120000019600
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Nicrophorus",
-                                                       "commonName":  "송장벌레속",
-                                                       "ktsn":  120000019615
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "japonicus",
-                                                         "commonName":  "송장벌레",
-                                                         "ktsn":  120000019620
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:05:12.390Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "abstract":  "송장벌레(학명: Nicrophorus japonicus 니크로포루스 야포니쿠스[*])는 송장벌레과 곤봉송장벌레아과 송장벌레속에 딸린 딱정벌레의 일종이다. 1877년 에드가 폰 해롤드 남작이 기재했다. 한자어로는 매장충(埋裝蟲)이라고도 한다. 검은색 몸과 머리에 날개딱지에는 주황색 얼룩무늬가 있다. 위아래로 길쭉한 몸에 길이가 약 20mm 정도에 이른다. 주로 썩어가는 동물의 시체에 모여들어 포식한다. 한반도, 일본 열도, 대만, 중국 대륙, 몽골, 러시아 등지에 분포한다. 몸길이는 22 mm 안팎이다.",
-                        "description":  "송장벌레(학명: Nicrophorus japonicus 니크로포루스 야포니쿠스[*])는 송장벌레과 곤봉송장벌레아과 송장벌레속에 딸린 딱정벌레의 일종이다. 1877년 에드가 폰 해롤드 남작이 기재했다. 한자어로는 매장충(埋裝蟲)이라고도 한다. 검은색 몸과 머리에 날개딱지에는 주황색 얼룩무늬가 있다. 위아래로 길쭉한 몸에 길이가 약 20mm 정도에 이른다. 주로 썩어가는 동물의 시체에 모여들어 포식한다. 한반도, 일본 열도, 대만, 중국 대륙, 몽골, 러시아 등지에 분포한다. 몸길이는 22 mm 안팎이다."
-                    },
-                    {
-                        "ktsn":  120000019621,
-                        "scientificName":  "Nicrophorus maculifrons Kraatz, 1877",
-                        "commonName":  "이마무늬송장벌레",
-                        "terminalLatinName":  "maculifrons",
-                        "nomenclaturalAuthor":  "Kraatz",
-                        "namingYear":  "1877",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Silphidae",
-                                                        "commonName":  "송장벌레과",
-                                                        "ktsn":  120000019600
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Nicrophorus",
-                                                       "commonName":  "송장벌레속",
-                                                       "ktsn":  120000019615
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "maculifrons",
-                                                         "commonName":  "이마무늬송장벌레",
-                                                         "ktsn":  120000019621
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:05:12.390Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "inat":  {
-                                     "observationCount":  8,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/237272155/medium.jpg",
-                                     "months":  [
-                                                    4,
-                                                    6,
-                                                    7,
-                                                    10
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000019622,
-                        "scientificName":  "Nicrophorus quadraticollis Portevin, 1903",
-                        "commonName":  "작은무늬송장벌레",
-                        "terminalLatinName":  "quadraticollis",
-                        "nomenclaturalAuthor":  "Portevin",
-                        "namingYear":  "1903",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Silphidae",
-                                                        "commonName":  "송장벌레과",
-                                                        "ktsn":  120000019600
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Nicrophorus",
-                                                       "commonName":  "송장벌레속",
-                                                       "ktsn":  120000019615
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "quadraticollis",
-                                                         "commonName":  "작은무늬송장벌레",
-                                                         "ktsn":  120000019622
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:05:12.390Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    },
-                    {
-                        "ktsn":  120000019623,
-                        "scientificName":  "Nicrophorus quadripunctatus Kraatz, 1877",
-                        "commonName":  "넉점박이송장벌레",
-                        "terminalLatinName":  "quadripunctatus",
-                        "nomenclaturalAuthor":  "Kraatz",
-                        "namingYear":  "1877",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Silphidae",
-                                                        "commonName":  "송장벌레과",
-                                                        "ktsn":  120000019600
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Nicrophorus",
-                                                       "commonName":  "송장벌레속",
-                                                       "ktsn":  120000019615
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "quadripunctatus",
-                                                         "commonName":  "넉점박이송장벌레",
-                                                         "ktsn":  120000019623
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:05:12.390Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "inat":  {
-                                     "observationCount":  22,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/416433036/medium.jpg",
-                                     "months":  [
-                                                    5,
-                                                    6,
-                                                    7,
-                                                    8,
-                                                    9,
-                                                    10,
-                                                    11
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000019624,
-                        "scientificName":  "Nicrophorus tenuipes Lewis, 1887",
-                        "commonName":  "북방송장벌레",
-                        "terminalLatinName":  "tenuipes",
-                        "nomenclaturalAuthor":  "Lewis",
-                        "namingYear":  "1887",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Silphidae",
-                                                        "commonName":  "송장벌레과",
-                                                        "ktsn":  120000019600
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Nicrophorus",
-                                                       "commonName":  "송장벌레속",
-                                                       "ktsn":  120000019615
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "tenuipes",
-                                                         "commonName":  "북방송장벌레",
-                                                         "ktsn":  120000019624
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:05:12.390Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "inat":  {
-                                     "observationCount":  1,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/509072943/medium.jpg",
-                                     "months":  [
-                                                    7
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000019625,
-                        "scientificName":  "Nicrophorus ussuriensis Portevin, 1923",
-                        "commonName":  "붉은무늬송장벌레",
-                        "terminalLatinName":  "ussuriensis",
-                        "nomenclaturalAuthor":  "Portevin",
-                        "namingYear":  "1923",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Silphidae",
-                                                        "commonName":  "송장벌레과",
-                                                        "ktsn":  120000019600
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Nicrophorus",
-                                                       "commonName":  "송장벌레속",
-                                                       "ktsn":  120000019615
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "ussuriensis",
-                                                         "commonName":  "붉은무늬송장벌레",
-                                                         "ktsn":  120000019625
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:05:12.390Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    },
-                    {
-                        "ktsn":  120000019626,
-                        "scientificName":  "Nicrophorus vespilloides Herbst, 1784",
-                        "commonName":  "검정수염송장벌레",
-                        "terminalLatinName":  "vespilloides",
-                        "nomenclaturalAuthor":  "Herbst",
-                        "namingYear":  "1784",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Silphidae",
-                                                        "commonName":  "송장벌레과",
-                                                        "ktsn":  120000019600
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Nicrophorus",
-                                                       "commonName":  "송장벌레속",
-                                                       "ktsn":  120000019615
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "vespilloides",
-                                                         "commonName":  "검정수염송장벌레",
-                                                         "ktsn":  120000019626
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:05:12.390Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "inat":  {
-                                     "observationCount":  11,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/140881906/medium.jpeg",
-                                     "months":  [
-                                                    5,
-                                                    6,
-                                                    7,
-                                                    8,
-                                                    10
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000019628,
-                        "scientificName":  "Oiceoptoma subrufum (Lewis, 1888)",
-                        "commonName":  "점박이송장벌레",
-                        "terminalLatinName":  "subrufum",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Silphidae",
-                                                        "commonName":  "송장벌레과",
-                                                        "ktsn":  120000019600
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Oiceoptoma",
-                                                       "commonName":  "우단송장벌레속",
-                                                       "ktsn":  120000019627
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "subrufum",
-                                                         "commonName":  "점박이송장벌레",
-                                                         "ktsn":  120000019628
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:05:12.390Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    },
-                    {
-                        "ktsn":  120000019629,
-                        "scientificName":  "Oiceoptoma thoracicum (Linnaeus, 1758)",
-                        "commonName":  "우단송장벌레",
-                        "terminalLatinName":  "thoracicum",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Silphidae",
-                                                        "commonName":  "송장벌레과",
-                                                        "ktsn":  120000019600
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Oiceoptoma",
-                                                       "commonName":  "우단송장벌레속",
-                                                       "ktsn":  120000019627
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "thoracicum",
-                                                         "commonName":  "우단송장벌레",
-                                                         "ktsn":  120000019629
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:05:12.390Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "inat":  {
-                                     "observationCount":  1,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/606652732/medium.jpg",
-                                     "months":  [
-                                                    4
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000019631,
-                        "scientificName":  "Ptomascopus morio Kraatz, 1877",
-                        "commonName":  "꼬마검정송장벌레",
-                        "terminalLatinName":  "morio",
-                        "nomenclaturalAuthor":  "Kraatz",
-                        "namingYear":  "1877",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Silphidae",
-                                                        "commonName":  "송장벌레과",
-                                                        "ktsn":  120000019600
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Ptomascopus",
-                                                       "commonName":  "꼬마검정송장벌레속",
-                                                       "ktsn":  120000019630
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "morio",
-                                                         "commonName":  "꼬마검정송장벌레",
-                                                         "ktsn":  120000019631
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:05:12.390Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "inat":  {
-                                     "observationCount":  4,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/319247633/medium.jpg",
-                                     "months":  [
-                                                    6,
-                                                    9
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000019632,
-                        "scientificName":  "Ptomascopus plagiatus (Ménétriés, 1854)",
-                        "commonName":  "무늬꼬마검정송장벌레",
-                        "terminalLatinName":  "plagiatus",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Silphidae",
-                                                        "commonName":  "송장벌레과",
-                                                        "ktsn":  120000019600
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Ptomascopus",
-                                                       "commonName":  "꼬마검정송장벌레속",
-                                                       "ktsn":  120000019630
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "plagiatus",
-                                                         "commonName":  "무늬꼬마검정송장벌레",
-                                                         "ktsn":  120000019632
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:05:12.390Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    },
-                    {
-                        "ktsn":  120000212361,
-                        "scientificName":  "Silpha (Phosphuga) atrata atrata Linnaeus, 1758",
-                        "commonName":  "검정넓적송장벌레",
-                        "terminalLatinName":  "atrata",
-                        "nomenclaturalAuthor":  "Linnaeus",
-                        "namingYear":  "1758",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Silphidae",
-                                                        "commonName":  "송장벌레과",
-                                                        "ktsn":  120000019600
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Silpha",
-                                                       "commonName":  "넓적송장벌레속",
-                                                       "ktsn":  120000139224
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "Phosphuga",
-                                                          "commonName":  "",
-                                                          "ktsn":  120000161977
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "atrata",
-                                                         "commonName":  "",
-                                                         "ktsn":  120000161982
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:05:12.390Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "inat":  {
-                                     "observationCount":  14,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/129572131/medium.jpeg",
-                                     "months":  [
-                                                    4,
-                                                    5,
-                                                    6,
-                                                    7,
-                                                    9
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000139300,
-                        "scientificName":  "Silpha (Silpha) koreana Cho and Kwon, 1999",
-                        "commonName":  "굽은넓적송장벌레",
-                        "terminalLatinName":  "koreana",
-                        "nomenclaturalAuthor":  "Cho and Kwon",
-                        "namingYear":  "1999",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "Y",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Silphidae",
-                                                        "commonName":  "송장벌레과",
-                                                        "ktsn":  120000019600
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Silpha",
-                                                       "commonName":  "넓적송장벌레속",
-                                                       "ktsn":  120000139224
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "Silpha",
-                                                          "commonName":  "",
-                                                          "ktsn":  120000139294
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "koreana",
-                                                         "commonName":  "굽은넓적송장벌레",
-                                                         "ktsn":  120000139300
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:05:12.390Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    },
-                    {
-                        "ktsn":  120000139302,
-                        "scientificName":  "Silpha (Silpha) perforata Gebler, 1832",
-                        "commonName":  "넓적송장벌레",
-                        "terminalLatinName":  "perforata",
-                        "nomenclaturalAuthor":  "Gebler",
-                        "namingYear":  "1832",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Silphidae",
-                                                        "commonName":  "송장벌레과",
-                                                        "ktsn":  120000019600
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Silpha",
-                                                       "commonName":  "넓적송장벌레속",
-                                                       "ktsn":  120000139224
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "Silpha",
-                                                          "commonName":  "",
-                                                          "ktsn":  120000139294
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "perforata",
-                                                         "commonName":  "넓적송장벌레",
-                                                         "ktsn":  120000139302
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:05:12.390Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "inat":  {
-                                     "observationCount":  1,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/575159669/medium.jpg",
-                                     "months":  [
-                                                    5
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000019640,
-                        "scientificName":  "Thanatophilus rugosus (Linnaeus, 1758)",
-                        "commonName":  "곰보송장벌레",
-                        "terminalLatinName":  "rugosus",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Silphidae",
-                                                        "commonName":  "송장벌레과",
-                                                        "ktsn":  120000019600
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Thanatophilus",
-                                                       "commonName":  "좀송장벌레속",
-                                                       "ktsn":  120000019639
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "rugosus",
-                                                         "commonName":  "곰보송장벌레",
-                                                         "ktsn":  120000019640
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:05:12.390Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "inat":  {
-                                     "observationCount":  13,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/260637001/medium.png",
-                                     "months":  [
-                                                    3,
-                                                    4,
-                                                    5,
-                                                    10,
-                                                    11
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000019641,
-                        "scientificName":  "Thanatophilus sinuatus (Fabricius, 1775)",
-                        "commonName":  "좀송장벌레",
-                        "terminalLatinName":  "sinuatus",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Silphidae",
-                                                        "commonName":  "송장벌레과",
-                                                        "ktsn":  120000019600
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Thanatophilus",
-                                                       "commonName":  "좀송장벌레속",
-                                                       "ktsn":  120000019639
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "sinuatus",
-                                                         "commonName":  "좀송장벌레",
-                                                         "ktsn":  120000019641
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:05:12.390Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "inat":  {
-                                     "observationCount":  1,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/57003541/medium.jpg",
-                                     "months":  [
-                                                    11
-                                                ]
-                                 }
-                    }
-                ],
-    "digitalContentUpdatedAt":  "2026-05-21T09:05:12.390Z",
-    "digitalContentSource":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "coleoptera",
+    "scientificName": "Coleoptera",
+    "commonName": "딱정벌레목",
+    "orderKtsn": 120000013750,
+    "abstract": "딱정벌레목(Coleoptera)은 곤충의 종 가운데 40%인 35만여종을 차지하는 목이다. 아직 발견되지 않은 종까지 합치면 500만~800만여종이 될 것으로 추정된다. 먹는 먹이도 다양해서 식물의 잎, 송사리 등의 작은 물고기, 나무의 즙, 작은 동물, 동물의 시체 등 매우 다양하다. 딱정벌레목에 속한 곤충으로는 무당벌레, 딱정벌레, 길앞잡이, 물방개, 장수풍뎅이 등이 있다. 대부분이 두꺼운 키틴질로 된 딱딱한 껍데기를 가지고 있어서 갑충(甲蟲)이라고도 불린다.",
+    "description": "딱정벌레목(Coleoptera)은 곤충의 종 가운데 40%인 35만여종을 차지하는 목이다. 아직 발견되지 않은 종까지 합치면 500만~800만여종이 될 것으로 추정된다. 먹는 먹이도 다양해서 식물의 잎, 송사리 등의 작은 물고기, 나무의 즙, 작은 동물, 동물의 시체 등 매우 다양하다. 딱정벌레목에 속한 곤충으로는 무당벌레, 딱정벌레, 길앞잡이, 물방개, 장수풍뎅이 등이 있다. 대부분이 두꺼운 키틴질로 된 딱딱한 껍데기를 가지고 있어서 갑충(甲蟲)이라고도 불린다."
+  },
+  "family": {
+    "id": "silphidae",
+    "scientificName": "Silphidae",
+    "commonName": "송장벌레과",
+    "familyKtsn": 120000019600
+  },
+  "speciesCount": 26,
+  "insects": [
+    {
+      "ktsn": 120000019602,
+      "scientificName": "Aclypea daurica (Gebler, 1832)",
+      "commonName": "금털송장벌레",
+      "terminalLatinName": "daurica",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Silphidae",
+          "commonName": "송장벌레과",
+          "ktsn": 120000019600
+        },
+        "genus": {
+          "scientificName": "Aclypea",
+          "commonName": "금털송장벌레속",
+          "ktsn": 120000019601
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "daurica",
+          "commonName": "금털송장벌레",
+          "ktsn": 120000019602
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:05:12.390Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 2,
+        "imageUrl": null,
+        "months": [
+          6
+        ]
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:04:35.036Z"
+      }
+    },
+    {
+      "ktsn": 120000019604,
+      "scientificName": "Dendroxena sexcarinata (Motschulsky, 1861)",
+      "commonName": "네눈박이송장벌레",
+      "terminalLatinName": "sexcarinata",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Silphidae",
+          "commonName": "송장벌레과",
+          "ktsn": 120000019600
+        },
+        "genus": {
+          "scientificName": "Dendroxena",
+          "commonName": "네눈박이송장벌레",
+          "ktsn": 120000019603
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "sexcarinata",
+          "commonName": "네눈박이송장벌레",
+          "ktsn": 120000019604
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:05:12.390Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 49866483,
+        "canonical": "Dendroxena sexcarinata",
+        "fetchedAt": "2026-05-24T08:26:06.306Z",
+        "vernaculars": {
+          "ko": [
+            "네눈박이송장벌레"
+          ],
+          "en": [],
+          "ja": [
+            "ヨツボシヒラタシデムシ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "Japan"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 323
+      },
+      "inat": {
+        "observationCount": 26,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/63784861/medium.jpg",
+        "months": [
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "ktsn": 120000019606,
+      "scientificName": "Necrodes littoralis (Linnaeus, 1758)",
+      "commonName": "큰수중다리송장벌레",
+      "terminalLatinName": "littoralis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Silphidae",
+          "commonName": "송장벌레과",
+          "ktsn": 120000019600
+        },
+        "genus": {
+          "scientificName": "Necrodes",
+          "commonName": "수중다리송장벌레속",
+          "ktsn": 120000019605
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "littoralis",
+          "commonName": "큰수중다리송장벌레",
+          "ktsn": 120000019606
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:05:12.390Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 3383901,
+        "canonical": "Necrodes littoralis",
+        "fetchedAt": "2026-05-24T08:26:15.701Z",
+        "vernaculars": {
+          "ko": [
+            "큰수중다리송장벌레"
+          ],
+          "en": [
+            "Shore Sexton Beetle"
+          ],
+          "ja": [
+            "オオモモブトシデムシ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "Turkey",
+          "North Pacific",
+          "Japan",
+          "United Kingdom",
+          "The Netherlands",
+          "Sweden",
+          "Spain",
+          "Slovenia",
+          "Serbia",
+          "Russia",
+          "Poland",
+          "Norway",
+          "Luxembourg",
+          "Latvia",
+          "Italy",
+          "Ireland",
+          "Germany",
+          "France",
+          "Finland",
+          "Estonia",
+          "Czech Republic",
+          "Austria"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 11221
+      },
+      "inat": {
+        "observationCount": 25,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/133863180/medium.jpg",
+        "months": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "ktsn": 120000019607,
+      "scientificName": "Necrodes nigricornis Harold, 1875",
+      "commonName": "수중다리송장벌레",
+      "terminalLatinName": "nigricornis",
+      "nomenclaturalAuthor": "Harold",
+      "namingYear": "1875",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Silphidae",
+          "commonName": "송장벌레과",
+          "ktsn": 120000019600
+        },
+        "genus": {
+          "scientificName": "Necrodes",
+          "commonName": "수중다리송장벌레속",
+          "ktsn": 120000019605
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "nigricornis",
+          "commonName": "수중다리송장벌레",
+          "ktsn": 120000019607
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:05:12.390Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 48900087,
+        "canonical": "Necrodes nigricornis",
+        "fetchedAt": "2026-05-24T08:26:22.223Z",
+        "vernaculars": {
+          "ko": [
+            "수중다리송장벌레"
+          ],
+          "en": [],
+          "ja": [
+            "モモブトシデムシ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "North Pacific",
+          "Japan"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 726
+      },
+      "inat": {
+        "observationCount": 3,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/86851500/medium.jpg",
+        "months": [
+          4,
+          7
+        ]
+      }
+    },
+    {
+      "ktsn": 120000019611,
+      "scientificName": "Necrophila (Calosilpha) brunneicollis brunneicollis (Kraatz, 1877)",
+      "commonName": "대모송장벌레",
+      "terminalLatinName": "brunneicollis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Silphidae",
+          "commonName": "송장벌레과",
+          "ktsn": 120000019600
+        },
+        "genus": {
+          "scientificName": "Necrophila",
+          "commonName": "큰넓적송장벌레속",
+          "ktsn": 120000019608
+        },
+        "subgenus": {
+          "scientificName": "Calosilpha",
+          "commonName": "",
+          "ktsn": 120000019609
+        },
+        "species": {
+          "scientificName": "brunneicollis",
+          "commonName": "",
+          "ktsn": 120000019610
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:05:12.390Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:04:35.036Z"
+      }
+    },
+    {
+      "ktsn": 120000019614,
+      "scientificName": "Necrophila (Eusilpha) jakowlewi jakowlewi (Semenov, 1891)",
+      "commonName": "큰넓적송장벌레",
+      "terminalLatinName": "jakowlewi",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Silphidae",
+          "commonName": "송장벌레과",
+          "ktsn": 120000019600
+        },
+        "genus": {
+          "scientificName": "Necrophila",
+          "commonName": "큰넓적송장벌레속",
+          "ktsn": 120000019608
+        },
+        "subgenus": {
+          "scientificName": "Eusilpha",
+          "commonName": "",
+          "ktsn": 120000019612
+        },
+        "species": {
+          "scientificName": "jakowlewi",
+          "commonName": "",
+          "ktsn": 120000019613
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:05:12.390Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:04:35.036Z"
+      }
+    },
+    {
+      "ktsn": 120000019616,
+      "scientificName": "Nicrophorus basalis Faldermann, 1835",
+      "commonName": "작은송장벌레",
+      "terminalLatinName": "basalis",
+      "nomenclaturalAuthor": "Faldermann",
+      "namingYear": "1835",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Silphidae",
+          "commonName": "송장벌레과",
+          "ktsn": 120000019600
+        },
+        "genus": {
+          "scientificName": "Nicrophorus",
+          "commonName": "송장벌레속",
+          "ktsn": 120000019615
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "basalis",
+          "commonName": "작은송장벌레",
+          "ktsn": 120000019616
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:05:12.390Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 1043297,
+        "canonical": "Nicrophorus basalis",
+        "fetchedAt": "2026-05-24T08:37:33.850Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 2
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:04:35.036Z",
+        "title": "Nicrophorus basalis",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/F6-22_Nicrophorus_basalis_Faldermann%2C_1835b.jpg/500px-F6-22_Nicrophorus_basalis_Faldermann%2C_1835b.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/F6-22_Nicrophorus_basalis_Faldermann%2C_1835b.jpg",
+        "thumbnailSize": {
+          "width": 500,
+          "height": 655
+        },
+        "originalSize": {
+          "width": 900,
+          "height": 1179
+        },
+        "filename": "F6-22_Nicrophorus_basalis_Faldermann,_1835b.jpg",
+        "description": "species of beetle",
+        "pageUrl": "https://en.wikipedia.org/wiki/Nicrophorus_basalis",
+        "license": "see Wikimedia Commons",
+        "source": "Wikipedia"
+      }
+    },
+    {
+      "ktsn": 120000019617,
+      "scientificName": "Nicrophorus concolor Kraatz, 1877",
+      "commonName": "검정송장벌레",
+      "terminalLatinName": "concolor",
+      "nomenclaturalAuthor": "Kraatz",
+      "namingYear": "1877",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Silphidae",
+          "commonName": "송장벌레과",
+          "ktsn": 120000019600
+        },
+        "genus": {
+          "scientificName": "Nicrophorus",
+          "commonName": "송장벌레속",
+          "ktsn": 120000019615
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "concolor",
+          "commonName": "검정송장벌레",
+          "ktsn": 120000019617
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:05:12.390Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 1043301,
+        "canonical": "Nicrophorus concolor",
+        "fetchedAt": "2026-05-24T08:37:37.270Z",
+        "vernaculars": {
+          "ko": [
+            "검정송장벌레"
+          ],
+          "en": [],
+          "ja": [
+            "クロシデムシ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "North Pacific",
+          "Japan",
+          "Taiwan",
+          "Nepal",
+          "China"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 2306
+      },
+      "inat": {
+        "observationCount": 32,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/130906739/medium.jpg",
+        "months": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "ktsn": 120000019618,
+      "scientificName": "Nicrophorus dauricus Motschulsky, 1860",
+      "commonName": "다우리아송장벌레",
+      "terminalLatinName": "dauricus",
+      "nomenclaturalAuthor": "Motschulsky",
+      "namingYear": "1860",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Silphidae",
+          "commonName": "송장벌레과",
+          "ktsn": 120000019600
+        },
+        "genus": {
+          "scientificName": "Nicrophorus",
+          "commonName": "송장벌레속",
+          "ktsn": 120000019615
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "dauricus",
+          "commonName": "다우리아송장벌레",
+          "ktsn": 120000019618
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:05:12.390Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:04:35.036Z",
+        "title": "Nicrophorus dauricus",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/F6-15_Nicrophorus_dauricus_Motschulsky%2C_1860.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/F6-15_Nicrophorus_dauricus_Motschulsky%2C_1860.jpg",
+        "thumbnailSize": {
+          "width": 499,
+          "height": 924
+        },
+        "originalSize": {
+          "width": 499,
+          "height": 924
+        },
+        "filename": "F6-15_Nicrophorus_dauricus_Motschulsky,_1860.jpg",
+        "description": "species of beetle",
+        "pageUrl": "https://en.wikipedia.org/wiki/Nicrophorus_dauricus",
+        "license": "see Wikimedia Commons",
+        "source": "Wikipedia"
+      }
+    },
+    {
+      "ktsn": 120000019619,
+      "scientificName": "Nicrophorus investigator Zetterstedt, 1824",
+      "commonName": "긴무늬송장벌레",
+      "terminalLatinName": "investigator",
+      "nomenclaturalAuthor": "Zetterstedt",
+      "namingYear": "1824",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Silphidae",
+          "commonName": "송장벌레과",
+          "ktsn": 120000019600
+        },
+        "genus": {
+          "scientificName": "Nicrophorus",
+          "commonName": "송장벌레속",
+          "ktsn": 120000019615
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "investigator",
+          "commonName": "긴무늬송장벌레",
+          "ktsn": 120000019619
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:05:12.390Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 3,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/577260511/medium.jpg",
+        "months": [
+          7,
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "ktsn": 120000019620,
+      "scientificName": "Nicrophorus japonicus Harold, 1877",
+      "commonName": "송장벌레",
+      "terminalLatinName": "japonicus",
+      "nomenclaturalAuthor": "Harold",
+      "namingYear": "1877",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Silphidae",
+          "commonName": "송장벌레과",
+          "ktsn": 120000019600
+        },
+        "genus": {
+          "scientificName": "Nicrophorus",
+          "commonName": "송장벌레속",
+          "ktsn": 120000019615
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "japonicus",
+          "commonName": "송장벌레",
+          "ktsn": 120000019620
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:05:12.390Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "abstract": "송장벌레(학명: Nicrophorus japonicus 니크로포루스 야포니쿠스[*])는 송장벌레과 곤봉송장벌레아과 송장벌레속에 딸린 딱정벌레의 일종이다. 1877년 에드가 폰 해롤드 남작이 기재했다. 한자어로는 매장충(埋裝蟲)이라고도 한다. 검은색 몸과 머리에 날개딱지에는 주황색 얼룩무늬가 있다. 위아래로 길쭉한 몸에 길이가 약 20mm 정도에 이른다. 주로 썩어가는 동물의 시체에 모여들어 포식한다. 한반도, 일본 열도, 대만, 중국 대륙, 몽골, 러시아 등지에 분포한다. 몸길이는 22 mm 안팎이다.",
+      "description": "송장벌레(학명: Nicrophorus japonicus 니크로포루스 야포니쿠스[*])는 송장벌레과 곤봉송장벌레아과 송장벌레속에 딸린 딱정벌레의 일종이다. 1877년 에드가 폰 해롤드 남작이 기재했다. 한자어로는 매장충(埋裝蟲)이라고도 한다. 검은색 몸과 머리에 날개딱지에는 주황색 얼룩무늬가 있다. 위아래로 길쭉한 몸에 길이가 약 20mm 정도에 이른다. 주로 썩어가는 동물의 시체에 모여들어 포식한다. 한반도, 일본 열도, 대만, 중국 대륙, 몽골, 러시아 등지에 분포한다. 몸길이는 22 mm 안팎이다.",
+      "wiki": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:04:35.036Z",
+        "title": "Nicrophorus japonicus",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/F6-15_Nicrophorus_japonicus_Harold%2C_1877.jpg/500px-F6-15_Nicrophorus_japonicus_Harold%2C_1877.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dd/F6-15_Nicrophorus_japonicus_Harold%2C_1877.jpg",
+        "thumbnailSize": {
+          "width": 500,
+          "height": 837
+        },
+        "originalSize": {
+          "width": 649,
+          "height": 1086
+        },
+        "filename": "F6-15_Nicrophorus_japonicus_Harold,_1877.jpg",
+        "description": "species of beetle",
+        "pageUrl": "https://en.wikipedia.org/wiki/Nicrophorus_japonicus",
+        "license": "see Wikimedia Commons",
+        "source": "Wikipedia"
+      }
+    },
+    {
+      "ktsn": 120000019621,
+      "scientificName": "Nicrophorus maculifrons Kraatz, 1877",
+      "commonName": "이마무늬송장벌레",
+      "terminalLatinName": "maculifrons",
+      "nomenclaturalAuthor": "Kraatz",
+      "namingYear": "1877",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Silphidae",
+          "commonName": "송장벌레과",
+          "ktsn": 120000019600
+        },
+        "genus": {
+          "scientificName": "Nicrophorus",
+          "commonName": "송장벌레속",
+          "ktsn": 120000019615
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "maculifrons",
+          "commonName": "이마무늬송장벌레",
+          "ktsn": 120000019621
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:05:12.390Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 8,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/237272155/medium.jpg",
+        "months": [
+          4,
+          6,
+          7,
+          10
+        ]
+      }
+    },
+    {
+      "ktsn": 120000019622,
+      "scientificName": "Nicrophorus quadraticollis Portevin, 1903",
+      "commonName": "작은무늬송장벌레",
+      "terminalLatinName": "quadraticollis",
+      "nomenclaturalAuthor": "Portevin",
+      "namingYear": "1903",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Silphidae",
+          "commonName": "송장벌레과",
+          "ktsn": 120000019600
+        },
+        "genus": {
+          "scientificName": "Nicrophorus",
+          "commonName": "송장벌레속",
+          "ktsn": 120000019615
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "quadraticollis",
+          "commonName": "작은무늬송장벌레",
+          "ktsn": 120000019622
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:05:12.390Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:04:35.036Z",
+        "title": "Nicrophorus quadraticollis",
+        "description": "species of beetle"
+      }
+    },
+    {
+      "ktsn": 120000019623,
+      "scientificName": "Nicrophorus quadripunctatus Kraatz, 1877",
+      "commonName": "넉점박이송장벌레",
+      "terminalLatinName": "quadripunctatus",
+      "nomenclaturalAuthor": "Kraatz",
+      "namingYear": "1877",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Silphidae",
+          "commonName": "송장벌레과",
+          "ktsn": 120000019600
+        },
+        "genus": {
+          "scientificName": "Nicrophorus",
+          "commonName": "송장벌레속",
+          "ktsn": 120000019615
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "quadripunctatus",
+          "commonName": "넉점박이송장벌레",
+          "ktsn": 120000019623
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:05:12.390Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 22,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/416433036/medium.jpg",
+        "months": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "ktsn": 120000019624,
+      "scientificName": "Nicrophorus tenuipes Lewis, 1887",
+      "commonName": "북방송장벌레",
+      "terminalLatinName": "tenuipes",
+      "nomenclaturalAuthor": "Lewis",
+      "namingYear": "1887",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Silphidae",
+          "commonName": "송장벌레과",
+          "ktsn": 120000019600
+        },
+        "genus": {
+          "scientificName": "Nicrophorus",
+          "commonName": "송장벌레속",
+          "ktsn": 120000019615
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "tenuipes",
+          "commonName": "북방송장벌레",
+          "ktsn": 120000019624
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:05:12.390Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/509072943/medium.jpg",
+        "months": [
+          7
+        ]
+      }
+    },
+    {
+      "ktsn": 120000019625,
+      "scientificName": "Nicrophorus ussuriensis Portevin, 1923",
+      "commonName": "붉은무늬송장벌레",
+      "terminalLatinName": "ussuriensis",
+      "nomenclaturalAuthor": "Portevin",
+      "namingYear": "1923",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Silphidae",
+          "commonName": "송장벌레과",
+          "ktsn": 120000019600
+        },
+        "genus": {
+          "scientificName": "Nicrophorus",
+          "commonName": "송장벌레속",
+          "ktsn": 120000019615
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "ussuriensis",
+          "commonName": "붉은무늬송장벌레",
+          "ktsn": 120000019625
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:05:12.390Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:04:35.036Z",
+        "title": "Nicrophorus ussuriensis",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/F6-18_Nicrophorus_ussuriensis_Portevin%2C_1923.jpg/500px-F6-18_Nicrophorus_ussuriensis_Portevin%2C_1923.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/F6-18_Nicrophorus_ussuriensis_Portevin%2C_1923.jpg",
+        "thumbnailSize": {
+          "width": 500,
+          "height": 852
+        },
+        "originalSize": {
+          "width": 640,
+          "height": 1090
+        },
+        "filename": "F6-18_Nicrophorus_ussuriensis_Portevin,_1923.jpg",
+        "description": "species of beetle",
+        "pageUrl": "https://en.wikipedia.org/wiki/Nicrophorus_ussuriensis",
+        "license": "see Wikimedia Commons",
+        "source": "Wikipedia"
+      }
+    },
+    {
+      "ktsn": 120000019626,
+      "scientificName": "Nicrophorus vespilloides Herbst, 1784",
+      "commonName": "검정수염송장벌레",
+      "terminalLatinName": "vespilloides",
+      "nomenclaturalAuthor": "Herbst",
+      "namingYear": "1784",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Silphidae",
+          "commonName": "송장벌레과",
+          "ktsn": 120000019600
+        },
+        "genus": {
+          "scientificName": "Nicrophorus",
+          "commonName": "송장벌레속",
+          "ktsn": 120000019615
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "vespilloides",
+          "commonName": "검정수염송장벌레",
+          "ktsn": 120000019626
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:05:12.390Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 11,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/140881906/medium.jpeg",
+        "months": [
+          5,
+          6,
+          7,
+          8,
+          10
+        ]
+      }
+    },
+    {
+      "ktsn": 120000019628,
+      "scientificName": "Oiceoptoma subrufum (Lewis, 1888)",
+      "commonName": "점박이송장벌레",
+      "terminalLatinName": "subrufum",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Silphidae",
+          "commonName": "송장벌레과",
+          "ktsn": 120000019600
+        },
+        "genus": {
+          "scientificName": "Oiceoptoma",
+          "commonName": "우단송장벌레속",
+          "ktsn": 120000019627
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "subrufum",
+          "commonName": "점박이송장벌레",
+          "ktsn": 120000019628
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:05:12.390Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:04:35.036Z"
+      }
+    },
+    {
+      "ktsn": 120000019629,
+      "scientificName": "Oiceoptoma thoracicum (Linnaeus, 1758)",
+      "commonName": "우단송장벌레",
+      "terminalLatinName": "thoracicum",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Silphidae",
+          "commonName": "송장벌레과",
+          "ktsn": 120000019600
+        },
+        "genus": {
+          "scientificName": "Oiceoptoma",
+          "commonName": "우단송장벌레속",
+          "ktsn": 120000019627
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "thoracicum",
+          "commonName": "우단송장벌레",
+          "ktsn": 120000019629
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:05:12.390Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/606652732/medium.jpg",
+        "months": [
+          4
+        ]
+      }
+    },
+    {
+      "ktsn": 120000019631,
+      "scientificName": "Ptomascopus morio Kraatz, 1877",
+      "commonName": "꼬마검정송장벌레",
+      "terminalLatinName": "morio",
+      "nomenclaturalAuthor": "Kraatz",
+      "namingYear": "1877",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Silphidae",
+          "commonName": "송장벌레과",
+          "ktsn": 120000019600
+        },
+        "genus": {
+          "scientificName": "Ptomascopus",
+          "commonName": "꼬마검정송장벌레속",
+          "ktsn": 120000019630
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "morio",
+          "commonName": "꼬마검정송장벌레",
+          "ktsn": 120000019631
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:05:12.390Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 4,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/319247633/medium.jpg",
+        "months": [
+          6,
+          9
+        ]
+      }
+    },
+    {
+      "ktsn": 120000019632,
+      "scientificName": "Ptomascopus plagiatus (Ménétriés, 1854)",
+      "commonName": "무늬꼬마검정송장벌레",
+      "terminalLatinName": "plagiatus",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Silphidae",
+          "commonName": "송장벌레과",
+          "ktsn": 120000019600
+        },
+        "genus": {
+          "scientificName": "Ptomascopus",
+          "commonName": "꼬마검정송장벌레속",
+          "ktsn": 120000019630
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "plagiatus",
+          "commonName": "무늬꼬마검정송장벌레",
+          "ktsn": 120000019632
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:05:12.390Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:04:35.036Z"
+      }
+    },
+    {
+      "ktsn": 120000212361,
+      "scientificName": "Silpha (Phosphuga) atrata atrata Linnaeus, 1758",
+      "commonName": "검정넓적송장벌레",
+      "terminalLatinName": "atrata",
+      "nomenclaturalAuthor": "Linnaeus",
+      "namingYear": "1758",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Silphidae",
+          "commonName": "송장벌레과",
+          "ktsn": 120000019600
+        },
+        "genus": {
+          "scientificName": "Silpha",
+          "commonName": "넓적송장벌레속",
+          "ktsn": 120000139224
+        },
+        "subgenus": {
+          "scientificName": "Phosphuga",
+          "commonName": "",
+          "ktsn": 120000161977
+        },
+        "species": {
+          "scientificName": "atrata",
+          "commonName": "",
+          "ktsn": 120000161982
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:05:12.390Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 14,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/129572131/medium.jpeg",
+        "months": [
+          4,
+          5,
+          6,
+          7,
+          9
+        ]
+      }
+    },
+    {
+      "ktsn": 120000139300,
+      "scientificName": "Silpha (Silpha) koreana Cho and Kwon, 1999",
+      "commonName": "굽은넓적송장벌레",
+      "terminalLatinName": "koreana",
+      "nomenclaturalAuthor": "Cho and Kwon",
+      "namingYear": "1999",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "Y",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Silphidae",
+          "commonName": "송장벌레과",
+          "ktsn": 120000019600
+        },
+        "genus": {
+          "scientificName": "Silpha",
+          "commonName": "넓적송장벌레속",
+          "ktsn": 120000139224
+        },
+        "subgenus": {
+          "scientificName": "Silpha",
+          "commonName": "",
+          "ktsn": 120000139294
+        },
+        "species": {
+          "scientificName": "koreana",
+          "commonName": "굽은넓적송장벌레",
+          "ktsn": 120000139300
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:05:12.390Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:04:35.036Z"
+      }
+    },
+    {
+      "ktsn": 120000139302,
+      "scientificName": "Silpha (Silpha) perforata Gebler, 1832",
+      "commonName": "넓적송장벌레",
+      "terminalLatinName": "perforata",
+      "nomenclaturalAuthor": "Gebler",
+      "namingYear": "1832",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Silphidae",
+          "commonName": "송장벌레과",
+          "ktsn": 120000019600
+        },
+        "genus": {
+          "scientificName": "Silpha",
+          "commonName": "넓적송장벌레속",
+          "ktsn": 120000139224
+        },
+        "subgenus": {
+          "scientificName": "Silpha",
+          "commonName": "",
+          "ktsn": 120000139294
+        },
+        "species": {
+          "scientificName": "perforata",
+          "commonName": "넓적송장벌레",
+          "ktsn": 120000139302
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:05:12.390Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/575159669/medium.jpg",
+        "months": [
+          5
+        ]
+      }
+    },
+    {
+      "ktsn": 120000019640,
+      "scientificName": "Thanatophilus rugosus (Linnaeus, 1758)",
+      "commonName": "곰보송장벌레",
+      "terminalLatinName": "rugosus",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Silphidae",
+          "commonName": "송장벌레과",
+          "ktsn": 120000019600
+        },
+        "genus": {
+          "scientificName": "Thanatophilus",
+          "commonName": "좀송장벌레속",
+          "ktsn": 120000019639
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "rugosus",
+          "commonName": "곰보송장벌레",
+          "ktsn": 120000019640
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:05:12.390Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 13,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/260637001/medium.png",
+        "months": [
+          3,
+          4,
+          5,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "ktsn": 120000019641,
+      "scientificName": "Thanatophilus sinuatus (Fabricius, 1775)",
+      "commonName": "좀송장벌레",
+      "terminalLatinName": "sinuatus",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Silphidae",
+          "commonName": "송장벌레과",
+          "ktsn": 120000019600
+        },
+        "genus": {
+          "scientificName": "Thanatophilus",
+          "commonName": "좀송장벌레속",
+          "ktsn": 120000019639
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "sinuatus",
+          "commonName": "좀송장벌레",
+          "ktsn": 120000019641
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:05:12.390Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/57003541/medium.jpg",
+        "months": [
+          11
+        ]
+      }
+    }
+  ],
+  "digitalContentUpdatedAt": "2026-05-21T09:05:12.390Z",
+  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
 }

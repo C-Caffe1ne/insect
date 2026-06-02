@@ -1,726 +1,644 @@
 {
-    "generatedAt":  "2026-05-21T07:47:08.025Z",
-    "source":  "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
-    "order":  {
-                  "id":  "lepidoptera",
-                  "scientificName":  "Lepidoptera",
-                  "commonName":  "나비목",
-                  "orderKtsn":  120000031663
-              },
-    "family":  {
-                   "id":  "euteliidae",
-                   "scientificName":  "Euteliidae",
-                   "commonName":  "비행기나방과",
-                   "familyKtsn":  120000032962
-               },
-    "speciesCount":  8,
-    "insects":  [
-                    {
-                        "ktsn":  120000032964,
-                        "scientificName":  "Anuga multiplicans (Walker, 1858)",
-                        "commonName":  "긴수염비행기나방",
-                        "terminalLatinName":  "multiplicans",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Euteliidae",
-                                                        "commonName":  "비행기나방과",
-                                                        "ktsn":  120000032962
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Anuga",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000032963
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "multiplicans",
-                                                         "commonName":  "긴수염비행기나방",
-                                                         "ktsn":  120000032964
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  544545,
-                                    "canonical":  "Anuga multiplicans",
-                                    "fetchedAt":  "2026-05-24T11:24:54.121Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-                                                                   "긴수염비행기밤나방",
-                                                                   "긴수염비행기나방"
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-                                                       "Hong Kong",
-                                                       "China"
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  550
-                                },
-                        "inat":  {
-                                     "observationCount":  19,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/22723246/medium.jpg",
-                                     "months":  [
-                                                    5,
-                                                    6,
-                                                    7,
-                                                    8,
-                                                    9
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000032966,
-                        "scientificName":  "Atacira grabczewskii (Püngeler, 1903)",
-                        "commonName":  "갈색점비행기나방",
-                        "terminalLatinName":  "grabczewskii",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Euteliidae",
-                                                        "commonName":  "비행기나방과",
-                                                        "ktsn":  120000032962
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Atacira",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000032965
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "grabczewskii",
-                                                         "commonName":  "갈색점비행기나방",
-                                                         "ktsn":  120000032966
-                                                     }
-                                     },
-                        "inat":  {
-                                     "observationCount":  4,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/65824784/medium.jpg",
-                                     "months":  [
-                                                    6
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000032968,
-                        "scientificName":  "Eutelia adulatricoides (Mell, 1943)",
-                        "commonName":  "작은비행기나방",
-                        "terminalLatinName":  "adulatricoides",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Euteliidae",
-                                                        "commonName":  "비행기나방과",
-                                                        "ktsn":  120000032962
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Eutelia",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000032967
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "adulatricoides",
-                                                         "commonName":  "작은비행기나방",
-                                                         "ktsn":  120000032968
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  544559,
-                                    "canonical":  "Eutelia adulatricoides",
-                                    "fetchedAt":  "2026-05-24T11:25:06.316Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-                                                                   "작은비행기나방"
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-                                                                   "コフサヤガ"
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-                                                       "North Pacific",
-                                                       "Japan",
-                                                       "Taiwan",
-                                                       "China"
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  174
-                                },
-                        "inat":  {
-                                     "observationCount":  2,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/347340732/medium.jpeg",
-                                     "months":  [
-                                                    1,
-                                                    4
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000032969,
-                        "scientificName":  "Eutelia geyeri (Felder and Rogenhofer, 1874)",
-                        "commonName":  "비행기나방",
-                        "terminalLatinName":  "geyeri",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Euteliidae",
-                                                        "commonName":  "비행기나방과",
-                                                        "ktsn":  120000032962
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Eutelia",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000032967
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "geyeri",
-                                                         "commonName":  "비행기나방",
-                                                         "ktsn":  120000032969
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  543442,
-                                    "canonical":  "Eutelia geyeri",
-                                    "fetchedAt":  "2026-05-24T11:25:09.696Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-                                                                   "비행기밤나방",
-                                                                   "비행기나방"
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-                                                                   "フサヤガ"
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-                                                       "Nepal",
-                                                       "China",
-                                                       "Taiwan",
-                                                       "Korea",
-                                                       "India",
-                                                       "Indonesia",
-                                                       "Japan",
-                                                       "Russia"
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  522
-                                },
-                        "inat":  {
-                                     "observationCount":  11,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/350986886/medium.jpeg",
-                                     "months":  [
-                                                    2,
-                                                    3,
-                                                    4,
-                                                    6,
-                                                    9,
-                                                    10,
-                                                    11,
-                                                    12
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000032970,
-                        "scientificName":  "Eutelia hamulatrix (Draudt, 1950)",
-                        "commonName":  "숲비행기나방",
-                        "terminalLatinName":  "hamulatrix",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Euteliidae",
-                                                        "commonName":  "비행기나방과",
-                                                        "ktsn":  120000032962
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Eutelia",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000032967
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "hamulatrix",
-                                                         "commonName":  "숲비행기나방",
-                                                         "ktsn":  120000032970
-                                                     }
-                                     },
-                        "inat":  {
-                                     "observationCount":  1,
-                                     "imageUrl":  null,
-                                     "months":  [
-                                                    6
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000032972,
-                        "scientificName":  "Lophoptera hayesi Sugi, 1982",
-                        "commonName":  "가는긴날개비행기나방",
-                        "terminalLatinName":  "hayesi",
-                        "nomenclaturalAuthor":  "Sugi",
-                        "namingYear":  "1982",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Euteliidae",
-                                                        "commonName":  "비행기나방과",
-                                                        "ktsn":  120000032962
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Lophoptera",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000032971
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "hayesi",
-                                                         "commonName":  "가는긴날개비행기나방",
-                                                         "ktsn":  120000032972
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  52847649,
-                                    "canonical":  "Lophoptera hayesi",
-                                    "fetchedAt":  "2026-05-24T11:25:28.828Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  null
-                                }
-                    },
-                    {
-                        "ktsn":  120000032973,
-                        "scientificName":  "Lophoptera squammigera Guenée, 1852",
-                        "commonName":  "긴날개비행기나방",
-                        "terminalLatinName":  "squammigera",
-                        "nomenclaturalAuthor":  "Guenée",
-                        "namingYear":  "1852",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Euteliidae",
-                                                        "commonName":  "비행기나방과",
-                                                        "ktsn":  120000032962
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Lophoptera",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000032971
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "squammigera",
-                                                         "commonName":  "긴날개비행기나방",
-                                                         "ktsn":  120000032973
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  58817581,
-                                    "canonical":  "Lophoptera squammigera",
-                                    "fetchedAt":  "2026-05-24T11:25:33.849Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  null
-                                },
-                        "inat":  {
-                                     "observationCount":  14,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/350955115/medium.jpeg",
-                                     "months":  [
-                                                    2,
-                                                    3,
-                                                    4,
-                                                    6,
-                                                    7,
-                                                    8,
-                                                    9,
-                                                    11
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000217648,
-                        "scientificName":  "Targalla delatrix (Guenée, 1852)",
-                        "commonName":  "남방곧은띠비행기나방",
-                        "terminalLatinName":  "delatrix",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Euteliidae",
-                                                        "commonName":  "비행기나방과",
-                                                        "ktsn":  120000032962
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Targalla",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000083085
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "delatrix",
-                                                         "commonName":  "남방곧은띠비행기나방",
-                                                         "ktsn":  120000217648
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  58817681,
-                                    "canonical":  "Targalla delatrix",
-                                    "fetchedAt":  "2026-05-24T11:25:36.897Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  null
-                                },
-                        "inat":  {
-                                     "observationCount":  1,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/594643674/medium.jpg",
-                                     "months":  [
-                                                    3
-                                                ]
-                                 }
-                    }
-                ]
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "lepidoptera",
+    "scientificName": "Lepidoptera",
+    "commonName": "나비목",
+    "orderKtsn": 120000031663
+  },
+  "family": {
+    "id": "euteliidae",
+    "scientificName": "Euteliidae",
+    "commonName": "비행기나방과",
+    "familyKtsn": 120000032962
+  },
+  "speciesCount": 8,
+  "insects": [
+    {
+      "ktsn": 120000032964,
+      "scientificName": "Anuga multiplicans (Walker, 1858)",
+      "commonName": "긴수염비행기나방",
+      "terminalLatinName": "multiplicans",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Euteliidae",
+          "commonName": "비행기나방과",
+          "ktsn": 120000032962
+        },
+        "genus": {
+          "scientificName": "Anuga",
+          "commonName": "",
+          "ktsn": 120000032963
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "multiplicans",
+          "commonName": "긴수염비행기나방",
+          "ktsn": 120000032964
+        }
+      },
+      "eol": {
+        "pageId": 544545,
+        "canonical": "Anuga multiplicans",
+        "fetchedAt": "2026-05-24T11:24:54.121Z",
+        "vernaculars": {
+          "ko": [
+            "긴수염비행기밤나방",
+            "긴수염비행기나방"
+          ],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [
+          "Hong Kong",
+          "China"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 550
+      },
+      "inat": {
+        "observationCount": 19,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/22723246/medium.jpg",
+        "months": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    },
+    {
+      "ktsn": 120000032966,
+      "scientificName": "Atacira grabczewskii (Püngeler, 1903)",
+      "commonName": "갈색점비행기나방",
+      "terminalLatinName": "grabczewskii",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Euteliidae",
+          "commonName": "비행기나방과",
+          "ktsn": 120000032962
+        },
+        "genus": {
+          "scientificName": "Atacira",
+          "commonName": "",
+          "ktsn": 120000032965
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "grabczewskii",
+          "commonName": "갈색점비행기나방",
+          "ktsn": 120000032966
+        }
+      },
+      "inat": {
+        "observationCount": 4,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/65824784/medium.jpg",
+        "months": [
+          6
+        ]
+      }
+    },
+    {
+      "ktsn": 120000032968,
+      "scientificName": "Eutelia adulatricoides (Mell, 1943)",
+      "commonName": "작은비행기나방",
+      "terminalLatinName": "adulatricoides",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Euteliidae",
+          "commonName": "비행기나방과",
+          "ktsn": 120000032962
+        },
+        "genus": {
+          "scientificName": "Eutelia",
+          "commonName": "",
+          "ktsn": 120000032967
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "adulatricoides",
+          "commonName": "작은비행기나방",
+          "ktsn": 120000032968
+        }
+      },
+      "eol": {
+        "pageId": 544559,
+        "canonical": "Eutelia adulatricoides",
+        "fetchedAt": "2026-05-24T11:25:06.316Z",
+        "vernaculars": {
+          "ko": [
+            "작은비행기나방"
+          ],
+          "en": [],
+          "ja": [
+            "コフサヤガ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "North Pacific",
+          "Japan",
+          "Taiwan",
+          "China"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 174
+      },
+      "inat": {
+        "observationCount": 2,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/347340732/medium.jpeg",
+        "months": [
+          1,
+          4
+        ]
+      }
+    },
+    {
+      "ktsn": 120000032969,
+      "scientificName": "Eutelia geyeri (Felder and Rogenhofer, 1874)",
+      "commonName": "비행기나방",
+      "terminalLatinName": "geyeri",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Euteliidae",
+          "commonName": "비행기나방과",
+          "ktsn": 120000032962
+        },
+        "genus": {
+          "scientificName": "Eutelia",
+          "commonName": "",
+          "ktsn": 120000032967
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "geyeri",
+          "commonName": "비행기나방",
+          "ktsn": 120000032969
+        }
+      },
+      "eol": {
+        "pageId": 543442,
+        "canonical": "Eutelia geyeri",
+        "fetchedAt": "2026-05-24T11:25:09.696Z",
+        "vernaculars": {
+          "ko": [
+            "비행기밤나방",
+            "비행기나방"
+          ],
+          "en": [],
+          "ja": [
+            "フサヤガ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "Nepal",
+          "China",
+          "Taiwan",
+          "Korea",
+          "India",
+          "Indonesia",
+          "Japan",
+          "Russia"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 522
+      },
+      "inat": {
+        "observationCount": 11,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/350986886/medium.jpeg",
+        "months": [
+          2,
+          3,
+          4,
+          6,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "ktsn": 120000032970,
+      "scientificName": "Eutelia hamulatrix (Draudt, 1950)",
+      "commonName": "숲비행기나방",
+      "terminalLatinName": "hamulatrix",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Euteliidae",
+          "commonName": "비행기나방과",
+          "ktsn": 120000032962
+        },
+        "genus": {
+          "scientificName": "Eutelia",
+          "commonName": "",
+          "ktsn": 120000032967
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "hamulatrix",
+          "commonName": "숲비행기나방",
+          "ktsn": 120000032970
+        }
+      },
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": null,
+        "months": [
+          6
+        ]
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:09:33.146Z"
+      }
+    },
+    {
+      "ktsn": 120000032972,
+      "scientificName": "Lophoptera hayesi Sugi, 1982",
+      "commonName": "가는긴날개비행기나방",
+      "terminalLatinName": "hayesi",
+      "nomenclaturalAuthor": "Sugi",
+      "namingYear": "1982",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Euteliidae",
+          "commonName": "비행기나방과",
+          "ktsn": 120000032962
+        },
+        "genus": {
+          "scientificName": "Lophoptera",
+          "commonName": "",
+          "ktsn": 120000032971
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "hayesi",
+          "commonName": "가는긴날개비행기나방",
+          "ktsn": 120000032972
+        }
+      },
+      "eol": {
+        "pageId": 52847649,
+        "canonical": "Lophoptera hayesi",
+        "fetchedAt": "2026-05-24T11:25:28.828Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:09:33.913Z"
+      }
+    },
+    {
+      "ktsn": 120000032973,
+      "scientificName": "Lophoptera squammigera Guenée, 1852",
+      "commonName": "긴날개비행기나방",
+      "terminalLatinName": "squammigera",
+      "nomenclaturalAuthor": "Guenée",
+      "namingYear": "1852",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Euteliidae",
+          "commonName": "비행기나방과",
+          "ktsn": 120000032962
+        },
+        "genus": {
+          "scientificName": "Lophoptera",
+          "commonName": "",
+          "ktsn": 120000032971
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "squammigera",
+          "commonName": "긴날개비행기나방",
+          "ktsn": 120000032973
+        }
+      },
+      "eol": {
+        "pageId": 58817581,
+        "canonical": "Lophoptera squammigera",
+        "fetchedAt": "2026-05-24T11:25:33.849Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "inat": {
+        "observationCount": 14,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/350955115/medium.jpeg",
+        "months": [
+          2,
+          3,
+          4,
+          6,
+          7,
+          8,
+          9,
+          11
+        ]
+      }
+    },
+    {
+      "ktsn": 120000217648,
+      "scientificName": "Targalla delatrix (Guenée, 1852)",
+      "commonName": "남방곧은띠비행기나방",
+      "terminalLatinName": "delatrix",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Euteliidae",
+          "commonName": "비행기나방과",
+          "ktsn": 120000032962
+        },
+        "genus": {
+          "scientificName": "Targalla",
+          "commonName": "",
+          "ktsn": 120000083085
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "delatrix",
+          "commonName": "남방곧은띠비행기나방",
+          "ktsn": 120000217648
+        }
+      },
+      "eol": {
+        "pageId": 58817681,
+        "canonical": "Targalla delatrix",
+        "fetchedAt": "2026-05-24T11:25:36.897Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/594643674/medium.jpg",
+        "months": [
+          3
+        ]
+      }
+    }
+  ]
 }

@@ -1,435 +1,367 @@
 {
-    "generatedAt":  "2026-05-21T07:47:08.025Z",
-    "source":  "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
-    "order":  {
-                  "id":  "ephemeroptera",
-                  "scientificName":  "Ephemeroptera",
-                  "commonName":  "하루살이목",
-                  "orderKtsn":  120000023873
-              },
-    "family":  {
-                   "id":  "potamanthidae",
-                   "scientificName":  "Potamanthidae",
-                   "commonName":  "강하루살이과",
-                   "familyKtsn":  120000023989
-               },
-    "speciesCount":  4,
-    "insects":  [
-                    {
-                        "ktsn":  120000023991,
-                        "scientificName":  "Potamanthus formosus Eaton, 1892",
-                        "commonName":  "작은강하루살이",
-                        "terminalLatinName":  "formosus",
-                        "nomenclaturalAuthor":  "Eaton",
-                        "namingYear":  "1892",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Ephemeroptera",
-                                                       "commonName":  "하루살이목",
-                                                       "ktsn":  120000023873
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Potamanthidae",
-                                                        "commonName":  "강하루살이과",
-                                                        "ktsn":  120000023989
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Potamanthus",
-                                                       "commonName":  "강하루살이속",
-                                                       "ktsn":  120000023990
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "formosus",
-                                                         "commonName":  "작은강하루살이",
-                                                         "ktsn":  120000023991
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:21:43.688Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  35146228,
-                                    "canonical":  "Potamanthus formosus",
-                                    "fetchedAt":  "2026-05-24T09:30:04.206Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-                                                                   "キイロカワカゲロウ"
-                                                               ]
-                                                    },
-                                    "habitat":  [
-                                                    "tarn"
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  511
-                                },
-                        "inat":  {
-                                     "observationCount":  6,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/96913911/medium.jpg",
-                                     "months":  [
-                                                    2,
-                                                    5,
-                                                    7,
-                                                    9,
-                                                    10
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000023993,
-                        "scientificName":  "Potamanthus luteus oriens Bae and Mccafferty, 1991",
-                        "commonName":  "가람하루살이",
-                        "terminalLatinName":  "oriens",
-                        "nomenclaturalAuthor":  "Bae and Mccafferty",
-                        "namingYear":  "1991",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Ephemeroptera",
-                                                       "commonName":  "하루살이목",
-                                                       "ktsn":  120000023873
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Potamanthidae",
-                                                        "commonName":  "강하루살이과",
-                                                        "ktsn":  120000023989
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Potamanthus",
-                                                       "commonName":  "강하루살이속",
-                                                       "ktsn":  120000023990
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "luteus",
-                                                         "commonName":  "",
-                                                         "ktsn":  120000023992
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:21:43.688Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    },
-                    {
-                        "ktsn":  120000023994,
-                        "scientificName":  "Potamanthus yooni Bae and Mccafferty, 1991",
-                        "commonName":  "금빛하루살이",
-                        "terminalLatinName":  "yooni",
-                        "nomenclaturalAuthor":  "Bae and Mccafferty",
-                        "namingYear":  "1991",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "Y",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Ephemeroptera",
-                                                       "commonName":  "하루살이목",
-                                                       "ktsn":  120000023873
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Potamanthidae",
-                                                        "commonName":  "강하루살이과",
-                                                        "ktsn":  120000023989
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Potamanthus",
-                                                       "commonName":  "강하루살이속",
-                                                       "ktsn":  120000023990
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "yooni",
-                                                         "commonName":  "금빛하루살이",
-                                                         "ktsn":  120000023994
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:21:43.688Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  35146231,
-                                    "canonical":  "Potamanthus yooni",
-                                    "fetchedAt":  "2026-05-24T09:30:22.228Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  144
-                                }
-                    },
-                    {
-                        "ktsn":  120000023996,
-                        "scientificName":  "Rhoenanthus coreanus (Yoon and Bae, 1985)",
-                        "commonName":  "강하루살이",
-                        "terminalLatinName":  "coreanus",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Ephemeroptera",
-                                                       "commonName":  "하루살이목",
-                                                       "ktsn":  120000023873
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Potamanthidae",
-                                                        "commonName":  "강하루살이과",
-                                                        "ktsn":  120000023989
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Rhoenanthus",
-                                                       "commonName":  "장수하루살이속",
-                                                       "ktsn":  120000023995
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "coreanus",
-                                                         "commonName":  "강하루살이",
-                                                         "ktsn":  120000023996
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:21:43.688Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  35146247,
-                                    "canonical":  "Rhoenanthus coreanus",
-                                    "fetchedAt":  "2026-05-24T09:30:27.350Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-                                                                   "강하루살이"
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  493
-                                },
-                        "inat":  {
-                                     "observationCount":  14,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/293583512/medium.jpeg",
-                                     "months":  [
-                                                    6,
-                                                    7,
-                                                    8,
-                                                    9
-                                                ]
-                                 }
-                    }
-                ],
-    "digitalContentUpdatedAt":  "2026-05-21T09:21:43.688Z",
-    "digitalContentSource":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "ephemeroptera",
+    "scientificName": "Ephemeroptera",
+    "commonName": "하루살이목",
+    "orderKtsn": 120000023873
+  },
+  "family": {
+    "id": "potamanthidae",
+    "scientificName": "Potamanthidae",
+    "commonName": "강하루살이과",
+    "familyKtsn": 120000023989
+  },
+  "speciesCount": 4,
+  "insects": [
+    {
+      "ktsn": 120000023991,
+      "scientificName": "Potamanthus formosus Eaton, 1892",
+      "commonName": "작은강하루살이",
+      "terminalLatinName": "formosus",
+      "nomenclaturalAuthor": "Eaton",
+      "namingYear": "1892",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Ephemeroptera",
+          "commonName": "하루살이목",
+          "ktsn": 120000023873
+        },
+        "family": {
+          "scientificName": "Potamanthidae",
+          "commonName": "강하루살이과",
+          "ktsn": 120000023989
+        },
+        "genus": {
+          "scientificName": "Potamanthus",
+          "commonName": "강하루살이속",
+          "ktsn": 120000023990
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "formosus",
+          "commonName": "작은강하루살이",
+          "ktsn": 120000023991
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:21:43.688Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 35146228,
+        "canonical": "Potamanthus formosus",
+        "fetchedAt": "2026-05-24T09:30:04.206Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": [
+            "キイロカワカゲロウ"
+          ]
+        },
+        "habitat": [
+          "tarn"
+        ],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 511
+      },
+      "inat": {
+        "observationCount": 6,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/96913911/medium.jpg",
+        "months": [
+          2,
+          5,
+          7,
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "ktsn": 120000023993,
+      "scientificName": "Potamanthus luteus oriens Bae and Mccafferty, 1991",
+      "commonName": "가람하루살이",
+      "terminalLatinName": "oriens",
+      "nomenclaturalAuthor": "Bae and Mccafferty",
+      "namingYear": "1991",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Ephemeroptera",
+          "commonName": "하루살이목",
+          "ktsn": 120000023873
+        },
+        "family": {
+          "scientificName": "Potamanthidae",
+          "commonName": "강하루살이과",
+          "ktsn": 120000023989
+        },
+        "genus": {
+          "scientificName": "Potamanthus",
+          "commonName": "강하루살이속",
+          "ktsn": 120000023990
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "luteus",
+          "commonName": "",
+          "ktsn": 120000023992
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:21:43.688Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:22.799Z"
+      }
+    },
+    {
+      "ktsn": 120000023994,
+      "scientificName": "Potamanthus yooni Bae and Mccafferty, 1991",
+      "commonName": "금빛하루살이",
+      "terminalLatinName": "yooni",
+      "nomenclaturalAuthor": "Bae and Mccafferty",
+      "namingYear": "1991",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "Y",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Ephemeroptera",
+          "commonName": "하루살이목",
+          "ktsn": 120000023873
+        },
+        "family": {
+          "scientificName": "Potamanthidae",
+          "commonName": "강하루살이과",
+          "ktsn": 120000023989
+        },
+        "genus": {
+          "scientificName": "Potamanthus",
+          "commonName": "강하루살이속",
+          "ktsn": 120000023990
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "yooni",
+          "commonName": "금빛하루살이",
+          "ktsn": 120000023994
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:21:43.688Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 35146231,
+        "canonical": "Potamanthus yooni",
+        "fetchedAt": "2026-05-24T09:30:22.228Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 144
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:06:22.799Z",
+        "title": "Potamanthus yooni",
+        "description": "species of insect"
+      }
+    },
+    {
+      "ktsn": 120000023996,
+      "scientificName": "Rhoenanthus coreanus (Yoon and Bae, 1985)",
+      "commonName": "강하루살이",
+      "terminalLatinName": "coreanus",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Ephemeroptera",
+          "commonName": "하루살이목",
+          "ktsn": 120000023873
+        },
+        "family": {
+          "scientificName": "Potamanthidae",
+          "commonName": "강하루살이과",
+          "ktsn": 120000023989
+        },
+        "genus": {
+          "scientificName": "Rhoenanthus",
+          "commonName": "장수하루살이속",
+          "ktsn": 120000023995
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "coreanus",
+          "commonName": "강하루살이",
+          "ktsn": 120000023996
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:21:43.688Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 35146247,
+        "canonical": "Rhoenanthus coreanus",
+        "fetchedAt": "2026-05-24T09:30:27.350Z",
+        "vernaculars": {
+          "ko": [
+            "강하루살이"
+          ],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 493
+      },
+      "inat": {
+        "observationCount": 14,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/293583512/medium.jpeg",
+        "months": [
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "digitalContentUpdatedAt": "2026-05-21T09:21:43.688Z",
+  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
 }

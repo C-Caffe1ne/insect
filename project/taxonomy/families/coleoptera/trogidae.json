@@ -1,1218 +1,1088 @@
 {
-    "generatedAt":  "2026-05-21T07:47:08.025Z",
-    "source":  "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
-    "order":  {
-                  "id":  "coleoptera",
-                  "scientificName":  "Coleoptera",
-                  "commonName":  "딱정벌레목",
-                  "orderKtsn":  120000013750,
-                  "abstract":  "딱정벌레목(Coleoptera)은 곤충의 종 가운데 40%인 35만여종을 차지하는 목이다. 아직 발견되지 않은 종까지 합치면 500만~800만여종이 될 것으로 추정된다. 먹는 먹이도 다양해서 식물의 잎, 송사리 등의 작은 물고기, 나무의 즙, 작은 동물, 동물의 시체 등 매우 다양하다. 딱정벌레목에 속한 곤충으로는 무당벌레, 딱정벌레, 길앞잡이, 물방개, 장수풍뎅이 등이 있다. 대부분이 두꺼운 키틴질로 된 딱딱한 껍데기를 가지고 있어서 갑충(甲蟲)이라고도 불린다.",
-                  "description":  "딱정벌레목(Coleoptera)은 곤충의 종 가운데 40%인 35만여종을 차지하는 목이다. 아직 발견되지 않은 종까지 합치면 500만~800만여종이 될 것으로 추정된다. 먹는 먹이도 다양해서 식물의 잎, 송사리 등의 작은 물고기, 나무의 즙, 작은 동물, 동물의 시체 등 매우 다양하다. 딱정벌레목에 속한 곤충으로는 무당벌레, 딱정벌레, 길앞잡이, 물방개, 장수풍뎅이 등이 있다. 대부분이 두꺼운 키틴질로 된 딱딱한 껍데기를 가지고 있어서 갑충(甲蟲)이라고도 불린다."
-              },
-    "family":  {
-                   "id":  "trogidae",
-                   "scientificName":  "Trogidae",
-                   "commonName":  "송장풍뎅이과",
-                   "familyKtsn":  120000020812
-               },
-    "speciesCount":  13,
-    "insects":  [
-                    {
-                        "ktsn":  120000020814,
-                        "scientificName":  "Omorgus obscurus (Waterhouse, 1875)",
-                        "commonName":  "왕송장풍뎅이",
-                        "terminalLatinName":  "obscurus",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Trogidae",
-                                                        "commonName":  "송장풍뎅이과",
-                                                        "ktsn":  120000020812
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Omorgus",
-                                                       "commonName":  "왕송장풍뎅이속",
-                                                       "ktsn":  120000020813
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "obscurus",
-                                                         "commonName":  "왕송장풍뎅이",
-                                                         "ktsn":  120000020814
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:08:45.234Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    },
-                    {
-                        "ktsn":  120000212964,
-                        "scientificName":  "Trox (Trox) formosanus Nomura, 1973",
-                        "commonName":  "대만송장풍뎅이",
-                        "terminalLatinName":  "formosanus",
-                        "nomenclaturalAuthor":  "Nomura",
-                        "namingYear":  "1973",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Trogidae",
-                                                        "commonName":  "송장풍뎅이과",
-                                                        "ktsn":  120000020812
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Trox",
-                                                       "commonName":  "송장풍뎅이속",
-                                                       "ktsn":  120000020815
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "Trox",
-                                                          "commonName":  "",
-                                                          "ktsn":  120000069739
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "formosanus",
-                                                         "commonName":  "대만송장풍뎅이",
-                                                         "ktsn":  120000212964
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:08:45.234Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  144826,
-                                    "canonical":  "Trox formosanus",
-                                    "fetchedAt":  "2026-05-24T08:41:37.580Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  null
-                                }
-                    },
-                    {
-                        "ktsn":  120000212965,
-                        "scientificName":  "Trox (Trox) koreanus Kim, 1991",
-                        "commonName":  "참송장풍뎅이",
-                        "terminalLatinName":  "koreanus",
-                        "nomenclaturalAuthor":  "Kim",
-                        "namingYear":  "1991",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Trogidae",
-                                                        "commonName":  "송장풍뎅이과",
-                                                        "ktsn":  120000020812
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Trox",
-                                                       "commonName":  "송장풍뎅이속",
-                                                       "ktsn":  120000020815
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "Trox",
-                                                          "commonName":  "",
-                                                          "ktsn":  120000069739
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "koreanus",
-                                                         "commonName":  "참송장풍뎅이",
-                                                         "ktsn":  120000212965
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:08:45.234Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  144427,
-                                    "canonical":  "Trox koreanus",
-                                    "fetchedAt":  "2026-05-24T08:41:39.597Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  null
-                                }
-                    },
-                    {
-                        "ktsn":  120000212966,
-                        "scientificName":  "Trox (Trox) mandli Balthasar, 1931",
-                        "commonName":  "검은털송장풍뎅이",
-                        "terminalLatinName":  "mandli",
-                        "nomenclaturalAuthor":  "Balthasar",
-                        "namingYear":  "1931",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Trogidae",
-                                                        "commonName":  "송장풍뎅이과",
-                                                        "ktsn":  120000020812
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Trox",
-                                                       "commonName":  "송장풍뎅이속",
-                                                       "ktsn":  120000020815
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "Trox",
-                                                          "commonName":  "",
-                                                          "ktsn":  120000069739
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "mandli",
-                                                         "commonName":  "검은털송장풍뎅이",
-                                                         "ktsn":  120000212966
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:08:45.234Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  144832,
-                                    "canonical":  "Trox mandli",
-                                    "fetchedAt":  "2026-05-24T08:41:41.866Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  null
-                                }
-                    },
-                    {
-                        "ktsn":  120000212967,
-                        "scientificName":  "Trox (Trox) opacotuberculatus Motschulsky, 1860",
-                        "commonName":  "동남아송장풍뎅이",
-                        "terminalLatinName":  "opacotuberculatus",
-                        "nomenclaturalAuthor":  "Motschulsky",
-                        "namingYear":  "1860",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Trogidae",
-                                                        "commonName":  "송장풍뎅이과",
-                                                        "ktsn":  120000020812
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Trox",
-                                                       "commonName":  "송장풍뎅이속",
-                                                       "ktsn":  120000020815
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "Trox",
-                                                          "commonName":  "",
-                                                          "ktsn":  120000069739
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "opacotuberculatus",
-                                                         "commonName":  "동남아송장풍뎅이",
-                                                         "ktsn":  120000212967
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:08:45.234Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  144873,
-                                    "canonical":  "Trox opacotuberculatus",
-                                    "fetchedAt":  "2026-05-24T08:41:43.605Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  null
-                                }
-                    },
-                    {
-                        "ktsn":  120000212968,
-                        "scientificName":  "Trox (Trox) sabulosus (Linnaeus, 1758)",
-                        "commonName":  "큰송장풍뎅이",
-                        "terminalLatinName":  "sabulosus",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Trogidae",
-                                                        "commonName":  "송장풍뎅이과",
-                                                        "ktsn":  120000020812
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Trox",
-                                                       "commonName":  "송장풍뎅이속",
-                                                       "ktsn":  120000020815
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "Trox",
-                                                          "commonName":  "",
-                                                          "ktsn":  120000069739
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "sabulosus",
-                                                         "commonName":  "큰송장풍뎅이",
-                                                         "ktsn":  120000212968
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:08:45.234Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    },
-                    {
-                        "ktsn":  120000212969,
-                        "scientificName":  "Trox (Trox) scaber (Linnaeus, 1767)",
-                        "commonName":  "꼬마송장풍뎅이",
-                        "terminalLatinName":  "scaber",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Trogidae",
-                                                        "commonName":  "송장풍뎅이과",
-                                                        "ktsn":  120000020812
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Trox",
-                                                       "commonName":  "송장풍뎅이속",
-                                                       "ktsn":  120000020815
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "Trox",
-                                                          "commonName":  "",
-                                                          "ktsn":  120000069739
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "scaber",
-                                                         "commonName":  "꼬마송장풍뎅이",
-                                                         "ktsn":  120000212969
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:08:45.234Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    },
-                    {
-                        "ktsn":  120000212970,
-                        "scientificName":  "Trox (Trox) setifer Waterhouse, 1875",
-                        "commonName":  "송장풍뎅이",
-                        "terminalLatinName":  "setifer",
-                        "nomenclaturalAuthor":  "Waterhouse",
-                        "namingYear":  "1875",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Trogidae",
-                                                        "commonName":  "송장풍뎅이과",
-                                                        "ktsn":  120000020812
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Trox",
-                                                       "commonName":  "송장풍뎅이속",
-                                                       "ktsn":  120000020815
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "Trox",
-                                                          "commonName":  "",
-                                                          "ktsn":  120000069739
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "setifer",
-                                                         "commonName":  "송장풍뎅이",
-                                                         "ktsn":  120000212970
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:08:45.234Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "inat":  {
-                                     "observationCount":  3,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/422207983/medium.jpg",
-                                     "months":  [
-                                                    7,
-                                                    9
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000212971,
-                        "scientificName":  "Trox (Trox) vimmeri Balthasar, 1931",
-                        "commonName":  "갈색테송장풍뎅이",
-                        "terminalLatinName":  "vimmeri",
-                        "nomenclaturalAuthor":  "Balthasar",
-                        "namingYear":  "1931",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Trogidae",
-                                                        "commonName":  "송장풍뎅이과",
-                                                        "ktsn":  120000020812
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Trox",
-                                                       "commonName":  "송장풍뎅이속",
-                                                       "ktsn":  120000020815
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "Trox",
-                                                          "commonName":  "",
-                                                          "ktsn":  120000069739
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "vimmeri",
-                                                         "commonName":  "갈색테송장풍뎅이",
-                                                         "ktsn":  120000212971
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:08:45.234Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    },
-                    {
-                        "ktsn":  120000212972,
-                        "scientificName":  "Trox (Trox) zoufali Balthasar, 1931",
-                        "commonName":  "애송장풍뎅이",
-                        "terminalLatinName":  "zoufali",
-                        "nomenclaturalAuthor":  "Balthasar",
-                        "namingYear":  "1931",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Trogidae",
-                                                        "commonName":  "송장풍뎅이과",
-                                                        "ktsn":  120000020812
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Trox",
-                                                       "commonName":  "송장풍뎅이속",
-                                                       "ktsn":  120000020815
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "Trox",
-                                                          "commonName":  "",
-                                                          "ktsn":  120000069739
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "zoufali",
-                                                         "commonName":  "애송장풍뎅이",
-                                                         "ktsn":  120000212972
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:08:45.234Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    },
-                    {
-                        "ktsn":  120000020817,
-                        "scientificName":  "Trox horiguchii Ochi \u0026 Kawahara, 2002",
-                        "commonName":  "남방송장풍뎅이",
-                        "terminalLatinName":  "horiguchii",
-                        "nomenclaturalAuthor":  "Ochi \u0026 Kawahara",
-                        "namingYear":  "2002",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Trogidae",
-                                                        "commonName":  "송장풍뎅이과",
-                                                        "ktsn":  120000020812
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Trox",
-                                                       "commonName":  "송장풍뎅이속",
-                                                       "ktsn":  120000020815
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "horiguchii",
-                                                         "commonName":  "남방송장풍뎅이",
-                                                         "ktsn":  120000020817
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:08:45.234Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  144434,
-                                    "canonical":  "Trox horiguchii",
-                                    "fetchedAt":  "2026-05-24T08:41:32.553Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  null
-                                }
-                    },
-                    {
-                        "ktsn":  120000020820,
-                        "scientificName":  "Trox mitis Balthasar, 1933",
-                        "commonName":  "윤송장풍뎅이",
-                        "terminalLatinName":  "mitis",
-                        "nomenclaturalAuthor":  "Balthasar",
-                        "namingYear":  "1933",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Trogidae",
-                                                        "commonName":  "송장풍뎅이과",
-                                                        "ktsn":  120000020812
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Trox",
-                                                       "commonName":  "송장풍뎅이속",
-                                                       "ktsn":  120000020815
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "mitis",
-                                                         "commonName":  "윤송장풍뎅이",
-                                                         "ktsn":  120000020820
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:08:45.234Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  144435,
-                                    "canonical":  "Trox mitis",
-                                    "fetchedAt":  "2026-05-24T08:41:34.391Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  null
-                                }
-                    },
-                    {
-                        "ktsn":  120000020826,
-                        "scientificName":  "Trox ussuriensis Balthasar, 1931",
-                        "commonName":  "북방송장풍뎅이",
-                        "terminalLatinName":  "ussuriensis",
-                        "nomenclaturalAuthor":  "Balthasar",
-                        "namingYear":  "1931",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Trogidae",
-                                                        "commonName":  "송장풍뎅이과",
-                                                        "ktsn":  120000020812
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Trox",
-                                                       "commonName":  "송장풍뎅이속",
-                                                       "ktsn":  120000020815
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "ussuriensis",
-                                                         "commonName":  "북방송장풍뎅이",
-                                                         "ktsn":  120000020826
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:08:45.234Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  144800,
-                                    "canonical":  "Trox ussuriensis",
-                                    "fetchedAt":  "2026-05-24T08:41:35.974Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  null
-                                }
-                    }
-                ],
-    "digitalContentUpdatedAt":  "2026-05-21T09:08:45.234Z",
-    "digitalContentSource":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "coleoptera",
+    "scientificName": "Coleoptera",
+    "commonName": "딱정벌레목",
+    "orderKtsn": 120000013750,
+    "abstract": "딱정벌레목(Coleoptera)은 곤충의 종 가운데 40%인 35만여종을 차지하는 목이다. 아직 발견되지 않은 종까지 합치면 500만~800만여종이 될 것으로 추정된다. 먹는 먹이도 다양해서 식물의 잎, 송사리 등의 작은 물고기, 나무의 즙, 작은 동물, 동물의 시체 등 매우 다양하다. 딱정벌레목에 속한 곤충으로는 무당벌레, 딱정벌레, 길앞잡이, 물방개, 장수풍뎅이 등이 있다. 대부분이 두꺼운 키틴질로 된 딱딱한 껍데기를 가지고 있어서 갑충(甲蟲)이라고도 불린다.",
+    "description": "딱정벌레목(Coleoptera)은 곤충의 종 가운데 40%인 35만여종을 차지하는 목이다. 아직 발견되지 않은 종까지 합치면 500만~800만여종이 될 것으로 추정된다. 먹는 먹이도 다양해서 식물의 잎, 송사리 등의 작은 물고기, 나무의 즙, 작은 동물, 동물의 시체 등 매우 다양하다. 딱정벌레목에 속한 곤충으로는 무당벌레, 딱정벌레, 길앞잡이, 물방개, 장수풍뎅이 등이 있다. 대부분이 두꺼운 키틴질로 된 딱딱한 껍데기를 가지고 있어서 갑충(甲蟲)이라고도 불린다."
+  },
+  "family": {
+    "id": "trogidae",
+    "scientificName": "Trogidae",
+    "commonName": "송장풍뎅이과",
+    "familyKtsn": 120000020812
+  },
+  "speciesCount": 13,
+  "insects": [
+    {
+      "ktsn": 120000020814,
+      "scientificName": "Omorgus obscurus (Waterhouse, 1875)",
+      "commonName": "왕송장풍뎅이",
+      "terminalLatinName": "obscurus",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Trogidae",
+          "commonName": "송장풍뎅이과",
+          "ktsn": 120000020812
+        },
+        "genus": {
+          "scientificName": "Omorgus",
+          "commonName": "왕송장풍뎅이속",
+          "ktsn": 120000020813
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "obscurus",
+          "commonName": "왕송장풍뎅이",
+          "ktsn": 120000020814
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:08:45.234Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:05:00.742Z"
+      }
+    },
+    {
+      "ktsn": 120000212964,
+      "scientificName": "Trox (Trox) formosanus Nomura, 1973",
+      "commonName": "대만송장풍뎅이",
+      "terminalLatinName": "formosanus",
+      "nomenclaturalAuthor": "Nomura",
+      "namingYear": "1973",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Trogidae",
+          "commonName": "송장풍뎅이과",
+          "ktsn": 120000020812
+        },
+        "genus": {
+          "scientificName": "Trox",
+          "commonName": "송장풍뎅이속",
+          "ktsn": 120000020815
+        },
+        "subgenus": {
+          "scientificName": "Trox",
+          "commonName": "",
+          "ktsn": 120000069739
+        },
+        "species": {
+          "scientificName": "formosanus",
+          "commonName": "대만송장풍뎅이",
+          "ktsn": 120000212964
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:08:45.234Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 144826,
+        "canonical": "Trox formosanus",
+        "fetchedAt": "2026-05-24T08:41:37.580Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:05:00.742Z"
+      }
+    },
+    {
+      "ktsn": 120000212965,
+      "scientificName": "Trox (Trox) koreanus Kim, 1991",
+      "commonName": "참송장풍뎅이",
+      "terminalLatinName": "koreanus",
+      "nomenclaturalAuthor": "Kim",
+      "namingYear": "1991",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Trogidae",
+          "commonName": "송장풍뎅이과",
+          "ktsn": 120000020812
+        },
+        "genus": {
+          "scientificName": "Trox",
+          "commonName": "송장풍뎅이속",
+          "ktsn": 120000020815
+        },
+        "subgenus": {
+          "scientificName": "Trox",
+          "commonName": "",
+          "ktsn": 120000069739
+        },
+        "species": {
+          "scientificName": "koreanus",
+          "commonName": "참송장풍뎅이",
+          "ktsn": 120000212965
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:08:45.234Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 144427,
+        "canonical": "Trox koreanus",
+        "fetchedAt": "2026-05-24T08:41:39.597Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:05:00.742Z",
+        "title": "Trox koreanus",
+        "description": "species of insect"
+      }
+    },
+    {
+      "ktsn": 120000212966,
+      "scientificName": "Trox (Trox) mandli Balthasar, 1931",
+      "commonName": "검은털송장풍뎅이",
+      "terminalLatinName": "mandli",
+      "nomenclaturalAuthor": "Balthasar",
+      "namingYear": "1931",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Trogidae",
+          "commonName": "송장풍뎅이과",
+          "ktsn": 120000020812
+        },
+        "genus": {
+          "scientificName": "Trox",
+          "commonName": "송장풍뎅이속",
+          "ktsn": 120000020815
+        },
+        "subgenus": {
+          "scientificName": "Trox",
+          "commonName": "",
+          "ktsn": 120000069739
+        },
+        "species": {
+          "scientificName": "mandli",
+          "commonName": "검은털송장풍뎅이",
+          "ktsn": 120000212966
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:08:45.234Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 144832,
+        "canonical": "Trox mandli",
+        "fetchedAt": "2026-05-24T08:41:41.866Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:05:00.742Z"
+      }
+    },
+    {
+      "ktsn": 120000212967,
+      "scientificName": "Trox (Trox) opacotuberculatus Motschulsky, 1860",
+      "commonName": "동남아송장풍뎅이",
+      "terminalLatinName": "opacotuberculatus",
+      "nomenclaturalAuthor": "Motschulsky",
+      "namingYear": "1860",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Trogidae",
+          "commonName": "송장풍뎅이과",
+          "ktsn": 120000020812
+        },
+        "genus": {
+          "scientificName": "Trox",
+          "commonName": "송장풍뎅이속",
+          "ktsn": 120000020815
+        },
+        "subgenus": {
+          "scientificName": "Trox",
+          "commonName": "",
+          "ktsn": 120000069739
+        },
+        "species": {
+          "scientificName": "opacotuberculatus",
+          "commonName": "동남아송장풍뎅이",
+          "ktsn": 120000212967
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:08:45.234Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 144873,
+        "canonical": "Trox opacotuberculatus",
+        "fetchedAt": "2026-05-24T08:41:43.605Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:05:00.742Z"
+      }
+    },
+    {
+      "ktsn": 120000212968,
+      "scientificName": "Trox (Trox) sabulosus (Linnaeus, 1758)",
+      "commonName": "큰송장풍뎅이",
+      "terminalLatinName": "sabulosus",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Trogidae",
+          "commonName": "송장풍뎅이과",
+          "ktsn": 120000020812
+        },
+        "genus": {
+          "scientificName": "Trox",
+          "commonName": "송장풍뎅이속",
+          "ktsn": 120000020815
+        },
+        "subgenus": {
+          "scientificName": "Trox",
+          "commonName": "",
+          "ktsn": 120000069739
+        },
+        "species": {
+          "scientificName": "sabulosus",
+          "commonName": "큰송장풍뎅이",
+          "ktsn": 120000212968
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:08:45.234Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:05:00.742Z",
+        "title": "Trox sabulosus",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Trox_sabulosus_front.jpg/500px-Trox_sabulosus_front.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Trox_sabulosus_front.jpg",
+        "thumbnailSize": {
+          "width": 500,
+          "height": 481
+        },
+        "originalSize": {
+          "width": 1362,
+          "height": 1311
+        },
+        "filename": "Trox_sabulosus_front.jpg",
+        "description": "species of beetle",
+        "pageUrl": "https://en.wikipedia.org/wiki/Trox_sabulosus",
+        "license": "see Wikimedia Commons",
+        "source": "Wikipedia"
+      }
+    },
+    {
+      "ktsn": 120000212969,
+      "scientificName": "Trox (Trox) scaber (Linnaeus, 1767)",
+      "commonName": "꼬마송장풍뎅이",
+      "terminalLatinName": "scaber",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Trogidae",
+          "commonName": "송장풍뎅이과",
+          "ktsn": 120000020812
+        },
+        "genus": {
+          "scientificName": "Trox",
+          "commonName": "송장풍뎅이속",
+          "ktsn": 120000020815
+        },
+        "subgenus": {
+          "scientificName": "Trox",
+          "commonName": "",
+          "ktsn": 120000069739
+        },
+        "species": {
+          "scientificName": "scaber",
+          "commonName": "꼬마송장풍뎅이",
+          "ktsn": 120000212969
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:08:45.234Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:05:00.742Z",
+        "title": "Trox scaber",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/COLE_Trogossitidae_Trox_scaber.png/500px-COLE_Trogossitidae_Trox_scaber.png",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f0/COLE_Trogossitidae_Trox_scaber.png",
+        "thumbnailSize": {
+          "width": 500,
+          "height": 678
+        },
+        "originalSize": {
+          "width": 3091,
+          "height": 4189
+        },
+        "filename": "COLE_Trogossitidae_Trox_scaber.png",
+        "description": "species of beetle",
+        "pageUrl": "https://en.wikipedia.org/wiki/Trox_scaber",
+        "license": "see Wikimedia Commons",
+        "source": "Wikipedia"
+      }
+    },
+    {
+      "ktsn": 120000212970,
+      "scientificName": "Trox (Trox) setifer Waterhouse, 1875",
+      "commonName": "송장풍뎅이",
+      "terminalLatinName": "setifer",
+      "nomenclaturalAuthor": "Waterhouse",
+      "namingYear": "1875",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Trogidae",
+          "commonName": "송장풍뎅이과",
+          "ktsn": 120000020812
+        },
+        "genus": {
+          "scientificName": "Trox",
+          "commonName": "송장풍뎅이속",
+          "ktsn": 120000020815
+        },
+        "subgenus": {
+          "scientificName": "Trox",
+          "commonName": "",
+          "ktsn": 120000069739
+        },
+        "species": {
+          "scientificName": "setifer",
+          "commonName": "송장풍뎅이",
+          "ktsn": 120000212970
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:08:45.234Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 3,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/422207983/medium.jpg",
+        "months": [
+          7,
+          9
+        ]
+      }
+    },
+    {
+      "ktsn": 120000212971,
+      "scientificName": "Trox (Trox) vimmeri Balthasar, 1931",
+      "commonName": "갈색테송장풍뎅이",
+      "terminalLatinName": "vimmeri",
+      "nomenclaturalAuthor": "Balthasar",
+      "namingYear": "1931",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Trogidae",
+          "commonName": "송장풍뎅이과",
+          "ktsn": 120000020812
+        },
+        "genus": {
+          "scientificName": "Trox",
+          "commonName": "송장풍뎅이속",
+          "ktsn": 120000020815
+        },
+        "subgenus": {
+          "scientificName": "Trox",
+          "commonName": "",
+          "ktsn": 120000069739
+        },
+        "species": {
+          "scientificName": "vimmeri",
+          "commonName": "갈색테송장풍뎅이",
+          "ktsn": 120000212971
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:08:45.234Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:05:00.742Z"
+      }
+    },
+    {
+      "ktsn": 120000212972,
+      "scientificName": "Trox (Trox) zoufali Balthasar, 1931",
+      "commonName": "애송장풍뎅이",
+      "terminalLatinName": "zoufali",
+      "nomenclaturalAuthor": "Balthasar",
+      "namingYear": "1931",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Trogidae",
+          "commonName": "송장풍뎅이과",
+          "ktsn": 120000020812
+        },
+        "genus": {
+          "scientificName": "Trox",
+          "commonName": "송장풍뎅이속",
+          "ktsn": 120000020815
+        },
+        "subgenus": {
+          "scientificName": "Trox",
+          "commonName": "",
+          "ktsn": 120000069739
+        },
+        "species": {
+          "scientificName": "zoufali",
+          "commonName": "애송장풍뎅이",
+          "ktsn": 120000212972
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:08:45.234Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:05:00.742Z",
+        "title": "Trox zoufali",
+        "description": "species of insect"
+      }
+    },
+    {
+      "ktsn": 120000020817,
+      "scientificName": "Trox horiguchii Ochi & Kawahara, 2002",
+      "commonName": "남방송장풍뎅이",
+      "terminalLatinName": "horiguchii",
+      "nomenclaturalAuthor": "Ochi & Kawahara",
+      "namingYear": "2002",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Trogidae",
+          "commonName": "송장풍뎅이과",
+          "ktsn": 120000020812
+        },
+        "genus": {
+          "scientificName": "Trox",
+          "commonName": "송장풍뎅이속",
+          "ktsn": 120000020815
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "horiguchii",
+          "commonName": "남방송장풍뎅이",
+          "ktsn": 120000020817
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:08:45.234Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 144434,
+        "canonical": "Trox horiguchii",
+        "fetchedAt": "2026-05-24T08:41:32.553Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:05:00.742Z",
+        "title": "Trox horiguchii",
+        "description": "species of insect"
+      }
+    },
+    {
+      "ktsn": 120000020820,
+      "scientificName": "Trox mitis Balthasar, 1933",
+      "commonName": "윤송장풍뎅이",
+      "terminalLatinName": "mitis",
+      "nomenclaturalAuthor": "Balthasar",
+      "namingYear": "1933",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Trogidae",
+          "commonName": "송장풍뎅이과",
+          "ktsn": 120000020812
+        },
+        "genus": {
+          "scientificName": "Trox",
+          "commonName": "송장풍뎅이속",
+          "ktsn": 120000020815
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "mitis",
+          "commonName": "윤송장풍뎅이",
+          "ktsn": 120000020820
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:08:45.234Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 144435,
+        "canonical": "Trox mitis",
+        "fetchedAt": "2026-05-24T08:41:34.391Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:05:00.742Z",
+        "title": "Trox mitis",
+        "description": "species of insect"
+      }
+    },
+    {
+      "ktsn": 120000020826,
+      "scientificName": "Trox ussuriensis Balthasar, 1931",
+      "commonName": "북방송장풍뎅이",
+      "terminalLatinName": "ussuriensis",
+      "nomenclaturalAuthor": "Balthasar",
+      "namingYear": "1931",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Trogidae",
+          "commonName": "송장풍뎅이과",
+          "ktsn": 120000020812
+        },
+        "genus": {
+          "scientificName": "Trox",
+          "commonName": "송장풍뎅이속",
+          "ktsn": 120000020815
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "ussuriensis",
+          "commonName": "북방송장풍뎅이",
+          "ktsn": 120000020826
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:08:45.234Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 144800,
+        "canonical": "Trox ussuriensis",
+        "fetchedAt": "2026-05-24T08:41:35.974Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:05:00.742Z",
+        "title": "Trox ussuriensis",
+        "description": "species of insect"
+      }
+    }
+  ],
+  "digitalContentUpdatedAt": "2026-05-21T09:08:45.234Z",
+  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
 }

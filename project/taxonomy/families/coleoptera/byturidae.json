@@ -1,696 +1,775 @@
 {
-    "generatedAt":  "2026-05-21T07:47:08.025Z",
-    "source":  "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
-    "order":  {
-                  "id":  "coleoptera",
-                  "scientificName":  "Coleoptera",
-                  "commonName":  "딱정벌레목",
-                  "orderKtsn":  120000013750,
-                  "abstract":  "딱정벌레목(Coleoptera)은 곤충의 종 가운데 40%인 35만여종을 차지하는 목이다. 아직 발견되지 않은 종까지 합치면 500만~800만여종이 될 것으로 추정된다. 먹는 먹이도 다양해서 식물의 잎, 송사리 등의 작은 물고기, 나무의 즙, 작은 동물, 동물의 시체 등 매우 다양하다. 딱정벌레목에 속한 곤충으로는 무당벌레, 딱정벌레, 길앞잡이, 물방개, 장수풍뎅이 등이 있다. 대부분이 두꺼운 키틴질로 된 딱딱한 껍데기를 가지고 있어서 갑충(甲蟲)이라고도 불린다.",
-                  "description":  "딱정벌레목(Coleoptera)은 곤충의 종 가운데 40%인 35만여종을 차지하는 목이다. 아직 발견되지 않은 종까지 합치면 500만~800만여종이 될 것으로 추정된다. 먹는 먹이도 다양해서 식물의 잎, 송사리 등의 작은 물고기, 나무의 즙, 작은 동물, 동물의 시체 등 매우 다양하다. 딱정벌레목에 속한 곤충으로는 무당벌레, 딱정벌레, 길앞잡이, 물방개, 장수풍뎅이 등이 있다. 대부분이 두꺼운 키틴질로 된 딱딱한 껍데기를 가지고 있어서 갑충(甲蟲)이라고도 불린다."
-              },
-    "family":  {
-                   "id":  "byturidae",
-                   "scientificName":  "Byturidae",
-                   "commonName":  "쑤시기붙이과",
-                   "familyKtsn":  120000014110
-               },
-    "speciesCount":  6,
-    "insects":  [
-                    {
-                        "ktsn":  120000014112,
-                        "scientificName":  "Byturus affinis Reitter, 1874",
-                        "commonName":  "닮은쑤시기붙이",
-                        "terminalLatinName":  "affinis",
-                        "nomenclaturalAuthor":  "Reitter",
-                        "namingYear":  "1874",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Byturidae",
-                                                        "commonName":  "쑤시기붙이과",
-                                                        "ktsn":  120000014110
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Byturus",
-                                                       "commonName":  "쑤시기붙이속",
-                                                       "ktsn":  120000014111
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "affinis",
-                                                         "commonName":  "닮은쑤시기붙이",
-                                                         "ktsn":  120000014112
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T08:51:11.530Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  3213999,
-                                    "canonical":  "Byturus affinis",
-                                    "fetchedAt":  "2026-05-24T07:41:40.882Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  260
-                                },
-                        "inat":  {
-                                     "observationCount":  9,
-                                     "imageUrl":  "https://www.matsunoyama.com/kyororo/images-specimen/sh0046/sh0046-348.jpg",
-                                     "months":  [
-                                                    5,
-                                                    6
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000503142,
-                        "scientificName":  "Byturus atricollis Reitter, 1874",
-                        "commonName":  "검정가슴쑤시기붙이",
-                        "terminalLatinName":  "atricollis",
-                        "nomenclaturalAuthor":  "Reitter",
-                        "namingYear":  "1874",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Byturidae",
-                                                        "commonName":  "쑤시기붙이과",
-                                                        "ktsn":  120000014110
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Byturus",
-                                                       "commonName":  "쑤시기붙이속",
-                                                       "ktsn":  120000014111
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "atricollis",
-                                                         "commonName":  "검정가슴쑤시기붙이",
-                                                         "ktsn":  120000503142
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T08:51:11.530Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  48257494,
-                                    "canonical":  "Byturus atricollis",
-                                    "fetchedAt":  "2026-05-24T07:42:04.470Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  null
-                                }
-                    },
-                    {
-                        "ktsn":  120000093185,
-                        "scientificName":  "Byturus oakanus Ohta, 1930",
-                        "commonName":  "제주쑤시기붙이",
-                        "terminalLatinName":  "oakanus",
-                        "nomenclaturalAuthor":  "Ohta",
-                        "namingYear":  "1930",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Byturidae",
-                                                        "commonName":  "쑤시기붙이과",
-                                                        "ktsn":  120000014110
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Byturus",
-                                                       "commonName":  "쑤시기붙이속",
-                                                       "ktsn":  120000014111
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "oakanus",
-                                                         "commonName":  "제주쑤시기붙이",
-                                                         "ktsn":  120000093185
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T08:51:11.530Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  3214001,
-                                    "canonical":  "Byturus oakanus",
-                                    "fetchedAt":  "2026-05-24T07:41:53.802Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  null
-                                }
-                    },
-                    {
-                        "ktsn":  120000014113,
-                        "scientificName":  "Byturus ochraceus (Scriba, 1790)",
-                        "commonName":  "쑤시기붙이",
-                        "terminalLatinName":  "ochraceus",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Byturidae",
-                                                        "commonName":  "쑤시기붙이과",
-                                                        "ktsn":  120000014110
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Byturus",
-                                                       "commonName":  "쑤시기붙이속",
-                                                       "ktsn":  120000014111
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "ochraceus",
-                                                         "commonName":  "쑤시기붙이",
-                                                         "ktsn":  120000014113
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T08:51:11.530Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  58293453,
-                                    "canonical":  "Byturus ochraceus",
-                                    "fetchedAt":  "2026-05-24T07:41:44.327Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  null
-                                }
-                    },
-                    {
-                        "ktsn":  120000014114,
-                        "scientificName":  "Byturus tomentosus (Fabricius, 1774)",
-                        "commonName":  "솜털쑤시기붙이",
-                        "terminalLatinName":  "tomentosus",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Byturidae",
-                                                        "commonName":  "쑤시기붙이과",
-                                                        "ktsn":  120000014110
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Byturus",
-                                                       "commonName":  "쑤시기붙이속",
-                                                       "ktsn":  120000014111
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "tomentosus",
-                                                         "commonName":  "솜털쑤시기붙이",
-                                                         "ktsn":  120000014114
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T08:51:11.530Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  58293452,
-                                    "canonical":  "Byturus tomentosus",
-                                    "fetchedAt":  "2026-05-24T07:41:49.959Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  null
-                                },
-                        "inat":  {
-                                     "observationCount":  4,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/128368425/medium.jpg",
-                                     "months":  [
-                                                    4,
-                                                    5
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000407194,
-                        "scientificName":  "Xerasia variegata Lewis, 1895",
-                        "commonName":  "큰알락쑤시기붙이",
-                        "terminalLatinName":  "variegata",
-                        "nomenclaturalAuthor":  "Lewis",
-                        "namingYear":  "1895",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Coleoptera",
-                                                       "commonName":  "딱정벌레목",
-                                                       "ktsn":  120000013750
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Byturidae",
-                                                        "commonName":  "쑤시기붙이과",
-                                                        "ktsn":  120000014110
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Xerasia",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000407193
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "variegata",
-                                                         "commonName":  "큰알락쑤시기붙이",
-                                                         "ktsn":  120000407194
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T08:51:11.530Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  3213994,
-                                    "canonical":  "Xerasia variegata",
-                                    "fetchedAt":  "2026-05-24T07:41:57.537Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-                                                                   "ツノブトホタルモドキ"
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  null
-                                },
-                        "inat":  {
-                                     "observationCount":  1,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/62847018/medium.jpg",
-                                     "months":  [
-                                                    3
-                                                ]
-                                 }
-                    }
-                ],
-    "digitalContentUpdatedAt":  "2026-05-21T08:51:11.530Z",
-    "digitalContentSource":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "coleoptera",
+    "scientificName": "Coleoptera",
+    "commonName": "딱정벌레목",
+    "orderKtsn": 120000013750,
+    "abstract": "딱정벌레목(Coleoptera)은 곤충의 종 가운데 40%인 35만여종을 차지하는 목이다. 아직 발견되지 않은 종까지 합치면 500만~800만여종이 될 것으로 추정된다. 먹는 먹이도 다양해서 식물의 잎, 송사리 등의 작은 물고기, 나무의 즙, 작은 동물, 동물의 시체 등 매우 다양하다. 딱정벌레목에 속한 곤충으로는 무당벌레, 딱정벌레, 길앞잡이, 물방개, 장수풍뎅이 등이 있다. 대부분이 두꺼운 키틴질로 된 딱딱한 껍데기를 가지고 있어서 갑충(甲蟲)이라고도 불린다.",
+    "description": "딱정벌레목(Coleoptera)은 곤충의 종 가운데 40%인 35만여종을 차지하는 목이다. 아직 발견되지 않은 종까지 합치면 500만~800만여종이 될 것으로 추정된다. 먹는 먹이도 다양해서 식물의 잎, 송사리 등의 작은 물고기, 나무의 즙, 작은 동물, 동물의 시체 등 매우 다양하다. 딱정벌레목에 속한 곤충으로는 무당벌레, 딱정벌레, 길앞잡이, 물방개, 장수풍뎅이 등이 있다. 대부분이 두꺼운 키틴질로 된 딱딱한 껍데기를 가지고 있어서 갑충(甲蟲)이라고도 불린다."
+  },
+  "family": {
+    "id": "byturidae",
+    "scientificName": "Byturidae",
+    "commonName": "쑤시기붙이과",
+    "familyKtsn": 120000014110
+  },
+  "speciesCount": 6,
+  "insects": [
+    {
+      "ktsn": 120000014112,
+      "scientificName": "Byturus affinis Reitter, 1874",
+      "commonName": "닮은쑤시기붙이",
+      "terminalLatinName": "affinis",
+      "nomenclaturalAuthor": "Reitter",
+      "namingYear": "1874",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Byturidae",
+          "commonName": "쑤시기붙이과",
+          "ktsn": 120000014110
+        },
+        "genus": {
+          "scientificName": "Byturus",
+          "commonName": "쑤시기붙이속",
+          "ktsn": 120000014111
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "affinis",
+          "commonName": "닮은쑤시기붙이",
+          "ktsn": 120000014112
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:51:11.530Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 3213999,
+        "canonical": "Byturus affinis",
+        "fetchedAt": "2026-05-24T07:41:40.882Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 260
+      },
+      "inat": {
+        "observationCount": 9,
+        "imageUrl": "https://www.matsunoyama.com/kyororo/images-specimen/sh0046/sh0046-348.jpg",
+        "months": [
+          5,
+          6
+        ]
+      },
+      "inatTaxon": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T06:00:04.526Z",
+        "taxonId": 1075109,
+        "preferredCommonName": null,
+        "observationsCount": 27,
+        "wikipediaUrl": null,
+        "defaultPhoto": {
+          "mediumUrl": "https://static.inaturalist.org/photos/68692973/medium.jpg",
+          "squareUrl": "https://static.inaturalist.org/photos/68692973/square.jpg",
+          "originalDimensions": {
+            "height": 1152,
+            "width": 2048
+          },
+          "license": null,
+          "attribution": "(c) Fan Gao, all rights reserved, uploaded by Fan Gao",
+          "attributionName": "Fan Gao"
+        },
+        "wikipediaSummary": null,
+        "taxonPhotos": [
+          {
+            "mediumUrl": "https://static.inaturalist.org/photos/68692973/medium.jpg",
+            "largeUrl": "https://static.inaturalist.org/photos/68692973/large.jpg",
+            "license": null,
+            "attribution": "(c) Fan Gao, all rights reserved, uploaded by Fan Gao",
+            "attributionName": "Fan Gao"
+          },
+          {
+            "mediumUrl": "https://static.inaturalist.org/photos/268394990/medium.jpg",
+            "largeUrl": "https://static.inaturalist.org/photos/268394990/large.jpg",
+            "license": null,
+            "attribution": "(c) 栗鼠, all rights reserved, uploaded by 栗鼠",
+            "attributionName": "栗鼠"
+          }
+        ]
+      }
+    },
+    {
+      "ktsn": 120000503142,
+      "scientificName": "Byturus atricollis Reitter, 1874",
+      "commonName": "검정가슴쑤시기붙이",
+      "terminalLatinName": "atricollis",
+      "nomenclaturalAuthor": "Reitter",
+      "namingYear": "1874",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Byturidae",
+          "commonName": "쑤시기붙이과",
+          "ktsn": 120000014110
+        },
+        "genus": {
+          "scientificName": "Byturus",
+          "commonName": "쑤시기붙이속",
+          "ktsn": 120000014111
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "atricollis",
+          "commonName": "검정가슴쑤시기붙이",
+          "ktsn": 120000503142
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:51:11.530Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 48257494,
+        "canonical": "Byturus atricollis",
+        "fetchedAt": "2026-05-24T07:42:04.470Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:03:15.331Z"
+      },
+      "inatTaxon": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T06:00:05.079Z"
+      }
+    },
+    {
+      "ktsn": 120000093185,
+      "scientificName": "Byturus oakanus Ohta, 1930",
+      "commonName": "제주쑤시기붙이",
+      "terminalLatinName": "oakanus",
+      "nomenclaturalAuthor": "Ohta",
+      "namingYear": "1930",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Byturidae",
+          "commonName": "쑤시기붙이과",
+          "ktsn": 120000014110
+        },
+        "genus": {
+          "scientificName": "Byturus",
+          "commonName": "쑤시기붙이속",
+          "ktsn": 120000014111
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "oakanus",
+          "commonName": "제주쑤시기붙이",
+          "ktsn": 120000093185
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:51:11.530Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 3214001,
+        "canonical": "Byturus oakanus",
+        "fetchedAt": "2026-05-24T07:41:53.802Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:03:15.331Z"
+      },
+      "inatTaxon": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T06:00:08.776Z"
+      }
+    },
+    {
+      "ktsn": 120000014113,
+      "scientificName": "Byturus ochraceus (Scriba, 1790)",
+      "commonName": "쑤시기붙이",
+      "terminalLatinName": "ochraceus",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Byturidae",
+          "commonName": "쑤시기붙이과",
+          "ktsn": 120000014110
+        },
+        "genus": {
+          "scientificName": "Byturus",
+          "commonName": "쑤시기붙이속",
+          "ktsn": 120000014111
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "ochraceus",
+          "commonName": "쑤시기붙이",
+          "ktsn": 120000014113
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:51:11.530Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 58293453,
+        "canonical": "Byturus ochraceus",
+        "fetchedAt": "2026-05-24T07:41:44.327Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:03:15.331Z",
+        "title": "Byturus ochraceus",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Byturus_ochraceus_%28Scriba%2C_1790%29.jpg/500px-Byturus_ochraceus_%28Scriba%2C_1790%29.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Byturus_ochraceus_%28Scriba%2C_1790%29.jpg",
+        "thumbnailSize": {
+          "width": 500,
+          "height": 341
+        },
+        "originalSize": {
+          "width": 1895,
+          "height": 1291
+        },
+        "filename": "Byturus_ochraceus_(Scriba,_1790).jpg",
+        "description": "species of insect",
+        "pageUrl": "https://en.wikipedia.org/wiki/Byturus_ochraceus",
+        "license": "see Wikimedia Commons",
+        "source": "Wikipedia"
+      },
+      "inatTaxon": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T06:00:09.998Z",
+        "taxonId": 130843,
+        "preferredCommonName": null,
+        "observationsCount": 5492,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Byturus_ochraceus",
+        "defaultPhoto": {
+          "mediumUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/39549537/medium.jpg",
+          "squareUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/39549537/square.jpg",
+          "originalDimensions": {
+            "height": 1536,
+            "width": 2048
+          },
+          "license": "cc-by-nc",
+          "attribution": "(c) Denis Makhnovsky, some rights reserved (CC BY-NC), uploaded by Denis Makhnovsky",
+          "attributionName": "Denis Makhnovsky"
+        },
+        "wikipediaSummary": "<b>Byturus ochraceus</b> is a species of beetle in the fruitworm family Byturidae.",
+        "taxonPhotos": [
+          {
+            "mediumUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/39549537/medium.jpg",
+            "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/39549537/large.jpg",
+            "license": "cc-by-nc",
+            "attribution": "(c) Denis Makhnovsky, some rights reserved (CC BY-NC), uploaded by Denis Makhnovsky",
+            "attributionName": "Denis Makhnovsky"
+          },
+          {
+            "mediumUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/244651449/medium.jpeg",
+            "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/244651449/large.jpeg",
+            "license": "cc-by-nc",
+            "attribution": "(c) Felix Riegel, some rights reserved (CC BY-NC), uploaded by Felix Riegel",
+            "attributionName": "Felix Riegel"
+          },
+          {
+            "mediumUrl": "https://static.inaturalist.org/photos/35057265/medium.jpeg",
+            "largeUrl": "https://static.inaturalist.org/photos/35057265/large.jpeg",
+            "license": null,
+            "attribution": "(c) Rémi B., all rights reserved, uploaded by Rémi B.",
+            "attributionName": "Rémi B."
+          },
+          {
+            "mediumUrl": "https://static.inaturalist.org/photos/35089478/medium.jpeg",
+            "largeUrl": "https://static.inaturalist.org/photos/35089478/large.jpeg",
+            "license": null,
+            "attribution": "(c) Rémi B., all rights reserved, uploaded by Rémi B.",
+            "attributionName": "Rémi B."
+          },
+          {
+            "mediumUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/144044140/medium.jpeg",
+            "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/144044140/large.jpeg",
+            "license": "cc-by-nc",
+            "attribution": "(c) Felix Riegel, some rights reserved (CC BY-NC), uploaded by Felix Riegel",
+            "attributionName": "Felix Riegel"
+          }
+        ]
+      }
+    },
+    {
+      "ktsn": 120000014114,
+      "scientificName": "Byturus tomentosus (Fabricius, 1774)",
+      "commonName": "솜털쑤시기붙이",
+      "terminalLatinName": "tomentosus",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Byturidae",
+          "commonName": "쑤시기붙이과",
+          "ktsn": 120000014110
+        },
+        "genus": {
+          "scientificName": "Byturus",
+          "commonName": "쑤시기붙이속",
+          "ktsn": 120000014111
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "tomentosus",
+          "commonName": "솜털쑤시기붙이",
+          "ktsn": 120000014114
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:51:11.530Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 58293452,
+        "canonical": "Byturus tomentosus",
+        "fetchedAt": "2026-05-24T07:41:49.959Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "inat": {
+        "observationCount": 4,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/128368425/medium.jpg",
+        "months": [
+          4,
+          5
+        ]
+      },
+      "inatTaxon": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T06:00:11.228Z",
+        "taxonId": 528660,
+        "preferredCommonName": "Raspberry Beetle",
+        "observationsCount": 1448,
+        "wikipediaUrl": "http://en.wikipedia.org/wiki/Raspberry_beetle",
+        "defaultPhoto": {
+          "mediumUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/99023831/medium.jpeg",
+          "squareUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/99023831/square.jpeg",
+          "originalDimensions": {
+            "height": 1449,
+            "width": 1932
+          },
+          "license": "cc-by-nc",
+          "attribution": "(c) Felix Riegel, some rights reserved (CC BY-NC), uploaded by Felix Riegel",
+          "attributionName": "Felix Riegel"
+        },
+        "wikipediaSummary": "The <b>raspberry beetle</b> (<i>Byturus tomentosus</i>) is a species of beetles in the fruitworm family Byturidae. It is a major pest that is widespread in north-central Europe, affecting raspberry, blackberry and loganberry plants. Up to 50% of raspberry harvest may be lost due to the beetle.",
+        "taxonPhotos": [
+          {
+            "mediumUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/99023831/medium.jpeg",
+            "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/99023831/large.jpeg",
+            "license": "cc-by-nc",
+            "attribution": "(c) Felix Riegel, some rights reserved (CC BY-NC), uploaded by Felix Riegel",
+            "attributionName": "Felix Riegel"
+          },
+          {
+            "mediumUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/86130201/medium.jpg",
+            "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/86130201/large.jpg",
+            "license": "cc-by",
+            "attribution": "(c) Barry Walter, some rights reserved (CC BY), uploaded by Barry Walter",
+            "attributionName": "Barry Walter"
+          },
+          {
+            "mediumUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/110224070/medium.jpeg",
+            "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/110224070/large.jpeg",
+            "license": "cc-by-nc",
+            "attribution": "(c) Sokolov Yuriy Ivanovich, some rights reserved (CC BY-NC), uploaded by Sokolov Yuriy Ivanovich",
+            "attributionName": "Sokolov Yuriy Ivanovich"
+          },
+          {
+            "mediumUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/88341007/medium.jpeg",
+            "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/88341007/large.jpeg",
+            "license": "cc-by-nc",
+            "attribution": "(c) Raija Paltta Os Laiho, some rights reserved (CC BY-NC), uploaded by Raija Paltta Os Laiho",
+            "attributionName": "Raija Paltta Os Laiho"
+          },
+          {
+            "mediumUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/6243700/medium.jpg",
+            "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/6243700/large.jpg",
+            "license": "cc-by-nc",
+            "attribution": "(c) Tuomo Virtanen, some rights reserved (CC BY-NC), uploaded by Tuomo Virtanen",
+            "attributionName": "Tuomo Virtanen"
+          }
+        ]
+      }
+    },
+    {
+      "ktsn": 120000407194,
+      "scientificName": "Xerasia variegata Lewis, 1895",
+      "commonName": "큰알락쑤시기붙이",
+      "terminalLatinName": "variegata",
+      "nomenclaturalAuthor": "Lewis",
+      "namingYear": "1895",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Byturidae",
+          "commonName": "쑤시기붙이과",
+          "ktsn": 120000014110
+        },
+        "genus": {
+          "scientificName": "Xerasia",
+          "commonName": "",
+          "ktsn": 120000407193
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "variegata",
+          "commonName": "큰알락쑤시기붙이",
+          "ktsn": 120000407194
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:51:11.530Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 3213994,
+        "canonical": "Xerasia variegata",
+        "fetchedAt": "2026-05-24T07:41:57.537Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": [
+            "ツノブトホタルモドキ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/62847018/medium.jpg",
+        "months": [
+          3
+        ]
+      },
+      "inatTaxon": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T06:00:12.414Z",
+        "taxonId": 1044221,
+        "preferredCommonName": null,
+        "observationsCount": 34,
+        "wikipediaUrl": null,
+        "defaultPhoto": {
+          "mediumUrl": "https://static.inaturalist.org/photos/71352145/medium.jpeg",
+          "squareUrl": "https://static.inaturalist.org/photos/71352145/square.jpeg",
+          "originalDimensions": {
+            "height": 666,
+            "width": 1000
+          },
+          "license": null,
+          "attribution": "(c) WonGun Kim, all rights reserved, uploaded by WonGun Kim",
+          "attributionName": "WonGun Kim"
+        },
+        "wikipediaSummary": null,
+        "taxonPhotos": [
+          {
+            "mediumUrl": "https://static.inaturalist.org/photos/71352145/medium.jpeg",
+            "largeUrl": "https://static.inaturalist.org/photos/71352145/large.jpeg",
+            "license": null,
+            "attribution": "(c) WonGun Kim, all rights reserved, uploaded by WonGun Kim",
+            "attributionName": "WonGun Kim"
+          },
+          {
+            "mediumUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/62847018/medium.jpg",
+            "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/62847018/large.jpg",
+            "license": "cc-by-nc",
+            "attribution": "(c) onidiras-iNaturalist, some rights reserved (CC BY-NC), uploaded by onidiras-iNaturalist",
+            "attributionName": "onidiras-iNaturalist"
+          },
+          {
+            "mediumUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/62847019/medium.jpg",
+            "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/62847019/large.jpg",
+            "license": "cc-by-nc",
+            "attribution": "(c) onidiras-iNaturalist, some rights reserved (CC BY-NC), uploaded by onidiras-iNaturalist",
+            "attributionName": "onidiras-iNaturalist"
+          }
+        ]
+      }
+    }
+  ],
+  "digitalContentUpdatedAt": "2026-05-21T08:51:11.530Z",
+  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
 }

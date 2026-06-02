@@ -619,6 +619,13 @@
           </li>
         </ol>
       </section>
+
+      <!-- ── Image Credits Footer ── -->
+      <footer class="species-info-section species-credits-section" data-slot="creditsSectionWrapper">
+        <h3 class="species-info-title">이미지 출처</h3>
+        <ul class="species-credits-list" data-slot="imageCredits"></ul>
+        <p class="species-credits-empty" data-slot="creditsEmpty">이미지가 없는 종입니다.</p>
+      </footer>
     </div>
 
     <!-- ═══════════════════════════════════════════ -->
@@ -669,6 +676,13 @@
         <!-- 결과 헤더 (검색어 있을 때만 노출) -->
         <div class="search-result-header" id="searchResultHeader" hidden>
           <p class="search-result-summary" id="searchResultSummary">결과</p>
+          <button class="search-clear-filter-btn" id="searchClearFilterBtn" type="button" hidden>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <line x1="18" y1="6" x2="6" y2="18" />
+              <line x1="6" y1="6" x2="18" y2="18" />
+            </svg>
+          </button>
           <button class="search-result-sort" id="searchResultSort" type="button" aria-label="정렬 변경">
             관련도순
           </button>
@@ -1699,7 +1713,52 @@
               harmful: item.hrmflSpecsYn === 'Y' ? true : (item.hrmflSpecsYn === 'N' ? false : placeholder.conservationStatus.harmful),
               endemic: (item.korUnqBispYn === 'Y' || item.corsynSeYn === 'Y') ? true : ((item.korUnqBispYn === 'N' || item.corsynSeYn === 'N') ? false : placeholder.conservationStatus.endemic)
             },
-            images: item.inat?.imageUrl ? [item.inat.imageUrl] : placeholder.images,
+            // 이미지 폴백 체인: iNaturalist → GBIF media → Wikipedia
+            images: (() => {
+              if (item.inat?.imageUrl) return [item.inat.imageUrl];
+              if ((item.gbif?.media?.length || 0) > 0) return item.gbif.media.map((m) => m.url).filter(Boolean);
+              if (item.wiki?.imageUrl) return [item.wiki.imageUrl];
+              return placeholder.images;
+            })(),
+            // 출처 정보 — footer 렌더용 (각 이미지의 source/credit/license)
+            imageCredits: (() => {
+              const credits = [];
+              if (item.inat?.imageUrl) {
+                credits.push({
+                  source: 'iNaturalist',
+                  sourceClass: 'inat',
+                  url: item.inat.imageUrl,
+                  pageUrl: item.inat.observationUrl || item.inat.imageUrl,
+                  license: 'see iNaturalist',
+                  meta: item.inat.observationCount ? `관측 ${item.inat.observationCount}건` : null,
+                });
+              }
+              if (Array.isArray(item.gbif?.media)) {
+                for (const m of item.gbif.media) {
+                  if (!m.url) continue;
+                  credits.push({
+                    source: 'GBIF',
+                    sourceClass: 'gbif',
+                    url: m.url,
+                    pageUrl: m.url,
+                    license: m.license || 'see GBIF',
+                    rightsHolder: m.rightsHolder || '',
+                    sourceCitation: m.source || '',
+                  });
+                }
+              }
+              if (item.wiki?.imageUrl) {
+                credits.push({
+                  source: 'Wikipedia',
+                  sourceClass: 'wiki',
+                  url: item.wiki.imageUrl,
+                  pageUrl: item.wiki.pageUrl || item.wiki.imageUrl,
+                  license: item.wiki.license || 'Wikimedia Commons (see page)',
+                  meta: item.wiki.title || null,
+                });
+              }
+              return credits;
+            })(),
             taxonomy: fullTaxonomy,
             // GBIF 데이터(있는 경우)를 openSpeciesDetail의 render()에서 enrich
             _gbifData: item.gbif || null
@@ -2164,9 +2223,12 @@
       const q = currentSearchQuery.trim().toLowerCase();
       const hasInput = q.length > 0 || currentSearchCategory !== null;
 
+      const clearFilterBtnEarly = document.getElementById('searchClearFilterBtn');
+
       if (!hasInput) {
         area.dataset.state = 'empty';
         if (header) header.hidden = true;
+        if (clearFilterBtnEarly) clearFilterBtnEarly.hidden = true;
         list.replaceChildren();
         return;
       }
@@ -2185,13 +2247,18 @@
 
       if (filtered.length === 0) {
         area.dataset.state = 'no-result';
-        if (header) header.hidden = true;
+        // no-result 상태에서도 필터 제거 버튼이 보여야 사용자가 원위치로 돌아갈 수 있다
+        if (header) header.hidden = !currentSearchCategory; // 카테고리 있을 때만 헤더 노출
+        if (clearFilterBtnEarly) clearFilterBtnEarly.hidden = !currentSearchCategory;
         list.replaceChildren();
         return;
       }
 
       area.dataset.state = 'results';
       if (header) header.hidden = false;
+      // 카테고리 필터가 활성화된 경우에만 "필터 제거" 버튼 노출
+      const clearFilterBtn = document.getElementById('searchClearFilterBtn');
+      if (clearFilterBtn) clearFilterBtn.hidden = !currentSearchCategory;
       if (summary) {
         const parts = [];
         if (q) parts.push(`"<strong>${escapeHTML(currentSearchQuery)}</strong>"`);
@@ -2405,6 +2472,23 @@
         }
       });
     });
+
+    // 필터 제거 버튼 — 카테고리 필터를 해제하고 검색 페이지 빈 상태로 복귀
+    const searchClearFilterBtn = document.getElementById('searchClearFilterBtn');
+    if (searchClearFilterBtn) {
+      searchClearFilterBtn.addEventListener('click', () => {
+        currentSearchCategory = null;
+        if (globalSearchEl) globalSearchEl.value = '';
+        currentSearchQuery = '';
+        if (searchClearBtn) searchClearBtn.hidden = true;
+        // 스코프 칩도 '전체'로 초기화
+        document.querySelectorAll('#searchScopeRow .scope-chip').forEach(c => c.classList.remove('active'));
+        const allChip = document.querySelector('#searchScopeRow .scope-chip[data-scope="all"]');
+        if (allChip) allChip.classList.add('active');
+        currentSearchScope = 'all';
+        performSearch();
+      });
+    }
 
     // 랜덤 곤충 — 인덱스에서 무작위 1종을 종 상세로
     const randomBtn = document.getElementById('btnRandom');
@@ -2962,6 +3046,68 @@
         const stage = page.querySelector(`[data-slot="${slot}"]`)?.closest('.lifecycle-stage');
         if (stage) stage.dataset.pending = filled ? 'false' : 'true';
       });
+
+      // ── 이미지 출처 Footer ──
+      renderImageCredits(page, species.imageCredits || []);
+    }
+
+    // 이미지 출처 footer 렌더 — textContent로 안전 출력
+    function renderImageCredits(page, credits) {
+      const list = page.querySelector('[data-slot="imageCredits"]');
+      const empty = page.querySelector('[data-slot="creditsEmpty"]');
+      if (!list) return;
+      list.replaceChildren();
+      if (!Array.isArray(credits) || credits.length === 0) {
+        if (empty) empty.hidden = false;
+        return;
+      }
+      if (empty) empty.hidden = true;
+
+      for (const c of credits) {
+        const li = document.createElement('li');
+        li.className = 'species-credit-item';
+
+        const badge = document.createElement('span');
+        badge.className = `species-credit-source species-credit-source--${c.sourceClass || 'default'}`;
+        badge.textContent = c.source || 'Source';
+        li.appendChild(badge);
+
+        // 메인 라인: source 옆에 메타(observation 수, Wikipedia 표제어 등)
+        if (c.meta) {
+          const meta = document.createElement('span');
+          meta.textContent = c.meta;
+          li.appendChild(meta);
+        }
+
+        // URL — 페이지 링크 우선, 없으면 이미지 직링크
+        const linkUrl = c.pageUrl || c.url;
+        if (linkUrl) {
+          const div = document.createElement('div');
+          div.className = 'species-credit-meta';
+          const a = document.createElement('a');
+          a.className = 'species-credit-link';
+          a.href = linkUrl;
+          a.target = '_blank';
+          a.rel = 'noopener noreferrer';
+          a.textContent = linkUrl.length > 80 ? linkUrl.slice(0, 80) + '…' : linkUrl;
+          div.appendChild(a);
+          li.appendChild(div);
+        }
+
+        // 라이센스 + 저작자
+        const metaParts = [];
+        if (c.license) metaParts.push(`라이센스: ${c.license}`);
+        if (c.rightsHolder) metaParts.push(`저작자: ${c.rightsHolder}`);
+        if (c.sourceCitation) metaParts.push(`출처: ${c.sourceCitation}`);
+        if (metaParts.length > 0) {
+          const div = document.createElement('div');
+          div.className = 'species-credit-meta';
+          div.textContent = metaParts.join(' · ');
+          li.appendChild(div);
+        }
+
+        list.appendChild(li);
+      }
     }
 
     // ── EOL 캐시 로더 / 학명 정규화 / species 병합 ──

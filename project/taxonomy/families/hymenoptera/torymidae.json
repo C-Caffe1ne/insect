@@ -1,884 +1,808 @@
 {
-    "generatedAt":  "2026-05-21T07:47:08.025Z",
-    "source":  "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
-    "order":  {
-                  "id":  "hymenoptera",
-                  "scientificName":  "Hymenoptera",
-                  "commonName":  "벌목",
-                  "orderKtsn":  120000027260,
-                  "abstract":  "벌목은 절지동물문의 곤충강에 속하는 동물 분류의 하나이다. 벌과 개미를 포함하고 있다. 기록종의 수는 약 13만 종 이상이다. 트라이아스기 무렵에 등장하여, 백악기에 최초로 사회생활을 하는 부류가 나타났다. 주로 여왕을 중심으로 사회생활을 하는 종이 많으나 모든 종류가 사회를 이루어 생활하는 것은 아니다. 대체로 사회생활을 하는 벌들 중 대부분을 차지하는 일꾼들은 생식능력이 없는 암컷이다. 생식기관은 독성을 가진 침이나 개미산을 내뿜는 기관으로 변화되어 주로 호신용, 방어용, 사냥용으로 쓰인다. 대부분은 꿀 등을 섭취하지만 잎벌이나 송곳벌처럼 식물을 먹거나, 사냥벌이나 기생벌 또는 쌍살벌처럼 어린 시절에 육식을 하는 벌들도 있다.",
-                  "description":  "벌목은 절지동물문의 곤충강에 속하는 동물 분류의 하나이다. 벌과 개미를 포함하고 있다. 기록종의 수는 약 13만 종 이상이다. 트라이아스기 무렵에 등장하여, 백악기에 최초로 사회생활을 하는 부류가 나타났다. 주로 여왕을 중심으로 사회생활을 하는 종이 많으나 모든 종류가 사회를 이루어 생활하는 것은 아니다. 대체로 사회생활을 하는 벌들 중 대부분을 차지하는 일꾼들은 생식능력이 없는 암컷이다. 생식기관은 독성을 가진 침이나 개미산을 내뿜는 기관으로 변화되어 주로 호신용, 방어용, 사냥용으로 쓰인다. 대부분은 꿀 등을 섭취하지만 잎벌이나 송곳벌처럼 식물을 먹거나, 사냥벌이나 기생벌 또는 쌍살벌처럼 어린 시절에 육식을 하는 벌들도 있다."
-              },
-    "family":  {
-                   "id":  "torymidae",
-                   "scientificName":  "Torymidae",
-                   "commonName":  "꼬리좀벌과",
-                   "familyKtsn":  120000031474
-               },
-    "speciesCount":  11,
-    "insects":  [
-                    {
-                        "ktsn":  120000031480,
-                        "scientificName":  "Monodontomerus dentipes (Dalman, 1820)",
-                        "commonName":  "가시꼬리좀벌",
-                        "terminalLatinName":  "dentipes",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hymenoptera",
-                                                       "commonName":  "벌목",
-                                                       "ktsn":  120000027260
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Torymidae",
-                                                        "commonName":  "꼬리좀벌과",
-                                                        "ktsn":  120000031474
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Monodontomerus",
-                                                       "commonName":  "가시꼬리좀벌속",
-                                                       "ktsn":  120000031479
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "dentipes",
-                                                         "commonName":  "가시꼬리좀벌",
-                                                         "ktsn":  120000031480
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  1071199,
-                                    "canonical":  "Monodontomerus dentipes",
-                                    "fetchedAt":  "2026-05-24T11:05:42.410Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-                                                                   "가시꼬리좀벌"
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  null
-                                }
-                    },
-                    {
-                        "ktsn":  120000220712,
-                        "scientificName":  "Monodontomerus japonicus Ashmead, 1904",
-                        "commonName":  "단가시꼬리좀벌",
-                        "terminalLatinName":  "japonicus",
-                        "nomenclaturalAuthor":  "Ashmead",
-                        "namingYear":  "1904",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hymenoptera",
-                                                       "commonName":  "벌목",
-                                                       "ktsn":  120000027260
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Torymidae",
-                                                        "commonName":  "꼬리좀벌과",
-                                                        "ktsn":  120000031474
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Monodontomerus",
-                                                       "commonName":  "가시꼬리좀벌속",
-                                                       "ktsn":  120000031479
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "japonicus",
-                                                         "commonName":  "단가시꼬리좀벌",
-                                                         "ktsn":  120000220712
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  1071193,
-                                    "canonical":  "Monodontomerus japonicus",
-                                    "fetchedAt":  "2026-05-24T11:06:00.783Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-                                                                   "단가시꼬리좀벌"
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  2
-                                }
-                    },
-                    {
-                        "ktsn":  120000031481,
-                        "scientificName":  "Monodontomerus minor (Ratzeburg, 1848)",
-                        "commonName":  "송충살이꼬리좀벌",
-                        "terminalLatinName":  "minor",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hymenoptera",
-                                                       "commonName":  "벌목",
-                                                       "ktsn":  120000027260
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Torymidae",
-                                                        "commonName":  "꼬리좀벌과",
-                                                        "ktsn":  120000031474
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Monodontomerus",
-                                                       "commonName":  "가시꼬리좀벌속",
-                                                       "ktsn":  120000031479
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "minor",
-                                                         "commonName":  "송충살이꼬리좀벌",
-                                                         "ktsn":  120000031481
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  1071185,
-                                    "canonical":  "Monodontomerus minor",
-                                    "fetchedAt":  "2026-05-24T11:05:47.342Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-                                                       "United States"
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  21
-                                }
-                    },
-                    {
-                        "ktsn":  120000220713,
-                        "scientificName":  "Monodontomerus obscurus Westwood, 1833",
-                        "commonName":  "큰가시꼬리좀벌",
-                        "terminalLatinName":  "obscurus",
-                        "nomenclaturalAuthor":  "Westwood",
-                        "namingYear":  "1833",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hymenoptera",
-                                                       "commonName":  "벌목",
-                                                       "ktsn":  120000027260
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Torymidae",
-                                                        "commonName":  "꼬리좀벌과",
-                                                        "ktsn":  120000031474
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Monodontomerus",
-                                                       "commonName":  "가시꼬리좀벌속",
-                                                       "ktsn":  120000031479
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "obscurus",
-                                                         "commonName":  "큰가시꼬리좀벌",
-                                                         "ktsn":  120000220713
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  1071732,
-                                    "canonical":  "Monodontomerus obscurus",
-                                    "fetchedAt":  "2026-05-24T11:06:04.623Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-                                                       "England",
-                                                       "Spain"
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  71
-                                }
-                    },
-                    {
-                        "ktsn":  120000220714,
-                        "scientificName":  "Monodontomerus osmiae Kamijo, 1963",
-                        "commonName":  "가위벌살이가시꼬리좀벌",
-                        "terminalLatinName":  "osmiae",
-                        "nomenclaturalAuthor":  "Kamijo",
-                        "namingYear":  "1963",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hymenoptera",
-                                                       "commonName":  "벌목",
-                                                       "ktsn":  120000027260
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Torymidae",
-                                                        "commonName":  "꼬리좀벌과",
-                                                        "ktsn":  120000031474
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Monodontomerus",
-                                                       "commonName":  "가시꼬리좀벌속",
-                                                       "ktsn":  120000031479
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "osmiae",
-                                                         "commonName":  "가위벌살이가시꼬리좀벌",
-                                                         "ktsn":  120000220714
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  1071184,
-                                    "canonical":  "Monodontomerus osmiae",
-                                    "fetchedAt":  "2026-05-24T11:06:07.768Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  38
-                                }
-                    },
-                    {
-                        "ktsn":  120000220715,
-                        "scientificName":  "Monodontomerus rugulosus Thomson, 1876",
-                        "commonName":  "주름가시꼬리좀벌",
-                        "terminalLatinName":  "rugulosus",
-                        "nomenclaturalAuthor":  "Thomson",
-                        "namingYear":  "1876",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hymenoptera",
-                                                       "commonName":  "벌목",
-                                                       "ktsn":  120000027260
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Torymidae",
-                                                        "commonName":  "꼬리좀벌과",
-                                                        "ktsn":  120000031474
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Monodontomerus",
-                                                       "commonName":  "가시꼬리좀벌속",
-                                                       "ktsn":  120000031479
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "rugulosus",
-                                                         "commonName":  "주름가시꼬리좀벌",
-                                                         "ktsn":  120000220715
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000031483,
-                        "scientificName":  "Podagrion nipponicum Habu, 1962",
-                        "commonName":  "사마귀꼬리좀벌",
-                        "terminalLatinName":  "nipponicum",
-                        "nomenclaturalAuthor":  "Habu",
-                        "namingYear":  "1962",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hymenoptera",
-                                                       "commonName":  "벌목",
-                                                       "ktsn":  120000027260
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Torymidae",
-                                                        "commonName":  "꼬리좀벌과",
-                                                        "ktsn":  120000031474
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Podagrion",
-                                                       "commonName":  "사마귀꼬리좀벌속",
-                                                       "ktsn":  120000031482
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "nipponicum",
-                                                         "commonName":  "사마귀꼬리좀벌",
-                                                         "ktsn":  120000031483
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  1067972,
-                                    "canonical":  "Podagrion nipponicum",
-                                    "fetchedAt":  "2026-05-24T11:05:51.030Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-                                                                   "사마귀꼬리좀벌"
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-                                                       "Japan"
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  31
-                                },
-                        "inat":  {
-                                     "observationCount":  2,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/468381068/medium.jpg",
-                                     "months":  [
-                                                    5,
-                                                    10
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000220747,
-                        "scientificName":  "Podagrion philippinense Crawford, 1910",
-                        "commonName":  "짧은사마귀꼬리좀벌",
-                        "terminalLatinName":  "philippinense",
-                        "nomenclaturalAuthor":  "Crawford",
-                        "namingYear":  "1910",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hymenoptera",
-                                                       "commonName":  "벌목",
-                                                       "ktsn":  120000027260
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Torymidae",
-                                                        "commonName":  "꼬리좀벌과",
-                                                        "ktsn":  120000031474
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Podagrion",
-                                                       "commonName":  "사마귀꼬리좀벌속",
-                                                       "ktsn":  120000031482
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "philippinense",
-                                                         "commonName":  "짧은사마귀꼬리좀벌",
-                                                         "ktsn":  120000220747
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000031485,
-                        "scientificName":  "Torymus geranii (Walker, 1833)",
-                        "commonName":  "남색긴꼬리좀벌",
-                        "terminalLatinName":  "geranii",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hymenoptera",
-                                                       "commonName":  "벌목",
-                                                       "ktsn":  120000027260
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Torymidae",
-                                                        "commonName":  "꼬리좀벌과",
-                                                        "ktsn":  120000031474
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Torymus",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000031484
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "geranii",
-                                                         "commonName":  "남색긴꼬리좀벌",
-                                                         "ktsn":  120000031485
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  853060,
-                                    "canonical":  "Torymus geranii",
-                                    "fetchedAt":  "2026-05-24T11:05:54.137Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-                                                       "England"
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  80
-                                }
-                    },
-                    {
-                        "ktsn":  120000031486,
-                        "scientificName":  "Torymus koreanus Kamijo, 1982",
-                        "commonName":  "밤색긴꼬리좀벌",
-                        "terminalLatinName":  "koreanus",
-                        "nomenclaturalAuthor":  "Kamijo",
-                        "namingYear":  "1982",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hymenoptera",
-                                                       "commonName":  "벌목",
-                                                       "ktsn":  120000027260
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Torymidae",
-                                                        "commonName":  "꼬리좀벌과",
-                                                        "ktsn":  120000031474
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Torymus",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000031484
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "koreanus",
-                                                         "commonName":  "밤색긴꼬리좀벌",
-                                                         "ktsn":  120000031486
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  853023,
-                                    "canonical":  "Torymus koreanus",
-                                    "fetchedAt":  "2026-05-24T11:05:57.282Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-                                                       "South Korea",
-                                                       "Korea",
-                                                       "Japan"
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  20
-                                }
-                    },
-                    {
-                        "ktsn":  120000472673,
-                        "scientificName":  "Torymus sinensis Kamijo, 1982",
-                        "commonName":  "중국긴꼬리좀벌",
-                        "terminalLatinName":  "sinensis",
-                        "nomenclaturalAuthor":  "Kamijo",
-                        "namingYear":  "1982",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hymenoptera",
-                                                       "commonName":  "벌목",
-                                                       "ktsn":  120000027260
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Torymidae",
-                                                        "commonName":  "꼬리좀벌과",
-                                                        "ktsn":  120000031474
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Torymus",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000031484
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "sinensis",
-                                                         "commonName":  "중국긴꼬리좀벌",
-                                                         "ktsn":  120000472673
-                                                     }
-                                     }
-                    }
-                ]
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "hymenoptera",
+    "scientificName": "Hymenoptera",
+    "commonName": "벌목",
+    "orderKtsn": 120000027260,
+    "abstract": "벌목은 절지동물문의 곤충강에 속하는 동물 분류의 하나이다. 벌과 개미를 포함하고 있다. 기록종의 수는 약 13만 종 이상이다. 트라이아스기 무렵에 등장하여, 백악기에 최초로 사회생활을 하는 부류가 나타났다. 주로 여왕을 중심으로 사회생활을 하는 종이 많으나 모든 종류가 사회를 이루어 생활하는 것은 아니다. 대체로 사회생활을 하는 벌들 중 대부분을 차지하는 일꾼들은 생식능력이 없는 암컷이다. 생식기관은 독성을 가진 침이나 개미산을 내뿜는 기관으로 변화되어 주로 호신용, 방어용, 사냥용으로 쓰인다. 대부분은 꿀 등을 섭취하지만 잎벌이나 송곳벌처럼 식물을 먹거나, 사냥벌이나 기생벌 또는 쌍살벌처럼 어린 시절에 육식을 하는 벌들도 있다.",
+    "description": "벌목은 절지동물문의 곤충강에 속하는 동물 분류의 하나이다. 벌과 개미를 포함하고 있다. 기록종의 수는 약 13만 종 이상이다. 트라이아스기 무렵에 등장하여, 백악기에 최초로 사회생활을 하는 부류가 나타났다. 주로 여왕을 중심으로 사회생활을 하는 종이 많으나 모든 종류가 사회를 이루어 생활하는 것은 아니다. 대체로 사회생활을 하는 벌들 중 대부분을 차지하는 일꾼들은 생식능력이 없는 암컷이다. 생식기관은 독성을 가진 침이나 개미산을 내뿜는 기관으로 변화되어 주로 호신용, 방어용, 사냥용으로 쓰인다. 대부분은 꿀 등을 섭취하지만 잎벌이나 송곳벌처럼 식물을 먹거나, 사냥벌이나 기생벌 또는 쌍살벌처럼 어린 시절에 육식을 하는 벌들도 있다."
+  },
+  "family": {
+    "id": "torymidae",
+    "scientificName": "Torymidae",
+    "commonName": "꼬리좀벌과",
+    "familyKtsn": 120000031474
+  },
+  "speciesCount": 11,
+  "insects": [
+    {
+      "ktsn": 120000031480,
+      "scientificName": "Monodontomerus dentipes (Dalman, 1820)",
+      "commonName": "가시꼬리좀벌",
+      "terminalLatinName": "dentipes",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hymenoptera",
+          "commonName": "벌목",
+          "ktsn": 120000027260
+        },
+        "family": {
+          "scientificName": "Torymidae",
+          "commonName": "꼬리좀벌과",
+          "ktsn": 120000031474
+        },
+        "genus": {
+          "scientificName": "Monodontomerus",
+          "commonName": "가시꼬리좀벌속",
+          "ktsn": 120000031479
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "dentipes",
+          "commonName": "가시꼬리좀벌",
+          "ktsn": 120000031480
+        }
+      },
+      "eol": {
+        "pageId": 1071199,
+        "canonical": "Monodontomerus dentipes",
+        "fetchedAt": "2026-05-24T11:05:42.410Z",
+        "vernaculars": {
+          "ko": [
+            "가시꼬리좀벌"
+          ],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:09:12.878Z"
+      }
+    },
+    {
+      "ktsn": 120000220712,
+      "scientificName": "Monodontomerus japonicus Ashmead, 1904",
+      "commonName": "단가시꼬리좀벌",
+      "terminalLatinName": "japonicus",
+      "nomenclaturalAuthor": "Ashmead",
+      "namingYear": "1904",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hymenoptera",
+          "commonName": "벌목",
+          "ktsn": 120000027260
+        },
+        "family": {
+          "scientificName": "Torymidae",
+          "commonName": "꼬리좀벌과",
+          "ktsn": 120000031474
+        },
+        "genus": {
+          "scientificName": "Monodontomerus",
+          "commonName": "가시꼬리좀벌속",
+          "ktsn": 120000031479
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "japonicus",
+          "commonName": "단가시꼬리좀벌",
+          "ktsn": 120000220712
+        }
+      },
+      "eol": {
+        "pageId": 1071193,
+        "canonical": "Monodontomerus japonicus",
+        "fetchedAt": "2026-05-24T11:06:00.783Z",
+        "vernaculars": {
+          "ko": [
+            "단가시꼬리좀벌"
+          ],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 2
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:09:12.878Z"
+      }
+    },
+    {
+      "ktsn": 120000031481,
+      "scientificName": "Monodontomerus minor (Ratzeburg, 1848)",
+      "commonName": "송충살이꼬리좀벌",
+      "terminalLatinName": "minor",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hymenoptera",
+          "commonName": "벌목",
+          "ktsn": 120000027260
+        },
+        "family": {
+          "scientificName": "Torymidae",
+          "commonName": "꼬리좀벌과",
+          "ktsn": 120000031474
+        },
+        "genus": {
+          "scientificName": "Monodontomerus",
+          "commonName": "가시꼬리좀벌속",
+          "ktsn": 120000031479
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "minor",
+          "commonName": "송충살이꼬리좀벌",
+          "ktsn": 120000031481
+        }
+      },
+      "eol": {
+        "pageId": 1071185,
+        "canonical": "Monodontomerus minor",
+        "fetchedAt": "2026-05-24T11:05:47.342Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [
+          "United States"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 21
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:09:12.878Z"
+      }
+    },
+    {
+      "ktsn": 120000220713,
+      "scientificName": "Monodontomerus obscurus Westwood, 1833",
+      "commonName": "큰가시꼬리좀벌",
+      "terminalLatinName": "obscurus",
+      "nomenclaturalAuthor": "Westwood",
+      "namingYear": "1833",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hymenoptera",
+          "commonName": "벌목",
+          "ktsn": 120000027260
+        },
+        "family": {
+          "scientificName": "Torymidae",
+          "commonName": "꼬리좀벌과",
+          "ktsn": 120000031474
+        },
+        "genus": {
+          "scientificName": "Monodontomerus",
+          "commonName": "가시꼬리좀벌속",
+          "ktsn": 120000031479
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "obscurus",
+          "commonName": "큰가시꼬리좀벌",
+          "ktsn": 120000220713
+        }
+      },
+      "eol": {
+        "pageId": 1071732,
+        "canonical": "Monodontomerus obscurus",
+        "fetchedAt": "2026-05-24T11:06:04.623Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [
+          "England",
+          "Spain"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 71
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:09:12.878Z",
+        "title": "Monodontomerus obscurus",
+        "description": "species of insect"
+      }
+    },
+    {
+      "ktsn": 120000220714,
+      "scientificName": "Monodontomerus osmiae Kamijo, 1963",
+      "commonName": "가위벌살이가시꼬리좀벌",
+      "terminalLatinName": "osmiae",
+      "nomenclaturalAuthor": "Kamijo",
+      "namingYear": "1963",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hymenoptera",
+          "commonName": "벌목",
+          "ktsn": 120000027260
+        },
+        "family": {
+          "scientificName": "Torymidae",
+          "commonName": "꼬리좀벌과",
+          "ktsn": 120000031474
+        },
+        "genus": {
+          "scientificName": "Monodontomerus",
+          "commonName": "가시꼬리좀벌속",
+          "ktsn": 120000031479
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "osmiae",
+          "commonName": "가위벌살이가시꼬리좀벌",
+          "ktsn": 120000220714
+        }
+      },
+      "eol": {
+        "pageId": 1071184,
+        "canonical": "Monodontomerus osmiae",
+        "fetchedAt": "2026-05-24T11:06:07.768Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 38
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:09:12.878Z"
+      }
+    },
+    {
+      "ktsn": 120000220715,
+      "scientificName": "Monodontomerus rugulosus Thomson, 1876",
+      "commonName": "주름가시꼬리좀벌",
+      "terminalLatinName": "rugulosus",
+      "nomenclaturalAuthor": "Thomson",
+      "namingYear": "1876",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hymenoptera",
+          "commonName": "벌목",
+          "ktsn": 120000027260
+        },
+        "family": {
+          "scientificName": "Torymidae",
+          "commonName": "꼬리좀벌과",
+          "ktsn": 120000031474
+        },
+        "genus": {
+          "scientificName": "Monodontomerus",
+          "commonName": "가시꼬리좀벌속",
+          "ktsn": 120000031479
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "rugulosus",
+          "commonName": "주름가시꼬리좀벌",
+          "ktsn": 120000220715
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:09:12.878Z"
+      }
+    },
+    {
+      "ktsn": 120000031483,
+      "scientificName": "Podagrion nipponicum Habu, 1962",
+      "commonName": "사마귀꼬리좀벌",
+      "terminalLatinName": "nipponicum",
+      "nomenclaturalAuthor": "Habu",
+      "namingYear": "1962",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hymenoptera",
+          "commonName": "벌목",
+          "ktsn": 120000027260
+        },
+        "family": {
+          "scientificName": "Torymidae",
+          "commonName": "꼬리좀벌과",
+          "ktsn": 120000031474
+        },
+        "genus": {
+          "scientificName": "Podagrion",
+          "commonName": "사마귀꼬리좀벌속",
+          "ktsn": 120000031482
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "nipponicum",
+          "commonName": "사마귀꼬리좀벌",
+          "ktsn": 120000031483
+        }
+      },
+      "eol": {
+        "pageId": 1067972,
+        "canonical": "Podagrion nipponicum",
+        "fetchedAt": "2026-05-24T11:05:51.030Z",
+        "vernaculars": {
+          "ko": [
+            "사마귀꼬리좀벌"
+          ],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [
+          "Japan"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 31
+      },
+      "inat": {
+        "observationCount": 2,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/468381068/medium.jpg",
+        "months": [
+          5,
+          10
+        ]
+      }
+    },
+    {
+      "ktsn": 120000220747,
+      "scientificName": "Podagrion philippinense Crawford, 1910",
+      "commonName": "짧은사마귀꼬리좀벌",
+      "terminalLatinName": "philippinense",
+      "nomenclaturalAuthor": "Crawford",
+      "namingYear": "1910",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hymenoptera",
+          "commonName": "벌목",
+          "ktsn": 120000027260
+        },
+        "family": {
+          "scientificName": "Torymidae",
+          "commonName": "꼬리좀벌과",
+          "ktsn": 120000031474
+        },
+        "genus": {
+          "scientificName": "Podagrion",
+          "commonName": "사마귀꼬리좀벌속",
+          "ktsn": 120000031482
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "philippinense",
+          "commonName": "짧은사마귀꼬리좀벌",
+          "ktsn": 120000220747
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:09:12.878Z"
+      }
+    },
+    {
+      "ktsn": 120000031485,
+      "scientificName": "Torymus geranii (Walker, 1833)",
+      "commonName": "남색긴꼬리좀벌",
+      "terminalLatinName": "geranii",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hymenoptera",
+          "commonName": "벌목",
+          "ktsn": 120000027260
+        },
+        "family": {
+          "scientificName": "Torymidae",
+          "commonName": "꼬리좀벌과",
+          "ktsn": 120000031474
+        },
+        "genus": {
+          "scientificName": "Torymus",
+          "commonName": "",
+          "ktsn": 120000031484
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "geranii",
+          "commonName": "남색긴꼬리좀벌",
+          "ktsn": 120000031485
+        }
+      },
+      "eol": {
+        "pageId": 853060,
+        "canonical": "Torymus geranii",
+        "fetchedAt": "2026-05-24T11:05:54.137Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [
+          "England"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 80
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:09:12.878Z"
+      }
+    },
+    {
+      "ktsn": 120000031486,
+      "scientificName": "Torymus koreanus Kamijo, 1982",
+      "commonName": "밤색긴꼬리좀벌",
+      "terminalLatinName": "koreanus",
+      "nomenclaturalAuthor": "Kamijo",
+      "namingYear": "1982",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hymenoptera",
+          "commonName": "벌목",
+          "ktsn": 120000027260
+        },
+        "family": {
+          "scientificName": "Torymidae",
+          "commonName": "꼬리좀벌과",
+          "ktsn": 120000031474
+        },
+        "genus": {
+          "scientificName": "Torymus",
+          "commonName": "",
+          "ktsn": 120000031484
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "koreanus",
+          "commonName": "밤색긴꼬리좀벌",
+          "ktsn": 120000031486
+        }
+      },
+      "eol": {
+        "pageId": 853023,
+        "canonical": "Torymus koreanus",
+        "fetchedAt": "2026-05-24T11:05:57.282Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [
+          "South Korea",
+          "Korea",
+          "Japan"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 20
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:09:12.878Z"
+      }
+    },
+    {
+      "ktsn": 120000472673,
+      "scientificName": "Torymus sinensis Kamijo, 1982",
+      "commonName": "중국긴꼬리좀벌",
+      "terminalLatinName": "sinensis",
+      "nomenclaturalAuthor": "Kamijo",
+      "namingYear": "1982",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hymenoptera",
+          "commonName": "벌목",
+          "ktsn": 120000027260
+        },
+        "family": {
+          "scientificName": "Torymidae",
+          "commonName": "꼬리좀벌과",
+          "ktsn": 120000031474
+        },
+        "genus": {
+          "scientificName": "Torymus",
+          "commonName": "",
+          "ktsn": 120000031484
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "sinensis",
+          "commonName": "중국긴꼬리좀벌",
+          "ktsn": 120000472673
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:09:12.878Z"
+      }
+    }
+  ]
 }

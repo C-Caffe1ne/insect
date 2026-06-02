@@ -1,205 +1,195 @@
 {
-    "generatedAt":  "2026-05-21T07:47:08.025Z",
-    "source":  "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
-    "order":  {
-                  "id":  "lepidoptera",
-                  "scientificName":  "Lepidoptera",
-                  "commonName":  "나비목",
-                  "orderKtsn":  120000031663
-              },
-    "family":  {
-                   "id":  "brahmaeidae",
-                   "scientificName":  "Brahmaeidae",
-                   "commonName":  "왕물결나방과",
-                   "familyKtsn":  120000031711
-               },
-    "speciesCount":  2,
-    "insects":  [
-                    {
-                        "ktsn":  120000031713,
-                        "scientificName":  "Brahmaea certhia (Fabricius, 1793)",
-                        "commonName":  "왕물결나방",
-                        "terminalLatinName":  "certhia",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Brahmaeidae",
-                                                        "commonName":  "왕물결나방과",
-                                                        "ktsn":  120000031711
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Brahmaea",
-                                                       "commonName":  "왕물결나방속",
-                                                       "ktsn":  120000031712
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "certhia",
-                                                         "commonName":  "왕물결나방",
-                                                         "ktsn":  120000031713
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  385338,
-                                    "canonical":  "Brahmaea certhia",
-                                    "fetchedAt":  "2026-05-24T11:14:08.027Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-                                                                   "왕물결나방"
-                                                               ],
-                                                        "en":  [
-                                                                   "Sino-Korean Owl Moth"
-                                                               ],
-                                                        "ja":  [
-                                                                   "クロイボタガ"
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  728
-                                },
-                        "inat":  {
-                                     "observationCount":  90,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/136905810/medium.png",
-                                     "months":  [
-                                                    5,
-                                                    6,
-                                                    7,
-                                                    8,
-                                                    9,
-                                                    10
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000031714,
-                        "scientificName":  "Brahmaea tancrei Austaut, 1896",
-                        "commonName":  "산왕물결나방",
-                        "terminalLatinName":  "tancrei",
-                        "nomenclaturalAuthor":  "Austaut",
-                        "namingYear":  "1896",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Brahmaeidae",
-                                                        "commonName":  "왕물결나방과",
-                                                        "ktsn":  120000031711
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Brahmaea",
-                                                       "commonName":  "왕물결나방속",
-                                                       "ktsn":  120000031712
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "tancrei",
-                                                         "commonName":  "산왕물결나방",
-                                                         "ktsn":  120000031714
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  49845907,
-                                    "canonical":  "Brahmaea tancrei",
-                                    "fetchedAt":  "2026-05-24T11:14:18.485Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  null
-                                }
-                    }
-                ]
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "lepidoptera",
+    "scientificName": "Lepidoptera",
+    "commonName": "나비목",
+    "orderKtsn": 120000031663
+  },
+  "family": {
+    "id": "brahmaeidae",
+    "scientificName": "Brahmaeidae",
+    "commonName": "왕물결나방과",
+    "familyKtsn": 120000031711
+  },
+  "speciesCount": 2,
+  "insects": [
+    {
+      "ktsn": 120000031713,
+      "scientificName": "Brahmaea certhia (Fabricius, 1793)",
+      "commonName": "왕물결나방",
+      "terminalLatinName": "certhia",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Brahmaeidae",
+          "commonName": "왕물결나방과",
+          "ktsn": 120000031711
+        },
+        "genus": {
+          "scientificName": "Brahmaea",
+          "commonName": "왕물결나방속",
+          "ktsn": 120000031712
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "certhia",
+          "commonName": "왕물결나방",
+          "ktsn": 120000031713
+        }
+      },
+      "eol": {
+        "pageId": 385338,
+        "canonical": "Brahmaea certhia",
+        "fetchedAt": "2026-05-24T11:14:08.027Z",
+        "vernaculars": {
+          "ko": [
+            "왕물결나방"
+          ],
+          "en": [
+            "Sino-Korean Owl Moth"
+          ],
+          "ja": [
+            "クロイボタガ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 728
+      },
+      "inat": {
+        "observationCount": 90,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/136905810/medium.png",
+        "months": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "ktsn": 120000031714,
+      "scientificName": "Brahmaea tancrei Austaut, 1896",
+      "commonName": "산왕물결나방",
+      "terminalLatinName": "tancrei",
+      "nomenclaturalAuthor": "Austaut",
+      "namingYear": "1896",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Brahmaeidae",
+          "commonName": "왕물결나방과",
+          "ktsn": 120000031711
+        },
+        "genus": {
+          "scientificName": "Brahmaea",
+          "commonName": "왕물결나방속",
+          "ktsn": 120000031712
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "tancrei",
+          "commonName": "산왕물결나방",
+          "ktsn": 120000031714
+        }
+      },
+      "eol": {
+        "pageId": 49845907,
+        "canonical": "Brahmaea tancrei",
+        "fetchedAt": "2026-05-24T11:14:18.485Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:09:16.925Z",
+        "title": "Brahmaea tancrei",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Brahmaea_tancrei.jpg/500px-Brahmaea_tancrei.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Brahmaea_tancrei.jpg",
+        "thumbnailSize": {
+          "width": 500,
+          "height": 281
+        },
+        "originalSize": {
+          "width": 4160,
+          "height": 2336
+        },
+        "filename": "Brahmaea_tancrei.jpg",
+        "description": "species of insect",
+        "pageUrl": "https://en.wikipedia.org/wiki/Brahmaea_tancrei",
+        "license": "see Wikimedia Commons",
+        "source": "Wikipedia"
+      }
+    }
+  ]
 }

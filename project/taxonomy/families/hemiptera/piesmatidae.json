@@ -1,252 +1,248 @@
 {
-    "generatedAt":  "2026-05-21T07:47:08.025Z",
-    "source":  "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
-    "order":  {
-                  "id":  "hemiptera",
-                  "scientificName":  "Hemiptera",
-                  "commonName":  "노린재목",
-                  "orderKtsn":  120000066597
-              },
-    "family":  {
-                   "id":  "piesmatidae",
-                   "scientificName":  "Piesmatidae",
-                   "commonName":  "명아주노린재과",
-                   "familyKtsn":  120000026840
-               },
-    "speciesCount":  3,
-    "insects":  [
-                    {
-                        "ktsn":  120000026842,
-                        "scientificName":  "Parapiesma josifovi Péricart, 1977",
-                        "commonName":  "세줄명아주노린재",
-                        "terminalLatinName":  "josifovi",
-                        "nomenclaturalAuthor":  "Péricart",
-                        "namingYear":  "1977",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hemiptera",
-                                                       "commonName":  "노린재목",
-                                                       "ktsn":  120000066597
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Piesmatidae",
-                                                        "commonName":  "명아주노린재과",
-                                                        "ktsn":  120000026840
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Parapiesma",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000026841
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "josifovi",
-                                                         "commonName":  "세줄명아주노린재",
-                                                         "ktsn":  120000026842
-                                                     }
-                                     },
-                        "inat":  {
-                                     "observationCount":  1,
-                                     "imageUrl":  null,
-                                     "months":  [
-                                                    5
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000026846,
-                        "scientificName":  "Piesma (Piesma) maculatum (Laporte, 1833)",
-                        "commonName":  "두줄명아주노린재",
-                        "terminalLatinName":  "maculatum",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hemiptera",
-                                                       "commonName":  "노린재목",
-                                                       "ktsn":  120000066597
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Piesmatidae",
-                                                        "commonName":  "명아주노린재과",
-                                                        "ktsn":  120000026840
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Piesma",
-                                                       "commonName":  "명아주노린재속",
-                                                       "ktsn":  120000026843
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "Piesma",
-                                                          "commonName":  "",
-                                                          "ktsn":  120000026845
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "maculatum",
-                                                         "commonName":  "두줄명아주노린재",
-                                                         "ktsn":  120000026846
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  47256953,
-                                    "canonical":  "Piesma maculatum",
-                                    "fetchedAt":  "2026-05-24T10:19:01.525Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-                                                       "Norway"
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  null
-                                }
-                    },
-                    {
-                        "ktsn":  120000026844,
-                        "scientificName":  "Piesma capitatum (Wolff, 1804)",
-                        "commonName":  "명아주노린재",
-                        "terminalLatinName":  "capitatum",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hemiptera",
-                                                       "commonName":  "노린재목",
-                                                       "ktsn":  120000066597
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Piesmatidae",
-                                                        "commonName":  "명아주노린재과",
-                                                        "ktsn":  120000026840
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Piesma",
-                                                       "commonName":  "명아주노린재속",
-                                                       "ktsn":  120000026843
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "capitatum",
-                                                         "commonName":  "명아주노린재",
-                                                         "ktsn":  120000026844
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  49258751,
-                                    "canonical":  "Piesma capitatum",
-                                    "fetchedAt":  "2026-05-24T10:18:56.296Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  null
-                                }
-                    }
-                ]
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "hemiptera",
+    "scientificName": "Hemiptera",
+    "commonName": "노린재목",
+    "orderKtsn": 120000066597
+  },
+  "family": {
+    "id": "piesmatidae",
+    "scientificName": "Piesmatidae",
+    "commonName": "명아주노린재과",
+    "familyKtsn": 120000026840
+  },
+  "speciesCount": 3,
+  "insects": [
+    {
+      "ktsn": 120000026842,
+      "scientificName": "Parapiesma josifovi Péricart, 1977",
+      "commonName": "세줄명아주노린재",
+      "terminalLatinName": "josifovi",
+      "nomenclaturalAuthor": "Péricart",
+      "namingYear": "1977",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Piesmatidae",
+          "commonName": "명아주노린재과",
+          "ktsn": 120000026840
+        },
+        "genus": {
+          "scientificName": "Parapiesma",
+          "commonName": "",
+          "ktsn": 120000026841
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "josifovi",
+          "commonName": "세줄명아주노린재",
+          "ktsn": 120000026842
+        }
+      },
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": null,
+        "months": [
+          5
+        ]
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:07:05.517Z"
+      }
+    },
+    {
+      "ktsn": 120000026846,
+      "scientificName": "Piesma (Piesma) maculatum (Laporte, 1833)",
+      "commonName": "두줄명아주노린재",
+      "terminalLatinName": "maculatum",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Piesmatidae",
+          "commonName": "명아주노린재과",
+          "ktsn": 120000026840
+        },
+        "genus": {
+          "scientificName": "Piesma",
+          "commonName": "명아주노린재속",
+          "ktsn": 120000026843
+        },
+        "subgenus": {
+          "scientificName": "Piesma",
+          "commonName": "",
+          "ktsn": 120000026845
+        },
+        "species": {
+          "scientificName": "maculatum",
+          "commonName": "두줄명아주노린재",
+          "ktsn": 120000026846
+        }
+      },
+      "eol": {
+        "pageId": 47256953,
+        "canonical": "Piesma maculatum",
+        "fetchedAt": "2026-05-24T10:19:01.525Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [
+          "Norway"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:07:05.517Z",
+        "title": "Piesma maculatum",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/Piesma_maculatum.png",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/Piesma_maculatum.png",
+        "thumbnailSize": {
+          "width": 453,
+          "height": 603
+        },
+        "originalSize": {
+          "width": 453,
+          "height": 603
+        },
+        "filename": "Piesma_maculatum.png",
+        "description": "species of insect",
+        "pageUrl": "https://en.wikipedia.org/wiki/Piesma_maculatum",
+        "license": "see Wikimedia Commons",
+        "source": "Wikipedia"
+      }
+    },
+    {
+      "ktsn": 120000026844,
+      "scientificName": "Piesma capitatum (Wolff, 1804)",
+      "commonName": "명아주노린재",
+      "terminalLatinName": "capitatum",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Piesmatidae",
+          "commonName": "명아주노린재과",
+          "ktsn": 120000026840
+        },
+        "genus": {
+          "scientificName": "Piesma",
+          "commonName": "명아주노린재속",
+          "ktsn": 120000026843
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "capitatum",
+          "commonName": "명아주노린재",
+          "ktsn": 120000026844
+        }
+      },
+      "eol": {
+        "pageId": 49258751,
+        "canonical": "Piesma capitatum",
+        "fetchedAt": "2026-05-24T10:18:56.296Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:07:05.517Z"
+      }
+    }
+  ]
 }

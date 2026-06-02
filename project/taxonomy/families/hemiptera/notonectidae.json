@@ -1,485 +1,480 @@
 {
-    "generatedAt":  "2026-05-21T07:47:08.025Z",
-    "source":  "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
-    "order":  {
-                  "id":  "hemiptera",
-                  "scientificName":  "Hemiptera",
-                  "commonName":  "노린재목",
-                  "orderKtsn":  120000066597
-              },
-    "family":  {
-                   "id":  "notonectidae",
-                   "scientificName":  "Notonectidae",
-                   "commonName":  "송장헤엄치게과",
-                   "familyKtsn":  120000026687
-               },
-    "speciesCount":  7,
-    "insects":  [
-                    {
-                        "ktsn":  120000026689,
-                        "scientificName":  "Anisops kuroiwae Matsumura, 1915",
-                        "commonName":  "남쪽애송장헤엄치게",
-                        "terminalLatinName":  "kuroiwae",
-                        "nomenclaturalAuthor":  "Matsumura",
-                        "namingYear":  "1915",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hemiptera",
-                                                       "commonName":  "노린재목",
-                                                       "ktsn":  120000066597
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Notonectidae",
-                                                        "commonName":  "송장헤엄치게과",
-                                                        "ktsn":  120000026687
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Anisops",
-                                                       "commonName":  "애송장헤엄치게속",
-                                                       "ktsn":  120000026688
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "kuroiwae",
-                                                         "commonName":  "남쪽애송장헤엄치게",
-                                                         "ktsn":  120000026689
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  2639297,
-                                    "canonical":  "Anisops kuroiwae",
-                                    "fetchedAt":  "2026-05-24T10:15:56.798Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-                                                                   "Backswimmer"
-                                                               ],
-                                                        "ja":  [
-                                                                   "クロイワコマツモムシ"
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-                                                       "Japan",
-                                                       "Taiwan",
-                                                       "The Philippines",
-                                                       "Singapore",
-                                                       "India",
-                                                       "Indonesia"
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  46
-                                }
-                    },
-                    {
-                        "ktsn":  120000026690,
-                        "scientificName":  "Anisops ogasawarensis Matsumura, 1915",
-                        "commonName":  "애송장헤엄치게",
-                        "terminalLatinName":  "ogasawarensis",
-                        "nomenclaturalAuthor":  "Matsumura",
-                        "namingYear":  "1915",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hemiptera",
-                                                       "commonName":  "노린재목",
-                                                       "ktsn":  120000066597
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Notonectidae",
-                                                        "commonName":  "송장헤엄치게과",
-                                                        "ktsn":  120000026687
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Anisops",
-                                                       "commonName":  "애송장헤엄치게속",
-                                                       "ktsn":  120000026688
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "ogasawarensis",
-                                                         "commonName":  "애송장헤엄치게",
-                                                         "ktsn":  120000026690
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  49152971,
-                                    "canonical":  "Anisops ogasawarensis",
-                                    "fetchedAt":  "2026-05-24T10:16:03.244Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  null
-                                },
-                        "inat":  {
-                                     "observationCount":  1,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/568655453/medium.jpg",
-                                     "months":  [
-                                                    9
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000026693,
-                        "scientificName":  "Notonecta (Notonecta) amplifica Kiritshenko, 1930",
-                        "commonName":  "북방송장헤엄치게",
-                        "terminalLatinName":  "amplifica",
-                        "nomenclaturalAuthor":  "Kiritshenko",
-                        "namingYear":  "1930",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hemiptera",
-                                                       "commonName":  "노린재목",
-                                                       "ktsn":  120000066597
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Notonectidae",
-                                                        "commonName":  "송장헤엄치게과",
-                                                        "ktsn":  120000026687
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Notonecta",
-                                                       "commonName":  "송장헤엄치게속",
-                                                       "ktsn":  120000026691
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "Notonecta",
-                                                          "commonName":  "",
-                                                          "ktsn":  120000026692
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "amplifica",
-                                                         "commonName":  "북방송장헤엄치게",
-                                                         "ktsn":  120000026693
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000506777,
-                        "scientificName":  "Notonecta (Notonecta) reuteri reuteri Hungerford, 1928",
-                        "commonName":  "노랑송장헤엄치게",
-                        "terminalLatinName":  "reuteri",
-                        "nomenclaturalAuthor":  "Hungerford",
-                        "namingYear":  "1928",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hemiptera",
-                                                       "commonName":  "노린재목",
-                                                       "ktsn":  120000066597
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Notonectidae",
-                                                        "commonName":  "송장헤엄치게과",
-                                                        "ktsn":  120000026687
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Notonecta",
-                                                       "commonName":  "송장헤엄치게속",
-                                                       "ktsn":  120000026691
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "Notonecta",
-                                                          "commonName":  "",
-                                                          "ktsn":  120000026692
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "reuteri",
-                                                         "commonName":  "",
-                                                         "ktsn":  120000090651
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000026697,
-                        "scientificName":  "Notonecta (Paranecta) chinensis Fallou, 1887",
-                        "commonName":  "중국송장헤엄치게",
-                        "terminalLatinName":  "chinensis",
-                        "nomenclaturalAuthor":  "Fallou",
-                        "namingYear":  "1887",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hemiptera",
-                                                       "commonName":  "노린재목",
-                                                       "ktsn":  120000066597
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Notonectidae",
-                                                        "commonName":  "송장헤엄치게과",
-                                                        "ktsn":  120000026687
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Notonecta",
-                                                       "commonName":  "송장헤엄치게속",
-                                                       "ktsn":  120000026691
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "Paranecta",
-                                                          "commonName":  "",
-                                                          "ktsn":  120000026696
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "chinensis",
-                                                         "commonName":  "중국송장헤엄치게",
-                                                         "ktsn":  120000026697
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000026698,
-                        "scientificName":  "Notonecta (Paranecta) kiangsis Kirkaldy, 1897",
-                        "commonName":  "나도송장헤엄치게",
-                        "terminalLatinName":  "kiangsis",
-                        "nomenclaturalAuthor":  "Kirkaldy",
-                        "namingYear":  "1897",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hemiptera",
-                                                       "commonName":  "노린재목",
-                                                       "ktsn":  120000066597
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Notonectidae",
-                                                        "commonName":  "송장헤엄치게과",
-                                                        "ktsn":  120000026687
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Notonecta",
-                                                       "commonName":  "송장헤엄치게속",
-                                                       "ktsn":  120000026691
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "Paranecta",
-                                                          "commonName":  "",
-                                                          "ktsn":  120000026696
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "kiangsis",
-                                                         "commonName":  "나도송장헤엄치게",
-                                                         "ktsn":  120000026698
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000026699,
-                        "scientificName":  "Notonecta (Paranecta) triguttata Motschulsky, 1861",
-                        "commonName":  "송장헤엄치게",
-                        "terminalLatinName":  "triguttata",
-                        "nomenclaturalAuthor":  "Motschulsky",
-                        "namingYear":  "1861",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hemiptera",
-                                                       "commonName":  "노린재목",
-                                                       "ktsn":  120000066597
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Notonectidae",
-                                                        "commonName":  "송장헤엄치게과",
-                                                        "ktsn":  120000026687
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Notonecta",
-                                                       "commonName":  "송장헤엄치게속",
-                                                       "ktsn":  120000026691
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "Paranecta",
-                                                          "commonName":  "",
-                                                          "ktsn":  120000026696
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "triguttata",
-                                                         "commonName":  "송장헤엄치게",
-                                                         "ktsn":  120000026699
-                                                     }
-                                     },
-                        "abstract":  "송장헤엄치게 또는 송장헤엄치개는 물속에 사는 수서곤충이다. 몸을 뒤집어서 헤엄치는 모습이 마치 송장과 같아서 송장헤엄치게라고 불린다. 주로 연못이나 개울에 살며\n작은 물고기나 올챙이, 수면에 떨어진 곤충들을 잡아먹는다.",
-                        "description":  "송장헤엄치게 또는 송장헤엄치개는 물속에 사는 수서곤충이다. 몸을 뒤집어서 헤엄치는 모습이 마치 송장과 같아서 송장헤엄치게라고 불린다. 주로 연못이나 개울에 살며\n작은 물고기나 올챙이, 수면에 떨어진 곤충들을 잡아먹는다.",
-                        "inat":  {
-                                     "observationCount":  28,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/566135050/medium.jpg",
-                                     "months":  [
-                                                    1,
-                                                    2,
-                                                    3,
-                                                    4,
-                                                    5,
-                                                    6,
-                                                    7,
-                                                    8,
-                                                    9,
-                                                    10,
-                                                    11,
-                                                    12
-                                                ]
-                                 }
-                    }
-                ]
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "hemiptera",
+    "scientificName": "Hemiptera",
+    "commonName": "노린재목",
+    "orderKtsn": 120000066597
+  },
+  "family": {
+    "id": "notonectidae",
+    "scientificName": "Notonectidae",
+    "commonName": "송장헤엄치게과",
+    "familyKtsn": 120000026687
+  },
+  "speciesCount": 7,
+  "insects": [
+    {
+      "ktsn": 120000026689,
+      "scientificName": "Anisops kuroiwae Matsumura, 1915",
+      "commonName": "남쪽애송장헤엄치게",
+      "terminalLatinName": "kuroiwae",
+      "nomenclaturalAuthor": "Matsumura",
+      "namingYear": "1915",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Notonectidae",
+          "commonName": "송장헤엄치게과",
+          "ktsn": 120000026687
+        },
+        "genus": {
+          "scientificName": "Anisops",
+          "commonName": "애송장헤엄치게속",
+          "ktsn": 120000026688
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "kuroiwae",
+          "commonName": "남쪽애송장헤엄치게",
+          "ktsn": 120000026689
+        }
+      },
+      "eol": {
+        "pageId": 2639297,
+        "canonical": "Anisops kuroiwae",
+        "fetchedAt": "2026-05-24T10:15:56.798Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [
+            "Backswimmer"
+          ],
+          "ja": [
+            "クロイワコマツモムシ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "Japan",
+          "Taiwan",
+          "The Philippines",
+          "Singapore",
+          "India",
+          "Indonesia"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 46
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:07:04.744Z"
+      }
+    },
+    {
+      "ktsn": 120000026690,
+      "scientificName": "Anisops ogasawarensis Matsumura, 1915",
+      "commonName": "애송장헤엄치게",
+      "terminalLatinName": "ogasawarensis",
+      "nomenclaturalAuthor": "Matsumura",
+      "namingYear": "1915",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Notonectidae",
+          "commonName": "송장헤엄치게과",
+          "ktsn": 120000026687
+        },
+        "genus": {
+          "scientificName": "Anisops",
+          "commonName": "애송장헤엄치게속",
+          "ktsn": 120000026688
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "ogasawarensis",
+          "commonName": "애송장헤엄치게",
+          "ktsn": 120000026690
+        }
+      },
+      "eol": {
+        "pageId": 49152971,
+        "canonical": "Anisops ogasawarensis",
+        "fetchedAt": "2026-05-24T10:16:03.244Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/568655453/medium.jpg",
+        "months": [
+          9
+        ]
+      }
+    },
+    {
+      "ktsn": 120000026693,
+      "scientificName": "Notonecta (Notonecta) amplifica Kiritshenko, 1930",
+      "commonName": "북방송장헤엄치게",
+      "terminalLatinName": "amplifica",
+      "nomenclaturalAuthor": "Kiritshenko",
+      "namingYear": "1930",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Notonectidae",
+          "commonName": "송장헤엄치게과",
+          "ktsn": 120000026687
+        },
+        "genus": {
+          "scientificName": "Notonecta",
+          "commonName": "송장헤엄치게속",
+          "ktsn": 120000026691
+        },
+        "subgenus": {
+          "scientificName": "Notonecta",
+          "commonName": "",
+          "ktsn": 120000026692
+        },
+        "species": {
+          "scientificName": "amplifica",
+          "commonName": "북방송장헤엄치게",
+          "ktsn": 120000026693
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:07:04.744Z"
+      }
+    },
+    {
+      "ktsn": 120000506777,
+      "scientificName": "Notonecta (Notonecta) reuteri reuteri Hungerford, 1928",
+      "commonName": "노랑송장헤엄치게",
+      "terminalLatinName": "reuteri",
+      "nomenclaturalAuthor": "Hungerford",
+      "namingYear": "1928",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Notonectidae",
+          "commonName": "송장헤엄치게과",
+          "ktsn": 120000026687
+        },
+        "genus": {
+          "scientificName": "Notonecta",
+          "commonName": "송장헤엄치게속",
+          "ktsn": 120000026691
+        },
+        "subgenus": {
+          "scientificName": "Notonecta",
+          "commonName": "",
+          "ktsn": 120000026692
+        },
+        "species": {
+          "scientificName": "reuteri",
+          "commonName": "",
+          "ktsn": 120000090651
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:07:04.744Z"
+      }
+    },
+    {
+      "ktsn": 120000026697,
+      "scientificName": "Notonecta (Paranecta) chinensis Fallou, 1887",
+      "commonName": "중국송장헤엄치게",
+      "terminalLatinName": "chinensis",
+      "nomenclaturalAuthor": "Fallou",
+      "namingYear": "1887",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Notonectidae",
+          "commonName": "송장헤엄치게과",
+          "ktsn": 120000026687
+        },
+        "genus": {
+          "scientificName": "Notonecta",
+          "commonName": "송장헤엄치게속",
+          "ktsn": 120000026691
+        },
+        "subgenus": {
+          "scientificName": "Paranecta",
+          "commonName": "",
+          "ktsn": 120000026696
+        },
+        "species": {
+          "scientificName": "chinensis",
+          "commonName": "중국송장헤엄치게",
+          "ktsn": 120000026697
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:07:04.744Z"
+      }
+    },
+    {
+      "ktsn": 120000026698,
+      "scientificName": "Notonecta (Paranecta) kiangsis Kirkaldy, 1897",
+      "commonName": "나도송장헤엄치게",
+      "terminalLatinName": "kiangsis",
+      "nomenclaturalAuthor": "Kirkaldy",
+      "namingYear": "1897",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Notonectidae",
+          "commonName": "송장헤엄치게과",
+          "ktsn": 120000026687
+        },
+        "genus": {
+          "scientificName": "Notonecta",
+          "commonName": "송장헤엄치게속",
+          "ktsn": 120000026691
+        },
+        "subgenus": {
+          "scientificName": "Paranecta",
+          "commonName": "",
+          "ktsn": 120000026696
+        },
+        "species": {
+          "scientificName": "kiangsis",
+          "commonName": "나도송장헤엄치게",
+          "ktsn": 120000026698
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:07:04.744Z"
+      }
+    },
+    {
+      "ktsn": 120000026699,
+      "scientificName": "Notonecta (Paranecta) triguttata Motschulsky, 1861",
+      "commonName": "송장헤엄치게",
+      "terminalLatinName": "triguttata",
+      "nomenclaturalAuthor": "Motschulsky",
+      "namingYear": "1861",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Notonectidae",
+          "commonName": "송장헤엄치게과",
+          "ktsn": 120000026687
+        },
+        "genus": {
+          "scientificName": "Notonecta",
+          "commonName": "송장헤엄치게속",
+          "ktsn": 120000026691
+        },
+        "subgenus": {
+          "scientificName": "Paranecta",
+          "commonName": "",
+          "ktsn": 120000026696
+        },
+        "species": {
+          "scientificName": "triguttata",
+          "commonName": "송장헤엄치게",
+          "ktsn": 120000026699
+        }
+      },
+      "abstract": "송장헤엄치게 또는 송장헤엄치개는 물속에 사는 수서곤충이다. 몸을 뒤집어서 헤엄치는 모습이 마치 송장과 같아서 송장헤엄치게라고 불린다. 주로 연못이나 개울에 살며\n작은 물고기나 올챙이, 수면에 떨어진 곤충들을 잡아먹는다.",
+      "description": "송장헤엄치게 또는 송장헤엄치개는 물속에 사는 수서곤충이다. 몸을 뒤집어서 헤엄치는 모습이 마치 송장과 같아서 송장헤엄치게라고 불린다. 주로 연못이나 개울에 살며\n작은 물고기나 올챙이, 수면에 떨어진 곤충들을 잡아먹는다.",
+      "inat": {
+        "observationCount": 28,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/566135050/medium.jpg",
+        "months": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    }
+  ]
 }

@@ -1,954 +1,850 @@
 {
-    "generatedAt":  "2026-05-21T07:47:08.025Z",
-    "source":  "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
-    "order":  {
-                  "id":  "diptera",
-                  "scientificName":  "Diptera",
-                  "commonName":  "파리목",
-                  "orderKtsn":  120000020933,
-                  "abstract":  "파리목(Diptera)은 파리, 모기, 등에 등이 속해 있는 곤충의 한 분류이다. 수십 개의 과에 85,000여 종이 있다. 대한민국에서 발견하여 기록한 전체기록 종은 1,099종이다. 작거나 중간 크기의 곤충으로서, 형태와 습성이 매우 다양하다. 머리부에는 발달된 겹눈이 있으며, 입은 찌르는형·씹는형·핥는형 등이 있고, 다양한 촉각을 갖는다. 특히 앞날개가 발달하여 있으며, 맥은 적으나 나는 힘은 강하다. 뒷날개는 변형되어 평형을 유지하는 기관인 평형곤이 되었다. 날개가 퇴화된 것도 많다. 완전변태를 하며, 유충은 애벌래 형태를 띈다. 파리는 우리 주위에서 쉽게 볼 수 있지만, 바다에서 생활하는 종류도 있다. 모기·깔따구·등에·파리매·똥파리·초파리·집파리·쇠파리·쉬파리·각다귀 등이 이에 포함된다.",
-                  "description":  "파리목(Diptera)은 파리, 모기, 등에 등이 속해 있는 곤충의 한 분류이다. 수십 개의 과에 85,000여 종이 있다. 대한민국에서 발견하여 기록한 전체기록 종은 1,099종이다. 작거나 중간 크기의 곤충으로서, 형태와 습성이 매우 다양하다. 머리부에는 발달된 겹눈이 있으며, 입은 찌르는형·씹는형·핥는형 등이 있고, 다양한 촉각을 갖는다. 특히 앞날개가 발달하여 있으며, 맥은 적으나 나는 힘은 강하다. 뒷날개는 변형되어 평형을 유지하는 기관인 평형곤이 되었다. 날개가 퇴화된 것도 많다. 완전변태를 하며, 유충은 애벌래 형태를 띈다. 파리는 우리 주위에서 쉽게 볼 수 있지만, 바다에서 생활하는 종류도 있다. 모기·깔따구·등에·파리매·똥파리·초파리·집파리·쇠파리·쉬파리·각다귀 등이 이에 포함된다."
-              },
-    "family":  {
-                   "id":  "fanniidae",
-                   "scientificName":  "Fanniidae",
-                   "commonName":  "딸집파리과",
-                   "familyKtsn":  120000022121
-               },
-    "speciesCount":  8,
-    "insects":  [
-                    {
-                        "ktsn":  120000523543,
-                        "scientificName":  "Fannia barbata (Stein, 1892)",
-                        "commonName":  "긴털딸집파리",
-                        "terminalLatinName":  "barbata",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Diptera",
-                                                       "commonName":  "파리목",
-                                                       "ktsn":  120000020933
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Fanniidae",
-                                                        "commonName":  "딸집파리과",
-                                                        "ktsn":  120000022121
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Fannia",
-                                                       "commonName":  "딸집파리속",
-                                                       "ktsn":  120000022122
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "barbata",
-                                                         "commonName":  "긴털딸집파리",
-                                                         "ktsn":  120000523543
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:14:48.460Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  723048,
-                                    "canonical":  "Fannia barbata",
-                                    "fetchedAt":  "2026-05-24T08:58:01.856Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-                                                       "China",
-                                                       "Mongolia",
-                                                       "Armenia",
-                                                       "Europe",
-                                                       "Japan",
-                                                       "East Europe"
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  2
-                                }
-                    },
-                    {
-                        "ktsn":  120000022123,
-                        "scientificName":  "Fannia canicularis (Linnaeus, 1761)",
-                        "commonName":  "딸집파리",
-                        "terminalLatinName":  "canicularis",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Diptera",
-                                                       "commonName":  "파리목",
-                                                       "ktsn":  120000020933
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Fanniidae",
-                                                        "commonName":  "딸집파리과",
-                                                        "ktsn":  120000022121
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Fannia",
-                                                       "commonName":  "딸집파리속",
-                                                       "ktsn":  120000022122
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "canicularis",
-                                                         "commonName":  "딸집파리",
-                                                         "ktsn":  120000022123
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:14:48.460Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  730286,
-                                    "canonical":  "Fannia canicularis",
-                                    "fetchedAt":  "2026-05-24T08:57:46.788Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-                                                                   "딸집파리"
-                                                               ],
-                                                        "en":  [
-                                                                   "Lesser House Fly",
-                                                                   "Little house fly",
-                                                                   "Little House Fly"
-                                                               ],
-                                                        "ja":  [
-                                                                   "ヒメイエバエ"
-                                                               ]
-                                                    },
-                                    "habitat":  [
-                                                    "terrestrial"
-                                                ],
-                                    "geographic":  [
-                                                       "Colombia",
-                                                       "cosmopolitan",
-                                                       "United States",
-                                                       "South Atlantic",
-                                                       "North Pacific",
-                                                       "North Atlantic",
-                                                       "Indian Ocean",
-                                                       "United Kingdom",
-                                                       "The Netherlands",
-                                                       "Sweden",
-                                                       "South Africa",
-                                                       "Portugal",
-                                                       "Norway",
-                                                       "New Zealand",
-                                                       "Italy",
-                                                       "Ireland",
-                                                       "Germany",
-                                                       "France",
-                                                       "Finland",
-                                                       "Canada"
-                                                   ],
-                                    "introduced":  [
-                                                       "Japan",
-                                                       "South Africa"
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  5446
-                                },
-                        "inat":  {
-                                     "observationCount":  1,
-                                     "imageUrl":  null,
-                                     "months":  [
-                                                    8
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000523544,
-                        "scientificName":  "Fannia japonica Nishida, 1974",
-                        "commonName":  "일본딸집파리",
-                        "terminalLatinName":  "japonica",
-                        "nomenclaturalAuthor":  "Nishida",
-                        "namingYear":  "1974",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Diptera",
-                                                       "commonName":  "파리목",
-                                                       "ktsn":  120000020933
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Fanniidae",
-                                                        "commonName":  "딸집파리과",
-                                                        "ktsn":  120000022121
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Fannia",
-                                                       "commonName":  "딸집파리속",
-                                                       "ktsn":  120000022122
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "japonica",
-                                                         "commonName":  "일본딸집파리",
-                                                         "ktsn":  120000523544
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:14:48.460Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  723026,
-                                    "canonical":  "Fannia japonica",
-                                    "fetchedAt":  "2026-05-24T08:58:04.707Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  14
-                                }
-                    },
-                    {
-                        "ktsn":  120000022124,
-                        "scientificName":  "Fannia kikowensis Ouchi, 1938",
-                        "commonName":  "붉은종아리딸집파리",
-                        "terminalLatinName":  "kikowensis",
-                        "nomenclaturalAuthor":  "Ouchi",
-                        "namingYear":  "1938",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Diptera",
-                                                       "commonName":  "파리목",
-                                                       "ktsn":  120000020933
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Fanniidae",
-                                                        "commonName":  "딸집파리과",
-                                                        "ktsn":  120000022121
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Fannia",
-                                                       "commonName":  "딸집파리속",
-                                                       "ktsn":  120000022122
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "kikowensis",
-                                                         "commonName":  "붉은종아리딸집파리",
-                                                         "ktsn":  120000022124
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:14:48.460Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  723065,
-                                    "canonical":  "Fannia kikowensis",
-                                    "fetchedAt":  "2026-05-24T08:57:50.023Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-                                                                   "붉은종아리딸집파리"
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  42
-                                }
-                    },
-                    {
-                        "ktsn":  120000225284,
-                        "scientificName":  "Fannia leucosticta (Meigen, 1838)",
-                        "commonName":  "흰무늬딸집파리",
-                        "terminalLatinName":  "leucosticta",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Diptera",
-                                                       "commonName":  "파리목",
-                                                       "ktsn":  120000020933
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Fanniidae",
-                                                        "commonName":  "딸집파리과",
-                                                        "ktsn":  120000022121
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Fannia",
-                                                       "commonName":  "딸집파리속",
-                                                       "ktsn":  120000022122
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "leucosticta",
-                                                         "commonName":  "흰무늬딸집파리",
-                                                         "ktsn":  120000225284
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:14:48.460Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  730250,
-                                    "canonical":  "Fannia leucosticta",
-                                    "fetchedAt":  "2026-05-24T08:57:58.770Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-                                                                   "흰무늬딸집파리"
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  33
-                                }
-                    },
-                    {
-                        "ktsn":  120000022125,
-                        "scientificName":  "Fannia prisca Stein, 1918",
-                        "commonName":  "검정딸집파리",
-                        "terminalLatinName":  "prisca",
-                        "nomenclaturalAuthor":  "Stein",
-                        "namingYear":  "1918",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Diptera",
-                                                       "commonName":  "파리목",
-                                                       "ktsn":  120000020933
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Fanniidae",
-                                                        "commonName":  "딸집파리과",
-                                                        "ktsn":  120000022121
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Fannia",
-                                                       "commonName":  "딸집파리속",
-                                                       "ktsn":  120000022122
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "prisca",
-                                                         "commonName":  "검정딸집파리",
-                                                         "ktsn":  120000022125
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:14:48.460Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  723062,
-                                    "canonical":  "Fannia prisca",
-                                    "fetchedAt":  "2026-05-24T08:57:52.932Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-                                                                   "검정딸집파리"
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-                                                                   "クロヒメイエバエ"
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  266
-                                }
-                    },
-                    {
-                        "ktsn":  120000523545,
-                        "scientificName":  "Fannia ringdahlana Collin, 1839",
-                        "commonName":  "혹딸집파리",
-                        "terminalLatinName":  "ringdahlana",
-                        "nomenclaturalAuthor":  "Collin",
-                        "namingYear":  "1839",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Diptera",
-                                                       "commonName":  "파리목",
-                                                       "ktsn":  120000020933
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Fanniidae",
-                                                        "commonName":  "딸집파리과",
-                                                        "ktsn":  120000022121
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Fannia",
-                                                       "commonName":  "딸집파리속",
-                                                       "ktsn":  120000022122
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "ringdahlana",
-                                                         "commonName":  "혹딸집파리",
-                                                         "ktsn":  120000523545
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:14:48.460Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  723060,
-                                    "canonical":  "Fannia ringdahlana",
-                                    "fetchedAt":  "2026-05-24T08:58:07.374Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-                                                       "the Palearctic",
-                                                       "China",
-                                                       "United Kingdom",
-                                                       "Japan",
-                                                       "Sweden",
-                                                       "Taiwan",
-                                                       "Finland"
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  76
-                                }
-                    },
-                    {
-                        "ktsn":  120000022126,
-                        "scientificName":  "Fannia scalaris (Fabricius, 1794)",
-                        "commonName":  "털딸집파리",
-                        "terminalLatinName":  "scalaris",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Diptera",
-                                                       "commonName":  "파리목",
-                                                       "ktsn":  120000020933
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Fanniidae",
-                                                        "commonName":  "딸집파리과",
-                                                        "ktsn":  120000022121
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Fannia",
-                                                       "commonName":  "딸집파리속",
-                                                       "ktsn":  120000022122
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "scalaris",
-                                                         "commonName":  "털딸집파리",
-                                                         "ktsn":  120000022126
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:14:48.460Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  730221,
-                                    "canonical":  "Fannia scalaris",
-                                    "fetchedAt":  "2026-05-24T08:57:55.298Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-                                                                   "털딸집파리"
-                                                               ],
-                                                        "en":  [
-                                                                   "Latrine Fly"
-                                                               ],
-                                                        "ja":  [
-                                                                   "コブアシヒメイエバエ"
-                                                               ]
-                                                    },
-                                    "habitat":  [
-                                                    "tropical"
-                                                ],
-                                    "geographic":  [
-                                                       "Taiwan",
-                                                       "South Africa",
-                                                       "India",
-                                                       "Argentina",
-                                                       "Brazil",
-                                                       "Pakistan",
-                                                       "cosmopolitan",
-                                                       "Armenia",
-                                                       "Turkey",
-                                                       "Georgia",
-                                                       "Azerbaijan",
-                                                       "Africa",
-                                                       "Iran",
-                                                       "Chile",
-                                                       "United States",
-                                                       "United Kingdom",
-                                                       "The Netherlands",
-                                                       "Norway",
-                                                       "France",
-                                                       "Finland"
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  1052
-                                }
-                    }
-                ],
-    "digitalContentUpdatedAt":  "2026-05-21T09:14:48.460Z",
-    "digitalContentSource":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "diptera",
+    "scientificName": "Diptera",
+    "commonName": "파리목",
+    "orderKtsn": 120000020933,
+    "abstract": "파리목(Diptera)은 파리, 모기, 등에 등이 속해 있는 곤충의 한 분류이다. 수십 개의 과에 85,000여 종이 있다. 대한민국에서 발견하여 기록한 전체기록 종은 1,099종이다. 작거나 중간 크기의 곤충으로서, 형태와 습성이 매우 다양하다. 머리부에는 발달된 겹눈이 있으며, 입은 찌르는형·씹는형·핥는형 등이 있고, 다양한 촉각을 갖는다. 특히 앞날개가 발달하여 있으며, 맥은 적으나 나는 힘은 강하다. 뒷날개는 변형되어 평형을 유지하는 기관인 평형곤이 되었다. 날개가 퇴화된 것도 많다. 완전변태를 하며, 유충은 애벌래 형태를 띈다. 파리는 우리 주위에서 쉽게 볼 수 있지만, 바다에서 생활하는 종류도 있다. 모기·깔따구·등에·파리매·똥파리·초파리·집파리·쇠파리·쉬파리·각다귀 등이 이에 포함된다.",
+    "description": "파리목(Diptera)은 파리, 모기, 등에 등이 속해 있는 곤충의 한 분류이다. 수십 개의 과에 85,000여 종이 있다. 대한민국에서 발견하여 기록한 전체기록 종은 1,099종이다. 작거나 중간 크기의 곤충으로서, 형태와 습성이 매우 다양하다. 머리부에는 발달된 겹눈이 있으며, 입은 찌르는형·씹는형·핥는형 등이 있고, 다양한 촉각을 갖는다. 특히 앞날개가 발달하여 있으며, 맥은 적으나 나는 힘은 강하다. 뒷날개는 변형되어 평형을 유지하는 기관인 평형곤이 되었다. 날개가 퇴화된 것도 많다. 완전변태를 하며, 유충은 애벌래 형태를 띈다. 파리는 우리 주위에서 쉽게 볼 수 있지만, 바다에서 생활하는 종류도 있다. 모기·깔따구·등에·파리매·똥파리·초파리·집파리·쇠파리·쉬파리·각다귀 등이 이에 포함된다."
+  },
+  "family": {
+    "id": "fanniidae",
+    "scientificName": "Fanniidae",
+    "commonName": "딸집파리과",
+    "familyKtsn": 120000022121
+  },
+  "speciesCount": 8,
+  "insects": [
+    {
+      "ktsn": 120000523543,
+      "scientificName": "Fannia barbata (Stein, 1892)",
+      "commonName": "긴털딸집파리",
+      "terminalLatinName": "barbata",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Fanniidae",
+          "commonName": "딸집파리과",
+          "ktsn": 120000022121
+        },
+        "genus": {
+          "scientificName": "Fannia",
+          "commonName": "딸집파리속",
+          "ktsn": 120000022122
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "barbata",
+          "commonName": "긴털딸집파리",
+          "ktsn": 120000523543
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:14:48.460Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 723048,
+        "canonical": "Fannia barbata",
+        "fetchedAt": "2026-05-24T08:58:01.856Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [
+          "China",
+          "Mongolia",
+          "Armenia",
+          "Europe",
+          "Japan",
+          "East Europe"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 2
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:05:39.169Z"
+      }
+    },
+    {
+      "ktsn": 120000022123,
+      "scientificName": "Fannia canicularis (Linnaeus, 1761)",
+      "commonName": "딸집파리",
+      "terminalLatinName": "canicularis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Fanniidae",
+          "commonName": "딸집파리과",
+          "ktsn": 120000022121
+        },
+        "genus": {
+          "scientificName": "Fannia",
+          "commonName": "딸집파리속",
+          "ktsn": 120000022122
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "canicularis",
+          "commonName": "딸집파리",
+          "ktsn": 120000022123
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:14:48.460Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 730286,
+        "canonical": "Fannia canicularis",
+        "fetchedAt": "2026-05-24T08:57:46.788Z",
+        "vernaculars": {
+          "ko": [
+            "딸집파리"
+          ],
+          "en": [
+            "Lesser House Fly",
+            "Little house fly",
+            "Little House Fly"
+          ],
+          "ja": [
+            "ヒメイエバエ"
+          ]
+        },
+        "habitat": [
+          "terrestrial"
+        ],
+        "geographic": [
+          "Colombia",
+          "cosmopolitan",
+          "United States",
+          "South Atlantic",
+          "North Pacific",
+          "North Atlantic",
+          "Indian Ocean",
+          "United Kingdom",
+          "The Netherlands",
+          "Sweden",
+          "South Africa",
+          "Portugal",
+          "Norway",
+          "New Zealand",
+          "Italy",
+          "Ireland",
+          "Germany",
+          "France",
+          "Finland",
+          "Canada"
+        ],
+        "introduced": [
+          "Japan",
+          "South Africa"
+        ],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 5446
+      },
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": null,
+        "months": [
+          8
+        ]
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:05:39.169Z",
+        "title": "Lesser house fly",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Fannia_canicularis%2C_Trawscoed%2C_North_Wales%2C_Sept_2011_%2816737966188%29.jpg/500px-Fannia_canicularis%2C_Trawscoed%2C_North_Wales%2C_Sept_2011_%2816737966188%29.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Fannia_canicularis%2C_Trawscoed%2C_North_Wales%2C_Sept_2011_%2816737966188%29.jpg",
+        "thumbnailSize": {
+          "width": 500,
+          "height": 394
+        },
+        "originalSize": {
+          "width": 1500,
+          "height": 1181
+        },
+        "filename": "Fannia_canicularis,_Trawscoed,_North_Wales,_Sept_2011_(16737966188).jpg",
+        "description": "species of insect",
+        "pageUrl": "https://en.wikipedia.org/wiki/Lesser_house_fly",
+        "license": "see Wikimedia Commons",
+        "source": "Wikipedia"
+      }
+    },
+    {
+      "ktsn": 120000523544,
+      "scientificName": "Fannia japonica Nishida, 1974",
+      "commonName": "일본딸집파리",
+      "terminalLatinName": "japonica",
+      "nomenclaturalAuthor": "Nishida",
+      "namingYear": "1974",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Fanniidae",
+          "commonName": "딸집파리과",
+          "ktsn": 120000022121
+        },
+        "genus": {
+          "scientificName": "Fannia",
+          "commonName": "딸집파리속",
+          "ktsn": 120000022122
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "japonica",
+          "commonName": "일본딸집파리",
+          "ktsn": 120000523544
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:14:48.460Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 723026,
+        "canonical": "Fannia japonica",
+        "fetchedAt": "2026-05-24T08:58:04.707Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 14
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:05:39.169Z"
+      }
+    },
+    {
+      "ktsn": 120000022124,
+      "scientificName": "Fannia kikowensis Ouchi, 1938",
+      "commonName": "붉은종아리딸집파리",
+      "terminalLatinName": "kikowensis",
+      "nomenclaturalAuthor": "Ouchi",
+      "namingYear": "1938",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Fanniidae",
+          "commonName": "딸집파리과",
+          "ktsn": 120000022121
+        },
+        "genus": {
+          "scientificName": "Fannia",
+          "commonName": "딸집파리속",
+          "ktsn": 120000022122
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "kikowensis",
+          "commonName": "붉은종아리딸집파리",
+          "ktsn": 120000022124
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:14:48.460Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 723065,
+        "canonical": "Fannia kikowensis",
+        "fetchedAt": "2026-05-24T08:57:50.023Z",
+        "vernaculars": {
+          "ko": [
+            "붉은종아리딸집파리"
+          ],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 42
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:05:39.169Z"
+      }
+    },
+    {
+      "ktsn": 120000225284,
+      "scientificName": "Fannia leucosticta (Meigen, 1838)",
+      "commonName": "흰무늬딸집파리",
+      "terminalLatinName": "leucosticta",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Fanniidae",
+          "commonName": "딸집파리과",
+          "ktsn": 120000022121
+        },
+        "genus": {
+          "scientificName": "Fannia",
+          "commonName": "딸집파리속",
+          "ktsn": 120000022122
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "leucosticta",
+          "commonName": "흰무늬딸집파리",
+          "ktsn": 120000225284
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:14:48.460Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 730250,
+        "canonical": "Fannia leucosticta",
+        "fetchedAt": "2026-05-24T08:57:58.770Z",
+        "vernaculars": {
+          "ko": [
+            "흰무늬딸집파리"
+          ],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 33
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:05:39.169Z"
+      }
+    },
+    {
+      "ktsn": 120000022125,
+      "scientificName": "Fannia prisca Stein, 1918",
+      "commonName": "검정딸집파리",
+      "terminalLatinName": "prisca",
+      "nomenclaturalAuthor": "Stein",
+      "namingYear": "1918",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Fanniidae",
+          "commonName": "딸집파리과",
+          "ktsn": 120000022121
+        },
+        "genus": {
+          "scientificName": "Fannia",
+          "commonName": "딸집파리속",
+          "ktsn": 120000022122
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "prisca",
+          "commonName": "검정딸집파리",
+          "ktsn": 120000022125
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:14:48.460Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 723062,
+        "canonical": "Fannia prisca",
+        "fetchedAt": "2026-05-24T08:57:52.932Z",
+        "vernaculars": {
+          "ko": [
+            "검정딸집파리"
+          ],
+          "en": [],
+          "ja": [
+            "クロヒメイエバエ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 266
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:05:39.169Z"
+      }
+    },
+    {
+      "ktsn": 120000523545,
+      "scientificName": "Fannia ringdahlana Collin, 1839",
+      "commonName": "혹딸집파리",
+      "terminalLatinName": "ringdahlana",
+      "nomenclaturalAuthor": "Collin",
+      "namingYear": "1839",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Fanniidae",
+          "commonName": "딸집파리과",
+          "ktsn": 120000022121
+        },
+        "genus": {
+          "scientificName": "Fannia",
+          "commonName": "딸집파리속",
+          "ktsn": 120000022122
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "ringdahlana",
+          "commonName": "혹딸집파리",
+          "ktsn": 120000523545
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:14:48.460Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 723060,
+        "canonical": "Fannia ringdahlana",
+        "fetchedAt": "2026-05-24T08:58:07.374Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [
+          "the Palearctic",
+          "China",
+          "United Kingdom",
+          "Japan",
+          "Sweden",
+          "Taiwan",
+          "Finland"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 76
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:05:39.169Z"
+      }
+    },
+    {
+      "ktsn": 120000022126,
+      "scientificName": "Fannia scalaris (Fabricius, 1794)",
+      "commonName": "털딸집파리",
+      "terminalLatinName": "scalaris",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Fanniidae",
+          "commonName": "딸집파리과",
+          "ktsn": 120000022121
+        },
+        "genus": {
+          "scientificName": "Fannia",
+          "commonName": "딸집파리속",
+          "ktsn": 120000022122
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "scalaris",
+          "commonName": "털딸집파리",
+          "ktsn": 120000022126
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:14:48.460Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 730221,
+        "canonical": "Fannia scalaris",
+        "fetchedAt": "2026-05-24T08:57:55.298Z",
+        "vernaculars": {
+          "ko": [
+            "털딸집파리"
+          ],
+          "en": [
+            "Latrine Fly"
+          ],
+          "ja": [
+            "コブアシヒメイエバエ"
+          ]
+        },
+        "habitat": [
+          "tropical"
+        ],
+        "geographic": [
+          "Taiwan",
+          "South Africa",
+          "India",
+          "Argentina",
+          "Brazil",
+          "Pakistan",
+          "cosmopolitan",
+          "Armenia",
+          "Turkey",
+          "Georgia",
+          "Azerbaijan",
+          "Africa",
+          "Iran",
+          "Chile",
+          "United States",
+          "United Kingdom",
+          "The Netherlands",
+          "Norway",
+          "France",
+          "Finland"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 1052
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:05:39.169Z",
+        "title": "Fannia scalaris",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Fannia_scalaris.jpg/500px-Fannia_scalaris.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/Fannia_scalaris.jpg",
+        "thumbnailSize": {
+          "width": 500,
+          "height": 375
+        },
+        "originalSize": {
+          "width": 2048,
+          "height": 1536
+        },
+        "filename": "Fannia_scalaris.jpg",
+        "description": "species of insect",
+        "pageUrl": "https://en.wikipedia.org/wiki/Fannia_scalaris",
+        "license": "see Wikimedia Commons",
+        "source": "Wikipedia"
+      }
+    }
+  ],
+  "digitalContentUpdatedAt": "2026-05-21T09:14:48.460Z",
+  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
 }

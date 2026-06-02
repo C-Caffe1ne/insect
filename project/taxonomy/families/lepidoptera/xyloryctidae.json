@@ -1,273 +1,276 @@
 {
-    "generatedAt":  "2026-05-21T07:47:08.025Z",
-    "source":  "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
-    "order":  {
-                  "id":  "lepidoptera",
-                  "scientificName":  "Lepidoptera",
-                  "commonName":  "나비목",
-                  "orderKtsn":  120000031663
-              },
-    "family":  {
-                   "id":  "xyloryctidae",
-                   "scientificName":  "Xyloryctidae",
-                   "commonName":  "판날개뿔나방과",
-                   "familyKtsn":  120000037009
-               },
-    "speciesCount":  4,
-    "insects":  [
-                    {
-                        "ktsn":  120000035881,
-                        "scientificName":  "Periacma delegata Meyrick, 1914",
-                        "commonName":  "노랑날개원뿔나방",
-                        "terminalLatinName":  "delegata",
-                        "nomenclaturalAuthor":  "Meyrick",
-                        "namingYear":  "1914",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Xyloryctidae",
-                                                        "commonName":  "판날개뿔나방과",
-                                                        "ktsn":  120000037009
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Periacma",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000035880
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "delegata",
-                                                         "commonName":  "노랑날개원뿔나방",
-                                                         "ktsn":  120000035881
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  935150,
-                                    "canonical":  "Periacma delegata",
-                                    "fetchedAt":  "2026-05-24T14:12:08.298Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-                                                                   "노랑날개원뿔나방"
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-                                                                   "スジモンキマルハキバガ"
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-                                                       "Taiwan",
-                                                       "Japan",
-                                                       "China",
-                                                       "Korea"
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  60
-                                },
-                        "inat":  {
-                                     "observationCount":  4,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/112091762/medium.jpg",
-                                     "months":  [
-                                                    6,
-                                                    7
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000164380,
-                        "scientificName":  "Ripeacma acuminiptera Wang and Li, 1999",
-                        "commonName":  "좁은날개원뿔나방",
-                        "terminalLatinName":  "acuminiptera",
-                        "nomenclaturalAuthor":  "Wang and Li",
-                        "namingYear":  "1999",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Xyloryctidae",
-                                                        "commonName":  "판날개뿔나방과",
-                                                        "ktsn":  120000037009
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Ripeacma",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000164379
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "acuminiptera",
-                                                         "commonName":  "좁은날개원뿔나방",
-                                                         "ktsn":  120000164380
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000212227,
-                        "scientificName":  "Ripeacma adamantis Kim, 2017",
-                        "commonName":  "다이아원뿔나방",
-                        "terminalLatinName":  "adamantis",
-                        "nomenclaturalAuthor":  "Kim",
-                        "namingYear":  "2017",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Xyloryctidae",
-                                                        "commonName":  "판날개뿔나방과",
-                                                        "ktsn":  120000037009
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Ripeacma",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000164379
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "adamantis",
-                                                         "commonName":  "다이아원뿔나방",
-                                                         "ktsn":  120000212227
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000212228,
-                        "scientificName":  "Ripeacma longior Kim, 2017",
-                        "commonName":  "긴돌기원뿔나방",
-                        "terminalLatinName":  "longior",
-                        "nomenclaturalAuthor":  "Kim",
-                        "namingYear":  "2017",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Xyloryctidae",
-                                                        "commonName":  "판날개뿔나방과",
-                                                        "ktsn":  120000037009
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Ripeacma",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000164379
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "longior",
-                                                         "commonName":  "긴돌기원뿔나방",
-                                                         "ktsn":  120000212228
-                                                     }
-                                     }
-                    }
-                ]
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "lepidoptera",
+    "scientificName": "Lepidoptera",
+    "commonName": "나비목",
+    "orderKtsn": 120000031663
+  },
+  "family": {
+    "id": "xyloryctidae",
+    "scientificName": "Xyloryctidae",
+    "commonName": "판날개뿔나방과",
+    "familyKtsn": 120000037009
+  },
+  "speciesCount": 4,
+  "insects": [
+    {
+      "ktsn": 120000035881,
+      "scientificName": "Periacma delegata Meyrick, 1914",
+      "commonName": "노랑날개원뿔나방",
+      "terminalLatinName": "delegata",
+      "nomenclaturalAuthor": "Meyrick",
+      "namingYear": "1914",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Xyloryctidae",
+          "commonName": "판날개뿔나방과",
+          "ktsn": 120000037009
+        },
+        "genus": {
+          "scientificName": "Periacma",
+          "commonName": "",
+          "ktsn": 120000035880
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "delegata",
+          "commonName": "노랑날개원뿔나방",
+          "ktsn": 120000035881
+        }
+      },
+      "eol": {
+        "pageId": 935150,
+        "canonical": "Periacma delegata",
+        "fetchedAt": "2026-05-24T14:12:08.298Z",
+        "vernaculars": {
+          "ko": [
+            "노랑날개원뿔나방"
+          ],
+          "en": [],
+          "ja": [
+            "スジモンキマルハキバガ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "Taiwan",
+          "Japan",
+          "China",
+          "Korea"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 60
+      },
+      "inat": {
+        "observationCount": 4,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/112091762/medium.jpg",
+        "months": [
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "ktsn": 120000164380,
+      "scientificName": "Ripeacma acuminiptera Wang and Li, 1999",
+      "commonName": "좁은날개원뿔나방",
+      "terminalLatinName": "acuminiptera",
+      "nomenclaturalAuthor": "Wang and Li",
+      "namingYear": "1999",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Xyloryctidae",
+          "commonName": "판날개뿔나방과",
+          "ktsn": 120000037009
+        },
+        "genus": {
+          "scientificName": "Ripeacma",
+          "commonName": "",
+          "ktsn": 120000164379
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "acuminiptera",
+          "commonName": "좁은날개원뿔나방",
+          "ktsn": 120000164380
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:10:23.654Z"
+      }
+    },
+    {
+      "ktsn": 120000212227,
+      "scientificName": "Ripeacma adamantis Kim, 2017",
+      "commonName": "다이아원뿔나방",
+      "terminalLatinName": "adamantis",
+      "nomenclaturalAuthor": "Kim",
+      "namingYear": "2017",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Xyloryctidae",
+          "commonName": "판날개뿔나방과",
+          "ktsn": 120000037009
+        },
+        "genus": {
+          "scientificName": "Ripeacma",
+          "commonName": "",
+          "ktsn": 120000164379
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "adamantis",
+          "commonName": "다이아원뿔나방",
+          "ktsn": 120000212227
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:10:23.654Z"
+      }
+    },
+    {
+      "ktsn": 120000212228,
+      "scientificName": "Ripeacma longior Kim, 2017",
+      "commonName": "긴돌기원뿔나방",
+      "terminalLatinName": "longior",
+      "nomenclaturalAuthor": "Kim",
+      "namingYear": "2017",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Xyloryctidae",
+          "commonName": "판날개뿔나방과",
+          "ktsn": 120000037009
+        },
+        "genus": {
+          "scientificName": "Ripeacma",
+          "commonName": "",
+          "ktsn": 120000164379
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "longior",
+          "commonName": "긴돌기원뿔나방",
+          "ktsn": 120000212228
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:10:23.654Z"
+      }
+    }
+  ]
 }

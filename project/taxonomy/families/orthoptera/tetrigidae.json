@@ -1,977 +1,891 @@
 {
-    "generatedAt":  "2026-05-21T07:47:08.025Z",
-    "source":  "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
-    "order":  {
-                  "id":  "orthoptera",
-                  "scientificName":  "Orthoptera",
-                  "commonName":  "메뚜기목",
-                  "orderKtsn":  120000037446,
-                  "abstract":  "메뚜기목(영어: Orthoptera)은 메뚜기, 여치, 귀뚜라미 등이 속하는 곤충의 분류이다. 직시류(直翅類)라고도 한다. 번데기의 과정이 없이 허물벗기로 성장하는 불완전변태를 한다. 주로 초식성인 것이 많으며, 뒷다리가 발달하여 뛰어오르는 능력이 좋은 것이 특징이다. 청각기나 발음기를 가진 종이 많으며, 수컷은 날개를 비비거나 날개에 뒷다리를 마찰하여 소리를 내기도 한다. 비행하는 경우 뒷날개를 펄럭이며 날아간다.",
-                  "description":  "메뚜기목(영어: Orthoptera)은 메뚜기, 여치, 귀뚜라미 등이 속하는 곤충의 분류이다. 직시류(直翅類)라고도 한다. 번데기의 과정이 없이 허물벗기로 성장하는 불완전변태를 한다. 주로 초식성인 것이 많으며, 뒷다리가 발달하여 뛰어오르는 능력이 좋은 것이 특징이다. 청각기나 발음기를 가진 종이 많으며, 수컷은 날개를 비비거나 날개에 뒷다리를 마찰하여 소리를 내기도 한다. 비행하는 경우 뒷날개를 펄럭이며 날아간다."
-              },
-    "family":  {
-                   "id":  "tetrigidae",
-                   "scientificName":  "Tetrigidae",
-                   "commonName":  "모메뚜기과",
-                   "familyKtsn":  120000037692
-               },
-    "speciesCount":  11,
-    "insects":  [
-                    {
-                        "ktsn":  120000037694,
-                        "scientificName":  "Clinotettix ussuriensis Bey-Bienko, 1933",
-                        "commonName":  "뿔모메뚜기",
-                        "terminalLatinName":  "ussuriensis",
-                        "nomenclaturalAuthor":  "Bey-Bienko",
-                        "namingYear":  "1933",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Orthoptera",
-                                                       "commonName":  "메뚜기목",
-                                                       "ktsn":  120000037446
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Tetrigidae",
-                                                        "commonName":  "모메뚜기과",
-                                                        "ktsn":  120000037692
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Clinotettix",
-                                                       "commonName":  "뿔모메뚜기속",
-                                                       "ktsn":  120000037693
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "ussuriensis",
-                                                         "commonName":  "뿔모메뚜기",
-                                                         "ktsn":  120000037694
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  865224,
-                                    "canonical":  "Clinotettix ussuriensis",
-                                    "fetchedAt":  "2026-05-24T17:18:35.578Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-                                                                   "뿔모메뚜기"
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  8
-                                },
-                        "inat":  {
-                                     "observationCount":  7,
-                                     "imageUrl":  null,
-                                     "months":  [
-                                                    4,
-                                                    5,
-                                                    6,
-                                                    7
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000037696,
-                        "scientificName":  "Criotettix japonicus (De Haan, 1842)",
-                        "commonName":  "가시모메뚜기",
-                        "terminalLatinName":  "japonicus",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Orthoptera",
-                                                       "commonName":  "메뚜기목",
-                                                       "ktsn":  120000037446
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Tetrigidae",
-                                                        "commonName":  "모메뚜기과",
-                                                        "ktsn":  120000037692
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Criotettix",
-                                                       "commonName":  "가시모메뚜기속",
-                                                       "ktsn":  120000037695
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "japonicus",
-                                                         "commonName":  "가시모메뚜기",
-                                                         "ktsn":  120000037696
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  863103,
-                                    "canonical":  "Criotettix japonicus",
-                                    "fetchedAt":  "2026-05-24T17:18:38.807Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-                                                                   "가시모메뚜기"
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-                                                                   "トゲヒシバッタ"
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-                                                       "Japan"
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  343
-                                },
-                        "inat":  {
-                                     "observationCount":  14,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/163538705/medium.jpg",
-                                     "months":  [
-                                                    3,
-                                                    4,
-                                                    5,
-                                                    9,
-                                                    10
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000037698,
-                        "scientificName":  "Euparatettix insularis Bey-Bienko, 1951",
-                        "commonName":  "장삼모메뚜기",
-                        "terminalLatinName":  "insularis",
-                        "nomenclaturalAuthor":  "Bey-Bienko",
-                        "namingYear":  "1951",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Orthoptera",
-                                                       "commonName":  "메뚜기목",
-                                                       "ktsn":  120000037446
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Tetrigidae",
-                                                        "commonName":  "모메뚜기과",
-                                                        "ktsn":  120000037692
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Euparatettix",
-                                                       "commonName":  "장삼모메뚜기속",
-                                                       "ktsn":  120000037697
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "insularis",
-                                                         "commonName":  "장삼모메뚜기",
-                                                         "ktsn":  120000037698
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  864622,
-                                    "canonical":  "Euparatettix insularis",
-                                    "fetchedAt":  "2026-05-24T17:18:43.005Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-                                                                   "장삼모메뚜기"
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-                                                                   "ハネナガヒシバッタ"
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-                                                       "Japan"
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  534
-                                },
-                        "inat":  {
-                                     "observationCount":  7,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/102439341/medium.jpg",
-                                     "months":  [
-                                                    3,
-                                                    7,
-                                                    8,
-                                                    10
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000037701,
-                        "scientificName":  "Formosatettix robustus Storozhenko, 1981",
-                        "commonName":  "참볼록모메뚜기",
-                        "terminalLatinName":  "robustus",
-                        "nomenclaturalAuthor":  "Storozhenko",
-                        "namingYear":  "1981",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Orthoptera",
-                                                       "commonName":  "메뚜기목",
-                                                       "ktsn":  120000037446
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Tetrigidae",
-                                                        "commonName":  "모메뚜기과",
-                                                        "ktsn":  120000037692
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Formosatettix",
-                                                       "commonName":  "볼록모메뚜기속",
-                                                       "ktsn":  120000037699
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "robustus",
-                                                         "commonName":  "참볼록모메뚜기",
-                                                         "ktsn":  120000037701
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  864111,
-                                    "canonical":  "Formosatettix robustus",
-                                    "fetchedAt":  "2026-05-24T17:18:46.693Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-                                                                   "참볼록모메뚜기"
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  396
-                                },
-                        "inat":  {
-                                     "observationCount":  13,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/18707271/medium.jpg",
-                                     "months":  [
-                                                    2,
-                                                    5,
-                                                    6,
-                                                    7
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000037703,
-                        "scientificName":  "Tetrix bipunctata (Linnaeus, 1758)",
-                        "commonName":  "쌍점모메뚜기",
-                        "terminalLatinName":  "bipunctata",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Orthoptera",
-                                                       "commonName":  "메뚜기목",
-                                                       "ktsn":  120000037446
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Tetrigidae",
-                                                        "commonName":  "모메뚜기과",
-                                                        "ktsn":  120000037692
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Tetrix",
-                                                       "commonName":  "모메뚜기속",
-                                                       "ktsn":  120000129976
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "bipunctata",
-                                                         "commonName":  "쌍점모메뚜기",
-                                                         "ktsn":  120000037703
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  865189,
-                                    "canonical":  "Tetrix bipunctata",
-                                    "fetchedAt":  "2026-05-24T17:18:54.007Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-                                                                   "Two-spotted Groundhopper"
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-                                                       "Norway",
-                                                       "Austria",
-                                                       "Belgium",
-                                                       "Estonia",
-                                                       "Finland",
-                                                       "France",
-                                                       "Germany",
-                                                       "Hungary",
-                                                       "Italy",
-                                                       "Liechtenstein",
-                                                       "Luxembourg",
-                                                       "Sweden",
-                                                       "Switzerland",
-                                                       "The Netherlands"
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  6395
-                                },
-                        "inat":  {
-                                     "observationCount":  1,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/150849266/medium.jpeg",
-                                     "months":  [
-                                                    8
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000037705,
-                        "scientificName":  "Tetrix japonica (Bolívar, 1887)",
-                        "commonName":  "모메뚜기",
-                        "terminalLatinName":  "japonica",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Orthoptera",
-                                                       "commonName":  "메뚜기목",
-                                                       "ktsn":  120000037446
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Tetrigidae",
-                                                        "commonName":  "모메뚜기과",
-                                                        "ktsn":  120000037692
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Tetrix",
-                                                       "commonName":  "모메뚜기속",
-                                                       "ktsn":  120000129976
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "japonica",
-                                                         "commonName":  "모메뚜기",
-                                                         "ktsn":  120000037705
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  864950,
-                                    "canonical":  "Tetrix japonica",
-                                    "fetchedAt":  "2026-05-24T17:18:57.444Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-                                                                   "모메뚜기"
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-                                                                   "ハラヒシバッタ"
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-                                                       "Siberia",
-                                                       "China",
-                                                       "Japan",
-                                                       "Korean Peninsula",
-                                                       "Mongolia",
-                                                       "Russia",
-                                                       "South Korea"
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  3705
-                                },
-                        "inat":  {
-                                     "observationCount":  78,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/487003177/medium.jpg",
-                                     "months":  [
-                                                    2,
-                                                    3,
-                                                    4,
-                                                    5,
-                                                    6,
-                                                    7,
-                                                    8,
-                                                    9,
-                                                    10
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000037706,
-                        "scientificName":  "Tetrix macilenta Ichikawa, 1993",
-                        "commonName":  "가는모메뚜기",
-                        "terminalLatinName":  "macilenta",
-                        "nomenclaturalAuthor":  "Ichikawa",
-                        "namingYear":  "1993",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Orthoptera",
-                                                       "commonName":  "메뚜기목",
-                                                       "ktsn":  120000037446
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Tetrigidae",
-                                                        "commonName":  "모메뚜기과",
-                                                        "ktsn":  120000037692
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Tetrix",
-                                                       "commonName":  "모메뚜기속",
-                                                       "ktsn":  120000129976
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "macilenta",
-                                                         "commonName":  "가는모메뚜기",
-                                                         "ktsn":  120000037706
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  864951,
-                                    "canonical":  "Tetrix macilenta",
-                                    "fetchedAt":  "2026-05-24T17:19:00.823Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-                                                                   "가는모메뚜기"
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-                                                                   "ヤセヒシバッタ"
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-                                                       "Japan"
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  141
-                                }
-                    },
-                    {
-                        "ktsn":  120000037707,
-                        "scientificName":  "Tetrix minor Ichikawa, 1993",
-                        "commonName":  "꼬마모메뚜기",
-                        "terminalLatinName":  "minor",
-                        "nomenclaturalAuthor":  "Ichikawa",
-                        "namingYear":  "1993",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Orthoptera",
-                                                       "commonName":  "메뚜기목",
-                                                       "ktsn":  120000037446
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Tetrigidae",
-                                                        "commonName":  "모메뚜기과",
-                                                        "ktsn":  120000037692
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Tetrix",
-                                                       "commonName":  "모메뚜기속",
-                                                       "ktsn":  120000129976
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "minor",
-                                                         "commonName":  "꼬마모메뚜기",
-                                                         "ktsn":  120000037707
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  864954,
-                                    "canonical":  "Tetrix minor",
-                                    "fetchedAt":  "2026-05-24T17:19:04.315Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-                                                                   "꼬마모메뚜기"
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-                                                                   "ヒメヒシバッタ"
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-                                                       "Japan"
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  71
-                                },
-                        "inat":  {
-                                     "observationCount":  15,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/179887681/medium.png",
-                                     "months":  [
-                                                    5,
-                                                    6,
-                                                    7,
-                                                    8,
-                                                    10
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000037708,
-                        "scientificName":  "Tetrix silvicultrix Ichikawa, 1993",
-                        "commonName":  "야산모메뚜기",
-                        "terminalLatinName":  "silvicultrix",
-                        "nomenclaturalAuthor":  "Ichikawa",
-                        "namingYear":  "1993",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Orthoptera",
-                                                       "commonName":  "메뚜기목",
-                                                       "ktsn":  120000037446
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Tetrigidae",
-                                                        "commonName":  "모메뚜기과",
-                                                        "ktsn":  120000037692
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Tetrix",
-                                                       "commonName":  "모메뚜기속",
-                                                       "ktsn":  120000129976
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "silvicultrix",
-                                                         "commonName":  "야산모메뚜기",
-                                                         "ktsn":  120000037708
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000037709,
-                        "scientificName":  "Tetrix simulans (Bey-Bienko, 1929)",
-                        "commonName":  "광대모메뚜기",
-                        "terminalLatinName":  "simulans",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Orthoptera",
-                                                       "commonName":  "메뚜기목",
-                                                       "ktsn":  120000037446
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Tetrigidae",
-                                                        "commonName":  "모메뚜기과",
-                                                        "ktsn":  120000037692
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Tetrix",
-                                                       "commonName":  "모메뚜기속",
-                                                       "ktsn":  120000129976
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "simulans",
-                                                         "commonName":  "광대모메뚜기",
-                                                         "ktsn":  120000037709
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000037710,
-                        "scientificName":  "Tetrix subulata (Linnaeus, 1761)",
-                        "commonName":  "각진모메뚜기",
-                        "terminalLatinName":  "subulata",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Orthoptera",
-                                                       "commonName":  "메뚜기목",
-                                                       "ktsn":  120000037446
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Tetrigidae",
-                                                        "commonName":  "모메뚜기과",
-                                                        "ktsn":  120000037692
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Tetrix",
-                                                       "commonName":  "모메뚜기속",
-                                                       "ktsn":  120000129976
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "subulata",
-                                                         "commonName":  "각진모메뚜기",
-                                                         "ktsn":  120000037710
-                                                     }
-                                     },
-                        "inat":  {
-                                     "observationCount":  9,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/132089231/medium.jpeg",
-                                     "months":  [
-                                                    4,
-                                                    5,
-                                                    6,
-                                                    9,
-                                                    10
-                                                ]
-                                 }
-                    }
-                ]
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "orthoptera",
+    "scientificName": "Orthoptera",
+    "commonName": "메뚜기목",
+    "orderKtsn": 120000037446,
+    "abstract": "메뚜기목(영어: Orthoptera)은 메뚜기, 여치, 귀뚜라미 등이 속하는 곤충의 분류이다. 직시류(直翅類)라고도 한다. 번데기의 과정이 없이 허물벗기로 성장하는 불완전변태를 한다. 주로 초식성인 것이 많으며, 뒷다리가 발달하여 뛰어오르는 능력이 좋은 것이 특징이다. 청각기나 발음기를 가진 종이 많으며, 수컷은 날개를 비비거나 날개에 뒷다리를 마찰하여 소리를 내기도 한다. 비행하는 경우 뒷날개를 펄럭이며 날아간다.",
+    "description": "메뚜기목(영어: Orthoptera)은 메뚜기, 여치, 귀뚜라미 등이 속하는 곤충의 분류이다. 직시류(直翅類)라고도 한다. 번데기의 과정이 없이 허물벗기로 성장하는 불완전변태를 한다. 주로 초식성인 것이 많으며, 뒷다리가 발달하여 뛰어오르는 능력이 좋은 것이 특징이다. 청각기나 발음기를 가진 종이 많으며, 수컷은 날개를 비비거나 날개에 뒷다리를 마찰하여 소리를 내기도 한다. 비행하는 경우 뒷날개를 펄럭이며 날아간다."
+  },
+  "family": {
+    "id": "tetrigidae",
+    "scientificName": "Tetrigidae",
+    "commonName": "모메뚜기과",
+    "familyKtsn": 120000037692
+  },
+  "speciesCount": 11,
+  "insects": [
+    {
+      "ktsn": 120000037694,
+      "scientificName": "Clinotettix ussuriensis Bey-Bienko, 1933",
+      "commonName": "뿔모메뚜기",
+      "terminalLatinName": "ussuriensis",
+      "nomenclaturalAuthor": "Bey-Bienko",
+      "namingYear": "1933",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Orthoptera",
+          "commonName": "메뚜기목",
+          "ktsn": 120000037446
+        },
+        "family": {
+          "scientificName": "Tetrigidae",
+          "commonName": "모메뚜기과",
+          "ktsn": 120000037692
+        },
+        "genus": {
+          "scientificName": "Clinotettix",
+          "commonName": "뿔모메뚜기속",
+          "ktsn": 120000037693
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "ussuriensis",
+          "commonName": "뿔모메뚜기",
+          "ktsn": 120000037694
+        }
+      },
+      "eol": {
+        "pageId": 865224,
+        "canonical": "Clinotettix ussuriensis",
+        "fetchedAt": "2026-05-24T17:18:35.578Z",
+        "vernaculars": {
+          "ko": [
+            "뿔모메뚜기"
+          ],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 8
+      },
+      "inat": {
+        "observationCount": 7,
+        "imageUrl": null,
+        "months": [
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:10:27.732Z"
+      }
+    },
+    {
+      "ktsn": 120000037696,
+      "scientificName": "Criotettix japonicus (De Haan, 1842)",
+      "commonName": "가시모메뚜기",
+      "terminalLatinName": "japonicus",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Orthoptera",
+          "commonName": "메뚜기목",
+          "ktsn": 120000037446
+        },
+        "family": {
+          "scientificName": "Tetrigidae",
+          "commonName": "모메뚜기과",
+          "ktsn": 120000037692
+        },
+        "genus": {
+          "scientificName": "Criotettix",
+          "commonName": "가시모메뚜기속",
+          "ktsn": 120000037695
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "japonicus",
+          "commonName": "가시모메뚜기",
+          "ktsn": 120000037696
+        }
+      },
+      "eol": {
+        "pageId": 863103,
+        "canonical": "Criotettix japonicus",
+        "fetchedAt": "2026-05-24T17:18:38.807Z",
+        "vernaculars": {
+          "ko": [
+            "가시모메뚜기"
+          ],
+          "en": [],
+          "ja": [
+            "トゲヒシバッタ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "Japan"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 343
+      },
+      "inat": {
+        "observationCount": 14,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/163538705/medium.jpg",
+        "months": [
+          3,
+          4,
+          5,
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "ktsn": 120000037698,
+      "scientificName": "Euparatettix insularis Bey-Bienko, 1951",
+      "commonName": "장삼모메뚜기",
+      "terminalLatinName": "insularis",
+      "nomenclaturalAuthor": "Bey-Bienko",
+      "namingYear": "1951",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Orthoptera",
+          "commonName": "메뚜기목",
+          "ktsn": 120000037446
+        },
+        "family": {
+          "scientificName": "Tetrigidae",
+          "commonName": "모메뚜기과",
+          "ktsn": 120000037692
+        },
+        "genus": {
+          "scientificName": "Euparatettix",
+          "commonName": "장삼모메뚜기속",
+          "ktsn": 120000037697
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "insularis",
+          "commonName": "장삼모메뚜기",
+          "ktsn": 120000037698
+        }
+      },
+      "eol": {
+        "pageId": 864622,
+        "canonical": "Euparatettix insularis",
+        "fetchedAt": "2026-05-24T17:18:43.005Z",
+        "vernaculars": {
+          "ko": [
+            "장삼모메뚜기"
+          ],
+          "en": [],
+          "ja": [
+            "ハネナガヒシバッタ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "Japan"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 534
+      },
+      "inat": {
+        "observationCount": 7,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/102439341/medium.jpg",
+        "months": [
+          3,
+          7,
+          8,
+          10
+        ]
+      }
+    },
+    {
+      "ktsn": 120000037701,
+      "scientificName": "Formosatettix robustus Storozhenko, 1981",
+      "commonName": "참볼록모메뚜기",
+      "terminalLatinName": "robustus",
+      "nomenclaturalAuthor": "Storozhenko",
+      "namingYear": "1981",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Orthoptera",
+          "commonName": "메뚜기목",
+          "ktsn": 120000037446
+        },
+        "family": {
+          "scientificName": "Tetrigidae",
+          "commonName": "모메뚜기과",
+          "ktsn": 120000037692
+        },
+        "genus": {
+          "scientificName": "Formosatettix",
+          "commonName": "볼록모메뚜기속",
+          "ktsn": 120000037699
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "robustus",
+          "commonName": "참볼록모메뚜기",
+          "ktsn": 120000037701
+        }
+      },
+      "eol": {
+        "pageId": 864111,
+        "canonical": "Formosatettix robustus",
+        "fetchedAt": "2026-05-24T17:18:46.693Z",
+        "vernaculars": {
+          "ko": [
+            "참볼록모메뚜기"
+          ],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 396
+      },
+      "inat": {
+        "observationCount": 13,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/18707271/medium.jpg",
+        "months": [
+          2,
+          5,
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "ktsn": 120000037703,
+      "scientificName": "Tetrix bipunctata (Linnaeus, 1758)",
+      "commonName": "쌍점모메뚜기",
+      "terminalLatinName": "bipunctata",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Orthoptera",
+          "commonName": "메뚜기목",
+          "ktsn": 120000037446
+        },
+        "family": {
+          "scientificName": "Tetrigidae",
+          "commonName": "모메뚜기과",
+          "ktsn": 120000037692
+        },
+        "genus": {
+          "scientificName": "Tetrix",
+          "commonName": "모메뚜기속",
+          "ktsn": 120000129976
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "bipunctata",
+          "commonName": "쌍점모메뚜기",
+          "ktsn": 120000037703
+        }
+      },
+      "eol": {
+        "pageId": 865189,
+        "canonical": "Tetrix bipunctata",
+        "fetchedAt": "2026-05-24T17:18:54.007Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [
+            "Two-spotted Groundhopper"
+          ],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [
+          "Norway",
+          "Austria",
+          "Belgium",
+          "Estonia",
+          "Finland",
+          "France",
+          "Germany",
+          "Hungary",
+          "Italy",
+          "Liechtenstein",
+          "Luxembourg",
+          "Sweden",
+          "Switzerland",
+          "The Netherlands"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 6395
+      },
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/150849266/medium.jpeg",
+        "months": [
+          8
+        ]
+      }
+    },
+    {
+      "ktsn": 120000037705,
+      "scientificName": "Tetrix japonica (Bolívar, 1887)",
+      "commonName": "모메뚜기",
+      "terminalLatinName": "japonica",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Orthoptera",
+          "commonName": "메뚜기목",
+          "ktsn": 120000037446
+        },
+        "family": {
+          "scientificName": "Tetrigidae",
+          "commonName": "모메뚜기과",
+          "ktsn": 120000037692
+        },
+        "genus": {
+          "scientificName": "Tetrix",
+          "commonName": "모메뚜기속",
+          "ktsn": 120000129976
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "japonica",
+          "commonName": "모메뚜기",
+          "ktsn": 120000037705
+        }
+      },
+      "eol": {
+        "pageId": 864950,
+        "canonical": "Tetrix japonica",
+        "fetchedAt": "2026-05-24T17:18:57.444Z",
+        "vernaculars": {
+          "ko": [
+            "모메뚜기"
+          ],
+          "en": [],
+          "ja": [
+            "ハラヒシバッタ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "Siberia",
+          "China",
+          "Japan",
+          "Korean Peninsula",
+          "Mongolia",
+          "Russia",
+          "South Korea"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 3705
+      },
+      "inat": {
+        "observationCount": 78,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/487003177/medium.jpg",
+        "months": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "ktsn": 120000037706,
+      "scientificName": "Tetrix macilenta Ichikawa, 1993",
+      "commonName": "가는모메뚜기",
+      "terminalLatinName": "macilenta",
+      "nomenclaturalAuthor": "Ichikawa",
+      "namingYear": "1993",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Orthoptera",
+          "commonName": "메뚜기목",
+          "ktsn": 120000037446
+        },
+        "family": {
+          "scientificName": "Tetrigidae",
+          "commonName": "모메뚜기과",
+          "ktsn": 120000037692
+        },
+        "genus": {
+          "scientificName": "Tetrix",
+          "commonName": "모메뚜기속",
+          "ktsn": 120000129976
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "macilenta",
+          "commonName": "가는모메뚜기",
+          "ktsn": 120000037706
+        }
+      },
+      "eol": {
+        "pageId": 864951,
+        "canonical": "Tetrix macilenta",
+        "fetchedAt": "2026-05-24T17:19:00.823Z",
+        "vernaculars": {
+          "ko": [
+            "가는모메뚜기"
+          ],
+          "en": [],
+          "ja": [
+            "ヤセヒシバッタ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "Japan"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 141
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:10:27.732Z"
+      }
+    },
+    {
+      "ktsn": 120000037707,
+      "scientificName": "Tetrix minor Ichikawa, 1993",
+      "commonName": "꼬마모메뚜기",
+      "terminalLatinName": "minor",
+      "nomenclaturalAuthor": "Ichikawa",
+      "namingYear": "1993",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Orthoptera",
+          "commonName": "메뚜기목",
+          "ktsn": 120000037446
+        },
+        "family": {
+          "scientificName": "Tetrigidae",
+          "commonName": "모메뚜기과",
+          "ktsn": 120000037692
+        },
+        "genus": {
+          "scientificName": "Tetrix",
+          "commonName": "모메뚜기속",
+          "ktsn": 120000129976
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "minor",
+          "commonName": "꼬마모메뚜기",
+          "ktsn": 120000037707
+        }
+      },
+      "eol": {
+        "pageId": 864954,
+        "canonical": "Tetrix minor",
+        "fetchedAt": "2026-05-24T17:19:04.315Z",
+        "vernaculars": {
+          "ko": [
+            "꼬마모메뚜기"
+          ],
+          "en": [],
+          "ja": [
+            "ヒメヒシバッタ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "Japan"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 71
+      },
+      "inat": {
+        "observationCount": 15,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/179887681/medium.png",
+        "months": [
+          5,
+          6,
+          7,
+          8,
+          10
+        ]
+      }
+    },
+    {
+      "ktsn": 120000037708,
+      "scientificName": "Tetrix silvicultrix Ichikawa, 1993",
+      "commonName": "야산모메뚜기",
+      "terminalLatinName": "silvicultrix",
+      "nomenclaturalAuthor": "Ichikawa",
+      "namingYear": "1993",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Orthoptera",
+          "commonName": "메뚜기목",
+          "ktsn": 120000037446
+        },
+        "family": {
+          "scientificName": "Tetrigidae",
+          "commonName": "모메뚜기과",
+          "ktsn": 120000037692
+        },
+        "genus": {
+          "scientificName": "Tetrix",
+          "commonName": "모메뚜기속",
+          "ktsn": 120000129976
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "silvicultrix",
+          "commonName": "야산모메뚜기",
+          "ktsn": 120000037708
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:10:27.732Z"
+      }
+    },
+    {
+      "ktsn": 120000037709,
+      "scientificName": "Tetrix simulans (Bey-Bienko, 1929)",
+      "commonName": "광대모메뚜기",
+      "terminalLatinName": "simulans",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Orthoptera",
+          "commonName": "메뚜기목",
+          "ktsn": 120000037446
+        },
+        "family": {
+          "scientificName": "Tetrigidae",
+          "commonName": "모메뚜기과",
+          "ktsn": 120000037692
+        },
+        "genus": {
+          "scientificName": "Tetrix",
+          "commonName": "모메뚜기속",
+          "ktsn": 120000129976
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "simulans",
+          "commonName": "광대모메뚜기",
+          "ktsn": 120000037709
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:10:28.366Z"
+      }
+    },
+    {
+      "ktsn": 120000037710,
+      "scientificName": "Tetrix subulata (Linnaeus, 1761)",
+      "commonName": "각진모메뚜기",
+      "terminalLatinName": "subulata",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Orthoptera",
+          "commonName": "메뚜기목",
+          "ktsn": 120000037446
+        },
+        "family": {
+          "scientificName": "Tetrigidae",
+          "commonName": "모메뚜기과",
+          "ktsn": 120000037692
+        },
+        "genus": {
+          "scientificName": "Tetrix",
+          "commonName": "모메뚜기속",
+          "ktsn": 120000129976
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "subulata",
+          "commonName": "각진모메뚜기",
+          "ktsn": 120000037710
+        }
+      },
+      "inat": {
+        "observationCount": 9,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/132089231/medium.jpeg",
+        "months": [
+          4,
+          5,
+          6,
+          9,
+          10
+        ]
+      }
+    }
+  ]
 }

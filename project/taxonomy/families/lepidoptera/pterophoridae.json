@@ -1,2124 +1,2324 @@
 {
-    "generatedAt":  "2026-05-21T07:47:08.025Z",
-    "source":  "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
-    "order":  {
-                  "id":  "lepidoptera",
-                  "scientificName":  "Lepidoptera",
-                  "commonName":  "나비목",
-                  "orderKtsn":  120000031663
-              },
-    "family":  {
-                   "id":  "pterophoridae",
-                   "scientificName":  "Pterophoridae",
-                   "commonName":  "털날개나방과",
-                   "familyKtsn":  120000035983,
-                   "abstract":  "털날개나방과(Pterophoridae)는 나비목에 속하는 나방과의 하나이다. 독특하게 변형된 날개를 있다.",
-                   "description":  "털날개나방과(Pterophoridae)는 나비목에 속하는 나방과의 하나이다. 독특하게 변형된 날개를 있다."
-               },
-    "speciesCount":  34,
-    "insects":  [
-                    {
-                        "ktsn":  120000035985,
-                        "scientificName":  "Adaina microdactyla Hübner, 1813",
-                        "commonName":  "꼬마털날개나방",
-                        "terminalLatinName":  "microdactyla",
-                        "nomenclaturalAuthor":  "Hübner",
-                        "namingYear":  "1813",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Pterophoridae",
-                                                        "commonName":  "털날개나방과",
-                                                        "ktsn":  120000035983
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Adaina",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000035984
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "microdactyla",
-                                                         "commonName":  "꼬마털날개나방",
-                                                         "ktsn":  120000035985
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  478947,
-                                    "canonical":  "Adaina microdactyla",
-                                    "fetchedAt":  "2026-05-24T16:54:46.112Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-                                                                   "꼬마털날개나방"
-                                                               ],
-                                                        "en":  [
-                                                                   "Hemp-agrimony Plume Moth"
-                                                               ],
-                                                        "ja":  [
-                                                                   "ウスキヒメトリバ"
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-                                                       "Korea",
-                                                       "China",
-                                                       "Japan",
-                                                       "United Kingdom",
-                                                       "The Netherlands",
-                                                       "Switzerland",
-                                                       "Sweden",
-                                                       "The Philippines",
-                                                       "Norway",
-                                                       "Luxembourg",
-                                                       "Italy",
-                                                       "Ireland",
-                                                       "Hong Kong",
-                                                       "Germany",
-                                                       "France",
-                                                       "Finland",
-                                                       "Estonia",
-                                                       "Denmark",
-                                                       "Cambodia",
-                                                       "Austria"
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  3508
-                                },
-                        "inat":  {
-                                     "observationCount":  7,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/13462628/medium.jpeg",
-                                     "months":  [
-                                                    1,
-                                                    2,
-                                                    3,
-                                                    7,
-                                                    10,
-                                                    11
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000035987,
-                        "scientificName":  "Agdistis endospela Kim, 2012",
-                        "commonName":  "튤립털날개나방",
-                        "terminalLatinName":  "endospela",
-                        "nomenclaturalAuthor":  "Kim",
-                        "namingYear":  "2012",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Pterophoridae",
-                                                        "commonName":  "털날개나방과",
-                                                        "ktsn":  120000035983
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Agdistis",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000035986
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "endospela",
-                                                         "commonName":  "튤립털날개나방",
-                                                         "ktsn":  120000035987
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000229122,
-                        "scientificName":  "Agdistis tamaricis (Zeller, 1847)",
-                        "commonName":  "편백나무털날개나방",
-                        "terminalLatinName":  "tamaricis",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Pterophoridae",
-                                                        "commonName":  "털날개나방과",
-                                                        "ktsn":  120000035983
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Agdistis",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000035986
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "tamaricis",
-                                                         "commonName":  "편백나무털날개나방",
-                                                         "ktsn":  120000229122
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000035989,
-                        "scientificName":  "Amblyptilla japonica Yano, 1963",
-                        "commonName":  "일본털날개나방",
-                        "terminalLatinName":  "japonica",
-                        "nomenclaturalAuthor":  "Yano",
-                        "namingYear":  "1963",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Pterophoridae",
-                                                        "commonName":  "털날개나방과",
-                                                        "ktsn":  120000035983
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Amblyptilla",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000035988
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "japonica",
-                                                         "commonName":  "일본털날개나방",
-                                                         "ktsn":  120000035989
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000035990,
-                        "scientificName":  "Amblyptilla punctidactyla Haworth, 1811",
-                        "commonName":  "파털날개나방",
-                        "terminalLatinName":  "punctidactyla",
-                        "nomenclaturalAuthor":  "Haworth",
-                        "namingYear":  "1811",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Pterophoridae",
-                                                        "commonName":  "털날개나방과",
-                                                        "ktsn":  120000035983
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Amblyptilla",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000035988
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "punctidactyla",
-                                                         "commonName":  "파털날개나방",
-                                                         "ktsn":  120000035990
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000035992,
-                        "scientificName":  "Capperia trichodactyla (Denis and Schiffermüller, 1775)",
-                        "commonName":  "알프스민들레털날개나방",
-                        "terminalLatinName":  "trichodactyla",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Pterophoridae",
-                                                        "commonName":  "털날개나방과",
-                                                        "ktsn":  120000035983
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Capperia",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000035991
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "trichodactyla",
-                                                         "commonName":  "알프스민들레털날개나방",
-                                                         "ktsn":  120000035992
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  889016,
-                                    "canonical":  "Capperia trichodactyla",
-                                    "fetchedAt":  "2026-05-24T16:55:17.993Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-                                                                   "알프스민들레털날개나방"
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-                                                       "Japan",
-                                                       "Europe",
-                                                       "Siberia",
-                                                       "China",
-                                                       "France",
-                                                       "Finland"
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  48
-                                }
-                    },
-                    {
-                        "ktsn":  120000035994,
-                        "scientificName":  "Cnaemidophorus rhododactyla Dennis \u0026 Schiffermuller, 1775",
-                        "commonName":  "해당화털날개나방",
-                        "terminalLatinName":  "rhododactyla",
-                        "nomenclaturalAuthor":  "Dennis \u0026 Schiffermuller",
-                        "namingYear":  "1775",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Pterophoridae",
-                                                        "commonName":  "털날개나방과",
-                                                        "ktsn":  120000035983
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Cnaemidophorus",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000035993
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "rhododactyla",
-                                                         "commonName":  "해당화털날개나방",
-                                                         "ktsn":  120000035994
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  503970,
-                                    "canonical":  "Cnaemidophorus rhododactyla",
-                                    "fetchedAt":  "2026-05-24T16:55:20.501Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-                                                                   "해당화털날개나방"
-                                                               ],
-                                                        "en":  [
-                                                                   "Rose Plume Moth"
-                                                               ],
-                                                        "ja":  [
-                                                                   "ハマナストリバ",
-                                                                   "チョウセントリバ"
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-                                                       "Albania",
-                                                       "Iran",
-                                                       "Turkmenistan",
-                                                       "India",
-                                                       "Estonia",
-                                                       "Slovakia",
-                                                       "Finland",
-                                                       "Germany",
-                                                       "Armenia",
-                                                       "Lithuania",
-                                                       "Poland",
-                                                       "Croatia",
-                                                       "Latvia",
-                                                       "Norway",
-                                                       "Japan",
-                                                       "Belgium",
-                                                       "Russia",
-                                                       "Spain",
-                                                       "Ukraine",
-                                                       "Switzerland",
-                                                       "Portugal",
-                                                       "Austria",
-                                                       "Greece",
-                                                       "Lebanon",
-                                                       "Macedonia",
-                                                       "Korea",
-                                                       "France",
-                                                       "Cyprus",
-                                                       "Turkey",
-                                                       "Romania",
-                                                       "Serbia",
-                                                       "Sweden",
-                                                       "Azerbaijan",
-                                                       "The Netherlands",
-                                                       "Denmark",
-                                                       "Italy",
-                                                       "Czech Republic",
-                                                       "Canada",
-                                                       "Great Britain",
-                                                       "Hungary",
-                                                       "Andorra",
-                                                       "Morocco",
-                                                       "Bulgaria",
-                                                       "Luxembourg",
-                                                       "United Kingdom",
-                                                       "United States"
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  4568
-                                },
-                        "inat":  {
-                                     "observationCount":  3,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/539420862/medium.jpg",
-                                     "months":  [
-                                                    6,
-                                                    7
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000035996,
-                        "scientificName":  "Deuterocopus albipunctatus Fletcher, 1910",
-                        "commonName":  "포도털날개나방",
-                        "terminalLatinName":  "albipunctatus",
-                        "nomenclaturalAuthor":  "Fletcher",
-                        "namingYear":  "1910",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Pterophoridae",
-                                                        "commonName":  "털날개나방과",
-                                                        "ktsn":  120000035983
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Deuterocopus",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000035995
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "albipunctatus",
-                                                         "commonName":  "포도털날개나방",
-                                                         "ktsn":  120000035996
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  861649,
-                                    "canonical":  "Deuterocopus albipunctatus",
-                                    "fetchedAt":  "2026-05-24T16:55:23.648Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-                                                                   "포도털날개나방"
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-                                                                   "シラホシトリバ"
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-                                                       "Japan"
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  28
-                                },
-                        "inat":  {
-                                     "observationCount":  3,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/1175280/medium.jpg",
-                                     "months":  [
-                                                    10
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000035998,
-                        "scientificName":  "Emmelina argoteles Meyrick, 1922",
-                        "commonName":  "메꽃털날개나방",
-                        "terminalLatinName":  "argoteles",
-                        "nomenclaturalAuthor":  "Meyrick",
-                        "namingYear":  "1922",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Pterophoridae",
-                                                        "commonName":  "털날개나방과",
-                                                        "ktsn":  120000035983
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Emmelina",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000035997
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "argoteles",
-                                                         "commonName":  "메꽃털날개나방",
-                                                         "ktsn":  120000035998
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  405677,
-                                    "canonical":  "Emmelina argoteles",
-                                    "fetchedAt":  "2026-05-24T16:55:26.267Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-                                                                   "메꽃털날개나방"
-                                                               ],
-                                                        "en":  [
-                                                                   "Reedbed Plume Moth"
-                                                               ],
-                                                        "ja":  [
-                                                                   "ヒルガオトリバ"
-                                                               ]
-                                                    },
-                                    "habitat":  [
-                                                    "hedge",
-                                                    "fen"
-                                                ],
-                                    "geographic":  [
-                                                       "Austria",
-                                                       "United Kingdom",
-                                                       "Georgia",
-                                                       "Iran",
-                                                       "Switzerland",
-                                                       "Denmark",
-                                                       "Greece",
-                                                       "Italy",
-                                                       "Hungary",
-                                                       "Great Britain",
-                                                       "India",
-                                                       "Slovakia",
-                                                       "Germany",
-                                                       "China",
-                                                       "France",
-                                                       "Japan",
-                                                       "Russia",
-                                                       "Bulgaria",
-                                                       "Spain"
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  666
-                                }
-                    },
-                    {
-                        "ktsn":  120000035999,
-                        "scientificName":  "Emmelina monodactyla Linnaeus, 1758",
-                        "commonName":  "고구마털날개나방",
-                        "terminalLatinName":  "monodactyla",
-                        "nomenclaturalAuthor":  "Linnaeus",
-                        "namingYear":  "1758",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Pterophoridae",
-                                                        "commonName":  "털날개나방과",
-                                                        "ktsn":  120000035983
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Emmelina",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000035997
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "monodactyla",
-                                                         "commonName":  "고구마털날개나방",
-                                                         "ktsn":  120000035999
-                                                     }
-                                     },
-                        "inat":  {
-                                     "observationCount":  7,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/448338090/medium.jpeg",
-                                     "months":  [
-                                                    8,
-                                                    10,
-                                                    11
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000036001,
-                        "scientificName":  "Fuscoptilia emarginata Snellen, 1884",
-                        "commonName":  "칠성털날개나방",
-                        "terminalLatinName":  "emarginata",
-                        "nomenclaturalAuthor":  "Snellen",
-                        "namingYear":  "1884",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Pterophoridae",
-                                                        "commonName":  "털날개나방과",
-                                                        "ktsn":  120000035983
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Fuscoptilia",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000036000
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "emarginata",
-                                                         "commonName":  "칠성털날개나방",
-                                                         "ktsn":  120000036001
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000036002,
-                        "scientificName":  "Fuscoptilia jarosi Arenberger, 1991",
-                        "commonName":  "북한털날개나방",
-                        "terminalLatinName":  "jarosi",
-                        "nomenclaturalAuthor":  "Arenberger",
-                        "namingYear":  "1991",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Pterophoridae",
-                                                        "commonName":  "털날개나방과",
-                                                        "ktsn":  120000035983
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Fuscoptilia",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000036000
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "jarosi",
-                                                         "commonName":  "북한털날개나방",
-                                                         "ktsn":  120000036002
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000036004,
-                        "scientificName":  "Hellinsia albidactylus Yano, 1963",
-                        "commonName":  "작은쑥털날개나방",
-                        "terminalLatinName":  "albidactylus",
-                        "nomenclaturalAuthor":  "Yano",
-                        "namingYear":  "1963",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Pterophoridae",
-                                                        "commonName":  "털날개나방과",
-                                                        "ktsn":  120000035983
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Hellinsia",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000036003
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "albidactylus",
-                                                         "commonName":  "작은쑥털날개나방",
-                                                         "ktsn":  120000036004
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000036005,
-                        "scientificName":  "Hellinsia chuncheonensis Kim, 2009",
-                        "commonName":  "춘천털날개나방",
-                        "terminalLatinName":  "chuncheonensis",
-                        "nomenclaturalAuthor":  "Kim",
-                        "namingYear":  "2009",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Pterophoridae",
-                                                        "commonName":  "털날개나방과",
-                                                        "ktsn":  120000035983
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Hellinsia",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000036003
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "chuncheonensis",
-                                                         "commonName":  "춘천털날개나방",
-                                                         "ktsn":  120000036005
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000036006,
-                        "scientificName":  "Hellinsia cyrtoacanthaus Kim, 2009",
-                        "commonName":  "굽은가시털날개나방",
-                        "terminalLatinName":  "cyrtoacanthaus",
-                        "nomenclaturalAuthor":  "Kim",
-                        "namingYear":  "2009",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Pterophoridae",
-                                                        "commonName":  "털날개나방과",
-                                                        "ktsn":  120000035983
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Hellinsia",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000036003
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "cyrtoacanthaus",
-                                                         "commonName":  "굽은가시털날개나방",
-                                                         "ktsn":  120000036006
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000036007,
-                        "scientificName":  "Hellinsia distinctus Herrich-Schäffer, 1855",
-                        "commonName":  "괴쑥털날개나방",
-                        "terminalLatinName":  "distinctus",
-                        "nomenclaturalAuthor":  "Herrich-Schäffer",
-                        "namingYear":  "1855",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Pterophoridae",
-                                                        "commonName":  "털날개나방과",
-                                                        "ktsn":  120000035983
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Hellinsia",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000036003
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "distinctus",
-                                                         "commonName":  "괴쑥털날개나방",
-                                                         "ktsn":  120000036007
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000036008,
-                        "scientificName":  "Hellinsia ishiyamanus Matsumura, 1931",
-                        "commonName":  "물쑥털날개나방",
-                        "terminalLatinName":  "ishiyamanus",
-                        "nomenclaturalAuthor":  "Matsumura",
-                        "namingYear":  "1931",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Pterophoridae",
-                                                        "commonName":  "털날개나방과",
-                                                        "ktsn":  120000035983
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Hellinsia",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000036003
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "ishiyamanus",
-                                                         "commonName":  "물쑥털날개나방",
-                                                         "ktsn":  120000036008
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000036009,
-                        "scientificName":  "Hellinsia kuwayamai Matsumura, 1931",
-                        "commonName":  "까실쑥부쟁이털날개나방",
-                        "terminalLatinName":  "kuwayamai",
-                        "nomenclaturalAuthor":  "Matsumura",
-                        "namingYear":  "1931",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Pterophoridae",
-                                                        "commonName":  "털날개나방과",
-                                                        "ktsn":  120000035983
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Hellinsia",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000036003
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "kuwayamai",
-                                                         "commonName":  "까실쑥부쟁이털날개나방",
-                                                         "ktsn":  120000036009
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000036010,
-                        "scientificName":  "Hellinsia lateolus Yano, 1963",
-                        "commonName":  "갈고리털날개나방",
-                        "terminalLatinName":  "lateolus",
-                        "nomenclaturalAuthor":  "Yano",
-                        "namingYear":  "1963",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Pterophoridae",
-                                                        "commonName":  "털날개나방과",
-                                                        "ktsn":  120000035983
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Hellinsia",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000036003
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "lateolus",
-                                                         "commonName":  "갈고리털날개나방",
-                                                         "ktsn":  120000036010
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000036011,
-                        "scientificName":  "Hellinsia lienigianus Zeller, 1852",
-                        "commonName":  "쑥털날개나방",
-                        "terminalLatinName":  "lienigianus",
-                        "nomenclaturalAuthor":  "Zeller",
-                        "namingYear":  "1852",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Pterophoridae",
-                                                        "commonName":  "털날개나방과",
-                                                        "ktsn":  120000035983
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Hellinsia",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000036003
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "lienigianus",
-                                                         "commonName":  "쑥털날개나방",
-                                                         "ktsn":  120000036011
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000036012,
-                        "scientificName":  "Hellinsia nigridactylus Yano, 1961",
-                        "commonName":  "쑥부쟁이털날개나방",
-                        "terminalLatinName":  "nigridactylus",
-                        "nomenclaturalAuthor":  "Yano",
-                        "namingYear":  "1961",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Pterophoridae",
-                                                        "commonName":  "털날개나방과",
-                                                        "ktsn":  120000035983
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Hellinsia",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000036003
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "nigridactylus",
-                                                         "commonName":  "쑥부쟁이털날개나방",
-                                                         "ktsn":  120000036012
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000036014,
-                        "scientificName":  "Nippoptilia cinctipedalis Walker, 1864",
-                        "commonName":  "거지덩굴털날개나방",
-                        "terminalLatinName":  "cinctipedalis",
-                        "nomenclaturalAuthor":  "Walker",
-                        "namingYear":  "1864",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Pterophoridae",
-                                                        "commonName":  "털날개나방과",
-                                                        "ktsn":  120000035983
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Nippoptilia",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000036013
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "cinctipedalis",
-                                                         "commonName":  "거지덩굴털날개나방",
-                                                         "ktsn":  120000036014
-                                                     }
-                                     },
-                        "inat":  {
-                                     "observationCount":  9,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/439279325/medium.jpeg",
-                                     "months":  [
-                                                    4,
-                                                    9,
-                                                    10,
-                                                    11
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000036015,
-                        "scientificName":  "Nippoptilia distigmata Kim and Byun, 2010",
-                        "commonName":  "두점박이털날개나방",
-                        "terminalLatinName":  "distigmata",
-                        "nomenclaturalAuthor":  "Kim and Byun",
-                        "namingYear":  "2010",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Pterophoridae",
-                                                        "commonName":  "털날개나방과",
-                                                        "ktsn":  120000035983
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Nippoptilia",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000036013
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "distigmata",
-                                                         "commonName":  "두점박이털날개나방",
-                                                         "ktsn":  120000036015
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000036016,
-                        "scientificName":  "Nippoptilia issikii Yano, 1961",
-                        "commonName":  "검정가슴털날개나방",
-                        "terminalLatinName":  "issikii",
-                        "nomenclaturalAuthor":  "Yano",
-                        "namingYear":  "1961",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Pterophoridae",
-                                                        "commonName":  "털날개나방과",
-                                                        "ktsn":  120000035983
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Nippoptilia",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000036013
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "issikii",
-                                                         "commonName":  "검정가슴털날개나방",
-                                                         "ktsn":  120000036016
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000036017,
-                        "scientificName":  "Nippoptilia vitis Sasaki, 1913",
-                        "commonName":  "포도애털날개나방",
-                        "terminalLatinName":  "vitis",
-                        "nomenclaturalAuthor":  "Sasaki",
-                        "namingYear":  "1913",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Pterophoridae",
-                                                        "commonName":  "털날개나방과",
-                                                        "ktsn":  120000035983
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Nippoptilia",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000036013
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "vitis",
-                                                         "commonName":  "포도애털날개나방",
-                                                         "ktsn":  120000036017
-                                                     }
-                                     },
-                        "inat":  {
-                                     "observationCount":  2,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/178962992/medium.jpg",
-                                     "months":  [
-                                                    8
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000136348,
-                        "scientificName":  "Oidaematophorus iwatensis Matsumura, 1931",
-                        "commonName":  "긴털날개나방",
-                        "terminalLatinName":  "iwatensis",
-                        "nomenclaturalAuthor":  "Matsumura",
-                        "namingYear":  "1931",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Pterophoridae",
-                                                        "commonName":  "털날개나방과",
-                                                        "ktsn":  120000035983
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Oidaematophorus",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000136325
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "iwatensis",
-                                                         "commonName":  "긴털날개나방",
-                                                         "ktsn":  120000136348
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000036021,
-                        "scientificName":  "Oxyptilus chrysodactylus Denis \u0026 Schiffermüller, 1775",
-                        "commonName":  "수레국화털날개나방",
-                        "terminalLatinName":  "chrysodactylus",
-                        "nomenclaturalAuthor":  "Denis \u0026 Schiffermüller",
-                        "namingYear":  "1775",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Pterophoridae",
-                                                        "commonName":  "털날개나방과",
-                                                        "ktsn":  120000035983
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Oxyptilus",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000036020
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "chrysodactylus",
-                                                         "commonName":  "수레국화털날개나방",
-                                                         "ktsn":  120000036021
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000211865,
-                        "scientificName":  "Platyptilia nemoralis Zeller, 1841",
-                        "commonName":  "금방망이털날개나방",
-                        "terminalLatinName":  "nemoralis",
-                        "nomenclaturalAuthor":  "Zeller",
-                        "namingYear":  "1841",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Pterophoridae",
-                                                        "commonName":  "털날개나방과",
-                                                        "ktsn":  120000035983
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Platyptilia",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000036022
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "nemoralis",
-                                                         "commonName":  "금방망이털날개나방",
-                                                         "ktsn":  120000211865
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000036023,
-                        "scientificName":  "Platyptilia suigensis Matsumura, 1931",
-                        "commonName":  "수원털날개나방",
-                        "terminalLatinName":  "suigensis",
-                        "nomenclaturalAuthor":  "Matsumura",
-                        "namingYear":  "1931",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Pterophoridae",
-                                                        "commonName":  "털날개나방과",
-                                                        "ktsn":  120000035983
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Platyptilia",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000036022
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "suigensis",
-                                                         "commonName":  "수원털날개나방",
-                                                         "ktsn":  120000036023
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000036025,
-                        "scientificName":  "Procapperia pelecyntes Meyrick, 1908",
-                        "commonName":  "골무꽃털날개나방",
-                        "terminalLatinName":  "pelecyntes",
-                        "nomenclaturalAuthor":  "Meyrick",
-                        "namingYear":  "1908",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Pterophoridae",
-                                                        "commonName":  "털날개나방과",
-                                                        "ktsn":  120000035983
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Procapperia",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000036024
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "pelecyntes",
-                                                         "commonName":  "골무꽃털날개나방",
-                                                         "ktsn":  120000036025
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000036027,
-                        "scientificName":  "Pselnophorus vilis Butler, 1881",
-                        "commonName":  "흰공작털날개나방",
-                        "terminalLatinName":  "vilis",
-                        "nomenclaturalAuthor":  "Butler",
-                        "namingYear":  "1881",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Pterophoridae",
-                                                        "commonName":  "털날개나방과",
-                                                        "ktsn":  120000035983
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Pselnophorus",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000036026
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "vilis",
-                                                         "commonName":  "흰공작털날개나방",
-                                                         "ktsn":  120000036027
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000036029,
-                        "scientificName":  "Stenodacma pyrrhodes Meyrick, 1889",
-                        "commonName":  "굽은털날개나방",
-                        "terminalLatinName":  "pyrrhodes",
-                        "nomenclaturalAuthor":  "Meyrick",
-                        "namingYear":  "1889",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Pterophoridae",
-                                                        "commonName":  "털날개나방과",
-                                                        "ktsn":  120000035983
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Stenodacma",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000036028
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "pyrrhodes",
-                                                         "commonName":  "굽은털날개나방",
-                                                         "ktsn":  120000036029
-                                                     }
-                                     },
-                        "inat":  {
-                                     "observationCount":  3,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/53527683/medium.jpg",
-                                     "months":  [
-                                                    8,
-                                                    9,
-                                                    10
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000036031,
-                        "scientificName":  "Stenoptilodes taprobanes Felder and Rogenofer, 1875",
-                        "commonName":  "갈색털날개나방",
-                        "terminalLatinName":  "taprobanes",
-                        "nomenclaturalAuthor":  "Felder and Rogenofer",
-                        "namingYear":  "1875",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Pterophoridae",
-                                                        "commonName":  "털날개나방과",
-                                                        "ktsn":  120000035983
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Stenoptilodes",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000036030
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "taprobanes",
-                                                         "commonName":  "갈색털날개나방",
-                                                         "ktsn":  120000036031
-                                                     }
-                                     },
-                        "inat":  {
-                                     "observationCount":  7,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/56508573/medium.jpg",
-                                     "months":  [
-                                                    8,
-                                                    9,
-                                                    11
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000036033,
-                        "scientificName":  "Tomotilus celebratus (Meyrick, 1932)",
-                        "commonName":  "여우팥털날개나방",
-                        "terminalLatinName":  "celebratus",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Pterophoridae",
-                                                        "commonName":  "털날개나방과",
-                                                        "ktsn":  120000035983
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Tomotilus",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000036032
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "celebratus",
-                                                         "commonName":  "여우팥털날개나방",
-                                                         "ktsn":  120000036033
-                                                     }
-                                     }
-                    }
-                ]
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "lepidoptera",
+    "scientificName": "Lepidoptera",
+    "commonName": "나비목",
+    "orderKtsn": 120000031663
+  },
+  "family": {
+    "id": "pterophoridae",
+    "scientificName": "Pterophoridae",
+    "commonName": "털날개나방과",
+    "familyKtsn": 120000035983,
+    "abstract": "털날개나방과(Pterophoridae)는 나비목에 속하는 나방과의 하나이다. 독특하게 변형된 날개를 있다.",
+    "description": "털날개나방과(Pterophoridae)는 나비목에 속하는 나방과의 하나이다. 독특하게 변형된 날개를 있다."
+  },
+  "speciesCount": 34,
+  "insects": [
+    {
+      "ktsn": 120000035985,
+      "scientificName": "Adaina microdactyla Hübner, 1813",
+      "commonName": "꼬마털날개나방",
+      "terminalLatinName": "microdactyla",
+      "nomenclaturalAuthor": "Hübner",
+      "namingYear": "1813",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Pterophoridae",
+          "commonName": "털날개나방과",
+          "ktsn": 120000035983
+        },
+        "genus": {
+          "scientificName": "Adaina",
+          "commonName": "",
+          "ktsn": 120000035984
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "microdactyla",
+          "commonName": "꼬마털날개나방",
+          "ktsn": 120000035985
+        }
+      },
+      "eol": {
+        "pageId": 478947,
+        "canonical": "Adaina microdactyla",
+        "fetchedAt": "2026-05-24T16:54:46.112Z",
+        "vernaculars": {
+          "ko": [
+            "꼬마털날개나방"
+          ],
+          "en": [
+            "Hemp-agrimony Plume Moth"
+          ],
+          "ja": [
+            "ウスキヒメトリバ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "Korea",
+          "China",
+          "Japan",
+          "United Kingdom",
+          "The Netherlands",
+          "Switzerland",
+          "Sweden",
+          "The Philippines",
+          "Norway",
+          "Luxembourg",
+          "Italy",
+          "Ireland",
+          "Hong Kong",
+          "Germany",
+          "France",
+          "Finland",
+          "Estonia",
+          "Denmark",
+          "Cambodia",
+          "Austria"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 3508
+      },
+      "inat": {
+        "observationCount": 7,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/13462628/medium.jpeg",
+        "months": [
+          1,
+          2,
+          3,
+          7,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "ktsn": 120000035987,
+      "scientificName": "Agdistis endospela Kim, 2012",
+      "commonName": "튤립털날개나방",
+      "terminalLatinName": "endospela",
+      "nomenclaturalAuthor": "Kim",
+      "namingYear": "2012",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Pterophoridae",
+          "commonName": "털날개나방과",
+          "ktsn": 120000035983
+        },
+        "genus": {
+          "scientificName": "Agdistis",
+          "commonName": "",
+          "ktsn": 120000035986
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "endospela",
+          "commonName": "튤립털날개나방",
+          "ktsn": 120000035987
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:10:07.450Z"
+      }
+    },
+    {
+      "ktsn": 120000229122,
+      "scientificName": "Agdistis tamaricis (Zeller, 1847)",
+      "commonName": "편백나무털날개나방",
+      "terminalLatinName": "tamaricis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Pterophoridae",
+          "commonName": "털날개나방과",
+          "ktsn": 120000035983
+        },
+        "genus": {
+          "scientificName": "Agdistis",
+          "commonName": "",
+          "ktsn": 120000035986
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "tamaricis",
+          "commonName": "편백나무털날개나방",
+          "ktsn": 120000229122
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:10:07.450Z",
+        "title": "Agdistis tamaricis",
+        "description": "species of insect"
+      }
+    },
+    {
+      "ktsn": 120000035989,
+      "scientificName": "Amblyptilla japonica Yano, 1963",
+      "commonName": "일본털날개나방",
+      "terminalLatinName": "japonica",
+      "nomenclaturalAuthor": "Yano",
+      "namingYear": "1963",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Pterophoridae",
+          "commonName": "털날개나방과",
+          "ktsn": 120000035983
+        },
+        "genus": {
+          "scientificName": "Amblyptilla",
+          "commonName": "",
+          "ktsn": 120000035988
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "japonica",
+          "commonName": "일본털날개나방",
+          "ktsn": 120000035989
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:10:07.450Z"
+      }
+    },
+    {
+      "ktsn": 120000035990,
+      "scientificName": "Amblyptilla punctidactyla Haworth, 1811",
+      "commonName": "파털날개나방",
+      "terminalLatinName": "punctidactyla",
+      "nomenclaturalAuthor": "Haworth",
+      "namingYear": "1811",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Pterophoridae",
+          "commonName": "털날개나방과",
+          "ktsn": 120000035983
+        },
+        "genus": {
+          "scientificName": "Amblyptilla",
+          "commonName": "",
+          "ktsn": 120000035988
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "punctidactyla",
+          "commonName": "파털날개나방",
+          "ktsn": 120000035990
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:10:07.450Z"
+      }
+    },
+    {
+      "ktsn": 120000035992,
+      "scientificName": "Capperia trichodactyla (Denis and Schiffermüller, 1775)",
+      "commonName": "알프스민들레털날개나방",
+      "terminalLatinName": "trichodactyla",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Pterophoridae",
+          "commonName": "털날개나방과",
+          "ktsn": 120000035983
+        },
+        "genus": {
+          "scientificName": "Capperia",
+          "commonName": "",
+          "ktsn": 120000035991
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "trichodactyla",
+          "commonName": "알프스민들레털날개나방",
+          "ktsn": 120000035992
+        }
+      },
+      "eol": {
+        "pageId": 889016,
+        "canonical": "Capperia trichodactyla",
+        "fetchedAt": "2026-05-24T16:55:17.993Z",
+        "vernaculars": {
+          "ko": [
+            "알프스민들레털날개나방"
+          ],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [
+          "Japan",
+          "Europe",
+          "Siberia",
+          "China",
+          "France",
+          "Finland"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 48
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:10:07.450Z",
+        "title": "Capperia trichodactyla",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Capperia_trichodactyla.jpg/500px-Capperia_trichodactyla.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Capperia_trichodactyla.jpg",
+        "thumbnailSize": {
+          "width": 500,
+          "height": 305
+        },
+        "originalSize": {
+          "width": 640,
+          "height": 390
+        },
+        "filename": "Capperia_trichodactyla.jpg",
+        "description": "species of insect",
+        "pageUrl": "https://en.wikipedia.org/wiki/Capperia_trichodactyla",
+        "license": "see Wikimedia Commons",
+        "source": "Wikipedia"
+      }
+    },
+    {
+      "ktsn": 120000035994,
+      "scientificName": "Cnaemidophorus rhododactyla Dennis & Schiffermuller, 1775",
+      "commonName": "해당화털날개나방",
+      "terminalLatinName": "rhododactyla",
+      "nomenclaturalAuthor": "Dennis & Schiffermuller",
+      "namingYear": "1775",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Pterophoridae",
+          "commonName": "털날개나방과",
+          "ktsn": 120000035983
+        },
+        "genus": {
+          "scientificName": "Cnaemidophorus",
+          "commonName": "",
+          "ktsn": 120000035993
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "rhododactyla",
+          "commonName": "해당화털날개나방",
+          "ktsn": 120000035994
+        }
+      },
+      "eol": {
+        "pageId": 503970,
+        "canonical": "Cnaemidophorus rhododactyla",
+        "fetchedAt": "2026-05-24T16:55:20.501Z",
+        "vernaculars": {
+          "ko": [
+            "해당화털날개나방"
+          ],
+          "en": [
+            "Rose Plume Moth"
+          ],
+          "ja": [
+            "ハマナストリバ",
+            "チョウセントリバ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "Albania",
+          "Iran",
+          "Turkmenistan",
+          "India",
+          "Estonia",
+          "Slovakia",
+          "Finland",
+          "Germany",
+          "Armenia",
+          "Lithuania",
+          "Poland",
+          "Croatia",
+          "Latvia",
+          "Norway",
+          "Japan",
+          "Belgium",
+          "Russia",
+          "Spain",
+          "Ukraine",
+          "Switzerland",
+          "Portugal",
+          "Austria",
+          "Greece",
+          "Lebanon",
+          "Macedonia",
+          "Korea",
+          "France",
+          "Cyprus",
+          "Turkey",
+          "Romania",
+          "Serbia",
+          "Sweden",
+          "Azerbaijan",
+          "The Netherlands",
+          "Denmark",
+          "Italy",
+          "Czech Republic",
+          "Canada",
+          "Great Britain",
+          "Hungary",
+          "Andorra",
+          "Morocco",
+          "Bulgaria",
+          "Luxembourg",
+          "United Kingdom",
+          "United States"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 4568
+      },
+      "inat": {
+        "observationCount": 3,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/539420862/medium.jpg",
+        "months": [
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "ktsn": 120000035996,
+      "scientificName": "Deuterocopus albipunctatus Fletcher, 1910",
+      "commonName": "포도털날개나방",
+      "terminalLatinName": "albipunctatus",
+      "nomenclaturalAuthor": "Fletcher",
+      "namingYear": "1910",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Pterophoridae",
+          "commonName": "털날개나방과",
+          "ktsn": 120000035983
+        },
+        "genus": {
+          "scientificName": "Deuterocopus",
+          "commonName": "",
+          "ktsn": 120000035995
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "albipunctatus",
+          "commonName": "포도털날개나방",
+          "ktsn": 120000035996
+        }
+      },
+      "eol": {
+        "pageId": 861649,
+        "canonical": "Deuterocopus albipunctatus",
+        "fetchedAt": "2026-05-24T16:55:23.648Z",
+        "vernaculars": {
+          "ko": [
+            "포도털날개나방"
+          ],
+          "en": [],
+          "ja": [
+            "シラホシトリバ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "Japan"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 28
+      },
+      "inat": {
+        "observationCount": 3,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/1175280/medium.jpg",
+        "months": [
+          10
+        ]
+      }
+    },
+    {
+      "ktsn": 120000035998,
+      "scientificName": "Emmelina argoteles Meyrick, 1922",
+      "commonName": "메꽃털날개나방",
+      "terminalLatinName": "argoteles",
+      "nomenclaturalAuthor": "Meyrick",
+      "namingYear": "1922",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Pterophoridae",
+          "commonName": "털날개나방과",
+          "ktsn": 120000035983
+        },
+        "genus": {
+          "scientificName": "Emmelina",
+          "commonName": "",
+          "ktsn": 120000035997
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "argoteles",
+          "commonName": "메꽃털날개나방",
+          "ktsn": 120000035998
+        }
+      },
+      "eol": {
+        "pageId": 405677,
+        "canonical": "Emmelina argoteles",
+        "fetchedAt": "2026-05-24T16:55:26.267Z",
+        "vernaculars": {
+          "ko": [
+            "메꽃털날개나방"
+          ],
+          "en": [
+            "Reedbed Plume Moth"
+          ],
+          "ja": [
+            "ヒルガオトリバ"
+          ]
+        },
+        "habitat": [
+          "hedge",
+          "fen"
+        ],
+        "geographic": [
+          "Austria",
+          "United Kingdom",
+          "Georgia",
+          "Iran",
+          "Switzerland",
+          "Denmark",
+          "Greece",
+          "Italy",
+          "Hungary",
+          "Great Britain",
+          "India",
+          "Slovakia",
+          "Germany",
+          "China",
+          "France",
+          "Japan",
+          "Russia",
+          "Bulgaria",
+          "Spain"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 666
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:10:07.450Z",
+        "title": "Emmelina argoteles",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Emmelina_argoteles_-_Female_Gen_Det_C.W.P_%2851364044359%29.jpg/500px-Emmelina_argoteles_-_Female_Gen_Det_C.W.P_%2851364044359%29.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/Emmelina_argoteles_-_Female_Gen_Det_C.W.P_%2851364044359%29.jpg",
+        "thumbnailSize": {
+          "width": 500,
+          "height": 418
+        },
+        "originalSize": {
+          "width": 1500,
+          "height": 1255
+        },
+        "filename": "Emmelina_argoteles_-_Female_Gen_Det_C.W.P_(51364044359).jpg",
+        "description": "species of insect",
+        "pageUrl": "https://en.wikipedia.org/wiki/Emmelina_argoteles",
+        "license": "see Wikimedia Commons",
+        "source": "Wikipedia"
+      }
+    },
+    {
+      "ktsn": 120000035999,
+      "scientificName": "Emmelina monodactyla Linnaeus, 1758",
+      "commonName": "고구마털날개나방",
+      "terminalLatinName": "monodactyla",
+      "nomenclaturalAuthor": "Linnaeus",
+      "namingYear": "1758",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Pterophoridae",
+          "commonName": "털날개나방과",
+          "ktsn": 120000035983
+        },
+        "genus": {
+          "scientificName": "Emmelina",
+          "commonName": "",
+          "ktsn": 120000035997
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "monodactyla",
+          "commonName": "고구마털날개나방",
+          "ktsn": 120000035999
+        }
+      },
+      "inat": {
+        "observationCount": 7,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/448338090/medium.jpeg",
+        "months": [
+          8,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "ktsn": 120000036001,
+      "scientificName": "Fuscoptilia emarginata Snellen, 1884",
+      "commonName": "칠성털날개나방",
+      "terminalLatinName": "emarginata",
+      "nomenclaturalAuthor": "Snellen",
+      "namingYear": "1884",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Pterophoridae",
+          "commonName": "털날개나방과",
+          "ktsn": 120000035983
+        },
+        "genus": {
+          "scientificName": "Fuscoptilia",
+          "commonName": "",
+          "ktsn": 120000036000
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "emarginata",
+          "commonName": "칠성털날개나방",
+          "ktsn": 120000036001
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:10:07.450Z",
+        "title": "Fuscoptilia emarginatus",
+        "description": "species of insect"
+      }
+    },
+    {
+      "ktsn": 120000036002,
+      "scientificName": "Fuscoptilia jarosi Arenberger, 1991",
+      "commonName": "북한털날개나방",
+      "terminalLatinName": "jarosi",
+      "nomenclaturalAuthor": "Arenberger",
+      "namingYear": "1991",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Pterophoridae",
+          "commonName": "털날개나방과",
+          "ktsn": 120000035983
+        },
+        "genus": {
+          "scientificName": "Fuscoptilia",
+          "commonName": "",
+          "ktsn": 120000036000
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "jarosi",
+          "commonName": "북한털날개나방",
+          "ktsn": 120000036002
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:10:07.450Z",
+        "title": "Fuscoptilia jarosi",
+        "description": "species of insect"
+      }
+    },
+    {
+      "ktsn": 120000036004,
+      "scientificName": "Hellinsia albidactylus Yano, 1963",
+      "commonName": "작은쑥털날개나방",
+      "terminalLatinName": "albidactylus",
+      "nomenclaturalAuthor": "Yano",
+      "namingYear": "1963",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Pterophoridae",
+          "commonName": "털날개나방과",
+          "ktsn": 120000035983
+        },
+        "genus": {
+          "scientificName": "Hellinsia",
+          "commonName": "",
+          "ktsn": 120000036003
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "albidactylus",
+          "commonName": "작은쑥털날개나방",
+          "ktsn": 120000036004
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:10:07.450Z",
+        "title": "Hellinsia albidactylus",
+        "description": "species of insect"
+      }
+    },
+    {
+      "ktsn": 120000036005,
+      "scientificName": "Hellinsia chuncheonensis Kim, 2009",
+      "commonName": "춘천털날개나방",
+      "terminalLatinName": "chuncheonensis",
+      "nomenclaturalAuthor": "Kim",
+      "namingYear": "2009",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Pterophoridae",
+          "commonName": "털날개나방과",
+          "ktsn": 120000035983
+        },
+        "genus": {
+          "scientificName": "Hellinsia",
+          "commonName": "",
+          "ktsn": 120000036003
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "chuncheonensis",
+          "commonName": "춘천털날개나방",
+          "ktsn": 120000036005
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:10:07.450Z",
+        "title": "Hellinsia chuncheonensis",
+        "description": "species of insect"
+      }
+    },
+    {
+      "ktsn": 120000036006,
+      "scientificName": "Hellinsia cyrtoacanthaus Kim, 2009",
+      "commonName": "굽은가시털날개나방",
+      "terminalLatinName": "cyrtoacanthaus",
+      "nomenclaturalAuthor": "Kim",
+      "namingYear": "2009",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Pterophoridae",
+          "commonName": "털날개나방과",
+          "ktsn": 120000035983
+        },
+        "genus": {
+          "scientificName": "Hellinsia",
+          "commonName": "",
+          "ktsn": 120000036003
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "cyrtoacanthaus",
+          "commonName": "굽은가시털날개나방",
+          "ktsn": 120000036006
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:10:07.450Z",
+        "title": "Hellinsia cyrtoacanthaus",
+        "description": "species of insect"
+      }
+    },
+    {
+      "ktsn": 120000036007,
+      "scientificName": "Hellinsia distinctus Herrich-Schäffer, 1855",
+      "commonName": "괴쑥털날개나방",
+      "terminalLatinName": "distinctus",
+      "nomenclaturalAuthor": "Herrich-Schäffer",
+      "namingYear": "1855",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Pterophoridae",
+          "commonName": "털날개나방과",
+          "ktsn": 120000035983
+        },
+        "genus": {
+          "scientificName": "Hellinsia",
+          "commonName": "",
+          "ktsn": 120000036003
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "distinctus",
+          "commonName": "괴쑥털날개나방",
+          "ktsn": 120000036007
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:10:07.450Z",
+        "title": "Hellinsia distinctus",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Hellinsia_distinctus_MM17612.jpg/500px-Hellinsia_distinctus_MM17612.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Hellinsia_distinctus_MM17612.jpg",
+        "thumbnailSize": {
+          "width": 500,
+          "height": 314
+        },
+        "originalSize": {
+          "width": 640,
+          "height": 402
+        },
+        "filename": "Hellinsia_distinctus_MM17612.jpg",
+        "description": "species of insect",
+        "pageUrl": "https://en.wikipedia.org/wiki/Hellinsia_distinctus",
+        "license": "see Wikimedia Commons",
+        "source": "Wikipedia"
+      }
+    },
+    {
+      "ktsn": 120000036008,
+      "scientificName": "Hellinsia ishiyamanus Matsumura, 1931",
+      "commonName": "물쑥털날개나방",
+      "terminalLatinName": "ishiyamanus",
+      "nomenclaturalAuthor": "Matsumura",
+      "namingYear": "1931",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Pterophoridae",
+          "commonName": "털날개나방과",
+          "ktsn": 120000035983
+        },
+        "genus": {
+          "scientificName": "Hellinsia",
+          "commonName": "",
+          "ktsn": 120000036003
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "ishiyamanus",
+          "commonName": "물쑥털날개나방",
+          "ktsn": 120000036008
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:10:07.450Z",
+        "title": "Hellinsia ishiyamanus",
+        "description": "species of insect"
+      }
+    },
+    {
+      "ktsn": 120000036009,
+      "scientificName": "Hellinsia kuwayamai Matsumura, 1931",
+      "commonName": "까실쑥부쟁이털날개나방",
+      "terminalLatinName": "kuwayamai",
+      "nomenclaturalAuthor": "Matsumura",
+      "namingYear": "1931",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Pterophoridae",
+          "commonName": "털날개나방과",
+          "ktsn": 120000035983
+        },
+        "genus": {
+          "scientificName": "Hellinsia",
+          "commonName": "",
+          "ktsn": 120000036003
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "kuwayamai",
+          "commonName": "까실쑥부쟁이털날개나방",
+          "ktsn": 120000036009
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:10:07.450Z",
+        "title": "Hellinsia kuwayamai",
+        "description": "species of insect"
+      }
+    },
+    {
+      "ktsn": 120000036010,
+      "scientificName": "Hellinsia lateolus Yano, 1963",
+      "commonName": "갈고리털날개나방",
+      "terminalLatinName": "lateolus",
+      "nomenclaturalAuthor": "Yano",
+      "namingYear": "1963",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Pterophoridae",
+          "commonName": "털날개나방과",
+          "ktsn": 120000035983
+        },
+        "genus": {
+          "scientificName": "Hellinsia",
+          "commonName": "",
+          "ktsn": 120000036003
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "lateolus",
+          "commonName": "갈고리털날개나방",
+          "ktsn": 120000036010
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:10:07.450Z",
+        "title": "Hellinsia lacteolus",
+        "description": "species of insect"
+      }
+    },
+    {
+      "ktsn": 120000036011,
+      "scientificName": "Hellinsia lienigianus Zeller, 1852",
+      "commonName": "쑥털날개나방",
+      "terminalLatinName": "lienigianus",
+      "nomenclaturalAuthor": "Zeller",
+      "namingYear": "1852",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Pterophoridae",
+          "commonName": "털날개나방과",
+          "ktsn": 120000035983
+        },
+        "genus": {
+          "scientificName": "Hellinsia",
+          "commonName": "",
+          "ktsn": 120000036003
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "lienigianus",
+          "commonName": "쑥털날개나방",
+          "ktsn": 120000036011
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:10:07.450Z",
+        "title": "Hellinsia lienigianus",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Hellinsia_lienigianus_%28garage%29_%2815339940255%29.jpg/500px-Hellinsia_lienigianus_%28garage%29_%2815339940255%29.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/Hellinsia_lienigianus_%28garage%29_%2815339940255%29.jpg",
+        "thumbnailSize": {
+          "width": 500,
+          "height": 333
+        },
+        "originalSize": {
+          "width": 840,
+          "height": 560
+        },
+        "filename": "Hellinsia_lienigianus_(garage)_(15339940255).jpg",
+        "description": "species of insect",
+        "pageUrl": "https://en.wikipedia.org/wiki/Hellinsia_lienigianus",
+        "license": "see Wikimedia Commons",
+        "source": "Wikipedia"
+      }
+    },
+    {
+      "ktsn": 120000036012,
+      "scientificName": "Hellinsia nigridactylus Yano, 1961",
+      "commonName": "쑥부쟁이털날개나방",
+      "terminalLatinName": "nigridactylus",
+      "nomenclaturalAuthor": "Yano",
+      "namingYear": "1961",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Pterophoridae",
+          "commonName": "털날개나방과",
+          "ktsn": 120000035983
+        },
+        "genus": {
+          "scientificName": "Hellinsia",
+          "commonName": "",
+          "ktsn": 120000036003
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "nigridactylus",
+          "commonName": "쑥부쟁이털날개나방",
+          "ktsn": 120000036012
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:10:07.450Z",
+        "title": "Hellinsia nigridactylus",
+        "description": "species of insect"
+      }
+    },
+    {
+      "ktsn": 120000036014,
+      "scientificName": "Nippoptilia cinctipedalis Walker, 1864",
+      "commonName": "거지덩굴털날개나방",
+      "terminalLatinName": "cinctipedalis",
+      "nomenclaturalAuthor": "Walker",
+      "namingYear": "1864",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Pterophoridae",
+          "commonName": "털날개나방과",
+          "ktsn": 120000035983
+        },
+        "genus": {
+          "scientificName": "Nippoptilia",
+          "commonName": "",
+          "ktsn": 120000036013
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "cinctipedalis",
+          "commonName": "거지덩굴털날개나방",
+          "ktsn": 120000036014
+        }
+      },
+      "inat": {
+        "observationCount": 9,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/439279325/medium.jpeg",
+        "months": [
+          4,
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "ktsn": 120000036015,
+      "scientificName": "Nippoptilia distigmata Kim and Byun, 2010",
+      "commonName": "두점박이털날개나방",
+      "terminalLatinName": "distigmata",
+      "nomenclaturalAuthor": "Kim and Byun",
+      "namingYear": "2010",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Pterophoridae",
+          "commonName": "털날개나방과",
+          "ktsn": 120000035983
+        },
+        "genus": {
+          "scientificName": "Nippoptilia",
+          "commonName": "",
+          "ktsn": 120000036013
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "distigmata",
+          "commonName": "두점박이털날개나방",
+          "ktsn": 120000036015
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:10:08.140Z",
+        "title": "Nippoptilia distigmata",
+        "description": "species of insect"
+      }
+    },
+    {
+      "ktsn": 120000036016,
+      "scientificName": "Nippoptilia issikii Yano, 1961",
+      "commonName": "검정가슴털날개나방",
+      "terminalLatinName": "issikii",
+      "nomenclaturalAuthor": "Yano",
+      "namingYear": "1961",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Pterophoridae",
+          "commonName": "털날개나방과",
+          "ktsn": 120000035983
+        },
+        "genus": {
+          "scientificName": "Nippoptilia",
+          "commonName": "",
+          "ktsn": 120000036013
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "issikii",
+          "commonName": "검정가슴털날개나방",
+          "ktsn": 120000036016
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:10:08.140Z",
+        "title": "Nippoptilia issikii",
+        "description": "species of insect"
+      }
+    },
+    {
+      "ktsn": 120000036017,
+      "scientificName": "Nippoptilia vitis Sasaki, 1913",
+      "commonName": "포도애털날개나방",
+      "terminalLatinName": "vitis",
+      "nomenclaturalAuthor": "Sasaki",
+      "namingYear": "1913",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Pterophoridae",
+          "commonName": "털날개나방과",
+          "ktsn": 120000035983
+        },
+        "genus": {
+          "scientificName": "Nippoptilia",
+          "commonName": "",
+          "ktsn": 120000036013
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "vitis",
+          "commonName": "포도애털날개나방",
+          "ktsn": 120000036017
+        }
+      },
+      "inat": {
+        "observationCount": 2,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/178962992/medium.jpg",
+        "months": [
+          8
+        ]
+      }
+    },
+    {
+      "ktsn": 120000136348,
+      "scientificName": "Oidaematophorus iwatensis Matsumura, 1931",
+      "commonName": "긴털날개나방",
+      "terminalLatinName": "iwatensis",
+      "nomenclaturalAuthor": "Matsumura",
+      "namingYear": "1931",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Pterophoridae",
+          "commonName": "털날개나방과",
+          "ktsn": 120000035983
+        },
+        "genus": {
+          "scientificName": "Oidaematophorus",
+          "commonName": "",
+          "ktsn": 120000136325
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "iwatensis",
+          "commonName": "긴털날개나방",
+          "ktsn": 120000136348
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:10:08.140Z",
+        "title": "Oidaematophorus iwatensis",
+        "description": "species of insect"
+      }
+    },
+    {
+      "ktsn": 120000036021,
+      "scientificName": "Oxyptilus chrysodactylus Denis & Schiffermüller, 1775",
+      "commonName": "수레국화털날개나방",
+      "terminalLatinName": "chrysodactylus",
+      "nomenclaturalAuthor": "Denis & Schiffermüller",
+      "namingYear": "1775",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Pterophoridae",
+          "commonName": "털날개나방과",
+          "ktsn": 120000035983
+        },
+        "genus": {
+          "scientificName": "Oxyptilus",
+          "commonName": "",
+          "ktsn": 120000036020
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "chrysodactylus",
+          "commonName": "수레국화털날개나방",
+          "ktsn": 120000036021
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:10:08.140Z",
+        "title": "Oxyptilus chrysodactyla",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Oxyptilus_chrysodactyla.JPG/500px-Oxyptilus_chrysodactyla.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/Oxyptilus_chrysodactyla.JPG",
+        "thumbnailSize": {
+          "width": 500,
+          "height": 311
+        },
+        "originalSize": {
+          "width": 640,
+          "height": 398
+        },
+        "filename": "Oxyptilus_chrysodactyla.JPG",
+        "description": "species of insect",
+        "pageUrl": "https://en.wikipedia.org/wiki/Oxyptilus_chrysodactyla",
+        "license": "see Wikimedia Commons",
+        "source": "Wikipedia"
+      }
+    },
+    {
+      "ktsn": 120000211865,
+      "scientificName": "Platyptilia nemoralis Zeller, 1841",
+      "commonName": "금방망이털날개나방",
+      "terminalLatinName": "nemoralis",
+      "nomenclaturalAuthor": "Zeller",
+      "namingYear": "1841",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Pterophoridae",
+          "commonName": "털날개나방과",
+          "ktsn": 120000035983
+        },
+        "genus": {
+          "scientificName": "Platyptilia",
+          "commonName": "",
+          "ktsn": 120000036022
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "nemoralis",
+          "commonName": "금방망이털날개나방",
+          "ktsn": 120000211865
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:10:08.140Z",
+        "title": "Platyptilia nemoralis",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Cf._Platyptilia_nemoralis_%28Grubigstein%29_%2823972787674%29.jpg/500px-Cf._Platyptilia_nemoralis_%28Grubigstein%29_%2823972787674%29.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Cf._Platyptilia_nemoralis_%28Grubigstein%29_%2823972787674%29.jpg",
+        "thumbnailSize": {
+          "width": 500,
+          "height": 333
+        },
+        "originalSize": {
+          "width": 2475,
+          "height": 1650
+        },
+        "filename": "Cf._Platyptilia_nemoralis_(Grubigstein)_(23972787674).jpg",
+        "description": "species of insect",
+        "pageUrl": "https://en.wikipedia.org/wiki/Platyptilia_nemoralis",
+        "license": "see Wikimedia Commons",
+        "source": "Wikipedia"
+      }
+    },
+    {
+      "ktsn": 120000036023,
+      "scientificName": "Platyptilia suigensis Matsumura, 1931",
+      "commonName": "수원털날개나방",
+      "terminalLatinName": "suigensis",
+      "nomenclaturalAuthor": "Matsumura",
+      "namingYear": "1931",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Pterophoridae",
+          "commonName": "털날개나방과",
+          "ktsn": 120000035983
+        },
+        "genus": {
+          "scientificName": "Platyptilia",
+          "commonName": "",
+          "ktsn": 120000036022
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "suigensis",
+          "commonName": "수원털날개나방",
+          "ktsn": 120000036023
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:10:08.140Z",
+        "title": "Platyptilia suigensis",
+        "description": "species of insect"
+      }
+    },
+    {
+      "ktsn": 120000036025,
+      "scientificName": "Procapperia pelecyntes Meyrick, 1908",
+      "commonName": "골무꽃털날개나방",
+      "terminalLatinName": "pelecyntes",
+      "nomenclaturalAuthor": "Meyrick",
+      "namingYear": "1908",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Pterophoridae",
+          "commonName": "털날개나방과",
+          "ktsn": 120000035983
+        },
+        "genus": {
+          "scientificName": "Procapperia",
+          "commonName": "",
+          "ktsn": 120000036024
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "pelecyntes",
+          "commonName": "골무꽃털날개나방",
+          "ktsn": 120000036025
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:10:08.140Z",
+        "title": "Procapperia pelecyntes",
+        "description": "species of insect"
+      }
+    },
+    {
+      "ktsn": 120000036027,
+      "scientificName": "Pselnophorus vilis Butler, 1881",
+      "commonName": "흰공작털날개나방",
+      "terminalLatinName": "vilis",
+      "nomenclaturalAuthor": "Butler",
+      "namingYear": "1881",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Pterophoridae",
+          "commonName": "털날개나방과",
+          "ktsn": 120000035983
+        },
+        "genus": {
+          "scientificName": "Pselnophorus",
+          "commonName": "",
+          "ktsn": 120000036026
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "vilis",
+          "commonName": "흰공작털날개나방",
+          "ktsn": 120000036027
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:10:08.140Z",
+        "title": "Pselnophorus vilis",
+        "description": "species of insect"
+      }
+    },
+    {
+      "ktsn": 120000036029,
+      "scientificName": "Stenodacma pyrrhodes Meyrick, 1889",
+      "commonName": "굽은털날개나방",
+      "terminalLatinName": "pyrrhodes",
+      "nomenclaturalAuthor": "Meyrick",
+      "namingYear": "1889",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Pterophoridae",
+          "commonName": "털날개나방과",
+          "ktsn": 120000035983
+        },
+        "genus": {
+          "scientificName": "Stenodacma",
+          "commonName": "",
+          "ktsn": 120000036028
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "pyrrhodes",
+          "commonName": "굽은털날개나방",
+          "ktsn": 120000036029
+        }
+      },
+      "inat": {
+        "observationCount": 3,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/53527683/medium.jpg",
+        "months": [
+          8,
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "ktsn": 120000036031,
+      "scientificName": "Stenoptilodes taprobanes Felder and Rogenofer, 1875",
+      "commonName": "갈색털날개나방",
+      "terminalLatinName": "taprobanes",
+      "nomenclaturalAuthor": "Felder and Rogenofer",
+      "namingYear": "1875",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Pterophoridae",
+          "commonName": "털날개나방과",
+          "ktsn": 120000035983
+        },
+        "genus": {
+          "scientificName": "Stenoptilodes",
+          "commonName": "",
+          "ktsn": 120000036030
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "taprobanes",
+          "commonName": "갈색털날개나방",
+          "ktsn": 120000036031
+        }
+      },
+      "inat": {
+        "observationCount": 7,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/56508573/medium.jpg",
+        "months": [
+          8,
+          9,
+          11
+        ]
+      }
+    },
+    {
+      "ktsn": 120000036033,
+      "scientificName": "Tomotilus celebratus (Meyrick, 1932)",
+      "commonName": "여우팥털날개나방",
+      "terminalLatinName": "celebratus",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Pterophoridae",
+          "commonName": "털날개나방과",
+          "ktsn": 120000035983
+        },
+        "genus": {
+          "scientificName": "Tomotilus",
+          "commonName": "",
+          "ktsn": 120000036032
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "celebratus",
+          "commonName": "여우팥털날개나방",
+          "ktsn": 120000036033
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:10:08.140Z",
+        "title": "Tomotilus",
+        "description": "genus of insects"
+      }
+    }
+  ]
 }

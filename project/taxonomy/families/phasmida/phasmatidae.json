@@ -1,311 +1,280 @@
 {
-    "generatedAt":  "2026-05-21T07:47:08.025Z",
-    "source":  "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
-    "order":  {
-                  "id":  "phasmida",
-                  "scientificName":  "Phasmida",
-                  "commonName":  "대벌레목",
-                  "orderKtsn":  120000037805,
-                  "abstract":  "대벌레목은 대벌레목과 그 하위분류인 대벌레과의 곤충들을 말한다. 불완전변태를 한다. 몸이 크고 길다랗다. 머리는 작고, 채찍 모양·실 모양의 것이 존재한다. 날개가 있는 것도 있고 없는 것도 있다. 나뭇가지처럼 생긴 생김새로 천적을 속이는 의태로 자신을 보호한다. 지구상에 약 3,000종 이상이 존재한다. 현존하는 종의 대부분은 대벌레아목에 속한다.",
-                  "description":  "대벌레목은 대벌레목과 그 하위분류인 대벌레과의 곤충들을 말한다. 불완전변태를 한다. 몸이 크고 길다랗다. 머리는 작고, 채찍 모양·실 모양의 것이 존재한다. 날개가 있는 것도 있고 없는 것도 있다. 나뭇가지처럼 생긴 생김새로 천적을 속이는 의태로 자신을 보호한다. 지구상에 약 3,000종 이상이 존재한다. 현존하는 종의 대부분은 대벌레아목에 속한다."
-              },
-    "family":  {
-                   "id":  "phasmatidae",
-                   "scientificName":  "Phasmatidae",
-                   "commonName":  "대벌레과",
-                   "familyKtsn":  120000037812
-               },
-    "speciesCount":  3,
-    "insects":  [
-                    {
-                        "ktsn":  120000226406,
-                        "scientificName":  "Phraortes elongatus (Thunberg, 1815)",
-                        "commonName":  "긴수염대벌레",
-                        "terminalLatinName":  "elongatus",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Phasmida",
-                                                       "commonName":  "대벌레목",
-                                                       "ktsn":  120000037805
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Phasmatidae",
-                                                        "commonName":  "대벌레과",
-                                                        "ktsn":  120000037812
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Phraortes",
-                                                       "commonName":  "긴수염대벌레속",
-                                                       "ktsn":  120000037813
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "elongatus",
-                                                         "commonName":  "긴수염대벌레",
-                                                         "ktsn":  120000226406
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  1081185,
-                                    "canonical":  "Phraortes elongatus",
-                                    "fetchedAt":  "2026-05-24T18:40:31.686Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-                                                                   "긴수염대벌레"
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-                                                                   "エダナナフシ"
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-                                                       "Japan",
-                                                       "South Korea",
-                                                       "China"
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  62
-                                },
-                        "inat":  {
-                                     "observationCount":  26,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/314698305/medium.jpeg",
-                                     "months":  [
-                                                    5,
-                                                    6,
-                                                    7,
-                                                    8,
-                                                    9,
-                                                    11
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000226951,
-                        "scientificName":  "Ramulus mikado (Rehn, 1904)",
-                        "commonName":  "대벌레",
-                        "terminalLatinName":  "mikado",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Phasmida",
-                                                       "commonName":  "대벌레목",
-                                                       "ktsn":  120000037805
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Phasmatidae",
-                                                        "commonName":  "대벌레과",
-                                                        "ktsn":  120000037812
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Ramulus",
-                                                       "commonName":  "대벌레속",
-                                                       "ktsn":  120000037818
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "mikado",
-                                                         "commonName":  "대벌레",
-                                                         "ktsn":  120000226951
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  50945620,
-                                    "canonical":  "Ramulus mikado",
-                                    "fetchedAt":  "2026-05-24T18:40:39.774Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-                                                                   "대벌레"
-                                                               ],
-                                                        "en":  [
-                                                                   "Mikado Walking Stick"
-                                                               ],
-                                                        "ja":  [
-                                                                   "ナナフシ",
-                                                                   "ナナフシモドキ"
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-                                                       "Japan"
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  null
-                                },
-                        "inat":  {
-                                     "observationCount":  88,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/403644486/medium.jpg",
-                                     "months":  [
-                                                    4,
-                                                    5,
-                                                    6,
-                                                    7,
-                                                    8,
-                                                    9
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000474002,
-                        "scientificName":  "Ramulus ussurianus (Bey-Bienko, 1960)",
-                        "commonName":  "우리대벌레",
-                        "terminalLatinName":  "ussurianus",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Phasmida",
-                                                       "commonName":  "대벌레목",
-                                                       "ktsn":  120000037805
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Phasmatidae",
-                                                        "commonName":  "대벌레과",
-                                                        "ktsn":  120000037812
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Ramulus",
-                                                       "commonName":  "대벌레속",
-                                                       "ktsn":  120000037818
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "ussurianus",
-                                                         "commonName":  "우리대벌레",
-                                                         "ktsn":  120000474002
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  1078152,
-                                    "canonical":  "Ramulus ussurianus",
-                                    "fetchedAt":  "2026-05-24T18:40:47.249Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-                                                                   "우수리대벌레"
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-                                                       "Russia",
-                                                       "Korea",
-                                                       "China"
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  25
-                                }
-                    }
-                ]
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "phasmida",
+    "scientificName": "Phasmida",
+    "commonName": "대벌레목",
+    "orderKtsn": 120000037805,
+    "abstract": "대벌레목은 대벌레목과 그 하위분류인 대벌레과의 곤충들을 말한다. 불완전변태를 한다. 몸이 크고 길다랗다. 머리는 작고, 채찍 모양·실 모양의 것이 존재한다. 날개가 있는 것도 있고 없는 것도 있다. 나뭇가지처럼 생긴 생김새로 천적을 속이는 의태로 자신을 보호한다. 지구상에 약 3,000종 이상이 존재한다. 현존하는 종의 대부분은 대벌레아목에 속한다.",
+    "description": "대벌레목은 대벌레목과 그 하위분류인 대벌레과의 곤충들을 말한다. 불완전변태를 한다. 몸이 크고 길다랗다. 머리는 작고, 채찍 모양·실 모양의 것이 존재한다. 날개가 있는 것도 있고 없는 것도 있다. 나뭇가지처럼 생긴 생김새로 천적을 속이는 의태로 자신을 보호한다. 지구상에 약 3,000종 이상이 존재한다. 현존하는 종의 대부분은 대벌레아목에 속한다."
+  },
+  "family": {
+    "id": "phasmatidae",
+    "scientificName": "Phasmatidae",
+    "commonName": "대벌레과",
+    "familyKtsn": 120000037812
+  },
+  "speciesCount": 3,
+  "insects": [
+    {
+      "ktsn": 120000226406,
+      "scientificName": "Phraortes elongatus (Thunberg, 1815)",
+      "commonName": "긴수염대벌레",
+      "terminalLatinName": "elongatus",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Phasmida",
+          "commonName": "대벌레목",
+          "ktsn": 120000037805
+        },
+        "family": {
+          "scientificName": "Phasmatidae",
+          "commonName": "대벌레과",
+          "ktsn": 120000037812
+        },
+        "genus": {
+          "scientificName": "Phraortes",
+          "commonName": "긴수염대벌레속",
+          "ktsn": 120000037813
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "elongatus",
+          "commonName": "긴수염대벌레",
+          "ktsn": 120000226406
+        }
+      },
+      "eol": {
+        "pageId": 1081185,
+        "canonical": "Phraortes elongatus",
+        "fetchedAt": "2026-05-24T18:40:31.686Z",
+        "vernaculars": {
+          "ko": [
+            "긴수염대벌레"
+          ],
+          "en": [],
+          "ja": [
+            "エダナナフシ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "Japan",
+          "South Korea",
+          "China"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 62
+      },
+      "inat": {
+        "observationCount": 26,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/314698305/medium.jpeg",
+        "months": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          11
+        ]
+      }
+    },
+    {
+      "ktsn": 120000226951,
+      "scientificName": "Ramulus mikado (Rehn, 1904)",
+      "commonName": "대벌레",
+      "terminalLatinName": "mikado",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Phasmida",
+          "commonName": "대벌레목",
+          "ktsn": 120000037805
+        },
+        "family": {
+          "scientificName": "Phasmatidae",
+          "commonName": "대벌레과",
+          "ktsn": 120000037812
+        },
+        "genus": {
+          "scientificName": "Ramulus",
+          "commonName": "대벌레속",
+          "ktsn": 120000037818
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "mikado",
+          "commonName": "대벌레",
+          "ktsn": 120000226951
+        }
+      },
+      "eol": {
+        "pageId": 50945620,
+        "canonical": "Ramulus mikado",
+        "fetchedAt": "2026-05-24T18:40:39.774Z",
+        "vernaculars": {
+          "ko": [
+            "대벌레"
+          ],
+          "en": [
+            "Mikado Walking Stick"
+          ],
+          "ja": [
+            "ナナフシ",
+            "ナナフシモドキ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "Japan"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "inat": {
+        "observationCount": 88,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/403644486/medium.jpg",
+        "months": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    },
+    {
+      "ktsn": 120000474002,
+      "scientificName": "Ramulus ussurianus (Bey-Bienko, 1960)",
+      "commonName": "우리대벌레",
+      "terminalLatinName": "ussurianus",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Phasmida",
+          "commonName": "대벌레목",
+          "ktsn": 120000037805
+        },
+        "family": {
+          "scientificName": "Phasmatidae",
+          "commonName": "대벌레과",
+          "ktsn": 120000037812
+        },
+        "genus": {
+          "scientificName": "Ramulus",
+          "commonName": "대벌레속",
+          "ktsn": 120000037818
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "ussurianus",
+          "commonName": "우리대벌레",
+          "ktsn": 120000474002
+        }
+      },
+      "eol": {
+        "pageId": 1078152,
+        "canonical": "Ramulus ussurianus",
+        "fetchedAt": "2026-05-24T18:40:47.249Z",
+        "vernaculars": {
+          "ko": [
+            "우수리대벌레"
+          ],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [
+          "Russia",
+          "Korea",
+          "China"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 25
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:10:28.370Z"
+      }
+    }
+  ]
 }

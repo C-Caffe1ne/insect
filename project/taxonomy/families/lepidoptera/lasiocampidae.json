@@ -1,1667 +1,1610 @@
 {
-    "generatedAt":  "2026-05-21T07:47:08.025Z",
-    "source":  "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
-    "order":  {
-                  "id":  "lepidoptera",
-                  "scientificName":  "Lepidoptera",
-                  "commonName":  "나비목",
-                  "orderKtsn":  120000031663
-              },
-    "family":  {
-                   "id":  "lasiocampidae",
-                   "scientificName":  "Lasiocampidae",
-                   "commonName":  "솔나방과",
-                   "familyKtsn":  120000034264,
-                   "abstract":  "솔나방과는 곤충강 나비목의 한 과로, 세계적으로 150속에 약 2000여 종이 속해 있다.",
-                   "description":  "솔나방과는 곤충강 나비목의 한 과로, 세계적으로 150속에 약 2000여 종이 속해 있다."
-               },
-    "speciesCount":  23,
-    "insects":  [
-                    {
-                        "ktsn":  120000034266,
-                        "scientificName":  "Amurilla subpurpurea (Butler, 1881)",
-                        "commonName":  "분홍나방",
-                        "terminalLatinName":  "subpurpurea",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Lasiocampidae",
-                                                        "commonName":  "솔나방과",
-                                                        "ktsn":  120000034264
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Amurilla",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000034265
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "subpurpurea",
-                                                         "commonName":  "분홍나방",
-                                                         "ktsn":  120000034266
-                                                     }
-                                     },
-                        "inat":  {
-                                     "observationCount":  1,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/417240245/medium.jpg",
-                                     "months":  [
-                                                    8
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000034268,
-                        "scientificName":  "Arguda vinata (Moore, 1865)",
-                        "commonName":  "줄무늬솔나방",
-                        "terminalLatinName":  "vinata",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Lasiocampidae",
-                                                        "commonName":  "솔나방과",
-                                                        "ktsn":  120000034264
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Arguda",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000034267
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "vinata",
-                                                         "commonName":  "줄무늬솔나방",
-                                                         "ktsn":  120000034268
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  391403,
-                                    "canonical":  "Arguda vinata",
-                                    "fetchedAt":  "2026-05-24T11:29:50.526Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-                                                                   "줄무늬솔나방"
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  18
-                                },
-                        "inat":  {
-                                     "observationCount":  2,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/172553520/medium.jpeg",
-                                     "months":  [
-                                                    1,
-                                                    12
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000034270,
-                        "scientificName":  "Bhima idiota (Graeser, 1888)",
-                        "commonName":  "오얏나무나방",
-                        "terminalLatinName":  "idiota",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Lasiocampidae",
-                                                        "commonName":  "솔나방과",
-                                                        "ktsn":  120000034264
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Bhima",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000034269
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "idiota",
-                                                         "commonName":  "오얏나무나방",
-                                                         "ktsn":  120000034270
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  382347,
-                                    "canonical":  "Bhima idiota",
-                                    "fetchedAt":  "2026-05-24T11:29:53.258Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  null
-                                }
-                    },
-                    {
-                        "ktsn":  120000034272,
-                        "scientificName":  "Cosmotriche lunigera (Esper, 1784)",
-                        "commonName":  "젓나무나방",
-                        "terminalLatinName":  "lunigera",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Lasiocampidae",
-                                                        "commonName":  "솔나방과",
-                                                        "ktsn":  120000034264
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Cosmotriche",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000034271
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "lunigera",
-                                                         "commonName":  "젓나무나방",
-                                                         "ktsn":  120000034272
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  387576,
-                                    "canonical":  "Cosmotriche lunigera",
-                                    "fetchedAt":  "2026-05-24T11:29:55.768Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-                                                       "Italy",
-                                                       "Germany",
-                                                       "Austria"
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  null
-                                }
-                    },
-                    {
-                        "ktsn":  120000034278,
-                        "scientificName":  "Dendrolimus spectabilis (Butler, 1877)",
-                        "commonName":  "솔나방",
-                        "terminalLatinName":  "spectabilis",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Lasiocampidae",
-                                                        "commonName":  "솔나방과",
-                                                        "ktsn":  120000034264
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Dendrolimus",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000034277
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "spectabilis",
-                                                         "commonName":  "솔나방",
-                                                         "ktsn":  120000034278
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  382195,
-                                    "canonical":  "Dendrolimus spectabilis",
-                                    "fetchedAt":  "2026-05-24T11:29:58.769Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-                                                                   "솔나방"
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-                                                                   "マツカレハ"
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-                                                       "Japan",
-                                                       "South Korea"
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  1184
-                                },
-                        "inat":  {
-                                     "observationCount":  3,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/235663744/medium.jpeg",
-                                     "months":  [
-                                                    5,
-                                                    6,
-                                                    8
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000034279,
-                        "scientificName":  "Dendrolimus superans (Butler, 1877)",
-                        "commonName":  "솔송나방",
-                        "terminalLatinName":  "superans",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Lasiocampidae",
-                                                        "commonName":  "솔나방과",
-                                                        "ktsn":  120000034264
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Dendrolimus",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000034277
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "superans",
-                                                         "commonName":  "솔송나방",
-                                                         "ktsn":  120000034279
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  382191,
-                                    "canonical":  "Dendrolimus superans",
-                                    "fetchedAt":  "2026-05-24T11:30:03.275Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-                                                                   "솔송나방"
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-                                                                   "ツガカレハ"
-                                                               ]
-                                                    },
-                                    "habitat":  [
-                                                    "terrestrial"
-                                                ],
-                                    "geographic":  [
-                                                       "Russia",
-                                                       "South Korea",
-                                                       "Japan",
-                                                       "North Pacific"
-                                                   ],
-                                    "introduced":  [
-                                                       "Kazakhstan",
-                                                       "Asia",
-                                                       "South Korea",
-                                                       "Poland",
-                                                       "Central Asia",
-                                                       "Mongolia",
-                                                       "Japan"
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  140
-                                },
-                        "inat":  {
-                                     "observationCount":  10,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/43965680/medium.png",
-                                     "months":  [
-                                                    7
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000034281,
-                        "scientificName":  "Euthrix albomaculata (Bremer, 1861)",
-                        "commonName":  "대나방",
-                        "terminalLatinName":  "albomaculata",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Lasiocampidae",
-                                                        "commonName":  "솔나방과",
-                                                        "ktsn":  120000034264
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Euthrix",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000034280
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "albomaculata",
-                                                         "commonName":  "대나방",
-                                                         "ktsn":  120000034281
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  392107,
-                                    "canonical":  "Euthrix albomaculata",
-                                    "fetchedAt":  "2026-05-24T11:30:06.244Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-                                                                   "대나방"
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-                                                                   "タケカレハ"
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-                                                       "Japan",
-                                                       "Russia",
-                                                       "China"
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  512
-                                },
-                        "inat":  {
-                                     "observationCount":  3,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/305675041/medium.jpg",
-                                     "months":  [
-                                                    7,
-                                                    8
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000510916,
-                        "scientificName":  "Euthrix laeta sulphurea (Aurivillius, 1894)",
-                        "commonName":  "별나방",
-                        "terminalLatinName":  "sulphurea",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Lasiocampidae",
-                                                        "commonName":  "솔나방과",
-                                                        "ktsn":  120000034264
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Euthrix",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000034280
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "laeta",
-                                                         "commonName":  "",
-                                                         "ktsn":  120000091139
-                                                     }
-                                     },
-                        "inat":  {
-                                     "observationCount":  1,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/562520773/medium.jpg",
-                                     "months":  [
-                                                    8
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000034282,
-                        "scientificName":  "Euthrix potatoria (Linnaeus, 1758)",
-                        "commonName":  "갈대나방",
-                        "terminalLatinName":  "potatoria",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Lasiocampidae",
-                                                        "commonName":  "솔나방과",
-                                                        "ktsn":  120000034264
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Euthrix",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000034280
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "potatoria",
-                                                         "commonName":  "갈대나방",
-                                                         "ktsn":  120000034282
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  382122,
-                                    "canonical":  "Euthrix potatoria",
-                                    "fetchedAt":  "2026-05-24T11:30:09.010Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-                                                                   "갈대나방"
-                                                               ],
-                                                        "en":  [
-                                                                   "Drinker Moth",
-                                                                   "The Drinker",
-                                                                   "drinker"
-                                                               ],
-                                                        "ja":  [
-                                                                   "ヨシカレハ"
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-                                                       "North Atlantic",
-                                                       "Japan",
-                                                       "United Kingdom",
-                                                       "The Netherlands",
-                                                       "Switzerland",
-                                                       "Sweden",
-                                                       "Spain",
-                                                       "Russia",
-                                                       "Poland",
-                                                       "Norway",
-                                                       "Luxembourg",
-                                                       "Lithuania",
-                                                       "Latvia",
-                                                       "Ireland",
-                                                       "Germany",
-                                                       "France",
-                                                       "Finland",
-                                                       "Estonia",
-                                                       "Denmark",
-                                                       "Czech Republic",
-                                                       "Belgium",
-                                                       "Belarus",
-                                                       "Austria"
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  150799
-                                },
-                        "inat":  {
-                                     "observationCount":  80,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/204416159/medium.jpeg",
-                                     "months":  [
-                                                    4,
-                                                    5,
-                                                    6,
-                                                    7,
-                                                    8,
-                                                    9,
-                                                    10
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000034285,
-                        "scientificName":  "Gastropacha clathrata Bryk, 1948",
-                        "commonName":  "북방버들나방",
-                        "terminalLatinName":  "clathrata",
-                        "nomenclaturalAuthor":  "Bryk",
-                        "namingYear":  "1948",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Lasiocampidae",
-                                                        "commonName":  "솔나방과",
-                                                        "ktsn":  120000034264
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Gastropacha",
-                                                       "commonName":  "버들나방속",
-                                                       "ktsn":  120000034284
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "clathrata",
-                                                         "commonName":  "북방버들나방",
-                                                         "ktsn":  120000034285
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000034286,
-                        "scientificName":  "Gastropacha orientalis Sheljuzhko, 1943",
-                        "commonName":  "톱날버들나방",
-                        "terminalLatinName":  "orientalis",
-                        "nomenclaturalAuthor":  "Sheljuzhko",
-                        "namingYear":  "1943",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Lasiocampidae",
-                                                        "commonName":  "솔나방과",
-                                                        "ktsn":  120000034264
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Gastropacha",
-                                                       "commonName":  "버들나방속",
-                                                       "ktsn":  120000034284
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "orientalis",
-                                                         "commonName":  "톱날버들나방",
-                                                         "ktsn":  120000034286
-                                                     }
-                                     },
-                        "inat":  {
-                                     "observationCount":  1,
-                                     "imageUrl":  null,
-                                     "months":  [
-                                                    6
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000034288,
-                        "scientificName":  "Gastropacha populifolia angustipennis (Walker, 1885)",
-                        "commonName":  "버들나방",
-                        "terminalLatinName":  "angustipennis",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Lasiocampidae",
-                                                        "commonName":  "솔나방과",
-                                                        "ktsn":  120000034264
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Gastropacha",
-                                                       "commonName":  "버들나방속",
-                                                       "ktsn":  120000034284
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "populifolia",
-                                                         "commonName":  "버들나방",
-                                                         "ktsn":  120000034287
-                                                     }
-                                     },
-                        "inat":  {
-                                     "observationCount":  8,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/216191774/medium.jpg",
-                                     "months":  [
-                                                    6,
-                                                    7,
-                                                    8
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000034290,
-                        "scientificName":  "Gastropacha quercifolia cerridifolia Felder and Felder, 1862",
-                        "commonName":  "배버들나방",
-                        "terminalLatinName":  "cerridifolia",
-                        "nomenclaturalAuthor":  "Felder and Felder",
-                        "namingYear":  "1862",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Lasiocampidae",
-                                                        "commonName":  "솔나방과",
-                                                        "ktsn":  120000034264
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Gastropacha",
-                                                       "commonName":  "버들나방속",
-                                                       "ktsn":  120000034284
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "quercifolia",
-                                                         "commonName":  "",
-                                                         "ktsn":  120000034289
-                                                     }
-                                     },
-                        "inat":  {
-                                     "observationCount":  30,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/223636476/medium.jpeg",
-                                     "months":  [
-                                                    5,
-                                                    6,
-                                                    7
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000091121,
-                        "scientificName":  "Kunugia undans (Walker, 1855)",
-                        "commonName":  "섭나방",
-                        "terminalLatinName":  "undans",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Lasiocampidae",
-                                                        "commonName":  "솔나방과",
-                                                        "ktsn":  120000034264
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Kunugia",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000067841
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "undans",
-                                                         "commonName":  "섭나방",
-                                                         "ktsn":  120000091121
-                                                     }
-                                     },
-                        "inat":  {
-                                     "observationCount":  13,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/98573565/medium.jpeg",
-                                     "months":  [
-                                                    7,
-                                                    9,
-                                                    10
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000091144,
-                        "scientificName":  "Kunugia yamadai (Nagano, 1917)",
-                        "commonName":  "도토리나방",
-                        "terminalLatinName":  "yamadai",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Lasiocampidae",
-                                                        "commonName":  "솔나방과",
-                                                        "ktsn":  120000034264
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Kunugia",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000067841
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "yamadai",
-                                                         "commonName":  "도토리나방",
-                                                         "ktsn":  120000091144
-                                                     }
-                                     },
-                        "inat":  {
-                                     "observationCount":  1,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/246058194/medium.jpeg",
-                                     "months":  [
-                                                    12
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000034293,
-                        "scientificName":  "Malacosoma neustria testacea (Motschulsky, [1861])",
-                        "commonName":  "천막벌레나방",
-                        "terminalLatinName":  "testacea",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Lasiocampidae",
-                                                        "commonName":  "솔나방과",
-                                                        "ktsn":  120000034264
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Malacosoma",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000034291
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "neustria",
-                                                         "commonName":  "천막벌레나방",
-                                                         "ktsn":  120000034292
-                                                     }
-                                     },
-                        "abstract":  "천막벌레나방(학명: Malacosoma neustria 말라코스마 네우스트리아[*], lackey moth)은 솔나방과에 속하는 나방이다. 칼 폰 린네가 자신의 1758년 책 《자연의 체계 제10권》에 처음 기술하였다. 원산지는 브리튼 제도 남부 및 중부 유럽이다. 천막벌레나방의 애벌레는 주황색과 하얀색 띠가 있는, 푸른빛이 감도는 갈색을 띠며 큰키나무나 작은키나무에 견사를 둘러 쳐서 지은 집으로 몸의 온도를 조절한다.",
-                        "description":  "천막벌레나방(학명: Malacosoma neustria 말라코스마 네우스트리아[*], lackey moth)은 솔나방과에 속하는 나방이다. 칼 폰 린네가 자신의 1758년 책 《자연의 체계 제10권》에 처음 기술하였다. 원산지는 브리튼 제도 남부 및 중부 유럽이다. 천막벌레나방의 애벌레는 주황색과 하얀색 띠가 있는, 푸른빛이 감도는 갈색을 띠며 큰키나무나 작은키나무에 견사를 둘러 쳐서 지은 집으로 몸의 온도를 조절한다.",
-                        "inat":  {
-                                     "observationCount":  4,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/62135594/medium.jpg",
-                                     "months":  [
-                                                    4,
-                                                    5
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000034295,
-                        "scientificName":  "Metanastria gemella De Lajonquigère, 1979",
-                        "commonName":  "완장나방",
-                        "terminalLatinName":  "gemella",
-                        "nomenclaturalAuthor":  "De Lajonquigère",
-                        "namingYear":  "1979",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Lasiocampidae",
-                                                        "commonName":  "솔나방과",
-                                                        "ktsn":  120000034264
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Metanastria",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000034294
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "gemella",
-                                                         "commonName":  "완장나방",
-                                                         "ktsn":  120000034295
-                                                     }
-                                     },
-                        "inat":  {
-                                     "observationCount":  2,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/112976839/medium.jpg",
-                                     "months":  [
-                                                    2,
-                                                    5
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000034298,
-                        "scientificName":  "Odonestis pruni rufescens Kardakoff, 1928",
-                        "commonName":  "사과나무나방",
-                        "terminalLatinName":  "rufescens",
-                        "nomenclaturalAuthor":  "Kardakoff",
-                        "namingYear":  "1928",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Lasiocampidae",
-                                                        "commonName":  "솔나방과",
-                                                        "ktsn":  120000034264
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Odonestis",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000034296
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "pruni",
-                                                         "commonName":  "",
-                                                         "ktsn":  120000034297
-                                                     }
-                                     },
-                        "inat":  {
-                                     "observationCount":  29,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/82104266/medium.png",
-                                     "months":  [
-                                                    6,
-                                                    7,
-                                                    8,
-                                                    9
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000034303,
-                        "scientificName":  "Paralebeda femorata (Ménétriès, 1858)",
-                        "commonName":  "대만나방",
-                        "terminalLatinName":  "femorata",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Lasiocampidae",
-                                                        "commonName":  "솔나방과",
-                                                        "ktsn":  120000034264
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Paralebeda",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000034302
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "femorata",
-                                                         "commonName":  "대만나방",
-                                                         "ktsn":  120000034303
-                                                     }
-                                     },
-                        "inat":  {
-                                     "observationCount":  5,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/107645480/medium.jpeg",
-                                     "months":  [
-                                                    7,
-                                                    8,
-                                                    9,
-                                                    12
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000034305,
-                        "scientificName":  "Phyllodesma japonica (Leech, 1888)",
-                        "commonName":  "벚나방",
-                        "terminalLatinName":  "japonica",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Lasiocampidae",
-                                                        "commonName":  "솔나방과",
-                                                        "ktsn":  120000034264
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Phyllodesma",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000034304
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "japonica",
-                                                         "commonName":  "벚나방",
-                                                         "ktsn":  120000034305
-                                                     }
-                                     },
-                        "inat":  {
-                                     "observationCount":  2,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/496560997/medium.jpg",
-                                     "months":  [
-                                                    4,
-                                                    5
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000034307,
-                        "scientificName":  "Poecilocampa tenera Bang-Haas, 1927",
-                        "commonName":  "솔개사시나방",
-                        "terminalLatinName":  "tenera",
-                        "nomenclaturalAuthor":  "Bang-Haas",
-                        "namingYear":  "1927",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Lasiocampidae",
-                                                        "commonName":  "솔나방과",
-                                                        "ktsn":  120000034264
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Poecilocampa",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000034306
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "tenera",
-                                                         "commonName":  "솔개사시나방",
-                                                         "ktsn":  120000034307
-                                                     }
-                                     },
-                        "inat":  {
-                                     "observationCount":  6,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/582472433/medium.jpg",
-                                     "months":  [
-                                                    11
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000034309,
-                        "scientificName":  "Pyrosis eximia Oberthür, 1880",
-                        "commonName":  "가운데노랑솔나방",
-                        "terminalLatinName":  "eximia",
-                        "nomenclaturalAuthor":  "Oberthür",
-                        "namingYear":  "1880",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Lasiocampidae",
-                                                        "commonName":  "솔나방과",
-                                                        "ktsn":  120000034264
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Pyrosis",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000034308
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "eximia",
-                                                         "commonName":  "가운데노랑솔나방",
-                                                         "ktsn":  120000034309
-                                                     }
-                                     },
-                        "inat":  {
-                                     "observationCount":  1,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/160394928/medium.jpeg",
-                                     "months":  [
-                                                    9
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000034311,
-                        "scientificName":  "Syrastrenopsis moltrechti Grünberg, 1914",
-                        "commonName":  "적갈색솔나방",
-                        "terminalLatinName":  "moltrechti",
-                        "nomenclaturalAuthor":  "Grünberg",
-                        "namingYear":  "1914",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Lasiocampidae",
-                                                        "commonName":  "솔나방과",
-                                                        "ktsn":  120000034264
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Syrastrenopsis",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000034310
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "moltrechti",
-                                                         "commonName":  "적갈색솔나방",
-                                                         "ktsn":  120000034311
-                                                     }
-                                     },
-                        "inat":  {
-                                     "observationCount":  1,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/582826782/medium.jpg",
-                                     "months":  [
-                                                    10
-                                                ]
-                                 }
-                    }
-                ]
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "lepidoptera",
+    "scientificName": "Lepidoptera",
+    "commonName": "나비목",
+    "orderKtsn": 120000031663
+  },
+  "family": {
+    "id": "lasiocampidae",
+    "scientificName": "Lasiocampidae",
+    "commonName": "솔나방과",
+    "familyKtsn": 120000034264,
+    "abstract": "솔나방과는 곤충강 나비목의 한 과로, 세계적으로 150속에 약 2000여 종이 속해 있다.",
+    "description": "솔나방과는 곤충강 나비목의 한 과로, 세계적으로 150속에 약 2000여 종이 속해 있다."
+  },
+  "speciesCount": 23,
+  "insects": [
+    {
+      "ktsn": 120000034266,
+      "scientificName": "Amurilla subpurpurea (Butler, 1881)",
+      "commonName": "분홍나방",
+      "terminalLatinName": "subpurpurea",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Lasiocampidae",
+          "commonName": "솔나방과",
+          "ktsn": 120000034264
+        },
+        "genus": {
+          "scientificName": "Amurilla",
+          "commonName": "",
+          "ktsn": 120000034265
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "subpurpurea",
+          "commonName": "분홍나방",
+          "ktsn": 120000034266
+        }
+      },
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/417240245/medium.jpg",
+        "months": [
+          8
+        ]
+      }
+    },
+    {
+      "ktsn": 120000034268,
+      "scientificName": "Arguda vinata (Moore, 1865)",
+      "commonName": "줄무늬솔나방",
+      "terminalLatinName": "vinata",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Lasiocampidae",
+          "commonName": "솔나방과",
+          "ktsn": 120000034264
+        },
+        "genus": {
+          "scientificName": "Arguda",
+          "commonName": "",
+          "ktsn": 120000034267
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "vinata",
+          "commonName": "줄무늬솔나방",
+          "ktsn": 120000034268
+        }
+      },
+      "eol": {
+        "pageId": 391403,
+        "canonical": "Arguda vinata",
+        "fetchedAt": "2026-05-24T11:29:50.526Z",
+        "vernaculars": {
+          "ko": [
+            "줄무늬솔나방"
+          ],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 18
+      },
+      "inat": {
+        "observationCount": 2,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/172553520/medium.jpeg",
+        "months": [
+          1,
+          12
+        ]
+      }
+    },
+    {
+      "ktsn": 120000034270,
+      "scientificName": "Bhima idiota (Graeser, 1888)",
+      "commonName": "오얏나무나방",
+      "terminalLatinName": "idiota",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Lasiocampidae",
+          "commonName": "솔나방과",
+          "ktsn": 120000034264
+        },
+        "genus": {
+          "scientificName": "Bhima",
+          "commonName": "",
+          "ktsn": 120000034269
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "idiota",
+          "commonName": "오얏나무나방",
+          "ktsn": 120000034270
+        }
+      },
+      "eol": {
+        "pageId": 382347,
+        "canonical": "Bhima idiota",
+        "fetchedAt": "2026-05-24T11:29:53.258Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:09:51.385Z"
+      }
+    },
+    {
+      "ktsn": 120000034272,
+      "scientificName": "Cosmotriche lunigera (Esper, 1784)",
+      "commonName": "젓나무나방",
+      "terminalLatinName": "lunigera",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Lasiocampidae",
+          "commonName": "솔나방과",
+          "ktsn": 120000034264
+        },
+        "genus": {
+          "scientificName": "Cosmotriche",
+          "commonName": "",
+          "ktsn": 120000034271
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "lunigera",
+          "commonName": "젓나무나방",
+          "ktsn": 120000034272
+        }
+      },
+      "eol": {
+        "pageId": 387576,
+        "canonical": "Cosmotriche lunigera",
+        "fetchedAt": "2026-05-24T11:29:55.768Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [
+          "Italy",
+          "Germany",
+          "Austria"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:09:51.385Z",
+        "title": "Cosmotriche lobulina",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Cosmotriche_lobulina_Buchstein01.jpg/500px-Cosmotriche_lobulina_Buchstein01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/Cosmotriche_lobulina_Buchstein01.jpg",
+        "thumbnailSize": {
+          "width": 500,
+          "height": 362
+        },
+        "originalSize": {
+          "width": 3228,
+          "height": 2336
+        },
+        "filename": "Cosmotriche_lobulina_Buchstein01.jpg",
+        "description": "species of insect",
+        "pageUrl": "https://en.wikipedia.org/wiki/Cosmotriche_lobulina",
+        "license": "see Wikimedia Commons",
+        "source": "Wikipedia"
+      }
+    },
+    {
+      "ktsn": 120000034278,
+      "scientificName": "Dendrolimus spectabilis (Butler, 1877)",
+      "commonName": "솔나방",
+      "terminalLatinName": "spectabilis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Lasiocampidae",
+          "commonName": "솔나방과",
+          "ktsn": 120000034264
+        },
+        "genus": {
+          "scientificName": "Dendrolimus",
+          "commonName": "",
+          "ktsn": 120000034277
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "spectabilis",
+          "commonName": "솔나방",
+          "ktsn": 120000034278
+        }
+      },
+      "eol": {
+        "pageId": 382195,
+        "canonical": "Dendrolimus spectabilis",
+        "fetchedAt": "2026-05-24T11:29:58.769Z",
+        "vernaculars": {
+          "ko": [
+            "솔나방"
+          ],
+          "en": [],
+          "ja": [
+            "マツカレハ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "Japan",
+          "South Korea"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 1184
+      },
+      "inat": {
+        "observationCount": 3,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/235663744/medium.jpeg",
+        "months": [
+          5,
+          6,
+          8
+        ]
+      }
+    },
+    {
+      "ktsn": 120000034279,
+      "scientificName": "Dendrolimus superans (Butler, 1877)",
+      "commonName": "솔송나방",
+      "terminalLatinName": "superans",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Lasiocampidae",
+          "commonName": "솔나방과",
+          "ktsn": 120000034264
+        },
+        "genus": {
+          "scientificName": "Dendrolimus",
+          "commonName": "",
+          "ktsn": 120000034277
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "superans",
+          "commonName": "솔송나방",
+          "ktsn": 120000034279
+        }
+      },
+      "eol": {
+        "pageId": 382191,
+        "canonical": "Dendrolimus superans",
+        "fetchedAt": "2026-05-24T11:30:03.275Z",
+        "vernaculars": {
+          "ko": [
+            "솔송나방"
+          ],
+          "en": [],
+          "ja": [
+            "ツガカレハ"
+          ]
+        },
+        "habitat": [
+          "terrestrial"
+        ],
+        "geographic": [
+          "Russia",
+          "South Korea",
+          "Japan",
+          "North Pacific"
+        ],
+        "introduced": [
+          "Kazakhstan",
+          "Asia",
+          "South Korea",
+          "Poland",
+          "Central Asia",
+          "Mongolia",
+          "Japan"
+        ],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 140
+      },
+      "inat": {
+        "observationCount": 10,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/43965680/medium.png",
+        "months": [
+          7
+        ]
+      }
+    },
+    {
+      "ktsn": 120000034281,
+      "scientificName": "Euthrix albomaculata (Bremer, 1861)",
+      "commonName": "대나방",
+      "terminalLatinName": "albomaculata",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Lasiocampidae",
+          "commonName": "솔나방과",
+          "ktsn": 120000034264
+        },
+        "genus": {
+          "scientificName": "Euthrix",
+          "commonName": "",
+          "ktsn": 120000034280
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "albomaculata",
+          "commonName": "대나방",
+          "ktsn": 120000034281
+        }
+      },
+      "eol": {
+        "pageId": 392107,
+        "canonical": "Euthrix albomaculata",
+        "fetchedAt": "2026-05-24T11:30:06.244Z",
+        "vernaculars": {
+          "ko": [
+            "대나방"
+          ],
+          "en": [],
+          "ja": [
+            "タケカレハ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "Japan",
+          "Russia",
+          "China"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 512
+      },
+      "inat": {
+        "observationCount": 3,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/305675041/medium.jpg",
+        "months": [
+          7,
+          8
+        ]
+      }
+    },
+    {
+      "ktsn": 120000510916,
+      "scientificName": "Euthrix laeta sulphurea (Aurivillius, 1894)",
+      "commonName": "별나방",
+      "terminalLatinName": "sulphurea",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Lasiocampidae",
+          "commonName": "솔나방과",
+          "ktsn": 120000034264
+        },
+        "genus": {
+          "scientificName": "Euthrix",
+          "commonName": "",
+          "ktsn": 120000034280
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "laeta",
+          "commonName": "",
+          "ktsn": 120000091139
+        }
+      },
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/562520773/medium.jpg",
+        "months": [
+          8
+        ]
+      }
+    },
+    {
+      "ktsn": 120000034282,
+      "scientificName": "Euthrix potatoria (Linnaeus, 1758)",
+      "commonName": "갈대나방",
+      "terminalLatinName": "potatoria",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Lasiocampidae",
+          "commonName": "솔나방과",
+          "ktsn": 120000034264
+        },
+        "genus": {
+          "scientificName": "Euthrix",
+          "commonName": "",
+          "ktsn": 120000034280
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "potatoria",
+          "commonName": "갈대나방",
+          "ktsn": 120000034282
+        }
+      },
+      "eol": {
+        "pageId": 382122,
+        "canonical": "Euthrix potatoria",
+        "fetchedAt": "2026-05-24T11:30:09.010Z",
+        "vernaculars": {
+          "ko": [
+            "갈대나방"
+          ],
+          "en": [
+            "Drinker Moth",
+            "The Drinker",
+            "drinker"
+          ],
+          "ja": [
+            "ヨシカレハ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "North Atlantic",
+          "Japan",
+          "United Kingdom",
+          "The Netherlands",
+          "Switzerland",
+          "Sweden",
+          "Spain",
+          "Russia",
+          "Poland",
+          "Norway",
+          "Luxembourg",
+          "Lithuania",
+          "Latvia",
+          "Ireland",
+          "Germany",
+          "France",
+          "Finland",
+          "Estonia",
+          "Denmark",
+          "Czech Republic",
+          "Belgium",
+          "Belarus",
+          "Austria"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 150799
+      },
+      "inat": {
+        "observationCount": 80,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/204416159/medium.jpeg",
+        "months": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "ktsn": 120000034285,
+      "scientificName": "Gastropacha clathrata Bryk, 1948",
+      "commonName": "북방버들나방",
+      "terminalLatinName": "clathrata",
+      "nomenclaturalAuthor": "Bryk",
+      "namingYear": "1948",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Lasiocampidae",
+          "commonName": "솔나방과",
+          "ktsn": 120000034264
+        },
+        "genus": {
+          "scientificName": "Gastropacha",
+          "commonName": "버들나방속",
+          "ktsn": 120000034284
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "clathrata",
+          "commonName": "북방버들나방",
+          "ktsn": 120000034285
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:09:51.385Z"
+      }
+    },
+    {
+      "ktsn": 120000034286,
+      "scientificName": "Gastropacha orientalis Sheljuzhko, 1943",
+      "commonName": "톱날버들나방",
+      "terminalLatinName": "orientalis",
+      "nomenclaturalAuthor": "Sheljuzhko",
+      "namingYear": "1943",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Lasiocampidae",
+          "commonName": "솔나방과",
+          "ktsn": 120000034264
+        },
+        "genus": {
+          "scientificName": "Gastropacha",
+          "commonName": "버들나방속",
+          "ktsn": 120000034284
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "orientalis",
+          "commonName": "톱날버들나방",
+          "ktsn": 120000034286
+        }
+      },
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": null,
+        "months": [
+          6
+        ]
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:09:51.385Z"
+      }
+    },
+    {
+      "ktsn": 120000034288,
+      "scientificName": "Gastropacha populifolia angustipennis (Walker, 1885)",
+      "commonName": "버들나방",
+      "terminalLatinName": "angustipennis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Lasiocampidae",
+          "commonName": "솔나방과",
+          "ktsn": 120000034264
+        },
+        "genus": {
+          "scientificName": "Gastropacha",
+          "commonName": "버들나방속",
+          "ktsn": 120000034284
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "populifolia",
+          "commonName": "버들나방",
+          "ktsn": 120000034287
+        }
+      },
+      "inat": {
+        "observationCount": 8,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/216191774/medium.jpg",
+        "months": [
+          6,
+          7,
+          8
+        ]
+      }
+    },
+    {
+      "ktsn": 120000034290,
+      "scientificName": "Gastropacha quercifolia cerridifolia Felder and Felder, 1862",
+      "commonName": "배버들나방",
+      "terminalLatinName": "cerridifolia",
+      "nomenclaturalAuthor": "Felder and Felder",
+      "namingYear": "1862",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Lasiocampidae",
+          "commonName": "솔나방과",
+          "ktsn": 120000034264
+        },
+        "genus": {
+          "scientificName": "Gastropacha",
+          "commonName": "버들나방속",
+          "ktsn": 120000034284
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "quercifolia",
+          "commonName": "",
+          "ktsn": 120000034289
+        }
+      },
+      "inat": {
+        "observationCount": 30,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/223636476/medium.jpeg",
+        "months": [
+          5,
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "ktsn": 120000091121,
+      "scientificName": "Kunugia undans (Walker, 1855)",
+      "commonName": "섭나방",
+      "terminalLatinName": "undans",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Lasiocampidae",
+          "commonName": "솔나방과",
+          "ktsn": 120000034264
+        },
+        "genus": {
+          "scientificName": "Kunugia",
+          "commonName": "",
+          "ktsn": 120000067841
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "undans",
+          "commonName": "섭나방",
+          "ktsn": 120000091121
+        }
+      },
+      "inat": {
+        "observationCount": 13,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/98573565/medium.jpeg",
+        "months": [
+          7,
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "ktsn": 120000091144,
+      "scientificName": "Kunugia yamadai (Nagano, 1917)",
+      "commonName": "도토리나방",
+      "terminalLatinName": "yamadai",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Lasiocampidae",
+          "commonName": "솔나방과",
+          "ktsn": 120000034264
+        },
+        "genus": {
+          "scientificName": "Kunugia",
+          "commonName": "",
+          "ktsn": 120000067841
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "yamadai",
+          "commonName": "도토리나방",
+          "ktsn": 120000091144
+        }
+      },
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/246058194/medium.jpeg",
+        "months": [
+          12
+        ]
+      }
+    },
+    {
+      "ktsn": 120000034293,
+      "scientificName": "Malacosoma neustria testacea (Motschulsky, [1861])",
+      "commonName": "천막벌레나방",
+      "terminalLatinName": "testacea",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Lasiocampidae",
+          "commonName": "솔나방과",
+          "ktsn": 120000034264
+        },
+        "genus": {
+          "scientificName": "Malacosoma",
+          "commonName": "",
+          "ktsn": 120000034291
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "neustria",
+          "commonName": "천막벌레나방",
+          "ktsn": 120000034292
+        }
+      },
+      "abstract": "천막벌레나방(학명: Malacosoma neustria 말라코스마 네우스트리아[*], lackey moth)은 솔나방과에 속하는 나방이다. 칼 폰 린네가 자신의 1758년 책 《자연의 체계 제10권》에 처음 기술하였다. 원산지는 브리튼 제도 남부 및 중부 유럽이다. 천막벌레나방의 애벌레는 주황색과 하얀색 띠가 있는, 푸른빛이 감도는 갈색을 띠며 큰키나무나 작은키나무에 견사를 둘러 쳐서 지은 집으로 몸의 온도를 조절한다.",
+      "description": "천막벌레나방(학명: Malacosoma neustria 말라코스마 네우스트리아[*], lackey moth)은 솔나방과에 속하는 나방이다. 칼 폰 린네가 자신의 1758년 책 《자연의 체계 제10권》에 처음 기술하였다. 원산지는 브리튼 제도 남부 및 중부 유럽이다. 천막벌레나방의 애벌레는 주황색과 하얀색 띠가 있는, 푸른빛이 감도는 갈색을 띠며 큰키나무나 작은키나무에 견사를 둘러 쳐서 지은 집으로 몸의 온도를 조절한다.",
+      "inat": {
+        "observationCount": 4,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/62135594/medium.jpg",
+        "months": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "ktsn": 120000034295,
+      "scientificName": "Metanastria gemella De Lajonquigère, 1979",
+      "commonName": "완장나방",
+      "terminalLatinName": "gemella",
+      "nomenclaturalAuthor": "De Lajonquigère",
+      "namingYear": "1979",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Lasiocampidae",
+          "commonName": "솔나방과",
+          "ktsn": 120000034264
+        },
+        "genus": {
+          "scientificName": "Metanastria",
+          "commonName": "",
+          "ktsn": 120000034294
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "gemella",
+          "commonName": "완장나방",
+          "ktsn": 120000034295
+        }
+      },
+      "inat": {
+        "observationCount": 2,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/112976839/medium.jpg",
+        "months": [
+          2,
+          5
+        ]
+      }
+    },
+    {
+      "ktsn": 120000034298,
+      "scientificName": "Odonestis pruni rufescens Kardakoff, 1928",
+      "commonName": "사과나무나방",
+      "terminalLatinName": "rufescens",
+      "nomenclaturalAuthor": "Kardakoff",
+      "namingYear": "1928",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Lasiocampidae",
+          "commonName": "솔나방과",
+          "ktsn": 120000034264
+        },
+        "genus": {
+          "scientificName": "Odonestis",
+          "commonName": "",
+          "ktsn": 120000034296
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "pruni",
+          "commonName": "",
+          "ktsn": 120000034297
+        }
+      },
+      "inat": {
+        "observationCount": 29,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/82104266/medium.png",
+        "months": [
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    },
+    {
+      "ktsn": 120000034303,
+      "scientificName": "Paralebeda femorata (Ménétriès, 1858)",
+      "commonName": "대만나방",
+      "terminalLatinName": "femorata",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Lasiocampidae",
+          "commonName": "솔나방과",
+          "ktsn": 120000034264
+        },
+        "genus": {
+          "scientificName": "Paralebeda",
+          "commonName": "",
+          "ktsn": 120000034302
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "femorata",
+          "commonName": "대만나방",
+          "ktsn": 120000034303
+        }
+      },
+      "inat": {
+        "observationCount": 5,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/107645480/medium.jpeg",
+        "months": [
+          7,
+          8,
+          9,
+          12
+        ]
+      }
+    },
+    {
+      "ktsn": 120000034305,
+      "scientificName": "Phyllodesma japonica (Leech, 1888)",
+      "commonName": "벚나방",
+      "terminalLatinName": "japonica",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Lasiocampidae",
+          "commonName": "솔나방과",
+          "ktsn": 120000034264
+        },
+        "genus": {
+          "scientificName": "Phyllodesma",
+          "commonName": "",
+          "ktsn": 120000034304
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "japonica",
+          "commonName": "벚나방",
+          "ktsn": 120000034305
+        }
+      },
+      "inat": {
+        "observationCount": 2,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/496560997/medium.jpg",
+        "months": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "ktsn": 120000034307,
+      "scientificName": "Poecilocampa tenera Bang-Haas, 1927",
+      "commonName": "솔개사시나방",
+      "terminalLatinName": "tenera",
+      "nomenclaturalAuthor": "Bang-Haas",
+      "namingYear": "1927",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Lasiocampidae",
+          "commonName": "솔나방과",
+          "ktsn": 120000034264
+        },
+        "genus": {
+          "scientificName": "Poecilocampa",
+          "commonName": "",
+          "ktsn": 120000034306
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "tenera",
+          "commonName": "솔개사시나방",
+          "ktsn": 120000034307
+        }
+      },
+      "inat": {
+        "observationCount": 6,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/582472433/medium.jpg",
+        "months": [
+          11
+        ]
+      }
+    },
+    {
+      "ktsn": 120000034309,
+      "scientificName": "Pyrosis eximia Oberthür, 1880",
+      "commonName": "가운데노랑솔나방",
+      "terminalLatinName": "eximia",
+      "nomenclaturalAuthor": "Oberthür",
+      "namingYear": "1880",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Lasiocampidae",
+          "commonName": "솔나방과",
+          "ktsn": 120000034264
+        },
+        "genus": {
+          "scientificName": "Pyrosis",
+          "commonName": "",
+          "ktsn": 120000034308
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "eximia",
+          "commonName": "가운데노랑솔나방",
+          "ktsn": 120000034309
+        }
+      },
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/160394928/medium.jpeg",
+        "months": [
+          9
+        ]
+      }
+    },
+    {
+      "ktsn": 120000034311,
+      "scientificName": "Syrastrenopsis moltrechti Grünberg, 1914",
+      "commonName": "적갈색솔나방",
+      "terminalLatinName": "moltrechti",
+      "nomenclaturalAuthor": "Grünberg",
+      "namingYear": "1914",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Lasiocampidae",
+          "commonName": "솔나방과",
+          "ktsn": 120000034264
+        },
+        "genus": {
+          "scientificName": "Syrastrenopsis",
+          "commonName": "",
+          "ktsn": 120000034310
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "moltrechti",
+          "commonName": "적갈색솔나방",
+          "ktsn": 120000034311
+        }
+      },
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/582826782/medium.jpg",
+        "months": [
+          10
+        ]
+      }
+    }
+  ]
 }

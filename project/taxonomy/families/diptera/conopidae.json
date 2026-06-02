@@ -1,1515 +1,1363 @@
 {
-    "generatedAt":  "2026-05-21T07:47:08.025Z",
-    "source":  "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
-    "order":  {
-                  "id":  "diptera",
-                  "scientificName":  "Diptera",
-                  "commonName":  "파리목",
-                  "orderKtsn":  120000020933,
-                  "abstract":  "파리목(Diptera)은 파리, 모기, 등에 등이 속해 있는 곤충의 한 분류이다. 수십 개의 과에 85,000여 종이 있다. 대한민국에서 발견하여 기록한 전체기록 종은 1,099종이다. 작거나 중간 크기의 곤충으로서, 형태와 습성이 매우 다양하다. 머리부에는 발달된 겹눈이 있으며, 입은 찌르는형·씹는형·핥는형 등이 있고, 다양한 촉각을 갖는다. 특히 앞날개가 발달하여 있으며, 맥은 적으나 나는 힘은 강하다. 뒷날개는 변형되어 평형을 유지하는 기관인 평형곤이 되었다. 날개가 퇴화된 것도 많다. 완전변태를 하며, 유충은 애벌래 형태를 띈다. 파리는 우리 주위에서 쉽게 볼 수 있지만, 바다에서 생활하는 종류도 있다. 모기·깔따구·등에·파리매·똥파리·초파리·집파리·쇠파리·쉬파리·각다귀 등이 이에 포함된다.",
-                  "description":  "파리목(Diptera)은 파리, 모기, 등에 등이 속해 있는 곤충의 한 분류이다. 수십 개의 과에 85,000여 종이 있다. 대한민국에서 발견하여 기록한 전체기록 종은 1,099종이다. 작거나 중간 크기의 곤충으로서, 형태와 습성이 매우 다양하다. 머리부에는 발달된 겹눈이 있으며, 입은 찌르는형·씹는형·핥는형 등이 있고, 다양한 촉각을 갖는다. 특히 앞날개가 발달하여 있으며, 맥은 적으나 나는 힘은 강하다. 뒷날개는 변형되어 평형을 유지하는 기관인 평형곤이 되었다. 날개가 퇴화된 것도 많다. 완전변태를 하며, 유충은 애벌래 형태를 띈다. 파리는 우리 주위에서 쉽게 볼 수 있지만, 바다에서 생활하는 종류도 있다. 모기·깔따구·등에·파리매·똥파리·초파리·집파리·쇠파리·쉬파리·각다귀 등이 이에 포함된다."
-              },
-    "family":  {
-                   "id":  "conopidae",
-                   "scientificName":  "Conopidae",
-                   "commonName":  "벌붙이파리과",
-                   "familyKtsn":  120000021780
-               },
-    "speciesCount":  16,
-    "insects":  [
-                    {
-                        "ktsn":  120000021782,
-                        "scientificName":  "Conops curtulus Coquillett, 1898",
-                        "commonName":  "벌붙이파리",
-                        "terminalLatinName":  "curtulus",
-                        "nomenclaturalAuthor":  "Coquillett",
-                        "namingYear":  "1898",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Diptera",
-                                                       "commonName":  "파리목",
-                                                       "ktsn":  120000020933
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Conopidae",
-                                                        "commonName":  "벌붙이파리과",
-                                                        "ktsn":  120000021780
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Conops",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000126004
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "curtulus",
-                                                         "commonName":  "벌붙이파리",
-                                                         "ktsn":  120000021782
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:13:42.531Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  714697,
-                                    "canonical":  "Conops curtulus",
-                                    "fetchedAt":  "2026-05-24T08:54:09.833Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  118
-                                }
-                    },
-                    {
-                        "ktsn":  120000021783,
-                        "scientificName":  "Conops flavipes Linnaeus, 1758",
-                        "commonName":  "조잔벌붙이파리",
-                        "terminalLatinName":  "flavipes",
-                        "nomenclaturalAuthor":  "Linnaeus",
-                        "namingYear":  "1758",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Diptera",
-                                                       "commonName":  "파리목",
-                                                       "ktsn":  120000020933
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Conopidae",
-                                                        "commonName":  "벌붙이파리과",
-                                                        "ktsn":  120000021780
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Conops",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000126004
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "flavipes",
-                                                         "commonName":  "조잔벌붙이파리",
-                                                         "ktsn":  120000021783
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:13:42.531Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  759389,
-                                    "canonical":  "Conops flavipes",
-                                    "fetchedAt":  "2026-05-24T08:54:12.978Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-                                                                   "조잔벌붙이파리"
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-                                                       "Japan",
-                                                       "United Kingdom",
-                                                       "The Netherlands",
-                                                       "Sweden",
-                                                       "Russia",
-                                                       "Norway",
-                                                       "Italy",
-                                                       "Germany"
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  3113
-                                },
-                        "inat":  {
-                                     "observationCount":  2,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/543566843/medium.jpg",
-                                     "months":  [
-                                                    7
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000021784,
-                        "scientificName":  "Conops nigrifrons Kröber, 1916",
-                        "commonName":  "검정얼굴벌붙이파리",
-                        "terminalLatinName":  "nigrifrons",
-                        "nomenclaturalAuthor":  "Kröber",
-                        "namingYear":  "1916",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Diptera",
-                                                       "commonName":  "파리목",
-                                                       "ktsn":  120000020933
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Conopidae",
-                                                        "commonName":  "벌붙이파리과",
-                                                        "ktsn":  120000021780
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Conops",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000126004
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "nigrifrons",
-                                                         "commonName":  "검정얼굴벌붙이파리",
-                                                         "ktsn":  120000021784
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:13:42.531Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  714774,
-                                    "canonical":  "Conops nigrifrons",
-                                    "fetchedAt":  "2026-05-24T08:54:16.121Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  2
-                                }
-                    },
-                    {
-                        "ktsn":  120000021785,
-                        "scientificName":  "Conops opimus Coquillett, 1898",
-                        "commonName":  "검정가슴벌붙이파리",
-                        "terminalLatinName":  "opimus",
-                        "nomenclaturalAuthor":  "Coquillett",
-                        "namingYear":  "1898",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Diptera",
-                                                       "commonName":  "파리목",
-                                                       "ktsn":  120000020933
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Conopidae",
-                                                        "commonName":  "벌붙이파리과",
-                                                        "ktsn":  120000021780
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Conops",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000126004
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "opimus",
-                                                         "commonName":  "검정가슴벌붙이파리",
-                                                         "ktsn":  120000021785
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:13:42.531Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  714693,
-                                    "canonical":  "Conops opimus",
-                                    "fetchedAt":  "2026-05-24T08:54:19.837Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-                                                       "Japan"
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  22
-                                }
-                    },
-                    {
-                        "ktsn":  120000021786,
-                        "scientificName":  "Conops santaroi Ouchi, 1939",
-                        "commonName":  "산타로벌붙이파리",
-                        "terminalLatinName":  "santaroi",
-                        "nomenclaturalAuthor":  "Ouchi",
-                        "namingYear":  "1939",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Diptera",
-                                                       "commonName":  "파리목",
-                                                       "ktsn":  120000020933
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Conopidae",
-                                                        "commonName":  "벌붙이파리과",
-                                                        "ktsn":  120000021780
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Conops",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000126004
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "santaroi",
-                                                         "commonName":  "산타로벌붙이파리",
-                                                         "ktsn":  120000021786
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:13:42.531Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  714687,
-                                    "canonical":  "Conops santaroi",
-                                    "fetchedAt":  "2026-05-24T08:54:22.716Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  227
-                                }
-                    },
-                    {
-                        "ktsn":  120000021788,
-                        "scientificName":  "Myopa buccata (Linnaeus, 1758)",
-                        "commonName":  "알락벌붙이파리",
-                        "terminalLatinName":  "buccata",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Diptera",
-                                                       "commonName":  "파리목",
-                                                       "ktsn":  120000020933
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Conopidae",
-                                                        "commonName":  "벌붙이파리과",
-                                                        "ktsn":  120000021780
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Myopa",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000021787
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "buccata",
-                                                         "commonName":  "알락벌붙이파리",
-                                                         "ktsn":  120000021788
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:13:42.531Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  759388,
-                                    "canonical":  "Myopa buccata",
-                                    "fetchedAt":  "2026-05-24T08:54:25.226Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-                                                                   "알락벌붙이파리"
-                                                               ],
-                                                        "en":  [
-                                                                   "Variegated Spring Beegrabber"
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-                                                       "United Kingdom",
-                                                       "The Netherlands",
-                                                       "Sweden",
-                                                       "Russia",
-                                                       "Norway",
-                                                       "Germany",
-                                                       "France",
-                                                       "Finland",
-                                                       "Denmark"
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  2671
-                                },
-                        "inat":  {
-                                     "observationCount":  2,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/69100960/medium.jpg",
-                                     "months":  [
-                                                    4,
-                                                    5
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000021789,
-                        "scientificName":  "Myopa fasciata Meigen, 1804",
-                        "commonName":  "줄벌붙이파리",
-                        "terminalLatinName":  "fasciata",
-                        "nomenclaturalAuthor":  "Meigen",
-                        "namingYear":  "1804",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Diptera",
-                                                       "commonName":  "파리목",
-                                                       "ktsn":  120000020933
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Conopidae",
-                                                        "commonName":  "벌붙이파리과",
-                                                        "ktsn":  120000021780
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Myopa",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000021787
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "fasciata",
-                                                         "commonName":  "줄벌붙이파리",
-                                                         "ktsn":  120000021789
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:13:42.531Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  714743,
-                                    "canonical":  "Myopa fasciata",
-                                    "fetchedAt":  "2026-05-24T08:54:27.659Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-                                                                   "줄벌붙이파리"
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-                                                       "United Kingdom",
-                                                       "Sweden",
-                                                       "Norway",
-                                                       "Finland"
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  757
-                                }
-                    },
-                    {
-                        "ktsn":  120000021791,
-                        "scientificName":  "Neobrachyceraea obscuripennis (Kröber, 1913)",
-                        "commonName":  "노랑띠벌붙이파리",
-                        "terminalLatinName":  "obscuripennis",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Diptera",
-                                                       "commonName":  "파리목",
-                                                       "ktsn":  120000020933
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Conopidae",
-                                                        "commonName":  "벌붙이파리과",
-                                                        "ktsn":  120000021780
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Neobrachyceraea",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000021790
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "obscuripennis",
-                                                         "commonName":  "노랑띠벌붙이파리",
-                                                         "ktsn":  120000021791
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:13:42.531Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  714766,
-                                    "canonical":  "Neobrachyceraea obscuripennis",
-                                    "fetchedAt":  "2026-05-24T08:54:30.654Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-                                                       "Taiwan",
-                                                       "Nepal",
-                                                       "China"
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  3
-                                }
-                    },
-                    {
-                        "ktsn":  120000021793,
-                        "scientificName":  "Physocephala chiahensis Ouchi, 1939",
-                        "commonName":  "주두벌붙이파리",
-                        "terminalLatinName":  "chiahensis",
-                        "nomenclaturalAuthor":  "Ouchi",
-                        "namingYear":  "1939",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Diptera",
-                                                       "commonName":  "파리목",
-                                                       "ktsn":  120000020933
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Conopidae",
-                                                        "commonName":  "벌붙이파리과",
-                                                        "ktsn":  120000021780
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Physocephala",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000021792
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "chiahensis",
-                                                         "commonName":  "주두벌붙이파리",
-                                                         "ktsn":  120000021793
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:13:42.531Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    },
-                    {
-                        "ktsn":  120000021794,
-                        "scientificName":  "Physocephala limbipennis Meijere, 1910",
-                        "commonName":  "별벌붙이파리",
-                        "terminalLatinName":  "limbipennis",
-                        "nomenclaturalAuthor":  "Meijere",
-                        "namingYear":  "1910",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Diptera",
-                                                       "commonName":  "파리목",
-                                                       "ktsn":  120000020933
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Conopidae",
-                                                        "commonName":  "벌붙이파리과",
-                                                        "ktsn":  120000021780
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Physocephala",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000021792
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "limbipennis",
-                                                         "commonName":  "별벌붙이파리",
-                                                         "ktsn":  120000021794
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:13:42.531Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    },
-                    {
-                        "ktsn":  120000021795,
-                        "scientificName":  "Physocephala rufipes (Fabricius, 1781)",
-                        "commonName":  "왕벌붙이파리",
-                        "terminalLatinName":  "rufipes",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Diptera",
-                                                       "commonName":  "파리목",
-                                                       "ktsn":  120000020933
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Conopidae",
-                                                        "commonName":  "벌붙이파리과",
-                                                        "ktsn":  120000021780
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Physocephala",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000021792
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "rufipes",
-                                                         "commonName":  "왕벌붙이파리",
-                                                         "ktsn":  120000021795
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:13:42.531Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "inat":  {
-                                     "observationCount":  1,
-                                     "imageUrl":  null,
-                                     "months":  [
-                                                    4
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000021797,
-                        "scientificName":  "Sicus abdominalis Kröber, 1915",
-                        "commonName":  "오구마벌붙이파리",
-                        "terminalLatinName":  "abdominalis",
-                        "nomenclaturalAuthor":  "Kröber",
-                        "namingYear":  "1915",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Diptera",
-                                                       "commonName":  "파리목",
-                                                       "ktsn":  120000020933
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Conopidae",
-                                                        "commonName":  "벌붙이파리과",
-                                                        "ktsn":  120000021780
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Sicus",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000021796
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "abdominalis",
-                                                         "commonName":  "오구마벌붙이파리",
-                                                         "ktsn":  120000021797
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:13:42.531Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    },
-                    {
-                        "ktsn":  120000021798,
-                        "scientificName":  "Sicus fusenensis Ouchi, 1939",
-                        "commonName":  "부전벌붙이파리",
-                        "terminalLatinName":  "fusenensis",
-                        "nomenclaturalAuthor":  "Ouchi",
-                        "namingYear":  "1939",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Diptera",
-                                                       "commonName":  "파리목",
-                                                       "ktsn":  120000020933
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Conopidae",
-                                                        "commonName":  "벌붙이파리과",
-                                                        "ktsn":  120000021780
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Sicus",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000021796
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "fusenensis",
-                                                         "commonName":  "부전벌붙이파리",
-                                                         "ktsn":  120000021798
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:13:42.531Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    },
-                    {
-                        "ktsn":  120000021799,
-                        "scientificName":  "Sicus nishitapensis (Matsumura, 1916)",
-                        "commonName":  "갯벌붙이파리",
-                        "terminalLatinName":  "nishitapensis",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Diptera",
-                                                       "commonName":  "파리목",
-                                                       "ktsn":  120000020933
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Conopidae",
-                                                        "commonName":  "벌붙이파리과",
-                                                        "ktsn":  120000021780
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Sicus",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000021796
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "nishitapensis",
-                                                         "commonName":  "갯벌붙이파리",
-                                                         "ktsn":  120000021799
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:13:42.531Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    },
-                    {
-                        "ktsn":  120000021801,
-                        "scientificName":  "Thecophora atra (Fabricius, 1775)",
-                        "commonName":  "어리벌붙이파리",
-                        "terminalLatinName":  "atra",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Diptera",
-                                                       "commonName":  "파리목",
-                                                       "ktsn":  120000020933
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Conopidae",
-                                                        "commonName":  "벌붙이파리과",
-                                                        "ktsn":  120000021780
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Thecophora",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000021800
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "atra",
-                                                         "commonName":  "어리벌붙이파리",
-                                                         "ktsn":  120000021801
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:13:42.531Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    },
-                    {
-                        "ktsn":  120000021803,
-                        "scientificName":  "Zodion cinereum (Fabricius, 1794)",
-                        "commonName":  "꼬마벌붙이파리",
-                        "terminalLatinName":  "cinereum",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Diptera",
-                                                       "commonName":  "파리목",
-                                                       "ktsn":  120000020933
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Conopidae",
-                                                        "commonName":  "벌붙이파리과",
-                                                        "ktsn":  120000021780
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Zodion",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000021802
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "cinereum",
-                                                         "commonName":  "꼬마벌붙이파리",
-                                                         "ktsn":  120000021803
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:13:42.531Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "totalElements":  0,
-                                               "totalPages":  1,
-                                               "thumbnailUrl":  null,
-                                               "thumbnail":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           }
-                    }
-                ],
-    "digitalContentUpdatedAt":  "2026-05-21T09:13:42.531Z",
-    "digitalContentSource":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "diptera",
+    "scientificName": "Diptera",
+    "commonName": "파리목",
+    "orderKtsn": 120000020933,
+    "abstract": "파리목(Diptera)은 파리, 모기, 등에 등이 속해 있는 곤충의 한 분류이다. 수십 개의 과에 85,000여 종이 있다. 대한민국에서 발견하여 기록한 전체기록 종은 1,099종이다. 작거나 중간 크기의 곤충으로서, 형태와 습성이 매우 다양하다. 머리부에는 발달된 겹눈이 있으며, 입은 찌르는형·씹는형·핥는형 등이 있고, 다양한 촉각을 갖는다. 특히 앞날개가 발달하여 있으며, 맥은 적으나 나는 힘은 강하다. 뒷날개는 변형되어 평형을 유지하는 기관인 평형곤이 되었다. 날개가 퇴화된 것도 많다. 완전변태를 하며, 유충은 애벌래 형태를 띈다. 파리는 우리 주위에서 쉽게 볼 수 있지만, 바다에서 생활하는 종류도 있다. 모기·깔따구·등에·파리매·똥파리·초파리·집파리·쇠파리·쉬파리·각다귀 등이 이에 포함된다.",
+    "description": "파리목(Diptera)은 파리, 모기, 등에 등이 속해 있는 곤충의 한 분류이다. 수십 개의 과에 85,000여 종이 있다. 대한민국에서 발견하여 기록한 전체기록 종은 1,099종이다. 작거나 중간 크기의 곤충으로서, 형태와 습성이 매우 다양하다. 머리부에는 발달된 겹눈이 있으며, 입은 찌르는형·씹는형·핥는형 등이 있고, 다양한 촉각을 갖는다. 특히 앞날개가 발달하여 있으며, 맥은 적으나 나는 힘은 강하다. 뒷날개는 변형되어 평형을 유지하는 기관인 평형곤이 되었다. 날개가 퇴화된 것도 많다. 완전변태를 하며, 유충은 애벌래 형태를 띈다. 파리는 우리 주위에서 쉽게 볼 수 있지만, 바다에서 생활하는 종류도 있다. 모기·깔따구·등에·파리매·똥파리·초파리·집파리·쇠파리·쉬파리·각다귀 등이 이에 포함된다."
+  },
+  "family": {
+    "id": "conopidae",
+    "scientificName": "Conopidae",
+    "commonName": "벌붙이파리과",
+    "familyKtsn": 120000021780
+  },
+  "speciesCount": 16,
+  "insects": [
+    {
+      "ktsn": 120000021782,
+      "scientificName": "Conops curtulus Coquillett, 1898",
+      "commonName": "벌붙이파리",
+      "terminalLatinName": "curtulus",
+      "nomenclaturalAuthor": "Coquillett",
+      "namingYear": "1898",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Conopidae",
+          "commonName": "벌붙이파리과",
+          "ktsn": 120000021780
+        },
+        "genus": {
+          "scientificName": "Conops",
+          "commonName": "",
+          "ktsn": 120000126004
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "curtulus",
+          "commonName": "벌붙이파리",
+          "ktsn": 120000021782
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:13:42.531Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 714697,
+        "canonical": "Conops curtulus",
+        "fetchedAt": "2026-05-24T08:54:09.833Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 118
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:05:31.642Z"
+      }
+    },
+    {
+      "ktsn": 120000021783,
+      "scientificName": "Conops flavipes Linnaeus, 1758",
+      "commonName": "조잔벌붙이파리",
+      "terminalLatinName": "flavipes",
+      "nomenclaturalAuthor": "Linnaeus",
+      "namingYear": "1758",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Conopidae",
+          "commonName": "벌붙이파리과",
+          "ktsn": 120000021780
+        },
+        "genus": {
+          "scientificName": "Conops",
+          "commonName": "",
+          "ktsn": 120000126004
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "flavipes",
+          "commonName": "조잔벌붙이파리",
+          "ktsn": 120000021783
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:13:42.531Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 759389,
+        "canonical": "Conops flavipes",
+        "fetchedAt": "2026-05-24T08:54:12.978Z",
+        "vernaculars": {
+          "ko": [
+            "조잔벌붙이파리"
+          ],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [
+          "Japan",
+          "United Kingdom",
+          "The Netherlands",
+          "Sweden",
+          "Russia",
+          "Norway",
+          "Italy",
+          "Germany"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 3113
+      },
+      "inat": {
+        "observationCount": 2,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/543566843/medium.jpg",
+        "months": [
+          7
+        ]
+      }
+    },
+    {
+      "ktsn": 120000021784,
+      "scientificName": "Conops nigrifrons Kröber, 1916",
+      "commonName": "검정얼굴벌붙이파리",
+      "terminalLatinName": "nigrifrons",
+      "nomenclaturalAuthor": "Kröber",
+      "namingYear": "1916",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Conopidae",
+          "commonName": "벌붙이파리과",
+          "ktsn": 120000021780
+        },
+        "genus": {
+          "scientificName": "Conops",
+          "commonName": "",
+          "ktsn": 120000126004
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "nigrifrons",
+          "commonName": "검정얼굴벌붙이파리",
+          "ktsn": 120000021784
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:13:42.531Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 714774,
+        "canonical": "Conops nigrifrons",
+        "fetchedAt": "2026-05-24T08:54:16.121Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 2
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:05:31.642Z"
+      }
+    },
+    {
+      "ktsn": 120000021785,
+      "scientificName": "Conops opimus Coquillett, 1898",
+      "commonName": "검정가슴벌붙이파리",
+      "terminalLatinName": "opimus",
+      "nomenclaturalAuthor": "Coquillett",
+      "namingYear": "1898",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Conopidae",
+          "commonName": "벌붙이파리과",
+          "ktsn": 120000021780
+        },
+        "genus": {
+          "scientificName": "Conops",
+          "commonName": "",
+          "ktsn": 120000126004
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "opimus",
+          "commonName": "검정가슴벌붙이파리",
+          "ktsn": 120000021785
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:13:42.531Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 714693,
+        "canonical": "Conops opimus",
+        "fetchedAt": "2026-05-24T08:54:19.837Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [
+          "Japan"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 22
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:05:32.352Z"
+      }
+    },
+    {
+      "ktsn": 120000021786,
+      "scientificName": "Conops santaroi Ouchi, 1939",
+      "commonName": "산타로벌붙이파리",
+      "terminalLatinName": "santaroi",
+      "nomenclaturalAuthor": "Ouchi",
+      "namingYear": "1939",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Conopidae",
+          "commonName": "벌붙이파리과",
+          "ktsn": 120000021780
+        },
+        "genus": {
+          "scientificName": "Conops",
+          "commonName": "",
+          "ktsn": 120000126004
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "santaroi",
+          "commonName": "산타로벌붙이파리",
+          "ktsn": 120000021786
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:13:42.531Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 714687,
+        "canonical": "Conops santaroi",
+        "fetchedAt": "2026-05-24T08:54:22.716Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 227
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:05:32.352Z"
+      }
+    },
+    {
+      "ktsn": 120000021788,
+      "scientificName": "Myopa buccata (Linnaeus, 1758)",
+      "commonName": "알락벌붙이파리",
+      "terminalLatinName": "buccata",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Conopidae",
+          "commonName": "벌붙이파리과",
+          "ktsn": 120000021780
+        },
+        "genus": {
+          "scientificName": "Myopa",
+          "commonName": "",
+          "ktsn": 120000021787
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "buccata",
+          "commonName": "알락벌붙이파리",
+          "ktsn": 120000021788
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:13:42.531Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 759388,
+        "canonical": "Myopa buccata",
+        "fetchedAt": "2026-05-24T08:54:25.226Z",
+        "vernaculars": {
+          "ko": [
+            "알락벌붙이파리"
+          ],
+          "en": [
+            "Variegated Spring Beegrabber"
+          ],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [
+          "United Kingdom",
+          "The Netherlands",
+          "Sweden",
+          "Russia",
+          "Norway",
+          "Germany",
+          "France",
+          "Finland",
+          "Denmark"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 2671
+      },
+      "inat": {
+        "observationCount": 2,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/69100960/medium.jpg",
+        "months": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "ktsn": 120000021789,
+      "scientificName": "Myopa fasciata Meigen, 1804",
+      "commonName": "줄벌붙이파리",
+      "terminalLatinName": "fasciata",
+      "nomenclaturalAuthor": "Meigen",
+      "namingYear": "1804",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Conopidae",
+          "commonName": "벌붙이파리과",
+          "ktsn": 120000021780
+        },
+        "genus": {
+          "scientificName": "Myopa",
+          "commonName": "",
+          "ktsn": 120000021787
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "fasciata",
+          "commonName": "줄벌붙이파리",
+          "ktsn": 120000021789
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:13:42.531Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 714743,
+        "canonical": "Myopa fasciata",
+        "fetchedAt": "2026-05-24T08:54:27.659Z",
+        "vernaculars": {
+          "ko": [
+            "줄벌붙이파리"
+          ],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [
+          "United Kingdom",
+          "Sweden",
+          "Norway",
+          "Finland"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 757
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:05:32.352Z"
+      }
+    },
+    {
+      "ktsn": 120000021791,
+      "scientificName": "Neobrachyceraea obscuripennis (Kröber, 1913)",
+      "commonName": "노랑띠벌붙이파리",
+      "terminalLatinName": "obscuripennis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Conopidae",
+          "commonName": "벌붙이파리과",
+          "ktsn": 120000021780
+        },
+        "genus": {
+          "scientificName": "Neobrachyceraea",
+          "commonName": "",
+          "ktsn": 120000021790
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "obscuripennis",
+          "commonName": "노랑띠벌붙이파리",
+          "ktsn": 120000021791
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:13:42.531Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 714766,
+        "canonical": "Neobrachyceraea obscuripennis",
+        "fetchedAt": "2026-05-24T08:54:30.654Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [
+          "Taiwan",
+          "Nepal",
+          "China"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 3
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:05:32.352Z"
+      }
+    },
+    {
+      "ktsn": 120000021793,
+      "scientificName": "Physocephala chiahensis Ouchi, 1939",
+      "commonName": "주두벌붙이파리",
+      "terminalLatinName": "chiahensis",
+      "nomenclaturalAuthor": "Ouchi",
+      "namingYear": "1939",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Conopidae",
+          "commonName": "벌붙이파리과",
+          "ktsn": 120000021780
+        },
+        "genus": {
+          "scientificName": "Physocephala",
+          "commonName": "",
+          "ktsn": 120000021792
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "chiahensis",
+          "commonName": "주두벌붙이파리",
+          "ktsn": 120000021793
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:13:42.531Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:05:32.352Z"
+      }
+    },
+    {
+      "ktsn": 120000021794,
+      "scientificName": "Physocephala limbipennis Meijere, 1910",
+      "commonName": "별벌붙이파리",
+      "terminalLatinName": "limbipennis",
+      "nomenclaturalAuthor": "Meijere",
+      "namingYear": "1910",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Conopidae",
+          "commonName": "벌붙이파리과",
+          "ktsn": 120000021780
+        },
+        "genus": {
+          "scientificName": "Physocephala",
+          "commonName": "",
+          "ktsn": 120000021792
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "limbipennis",
+          "commonName": "별벌붙이파리",
+          "ktsn": 120000021794
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:13:42.531Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:05:32.352Z"
+      }
+    },
+    {
+      "ktsn": 120000021795,
+      "scientificName": "Physocephala rufipes (Fabricius, 1781)",
+      "commonName": "왕벌붙이파리",
+      "terminalLatinName": "rufipes",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Conopidae",
+          "commonName": "벌붙이파리과",
+          "ktsn": 120000021780
+        },
+        "genus": {
+          "scientificName": "Physocephala",
+          "commonName": "",
+          "ktsn": 120000021792
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "rufipes",
+          "commonName": "왕벌붙이파리",
+          "ktsn": 120000021795
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:13:42.531Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": null,
+        "months": [
+          4
+        ]
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:05:32.352Z",
+        "title": "Physocephala rufipes",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Physocephala.rufipes.jpg/500px-Physocephala.rufipes.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Physocephala.rufipes.jpg",
+        "thumbnailSize": {
+          "width": 500,
+          "height": 333
+        },
+        "originalSize": {
+          "width": 640,
+          "height": 426
+        },
+        "filename": "Physocephala.rufipes.jpg",
+        "description": "species of fly",
+        "pageUrl": "https://en.wikipedia.org/wiki/Physocephala_rufipes",
+        "license": "see Wikimedia Commons",
+        "source": "Wikipedia"
+      }
+    },
+    {
+      "ktsn": 120000021797,
+      "scientificName": "Sicus abdominalis Kröber, 1915",
+      "commonName": "오구마벌붙이파리",
+      "terminalLatinName": "abdominalis",
+      "nomenclaturalAuthor": "Kröber",
+      "namingYear": "1915",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Conopidae",
+          "commonName": "벌붙이파리과",
+          "ktsn": 120000021780
+        },
+        "genus": {
+          "scientificName": "Sicus",
+          "commonName": "",
+          "ktsn": 120000021796
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "abdominalis",
+          "commonName": "오구마벌붙이파리",
+          "ktsn": 120000021797
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:13:42.531Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:05:32.352Z",
+        "title": "Sicus abdominalis",
+        "description": "species of insect"
+      }
+    },
+    {
+      "ktsn": 120000021798,
+      "scientificName": "Sicus fusenensis Ouchi, 1939",
+      "commonName": "부전벌붙이파리",
+      "terminalLatinName": "fusenensis",
+      "nomenclaturalAuthor": "Ouchi",
+      "namingYear": "1939",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Conopidae",
+          "commonName": "벌붙이파리과",
+          "ktsn": 120000021780
+        },
+        "genus": {
+          "scientificName": "Sicus",
+          "commonName": "",
+          "ktsn": 120000021796
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "fusenensis",
+          "commonName": "부전벌붙이파리",
+          "ktsn": 120000021798
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:13:42.531Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:05:32.352Z"
+      }
+    },
+    {
+      "ktsn": 120000021799,
+      "scientificName": "Sicus nishitapensis (Matsumura, 1916)",
+      "commonName": "갯벌붙이파리",
+      "terminalLatinName": "nishitapensis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Conopidae",
+          "commonName": "벌붙이파리과",
+          "ktsn": 120000021780
+        },
+        "genus": {
+          "scientificName": "Sicus",
+          "commonName": "",
+          "ktsn": 120000021796
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "nishitapensis",
+          "commonName": "갯벌붙이파리",
+          "ktsn": 120000021799
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:13:42.531Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:05:32.352Z"
+      }
+    },
+    {
+      "ktsn": 120000021801,
+      "scientificName": "Thecophora atra (Fabricius, 1775)",
+      "commonName": "어리벌붙이파리",
+      "terminalLatinName": "atra",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Conopidae",
+          "commonName": "벌붙이파리과",
+          "ktsn": 120000021780
+        },
+        "genus": {
+          "scientificName": "Thecophora",
+          "commonName": "",
+          "ktsn": 120000021800
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "atra",
+          "commonName": "어리벌붙이파리",
+          "ktsn": 120000021801
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:13:42.531Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:05:32.352Z",
+        "title": "Thecophora atra",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Conopidae_-_Thecophora_atra.JPG/500px-Conopidae_-_Thecophora_atra.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/35/Conopidae_-_Thecophora_atra.JPG",
+        "thumbnailSize": {
+          "width": 500,
+          "height": 375
+        },
+        "originalSize": {
+          "width": 1024,
+          "height": 767
+        },
+        "filename": "Conopidae_-_Thecophora_atra.JPG",
+        "description": "species of insect",
+        "pageUrl": "https://en.wikipedia.org/wiki/Thecophora_atra",
+        "license": "see Wikimedia Commons",
+        "source": "Wikipedia"
+      }
+    },
+    {
+      "ktsn": 120000021803,
+      "scientificName": "Zodion cinereum (Fabricius, 1794)",
+      "commonName": "꼬마벌붙이파리",
+      "terminalLatinName": "cinereum",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Conopidae",
+          "commonName": "벌붙이파리과",
+          "ktsn": 120000021780
+        },
+        "genus": {
+          "scientificName": "Zodion",
+          "commonName": "",
+          "ktsn": 120000021802
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "cinereum",
+          "commonName": "꼬마벌붙이파리",
+          "ktsn": 120000021803
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:13:42.531Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:05:32.352Z"
+      }
+    }
+  ],
+  "digitalContentUpdatedAt": "2026-05-21T09:13:42.531Z",
+  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
 }

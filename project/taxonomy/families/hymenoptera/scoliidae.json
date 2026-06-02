@@ -1,830 +1,838 @@
 {
-    "generatedAt":  "2026-05-21T07:47:08.025Z",
-    "source":  "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
-    "order":  {
-                  "id":  "hymenoptera",
-                  "scientificName":  "Hymenoptera",
-                  "commonName":  "벌목",
-                  "orderKtsn":  120000027260,
-                  "abstract":  "벌목은 절지동물문의 곤충강에 속하는 동물 분류의 하나이다. 벌과 개미를 포함하고 있다. 기록종의 수는 약 13만 종 이상이다. 트라이아스기 무렵에 등장하여, 백악기에 최초로 사회생활을 하는 부류가 나타났다. 주로 여왕을 중심으로 사회생활을 하는 종이 많으나 모든 종류가 사회를 이루어 생활하는 것은 아니다. 대체로 사회생활을 하는 벌들 중 대부분을 차지하는 일꾼들은 생식능력이 없는 암컷이다. 생식기관은 독성을 가진 침이나 개미산을 내뿜는 기관으로 변화되어 주로 호신용, 방어용, 사냥용으로 쓰인다. 대부분은 꿀 등을 섭취하지만 잎벌이나 송곳벌처럼 식물을 먹거나, 사냥벌이나 기생벌 또는 쌍살벌처럼 어린 시절에 육식을 하는 벌들도 있다.",
-                  "description":  "벌목은 절지동물문의 곤충강에 속하는 동물 분류의 하나이다. 벌과 개미를 포함하고 있다. 기록종의 수는 약 13만 종 이상이다. 트라이아스기 무렵에 등장하여, 백악기에 최초로 사회생활을 하는 부류가 나타났다. 주로 여왕을 중심으로 사회생활을 하는 종이 많으나 모든 종류가 사회를 이루어 생활하는 것은 아니다. 대체로 사회생활을 하는 벌들 중 대부분을 차지하는 일꾼들은 생식능력이 없는 암컷이다. 생식기관은 독성을 가진 침이나 개미산을 내뿜는 기관으로 변화되어 주로 호신용, 방어용, 사냥용으로 쓰인다. 대부분은 꿀 등을 섭취하지만 잎벌이나 송곳벌처럼 식물을 먹거나, 사냥벌이나 기생벌 또는 쌍살벌처럼 어린 시절에 육식을 하는 벌들도 있다."
-              },
-    "family":  {
-                   "id":  "scoliidae",
-                   "scientificName":  "Scoliidae",
-                   "commonName":  "배벌과",
-                   "familyKtsn":  120000031027,
-                   "abstract":  "배벌과는 벌목의 한 과이다. 황띠배벌, 배벌 등 약 10000종이 있다. 이 중 배벌은 풍뎅이류의 유충에 기생하는 벌로서 여름철에 볼 수 있다.",
-                   "description":  "배벌과는 벌목의 한 과이다. 황띠배벌, 배벌 등 약 10000종이 있다. 이 중 배벌은 풍뎅이류의 유충에 기생하는 벌로서 여름철에 볼 수 있다."
-               },
-    "speciesCount":  13,
-    "insects":  [
-                    {
-                        "ktsn":  120000532459,
-                        "scientificName":  "Bellimeris stoetzneri (Betrem, 1928)",
-                        "commonName":  "세줄배벌",
-                        "terminalLatinName":  "stoetzneri",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hymenoptera",
-                                                       "commonName":  "벌목",
-                                                       "ktsn":  120000027260
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Scoliidae",
-                                                        "commonName":  "배벌과",
-                                                        "ktsn":  120000031027
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Bellimeris",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000532458
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "stoetzneri",
-                                                         "commonName":  "세줄배벌",
-                                                         "ktsn":  120000532459
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000031030,
-                        "scientificName":  "Campsomeriella annulata annulata (Fabricius, 1793)",
-                        "commonName":  "애배벌",
-                        "terminalLatinName":  "annulata",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hymenoptera",
-                                                       "commonName":  "벌목",
-                                                       "ktsn":  120000027260
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Scoliidae",
-                                                        "commonName":  "배벌과",
-                                                        "ktsn":  120000031027
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Campsomeriella",
-                                                       "commonName":  "애배벌속",
-                                                       "ktsn":  120000031028
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "annulata",
-                                                         "commonName":  "",
-                                                         "ktsn":  120000031029
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000031035,
-                        "scientificName":  "Liacos erythrosoma (Burmeister, 1853)",
-                        "commonName":  "두색배벌",
-                        "terminalLatinName":  "erythrosoma",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hymenoptera",
-                                                       "commonName":  "벌목",
-                                                       "ktsn":  120000027260
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Scoliidae",
-                                                        "commonName":  "배벌과",
-                                                        "ktsn":  120000031027
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Liacos",
-                                                       "commonName":  "색배벌속",
-                                                       "ktsn":  120000031034
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "erythrosoma",
-                                                         "commonName":  "두색배벌",
-                                                         "ktsn":  120000031035
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  47367984,
-                                    "canonical":  "Liacos erythrosoma",
-                                    "fetchedAt":  "2026-05-24T11:00:26.113Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-                                                                   "ツマキツチバチ"
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-                                                       "Myanmar",
-                                                       "Malaysia",
-                                                       "Bhutan",
-                                                       "India",
-                                                       "Japan",
-                                                       "Sri Lanka",
-                                                       "Nepal",
-                                                       "Thailand",
-                                                       "Taiwan",
-                                                       "Korea",
-                                                       "China",
-                                                       "Singapore",
-                                                       "Indonesia",
-                                                       "Hong Kong"
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  null
-                                },
-                        "inat":  {
-                                     "observationCount":  12,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/471729531/medium.jpeg",
-                                     "months":  [
-                                                    2,
-                                                    3,
-                                                    4,
-                                                    8,
-                                                    9,
-                                                    10,
-                                                    11,
-                                                    12
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000031038,
-                        "scientificName":  "Megacampsomeris grossa matsumurai Betrem, 1941",
-                        "commonName":  "긴배벌",
-                        "terminalLatinName":  "matsumurai",
-                        "nomenclaturalAuthor":  "Betrem",
-                        "namingYear":  "1941",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hymenoptera",
-                                                       "commonName":  "벌목",
-                                                       "ktsn":  120000027260
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Scoliidae",
-                                                        "commonName":  "배벌과",
-                                                        "ktsn":  120000031027
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Megacampsomeris",
-                                                       "commonName":  "줄배벌속",
-                                                       "ktsn":  120000031036
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "grossa",
-                                                         "commonName":  "",
-                                                         "ktsn":  120000031037
-                                                     }
-                                     },
-                        "inat":  {
-                                     "observationCount":  1,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/98369141/medium.jpg",
-                                     "months":  [
-                                                    9
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000031039,
-                        "scientificName":  "Megacampsomeris prismatica (Smith, 1855)",
-                        "commonName":  "금테줄배벌",
-                        "terminalLatinName":  "prismatica",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hymenoptera",
-                                                       "commonName":  "벌목",
-                                                       "ktsn":  120000027260
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Scoliidae",
-                                                        "commonName":  "배벌과",
-                                                        "ktsn":  120000031027
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Megacampsomeris",
-                                                       "commonName":  "줄배벌속",
-                                                       "ktsn":  120000031036
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "prismatica",
-                                                         "commonName":  "금테줄배벌",
-                                                         "ktsn":  120000031039
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000031040,
-                        "scientificName":  "Megacampsomeris schulthessi Betrem, 1928",
-                        "commonName":  "배벌",
-                        "terminalLatinName":  "schulthessi",
-                        "nomenclaturalAuthor":  "Betrem",
-                        "namingYear":  "1928",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hymenoptera",
-                                                       "commonName":  "벌목",
-                                                       "ktsn":  120000027260
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Scoliidae",
-                                                        "commonName":  "배벌과",
-                                                        "ktsn":  120000031027
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Megacampsomeris",
-                                                       "commonName":  "줄배벌속",
-                                                       "ktsn":  120000031036
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "schulthessi",
-                                                         "commonName":  "배벌",
-                                                         "ktsn":  120000031040
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000031041,
-                        "scientificName":  "Megacampsomeris uchidai (Betrem, 1941)",
-                        "commonName":  "우찌다배벌",
-                        "terminalLatinName":  "uchidai",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hymenoptera",
-                                                       "commonName":  "벌목",
-                                                       "ktsn":  120000027260
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Scoliidae",
-                                                        "commonName":  "배벌과",
-                                                        "ktsn":  120000031027
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Megacampsomeris",
-                                                       "commonName":  "줄배벌속",
-                                                       "ktsn":  120000031036
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "uchidai",
-                                                         "commonName":  "우찌다배벌",
-                                                         "ktsn":  120000031041
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000123171,
-                        "scientificName":  "Scolia fasciata Smith, 1873",
-                        "commonName":  "홍조배벌",
-                        "terminalLatinName":  "fasciata",
-                        "nomenclaturalAuthor":  "Smith",
-                        "namingYear":  "1873",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hymenoptera",
-                                                       "commonName":  "벌목",
-                                                       "ktsn":  120000027260
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Scoliidae",
-                                                        "commonName":  "배벌과",
-                                                        "ktsn":  120000031027
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Scolia",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000123164
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "fasciata",
-                                                         "commonName":  "홍조배벌",
-                                                         "ktsn":  120000123171
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000123174,
-                        "scientificName":  "Scolia histrionica Fabricius, 1798",
-                        "commonName":  "줄배벌",
-                        "terminalLatinName":  "histrionica",
-                        "nomenclaturalAuthor":  "Fabricius",
-                        "namingYear":  "1798",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hymenoptera",
-                                                       "commonName":  "벌목",
-                                                       "ktsn":  120000027260
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Scoliidae",
-                                                        "commonName":  "배벌과",
-                                                        "ktsn":  120000031027
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Scolia",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000123164
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "histrionica",
-                                                         "commonName":  "줄배벌",
-                                                         "ktsn":  120000123174
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000123172,
-                        "scientificName":  "Scolia nobilis Saussure, 1858",
-                        "commonName":  "어리줄배벌",
-                        "terminalLatinName":  "nobilis",
-                        "nomenclaturalAuthor":  "Saussure",
-                        "namingYear":  "1858",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hymenoptera",
-                                                       "commonName":  "벌목",
-                                                       "ktsn":  120000027260
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Scoliidae",
-                                                        "commonName":  "배벌과",
-                                                        "ktsn":  120000031027
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Scolia",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000123164
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "nobilis",
-                                                         "commonName":  "어리줄배벌",
-                                                         "ktsn":  120000123172
-                                                     }
-                                     },
-                        "inat":  {
-                                     "observationCount":  1,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/425383846/medium.jpeg",
-                                     "months":  [
-                                                    8
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000123170,
-                        "scientificName":  "Scolia oculata Matsumura, 1911",
-                        "commonName":  "황띠배벌",
-                        "terminalLatinName":  "oculata",
-                        "nomenclaturalAuthor":  "Matsumura",
-                        "namingYear":  "1911",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hymenoptera",
-                                                       "commonName":  "벌목",
-                                                       "ktsn":  120000027260
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Scoliidae",
-                                                        "commonName":  "배벌과",
-                                                        "ktsn":  120000031027
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Scolia",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000123164
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "oculata",
-                                                         "commonName":  "황띠배벌",
-                                                         "ktsn":  120000123170
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  47367970,
-                                    "canonical":  "Scolia oculata",
-                                    "fetchedAt":  "2026-05-24T11:01:20.363Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  null
-                                },
-                        "inat":  {
-                                     "observationCount":  41,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/235046070/medium.jpeg",
-                                     "months":  [
-                                                    5,
-                                                    6,
-                                                    7,
-                                                    8,
-                                                    9,
-                                                    10
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000123169,
-                        "scientificName":  "Scolia sinensis Saussure, 1864",
-                        "commonName":  "애검배벌",
-                        "terminalLatinName":  "sinensis",
-                        "nomenclaturalAuthor":  "Saussure",
-                        "namingYear":  "1864",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hymenoptera",
-                                                       "commonName":  "벌목",
-                                                       "ktsn":  120000027260
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Scoliidae",
-                                                        "commonName":  "배벌과",
-                                                        "ktsn":  120000031027
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Scolia",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000123164
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "sinensis",
-                                                         "commonName":  "애검배벌",
-                                                         "ktsn":  120000123169
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000123173,
-                        "scientificName":  "Scolia vittifrons Saussure and Sichel, 1864",
-                        "commonName":  "소홍조배벌",
-                        "terminalLatinName":  "vittifrons",
-                        "nomenclaturalAuthor":  "Saussure and Sichel",
-                        "namingYear":  "1864",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hymenoptera",
-                                                       "commonName":  "벌목",
-                                                       "ktsn":  120000027260
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Scoliidae",
-                                                        "commonName":  "배벌과",
-                                                        "ktsn":  120000031027
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Scolia",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000123164
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "vittifrons",
-                                                         "commonName":  "소홍조배벌",
-                                                         "ktsn":  120000123173
-                                                     }
-                                     },
-                        "inat":  {
-                                     "observationCount":  2,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/401048440/medium.jpeg",
-                                     "months":  [
-                                                    6,
-                                                    7
-                                                ]
-                                 }
-                    }
-                ]
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "hymenoptera",
+    "scientificName": "Hymenoptera",
+    "commonName": "벌목",
+    "orderKtsn": 120000027260,
+    "abstract": "벌목은 절지동물문의 곤충강에 속하는 동물 분류의 하나이다. 벌과 개미를 포함하고 있다. 기록종의 수는 약 13만 종 이상이다. 트라이아스기 무렵에 등장하여, 백악기에 최초로 사회생활을 하는 부류가 나타났다. 주로 여왕을 중심으로 사회생활을 하는 종이 많으나 모든 종류가 사회를 이루어 생활하는 것은 아니다. 대체로 사회생활을 하는 벌들 중 대부분을 차지하는 일꾼들은 생식능력이 없는 암컷이다. 생식기관은 독성을 가진 침이나 개미산을 내뿜는 기관으로 변화되어 주로 호신용, 방어용, 사냥용으로 쓰인다. 대부분은 꿀 등을 섭취하지만 잎벌이나 송곳벌처럼 식물을 먹거나, 사냥벌이나 기생벌 또는 쌍살벌처럼 어린 시절에 육식을 하는 벌들도 있다.",
+    "description": "벌목은 절지동물문의 곤충강에 속하는 동물 분류의 하나이다. 벌과 개미를 포함하고 있다. 기록종의 수는 약 13만 종 이상이다. 트라이아스기 무렵에 등장하여, 백악기에 최초로 사회생활을 하는 부류가 나타났다. 주로 여왕을 중심으로 사회생활을 하는 종이 많으나 모든 종류가 사회를 이루어 생활하는 것은 아니다. 대체로 사회생활을 하는 벌들 중 대부분을 차지하는 일꾼들은 생식능력이 없는 암컷이다. 생식기관은 독성을 가진 침이나 개미산을 내뿜는 기관으로 변화되어 주로 호신용, 방어용, 사냥용으로 쓰인다. 대부분은 꿀 등을 섭취하지만 잎벌이나 송곳벌처럼 식물을 먹거나, 사냥벌이나 기생벌 또는 쌍살벌처럼 어린 시절에 육식을 하는 벌들도 있다."
+  },
+  "family": {
+    "id": "scoliidae",
+    "scientificName": "Scoliidae",
+    "commonName": "배벌과",
+    "familyKtsn": 120000031027,
+    "abstract": "배벌과는 벌목의 한 과이다. 황띠배벌, 배벌 등 약 10000종이 있다. 이 중 배벌은 풍뎅이류의 유충에 기생하는 벌로서 여름철에 볼 수 있다.",
+    "description": "배벌과는 벌목의 한 과이다. 황띠배벌, 배벌 등 약 10000종이 있다. 이 중 배벌은 풍뎅이류의 유충에 기생하는 벌로서 여름철에 볼 수 있다."
+  },
+  "speciesCount": 13,
+  "insects": [
+    {
+      "ktsn": 120000532459,
+      "scientificName": "Bellimeris stoetzneri (Betrem, 1928)",
+      "commonName": "세줄배벌",
+      "terminalLatinName": "stoetzneri",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hymenoptera",
+          "commonName": "벌목",
+          "ktsn": 120000027260
+        },
+        "family": {
+          "scientificName": "Scoliidae",
+          "commonName": "배벌과",
+          "ktsn": 120000031027
+        },
+        "genus": {
+          "scientificName": "Bellimeris",
+          "commonName": "",
+          "ktsn": 120000532458
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "stoetzneri",
+          "commonName": "세줄배벌",
+          "ktsn": 120000532459
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:09:04.038Z"
+      }
+    },
+    {
+      "ktsn": 120000031030,
+      "scientificName": "Campsomeriella annulata annulata (Fabricius, 1793)",
+      "commonName": "애배벌",
+      "terminalLatinName": "annulata",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hymenoptera",
+          "commonName": "벌목",
+          "ktsn": 120000027260
+        },
+        "family": {
+          "scientificName": "Scoliidae",
+          "commonName": "배벌과",
+          "ktsn": 120000031027
+        },
+        "genus": {
+          "scientificName": "Campsomeriella",
+          "commonName": "애배벌속",
+          "ktsn": 120000031028
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "annulata",
+          "commonName": "",
+          "ktsn": 120000031029
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:09:04.038Z"
+      }
+    },
+    {
+      "ktsn": 120000031035,
+      "scientificName": "Liacos erythrosoma (Burmeister, 1853)",
+      "commonName": "두색배벌",
+      "terminalLatinName": "erythrosoma",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hymenoptera",
+          "commonName": "벌목",
+          "ktsn": 120000027260
+        },
+        "family": {
+          "scientificName": "Scoliidae",
+          "commonName": "배벌과",
+          "ktsn": 120000031027
+        },
+        "genus": {
+          "scientificName": "Liacos",
+          "commonName": "색배벌속",
+          "ktsn": 120000031034
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "erythrosoma",
+          "commonName": "두색배벌",
+          "ktsn": 120000031035
+        }
+      },
+      "eol": {
+        "pageId": 47367984,
+        "canonical": "Liacos erythrosoma",
+        "fetchedAt": "2026-05-24T11:00:26.113Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": [
+            "ツマキツチバチ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "Myanmar",
+          "Malaysia",
+          "Bhutan",
+          "India",
+          "Japan",
+          "Sri Lanka",
+          "Nepal",
+          "Thailand",
+          "Taiwan",
+          "Korea",
+          "China",
+          "Singapore",
+          "Indonesia",
+          "Hong Kong"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "inat": {
+        "observationCount": 12,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/471729531/medium.jpeg",
+        "months": [
+          2,
+          3,
+          4,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "ktsn": 120000031038,
+      "scientificName": "Megacampsomeris grossa matsumurai Betrem, 1941",
+      "commonName": "긴배벌",
+      "terminalLatinName": "matsumurai",
+      "nomenclaturalAuthor": "Betrem",
+      "namingYear": "1941",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hymenoptera",
+          "commonName": "벌목",
+          "ktsn": 120000027260
+        },
+        "family": {
+          "scientificName": "Scoliidae",
+          "commonName": "배벌과",
+          "ktsn": 120000031027
+        },
+        "genus": {
+          "scientificName": "Megacampsomeris",
+          "commonName": "줄배벌속",
+          "ktsn": 120000031036
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "grossa",
+          "commonName": "",
+          "ktsn": 120000031037
+        }
+      },
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/98369141/medium.jpg",
+        "months": [
+          9
+        ]
+      }
+    },
+    {
+      "ktsn": 120000031039,
+      "scientificName": "Megacampsomeris prismatica (Smith, 1855)",
+      "commonName": "금테줄배벌",
+      "terminalLatinName": "prismatica",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hymenoptera",
+          "commonName": "벌목",
+          "ktsn": 120000027260
+        },
+        "family": {
+          "scientificName": "Scoliidae",
+          "commonName": "배벌과",
+          "ktsn": 120000031027
+        },
+        "genus": {
+          "scientificName": "Megacampsomeris",
+          "commonName": "줄배벌속",
+          "ktsn": 120000031036
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "prismatica",
+          "commonName": "금테줄배벌",
+          "ktsn": 120000031039
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:09:04.038Z"
+      }
+    },
+    {
+      "ktsn": 120000031040,
+      "scientificName": "Megacampsomeris schulthessi Betrem, 1928",
+      "commonName": "배벌",
+      "terminalLatinName": "schulthessi",
+      "nomenclaturalAuthor": "Betrem",
+      "namingYear": "1928",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hymenoptera",
+          "commonName": "벌목",
+          "ktsn": 120000027260
+        },
+        "family": {
+          "scientificName": "Scoliidae",
+          "commonName": "배벌과",
+          "ktsn": 120000031027
+        },
+        "genus": {
+          "scientificName": "Megacampsomeris",
+          "commonName": "줄배벌속",
+          "ktsn": 120000031036
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "schulthessi",
+          "commonName": "배벌",
+          "ktsn": 120000031040
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:09:04.038Z"
+      }
+    },
+    {
+      "ktsn": 120000031041,
+      "scientificName": "Megacampsomeris uchidai (Betrem, 1941)",
+      "commonName": "우찌다배벌",
+      "terminalLatinName": "uchidai",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hymenoptera",
+          "commonName": "벌목",
+          "ktsn": 120000027260
+        },
+        "family": {
+          "scientificName": "Scoliidae",
+          "commonName": "배벌과",
+          "ktsn": 120000031027
+        },
+        "genus": {
+          "scientificName": "Megacampsomeris",
+          "commonName": "줄배벌속",
+          "ktsn": 120000031036
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "uchidai",
+          "commonName": "우찌다배벌",
+          "ktsn": 120000031041
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:09:04.038Z"
+      }
+    },
+    {
+      "ktsn": 120000123171,
+      "scientificName": "Scolia fasciata Smith, 1873",
+      "commonName": "홍조배벌",
+      "terminalLatinName": "fasciata",
+      "nomenclaturalAuthor": "Smith",
+      "namingYear": "1873",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hymenoptera",
+          "commonName": "벌목",
+          "ktsn": 120000027260
+        },
+        "family": {
+          "scientificName": "Scoliidae",
+          "commonName": "배벌과",
+          "ktsn": 120000031027
+        },
+        "genus": {
+          "scientificName": "Scolia",
+          "commonName": "",
+          "ktsn": 120000123164
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "fasciata",
+          "commonName": "홍조배벌",
+          "ktsn": 120000123171
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:09:04.038Z"
+      }
+    },
+    {
+      "ktsn": 120000123174,
+      "scientificName": "Scolia histrionica Fabricius, 1798",
+      "commonName": "줄배벌",
+      "terminalLatinName": "histrionica",
+      "nomenclaturalAuthor": "Fabricius",
+      "namingYear": "1798",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hymenoptera",
+          "commonName": "벌목",
+          "ktsn": 120000027260
+        },
+        "family": {
+          "scientificName": "Scoliidae",
+          "commonName": "배벌과",
+          "ktsn": 120000031027
+        },
+        "genus": {
+          "scientificName": "Scolia",
+          "commonName": "",
+          "ktsn": 120000123164
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "histrionica",
+          "commonName": "줄배벌",
+          "ktsn": 120000123174
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:09:04.038Z"
+      }
+    },
+    {
+      "ktsn": 120000123172,
+      "scientificName": "Scolia nobilis Saussure, 1858",
+      "commonName": "어리줄배벌",
+      "terminalLatinName": "nobilis",
+      "nomenclaturalAuthor": "Saussure",
+      "namingYear": "1858",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hymenoptera",
+          "commonName": "벌목",
+          "ktsn": 120000027260
+        },
+        "family": {
+          "scientificName": "Scoliidae",
+          "commonName": "배벌과",
+          "ktsn": 120000031027
+        },
+        "genus": {
+          "scientificName": "Scolia",
+          "commonName": "",
+          "ktsn": 120000123164
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "nobilis",
+          "commonName": "어리줄배벌",
+          "ktsn": 120000123172
+        }
+      },
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/425383846/medium.jpeg",
+        "months": [
+          8
+        ]
+      }
+    },
+    {
+      "ktsn": 120000123170,
+      "scientificName": "Scolia oculata Matsumura, 1911",
+      "commonName": "황띠배벌",
+      "terminalLatinName": "oculata",
+      "nomenclaturalAuthor": "Matsumura",
+      "namingYear": "1911",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hymenoptera",
+          "commonName": "벌목",
+          "ktsn": 120000027260
+        },
+        "family": {
+          "scientificName": "Scoliidae",
+          "commonName": "배벌과",
+          "ktsn": 120000031027
+        },
+        "genus": {
+          "scientificName": "Scolia",
+          "commonName": "",
+          "ktsn": 120000123164
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "oculata",
+          "commonName": "황띠배벌",
+          "ktsn": 120000123170
+        }
+      },
+      "eol": {
+        "pageId": 47367970,
+        "canonical": "Scolia oculata",
+        "fetchedAt": "2026-05-24T11:01:20.363Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "inat": {
+        "observationCount": 41,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/235046070/medium.jpeg",
+        "months": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "ktsn": 120000123169,
+      "scientificName": "Scolia sinensis Saussure, 1864",
+      "commonName": "애검배벌",
+      "terminalLatinName": "sinensis",
+      "nomenclaturalAuthor": "Saussure",
+      "namingYear": "1864",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hymenoptera",
+          "commonName": "벌목",
+          "ktsn": 120000027260
+        },
+        "family": {
+          "scientificName": "Scoliidae",
+          "commonName": "배벌과",
+          "ktsn": 120000031027
+        },
+        "genus": {
+          "scientificName": "Scolia",
+          "commonName": "",
+          "ktsn": 120000123164
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "sinensis",
+          "commonName": "애검배벌",
+          "ktsn": 120000123169
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:09:04.038Z"
+      }
+    },
+    {
+      "ktsn": 120000123173,
+      "scientificName": "Scolia vittifrons Saussure and Sichel, 1864",
+      "commonName": "소홍조배벌",
+      "terminalLatinName": "vittifrons",
+      "nomenclaturalAuthor": "Saussure and Sichel",
+      "namingYear": "1864",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hymenoptera",
+          "commonName": "벌목",
+          "ktsn": 120000027260
+        },
+        "family": {
+          "scientificName": "Scoliidae",
+          "commonName": "배벌과",
+          "ktsn": 120000031027
+        },
+        "genus": {
+          "scientificName": "Scolia",
+          "commonName": "",
+          "ktsn": 120000123164
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "vittifrons",
+          "commonName": "소홍조배벌",
+          "ktsn": 120000123173
+        }
+      },
+      "inat": {
+        "observationCount": 2,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/401048440/medium.jpeg",
+        "months": [
+          6,
+          7
+        ]
+      }
+    }
+  ]
 }

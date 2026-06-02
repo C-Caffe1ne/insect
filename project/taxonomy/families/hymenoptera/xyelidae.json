@@ -1,655 +1,648 @@
 {
-    "generatedAt":  "2026-05-21T07:47:08.025Z",
-    "source":  "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
-    "order":  {
-                  "id":  "hymenoptera",
-                  "scientificName":  "Hymenoptera",
-                  "commonName":  "벌목",
-                  "orderKtsn":  120000027260,
-                  "abstract":  "벌목은 절지동물문의 곤충강에 속하는 동물 분류의 하나이다. 벌과 개미를 포함하고 있다. 기록종의 수는 약 13만 종 이상이다. 트라이아스기 무렵에 등장하여, 백악기에 최초로 사회생활을 하는 부류가 나타났다. 주로 여왕을 중심으로 사회생활을 하는 종이 많으나 모든 종류가 사회를 이루어 생활하는 것은 아니다. 대체로 사회생활을 하는 벌들 중 대부분을 차지하는 일꾼들은 생식능력이 없는 암컷이다. 생식기관은 독성을 가진 침이나 개미산을 내뿜는 기관으로 변화되어 주로 호신용, 방어용, 사냥용으로 쓰인다. 대부분은 꿀 등을 섭취하지만 잎벌이나 송곳벌처럼 식물을 먹거나, 사냥벌이나 기생벌 또는 쌍살벌처럼 어린 시절에 육식을 하는 벌들도 있다.",
-                  "description":  "벌목은 절지동물문의 곤충강에 속하는 동물 분류의 하나이다. 벌과 개미를 포함하고 있다. 기록종의 수는 약 13만 종 이상이다. 트라이아스기 무렵에 등장하여, 백악기에 최초로 사회생활을 하는 부류가 나타났다. 주로 여왕을 중심으로 사회생활을 하는 종이 많으나 모든 종류가 사회를 이루어 생활하는 것은 아니다. 대체로 사회생활을 하는 벌들 중 대부분을 차지하는 일꾼들은 생식능력이 없는 암컷이다. 생식기관은 독성을 가진 침이나 개미산을 내뿜는 기관으로 변화되어 주로 호신용, 방어용, 사냥용으로 쓰인다. 대부분은 꿀 등을 섭취하지만 잎벌이나 송곳벌처럼 식물을 먹거나, 사냥벌이나 기생벌 또는 쌍살벌처럼 어린 시절에 육식을 하는 벌들도 있다."
-              },
-    "family":  {
-                   "id":  "xyelidae",
-                   "scientificName":  "Xyelidae",
-                   "commonName":  "칼잎벌과",
-                   "familyKtsn":  120000031654
-               },
-    "speciesCount":  10,
-    "insects":  [
-                    {
-                        "ktsn":  120000121597,
-                        "scientificName":  "Megaxyela gigantea Mocsáry, 1909",
-                        "commonName":  "호도칼잎벌",
-                        "terminalLatinName":  "gigantea",
-                        "nomenclaturalAuthor":  "Mocsáry",
-                        "namingYear":  "1909",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hymenoptera",
-                                                       "commonName":  "벌목",
-                                                       "ktsn":  120000027260
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Xyelidae",
-                                                        "commonName":  "칼잎벌과",
-                                                        "ktsn":  120000031654
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Megaxyela",
-                                                       "commonName":  "호도칼잎벌속",
-                                                       "ktsn":  120000031655
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "gigantea",
-                                                         "commonName":  "호도칼잎벌",
-                                                         "ktsn":  120000121597
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000031657,
-                        "scientificName":  "Megaxyela parki Shinohara, 1992",
-                        "commonName":  "오대산칼잎벌",
-                        "terminalLatinName":  "parki",
-                        "nomenclaturalAuthor":  "Shinohara",
-                        "namingYear":  "1992",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hymenoptera",
-                                                       "commonName":  "벌목",
-                                                       "ktsn":  120000027260
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Xyelidae",
-                                                        "commonName":  "칼잎벌과",
-                                                        "ktsn":  120000031654
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Megaxyela",
-                                                       "commonName":  "호도칼잎벌속",
-                                                       "ktsn":  120000031655
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "parki",
-                                                         "commonName":  "오대산칼잎벌",
-                                                         "ktsn":  120000031657
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000228648,
-                        "scientificName":  "Megaxyela pulchra Blank, Shinohara and Sundukov, 2017",
-                        "commonName":  "아름호도칼잎벌",
-                        "terminalLatinName":  "pulchra",
-                        "nomenclaturalAuthor":  "Blank, Shinohara and Sundukov",
-                        "namingYear":  "2017",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hymenoptera",
-                                                       "commonName":  "벌목",
-                                                       "ktsn":  120000027260
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Xyelidae",
-                                                        "commonName":  "칼잎벌과",
-                                                        "ktsn":  120000031654
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Megaxyela",
-                                                       "commonName":  "호도칼잎벌속",
-                                                       "ktsn":  120000031655
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "pulchra",
-                                                         "commonName":  "아름호도칼잎벌",
-                                                         "ktsn":  120000228648
-                                                     }
-                                     },
-                        "inat":  {
-                                     "observationCount":  1,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/179526486/medium.jpg",
-                                     "months":  [
-                                                    5
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000121601,
-                        "scientificName":  "Pleroneura subulata Shinohara, 1995",
-                        "commonName":  "꽃잔디칼잎벌",
-                        "terminalLatinName":  "subulata",
-                        "nomenclaturalAuthor":  "Shinohara",
-                        "namingYear":  "1995",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hymenoptera",
-                                                       "commonName":  "벌목",
-                                                       "ktsn":  120000027260
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Xyelidae",
-                                                        "commonName":  "칼잎벌과",
-                                                        "ktsn":  120000031654
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Pleroneura",
-                                                       "commonName":  "꽃잔디칼잎벌속",
-                                                       "ktsn":  120000031658
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "subulata",
-                                                         "commonName":  "꽃잔디칼잎벌",
-                                                         "ktsn":  120000121601
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  46815299,
-                                    "canonical":  "Pleroneura subulata",
-                                    "fetchedAt":  "2026-05-24T11:10:08.585Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-                                                       "Japan",
-                                                       "Korea",
-                                                       "Russia"
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  null
-                                }
-                    },
-                    {
-                        "ktsn":  120000228534,
-                        "scientificName":  "Xyela (Xyela) densiflorae Blank and Shinohara, 2005",
-                        "commonName":  "금강소나무칼잎벌",
-                        "terminalLatinName":  "densiflorae",
-                        "nomenclaturalAuthor":  "Blank and Shinohara",
-                        "namingYear":  "2005",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hymenoptera",
-                                                       "commonName":  "벌목",
-                                                       "ktsn":  120000027260
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Xyelidae",
-                                                        "commonName":  "칼잎벌과",
-                                                        "ktsn":  120000031654
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Xyela",
-                                                       "commonName":  "칼잎벌속",
-                                                       "ktsn":  120000121599
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "Xyela",
-                                                          "commonName":  "",
-                                                          "ktsn":  120000228531
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "densiflorae",
-                                                         "commonName":  "금강소나무칼잎벌",
-                                                         "ktsn":  120000228534
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000228535,
-                        "scientificName":  "Xyela (Xyela) koraiensis Blank and Shinohara, 2013",
-                        "commonName":  "잣나무칼잎벌",
-                        "terminalLatinName":  "koraiensis",
-                        "nomenclaturalAuthor":  "Blank and Shinohara",
-                        "namingYear":  "2013",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hymenoptera",
-                                                       "commonName":  "벌목",
-                                                       "ktsn":  120000027260
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Xyelidae",
-                                                        "commonName":  "칼잎벌과",
-                                                        "ktsn":  120000031654
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Xyela",
-                                                       "commonName":  "칼잎벌속",
-                                                       "ktsn":  120000121599
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "Xyela",
-                                                          "commonName":  "",
-                                                          "ktsn":  120000228531
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "koraiensis",
-                                                         "commonName":  "잣나무칼잎벌",
-                                                         "ktsn":  120000228535
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  44532112,
-                                    "canonical":  "Xyela koraiensis",
-                                    "fetchedAt":  "2026-05-24T11:10:41.225Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  3
-                                }
-                    },
-                    {
-                        "ktsn":  120000228536,
-                        "scientificName":  "Xyela (Xyela) occidentalis Blank and Shinohara, 2005",
-                        "commonName":  "측백칼잎벌",
-                        "terminalLatinName":  "occidentalis",
-                        "nomenclaturalAuthor":  "Blank and Shinohara",
-                        "namingYear":  "2005",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hymenoptera",
-                                                       "commonName":  "벌목",
-                                                       "ktsn":  120000027260
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Xyelidae",
-                                                        "commonName":  "칼잎벌과",
-                                                        "ktsn":  120000031654
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Xyela",
-                                                       "commonName":  "칼잎벌속",
-                                                       "ktsn":  120000121599
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "Xyela",
-                                                          "commonName":  "",
-                                                          "ktsn":  120000228531
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "occidentalis",
-                                                         "commonName":  "측백칼잎벌",
-                                                         "ktsn":  120000228536
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  52217670,
-                                    "canonical":  "Xyela occidentalis",
-                                    "fetchedAt":  "2026-05-24T11:10:49.016Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  13
-                                }
-                    },
-                    {
-                        "ktsn":  120000228532,
-                        "scientificName":  "Xyela (Xyela) par Blank and Shinohara, 2005",
-                        "commonName":  "꼬마칼잎벌",
-                        "terminalLatinName":  "par",
-                        "nomenclaturalAuthor":  "Blank and Shinohara",
-                        "namingYear":  "2005",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hymenoptera",
-                                                       "commonName":  "벌목",
-                                                       "ktsn":  120000027260
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Xyelidae",
-                                                        "commonName":  "칼잎벌과",
-                                                        "ktsn":  120000031654
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Xyela",
-                                                       "commonName":  "칼잎벌속",
-                                                       "ktsn":  120000121599
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "Xyela",
-                                                          "commonName":  "",
-                                                          "ktsn":  120000228531
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "par",
-                                                         "commonName":  "꼬마칼잎벌",
-                                                         "ktsn":  120000228532
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000228537,
-                        "scientificName":  "Xyela (Xyela) rasnitsyni Blank and Shinohara, 2013",
-                        "commonName":  "어리꼬마칼잎벌",
-                        "terminalLatinName":  "rasnitsyni",
-                        "nomenclaturalAuthor":  "Blank and Shinohara",
-                        "namingYear":  "2013",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hymenoptera",
-                                                       "commonName":  "벌목",
-                                                       "ktsn":  120000027260
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Xyelidae",
-                                                        "commonName":  "칼잎벌과",
-                                                        "ktsn":  120000031654
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Xyela",
-                                                       "commonName":  "칼잎벌속",
-                                                       "ktsn":  120000121599
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "Xyela",
-                                                          "commonName":  "",
-                                                          "ktsn":  120000228531
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "rasnitsyni",
-                                                         "commonName":  "어리꼬마칼잎벌",
-                                                         "ktsn":  120000228537
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000228533,
-                        "scientificName":  "Xyela (Xyela) ussuriensis Rasnitsyn, 1965",
-                        "commonName":  "수원칼잎벌",
-                        "terminalLatinName":  "ussuriensis",
-                        "nomenclaturalAuthor":  "Rasnitsyn",
-                        "namingYear":  "1965",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hymenoptera",
-                                                       "commonName":  "벌목",
-                                                       "ktsn":  120000027260
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Xyelidae",
-                                                        "commonName":  "칼잎벌과",
-                                                        "ktsn":  120000031654
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Xyela",
-                                                       "commonName":  "칼잎벌속",
-                                                       "ktsn":  120000121599
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "Xyela",
-                                                          "commonName":  "",
-                                                          "ktsn":  120000228531
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "ussuriensis",
-                                                         "commonName":  "수원칼잎벌",
-                                                         "ktsn":  120000228533
-                                                     }
-                                     }
-                    }
-                ]
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "hymenoptera",
+    "scientificName": "Hymenoptera",
+    "commonName": "벌목",
+    "orderKtsn": 120000027260,
+    "abstract": "벌목은 절지동물문의 곤충강에 속하는 동물 분류의 하나이다. 벌과 개미를 포함하고 있다. 기록종의 수는 약 13만 종 이상이다. 트라이아스기 무렵에 등장하여, 백악기에 최초로 사회생활을 하는 부류가 나타났다. 주로 여왕을 중심으로 사회생활을 하는 종이 많으나 모든 종류가 사회를 이루어 생활하는 것은 아니다. 대체로 사회생활을 하는 벌들 중 대부분을 차지하는 일꾼들은 생식능력이 없는 암컷이다. 생식기관은 독성을 가진 침이나 개미산을 내뿜는 기관으로 변화되어 주로 호신용, 방어용, 사냥용으로 쓰인다. 대부분은 꿀 등을 섭취하지만 잎벌이나 송곳벌처럼 식물을 먹거나, 사냥벌이나 기생벌 또는 쌍살벌처럼 어린 시절에 육식을 하는 벌들도 있다.",
+    "description": "벌목은 절지동물문의 곤충강에 속하는 동물 분류의 하나이다. 벌과 개미를 포함하고 있다. 기록종의 수는 약 13만 종 이상이다. 트라이아스기 무렵에 등장하여, 백악기에 최초로 사회생활을 하는 부류가 나타났다. 주로 여왕을 중심으로 사회생활을 하는 종이 많으나 모든 종류가 사회를 이루어 생활하는 것은 아니다. 대체로 사회생활을 하는 벌들 중 대부분을 차지하는 일꾼들은 생식능력이 없는 암컷이다. 생식기관은 독성을 가진 침이나 개미산을 내뿜는 기관으로 변화되어 주로 호신용, 방어용, 사냥용으로 쓰인다. 대부분은 꿀 등을 섭취하지만 잎벌이나 송곳벌처럼 식물을 먹거나, 사냥벌이나 기생벌 또는 쌍살벌처럼 어린 시절에 육식을 하는 벌들도 있다."
+  },
+  "family": {
+    "id": "xyelidae",
+    "scientificName": "Xyelidae",
+    "commonName": "칼잎벌과",
+    "familyKtsn": 120000031654
+  },
+  "speciesCount": 10,
+  "insects": [
+    {
+      "ktsn": 120000121597,
+      "scientificName": "Megaxyela gigantea Mocsáry, 1909",
+      "commonName": "호도칼잎벌",
+      "terminalLatinName": "gigantea",
+      "nomenclaturalAuthor": "Mocsáry",
+      "namingYear": "1909",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hymenoptera",
+          "commonName": "벌목",
+          "ktsn": 120000027260
+        },
+        "family": {
+          "scientificName": "Xyelidae",
+          "commonName": "칼잎벌과",
+          "ktsn": 120000031654
+        },
+        "genus": {
+          "scientificName": "Megaxyela",
+          "commonName": "호도칼잎벌속",
+          "ktsn": 120000031655
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "gigantea",
+          "commonName": "호도칼잎벌",
+          "ktsn": 120000121597
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:09:14.860Z"
+      }
+    },
+    {
+      "ktsn": 120000031657,
+      "scientificName": "Megaxyela parki Shinohara, 1992",
+      "commonName": "오대산칼잎벌",
+      "terminalLatinName": "parki",
+      "nomenclaturalAuthor": "Shinohara",
+      "namingYear": "1992",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hymenoptera",
+          "commonName": "벌목",
+          "ktsn": 120000027260
+        },
+        "family": {
+          "scientificName": "Xyelidae",
+          "commonName": "칼잎벌과",
+          "ktsn": 120000031654
+        },
+        "genus": {
+          "scientificName": "Megaxyela",
+          "commonName": "호도칼잎벌속",
+          "ktsn": 120000031655
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "parki",
+          "commonName": "오대산칼잎벌",
+          "ktsn": 120000031657
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:09:14.860Z"
+      }
+    },
+    {
+      "ktsn": 120000228648,
+      "scientificName": "Megaxyela pulchra Blank, Shinohara and Sundukov, 2017",
+      "commonName": "아름호도칼잎벌",
+      "terminalLatinName": "pulchra",
+      "nomenclaturalAuthor": "Blank, Shinohara and Sundukov",
+      "namingYear": "2017",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hymenoptera",
+          "commonName": "벌목",
+          "ktsn": 120000027260
+        },
+        "family": {
+          "scientificName": "Xyelidae",
+          "commonName": "칼잎벌과",
+          "ktsn": 120000031654
+        },
+        "genus": {
+          "scientificName": "Megaxyela",
+          "commonName": "호도칼잎벌속",
+          "ktsn": 120000031655
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "pulchra",
+          "commonName": "아름호도칼잎벌",
+          "ktsn": 120000228648
+        }
+      },
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/179526486/medium.jpg",
+        "months": [
+          5
+        ]
+      }
+    },
+    {
+      "ktsn": 120000121601,
+      "scientificName": "Pleroneura subulata Shinohara, 1995",
+      "commonName": "꽃잔디칼잎벌",
+      "terminalLatinName": "subulata",
+      "nomenclaturalAuthor": "Shinohara",
+      "namingYear": "1995",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hymenoptera",
+          "commonName": "벌목",
+          "ktsn": 120000027260
+        },
+        "family": {
+          "scientificName": "Xyelidae",
+          "commonName": "칼잎벌과",
+          "ktsn": 120000031654
+        },
+        "genus": {
+          "scientificName": "Pleroneura",
+          "commonName": "꽃잔디칼잎벌속",
+          "ktsn": 120000031658
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "subulata",
+          "commonName": "꽃잔디칼잎벌",
+          "ktsn": 120000121601
+        }
+      },
+      "eol": {
+        "pageId": 46815299,
+        "canonical": "Pleroneura subulata",
+        "fetchedAt": "2026-05-24T11:10:08.585Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [
+          "Japan",
+          "Korea",
+          "Russia"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:09:14.860Z"
+      }
+    },
+    {
+      "ktsn": 120000228534,
+      "scientificName": "Xyela (Xyela) densiflorae Blank and Shinohara, 2005",
+      "commonName": "금강소나무칼잎벌",
+      "terminalLatinName": "densiflorae",
+      "nomenclaturalAuthor": "Blank and Shinohara",
+      "namingYear": "2005",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hymenoptera",
+          "commonName": "벌목",
+          "ktsn": 120000027260
+        },
+        "family": {
+          "scientificName": "Xyelidae",
+          "commonName": "칼잎벌과",
+          "ktsn": 120000031654
+        },
+        "genus": {
+          "scientificName": "Xyela",
+          "commonName": "칼잎벌속",
+          "ktsn": 120000121599
+        },
+        "subgenus": {
+          "scientificName": "Xyela",
+          "commonName": "",
+          "ktsn": 120000228531
+        },
+        "species": {
+          "scientificName": "densiflorae",
+          "commonName": "금강소나무칼잎벌",
+          "ktsn": 120000228534
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:09:14.860Z"
+      }
+    },
+    {
+      "ktsn": 120000228535,
+      "scientificName": "Xyela (Xyela) koraiensis Blank and Shinohara, 2013",
+      "commonName": "잣나무칼잎벌",
+      "terminalLatinName": "koraiensis",
+      "nomenclaturalAuthor": "Blank and Shinohara",
+      "namingYear": "2013",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hymenoptera",
+          "commonName": "벌목",
+          "ktsn": 120000027260
+        },
+        "family": {
+          "scientificName": "Xyelidae",
+          "commonName": "칼잎벌과",
+          "ktsn": 120000031654
+        },
+        "genus": {
+          "scientificName": "Xyela",
+          "commonName": "칼잎벌속",
+          "ktsn": 120000121599
+        },
+        "subgenus": {
+          "scientificName": "Xyela",
+          "commonName": "",
+          "ktsn": 120000228531
+        },
+        "species": {
+          "scientificName": "koraiensis",
+          "commonName": "잣나무칼잎벌",
+          "ktsn": 120000228535
+        }
+      },
+      "eol": {
+        "pageId": 44532112,
+        "canonical": "Xyela koraiensis",
+        "fetchedAt": "2026-05-24T11:10:41.225Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 3
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:09:14.860Z"
+      }
+    },
+    {
+      "ktsn": 120000228536,
+      "scientificName": "Xyela (Xyela) occidentalis Blank and Shinohara, 2005",
+      "commonName": "측백칼잎벌",
+      "terminalLatinName": "occidentalis",
+      "nomenclaturalAuthor": "Blank and Shinohara",
+      "namingYear": "2005",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hymenoptera",
+          "commonName": "벌목",
+          "ktsn": 120000027260
+        },
+        "family": {
+          "scientificName": "Xyelidae",
+          "commonName": "칼잎벌과",
+          "ktsn": 120000031654
+        },
+        "genus": {
+          "scientificName": "Xyela",
+          "commonName": "칼잎벌속",
+          "ktsn": 120000121599
+        },
+        "subgenus": {
+          "scientificName": "Xyela",
+          "commonName": "",
+          "ktsn": 120000228531
+        },
+        "species": {
+          "scientificName": "occidentalis",
+          "commonName": "측백칼잎벌",
+          "ktsn": 120000228536
+        }
+      },
+      "eol": {
+        "pageId": 52217670,
+        "canonical": "Xyela occidentalis",
+        "fetchedAt": "2026-05-24T11:10:49.016Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 13
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:09:14.860Z"
+      }
+    },
+    {
+      "ktsn": 120000228532,
+      "scientificName": "Xyela (Xyela) par Blank and Shinohara, 2005",
+      "commonName": "꼬마칼잎벌",
+      "terminalLatinName": "par",
+      "nomenclaturalAuthor": "Blank and Shinohara",
+      "namingYear": "2005",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hymenoptera",
+          "commonName": "벌목",
+          "ktsn": 120000027260
+        },
+        "family": {
+          "scientificName": "Xyelidae",
+          "commonName": "칼잎벌과",
+          "ktsn": 120000031654
+        },
+        "genus": {
+          "scientificName": "Xyela",
+          "commonName": "칼잎벌속",
+          "ktsn": 120000121599
+        },
+        "subgenus": {
+          "scientificName": "Xyela",
+          "commonName": "",
+          "ktsn": 120000228531
+        },
+        "species": {
+          "scientificName": "par",
+          "commonName": "꼬마칼잎벌",
+          "ktsn": 120000228532
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:09:15.520Z"
+      }
+    },
+    {
+      "ktsn": 120000228537,
+      "scientificName": "Xyela (Xyela) rasnitsyni Blank and Shinohara, 2013",
+      "commonName": "어리꼬마칼잎벌",
+      "terminalLatinName": "rasnitsyni",
+      "nomenclaturalAuthor": "Blank and Shinohara",
+      "namingYear": "2013",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hymenoptera",
+          "commonName": "벌목",
+          "ktsn": 120000027260
+        },
+        "family": {
+          "scientificName": "Xyelidae",
+          "commonName": "칼잎벌과",
+          "ktsn": 120000031654
+        },
+        "genus": {
+          "scientificName": "Xyela",
+          "commonName": "칼잎벌속",
+          "ktsn": 120000121599
+        },
+        "subgenus": {
+          "scientificName": "Xyela",
+          "commonName": "",
+          "ktsn": 120000228531
+        },
+        "species": {
+          "scientificName": "rasnitsyni",
+          "commonName": "어리꼬마칼잎벌",
+          "ktsn": 120000228537
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:09:15.520Z"
+      }
+    },
+    {
+      "ktsn": 120000228533,
+      "scientificName": "Xyela (Xyela) ussuriensis Rasnitsyn, 1965",
+      "commonName": "수원칼잎벌",
+      "terminalLatinName": "ussuriensis",
+      "nomenclaturalAuthor": "Rasnitsyn",
+      "namingYear": "1965",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hymenoptera",
+          "commonName": "벌목",
+          "ktsn": 120000027260
+        },
+        "family": {
+          "scientificName": "Xyelidae",
+          "commonName": "칼잎벌과",
+          "ktsn": 120000031654
+        },
+        "genus": {
+          "scientificName": "Xyela",
+          "commonName": "칼잎벌속",
+          "ktsn": 120000121599
+        },
+        "subgenus": {
+          "scientificName": "Xyela",
+          "commonName": "",
+          "ktsn": 120000228531
+        },
+        "species": {
+          "scientificName": "ussuriensis",
+          "commonName": "수원칼잎벌",
+          "ktsn": 120000228533
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:09:15.520Z"
+      }
+    }
+  ]
 }

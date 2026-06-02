@@ -1,879 +1,920 @@
 {
-    "generatedAt":  "2026-05-21T07:47:08.025Z",
-    "source":  "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
-    "order":  {
-                  "id":  "lepidoptera",
-                  "scientificName":  "Lepidoptera",
-                  "commonName":  "나비목",
-                  "orderKtsn":  120000031663
-              },
-    "family":  {
-                   "id":  "choreutidae",
-                   "scientificName":  "Choreutidae",
-                   "commonName":  "뭉뚝날개나방과",
-                   "familyKtsn":  120000031730,
-                   "abstract":  "뭉뚝날개나방과(Choreutidae)는 나비목에 속하는 곤충과의 하나이다. 오랫동안 다른 나방 과들과의 유연 관계가 논란의 대상이 되어 왔으며, 이전에는 집나방상과, 그림날개나방과, 유리나방상과 등으로 분류했다. 현재는 뭉뚝날개나방상과(Choreutoidea)의 유일한 과로 분류하고 있다(Minet, 1986). 이문류에 속하는 다른 계통 과와의 유연 관계는 특히 새로운 분자생물학적 정보들과 함께 재평가가 필요하다.",
-                   "description":  "뭉뚝날개나방과(Choreutidae)는 나비목에 속하는 곤충과의 하나이다. 오랫동안 다른 나방 과들과의 유연 관계가 논란의 대상이 되어 왔으며, 이전에는 집나방상과, 그림날개나방과, 유리나방상과 등으로 분류했다. 현재는 뭉뚝날개나방상과(Choreutoidea)의 유일한 과로 분류하고 있다(Minet, 1986). 이문류에 속하는 다른 계통 과와의 유연 관계는 특히 새로운 분자생물학적 정보들과 함께 재평가가 필요하다."
-               },
-    "speciesCount":  13,
-    "insects":  [
-                    {
-                        "ktsn":  120000407544,
-                        "scientificName":  "Anthophila fabriciana (Linnaeus, 1767)",
-                        "commonName":  "쐐기풀뭉뚝날개나방",
-                        "terminalLatinName":  "fabriciana",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Choreutidae",
-                                                        "commonName":  "뭉뚝날개나방과",
-                                                        "ktsn":  120000031730
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Anthophila",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000116332
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "fabriciana",
-                                                         "commonName":  "쐐기풀뭉뚝날개나방",
-                                                         "ktsn":  120000407544
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  949500,
-                                    "canonical":  "Anthophila fabriciana",
-                                    "fetchedAt":  "2026-05-24T11:15:31.970Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-                                                                   "Common Nettle-tap"
-                                                               ],
-                                                        "ja":  [
-                                                                   "イラクサハマキモドキ"
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-                                                       "North Atlantic",
-                                                       "United Kingdom",
-                                                       "The Netherlands",
-                                                       "Switzerland",
-                                                       "Sweden",
-                                                       "Slovakia",
-                                                       "Russia",
-                                                       "Portugal",
-                                                       "Norway",
-                                                       "Luxembourg",
-                                                       "Italy",
-                                                       "Ireland",
-                                                       "Hungary",
-                                                       "Germany",
-                                                       "France",
-                                                       "Finland",
-                                                       "Estonia",
-                                                       "Denmark",
-                                                       "Canada",
-                                                       "Belgium",
-                                                       "Austria"
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  30534
-                                },
-                        "inat":  {
-                                     "observationCount":  2,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/545455966/medium.jpg",
-                                     "months":  [
-                                                    6,
-                                                    7
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000511216,
-                        "scientificName":  "Choreutis atrosignata (Christoph, 1888)",
-                        "commonName":  "느릅뭉뚝날개나방",
-                        "terminalLatinName":  "atrosignata",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Choreutidae",
-                                                        "commonName":  "뭉뚝날개나방과",
-                                                        "ktsn":  120000031730
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Choreutis",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000031731
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "atrosignata",
-                                                         "commonName":  "느릅뭉뚝날개나방",
-                                                         "ktsn":  120000511216
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000031732,
-                        "scientificName":  "Choreutis hyligenes (Butler, 1879)",
-                        "commonName":  "황물결뭉뚝날개나방",
-                        "terminalLatinName":  "hyligenes",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Choreutidae",
-                                                        "commonName":  "뭉뚝날개나방과",
-                                                        "ktsn":  120000031730
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Choreutis",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000031731
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "hyligenes",
-                                                         "commonName":  "황물결뭉뚝날개나방",
-                                                         "ktsn":  120000031732
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000501896,
-                        "scientificName":  "Choreutis japonica (Zeller, 1877)",
-                        "commonName":  "천선과뭉뚝날개나방",
-                        "terminalLatinName":  "japonica",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Choreutidae",
-                                                        "commonName":  "뭉뚝날개나방과",
-                                                        "ktsn":  120000031730
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Choreutis",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000031731
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "japonica",
-                                                         "commonName":  "천선과뭉뚝날개나방",
-                                                         "ktsn":  120000501896
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000087382,
-                        "scientificName":  "Choreutis pariana (Clerk, 1759)",
-                        "commonName":  "나도사과뭉뚝날개나방",
-                        "terminalLatinName":  "pariana",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Choreutidae",
-                                                        "commonName":  "뭉뚝날개나방과",
-                                                        "ktsn":  120000031730
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Choreutis",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000031731
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "pariana",
-                                                         "commonName":  "나도사과뭉뚝날개나방",
-                                                         "ktsn":  120000087382
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  58845939,
-                                    "canonical":  "Choreutis pariana",
-                                    "fetchedAt":  "2026-05-24T11:15:29.255Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  null
-                                },
-                        "inat":  {
-                                     "observationCount":  1,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/540261540/medium.jpg",
-                                     "months":  [
-                                                    7
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000031734,
-                        "scientificName":  "Homadaula anisocentra Meyrick, 1922",
-                        "commonName":  "자귀뭉뚝날개나방",
-                        "terminalLatinName":  "anisocentra",
-                        "nomenclaturalAuthor":  "Meyrick",
-                        "namingYear":  "1922",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Choreutidae",
-                                                        "commonName":  "뭉뚝날개나방과",
-                                                        "ktsn":  120000031730
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Homadaula",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000031733
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "anisocentra",
-                                                         "commonName":  "자귀뭉뚝날개나방",
-                                                         "ktsn":  120000031734
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  47367854,
-                                    "canonical":  "Homadaula anisocentra",
-                                    "fetchedAt":  "2026-05-24T11:14:53.836Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  null
-                                },
-                        "inat":  {
-                                     "observationCount":  1,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/563033981/medium.jpg",
-                                     "months":  [
-                                                    9
-                                                ]
-                                 }
-                    },
-                    {
-                        "ktsn":  120000501895,
-                        "scientificName":  "Litobrenthia japonica (Issiki, 1930)",
-                        "commonName":  "육눈이뭉뚝날개나방",
-                        "terminalLatinName":  "japonica",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Choreutidae",
-                                                        "commonName":  "뭉뚝날개나방과",
-                                                        "ktsn":  120000031730
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Litobrenthia",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000501894
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "japonica",
-                                                         "commonName":  "육눈이뭉뚝날개나방",
-                                                         "ktsn":  120000501895
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000516064,
-                        "scientificName":  "Prochoreutis delicata (Arita, 1976)",
-                        "commonName":  "별박이뭉뚝날개나방",
-                        "terminalLatinName":  "delicata",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Choreutidae",
-                                                        "commonName":  "뭉뚝날개나방과",
-                                                        "ktsn":  120000031730
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Prochoreutis",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000031735
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "delicata",
-                                                         "commonName":  "별박이뭉뚝날개나방",
-                                                         "ktsn":  120000516064
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000031736,
-                        "scientificName":  "Prochoreutis hadrogastra (Diakonoff, 1978)",
-                        "commonName":  "테두리뭉뚝날개나방",
-                        "terminalLatinName":  "hadrogastra",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Choreutidae",
-                                                        "commonName":  "뭉뚝날개나방과",
-                                                        "ktsn":  120000031730
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Prochoreutis",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000031735
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "hadrogastra",
-                                                         "commonName":  "테두리뭉뚝날개나방",
-                                                         "ktsn":  120000031736
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000407589,
-                        "scientificName":  "Prochoreutis myllerana (Fabricius, 1794)",
-                        "commonName":  "노란머리뭉뚝날개나방",
-                        "terminalLatinName":  "myllerana",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Choreutidae",
-                                                        "commonName":  "뭉뚝날개나방과",
-                                                        "ktsn":  120000031730
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Prochoreutis",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000031735
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "myllerana",
-                                                         "commonName":  "노란머리뭉뚝날개나방",
-                                                         "ktsn":  120000407589
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000031737,
-                        "scientificName":  "Prochoreutis solaris (Erschoff, 1877)",
-                        "commonName":  "백두산뭉뚝날개나방",
-                        "terminalLatinName":  "solaris",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Choreutidae",
-                                                        "commonName":  "뭉뚝날개나방과",
-                                                        "ktsn":  120000031730
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Prochoreutis",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000031735
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "solaris",
-                                                         "commonName":  "백두산뭉뚝날개나방",
-                                                         "ktsn":  120000031737
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  49029521,
-                                    "canonical":  "Prochoreutis solaris",
-                                    "fetchedAt":  "2026-05-24T11:15:09.861Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  null
-                                }
-                    },
-                    {
-                        "ktsn":  120000031738,
-                        "scientificName":  "Prochoreutis subdelicata Arita, 1987",
-                        "commonName":  "참테두리뭉뚝날개나방",
-                        "terminalLatinName":  "subdelicata",
-                        "nomenclaturalAuthor":  "Arita",
-                        "namingYear":  "1987",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Choreutidae",
-                                                        "commonName":  "뭉뚝날개나방과",
-                                                        "ktsn":  120000031730
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Prochoreutis",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000031735
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "subdelicata",
-                                                         "commonName":  "참테두리뭉뚝날개나방",
-                                                         "ktsn":  120000031738
-                                                     }
-                                     }
-                    },
-                    {
-                        "ktsn":  120000031740,
-                        "scientificName":  "Tebenna issikii (Matsumura, 1931)",
-                        "commonName":  "우엉뭉뚝날개나방",
-                        "terminalLatinName":  "issikii",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Choreutidae",
-                                                        "commonName":  "뭉뚝날개나방과",
-                                                        "ktsn":  120000031730
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Tebenna",
-                                                       "commonName":  "",
-                                                       "ktsn":  120000031739
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "issikii",
-                                                         "commonName":  "우엉뭉뚝날개나방",
-                                                         "ktsn":  120000031740
-                                                     }
-                                     }
-                    }
-                ]
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "lepidoptera",
+    "scientificName": "Lepidoptera",
+    "commonName": "나비목",
+    "orderKtsn": 120000031663
+  },
+  "family": {
+    "id": "choreutidae",
+    "scientificName": "Choreutidae",
+    "commonName": "뭉뚝날개나방과",
+    "familyKtsn": 120000031730,
+    "abstract": "뭉뚝날개나방과(Choreutidae)는 나비목에 속하는 곤충과의 하나이다. 오랫동안 다른 나방 과들과의 유연 관계가 논란의 대상이 되어 왔으며, 이전에는 집나방상과, 그림날개나방과, 유리나방상과 등으로 분류했다. 현재는 뭉뚝날개나방상과(Choreutoidea)의 유일한 과로 분류하고 있다(Minet, 1986). 이문류에 속하는 다른 계통 과와의 유연 관계는 특히 새로운 분자생물학적 정보들과 함께 재평가가 필요하다.",
+    "description": "뭉뚝날개나방과(Choreutidae)는 나비목에 속하는 곤충과의 하나이다. 오랫동안 다른 나방 과들과의 유연 관계가 논란의 대상이 되어 왔으며, 이전에는 집나방상과, 그림날개나방과, 유리나방상과 등으로 분류했다. 현재는 뭉뚝날개나방상과(Choreutoidea)의 유일한 과로 분류하고 있다(Minet, 1986). 이문류에 속하는 다른 계통 과와의 유연 관계는 특히 새로운 분자생물학적 정보들과 함께 재평가가 필요하다."
+  },
+  "speciesCount": 13,
+  "insects": [
+    {
+      "ktsn": 120000407544,
+      "scientificName": "Anthophila fabriciana (Linnaeus, 1767)",
+      "commonName": "쐐기풀뭉뚝날개나방",
+      "terminalLatinName": "fabriciana",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Choreutidae",
+          "commonName": "뭉뚝날개나방과",
+          "ktsn": 120000031730
+        },
+        "genus": {
+          "scientificName": "Anthophila",
+          "commonName": "",
+          "ktsn": 120000116332
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "fabriciana",
+          "commonName": "쐐기풀뭉뚝날개나방",
+          "ktsn": 120000407544
+        }
+      },
+      "eol": {
+        "pageId": 949500,
+        "canonical": "Anthophila fabriciana",
+        "fetchedAt": "2026-05-24T11:15:31.970Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [
+            "Common Nettle-tap"
+          ],
+          "ja": [
+            "イラクサハマキモドキ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "North Atlantic",
+          "United Kingdom",
+          "The Netherlands",
+          "Switzerland",
+          "Sweden",
+          "Slovakia",
+          "Russia",
+          "Portugal",
+          "Norway",
+          "Luxembourg",
+          "Italy",
+          "Ireland",
+          "Hungary",
+          "Germany",
+          "France",
+          "Finland",
+          "Estonia",
+          "Denmark",
+          "Canada",
+          "Belgium",
+          "Austria"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 30534
+      },
+      "inat": {
+        "observationCount": 2,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/545455966/medium.jpg",
+        "months": [
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "ktsn": 120000511216,
+      "scientificName": "Choreutis atrosignata (Christoph, 1888)",
+      "commonName": "느릅뭉뚝날개나방",
+      "terminalLatinName": "atrosignata",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Choreutidae",
+          "commonName": "뭉뚝날개나방과",
+          "ktsn": 120000031730
+        },
+        "genus": {
+          "scientificName": "Choreutis",
+          "commonName": "",
+          "ktsn": 120000031731
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "atrosignata",
+          "commonName": "느릅뭉뚝날개나방",
+          "ktsn": 120000511216
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:09:17.660Z",
+        "title": "Choreutis atrosignata",
+        "description": "species of insect"
+      }
+    },
+    {
+      "ktsn": 120000031732,
+      "scientificName": "Choreutis hyligenes (Butler, 1879)",
+      "commonName": "황물결뭉뚝날개나방",
+      "terminalLatinName": "hyligenes",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Choreutidae",
+          "commonName": "뭉뚝날개나방과",
+          "ktsn": 120000031730
+        },
+        "genus": {
+          "scientificName": "Choreutis",
+          "commonName": "",
+          "ktsn": 120000031731
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "hyligenes",
+          "commonName": "황물결뭉뚝날개나방",
+          "ktsn": 120000031732
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:09:17.660Z",
+        "title": "Choreutis hyligenes",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Choreutis_hyligenes_%2823051385024%29.jpg/500px-Choreutis_hyligenes_%2823051385024%29.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Choreutis_hyligenes_%2823051385024%29.jpg",
+        "thumbnailSize": {
+          "width": 500,
+          "height": 333
+        },
+        "originalSize": {
+          "width": 4256,
+          "height": 2832
+        },
+        "filename": "Choreutis_hyligenes_(23051385024).jpg",
+        "description": "species of insect",
+        "pageUrl": "https://en.wikipedia.org/wiki/Choreutis_hyligenes",
+        "license": "see Wikimedia Commons",
+        "source": "Wikipedia"
+      }
+    },
+    {
+      "ktsn": 120000501896,
+      "scientificName": "Choreutis japonica (Zeller, 1877)",
+      "commonName": "천선과뭉뚝날개나방",
+      "terminalLatinName": "japonica",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Choreutidae",
+          "commonName": "뭉뚝날개나방과",
+          "ktsn": 120000031730
+        },
+        "genus": {
+          "scientificName": "Choreutis",
+          "commonName": "",
+          "ktsn": 120000031731
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "japonica",
+          "commonName": "천선과뭉뚝날개나방",
+          "ktsn": 120000501896
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:09:17.660Z",
+        "title": "Choreutis japonica",
+        "description": "species of insect"
+      }
+    },
+    {
+      "ktsn": 120000087382,
+      "scientificName": "Choreutis pariana (Clerk, 1759)",
+      "commonName": "나도사과뭉뚝날개나방",
+      "terminalLatinName": "pariana",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Choreutidae",
+          "commonName": "뭉뚝날개나방과",
+          "ktsn": 120000031730
+        },
+        "genus": {
+          "scientificName": "Choreutis",
+          "commonName": "",
+          "ktsn": 120000031731
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "pariana",
+          "commonName": "나도사과뭉뚝날개나방",
+          "ktsn": 120000087382
+        }
+      },
+      "eol": {
+        "pageId": 58845939,
+        "canonical": "Choreutis pariana",
+        "fetchedAt": "2026-05-24T11:15:29.255Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/540261540/medium.jpg",
+        "months": [
+          7
+        ]
+      }
+    },
+    {
+      "ktsn": 120000031734,
+      "scientificName": "Homadaula anisocentra Meyrick, 1922",
+      "commonName": "자귀뭉뚝날개나방",
+      "terminalLatinName": "anisocentra",
+      "nomenclaturalAuthor": "Meyrick",
+      "namingYear": "1922",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Choreutidae",
+          "commonName": "뭉뚝날개나방과",
+          "ktsn": 120000031730
+        },
+        "genus": {
+          "scientificName": "Homadaula",
+          "commonName": "",
+          "ktsn": 120000031733
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "anisocentra",
+          "commonName": "자귀뭉뚝날개나방",
+          "ktsn": 120000031734
+        }
+      },
+      "eol": {
+        "pageId": 47367854,
+        "canonical": "Homadaula anisocentra",
+        "fetchedAt": "2026-05-24T11:14:53.836Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/563033981/medium.jpg",
+        "months": [
+          9
+        ]
+      }
+    },
+    {
+      "ktsn": 120000501895,
+      "scientificName": "Litobrenthia japonica (Issiki, 1930)",
+      "commonName": "육눈이뭉뚝날개나방",
+      "terminalLatinName": "japonica",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Choreutidae",
+          "commonName": "뭉뚝날개나방과",
+          "ktsn": 120000031730
+        },
+        "genus": {
+          "scientificName": "Litobrenthia",
+          "commonName": "",
+          "ktsn": 120000501894
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "japonica",
+          "commonName": "육눈이뭉뚝날개나방",
+          "ktsn": 120000501895
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:09:17.660Z",
+        "title": "Litobrenthia japonica",
+        "description": "species of insect"
+      }
+    },
+    {
+      "ktsn": 120000516064,
+      "scientificName": "Prochoreutis delicata (Arita, 1976)",
+      "commonName": "별박이뭉뚝날개나방",
+      "terminalLatinName": "delicata",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Choreutidae",
+          "commonName": "뭉뚝날개나방과",
+          "ktsn": 120000031730
+        },
+        "genus": {
+          "scientificName": "Prochoreutis",
+          "commonName": "",
+          "ktsn": 120000031735
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "delicata",
+          "commonName": "별박이뭉뚝날개나방",
+          "ktsn": 120000516064
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:09:17.660Z",
+        "title": "Prochoreutis delicata",
+        "description": "species of insect"
+      }
+    },
+    {
+      "ktsn": 120000031736,
+      "scientificName": "Prochoreutis hadrogastra (Diakonoff, 1978)",
+      "commonName": "테두리뭉뚝날개나방",
+      "terminalLatinName": "hadrogastra",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Choreutidae",
+          "commonName": "뭉뚝날개나방과",
+          "ktsn": 120000031730
+        },
+        "genus": {
+          "scientificName": "Prochoreutis",
+          "commonName": "",
+          "ktsn": 120000031735
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "hadrogastra",
+          "commonName": "테두리뭉뚝날개나방",
+          "ktsn": 120000031736
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:09:17.660Z",
+        "title": "Prochoreutis hadrogastra",
+        "description": "species of insect"
+      }
+    },
+    {
+      "ktsn": 120000407589,
+      "scientificName": "Prochoreutis myllerana (Fabricius, 1794)",
+      "commonName": "노란머리뭉뚝날개나방",
+      "terminalLatinName": "myllerana",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Choreutidae",
+          "commonName": "뭉뚝날개나방과",
+          "ktsn": 120000031730
+        },
+        "genus": {
+          "scientificName": "Prochoreutis",
+          "commonName": "",
+          "ktsn": 120000031735
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "myllerana",
+          "commonName": "노란머리뭉뚝날개나방",
+          "ktsn": 120000407589
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:09:17.660Z",
+        "title": "Prochoreutis myllerana",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Choreutidae_-_Prochoreutis_myllerana.JPG/500px-Choreutidae_-_Prochoreutis_myllerana.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Choreutidae_-_Prochoreutis_myllerana.JPG",
+        "thumbnailSize": {
+          "width": 500,
+          "height": 500
+        },
+        "originalSize": {
+          "width": 1180,
+          "height": 1181
+        },
+        "filename": "Choreutidae_-_Prochoreutis_myllerana.JPG",
+        "description": "species of insect",
+        "pageUrl": "https://en.wikipedia.org/wiki/Prochoreutis_myllerana",
+        "license": "see Wikimedia Commons",
+        "source": "Wikipedia"
+      }
+    },
+    {
+      "ktsn": 120000031737,
+      "scientificName": "Prochoreutis solaris (Erschoff, 1877)",
+      "commonName": "백두산뭉뚝날개나방",
+      "terminalLatinName": "solaris",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Choreutidae",
+          "commonName": "뭉뚝날개나방과",
+          "ktsn": 120000031730
+        },
+        "genus": {
+          "scientificName": "Prochoreutis",
+          "commonName": "",
+          "ktsn": 120000031735
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "solaris",
+          "commonName": "백두산뭉뚝날개나방",
+          "ktsn": 120000031737
+        }
+      },
+      "eol": {
+        "pageId": 49029521,
+        "canonical": "Prochoreutis solaris",
+        "fetchedAt": "2026-05-24T11:15:09.861Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:09:17.660Z",
+        "title": "Prochoreutis solaris",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Prochoreutis_solaris.jpg/500px-Prochoreutis_solaris.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Prochoreutis_solaris.jpg",
+        "thumbnailSize": {
+          "width": 500,
+          "height": 281
+        },
+        "originalSize": {
+          "width": 639,
+          "height": 359
+        },
+        "filename": "Prochoreutis_solaris.jpg",
+        "description": "species of insect",
+        "pageUrl": "https://en.wikipedia.org/wiki/Prochoreutis_solaris",
+        "license": "see Wikimedia Commons",
+        "source": "Wikipedia"
+      }
+    },
+    {
+      "ktsn": 120000031738,
+      "scientificName": "Prochoreutis subdelicata Arita, 1987",
+      "commonName": "참테두리뭉뚝날개나방",
+      "terminalLatinName": "subdelicata",
+      "nomenclaturalAuthor": "Arita",
+      "namingYear": "1987",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Choreutidae",
+          "commonName": "뭉뚝날개나방과",
+          "ktsn": 120000031730
+        },
+        "genus": {
+          "scientificName": "Prochoreutis",
+          "commonName": "",
+          "ktsn": 120000031735
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "subdelicata",
+          "commonName": "참테두리뭉뚝날개나방",
+          "ktsn": 120000031738
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:09:17.660Z",
+        "title": "Prochoreutis subdelicata",
+        "description": "species of insect"
+      }
+    },
+    {
+      "ktsn": 120000031740,
+      "scientificName": "Tebenna issikii (Matsumura, 1931)",
+      "commonName": "우엉뭉뚝날개나방",
+      "terminalLatinName": "issikii",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Choreutidae",
+          "commonName": "뭉뚝날개나방과",
+          "ktsn": 120000031730
+        },
+        "genus": {
+          "scientificName": "Tebenna",
+          "commonName": "",
+          "ktsn": 120000031739
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "issikii",
+          "commonName": "우엉뭉뚝날개나방",
+          "ktsn": 120000031740
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:09:17.660Z"
+      }
+    }
+  ]
 }
