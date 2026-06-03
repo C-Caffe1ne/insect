@@ -2967,6 +2967,25 @@
         }
       }
 
+      // 3.5) GBIF Occurrence 사진 (family 단위 일괄 수집 결과)
+      // CC URL이 들어있는 경우 한국어 단축 라벨 + occurrence 페이지 직링크
+      const gbifPhotos = item?.gbifPics?.photos;
+      if (Array.isArray(gbifPhotos)) {
+        for (const p of gbifPhotos) {
+          if (!p?.url) continue;
+          add(p.url, {
+            source: 'GBIF',
+            sourceClass: 'gbif',
+            url: p.url,
+            pageUrl: p.occurrenceUrl || p.url,
+            license: formatLicense(p.license) || 'GBIF 페이지 참조',
+            rightsHolder: p.rightsHolder || p.recordedBy || '',
+            sourceCitation: p.datasetName || '',
+            meta: p.country ? `${p.country}${p.eventDate ? ' · ' + p.eventDate : ''}` : (p.eventDate || null),
+          });
+        }
+      }
+
       // 4) Wikipedia
       if (item?.wiki?.imageUrl) {
         add(item.wiki.imageUrl, {
