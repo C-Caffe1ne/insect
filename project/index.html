@@ -1714,52 +1714,8 @@
               harmful: false,
               endemic: (item.korUnqBispYn === 'Y' || item.corsynSeYn === 'Y') ? true : ((item.korUnqBispYn === 'N' || item.corsynSeYn === 'N') ? false : placeholder.conservationStatus.endemic)
             },
-            // 이미지 폴백 체인: iNaturalist → GBIF media → Wikipedia
-            images: (() => {
-              if (item.inat?.imageUrl) return [item.inat.imageUrl];
-              if ((item.gbif?.media?.length || 0) > 0) return item.gbif.media.map((m) => m.url).filter(Boolean);
-              if (item.wiki?.imageUrl) return [item.wiki.imageUrl];
-              return placeholder.images;
-            })(),
-            // 출처 정보 — footer 렌더용 (각 이미지의 source/credit/license)
-            imageCredits: (() => {
-              const credits = [];
-              if (item.inat?.imageUrl) {
-                credits.push({
-                  source: 'iNaturalist',
-                  sourceClass: 'inat',
-                  url: item.inat.imageUrl,
-                  pageUrl: item.inat.observationUrl || item.inat.imageUrl,
-                  license: 'see iNaturalist',
-                  meta: item.inat.observationCount ? `관측 ${item.inat.observationCount}건` : null,
-                });
-              }
-              if (Array.isArray(item.gbif?.media)) {
-                for (const m of item.gbif.media) {
-                  if (!m.url) continue;
-                  credits.push({
-                    source: 'GBIF',
-                    sourceClass: 'gbif',
-                    url: m.url,
-                    pageUrl: m.url,
-                    license: m.license || 'see GBIF',
-                    rightsHolder: m.rightsHolder || '',
-                    sourceCitation: m.source || '',
-                  });
-                }
-              }
-              if (item.wiki?.imageUrl) {
-                credits.push({
-                  source: 'Wikipedia',
-                  sourceClass: 'wiki',
-                  url: item.wiki.imageUrl,
-                  pageUrl: item.wiki.pageUrl || item.wiki.imageUrl,
-                  license: item.wiki.license || 'Wikimedia Commons (see page)',
-                  meta: item.wiki.title || null,
-                });
-              }
-              return credits;
-            })(),
+            // 이미지 + 출처: buildImagesAndCredits 헬퍼로 통일 (inat + inatTaxon + gbif + wiki)
+            ...buildImagesAndCredits(item, placeholder.images),
             taxonomy: fullTaxonomy,
             // GBIF 데이터(있는 경우)를 openSpeciesDetail의 render()에서 enrich
             _gbifData: item.gbif || null
@@ -2340,7 +2296,25 @@
           year: item.namingYear || item.year || placeholder.year,
           description: item.description || item.abstract || placeholder.description,
           abstract: item.abstract || placeholder.abstract,
-          images: item.inat?.imageUrl ? [item.inat.imageUrl] : (ins.img ? [ins.img] : placeholder.images),
+          // 이미지 + 출처 (검색 진입) — search_index의 ins.img도 폴백에 포함
+          ...(() => {
+            const r = buildImagesAndCredits(item, placeholder.images);
+            // ins.img는 search_index의 inat 사진 URL — 이미 매칭이 안 됐을 때만 추가
+            if (r.images.length === 0 && ins.img) {
+              const photoId = inatPhotoIdFromUrl(ins.img);
+              return {
+                images: [ins.img],
+                imageCredits: [{
+                  source: 'iNaturalist',
+                  sourceClass: 'inat',
+                  url: ins.img,
+                  pageUrl: photoId ? `https://www.inaturalist.org/photos/${photoId}` : 'https://www.inaturalist.org',
+                  license: 'iNaturalist 사진 페이지에서 확인',
+                }],
+              };
+            }
+            return r;
+          })(),
           conservationStatus: {
             endangered: item.egspcsYn === 'Y' ? 'II' : (item.conservationStatus?.endangered || placeholder.conservationStatus.endangered),
             // phspYn/ntmYn/hrmflSpecsYn 데이터가 cleanup으로 제거됨 — 모든 종 'N' 상태였으므로 명시적 false로 고정 ("해당없음" 표시)
@@ -2897,6 +2871,223 @@
       return frag;
     }
 
+    // iNat 사진 URL에서 photo ID 추출 → 사진 페이지 링크
+    // 예: https://inaturalist-open-data.s3.amazonaws.com/photos/577668956/medium.jpg → 577668956
+    function inatPhotoIdFromUrl(url) {
+      if (!url) return null;
+      const m = String(url).match(/\/photos\/(\d+)\//);
+      return m ? m[1] : null;
+    }
+
+    // CC 라이센스 코드 → 한국어 라벨 (예: cc-by-nc → "CC BY-NC")
+    function formatLicense(code) {
+      if (!code) return null;
+      const s = String(code).trim();
+      if (!s || s.toLowerCase() === 'null') return null;
+      // 이미 사람 친화 텍스트면 그대로
+      if (/^cc[- ]/i.test(s)) return s.toUpperCase().replace(/^CC[- ]/, 'CC ');
+      return s;
+    }
+
+    // 여러 소스에서 이미지 + 출처 정보를 수집해 (image URL, credit) 쌍을 dedupe로 최대 5개 반환.
+    // - inat: 단일 imageUrl + observationCount (license 없으면 사진 페이지 링크)
+    // - inatTaxon.taxonPhotos / defaultPhoto: 풍부한 attribution
+    // - gbif.media: license + rightsHolder + source
+    // - wiki: Wikimedia Commons 페이지 링크
+    function buildImagesAndCredits(item, fallbackImages) {
+      const images = [];
+      const credits = [];
+      const seen = new Set();
+
+      function add(url, credit) {
+        if (!url || seen.has(url)) return;
+        seen.add(url);
+        images.push(url);
+        credits.push(credit);
+      }
+
+      // 1) iNat 단일 이미지 (가벼운 캐시)
+      if (item?.inat?.imageUrl) {
+        const photoId = inatPhotoIdFromUrl(item.inat.imageUrl);
+        add(item.inat.imageUrl, {
+          source: 'iNaturalist',
+          sourceClass: 'inat',
+          url: item.inat.imageUrl,
+          pageUrl: photoId ? `https://www.inaturalist.org/photos/${photoId}` : 'https://www.inaturalist.org',
+          license: 'iNaturalist 사진 페이지에서 확인',
+          meta: item.inat.observationCount ? `관측 ${item.inat.observationCount}건` : null,
+        });
+      }
+
+      // 2) iNatTaxon — taxonPhotos가 있으면 모두, 없으면 defaultPhoto
+      const tps = item?.inatTaxon?.taxonPhotos;
+      if (Array.isArray(tps) && tps.length > 0) {
+        for (const tp of tps) {
+          const p = tp.photo || tp;
+          if (!p) continue;
+          const url = p.mediumUrl || p.url;
+          if (!url) continue;
+          add(url, {
+            source: 'iNaturalist',
+            sourceClass: 'inat',
+            url,
+            pageUrl: p.id ? `https://www.inaturalist.org/photos/${p.id}`
+                          : (item.inatTaxon.taxonId ? `https://www.inaturalist.org/taxa/${item.inatTaxon.taxonId}` : null),
+            license: formatLicense(p.licenseCode || p.license) || 'iNaturalist 페이지 참조',
+            rightsHolder: p.attributionName || '',
+            sourceCitation: p.attribution || '',
+          });
+        }
+      } else if (item?.inatTaxon?.defaultPhoto?.mediumUrl) {
+        const p = item.inatTaxon.defaultPhoto;
+        add(p.mediumUrl, {
+          source: 'iNaturalist',
+          sourceClass: 'inat',
+          url: p.mediumUrl,
+          pageUrl: item.inatTaxon.taxonId ? `https://www.inaturalist.org/taxa/${item.inatTaxon.taxonId}` : null,
+          license: formatLicense(p.licenseCode || p.license) || 'iNaturalist 페이지 참조',
+          rightsHolder: p.attributionName || '',
+          sourceCitation: p.attribution || '',
+        });
+      }
+
+      // 3) GBIF 미디어
+      if (Array.isArray(item?.gbif?.media)) {
+        for (const m of item.gbif.media) {
+          if (!m?.url) continue;
+          add(m.url, {
+            source: 'GBIF',
+            sourceClass: 'gbif',
+            url: m.url,
+            pageUrl: m.url,
+            license: formatLicense(m.license) || 'GBIF 페이지 참조',
+            rightsHolder: m.rightsHolder || '',
+            sourceCitation: m.source || '',
+          });
+        }
+      }
+
+      // 4) Wikipedia
+      if (item?.wiki?.imageUrl) {
+        add(item.wiki.imageUrl, {
+          source: 'Wikipedia',
+          sourceClass: 'wiki',
+          url: item.wiki.imageUrl,
+          pageUrl: item.wiki.pageUrl || item.wiki.imageUrl,
+          license: 'Wikimedia Commons',
+          meta: item.wiki.title || null,
+          sourceCitation: '정확한 라이센스는 Wikimedia Commons 페이지에서 확인',
+        });
+      }
+
+      // 캡 (최대 5장)
+      const imgs = images.length > 0 ? images.slice(0, 5)
+                                     : (Array.isArray(fallbackImages) ? fallbackImages.slice(0, 5) : []);
+      const creds = credits.slice(0, 5);
+      return { images: imgs, imageCredits: creds };
+    }
+
+    // 캐러셀 렌더 — species.images 배열(최대 5장)을 좌우 스와이프 + 버튼 + 도트로 표시
+    // 동일 이미지 시그니처면 DOM 교체 skip (idempotent, 깜빡임 방지)
+    function renderHeroCarousel(heroImg, species) {
+      const all = Array.isArray(species.images) ? species.images : [];
+      // 중복 제거 + 최대 5장 캡
+      const images = [];
+      for (const u of all) { if (u && !images.includes(u)) images.push(u); if (images.length >= 5) break; }
+
+      const sig = images.join('|');
+      if (heroImg.dataset.currentSig === sig) return;
+      heroImg.dataset.currentSig = sig;
+      heroImg.replaceChildren();
+
+      if (images.length === 0) {
+        heroImg.appendChild(createHeroPlaceholder());
+        heroImg.dataset.pending = 'true';
+        return;
+      }
+      heroImg.dataset.pending = 'false';
+
+      // 트랙 + 슬라이드
+      const track = document.createElement('div');
+      track.className = 'species-hero-track';
+      images.forEach((url, i) => {
+        const slide = document.createElement('div');
+        slide.className = 'species-hero-slide';
+        const img = document.createElement('img');
+        img.src = url;
+        img.alt = species.commonName || species.scientificName || '곤충 사진';
+        img.loading = i === 0 ? 'eager' : 'lazy';
+        img.decoding = 'async';
+        slide.appendChild(img);
+        track.appendChild(slide);
+      });
+      heroImg.appendChild(track);
+
+      // 한 장이면 컨트롤 생략
+      if (images.length === 1) return;
+
+      // Prev / Next 버튼 + Dots
+      const arrowSvg = (dir) => `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><polyline points="${dir === 'prev' ? '15 18 9 12 15 6' : '9 18 15 12 9 6'}"></polyline></svg>`;
+      const prevBtn = document.createElement('button');
+      prevBtn.className = 'species-hero-nav species-hero-nav--prev';
+      prevBtn.type = 'button';
+      prevBtn.setAttribute('aria-label', '이전 사진');
+      prevBtn.innerHTML = arrowSvg('prev');
+
+      const nextBtn = document.createElement('button');
+      nextBtn.className = 'species-hero-nav species-hero-nav--next';
+      nextBtn.type = 'button';
+      nextBtn.setAttribute('aria-label', '다음 사진');
+      nextBtn.innerHTML = arrowSvg('next');
+
+      heroImg.append(prevBtn, nextBtn);
+
+      const dots = document.createElement('div');
+      dots.className = 'species-hero-dots';
+      dots.setAttribute('role', 'tablist');
+      images.forEach((_, i) => {
+        const d = document.createElement('button');
+        d.type = 'button';
+        d.className = 'species-hero-dot';
+        d.setAttribute('role', 'tab');
+        d.setAttribute('aria-label', `사진 ${i + 1} / ${images.length}`);
+        if (i === 0) { d.classList.add('active'); d.setAttribute('aria-selected', 'true'); }
+        dots.appendChild(d);
+      });
+      heroImg.appendChild(dots);
+
+      // 상태 + 이동 함수
+      let idx = 0;
+      function goTo(target) {
+        idx = ((target % images.length) + images.length) % images.length;
+        track.style.transform = `translateX(-${idx * 100}%)`;
+        dots.querySelectorAll('.species-hero-dot').forEach((d, i) => {
+          const on = i === idx;
+          d.classList.toggle('active', on);
+          if (on) d.setAttribute('aria-selected', 'true'); else d.removeAttribute('aria-selected');
+        });
+      }
+
+      prevBtn.addEventListener('click', (e) => { e.stopPropagation(); goTo(idx - 1); });
+      nextBtn.addEventListener('click', (e) => { e.stopPropagation(); goTo(idx + 1); });
+      dots.querySelectorAll('.species-hero-dot').forEach((d, i) => {
+        d.addEventListener('click', (e) => { e.stopPropagation(); goTo(i); });
+      });
+
+      // 터치 스와이프 (40px 이상 끌면 페이지 전환)
+      let startX = 0;
+      let dragging = false;
+      track.addEventListener('touchstart', (e) => {
+        dragging = true; startX = e.touches[0].clientX;
+      }, { passive: true });
+      track.addEventListener('touchend', (e) => {
+        if (!dragging) return;
+        dragging = false;
+        const delta = e.changedTouches[0].clientX - startX;
+        if (Math.abs(delta) > 40) goTo(delta > 0 ? idx - 1 : idx + 1);
+      }, { passive: true });
+    }
+
     // 메인 렌더 — species 객체를 받아 pageSpeciesDetail의 모든 슬롯을 채움
     function renderSpeciesDetail(species) {
       const page = document.getElementById('pageSpeciesDetail');
@@ -2906,28 +3097,9 @@
       setSlot(page, 'commonName', species.commonName, '이름 미상');
       setSlot(page, 'scientificName', species.scientificName, 'Scientific name');
 
-      // ── 히어로 이미지 ── (URL 동일하면 DOM 교체 skip → 깜빡임 제거)
+      // ── 히어로 이미지 캐러셀 ── (최대 5장, 좌우 스와이프/버튼/도트 인디케이터)
       const heroImg = page.querySelector('[data-slot="heroImg"]');
-      if (heroImg) {
-        const url = Array.isArray(species.images) && species.images.length > 0 ? species.images[0] : null;
-        const wantUrl = url || '';
-        const currentUrl = heroImg.dataset.currentUrl || '';
-        if (currentUrl !== wantUrl) {
-          heroImg.replaceChildren();
-          if (url) {
-            const img = document.createElement('img');
-            img.src = url;
-            img.alt = species.commonName || species.scientificName || '곤충 사진';
-            img.loading = 'lazy';
-            heroImg.appendChild(img);
-            heroImg.dataset.pending = 'false';
-          } else {
-            heroImg.appendChild(createHeroPlaceholder());
-            heroImg.dataset.pending = 'true';
-          }
-          heroImg.dataset.currentUrl = wantUrl;
-        }
-      }
+      if (heroImg) renderHeroCarousel(heroImg, species);
 
       // ── 상태 배지 6종 ──
       const cs = species.conservationStatus || {};
