@@ -1,0 +1,1185 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "hemiptera",
+    "scientificName": "Hemiptera",
+    "commonName": "노린재목",
+    "orderKtsn": 120000066597
+  },
+  "family": {
+    "id": "membracidae",
+    "scientificName": "Membracidae",
+    "commonName": "뿔매미과",
+    "familyKtsn": 120000026232
+  },
+  "speciesCount": 14,
+  "insects": [
+    {
+      "ktsn": 120000026234,
+      "scientificName": "Butragulus flavipes (Uhler, 1896)",
+      "commonName": "뿔매미",
+      "terminalLatinName": "flavipes",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Membracidae",
+          "commonName": "뿔매미과",
+          "ktsn": 120000026232
+        },
+        "genus": {
+          "scientificName": "Butragulus",
+          "commonName": "뿔매미속",
+          "ktsn": 120000026233
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "flavipes",
+          "commonName": "뿔매미",
+          "ktsn": 120000026234
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:27:07.857Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 3697446,
+        "canonical": "Butragulus flavipes",
+        "fetchedAt": "2026-05-24T10:12:11.858Z",
+        "vernaculars": {
+          "ko": [
+            "뿔매미"
+          ],
+          "en": [],
+          "ja": [
+            "ツノゼミ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "Japan"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 142
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:57.128Z"
+      }
+    },
+    {
+      "ktsn": 120000026238,
+      "scientificName": "Gargara (Gargara) genistae (Fabricius, 1775)",
+      "commonName": "동굴뿔매미",
+      "terminalLatinName": "genistae",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Membracidae",
+          "commonName": "뿔매미과",
+          "ktsn": 120000026232
+        },
+        "genus": {
+          "scientificName": "Gargara",
+          "commonName": "동굴뿔매미속",
+          "ktsn": 120000026235
+        },
+        "subgenus": {
+          "scientificName": "Gargara",
+          "commonName": "",
+          "ktsn": 120000026237
+        },
+        "species": {
+          "scientificName": "genistae",
+          "commonName": "동굴뿔매미",
+          "ktsn": 120000026238
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:27:07.857Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 3697413,
+        "canonical": "Gargara genistae",
+        "fetchedAt": "2026-05-24T10:12:19.835Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [
+            "Treehopper"
+          ],
+          "ja": [
+            "マルツノゼミ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "North Pacific",
+          "Norway",
+          "Austria",
+          "France",
+          "Germany",
+          "Kyrgyzstan",
+          "Luxembourg",
+          "United Kingdom",
+          "Japan"
+        ],
+        "introduced": [
+          "The Contiguous United States"
+        ],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 1349
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:06:57.128Z",
+        "title": "Gargara genistae",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/Gargara.genistae.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/Gargara.genistae.jpg",
+        "thumbnailSize": {
+          "width": 400,
+          "height": 600
+        },
+        "originalSize": {
+          "width": 400,
+          "height": 600
+        },
+        "filename": "Gargara.genistae.jpg",
+        "description": "species of insect",
+        "pageUrl": "https://en.wikipedia.org/wiki/Gargara_genistae",
+        "license": "see Wikimedia Commons",
+        "source": "Wikipedia"
+      }
+    },
+    {
+      "ktsn": 120000026239,
+      "scientificName": "Gargara (Gargara) katoi Metcalf and Wade, 1965",
+      "commonName": "띠띤뿔매미",
+      "terminalLatinName": "katoi",
+      "nomenclaturalAuthor": "Metcalf and Wade",
+      "namingYear": "1965",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Membracidae",
+          "commonName": "뿔매미과",
+          "ktsn": 120000026232
+        },
+        "genus": {
+          "scientificName": "Gargara",
+          "commonName": "동굴뿔매미속",
+          "ktsn": 120000026235
+        },
+        "subgenus": {
+          "scientificName": "Gargara",
+          "commonName": "",
+          "ktsn": 120000026237
+        },
+        "species": {
+          "scientificName": "katoi",
+          "commonName": "띠띤뿔매미",
+          "ktsn": 120000026239
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:27:07.857Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 3697415,
+        "canonical": "Gargara katoi",
+        "fetchedAt": "2026-05-24T10:12:23.557Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": [
+            "オビマルツノゼミ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "Japan"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 57
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:57.128Z"
+      }
+    },
+    {
+      "ktsn": 120000026240,
+      "scientificName": "Gargara (Gargara) ligustri (Matsumura, 1912)",
+      "commonName": "잔뿔매미",
+      "terminalLatinName": "ligustri",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Membracidae",
+          "commonName": "뿔매미과",
+          "ktsn": 120000026232
+        },
+        "genus": {
+          "scientificName": "Gargara",
+          "commonName": "동굴뿔매미속",
+          "ktsn": 120000026235
+        },
+        "subgenus": {
+          "scientificName": "Gargara",
+          "commonName": "",
+          "ktsn": 120000026237
+        },
+        "species": {
+          "scientificName": "ligustri",
+          "commonName": "잔뿔매미",
+          "ktsn": 120000026240
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:27:07.857Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 3697414,
+        "canonical": "Gargara ligustri",
+        "fetchedAt": "2026-05-24T10:12:27.193Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 2
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:57.128Z"
+      }
+    },
+    {
+      "ktsn": 120000026241,
+      "scientificName": "Gargara (Gargara) suigensis Kato, 1930",
+      "commonName": "수원뿔매미",
+      "terminalLatinName": "suigensis",
+      "nomenclaturalAuthor": "Kato",
+      "namingYear": "1930",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Membracidae",
+          "commonName": "뿔매미과",
+          "ktsn": 120000026232
+        },
+        "genus": {
+          "scientificName": "Gargara",
+          "commonName": "동굴뿔매미속",
+          "ktsn": 120000026235
+        },
+        "subgenus": {
+          "scientificName": "Gargara",
+          "commonName": "",
+          "ktsn": 120000026237
+        },
+        "species": {
+          "scientificName": "suigensis",
+          "commonName": "수원뿔매미",
+          "ktsn": 120000026241
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:27:07.857Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 22165539,
+        "canonical": "Gargara suigensis",
+        "fetchedAt": "2026-05-24T10:12:31.898Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 3
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:57.128Z"
+      }
+    },
+    {
+      "ktsn": 120000026243,
+      "scientificName": "Gargara (Kotogargara) parvula Lindberg, 1927",
+      "commonName": "애뿔매미",
+      "terminalLatinName": "parvula",
+      "nomenclaturalAuthor": "Lindberg",
+      "namingYear": "1927",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Membracidae",
+          "commonName": "뿔매미과",
+          "ktsn": 120000026232
+        },
+        "genus": {
+          "scientificName": "Gargara",
+          "commonName": "동굴뿔매미속",
+          "ktsn": 120000026235
+        },
+        "subgenus": {
+          "scientificName": "Kotogargara",
+          "commonName": "",
+          "ktsn": 120000026242
+        },
+        "species": {
+          "scientificName": "parvula",
+          "commonName": "애뿔매미",
+          "ktsn": 120000026243
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:27:07.857Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 22165496,
+        "canonical": "Gargara parvula",
+        "fetchedAt": "2026-05-24T10:12:36.611Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:57.128Z"
+      }
+    },
+    {
+      "ktsn": 120000026236,
+      "scientificName": "Gargara donitzae Matsumura, 1912",
+      "commonName": "민뿔매미",
+      "terminalLatinName": "donitzae",
+      "nomenclaturalAuthor": "Matsumura",
+      "namingYear": "1912",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Membracidae",
+          "commonName": "뿔매미과",
+          "ktsn": 120000026232
+        },
+        "genus": {
+          "scientificName": "Gargara",
+          "commonName": "동굴뿔매미속",
+          "ktsn": 120000026235
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "donitzae",
+          "commonName": "민뿔매미",
+          "ktsn": 120000026236
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:27:07.857Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 46932882,
+        "canonical": "Gargara donitzae",
+        "fetchedAt": "2026-05-24T10:12:17.256Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:57.128Z"
+      }
+    },
+    {
+      "ktsn": 120000026245,
+      "scientificName": "Machaerotypus sibiricus (Lethierry, 1876)",
+      "commonName": "외뿔매미",
+      "terminalLatinName": "sibiricus",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Membracidae",
+          "commonName": "뿔매미과",
+          "ktsn": 120000026232
+        },
+        "genus": {
+          "scientificName": "Machaerotypus",
+          "commonName": "고려뿔매미속",
+          "ktsn": 120000026244
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "sibiricus",
+          "commonName": "외뿔매미",
+          "ktsn": 120000026245
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:27:07.857Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 53817990,
+        "canonical": "Machaerotypus sibiricus",
+        "fetchedAt": "2026-05-24T10:12:43.432Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [
+          "South Korea"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:57.128Z"
+      }
+    },
+    {
+      "ktsn": 120000026247,
+      "scientificName": "Neomachaerotypus eguchii Kato, 1935",
+      "commonName": "에구치뿔매미",
+      "terminalLatinName": "eguchii",
+      "nomenclaturalAuthor": "Kato",
+      "namingYear": "1935",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Membracidae",
+          "commonName": "뿔매미과",
+          "ktsn": 120000026232
+        },
+        "genus": {
+          "scientificName": "Neomachaerotypus",
+          "commonName": "에구치뿔매미속",
+          "ktsn": 120000026246
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "eguchii",
+          "commonName": "에구치뿔매미",
+          "ktsn": 120000026247
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:27:07.857Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:57.128Z"
+      }
+    },
+    {
+      "ktsn": 120000026249,
+      "scientificName": "Periaman nitobei (Matsumura, 1912)",
+      "commonName": "황소뿔매미",
+      "terminalLatinName": "nitobei",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Membracidae",
+          "commonName": "뿔매미과",
+          "ktsn": 120000026232
+        },
+        "genus": {
+          "scientificName": "Periaman",
+          "commonName": "황소뿔매미속",
+          "ktsn": 120000026248
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "nitobei",
+          "commonName": "황소뿔매미",
+          "ktsn": 120000026249
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:27:07.857Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:57.128Z"
+      }
+    },
+    {
+      "ktsn": 120000026251,
+      "scientificName": "Tricentrus coreanus Kato, 1940",
+      "commonName": "참뿔매미",
+      "terminalLatinName": "coreanus",
+      "nomenclaturalAuthor": "Kato",
+      "namingYear": "1940",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "Y",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Membracidae",
+          "commonName": "뿔매미과",
+          "ktsn": 120000026232
+        },
+        "genus": {
+          "scientificName": "Tricentrus",
+          "commonName": "참뿔매미속",
+          "ktsn": 120000026250
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "coreanus",
+          "commonName": "참뿔매미",
+          "ktsn": 120000026251
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:27:07.857Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:57.128Z"
+      }
+    },
+    {
+      "ktsn": 120000026252,
+      "scientificName": "Tricentrus okamotoi Kato, 1930",
+      "commonName": "오카모토뿔매미",
+      "terminalLatinName": "okamotoi",
+      "nomenclaturalAuthor": "Kato",
+      "namingYear": "1930",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Membracidae",
+          "commonName": "뿔매미과",
+          "ktsn": 120000026232
+        },
+        "genus": {
+          "scientificName": "Tricentrus",
+          "commonName": "참뿔매미속",
+          "ktsn": 120000026250
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "okamotoi",
+          "commonName": "오카모토뿔매미",
+          "ktsn": 120000026252
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:27:07.857Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:57.128Z"
+      }
+    },
+    {
+      "ktsn": 120000026253,
+      "scientificName": "Tricentrus yagoi Kato, 1940",
+      "commonName": "야고뿔매미",
+      "terminalLatinName": "yagoi",
+      "nomenclaturalAuthor": "Kato",
+      "namingYear": "1940",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "Y",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Membracidae",
+          "commonName": "뿔매미과",
+          "ktsn": 120000026232
+        },
+        "genus": {
+          "scientificName": "Tricentrus",
+          "commonName": "참뿔매미속",
+          "ktsn": 120000026250
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "yagoi",
+          "commonName": "야고뿔매미",
+          "ktsn": 120000026253
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:27:07.857Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 4,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/10473648/medium.jpg",
+        "months": [
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "ktsn": 120000026255,
+      "scientificName": "Tsunozemia paradoxa (Lethierry, 1874)",
+      "commonName": "모지뿔매미",
+      "terminalLatinName": "paradoxa",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Membracidae",
+          "commonName": "뿔매미과",
+          "ktsn": 120000026232
+        },
+        "genus": {
+          "scientificName": "Tsunozemia",
+          "commonName": "모지뿔매미속",
+          "ktsn": 120000026254
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "paradoxa",
+          "commonName": "모지뿔매미",
+          "ktsn": 120000026255
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:27:07.857Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 6,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/10475056/medium.jpg",
+        "months": [
+          6,
+          7,
+          10
+        ]
+      }
+    }
+  ],
+  "digitalContentUpdatedAt": "2026-05-21T09:27:07.857Z",
+  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+}

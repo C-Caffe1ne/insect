@@ -1,0 +1,76 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "poduromorpha",
+    "scientificName": "Poduromorpha",
+    "commonName": "물톡토기목",
+    "orderKtsn": 120000095089
+  },
+  "family": {
+    "id": "brachystomellidae",
+    "scientificName": "Brachystomellidae",
+    "commonName": "둥근턱톡토기과",
+    "familyKtsn": 120000037985
+  },
+  "speciesCount": 1,
+  "insects": [
+    {
+      "ktsn": 120000037987,
+      "scientificName": "Brachystomella koreana Weiner and Najt, 1985",
+      "commonName": "고려둥근턱톡토기",
+      "terminalLatinName": "koreana",
+      "nomenclaturalAuthor": "Weiner and Najt",
+      "namingYear": "1985",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "Y",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Collembola",
+          "commonName": "톡토기강",
+          "ktsn": 120000095088
+        },
+        "order": {
+          "scientificName": "Poduromorpha",
+          "commonName": "물톡토기목",
+          "ktsn": 120000095089
+        },
+        "family": {
+          "scientificName": "Brachystomellidae",
+          "commonName": "둥근턱톡토기과",
+          "ktsn": 120000037985
+        },
+        "genus": {
+          "scientificName": "Brachystomella",
+          "commonName": "둥근턱톡토기속",
+          "ktsn": 120000037986
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "koreana",
+          "commonName": "고려둥근턱톡토기",
+          "ktsn": 120000037987
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:10:31.026Z"
+      }
+    }
+  ]
+}

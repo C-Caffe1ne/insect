@@ -1,0 +1,145 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "diptera",
+    "scientificName": "Diptera",
+    "commonName": "파리목",
+    "orderKtsn": 120000020933,
+    "abstract": "파리목(Diptera)은 파리, 모기, 등에 등이 속해 있는 곤충의 한 분류이다. 수십 개의 과에 85,000여 종이 있다. 대한민국에서 발견하여 기록한 전체기록 종은 1,099종이다. 작거나 중간 크기의 곤충으로서, 형태와 습성이 매우 다양하다. 머리부에는 발달된 겹눈이 있으며, 입은 찌르는형·씹는형·핥는형 등이 있고, 다양한 촉각을 갖는다. 특히 앞날개가 발달하여 있으며, 맥은 적으나 나는 힘은 강하다. 뒷날개는 변형되어 평형을 유지하는 기관인 평형곤이 되었다. 날개가 퇴화된 것도 많다. 완전변태를 하며, 유충은 애벌래 형태를 띈다. 파리는 우리 주위에서 쉽게 볼 수 있지만, 바다에서 생활하는 종류도 있다. 모기·깔따구·등에·파리매·똥파리·초파리·집파리·쇠파리·쉬파리·각다귀 등이 이에 포함된다.",
+    "description": "파리목(Diptera)은 파리, 모기, 등에 등이 속해 있는 곤충의 한 분류이다. 수십 개의 과에 85,000여 종이 있다. 대한민국에서 발견하여 기록한 전체기록 종은 1,099종이다. 작거나 중간 크기의 곤충으로서, 형태와 습성이 매우 다양하다. 머리부에는 발달된 겹눈이 있으며, 입은 찌르는형·씹는형·핥는형 등이 있고, 다양한 촉각을 갖는다. 특히 앞날개가 발달하여 있으며, 맥은 적으나 나는 힘은 강하다. 뒷날개는 변형되어 평형을 유지하는 기관인 평형곤이 되었다. 날개가 퇴화된 것도 많다. 완전변태를 하며, 유충은 애벌래 형태를 띈다. 파리는 우리 주위에서 쉽게 볼 수 있지만, 바다에서 생활하는 종류도 있다. 모기·깔따구·등에·파리매·똥파리·초파리·집파리·쇠파리·쉬파리·각다귀 등이 이에 포함된다."
+  },
+  "family": {
+    "id": "coelopidae",
+    "scientificName": "Coelopidae",
+    "commonName": "해초파리과",
+    "familyKtsn": 120000021777
+  },
+  "speciesCount": 1,
+  "insects": [
+    {
+      "ktsn": 120000021779,
+      "scientificName": "Coelopa frigida (Fabricius, 1805)",
+      "commonName": "해초파리",
+      "terminalLatinName": "frigida",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Coelopidae",
+          "commonName": "해초파리과",
+          "ktsn": 120000021777
+        },
+        "genus": {
+          "scientificName": "Coelopa",
+          "commonName": "해초파리속",
+          "ktsn": 120000021778
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "frigida",
+          "commonName": "해초파리",
+          "ktsn": 120000021779
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:13:42.003Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 734479,
+        "canonical": "Coelopa frigida",
+        "fetchedAt": "2026-05-24T08:54:06.729Z",
+        "vernaculars": {
+          "ko": [
+            "해초파리"
+          ],
+          "en": [
+            "Black Kelp Fly"
+          ],
+          "ja": []
+        },
+        "habitat": [
+          "coastal",
+          "beach",
+          "temperate",
+          "marine benthic"
+        ],
+        "geographic": [
+          "Alaska",
+          "Norway",
+          "Canada",
+          "Finland",
+          "Sweden",
+          "United Kingdom",
+          "North Atlantic",
+          "North Pacific",
+          "United States"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 1013
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:05:31.641Z",
+        "title": "Coelopa frigida",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Kelp_Fly_%28Coelopa%29.jpg/500px-Kelp_Fly_%28Coelopa%29.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Kelp_Fly_%28Coelopa%29.jpg",
+        "thumbnailSize": {
+          "width": 500,
+          "height": 415
+        },
+        "originalSize": {
+          "width": 873,
+          "height": 724
+        },
+        "filename": "Kelp_Fly_(Coelopa).jpg",
+        "description": "species of insect",
+        "pageUrl": "https://en.wikipedia.org/wiki/Coelopa_frigida",
+        "license": "see Wikimedia Commons",
+        "source": "Wikipedia"
+      }
+    }
+  ],
+  "digitalContentUpdatedAt": "2026-05-21T09:13:42.003Z",
+  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+}

@@ -1,0 +1,93 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "psocodea",
+    "scientificName": "Psocodea",
+    "commonName": "다듬이벌레목",
+    "orderKtsn": 120000038214
+  },
+  "family": {
+    "id": "gyropidae",
+    "scientificName": "Gyropidae",
+    "commonName": "쥐털이과",
+    "familyKtsn": 120000037834
+  },
+  "speciesCount": 1,
+  "insects": [
+    {
+      "ktsn": 120000037836,
+      "scientificName": "Gliricola porcelli Schrank, 1781",
+      "commonName": "쥐털이",
+      "terminalLatinName": "porcelli",
+      "nomenclaturalAuthor": "Schrank",
+      "namingYear": "1781",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Psocodea",
+          "commonName": "다듬이벌레목",
+          "ktsn": 120000038214
+        },
+        "family": {
+          "scientificName": "Gyropidae",
+          "commonName": "쥐털이과",
+          "ktsn": 120000037834
+        },
+        "genus": {
+          "scientificName": "Gliricola",
+          "commonName": "",
+          "ktsn": 120000037835
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "porcelli",
+          "commonName": "쥐털이",
+          "ktsn": 120000037836
+        }
+      },
+      "eol": {
+        "pageId": 4190089,
+        "canonical": "Gliricola porcelli",
+        "fetchedAt": "2026-05-24T17:20:27.772Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:10:34.865Z"
+      }
+    }
+  ]
+}

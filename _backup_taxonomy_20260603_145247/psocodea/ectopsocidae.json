@@ -1,0 +1,221 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "psocodea",
+    "scientificName": "Psocodea",
+    "commonName": "다듬이벌레목",
+    "orderKtsn": 120000038214
+  },
+  "family": {
+    "id": "ectopsocidae",
+    "scientificName": "Ectopsocidae",
+    "commonName": "외다듬이벌레과",
+    "familyKtsn": 120000038218
+  },
+  "speciesCount": 2,
+  "insects": [
+    {
+      "ktsn": 120000038220,
+      "scientificName": "Ectopsocopsis cryptomeriae (Enderlein, 1907)",
+      "commonName": "삼나무외다듬이벌레",
+      "terminalLatinName": "cryptomeriae",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Psocodea",
+          "commonName": "다듬이벌레목",
+          "ktsn": 120000038214
+        },
+        "family": {
+          "scientificName": "Ectopsocidae",
+          "commonName": "외다듬이벌레과",
+          "ktsn": 120000038218
+        },
+        "genus": {
+          "scientificName": "Ectopsocopsis",
+          "commonName": "",
+          "ktsn": 120000038219
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "cryptomeriae",
+          "commonName": "삼나무외다듬이벌레",
+          "ktsn": 120000038220
+        }
+      },
+      "eol": {
+        "pageId": 476048,
+        "canonical": "Ectopsocopsis cryptomeriae",
+        "fetchedAt": "2026-05-24T17:33:13.613Z",
+        "vernaculars": {
+          "ko": [
+            "삼나무외다듬이벌레"
+          ],
+          "en": [
+            "Large-winged Psocid",
+            "Bark lice"
+          ],
+          "ja": [
+            "クリイロチャタテ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "United States",
+          "Japan",
+          "Sweden",
+          "Australia"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 82
+      },
+      "inat": {
+        "observationCount": 2,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/66187167/medium.jpg",
+        "months": [
+          5,
+          11
+        ]
+      }
+    },
+    {
+      "ktsn": 120000518389,
+      "scientificName": "Ectopsocus briggsi McLachlan, 1899",
+      "commonName": "외다듬이벌레",
+      "terminalLatinName": "briggsi",
+      "nomenclaturalAuthor": "McLachlan",
+      "namingYear": "1899",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Psocodea",
+          "commonName": "다듬이벌레목",
+          "ktsn": 120000038214
+        },
+        "family": {
+          "scientificName": "Ectopsocidae",
+          "commonName": "외다듬이벌레과",
+          "ktsn": 120000038218
+        },
+        "genus": {
+          "scientificName": "Ectopsocus",
+          "commonName": "외다듬이벌레속",
+          "ktsn": 120000130157
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "briggsi",
+          "commonName": "외다듬이벌레",
+          "ktsn": 120000518389
+        }
+      },
+      "eol": {
+        "pageId": 592965,
+        "canonical": "Ectopsocus briggsi",
+        "fetchedAt": "2026-05-24T17:33:18.221Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [
+            "Ectopsocid"
+          ],
+          "ja": []
+        },
+        "habitat": [
+          "plant litter",
+          "beach",
+          "terrestrial"
+        ],
+        "geographic": [
+          "United States",
+          "South Pacific",
+          "North Pacific",
+          "North Atlantic",
+          "Japan",
+          "United Kingdom",
+          "Sweden",
+          "Norfolk Island",
+          "Luxembourg",
+          "Ireland",
+          "Germany",
+          "France",
+          "Australia"
+        ],
+        "introduced": [
+          "The Hawaiian Islands",
+          "Poland",
+          "Estonia"
+        ],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 4233
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:10:34.864Z",
+        "title": "Ectopsocus briggsi",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Ectopsocus_briggsi.jpg/500px-Ectopsocus_briggsi.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/Ectopsocus_briggsi.jpg",
+        "thumbnailSize": {
+          "width": 500,
+          "height": 331
+        },
+        "originalSize": {
+          "width": 1255,
+          "height": 831
+        },
+        "filename": "Ectopsocus_briggsi.jpg",
+        "description": "species of insect",
+        "pageUrl": "https://en.wikipedia.org/wiki/Ectopsocus_briggsi",
+        "license": "see Wikimedia Commons",
+        "source": "Wikipedia"
+      }
+    }
+  ]
+}

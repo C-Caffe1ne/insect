@@ -1,0 +1,1451 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "coleoptera",
+    "scientificName": "Coleoptera",
+    "commonName": "딱정벌레목",
+    "orderKtsn": 120000013750,
+    "abstract": "딱정벌레목(Coleoptera)은 곤충의 종 가운데 40%인 35만여종을 차지하는 목이다. 아직 발견되지 않은 종까지 합치면 500만~800만여종이 될 것으로 추정된다. 먹는 먹이도 다양해서 식물의 잎, 송사리 등의 작은 물고기, 나무의 즙, 작은 동물, 동물의 시체 등 매우 다양하다. 딱정벌레목에 속한 곤충으로는 무당벌레, 딱정벌레, 길앞잡이, 물방개, 장수풍뎅이 등이 있다. 대부분이 두꺼운 키틴질로 된 딱딱한 껍데기를 가지고 있어서 갑충(甲蟲)이라고도 불린다.",
+    "description": "딱정벌레목(Coleoptera)은 곤충의 종 가운데 40%인 35만여종을 차지하는 목이다. 아직 발견되지 않은 종까지 합치면 500만~800만여종이 될 것으로 추정된다. 먹는 먹이도 다양해서 식물의 잎, 송사리 등의 작은 물고기, 나무의 즙, 작은 동물, 동물의 시체 등 매우 다양하다. 딱정벌레목에 속한 곤충으로는 무당벌레, 딱정벌레, 길앞잡이, 물방개, 장수풍뎅이 등이 있다. 대부분이 두꺼운 키틴질로 된 딱딱한 껍데기를 가지고 있어서 갑충(甲蟲)이라고도 불린다."
+  },
+  "family": {
+    "id": "lucanidae",
+    "scientificName": "Lucanidae",
+    "commonName": "사슴벌레과",
+    "familyKtsn": 120000017542
+  },
+  "speciesCount": 18,
+  "insects": [
+    {
+      "ktsn": 120000017545,
+      "scientificName": "Aegus laevicollis subnitidus Waterhouse, 1873",
+      "commonName": "꼬마넓적사슴벌레",
+      "terminalLatinName": "subnitidus",
+      "nomenclaturalAuthor": "Waterhouse",
+      "namingYear": "1873",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Lucanidae",
+          "commonName": "사슴벌레과",
+          "ktsn": 120000017542
+        },
+        "genus": {
+          "scientificName": "Aegus",
+          "commonName": "꼬마넓적사슴벌레속",
+          "ktsn": 120000017543
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "laevicollis",
+          "commonName": "",
+          "ktsn": 120000017544
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:02:46.013Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/618027018/medium.jpg",
+        "months": [
+          2
+        ]
+      }
+    },
+    {
+      "ktsn": 120000212340,
+      "scientificName": "Dorcus carinulatus koreanus (Jang and Kawai, 2008)",
+      "commonName": "털보왕사슴벌레",
+      "terminalLatinName": "koreanus",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Lucanidae",
+          "commonName": "사슴벌레과",
+          "ktsn": 120000017542
+        },
+        "genus": {
+          "scientificName": "Dorcus",
+          "commonName": "왕사슴벌레속",
+          "ktsn": 120000017602
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "carinulatus",
+          "commonName": "",
+          "ktsn": 120000212339
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:02:46.013Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:04:20.558Z"
+      }
+    },
+    {
+      "ktsn": 120000017604,
+      "scientificName": "Dorcus consentaneus consentaneus (Albers, 1886)",
+      "commonName": "참넓적사슴벌레",
+      "terminalLatinName": "consentaneus",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Lucanidae",
+          "commonName": "사슴벌레과",
+          "ktsn": 120000017542
+        },
+        "genus": {
+          "scientificName": "Dorcus",
+          "commonName": "왕사슴벌레속",
+          "ktsn": 120000017602
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "consentaneus",
+          "commonName": "",
+          "ktsn": 120000017603
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:02:46.013Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "abstract": "참넓적사슴벌레는 사슴벌레과의 곤충이다. 몸길이는 수컷이 19~60mm, 암컷이 18~32mm다. 넓적사슴벌레와 비슷하나 딱지날개의 광택이 강하고 큰턱이 바깥쪽에서 안쪽으로 더 둥글게 굽었다. 뒷다리의 종아리마디에는 이빨모양의 돌기가 없다. 성충은 6~8월에 가장 많이 활동하고, 상수리나무의 수액에 모여든다. 암컷은 썩은 나무에 산란하고, 성충으로 월동한다.\n평균수명은 넓적사슴벌레와 비슷한 1~2년이다. 한국, 중국, 일본에 분포한다.",
+      "description": "참넓적사슴벌레는 사슴벌레과의 곤충이다. 몸길이는 수컷이 19~60mm, 암컷이 18~32mm다. 넓적사슴벌레와 비슷하나 딱지날개의 광택이 강하고 큰턱이 바깥쪽에서 안쪽으로 더 둥글게 굽었다. 뒷다리의 종아리마디에는 이빨모양의 돌기가 없다. 성충은 6~8월에 가장 많이 활동하고, 상수리나무의 수액에 모여든다. 암컷은 썩은 나무에 산란하고, 성충으로 월동한다.\n평균수명은 넓적사슴벌레와 비슷한 1~2년이다. 한국, 중국, 일본에 분포한다.",
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:04:20.558Z"
+      }
+    },
+    {
+      "ktsn": 120000017606,
+      "scientificName": "Dorcus hopei binodulosus Waterhouse, 1874",
+      "commonName": "왕사슴벌레",
+      "terminalLatinName": "binodulosus",
+      "nomenclaturalAuthor": "Waterhouse",
+      "namingYear": "1874",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Lucanidae",
+          "commonName": "사슴벌레과",
+          "ktsn": 120000017542
+        },
+        "genus": {
+          "scientificName": "Dorcus",
+          "commonName": "왕사슴벌레속",
+          "ktsn": 120000017602
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "hopei",
+          "commonName": "",
+          "ktsn": 120000017605
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:02:46.013Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 46844083,
+        "canonical": "Dorcus hopei binodulosus",
+        "fetchedAt": "2026-05-24T08:00:26.534Z",
+        "vernaculars": {
+          "ko": [
+            "왕사슴벌레"
+          ],
+          "en": [
+            "Japanese Great Stag Beetle",
+            "Japanese Hope's Stag Beetle"
+          ],
+          "ja": [
+            "オオクワガタ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "inat": {
+        "observationCount": 10,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/430184890/medium.jpeg",
+        "months": [
+          1,
+          2,
+          6,
+          7,
+          8
+        ]
+      }
+    },
+    {
+      "ktsn": 120000017609,
+      "scientificName": "Dorcus rectus rectus (Motschulsky, [1858])",
+      "commonName": "애사슴벌레",
+      "terminalLatinName": "rectus",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Lucanidae",
+          "commonName": "사슴벌레과",
+          "ktsn": 120000017542
+        },
+        "genus": {
+          "scientificName": "Dorcus",
+          "commonName": "왕사슴벌레속",
+          "ktsn": 120000017602
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "rectus",
+          "commonName": "",
+          "ktsn": 120000017608
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:02:46.013Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 3481564,
+        "canonical": "Dorcus rectus rectus",
+        "fetchedAt": "2026-05-24T08:00:30.525Z",
+        "vernaculars": {
+          "ko": [
+            "애사슴벌레"
+          ],
+          "en": [],
+          "ja": [
+            "コクワガタ 名義タイプ亜種",
+            "コクワガタ",
+            "コクワガタ 基亜種"
+          ]
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "abstract": "애사슴벌레는 사슴벌레과에 속하는 곤충이다. 수명은 1~2년 정도이고 큰턱을 포함한 몸 길이는 17~45mm(수컷), 20~28mm(암컷)이다. 6~9월에 나타나 참나무류의 수액을 먹고 살며, 유충은 썩은 참나무류를 파먹으면서 자란다. 몸은 흑색 또는 적갈색을 띠며 약간 광택이 난다. 수컷의 큰턱은 내치가 1개이고 곧게 뻗어 있으며 가늘지만 작은 것에서는 소실되어 없다. 암컷은 딱지날개에 미세한 점각이 조밀하게 분포하고 있다. 한반도 전역에 서식하며, 세계적으로는 일본, 중국 등지에 분포한다.",
+      "description": "애사슴벌레는 사슴벌레과에 속하는 곤충이다. 수명은 1~2년 정도이고 큰턱을 포함한 몸 길이는 17~45mm(수컷), 20~28mm(암컷)이다. 6~9월에 나타나 참나무류의 수액을 먹고 살며, 유충은 썩은 참나무류를 파먹으면서 자란다. 몸은 흑색 또는 적갈색을 띠며 약간 광택이 난다. 수컷의 큰턱은 내치가 1개이고 곧게 뻗어 있으며 가늘지만 작은 것에서는 소실되어 없다. 암컷은 딱지날개에 미세한 점각이 조밀하게 분포하고 있다. 한반도 전역에 서식하며, 세계적으로는 일본, 중국 등지에 분포한다.",
+      "inat": {
+        "observationCount": 175,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/93545223/medium.jpeg",
+        "months": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "ktsn": 120000017611,
+      "scientificName": "Dorcus rubrofemoratus rubrofemoratus (Snellen van Vollenhoven, 1865)",
+      "commonName": "홍다리사슴벌레",
+      "terminalLatinName": "rubrofemoratus",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Lucanidae",
+          "commonName": "사슴벌레과",
+          "ktsn": 120000017542
+        },
+        "genus": {
+          "scientificName": "Dorcus",
+          "commonName": "왕사슴벌레속",
+          "ktsn": 120000017602
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "rubrofemoratus",
+          "commonName": "",
+          "ktsn": 120000017610
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:02:46.013Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 46844056,
+        "canonical": "Dorcus rubrofemoratus rubrofemoratus",
+        "fetchedAt": "2026-05-24T08:00:35.927Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 611
+      },
+      "abstract": "홍다리사슴벌레는 한국, 중국, 일본, 타이완, 미얀마에 분포하는 사슴벌레과의 곤충이다. 한국에서는 주로 강원도나 그 부근에서 발견되는 다소 희귀한 사슴벌레의 일종으로, 저온 지역을 좋아하는 고산성 종이다. 몸길이는 23~38mm이다. 수컷의 큰턱은 길게 앞으로 뻗으며, 모양이 중앙에서 바깥으로 부푼 모습이다. 몸은 검은색으로 별다른 무늬가 없으나 이름처럼 다리 안쪽이 붉은 것이 특징이며 버드나무를 좋아하는 특이한 사슴벌레다. 애완곤충으로 현재 활용 가치를 가질 뿐만 아니라 심미적 가치 등 생태적 가치가 높다.홍다리사슴벌레는 고산종이다.",
+      "description": "홍다리사슴벌레는 한국, 중국, 일본, 타이완, 미얀마에 분포하는 사슴벌레과의 곤충이다. 한국에서는 주로 강원도나 그 부근에서 발견되는 다소 희귀한 사슴벌레의 일종으로, 저온 지역을 좋아하는 고산성 종이다. 몸길이는 23~38mm이다. 수컷의 큰턱은 길게 앞으로 뻗으며, 모양이 중앙에서 바깥으로 부푼 모습이다. 몸은 검은색으로 별다른 무늬가 없으나 이름처럼 다리 안쪽이 붉은 것이 특징이며 버드나무를 좋아하는 특이한 사슴벌레다. 애완곤충으로 현재 활용 가치를 가질 뿐만 아니라 심미적 가치 등 생태적 가치가 높다.홍다리사슴벌레는 고산종이다.",
+      "inat": {
+        "observationCount": 59,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/554558119/medium.jpg",
+        "months": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "ktsn": 120000017612,
+      "scientificName": "Dorcus tenuihirsutus Kim and Kim, 2010",
+      "commonName": "엷은털왕사슴벌레",
+      "terminalLatinName": "tenuihirsutus",
+      "nomenclaturalAuthor": "Kim and Kim",
+      "namingYear": "2010",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Lucanidae",
+          "commonName": "사슴벌레과",
+          "ktsn": 120000017542
+        },
+        "genus": {
+          "scientificName": "Dorcus",
+          "commonName": "왕사슴벌레속",
+          "ktsn": 120000017602
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "tenuihirsutus",
+          "commonName": "엷은털왕사슴벌레",
+          "ktsn": 120000017612
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:02:46.013Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 20366554,
+        "canonical": "Dorcus tenuihirsutus",
+        "fetchedAt": "2026-05-24T08:00:41.484Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 2
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:04:20.558Z",
+        "title": "Dorcus tenuihirsutus",
+        "description": "species of beetles"
+      }
+    },
+    {
+      "ktsn": 120000017614,
+      "scientificName": "Dorcus titanus castanicolor (Motschulsky, 1861)",
+      "commonName": "넓적사슴벌레",
+      "terminalLatinName": "castanicolor",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Lucanidae",
+          "commonName": "사슴벌레과",
+          "ktsn": 120000017542
+        },
+        "genus": {
+          "scientificName": "Dorcus",
+          "commonName": "왕사슴벌레속",
+          "ktsn": 120000017602
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "titanus",
+          "commonName": "",
+          "ktsn": 120000017613
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:02:46.013Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "abstract": "넓적사슴벌레는 사슴벌레과에 속하는 곤충이다. 한국산 사슴벌레 중에서도 가장 큰 종에 속한다. 큰턱을 포함한 몸 길이는 38~85mm(수컷), 28~44mm(암컷)이고 수명은 대략 1~2년이다. 4~9월에 나타나 참나무류의 수액을 먹고 살며, 유충은 썩은 참나무와 부엽토를 먹으며 자란다. 전국적으로 분포한다. 옛날에는 집게벌레라고 부르기도 하였다.서울시 보호 야생 생물 대상종이다.",
+      "description": "넓적사슴벌레는 사슴벌레과에 속하는 곤충이다. 한국산 사슴벌레 중에서도 가장 큰 종에 속한다. 큰턱을 포함한 몸 길이는 38~85mm(수컷), 28~44mm(암컷)이고 수명은 대략 1~2년이다. 4~9월에 나타나 참나무류의 수액을 먹고 살며, 유충은 썩은 참나무와 부엽토를 먹으며 자란다. 전국적으로 분포한다. 옛날에는 집게벌레라고 부르기도 하였다.서울시 보호 야생 생물 대상종이다.",
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:04:20.558Z"
+      }
+    },
+    {
+      "ktsn": 120000017629,
+      "scientificName": "Figulus binodulus Waterhouse, 1873",
+      "commonName": "큰꼬마사슴벌레",
+      "terminalLatinName": "binodulus",
+      "nomenclaturalAuthor": "Waterhouse",
+      "namingYear": "1873",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Lucanidae",
+          "commonName": "사슴벌레과",
+          "ktsn": 120000017542
+        },
+        "genus": {
+          "scientificName": "Figulus",
+          "commonName": "꼬마사슴벌레속",
+          "ktsn": 120000017628
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "binodulus",
+          "commonName": "큰꼬마사슴벌레",
+          "ktsn": 120000017629
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:02:46.013Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 3481580,
+        "canonical": "Figulus binodulus",
+        "fetchedAt": "2026-05-24T08:00:57.763Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": [
+            "チビクワガタ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "Japan"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 406
+      },
+      "inat": {
+        "observationCount": 10,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/541207060/medium.jpg",
+        "months": [
+          2,
+          4,
+          5,
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "ktsn": 120000017630,
+      "scientificName": "Figulus punctatus Waterhouse, 1873",
+      "commonName": "길쭉꼬마사슴벌레",
+      "terminalLatinName": "punctatus",
+      "nomenclaturalAuthor": "Waterhouse",
+      "namingYear": "1873",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Lucanidae",
+          "commonName": "사슴벌레과",
+          "ktsn": 120000017542
+        },
+        "genus": {
+          "scientificName": "Figulus",
+          "commonName": "꼬마사슴벌레속",
+          "ktsn": 120000017628
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "punctatus",
+          "commonName": "길쭉꼬마사슴벌레",
+          "ktsn": 120000017630
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:02:46.013Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 2,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/452450595/medium.jpeg",
+        "months": [
+          9
+        ]
+      }
+    },
+    {
+      "ktsn": 120000017631,
+      "scientificName": "Figulus venustus Bomans, 1989",
+      "commonName": "꼬마사슴벌레",
+      "terminalLatinName": "venustus",
+      "nomenclaturalAuthor": "Bomans",
+      "namingYear": "1989",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "Y",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Lucanidae",
+          "commonName": "사슴벌레과",
+          "ktsn": 120000017542
+        },
+        "genus": {
+          "scientificName": "Figulus",
+          "commonName": "꼬마사슴벌레속",
+          "ktsn": 120000017628
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "venustus",
+          "commonName": "꼬마사슴벌레",
+          "ktsn": 120000017631
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:02:46.013Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:04:20.558Z"
+      }
+    },
+    {
+      "ktsn": 120000017684,
+      "scientificName": "Lucanus maculifemoratus dybowskyi Parry, 1873",
+      "commonName": "사슴벌레",
+      "terminalLatinName": "dybowskyi",
+      "nomenclaturalAuthor": "Parry",
+      "namingYear": "1873",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Lucanidae",
+          "commonName": "사슴벌레과",
+          "ktsn": 120000017542
+        },
+        "genus": {
+          "scientificName": "Lucanus",
+          "commonName": "사슴벌레속",
+          "ktsn": 120000017682
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "maculifemoratus",
+          "commonName": "",
+          "ktsn": 120000017683
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:02:46.013Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 49,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/9025849/medium.jpeg",
+        "months": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "ktsn": 120000017704,
+      "scientificName": "Nigidius miwai Nagel, 1941",
+      "commonName": "뿔꼬마사슴벌레",
+      "terminalLatinName": "miwai",
+      "nomenclaturalAuthor": "Nagel",
+      "namingYear": "1941",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Lucanidae",
+          "commonName": "사슴벌레과",
+          "ktsn": 120000017542
+        },
+        "genus": {
+          "scientificName": "Nigidius",
+          "commonName": "뿔꼬마사슴벌레속",
+          "ktsn": 120000017703
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "miwai",
+          "commonName": "뿔꼬마사슴벌레",
+          "ktsn": 120000017704
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:02:46.013Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:04:20.558Z"
+      }
+    },
+    {
+      "ktsn": 120000017728,
+      "scientificName": "Platycerus hongwonpyoi hongwonpyoi Imura & Choe, 1989",
+      "commonName": "원표애보라사슴벌레",
+      "terminalLatinName": "hongwonpyoi",
+      "nomenclaturalAuthor": "Imura & Choe",
+      "namingYear": "1989",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "Y",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Lucanidae",
+          "commonName": "사슴벌레과",
+          "ktsn": 120000017542
+        },
+        "genus": {
+          "scientificName": "Platycerus",
+          "commonName": "애보라사슴벌레속",
+          "ktsn": 120000017726
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "hongwonpyoi",
+          "commonName": "",
+          "ktsn": 120000017727
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:02:46.013Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 6,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/584127740/medium.jpg",
+        "months": [
+          1,
+          5,
+          7,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "ktsn": 120000017729,
+      "scientificName": "Platycerus hongwonpyoi merkli Imura & Choe, 1989",
+      "commonName": "머클애보라사슴벌레",
+      "terminalLatinName": "merkli",
+      "nomenclaturalAuthor": "Imura & Choe",
+      "namingYear": "1989",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Lucanidae",
+          "commonName": "사슴벌레과",
+          "ktsn": 120000017542
+        },
+        "genus": {
+          "scientificName": "Platycerus",
+          "commonName": "애보라사슴벌레속",
+          "ktsn": 120000017726
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "hongwonpyoi",
+          "commonName": "",
+          "ktsn": 120000017727
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:02:46.013Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 6,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/584127740/medium.jpg",
+        "months": [
+          1,
+          5,
+          7,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "ktsn": 120000017742,
+      "scientificName": "Prismognathus dauricus (Motschulsky, 1860)",
+      "commonName": "다우리아사슴벌레",
+      "terminalLatinName": "dauricus",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Lucanidae",
+          "commonName": "사슴벌레과",
+          "ktsn": 120000017542
+        },
+        "genus": {
+          "scientificName": "Prismognathus",
+          "commonName": "산사슴벌레속",
+          "ktsn": 120000017741
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "dauricus",
+          "commonName": "다우리아사슴벌레",
+          "ktsn": 120000017742
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:02:46.013Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "abstract": "다우리아사슴벌레는 한국, 중국, 일본 등지에 서식하는 소형 사슴벌레이다. 몸은 밤색이며 수컷의 턱은 끝이 두 갈래로 갈라져 있다. 애사슴벌레보다 크기가 작고,1~2개월의 짧은 수명을 가지고 있으며, 다소 성질이 급하다. 썩은 참나무를 먹는 여느 사슴벌레들과는 달리 다우리아사슴벌레의 애벌레는 벚나무를 먹는다.",
+      "description": "다우리아사슴벌레는 한국, 중국, 일본 등지에 서식하는 소형 사슴벌레이다. 몸은 밤색이며 수컷의 턱은 끝이 두 갈래로 갈라져 있다. 애사슴벌레보다 크기가 작고,1~2개월의 짧은 수명을 가지고 있으며, 다소 성질이 급하다. 썩은 참나무를 먹는 여느 사슴벌레들과는 달리 다우리아사슴벌레의 애벌레는 벚나무를 먹는다.",
+      "inat": {
+        "observationCount": 64,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/566779335/medium.jpg",
+        "months": [
+          4,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "ktsn": 120000017745,
+      "scientificName": "Prosopocoilus astacoides blanchardi (Parry, 1873)",
+      "commonName": "두점박이사슴벌레",
+      "terminalLatinName": "blanchardi",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "Y",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Lucanidae",
+          "commonName": "사슴벌레과",
+          "ktsn": 120000017542
+        },
+        "genus": {
+          "scientificName": "Prosopocoilus",
+          "commonName": "톱사슴벌레속",
+          "ktsn": 120000017743
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "astacoides",
+          "commonName": "",
+          "ktsn": 120000017744
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:02:46.013Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 13,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/592170150/medium.jpg",
+        "months": [
+          7,
+          8
+        ]
+      }
+    },
+    {
+      "ktsn": 120000017747,
+      "scientificName": "Prosopocoilus inclinatus inclinatus (Motschulsky, 1858)",
+      "commonName": "톱사슴벌레",
+      "terminalLatinName": "inclinatus",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Lucanidae",
+          "commonName": "사슴벌레과",
+          "ktsn": 120000017542
+        },
+        "genus": {
+          "scientificName": "Prosopocoilus",
+          "commonName": "톱사슴벌레속",
+          "ktsn": 120000017743
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "inclinatus",
+          "commonName": "",
+          "ktsn": 120000017746
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:02:46.013Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 294,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/417165626/medium.jpg",
+        "months": [
+          1,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    }
+  ],
+  "digitalContentUpdatedAt": "2026-05-21T09:02:46.013Z",
+  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+}

@@ -1,0 +1,725 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "diptera",
+    "scientificName": "Diptera",
+    "commonName": "파리목",
+    "orderKtsn": 120000020933,
+    "abstract": "파리목(Diptera)은 파리, 모기, 등에 등이 속해 있는 곤충의 한 분류이다. 수십 개의 과에 85,000여 종이 있다. 대한민국에서 발견하여 기록한 전체기록 종은 1,099종이다. 작거나 중간 크기의 곤충으로서, 형태와 습성이 매우 다양하다. 머리부에는 발달된 겹눈이 있으며, 입은 찌르는형·씹는형·핥는형 등이 있고, 다양한 촉각을 갖는다. 특히 앞날개가 발달하여 있으며, 맥은 적으나 나는 힘은 강하다. 뒷날개는 변형되어 평형을 유지하는 기관인 평형곤이 되었다. 날개가 퇴화된 것도 많다. 완전변태를 하며, 유충은 애벌래 형태를 띈다. 파리는 우리 주위에서 쉽게 볼 수 있지만, 바다에서 생활하는 종류도 있다. 모기·깔따구·등에·파리매·똥파리·초파리·집파리·쇠파리·쉬파리·각다귀 등이 이에 포함된다.",
+    "description": "파리목(Diptera)은 파리, 모기, 등에 등이 속해 있는 곤충의 한 분류이다. 수십 개의 과에 85,000여 종이 있다. 대한민국에서 발견하여 기록한 전체기록 종은 1,099종이다. 작거나 중간 크기의 곤충으로서, 형태와 습성이 매우 다양하다. 머리부에는 발달된 겹눈이 있으며, 입은 찌르는형·씹는형·핥는형 등이 있고, 다양한 촉각을 갖는다. 특히 앞날개가 발달하여 있으며, 맥은 적으나 나는 힘은 강하다. 뒷날개는 변형되어 평형을 유지하는 기관인 평형곤이 되었다. 날개가 퇴화된 것도 많다. 완전변태를 하며, 유충은 애벌래 형태를 띈다. 파리는 우리 주위에서 쉽게 볼 수 있지만, 바다에서 생활하는 종류도 있다. 모기·깔따구·등에·파리매·똥파리·초파리·집파리·쇠파리·쉬파리·각다귀 등이 이에 포함된다."
+  },
+  "family": {
+    "id": "blephariceridae",
+    "scientificName": "Blephariceridae",
+    "commonName": "멧모기과",
+    "familyKtsn": 120000021256
+  },
+  "speciesCount": 8,
+  "insects": [
+    {
+      "ktsn": 120000021258,
+      "scientificName": "Agathon kawamurai (Kitakami, 1950)",
+      "commonName": "구와무라멧모기",
+      "terminalLatinName": "kawamurai",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "Y",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Blephariceridae",
+          "commonName": "멧모기과",
+          "ktsn": 120000021256
+        },
+        "genus": {
+          "scientificName": "Agathon",
+          "commonName": "",
+          "ktsn": 120000021257
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "kawamurai",
+          "commonName": "구와무라멧모기",
+          "ktsn": 120000021258
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:10:08.649Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 814973,
+        "canonical": "Agathon kawamurai",
+        "fetchedAt": "2026-05-24T08:50:27.694Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:05:09.599Z"
+      }
+    },
+    {
+      "ktsn": 120000225275,
+      "scientificName": "Bibiocephala infuscata (Matsumura, 1916)",
+      "commonName": "왜멧모기",
+      "terminalLatinName": "infuscata",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Blephariceridae",
+          "commonName": "멧모기과",
+          "ktsn": 120000021256
+        },
+        "genus": {
+          "scientificName": "Bibiocephala",
+          "commonName": "",
+          "ktsn": 120000021259
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "infuscata",
+          "commonName": "왜멧모기",
+          "ktsn": 120000225275
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:10:08.649Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 821673,
+        "canonical": "Bibiocephala infuscata",
+        "fetchedAt": "2026-05-24T08:50:43.873Z",
+        "vernaculars": {
+          "ko": [
+            "왜멧모기"
+          ],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [
+          "Japan"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 1
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:05:09.599Z"
+      }
+    },
+    {
+      "ktsn": 120000021260,
+      "scientificName": "Bibiocephala komaensis (Kitakami, 1950)",
+      "commonName": "발해멧모기",
+      "terminalLatinName": "komaensis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Blephariceridae",
+          "commonName": "멧모기과",
+          "ktsn": 120000021256
+        },
+        "genus": {
+          "scientificName": "Bibiocephala",
+          "commonName": "",
+          "ktsn": 120000021259
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "komaensis",
+          "commonName": "발해멧모기",
+          "ktsn": 120000021260
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:10:08.649Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 821672,
+        "canonical": "Bibiocephala komaensis",
+        "fetchedAt": "2026-05-24T08:50:31.391Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:05:09.599Z"
+      }
+    },
+    {
+      "ktsn": 120000225557,
+      "scientificName": "Blepharicera japonica (Kitakami, 1931)",
+      "commonName": "멧모기",
+      "terminalLatinName": "japonica",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Blephariceridae",
+          "commonName": "멧모기과",
+          "ktsn": 120000021256
+        },
+        "genus": {
+          "scientificName": "Blepharicera",
+          "commonName": "",
+          "ktsn": 120000021261
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "japonica",
+          "commonName": "멧모기",
+          "ktsn": 120000225557
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:10:08.649Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 814989,
+        "canonical": "Blepharicera japonica",
+        "fetchedAt": "2026-05-24T08:50:50.119Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 1
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:05:09.599Z"
+      }
+    },
+    {
+      "ktsn": 120000021262,
+      "scientificName": "Blepharicera yankovskyi (Alexander, 1953)",
+      "commonName": "양코프스키멧모기",
+      "terminalLatinName": "yankovskyi",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "Y",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Blephariceridae",
+          "commonName": "멧모기과",
+          "ktsn": 120000021256
+        },
+        "genus": {
+          "scientificName": "Blepharicera",
+          "commonName": "",
+          "ktsn": 120000021261
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "yankovskyi",
+          "commonName": "양코프스키멧모기",
+          "ktsn": 120000021262
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:10:08.649Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 814986,
+        "canonical": "Blepharicera yankovskyi",
+        "fetchedAt": "2026-05-24T08:50:34.351Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:05:09.599Z"
+      }
+    },
+    {
+      "ktsn": 120000021264,
+      "scientificName": "Philorus chosenensis Kitakami, 1931",
+      "commonName": "금강멧모기",
+      "terminalLatinName": "chosenensis",
+      "nomenclaturalAuthor": "Kitakami",
+      "namingYear": "1931",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "Y",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Blephariceridae",
+          "commonName": "멧모기과",
+          "ktsn": 120000021256
+        },
+        "genus": {
+          "scientificName": "Philorus",
+          "commonName": "",
+          "ktsn": 120000021263
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "chosenensis",
+          "commonName": "금강멧모기",
+          "ktsn": 120000021264
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:10:08.649Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 815010,
+        "canonical": "Philorus chosenensis",
+        "fetchedAt": "2026-05-24T08:50:37.398Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 1
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:05:09.599Z"
+      }
+    },
+    {
+      "ktsn": 120000021265,
+      "scientificName": "Philorus kongoensis Kitakami, 1950",
+      "commonName": "금강산멧모기",
+      "terminalLatinName": "kongoensis",
+      "nomenclaturalAuthor": "Kitakami",
+      "namingYear": "1950",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Blephariceridae",
+          "commonName": "멧모기과",
+          "ktsn": 120000021256
+        },
+        "genus": {
+          "scientificName": "Philorus",
+          "commonName": "",
+          "ktsn": 120000021263
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "kongoensis",
+          "commonName": "금강산멧모기",
+          "ktsn": 120000021265
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:10:08.649Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 814999,
+        "canonical": "Philorus kongoensis",
+        "fetchedAt": "2026-05-24T08:50:40.492Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:05:09.599Z"
+      }
+    },
+    {
+      "ktsn": 120000225312,
+      "scientificName": "Philorus viridis Kitakami, 1931",
+      "commonName": "애기멧모기",
+      "terminalLatinName": "viridis",
+      "nomenclaturalAuthor": "Kitakami",
+      "namingYear": "1931",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Blephariceridae",
+          "commonName": "멧모기과",
+          "ktsn": 120000021256
+        },
+        "genus": {
+          "scientificName": "Philorus",
+          "commonName": "",
+          "ktsn": 120000021263
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "viridis",
+          "commonName": "애기멧모기",
+          "ktsn": 120000225312
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:10:08.649Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 815004,
+        "canonical": "Philorus viridis",
+        "fetchedAt": "2026-05-24T08:50:46.944Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:05:09.599Z"
+      }
+    }
+  ],
+  "digitalContentUpdatedAt": "2026-05-21T09:10:08.649Z",
+  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+}

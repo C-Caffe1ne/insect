@@ -1,46 +1,45 @@
 ## 요구사항
 
 ### 사용자 요청
-1. 곤충 설명에 'GBIF 관측 기록' 적힌 텍스트를 모두 제거
-2. cached 폴더에서 API 관련 스크립트 파일은 보존, 나머지 파일 정리
-3. 데이터 없이 비어있는 코드 제거
-4. 하네스를 이용해 신중하게 검토 후 작업
-5. **코드 제거 전 다시 확인 후 제거** ← Critical
+각 곤충마다 비어있는 데이터, 중복 데이터를 **여러 차례 검토 후** JSON 파일 코드 삭제 및 최적화.
 
 ### 분류된 작업 유형
-**검토 + 위험한 삭제** — 파괴적 작업이므로 사용자 확인 단계 필수
+**위험한 데이터 정리** — 21,359종 곤충 데이터(42MB)에서 빈/중복 필드 제거. 사용자 강조:
+> 반드시 여러번의 검토를 진행하고 코드 삭제
 
-### 작업 흐름 (정상 파이프라인과 다름)
-1. **Phase 2 (코드 리뷰 + QA, 병렬, READ-ONLY)** — 어떤 코드/파일을 제거할지 인벤토리만 작성
-2. **STOP** — 오케스트레이터가 사용자에게 명확한 plan 제시 + 확인 요청
-3. **사용자 확인 후에만** web-developer가 실제 삭제 실행
-4. **Phase 5** — 삭제 후 종합 보고 (재검증 포함)
+### 작업 파이프라인
+- **Round 1 (완료)**: 자체 인벤토리 — 빈/중복 패턴 6종 식별
+- **Round 2 (이 단계)**: code-reviewer가 프론트엔드 의존성 교차 검증
+- **Round 3 (이 단계, 병렬)**: qa-agent가 시나리오 시뮬레이션 — 제거 시 회귀 검사
+- **STOP**: 사용자 승인 대기
+- **Round 4**: 승인 후 web-developer 실행 (백업 포함)
+- **Round 5**: 회귀 재검증
 
-### 관련 파일 / 디렉토리
-- `project/index.html` (1.5MB+, 2,200+ 줄) — JS의 enrichSpeciesWithEol 등에서 'GBIF 관측 기록' 텍스트 합성
-- `project/style.css` — 미사용 클래스/규칙 후보
-- `cached/` — 25+ 파일 (스크립트·JSON·로그)
+### Round 1에서 식별된 제거 후보 (검토 대상)
 
-### 작업 범위
-- **READ-ONLY 인벤토리 (Phase 2)**:
-  - code-reviewer: project/ 내 'GBIF 관측 기록' 텍스트 정확한 위치(파일:라인) + 사용 맥락
-  - code-reviewer: project/ 내 빈/사용 안 됨 코드 (functions, CSS rules, HTML 요소) 후보 목록
-  - qa-agent: cached/ 디렉토리 모든 파일을 분류 — API 스크립트(.mjs/.js/.py로 fetch/cache 수행) vs 데이터 JSON/log/기타
-  - qa-agent: cached/의 JSON 파일들이 다른 스크립트의 입력으로 참조되는지(의존성) 확인
-  
-- **계획 보고 (STOP 지점)**: 무엇을 지울지 + 무엇을 건드리지 말지를 사용자에게 명확히 제시
+| # | 패턴 | 종 수 | 절감 추정 | 위험도 |
+|---|---|---|---|---|
+| 1 | `digitalContent` 전체 (5,596 빈 응답 + 4,398 HTTP 500) | 9,994 | ~2.19MB | 낮음 — 실데이터 0건 |
+| 2 | Yn 상수 3개 제거: `hrmflSpecsYn`, `phspYn`, `ntmYn` (모든 종 'N') | 21,359 | ~0.7MB | 검토 필요 — 프론트 사용 여부 |
+| 3 | `taxonomy.order`/`taxonomy.family` 중복 (파일 헤더와 100% 일치) | 21,359 | ~4.3MB | **검토 필요** — 종 상세 페이지가 사용 |
+| 4 | `taxonomy.subgenus` 80%가 완전 빈 객체 | 17,148 | ~3.5MB | 빈 것만 제거 가능 |
+| 5 | `eol.eats`, `eol.visitsFlowersOf`, `eol.pathogenOf` 100% 빈 배열 | 2,595 | ~0.5MB | 낮음 |
+| 6 | `gbif.vernacularName` 100% 빈 | 97 | 적음 | 낮음 |
+| 7 | `inat.imageUrl` 빈 값 238종 | 238 | 적음 | 검토 필요 |
 
-- **삭제 실행 (사용자 OK 후만)**:
-  - 'GBIF 관측 기록' 텍스트 제거
-  - cached/ 정리
-  - 빈 코드 제거
+### 점검 항목 (각 에이전트)
 
-### 위험 요소
-- `project/eol_species_cache.json`과 같이 frontend가 fetch 하는 파일이 cached/에서 복사된 것일 수 있음 — 의존 관계 확인 필수
-- search_index.json 등 빌드 산출물의 입력이 되는 JSON은 보존 필요
-- "API 스크립트"의 정의 — fetch_*.mjs, cache_*.mjs, process_*.mjs는 명백히 API 관련. 그 외 merge_*, extract_* 등은 사용자 판단 필요
+**code-reviewer**:
+- 프론트엔드(`project/index.html` 인라인 JS)가 위 7개 패턴 중 어떤 필드를 직접 참조하는지 grep
+- 특히 `insect.taxonomy.order`, `insect.taxonomy.family`, `insect.digitalContent`, `insect.hrmflSpecsYn` 등
+- 제거 안전성 판정 (각 패턴별 위험도 갱신)
 
-### 보고 양식
-- `_workspace/03_review_output.md` (code-reviewer): 'GBIF 관측 기록' 위치 + 빈 코드 후보
-- `_workspace/04_qa_output.md` (qa-agent): cached/ 파일 분류 + 의존성
-- 오케스트레이터: **사용자 확인용 plan 문서** 작성 + 답변 대기
+**qa-agent**:
+- 시나리오: 분류 보기 → 목 펼치기 → 과 → 종 카드 → 종 상세 페이지
+- 각 화면이 표시하는 필드 추적
+- 제거 시 어떤 슬롯이 빈 폴백으로 떨어질지 예측
+
+### 산출물
+- `_workspace/03_review_output.md` (code-reviewer)
+- `_workspace/04_qa_output.md` (qa-agent)
+- 그 후 오케스트레이터가 **plan 보고서 + 사용자 확인 요청** 작성

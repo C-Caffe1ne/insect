@@ -1,135 +1,80 @@
 {
-    "generatedAt":  "2026-05-21T07:47:08.025Z",
-    "source":  "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
-    "order":  {
-                  "id":  "hemiptera",
-                  "scientificName":  "Hemiptera",
-                  "commonName":  "노린재목",
-                  "orderKtsn":  120000066597
-              },
-    "family":  {
-                   "id":  "kuwaniidae",
-                   "scientificName":  "Kuwaniidae",
-                   "commonName":  "붉은솜깍지벌레과",
-                   "familyKtsn":  120000026043
-               },
-    "speciesCount":  1,
-    "insects":  [
-                    {
-                        "ktsn":  120000026045,
-                        "scientificName":  "Kuwania quercus (Kuwana, 1902)",
-                        "commonName":  "붉은솜깍지벌레",
-                        "terminalLatinName":  "quercus",
-                        "nomenclaturalAuthor":  "",
-                        "namingYear":  "",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Hemiptera",
-                                                       "commonName":  "노린재목",
-                                                       "ktsn":  120000066597
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Kuwaniidae",
-                                                        "commonName":  "붉은솜깍지벌레과",
-                                                        "ktsn":  120000026043
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Kuwania",
-                                                       "commonName":  "붉은솜깍지벌레속",
-                                                       "ktsn":  120000026044
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "quercus",
-                                                         "commonName":  "붉은솜깍지벌레",
-                                                         "ktsn":  120000026045
-                                                     }
-                                     },
-                        "digitalContent":  {
-                                               "cachedAt":  "2026-05-21T09:26:55.011Z",
-                                               "source":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
-                                               "error":  "HTTP 500 서버 내부 오류가 발생했습니다.",
-                                               "thumbnailUrl":  null,
-                                               "contents":  {
-                                                                "EO":  [
-
-                                                                       ],
-                                                                "FR":  [
-
-                                                                       ],
-                                                                "DT":  [
-
-                                                                       ],
-                                                                "EX":  [
-
-                                                                       ]
-                                                            }
-                                           },
-                        "eol":  {
-                                    "pageId":  837225,
-                                    "canonical":  "Kuwania quercus",
-                                    "fetchedAt":  "2026-05-24T10:09:09.092Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-
-                                                               ],
-                                                        "en":  [
-                                                                   "Giant Coccid"
-                                                               ],
-                                                        "ja":  [
-                                                                   "カシノアカカイガラムシ"
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  9
-                                },
-                        "inat":  {
-                                     "observationCount":  1,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/198321597/medium.jpeg",
-                                     "months":  [
-                                                    5
-                                                ]
-                                 }
-                    }
-                ],
-    "digitalContentUpdatedAt":  "2026-05-21T09:26:55.011Z",
-    "digitalContentSource":  "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "hemiptera",
+    "scientificName": "Hemiptera",
+    "commonName": "노린재목",
+    "orderKtsn": 120000066597
+  },
+  "family": {
+    "id": "kuwaniidae",
+    "scientificName": "Kuwaniidae",
+    "commonName": "붉은솜깍지벌레과",
+    "familyKtsn": 120000026043
+  },
+  "speciesCount": 1,
+  "insects": [
+    {
+      "ktsn": 120000026045,
+      "scientificName": "Kuwania quercus (Kuwana, 1902)",
+      "commonName": "붉은솜깍지벌레",
+      "terminalLatinName": "quercus",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "dispYn": "N",
+      "korUnqBispYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "genus": {
+          "scientificName": "Kuwania",
+          "commonName": "붉은솜깍지벌레속",
+          "ktsn": 120000026044
+        },
+        "species": {
+          "scientificName": "quercus",
+          "commonName": "붉은솜깍지벌레",
+          "ktsn": 120000026045
+        }
+      },
+      "eol": {
+        "pageId": 837225,
+        "canonical": "Kuwania quercus",
+        "fetchedAt": "2026-05-24T10:09:09.092Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [
+            "Giant Coccid"
+          ],
+          "ja": [
+            "カシノアカカイガラムシ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "gbifRecords": 9
+      },
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/198321597/medium.jpeg",
+        "months": [
+          5
+        ]
+      }
+    }
+  ],
+  "digitalContentUpdatedAt": "2026-05-21T09:26:55.011Z",
+  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
 }

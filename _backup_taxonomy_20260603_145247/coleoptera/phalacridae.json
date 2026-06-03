@@ -1,0 +1,639 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "coleoptera",
+    "scientificName": "Coleoptera",
+    "commonName": "딱정벌레목",
+    "orderKtsn": 120000013750,
+    "abstract": "딱정벌레목(Coleoptera)은 곤충의 종 가운데 40%인 35만여종을 차지하는 목이다. 아직 발견되지 않은 종까지 합치면 500만~800만여종이 될 것으로 추정된다. 먹는 먹이도 다양해서 식물의 잎, 송사리 등의 작은 물고기, 나무의 즙, 작은 동물, 동물의 시체 등 매우 다양하다. 딱정벌레목에 속한 곤충으로는 무당벌레, 딱정벌레, 길앞잡이, 물방개, 장수풍뎅이 등이 있다. 대부분이 두꺼운 키틴질로 된 딱딱한 껍데기를 가지고 있어서 갑충(甲蟲)이라고도 불린다.",
+    "description": "딱정벌레목(Coleoptera)은 곤충의 종 가운데 40%인 35만여종을 차지하는 목이다. 아직 발견되지 않은 종까지 합치면 500만~800만여종이 될 것으로 추정된다. 먹는 먹이도 다양해서 식물의 잎, 송사리 등의 작은 물고기, 나무의 즙, 작은 동물, 동물의 시체 등 매우 다양하다. 딱정벌레목에 속한 곤충으로는 무당벌레, 딱정벌레, 길앞잡이, 물방개, 장수풍뎅이 등이 있다. 대부분이 두꺼운 키틴질로 된 딱딱한 껍데기를 가지고 있어서 갑충(甲蟲)이라고도 불린다."
+  },
+  "family": {
+    "id": "phalacridae",
+    "scientificName": "Phalacridae",
+    "commonName": "꽃알벌레과",
+    "familyKtsn": 120000018380
+  },
+  "speciesCount": 7,
+  "insects": [
+    {
+      "ktsn": 120000524789,
+      "scientificName": "Augasmus coronatus (Flach, 1889)",
+      "commonName": "큰무늬꽃알벌레",
+      "terminalLatinName": "coronatus",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Phalacridae",
+          "commonName": "꽃알벌레과",
+          "ktsn": 120000018380
+        },
+        "genus": {
+          "scientificName": "Augasmus",
+          "commonName": "무늬꽃알벌레속",
+          "ktsn": 120000018381
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "coronatus",
+          "commonName": "큰무늬꽃알벌레",
+          "ktsn": 120000524789
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:03:57.200Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 13664950,
+        "canonical": "Augasmus coronatus",
+        "fetchedAt": "2026-05-24T08:17:05.651Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:04:27.579Z"
+      }
+    },
+    {
+      "ktsn": 120000084135,
+      "scientificName": "Augasmus shirozui (Hisamatsu, 1959)",
+      "commonName": "검은테꽃알벌레",
+      "terminalLatinName": "shirozui",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Phalacridae",
+          "commonName": "꽃알벌레과",
+          "ktsn": 120000018380
+        },
+        "genus": {
+          "scientificName": "Augasmus",
+          "commonName": "무늬꽃알벌레속",
+          "ktsn": 120000018381
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "shirozui",
+          "commonName": "검은테꽃알벌레",
+          "ktsn": 120000084135
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:03:57.200Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 13664971,
+        "canonical": "Augasmus shirozui",
+        "fetchedAt": "2026-05-24T08:16:46.556Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:04:27.579Z"
+      }
+    },
+    {
+      "ktsn": 120000018382,
+      "scientificName": "Augasmus thoracicus (Fleutiaux, 1887)",
+      "commonName": "다변이꽃알벌레",
+      "terminalLatinName": "thoracicus",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Phalacridae",
+          "commonName": "꽃알벌레과",
+          "ktsn": 120000018380
+        },
+        "genus": {
+          "scientificName": "Augasmus",
+          "commonName": "무늬꽃알벌레속",
+          "ktsn": 120000018381
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "thoracicus",
+          "commonName": "다변이꽃알벌레",
+          "ktsn": 120000018382
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:03:57.200Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 13664977,
+        "canonical": "Augasmus thoracicus",
+        "fetchedAt": "2026-05-24T08:16:42.570Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:04:27.579Z"
+      }
+    },
+    {
+      "ktsn": 120000232374,
+      "scientificName": "Litochrus minutus Hisamatsu, 1985",
+      "commonName": "꼬마미끈꽃알벌레",
+      "terminalLatinName": "minutus",
+      "nomenclaturalAuthor": "Hisamatsu",
+      "namingYear": "1985",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Phalacridae",
+          "commonName": "꽃알벌레과",
+          "ktsn": 120000018380
+        },
+        "genus": {
+          "scientificName": "Litochrus",
+          "commonName": "미끈꽃알벌레속",
+          "ktsn": 120000232373
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "minutus",
+          "commonName": "꼬마미끈꽃알벌레",
+          "ktsn": 120000232374
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:03:57.200Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 13665030,
+        "canonical": "Litochrus minutus",
+        "fetchedAt": "2026-05-24T08:16:54.516Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:04:27.579Z"
+      }
+    },
+    {
+      "ktsn": 120000232612,
+      "scientificName": "Litochrus rufoguttatus Champion, 1925",
+      "commonName": "큰점미끈꽃알벌레",
+      "terminalLatinName": "rufoguttatus",
+      "nomenclaturalAuthor": "Champion",
+      "namingYear": "1925",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Phalacridae",
+          "commonName": "꽃알벌레과",
+          "ktsn": 120000018380
+        },
+        "genus": {
+          "scientificName": "Litochrus",
+          "commonName": "미끈꽃알벌레속",
+          "ktsn": 120000232373
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "rufoguttatus",
+          "commonName": "큰점미끈꽃알벌레",
+          "ktsn": 120000232612
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:03:57.200Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 3219473,
+        "canonical": "Litochrus rufoguttatus",
+        "fetchedAt": "2026-05-24T08:17:01.561Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:04:27.579Z"
+      }
+    },
+    {
+      "ktsn": 120000232384,
+      "scientificName": "Merobrachys bimaculatus (Matsumura, 1915)",
+      "commonName": "두점꽃알벌레",
+      "terminalLatinName": "bimaculatus",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Phalacridae",
+          "commonName": "꽃알벌레과",
+          "ktsn": 120000018380
+        },
+        "genus": {
+          "scientificName": "Merobrachys",
+          "commonName": "점꽃알벌레속",
+          "ktsn": 120000232382
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "bimaculatus",
+          "commonName": "두점꽃알벌레",
+          "ktsn": 120000232384
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:03:57.200Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 3219525,
+        "canonical": "Merobrachys bimaculatus",
+        "fetchedAt": "2026-05-24T08:16:57.904Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:04:27.579Z"
+      }
+    },
+    {
+      "ktsn": 120000084659,
+      "scientificName": "Olibrus particeps Mulsant and Rey, 1861",
+      "commonName": "꼬마꽃알벌레",
+      "terminalLatinName": "particeps",
+      "nomenclaturalAuthor": "Mulsant and Rey",
+      "namingYear": "1861",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Phalacridae",
+          "commonName": "꽃알벌레과",
+          "ktsn": 120000018380
+        },
+        "genus": {
+          "scientificName": "Olibrus",
+          "commonName": "꽃알벌레속",
+          "ktsn": 120000067756
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "particeps",
+          "commonName": "꼬마꽃알벌레",
+          "ktsn": 120000084659
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:03:57.200Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 3219481,
+        "canonical": "Olibrus particeps",
+        "fetchedAt": "2026-05-24T08:16:50.195Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:04:27.579Z"
+      }
+    }
+  ],
+  "digitalContentUpdatedAt": "2026-05-21T09:03:57.200Z",
+  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+}

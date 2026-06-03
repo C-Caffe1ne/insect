@@ -1,0 +1,568 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "hemiptera",
+    "scientificName": "Hemiptera",
+    "commonName": "노린재목",
+    "orderKtsn": 120000066597
+  },
+  "family": {
+    "id": "dictyopharidae",
+    "scientificName": "Dictyopharidae",
+    "commonName": "상투벌레과",
+    "familyKtsn": 120000025933
+  },
+  "speciesCount": 6,
+  "insects": [
+    {
+      "ktsn": 120000025935,
+      "scientificName": "Dictyophara koreana Matsumura, 1915",
+      "commonName": "고려상투벌레",
+      "terminalLatinName": "koreana",
+      "nomenclaturalAuthor": "Matsumura",
+      "namingYear": "1915",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Dictyopharidae",
+          "commonName": "상투벌레과",
+          "ktsn": 120000025933
+        },
+        "genus": {
+          "scientificName": "Dictyophara",
+          "commonName": "상투벌레속",
+          "ktsn": 120000025934
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "koreana",
+          "commonName": "고려상투벌레",
+          "ktsn": 120000025935
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:35.389Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 236360,
+        "canonical": "Dictyophara koreana",
+        "fetchedAt": "2026-05-24T10:05:15.803Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:54.473Z"
+      }
+    },
+    {
+      "ktsn": 120000025936,
+      "scientificName": "Dictyophara nekkana Matsumura, 1940",
+      "commonName": "긴뿔상투벌레",
+      "terminalLatinName": "nekkana",
+      "nomenclaturalAuthor": "Matsumura",
+      "namingYear": "1940",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Dictyopharidae",
+          "commonName": "상투벌레과",
+          "ktsn": 120000025933
+        },
+        "genus": {
+          "scientificName": "Dictyophara",
+          "commonName": "상투벌레속",
+          "ktsn": 120000025934
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "nekkana",
+          "commonName": "긴뿔상투벌레",
+          "ktsn": 120000025936
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:35.389Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 236368,
+        "canonical": "Dictyophara nekkana",
+        "fetchedAt": "2026-05-24T10:05:17.805Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:54.473Z"
+      }
+    },
+    {
+      "ktsn": 120000025938,
+      "scientificName": "Raivuna cummingi (Distant, 1906)",
+      "commonName": "남방상투벌레",
+      "terminalLatinName": "cummingi",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Dictyopharidae",
+          "commonName": "상투벌레과",
+          "ktsn": 120000025933
+        },
+        "genus": {
+          "scientificName": "Raivuna",
+          "commonName": "",
+          "ktsn": 120000025937
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "cummingi",
+          "commonName": "남방상투벌레",
+          "ktsn": 120000025938
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:35.389Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 236057,
+        "canonical": "Raivuna cummingi",
+        "fetchedAt": "2026-05-24T10:05:19.426Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:54.473Z"
+      }
+    },
+    {
+      "ktsn": 120000025939,
+      "scientificName": "Raivuna nakanonis (Matsumura, 1910)",
+      "commonName": "나카노상투벌레",
+      "terminalLatinName": "nakanonis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Dictyopharidae",
+          "commonName": "상투벌레과",
+          "ktsn": 120000025933
+        },
+        "genus": {
+          "scientificName": "Raivuna",
+          "commonName": "",
+          "ktsn": 120000025937
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "nakanonis",
+          "commonName": "나카노상투벌레",
+          "ktsn": 120000025939
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:35.389Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 236366,
+        "canonical": "Raivuna nakanonis",
+        "fetchedAt": "2026-05-24T10:05:21.022Z",
+        "vernaculars": {
+          "ko": [
+            "나카노상투벌레"
+          ],
+          "en": [],
+          "ja": [
+            "ナカノテングスケバ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 44
+      },
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": null,
+        "months": [
+          5
+        ]
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:54.473Z"
+      }
+    },
+    {
+      "ktsn": 120000025940,
+      "scientificName": "Raivuna patruelis Stål, 1859",
+      "commonName": "상투벌레",
+      "terminalLatinName": "patruelis",
+      "nomenclaturalAuthor": "Stål",
+      "namingYear": "1859",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Dictyopharidae",
+          "commonName": "상투벌레과",
+          "ktsn": 120000025933
+        },
+        "genus": {
+          "scientificName": "Raivuna",
+          "commonName": "",
+          "ktsn": 120000025937
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "patruelis",
+          "commonName": "상투벌레",
+          "ktsn": 120000025940
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:35.389Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 236374,
+        "canonical": "Raivuna patruelis",
+        "fetchedAt": "2026-05-24T10:05:22.742Z",
+        "vernaculars": {
+          "ko": [
+            "상투벌레"
+          ],
+          "en": [],
+          "ja": [
+            "テングスケバ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "Japan",
+          "South Korea",
+          "China"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 290
+      },
+      "inat": {
+        "observationCount": 22,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/23799629/medium.jpg",
+        "months": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "ktsn": 120000025941,
+      "scientificName": "Raivuna sinica (Walker, 1851)",
+      "commonName": "어리상투벌레",
+      "terminalLatinName": "sinica",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Dictyopharidae",
+          "commonName": "상투벌레과",
+          "ktsn": 120000025933
+        },
+        "genus": {
+          "scientificName": "Raivuna",
+          "commonName": "",
+          "ktsn": 120000025937
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "sinica",
+          "commonName": "어리상투벌레",
+          "ktsn": 120000025941
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:35.389Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 988057,
+        "canonical": "Raivuna sinica",
+        "fetchedAt": "2026-05-24T10:05:27.273Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [
+          "China"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 5
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:54.473Z"
+      }
+    }
+  ],
+  "digitalContentUpdatedAt": "2026-05-21T09:26:35.389Z",
+  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+}

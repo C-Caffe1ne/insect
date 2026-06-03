@@ -1,0 +1,169 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "mecoptera",
+    "scientificName": "Mecoptera",
+    "commonName": "밑들이목",
+    "orderKtsn": 120000037097
+  },
+  "family": {
+    "id": "bittacidae",
+    "scientificName": "Bittacidae",
+    "commonName": "각다귀붙이과",
+    "familyKtsn": 120000037098
+  },
+  "speciesCount": 2,
+  "insects": [
+    {
+      "ktsn": 120000037100,
+      "scientificName": "Bittacus mastrillii Navas, 1913",
+      "commonName": "각다귀붙이",
+      "terminalLatinName": "mastrillii",
+      "nomenclaturalAuthor": "Navas",
+      "namingYear": "1913",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Mecoptera",
+          "commonName": "밑들이목",
+          "ktsn": 120000037097
+        },
+        "family": {
+          "scientificName": "Bittacidae",
+          "commonName": "각다귀붙이과",
+          "ktsn": 120000037098
+        },
+        "genus": {
+          "scientificName": "Bittacus",
+          "commonName": "",
+          "ktsn": 120000037099
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "mastrillii",
+          "commonName": "각다귀붙이",
+          "ktsn": 120000037100
+        }
+      },
+      "eol": {
+        "pageId": 4129071,
+        "canonical": "Bittacus mastrillii",
+        "fetchedAt": "2026-05-24T17:04:17.349Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [
+          "Japan"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 11
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:10:25.751Z"
+      }
+    },
+    {
+      "ktsn": 120000037101,
+      "scientificName": "Bittacus sinensis Walker, 1853",
+      "commonName": "별박이각다귀붙이",
+      "terminalLatinName": "sinensis",
+      "nomenclaturalAuthor": "Walker",
+      "namingYear": "1853",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Mecoptera",
+          "commonName": "밑들이목",
+          "ktsn": 120000037097
+        },
+        "family": {
+          "scientificName": "Bittacidae",
+          "commonName": "각다귀붙이과",
+          "ktsn": 120000037098
+        },
+        "genus": {
+          "scientificName": "Bittacus",
+          "commonName": "",
+          "ktsn": 120000037099
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "sinensis",
+          "commonName": "별박이각다귀붙이",
+          "ktsn": 120000037101
+        }
+      },
+      "eol": {
+        "pageId": 4129098,
+        "canonical": "Bittacus sinensis",
+        "fetchedAt": "2026-05-24T17:04:21.015Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 3
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:10:25.751Z"
+      }
+    }
+  ]
+}

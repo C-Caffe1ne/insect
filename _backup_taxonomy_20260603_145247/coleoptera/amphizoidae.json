@@ -1,0 +1,170 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "coleoptera",
+    "scientificName": "Coleoptera",
+    "commonName": "딱정벌레목",
+    "orderKtsn": 120000013750,
+    "abstract": "딱정벌레목(Coleoptera)은 곤충의 종 가운데 40%인 35만여종을 차지하는 목이다. 아직 발견되지 않은 종까지 합치면 500만~800만여종이 될 것으로 추정된다. 먹는 먹이도 다양해서 식물의 잎, 송사리 등의 작은 물고기, 나무의 즙, 작은 동물, 동물의 시체 등 매우 다양하다. 딱정벌레목에 속한 곤충으로는 무당벌레, 딱정벌레, 길앞잡이, 물방개, 장수풍뎅이 등이 있다. 대부분이 두꺼운 키틴질로 된 딱딱한 껍데기를 가지고 있어서 갑충(甲蟲)이라고도 불린다.",
+    "description": "딱정벌레목(Coleoptera)은 곤충의 종 가운데 40%인 35만여종을 차지하는 목이다. 아직 발견되지 않은 종까지 합치면 500만~800만여종이 될 것으로 추정된다. 먹는 먹이도 다양해서 식물의 잎, 송사리 등의 작은 물고기, 나무의 즙, 작은 동물, 동물의 시체 등 매우 다양하다. 딱정벌레목에 속한 곤충으로는 무당벌레, 딱정벌레, 길앞잡이, 물방개, 장수풍뎅이 등이 있다. 대부분이 두꺼운 키틴질로 된 딱딱한 껍데기를 가지고 있어서 갑충(甲蟲)이라고도 불린다."
+  },
+  "family": {
+    "id": "amphizoidae",
+    "scientificName": "Amphizoidae",
+    "commonName": "백두벌레과",
+    "familyKtsn": 120000013760
+  },
+  "speciesCount": 1,
+  "insects": [
+    {
+      "ktsn": 120000013762,
+      "scientificName": "Amphizoa sinica Yu & Stork, 1991",
+      "commonName": "백두벌레",
+      "terminalLatinName": "sinica",
+      "nomenclaturalAuthor": "Yu & Stork",
+      "namingYear": "1991",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Amphizoidae",
+          "commonName": "백두벌레과",
+          "ktsn": 120000013760
+        },
+        "genus": {
+          "scientificName": "Amphizoa",
+          "commonName": "백두벌레속",
+          "ktsn": 120000013761
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "sinica",
+          "commonName": "백두벌레",
+          "ktsn": 120000013762
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:43:44.098Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 1017595,
+        "canonical": "Amphizoa sinica",
+        "fetchedAt": "2026-05-24T07:34:15.254Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 6
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:03:09.922Z",
+        "title": "Amphizoa sinica",
+        "description": "species of beetle"
+      },
+      "inatTaxon": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:52:56.590Z",
+        "taxonId": 1434184,
+        "preferredCommonName": null,
+        "observationsCount": 7,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Amphizoa_sinica",
+        "defaultPhoto": {
+          "mediumUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/480360825/medium.jpg",
+          "squareUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/480360825/square.jpg",
+          "originalDimensions": {
+            "height": 533,
+            "width": 800
+          },
+          "license": "cc-by-nc",
+          "attribution": "(c) 昆虫学liuye, some rights reserved (CC BY-NC), uploaded by 昆虫学liuye",
+          "attributionName": "昆虫学liuye"
+        },
+        "wikipediaSummary": "<i><b>Amphizoa sinica</b></i> is a species of beetle in the Amphizoidae family. The length of its body is between 11 and 13.5 millimeters. Its metasternal process is depressed, with the lateral margin raised. It lives in the northeastern province of Jilin in China and in North Korea.",
+        "taxonPhotos": [
+          {
+            "mediumUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/480360825/medium.jpg",
+            "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/480360825/large.jpg",
+            "license": "cc-by-nc",
+            "attribution": "(c) 昆虫学liuye, some rights reserved (CC BY-NC), uploaded by 昆虫学liuye",
+            "attributionName": "昆虫学liuye"
+          },
+          {
+            "mediumUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/480360817/medium.jpg",
+            "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/480360817/large.jpg",
+            "license": "cc-by-nc",
+            "attribution": "(c) 昆虫学liuye, some rights reserved (CC BY-NC), uploaded by 昆虫学liuye",
+            "attributionName": "昆虫学liuye"
+          },
+          {
+            "mediumUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/480360816/medium.jpg",
+            "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/480360816/large.jpg",
+            "license": "cc-by-nc",
+            "attribution": "(c) 昆虫学liuye, some rights reserved (CC BY-NC), uploaded by 昆虫学liuye",
+            "attributionName": "昆虫学liuye"
+          },
+          {
+            "mediumUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/480360815/medium.jpg",
+            "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/480360815/large.jpg",
+            "license": "cc-by-nc",
+            "attribution": "(c) 昆虫学liuye, some rights reserved (CC BY-NC), uploaded by 昆虫学liuye",
+            "attributionName": "昆虫学liuye"
+          },
+          {
+            "mediumUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/480352090/medium.jpeg",
+            "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/480352090/large.jpeg",
+            "license": "cc-by-nc",
+            "attribution": "(c) 昆虫学liuye, some rights reserved (CC BY-NC), uploaded by 昆虫学liuye",
+            "attributionName": "昆虫学liuye"
+          }
+        ]
+      }
+    }
+  ],
+  "digitalContentUpdatedAt": "2026-05-21T08:43:44.098Z",
+  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+}

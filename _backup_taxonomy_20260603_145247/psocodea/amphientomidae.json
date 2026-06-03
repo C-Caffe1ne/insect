@@ -1,0 +1,76 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "psocodea",
+    "scientificName": "Psocodea",
+    "commonName": "다듬이벌레목",
+    "orderKtsn": 120000038214
+  },
+  "family": {
+    "id": "amphientomidae",
+    "scientificName": "Amphientomidae",
+    "commonName": "비늘다듬이벌레과",
+    "familyKtsn": 120000210536
+  },
+  "speciesCount": 1,
+  "insects": [
+    {
+      "ktsn": 120000210540,
+      "scientificName": "Ancylentomus macrourus (Li, 1997)",
+      "commonName": "비늘다듬이벌레",
+      "terminalLatinName": "macrourus",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Psocodea",
+          "commonName": "다듬이벌레목",
+          "ktsn": 120000038214
+        },
+        "family": {
+          "scientificName": "Amphientomidae",
+          "commonName": "비늘다듬이벌레과",
+          "ktsn": 120000210536
+        },
+        "genus": {
+          "scientificName": "Ancylentomus",
+          "commonName": "",
+          "ktsn": 120000210538
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "macrourus",
+          "commonName": "비늘다듬이벌레",
+          "ktsn": 120000210540
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:10:34.863Z"
+      }
+    }
+  ]
+}

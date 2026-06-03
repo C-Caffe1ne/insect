@@ -1,117 +1,89 @@
 {
-    "generatedAt":  "2026-05-21T07:47:08.025Z",
-    "source":  "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
-    "order":  {
-                  "id":  "orthoptera",
-                  "scientificName":  "Orthoptera",
-                  "commonName":  "메뚜기목",
-                  "orderKtsn":  120000037446,
-                  "abstract":  "메뚜기목(영어: Orthoptera)은 메뚜기, 여치, 귀뚜라미 등이 속하는 곤충의 분류이다. 직시류(直翅類)라고도 한다. 번데기의 과정이 없이 허물벗기로 성장하는 불완전변태를 한다. 주로 초식성인 것이 많으며, 뒷다리가 발달하여 뛰어오르는 능력이 좋은 것이 특징이다. 청각기나 발음기를 가진 종이 많으며, 수컷은 날개를 비비거나 날개에 뒷다리를 마찰하여 소리를 내기도 한다. 비행하는 경우 뒷날개를 펄럭이며 날아간다.",
-                  "description":  "메뚜기목(영어: Orthoptera)은 메뚜기, 여치, 귀뚜라미 등이 속하는 곤충의 분류이다. 직시류(直翅類)라고도 한다. 번데기의 과정이 없이 허물벗기로 성장하는 불완전변태를 한다. 주로 초식성인 것이 많으며, 뒷다리가 발달하여 뛰어오르는 능력이 좋은 것이 특징이다. 청각기나 발음기를 가진 종이 많으며, 수컷은 날개를 비비거나 날개에 뒷다리를 마찰하여 소리를 내기도 한다. 비행하는 경우 뒷날개를 펄럭이며 날아간다."
-              },
-    "family":  {
-                   "id":  "myrmecophilidae",
-                   "scientificName":  "Myrmecophilidae",
-                   "commonName":  "개미집귀뚜라미과",
-                   "familyKtsn":  120000202825
-               },
-    "speciesCount":  1,
-    "insects":  [
-                    {
-                        "ktsn":  120000212939,
-                        "scientificName":  "Myrmecophilus (Myrmecophilus) sapporensis Matsumura, 1904",
-                        "commonName":  "개미집귀뚜라미",
-                        "terminalLatinName":  "sapporensis",
-                        "nomenclaturalAuthor":  "Matsumura",
-                        "namingYear":  "1904",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Orthoptera",
-                                                       "commonName":  "메뚜기목",
-                                                       "ktsn":  120000037446
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Myrmecophilidae",
-                                                        "commonName":  "개미집귀뚜라미과",
-                                                        "ktsn":  120000202825
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Myrmecophilus",
-                                                       "commonName":  "개미집귀뚜라미속",
-                                                       "ktsn":  120000202826
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "Myrmecophilus",
-                                                          "commonName":  "",
-                                                          "ktsn":  120000212938
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "sapporensis",
-                                                         "commonName":  "개미집귀뚜라미",
-                                                         "ktsn":  120000212939
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  500344,
-                                    "canonical":  "Myrmecophilus sapporensis",
-                                    "fetchedAt":  "2026-05-24T18:36:02.370Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-                                                                   "개미집귀뚜라미"
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-                                                                   "アリツカコオロギ",
-                                                                   "アリヅカコオロギ"
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-                                                       "Japan"
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  9
-                                },
-                        "inat":  {
-                                     "observationCount":  3,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/545390422/medium.jpg",
-                                     "months":  [
-                                                    4,
-                                                    8
-                                                ]
-                                 }
-                    }
-                ]
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "orthoptera",
+    "scientificName": "Orthoptera",
+    "commonName": "메뚜기목",
+    "orderKtsn": 120000037446,
+    "abstract": "메뚜기목(영어: Orthoptera)은 메뚜기, 여치, 귀뚜라미 등이 속하는 곤충의 분류이다. 직시류(直翅類)라고도 한다. 번데기의 과정이 없이 허물벗기로 성장하는 불완전변태를 한다. 주로 초식성인 것이 많으며, 뒷다리가 발달하여 뛰어오르는 능력이 좋은 것이 특징이다. 청각기나 발음기를 가진 종이 많으며, 수컷은 날개를 비비거나 날개에 뒷다리를 마찰하여 소리를 내기도 한다. 비행하는 경우 뒷날개를 펄럭이며 날아간다.",
+    "description": "메뚜기목(영어: Orthoptera)은 메뚜기, 여치, 귀뚜라미 등이 속하는 곤충의 분류이다. 직시류(直翅類)라고도 한다. 번데기의 과정이 없이 허물벗기로 성장하는 불완전변태를 한다. 주로 초식성인 것이 많으며, 뒷다리가 발달하여 뛰어오르는 능력이 좋은 것이 특징이다. 청각기나 발음기를 가진 종이 많으며, 수컷은 날개를 비비거나 날개에 뒷다리를 마찰하여 소리를 내기도 한다. 비행하는 경우 뒷날개를 펄럭이며 날아간다."
+  },
+  "family": {
+    "id": "myrmecophilidae",
+    "scientificName": "Myrmecophilidae",
+    "commonName": "개미집귀뚜라미과",
+    "familyKtsn": 120000202825
+  },
+  "speciesCount": 1,
+  "insects": [
+    {
+      "ktsn": 120000212939,
+      "scientificName": "Myrmecophilus (Myrmecophilus) sapporensis Matsumura, 1904",
+      "commonName": "개미집귀뚜라미",
+      "terminalLatinName": "sapporensis",
+      "nomenclaturalAuthor": "Matsumura",
+      "namingYear": "1904",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "dispYn": "N",
+      "korUnqBispYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "genus": {
+          "scientificName": "Myrmecophilus",
+          "commonName": "개미집귀뚜라미속",
+          "ktsn": 120000202826
+        },
+        "subgenus": {
+          "scientificName": "Myrmecophilus",
+          "commonName": "",
+          "ktsn": 120000212938
+        },
+        "species": {
+          "scientificName": "sapporensis",
+          "commonName": "개미집귀뚜라미",
+          "ktsn": 120000212939
+        }
+      },
+      "eol": {
+        "pageId": 500344,
+        "canonical": "Myrmecophilus sapporensis",
+        "fetchedAt": "2026-05-24T18:36:02.370Z",
+        "vernaculars": {
+          "ko": [
+            "개미집귀뚜라미"
+          ],
+          "en": [],
+          "ja": [
+            "アリツカコオロギ",
+            "アリヅカコオロギ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "Japan"
+        ],
+        "introduced": [],
+        "gbifRecords": 9
+      },
+      "inat": {
+        "observationCount": 3,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/545390422/medium.jpg",
+        "months": [
+          4,
+          8
+        ]
+      }
+    }
+  ]
 }

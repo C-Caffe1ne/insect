@@ -1,0 +1,3917 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "diptera",
+    "scientificName": "Diptera",
+    "commonName": "파리목",
+    "orderKtsn": 120000020933,
+    "abstract": "파리목(Diptera)은 파리, 모기, 등에 등이 속해 있는 곤충의 한 분류이다. 수십 개의 과에 85,000여 종이 있다. 대한민국에서 발견하여 기록한 전체기록 종은 1,099종이다. 작거나 중간 크기의 곤충으로서, 형태와 습성이 매우 다양하다. 머리부에는 발달된 겹눈이 있으며, 입은 찌르는형·씹는형·핥는형 등이 있고, 다양한 촉각을 갖는다. 특히 앞날개가 발달하여 있으며, 맥은 적으나 나는 힘은 강하다. 뒷날개는 변형되어 평형을 유지하는 기관인 평형곤이 되었다. 날개가 퇴화된 것도 많다. 완전변태를 하며, 유충은 애벌래 형태를 띈다. 파리는 우리 주위에서 쉽게 볼 수 있지만, 바다에서 생활하는 종류도 있다. 모기·깔따구·등에·파리매·똥파리·초파리·집파리·쇠파리·쉬파리·각다귀 등이 이에 포함된다.",
+    "description": "파리목(Diptera)은 파리, 모기, 등에 등이 속해 있는 곤충의 한 분류이다. 수십 개의 과에 85,000여 종이 있다. 대한민국에서 발견하여 기록한 전체기록 종은 1,099종이다. 작거나 중간 크기의 곤충으로서, 형태와 습성이 매우 다양하다. 머리부에는 발달된 겹눈이 있으며, 입은 찌르는형·씹는형·핥는형 등이 있고, 다양한 촉각을 갖는다. 특히 앞날개가 발달하여 있으며, 맥은 적으나 나는 힘은 강하다. 뒷날개는 변형되어 평형을 유지하는 기관인 평형곤이 되었다. 날개가 퇴화된 것도 많다. 완전변태를 하며, 유충은 애벌래 형태를 띈다. 파리는 우리 주위에서 쉽게 볼 수 있지만, 바다에서 생활하는 종류도 있다. 모기·깔따구·등에·파리매·똥파리·초파리·집파리·쇠파리·쉬파리·각다귀 등이 이에 포함된다."
+  },
+  "family": {
+    "id": "tabanidae",
+    "scientificName": "Tabanidae",
+    "commonName": "등에과",
+    "familyKtsn": 120000023166
+  },
+  "speciesCount": 52,
+  "insects": [
+    {
+      "ktsn": 120000023168,
+      "scientificName": "Atylotus horvathi (Szilady, 1926)",
+      "commonName": "황등에붙이",
+      "terminalLatinName": "horvathi",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Tabanidae",
+          "commonName": "등에과",
+          "ktsn": 120000023166
+        },
+        "genus": {
+          "scientificName": "Atylotus",
+          "commonName": "",
+          "ktsn": 120000023167
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "horvathi",
+          "commonName": "황등에붙이",
+          "ktsn": 120000023168
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:19:14.541Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 815647,
+        "canonical": "Atylotus horvathi",
+        "fetchedAt": "2026-05-24T09:15:11.392Z",
+        "vernaculars": {
+          "ko": [
+            "황등에붙이"
+          ],
+          "en": [],
+          "ja": [
+            "ホルバートアブ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "South Korea",
+          "Poland"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 129
+      },
+      "inat": {
+        "observationCount": 13,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/22348481/medium.jpg",
+        "months": [
+          6,
+          7,
+          8
+        ]
+      }
+    },
+    {
+      "ktsn": 120000023169,
+      "scientificName": "Atylotus miser (Szilady, 1915)",
+      "commonName": "신태인황등에",
+      "terminalLatinName": "miser",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Tabanidae",
+          "commonName": "등에과",
+          "ktsn": 120000023166
+        },
+        "genus": {
+          "scientificName": "Atylotus",
+          "commonName": "",
+          "ktsn": 120000023167
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "miser",
+          "commonName": "신태인황등에",
+          "ktsn": 120000023169
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:19:14.541Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 815641,
+        "canonical": "Atylotus miser",
+        "fetchedAt": "2026-05-24T09:15:15.164Z",
+        "vernaculars": {
+          "ko": [
+            "신태인황등에"
+          ],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [
+          "Pakistan"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 32
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:05.752Z"
+      }
+    },
+    {
+      "ktsn": 120000023170,
+      "scientificName": "Atylotus pallitarsis (Olsufjev, 1936)",
+      "commonName": "황붙이등에",
+      "terminalLatinName": "pallitarsis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Tabanidae",
+          "commonName": "등에과",
+          "ktsn": 120000023166
+        },
+        "genus": {
+          "scientificName": "Atylotus",
+          "commonName": "",
+          "ktsn": 120000023167
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "pallitarsis",
+          "commonName": "황붙이등에",
+          "ktsn": 120000023170
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:19:14.541Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 815649,
+        "canonical": "Atylotus pallitarsis",
+        "fetchedAt": "2026-05-24T09:15:18.142Z",
+        "vernaculars": {
+          "ko": [
+            "황붙이등에"
+          ],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 16
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:06.426Z"
+      }
+    },
+    {
+      "ktsn": 120000023174,
+      "scientificName": "Chrysops (Chrysops) dissectus Loew, 1858",
+      "commonName": "얼룩대모등에",
+      "terminalLatinName": "dissectus",
+      "nomenclaturalAuthor": "Loew",
+      "namingYear": "1858",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Tabanidae",
+          "commonName": "등에과",
+          "ktsn": 120000023166
+        },
+        "genus": {
+          "scientificName": "Chrysops",
+          "commonName": "",
+          "ktsn": 120000023171
+        },
+        "subgenus": {
+          "scientificName": "Chrysops",
+          "commonName": "",
+          "ktsn": 120000023173
+        },
+        "species": {
+          "scientificName": "dissectus",
+          "commonName": "얼룩대모등에",
+          "ktsn": 120000023174
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:19:14.541Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 815752,
+        "canonical": "Chrysops dissectus",
+        "fetchedAt": "2026-05-24T09:15:21.205Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 12
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:06.426Z"
+      }
+    },
+    {
+      "ktsn": 120000023175,
+      "scientificName": "Chrysops (Chrysops) japonicus Wiedemann, 1828",
+      "commonName": "검정대모등에",
+      "terminalLatinName": "japonicus",
+      "nomenclaturalAuthor": "Wiedemann",
+      "namingYear": "1828",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Tabanidae",
+          "commonName": "등에과",
+          "ktsn": 120000023166
+        },
+        "genus": {
+          "scientificName": "Chrysops",
+          "commonName": "",
+          "ktsn": 120000023171
+        },
+        "subgenus": {
+          "scientificName": "Chrysops",
+          "commonName": "",
+          "ktsn": 120000023173
+        },
+        "species": {
+          "scientificName": "japonicus",
+          "commonName": "검정대모등에",
+          "ktsn": 120000023175
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:19:14.541Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 815724,
+        "canonical": "Chrysops japonicus",
+        "fetchedAt": "2026-05-24T09:15:24.692Z",
+        "vernaculars": {
+          "ko": [
+            "검정대모등에"
+          ],
+          "en": [],
+          "ja": [
+            "クロキンメアブ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "Japan"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 150
+      },
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/647750571/medium.jpg",
+        "months": [
+          4
+        ]
+      }
+    },
+    {
+      "ktsn": 120000023176,
+      "scientificName": "Chrysops (Chrysops) makerovi Pleske, 1910",
+      "commonName": "대모등에",
+      "terminalLatinName": "makerovi",
+      "nomenclaturalAuthor": "Pleske",
+      "namingYear": "1910",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Tabanidae",
+          "commonName": "등에과",
+          "ktsn": 120000023166
+        },
+        "genus": {
+          "scientificName": "Chrysops",
+          "commonName": "",
+          "ktsn": 120000023171
+        },
+        "subgenus": {
+          "scientificName": "Chrysops",
+          "commonName": "",
+          "ktsn": 120000023173
+        },
+        "species": {
+          "scientificName": "makerovi",
+          "commonName": "대모등에",
+          "ktsn": 120000023176
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:19:14.541Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 815696,
+        "canonical": "Chrysops makerovi",
+        "fetchedAt": "2026-05-24T09:15:28.732Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 17
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:06.426Z"
+      }
+    },
+    {
+      "ktsn": 120000228732,
+      "scientificName": "Chrysops (Chrysops) mlokosiewiczi Bigot, 1880",
+      "commonName": "집파리등에",
+      "terminalLatinName": "mlokosiewiczi",
+      "nomenclaturalAuthor": "Bigot",
+      "namingYear": "1880",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Tabanidae",
+          "commonName": "등에과",
+          "ktsn": 120000023166
+        },
+        "genus": {
+          "scientificName": "Chrysops",
+          "commonName": "",
+          "ktsn": 120000023171
+        },
+        "subgenus": {
+          "scientificName": "Chrysops",
+          "commonName": "",
+          "ktsn": 120000023173
+        },
+        "species": {
+          "scientificName": "mlokosiewiczi",
+          "commonName": "집파리등에",
+          "ktsn": 120000228732
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:19:14.541Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:06.426Z"
+      }
+    },
+    {
+      "ktsn": 120000023177,
+      "scientificName": "Chrysops (Chrysops) nigripes Zetterstedt, 1838",
+      "commonName": "검은혹등에",
+      "terminalLatinName": "nigripes",
+      "nomenclaturalAuthor": "Zetterstedt",
+      "namingYear": "1838",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Tabanidae",
+          "commonName": "등에과",
+          "ktsn": 120000023166
+        },
+        "genus": {
+          "scientificName": "Chrysops",
+          "commonName": "",
+          "ktsn": 120000023171
+        },
+        "subgenus": {
+          "scientificName": "Chrysops",
+          "commonName": "",
+          "ktsn": 120000023173
+        },
+        "species": {
+          "scientificName": "nigripes",
+          "commonName": "검은혹등에",
+          "ktsn": 120000023177
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:19:14.541Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 738484,
+        "canonical": "Chrysops nigripes",
+        "fetchedAt": "2026-05-24T09:15:33.083Z",
+        "vernaculars": {
+          "ko": [
+            "검은혹등에"
+          ],
+          "en": [],
+          "ja": [
+            "ヒメカラフトメクラアブ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "Alaska",
+          "United States",
+          "Sweden",
+          "Russia",
+          "Norway",
+          "Finland",
+          "Canada"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 1822
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:06.426Z"
+      }
+    },
+    {
+      "ktsn": 120000023178,
+      "scientificName": "Chrysops (Chrysops) suavis Loew, 1858",
+      "commonName": "대모등에붙이",
+      "terminalLatinName": "suavis",
+      "nomenclaturalAuthor": "Loew",
+      "namingYear": "1858",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Tabanidae",
+          "commonName": "등에과",
+          "ktsn": 120000023166
+        },
+        "genus": {
+          "scientificName": "Chrysops",
+          "commonName": "",
+          "ktsn": 120000023171
+        },
+        "subgenus": {
+          "scientificName": "Chrysops",
+          "commonName": "",
+          "ktsn": 120000023173
+        },
+        "species": {
+          "scientificName": "suavis",
+          "commonName": "대모등에붙이",
+          "ktsn": 120000023178
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:19:14.541Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 815663,
+        "canonical": "Chrysops suavis",
+        "fetchedAt": "2026-05-24T09:15:36.360Z",
+        "vernaculars": {
+          "ko": [
+            "대모등에붙이"
+          ],
+          "en": [],
+          "ja": [
+            "キンメアブ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 123
+      },
+      "inat": {
+        "observationCount": 2,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/70051698/medium.jpg",
+        "months": [
+          5,
+          7
+        ]
+      }
+    },
+    {
+      "ktsn": 120000023179,
+      "scientificName": "Chrysops (Chrysops) validus Loew, 1858",
+      "commonName": "북방대모등에",
+      "terminalLatinName": "validus",
+      "nomenclaturalAuthor": "Loew",
+      "namingYear": "1858",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Tabanidae",
+          "commonName": "등에과",
+          "ktsn": 120000023166
+        },
+        "genus": {
+          "scientificName": "Chrysops",
+          "commonName": "",
+          "ktsn": 120000023171
+        },
+        "subgenus": {
+          "scientificName": "Chrysops",
+          "commonName": "",
+          "ktsn": 120000023173
+        },
+        "species": {
+          "scientificName": "validus",
+          "commonName": "북방대모등에",
+          "ktsn": 120000023179
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:19:14.541Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": null,
+        "months": [
+          5
+        ]
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:06.426Z"
+      }
+    },
+    {
+      "ktsn": 120000023181,
+      "scientificName": "Haematopota antennata (Shiraki), 1932",
+      "commonName": "더듬이등에",
+      "terminalLatinName": "antennata",
+      "nomenclaturalAuthor": "(Shiraki)",
+      "namingYear": "1932",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Tabanidae",
+          "commonName": "등에과",
+          "ktsn": 120000023166
+        },
+        "genus": {
+          "scientificName": "Haematopota",
+          "commonName": "",
+          "ktsn": 120000023180
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "antennata",
+          "commonName": "더듬이등에",
+          "ktsn": 120000023181
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:19:14.541Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:06.426Z"
+      }
+    },
+    {
+      "ktsn": 120000023182,
+      "scientificName": "Haematopota koryoensis (Shiraki, 1932)",
+      "commonName": "광릉등에",
+      "terminalLatinName": "koryoensis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Tabanidae",
+          "commonName": "등에과",
+          "ktsn": 120000023166
+        },
+        "genus": {
+          "scientificName": "Haematopota",
+          "commonName": "",
+          "ktsn": 120000023180
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "koryoensis",
+          "commonName": "광릉등에",
+          "ktsn": 120000023182
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:19:14.541Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:06.426Z"
+      }
+    },
+    {
+      "ktsn": 120000023183,
+      "scientificName": "Haematopota pluvialis (Linnaeus, 1758)",
+      "commonName": "깨다시등에",
+      "terminalLatinName": "pluvialis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Tabanidae",
+          "commonName": "등에과",
+          "ktsn": 120000023166
+        },
+        "genus": {
+          "scientificName": "Haematopota",
+          "commonName": "",
+          "ktsn": 120000023180
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "pluvialis",
+          "commonName": "깨다시등에",
+          "ktsn": 120000023183
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:19:14.541Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/534349249/medium.jpg",
+        "months": [
+          7
+        ]
+      }
+    },
+    {
+      "ktsn": 120000023184,
+      "scientificName": "Haematopota sinensis Ricardo, 1911",
+      "commonName": "중국깨다시등에",
+      "terminalLatinName": "sinensis",
+      "nomenclaturalAuthor": "Ricardo",
+      "namingYear": "1911",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Tabanidae",
+          "commonName": "등에과",
+          "ktsn": 120000023166
+        },
+        "genus": {
+          "scientificName": "Haematopota",
+          "commonName": "",
+          "ktsn": 120000023180
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "sinensis",
+          "commonName": "중국깨다시등에",
+          "ktsn": 120000023184
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:19:14.541Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:06.426Z"
+      }
+    },
+    {
+      "ktsn": 120000023185,
+      "scientificName": "Haematopota tamerlani Szilady, 1923",
+      "commonName": "북방등에",
+      "terminalLatinName": "tamerlani",
+      "nomenclaturalAuthor": "Szilady",
+      "namingYear": "1923",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Tabanidae",
+          "commonName": "등에과",
+          "ktsn": 120000023166
+        },
+        "genus": {
+          "scientificName": "Haematopota",
+          "commonName": "",
+          "ktsn": 120000023180
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "tamerlani",
+          "commonName": "북방등에",
+          "ktsn": 120000023185
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:19:14.541Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:06.426Z"
+      }
+    },
+    {
+      "ktsn": 120000023187,
+      "scientificName": "Hybomitra adachii (Takagi, 1941)",
+      "commonName": "아다치등에",
+      "terminalLatinName": "adachii",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Tabanidae",
+          "commonName": "등에과",
+          "ktsn": 120000023166
+        },
+        "genus": {
+          "scientificName": "Hybomitra",
+          "commonName": "",
+          "ktsn": 120000023186
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "adachii",
+          "commonName": "아다치등에",
+          "ktsn": 120000023187
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:19:14.541Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:06.426Z"
+      }
+    },
+    {
+      "ktsn": 120000023188,
+      "scientificName": "Hybomitra astur (Erichson, 1851)",
+      "commonName": "별등에",
+      "terminalLatinName": "astur",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Tabanidae",
+          "commonName": "등에과",
+          "ktsn": 120000023166
+        },
+        "genus": {
+          "scientificName": "Hybomitra",
+          "commonName": "",
+          "ktsn": 120000023186
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "astur",
+          "commonName": "별등에",
+          "ktsn": 120000023188
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:19:14.541Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:06.426Z"
+      }
+    },
+    {
+      "ktsn": 120000023189,
+      "scientificName": "Hybomitra bimaculata (Macquart, 1826)",
+      "commonName": "북방땅딸보등에",
+      "terminalLatinName": "bimaculata",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Tabanidae",
+          "commonName": "등에과",
+          "ktsn": 120000023166
+        },
+        "genus": {
+          "scientificName": "Hybomitra",
+          "commonName": "",
+          "ktsn": 120000023186
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "bimaculata",
+          "commonName": "북방땅딸보등에",
+          "ktsn": 120000023189
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:19:14.541Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:06:06.426Z",
+        "title": "Hybomitra bimaculata",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Hybomitra_bimaculata%2C_Trawscoed%2C_North_Wales%2C_June_2007_%2817336585289%29.jpg/500px-Hybomitra_bimaculata%2C_Trawscoed%2C_North_Wales%2C_June_2007_%2817336585289%29.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Hybomitra_bimaculata%2C_Trawscoed%2C_North_Wales%2C_June_2007_%2817336585289%29.jpg",
+        "thumbnailSize": {
+          "width": 500,
+          "height": 713
+        },
+        "originalSize": {
+          "width": 632,
+          "height": 901
+        },
+        "filename": "Hybomitra_bimaculata,_Trawscoed,_North_Wales,_June_2007_(17336585289).jpg",
+        "description": "species of insect",
+        "pageUrl": "https://en.wikipedia.org/wiki/Hybomitra_bimaculata",
+        "license": "see Wikimedia Commons",
+        "source": "Wikipedia"
+      }
+    },
+    {
+      "ktsn": 120000023190,
+      "scientificName": "Hybomitra borealis (Fabricius, 1781)",
+      "commonName": "보레알등에",
+      "terminalLatinName": "borealis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Tabanidae",
+          "commonName": "등에과",
+          "ktsn": 120000023166
+        },
+        "genus": {
+          "scientificName": "Hybomitra",
+          "commonName": "",
+          "ktsn": 120000023186
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "borealis",
+          "commonName": "보레알등에",
+          "ktsn": 120000023190
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:19:14.541Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:06.426Z"
+      }
+    },
+    {
+      "ktsn": 120000023191,
+      "scientificName": "Hybomitra brevis (Loew, 1858)",
+      "commonName": "땅딸보등에",
+      "terminalLatinName": "brevis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Tabanidae",
+          "commonName": "등에과",
+          "ktsn": 120000023166
+        },
+        "genus": {
+          "scientificName": "Hybomitra",
+          "commonName": "",
+          "ktsn": 120000023186
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "brevis",
+          "commonName": "땅딸보등에",
+          "ktsn": 120000023191
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:19:14.541Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:06.426Z"
+      }
+    },
+    {
+      "ktsn": 120000023192,
+      "scientificName": "Hybomitra distinguenda (Verrall, 1909)",
+      "commonName": "옆노랑등에",
+      "terminalLatinName": "distinguenda",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Tabanidae",
+          "commonName": "등에과",
+          "ktsn": 120000023166
+        },
+        "genus": {
+          "scientificName": "Hybomitra",
+          "commonName": "",
+          "ktsn": 120000023186
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "distinguenda",
+          "commonName": "옆노랑등에",
+          "ktsn": 120000023192
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:19:14.541Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:06:06.426Z",
+        "title": "Hybomitra distinguenda",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Hybomitra_distinguenda%2C_Trawscoed%2C_North_Wales%2C_Aug_2013_%2817335114198%29.jpg/500px-Hybomitra_distinguenda%2C_Trawscoed%2C_North_Wales%2C_Aug_2013_%2817335114198%29.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Hybomitra_distinguenda%2C_Trawscoed%2C_North_Wales%2C_Aug_2013_%2817335114198%29.jpg",
+        "thumbnailSize": {
+          "width": 500,
+          "height": 354
+        },
+        "originalSize": {
+          "width": 1500,
+          "height": 1062
+        },
+        "filename": "Hybomitra_distinguenda,_Trawscoed,_North_Wales,_Aug_2013_(17335114198).jpg",
+        "description": "species of insect",
+        "pageUrl": "https://en.wikipedia.org/wiki/Hybomitra_distinguenda",
+        "license": "see Wikimedia Commons",
+        "source": "Wikipedia"
+      }
+    },
+    {
+      "ktsn": 120000023193,
+      "scientificName": "Hybomitra stigmoptera (Olsufjev, 1937)",
+      "commonName": "조선등에",
+      "terminalLatinName": "stigmoptera",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Tabanidae",
+          "commonName": "등에과",
+          "ktsn": 120000023166
+        },
+        "genus": {
+          "scientificName": "Hybomitra",
+          "commonName": "",
+          "ktsn": 120000023186
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "stigmoptera",
+          "commonName": "조선등에",
+          "ktsn": 120000023193
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:19:14.541Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:06.426Z"
+      }
+    },
+    {
+      "ktsn": 120000023194,
+      "scientificName": "Hybomitra tarandina (Linnaeus, 1758)",
+      "commonName": "사할린등에",
+      "terminalLatinName": "tarandina",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Tabanidae",
+          "commonName": "등에과",
+          "ktsn": 120000023166
+        },
+        "genus": {
+          "scientificName": "Hybomitra",
+          "commonName": "",
+          "ktsn": 120000023186
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "tarandina",
+          "commonName": "사할린등에",
+          "ktsn": 120000023194
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:19:14.541Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 2,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/512847652/medium.jpg",
+        "months": [
+          5,
+          7
+        ]
+      }
+    },
+    {
+      "ktsn": 120000225339,
+      "scientificName": "Silvius dorsalis Coquillett, 1898",
+      "commonName": "애기등에",
+      "terminalLatinName": "dorsalis",
+      "nomenclaturalAuthor": "Coquillett",
+      "namingYear": "1898",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Tabanidae",
+          "commonName": "등에과",
+          "ktsn": 120000023166
+        },
+        "genus": {
+          "scientificName": "Silvius",
+          "commonName": "",
+          "ktsn": 120000225338
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "dorsalis",
+          "commonName": "애기등에",
+          "ktsn": 120000225339
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:19:14.541Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:06.426Z"
+      }
+    },
+    {
+      "ktsn": 120000147903,
+      "scientificName": "Tabanus amaenus Walker, 1848",
+      "commonName": "수염등에",
+      "terminalLatinName": "amaenus",
+      "nomenclaturalAuthor": "Walker",
+      "namingYear": "1848",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Tabanidae",
+          "commonName": "등에과",
+          "ktsn": 120000023166
+        },
+        "genus": {
+          "scientificName": "Tabanus",
+          "commonName": "",
+          "ktsn": 120000147871
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "amaenus",
+          "commonName": "수염등에",
+          "ktsn": 120000147903
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:19:14.541Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:06.426Z"
+      }
+    },
+    {
+      "ktsn": 120000023197,
+      "scientificName": "Tabanus auriventralis Philip, 1960",
+      "commonName": "노랑배등에",
+      "terminalLatinName": "auriventralis",
+      "nomenclaturalAuthor": "Philip",
+      "namingYear": "1960",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "Y",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Tabanidae",
+          "commonName": "등에과",
+          "ktsn": 120000023166
+        },
+        "genus": {
+          "scientificName": "Tabanus",
+          "commonName": "",
+          "ktsn": 120000147871
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "auriventralis",
+          "commonName": "노랑배등에",
+          "ktsn": 120000023197
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:19:14.541Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:06.426Z"
+      }
+    },
+    {
+      "ktsn": 120000023198,
+      "scientificName": "Tabanus aurotestaceus Walker, 1854",
+      "commonName": "노랑줄등에",
+      "terminalLatinName": "aurotestaceus",
+      "nomenclaturalAuthor": "Walker",
+      "namingYear": "1854",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Tabanidae",
+          "commonName": "등에과",
+          "ktsn": 120000023166
+        },
+        "genus": {
+          "scientificName": "Tabanus",
+          "commonName": "",
+          "ktsn": 120000147871
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "aurotestaceus",
+          "commonName": "노랑줄등에",
+          "ktsn": 120000023198
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:19:14.541Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:06.426Z"
+      }
+    },
+    {
+      "ktsn": 120000023199,
+      "scientificName": "Tabanus budda Portschinsky, 1887",
+      "commonName": "부처등에",
+      "terminalLatinName": "budda",
+      "nomenclaturalAuthor": "Portschinsky",
+      "namingYear": "1887",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Tabanidae",
+          "commonName": "등에과",
+          "ktsn": 120000023166
+        },
+        "genus": {
+          "scientificName": "Tabanus",
+          "commonName": "",
+          "ktsn": 120000147871
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "budda",
+          "commonName": "부처등에",
+          "ktsn": 120000023199
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:19:14.541Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:06.426Z"
+      }
+    },
+    {
+      "ktsn": 120000023200,
+      "scientificName": "Tabanus chosenensis Murdoch and Takahasi, 1969",
+      "commonName": "우리등에",
+      "terminalLatinName": "chosenensis",
+      "nomenclaturalAuthor": "Murdoch and Takahasi",
+      "namingYear": "1969",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "Y",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Tabanidae",
+          "commonName": "등에과",
+          "ktsn": 120000023166
+        },
+        "genus": {
+          "scientificName": "Tabanus",
+          "commonName": "",
+          "ktsn": 120000147871
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "chosenensis",
+          "commonName": "우리등에",
+          "ktsn": 120000023200
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:19:14.541Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:06.426Z"
+      }
+    },
+    {
+      "ktsn": 120000023201,
+      "scientificName": "Tabanus chrysurus Loew, 1858",
+      "commonName": "왕소등에",
+      "terminalLatinName": "chrysurus",
+      "nomenclaturalAuthor": "Loew",
+      "namingYear": "1858",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Tabanidae",
+          "commonName": "등에과",
+          "ktsn": 120000023166
+        },
+        "genus": {
+          "scientificName": "Tabanus",
+          "commonName": "",
+          "ktsn": 120000147871
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "chrysurus",
+          "commonName": "왕소등에",
+          "ktsn": 120000023201
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:19:14.541Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 39,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/559210271/medium.jpg",
+        "months": [
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    },
+    {
+      "ktsn": 120000023202,
+      "scientificName": "Tabanus coreanus Shiraki, 1932",
+      "commonName": "고려등에",
+      "terminalLatinName": "coreanus",
+      "nomenclaturalAuthor": "Shiraki",
+      "namingYear": "1932",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "Y",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Tabanidae",
+          "commonName": "등에과",
+          "ktsn": 120000023166
+        },
+        "genus": {
+          "scientificName": "Tabanus",
+          "commonName": "",
+          "ktsn": 120000147871
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "coreanus",
+          "commonName": "고려등에",
+          "ktsn": 120000023202
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:19:14.541Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:06.426Z"
+      }
+    },
+    {
+      "ktsn": 120000023203,
+      "scientificName": "Tabanus divulsus Suh Choi and Kwon, 2003",
+      "commonName": "이마무늬등에",
+      "terminalLatinName": "divulsus",
+      "nomenclaturalAuthor": "Suh Choi and Kwon",
+      "namingYear": "2003",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "Y",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Tabanidae",
+          "commonName": "등에과",
+          "ktsn": 120000023166
+        },
+        "genus": {
+          "scientificName": "Tabanus",
+          "commonName": "",
+          "ktsn": 120000147871
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "divulsus",
+          "commonName": "이마무늬등에",
+          "ktsn": 120000023203
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:19:14.541Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:06.426Z"
+      }
+    },
+    {
+      "ktsn": 120000023204,
+      "scientificName": "Tabanus fulvimedioides Shiraki, 1918",
+      "commonName": "각시등에",
+      "terminalLatinName": "fulvimedioides",
+      "nomenclaturalAuthor": "Shiraki",
+      "namingYear": "1918",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Tabanidae",
+          "commonName": "등에과",
+          "ktsn": 120000023166
+        },
+        "genus": {
+          "scientificName": "Tabanus",
+          "commonName": "",
+          "ktsn": 120000147871
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "fulvimedioides",
+          "commonName": "각시등에",
+          "ktsn": 120000023204
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:19:14.541Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:07.051Z"
+      }
+    },
+    {
+      "ktsn": 120000023205,
+      "scientificName": "Tabanus galloisi Kono and Takahasi, 1939",
+      "commonName": "갈로이스등에",
+      "terminalLatinName": "galloisi",
+      "nomenclaturalAuthor": "Kono and Takahasi",
+      "namingYear": "1939",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "Y",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Tabanidae",
+          "commonName": "등에과",
+          "ktsn": 120000023166
+        },
+        "genus": {
+          "scientificName": "Tabanus",
+          "commonName": "",
+          "ktsn": 120000147871
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "galloisi",
+          "commonName": "갈로이스등에",
+          "ktsn": 120000023205
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:19:14.541Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 5,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/409163008/medium.png",
+        "months": [
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "ktsn": 120000023206,
+      "scientificName": "Tabanus griseinus Philip, 1960",
+      "commonName": "얼룩털등에",
+      "terminalLatinName": "griseinus",
+      "nomenclaturalAuthor": "Philip",
+      "namingYear": "1960",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Tabanidae",
+          "commonName": "등에과",
+          "ktsn": 120000023166
+        },
+        "genus": {
+          "scientificName": "Tabanus",
+          "commonName": "",
+          "ktsn": 120000147871
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "griseinus",
+          "commonName": "얼룩털등에",
+          "ktsn": 120000023206
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:19:14.541Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:07.051Z"
+      }
+    },
+    {
+      "ktsn": 120000023207,
+      "scientificName": "Tabanus haysi Philip, 1956",
+      "commonName": "서울등에",
+      "terminalLatinName": "haysi",
+      "nomenclaturalAuthor": "Philip",
+      "namingYear": "1956",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Tabanidae",
+          "commonName": "등에과",
+          "ktsn": 120000023166
+        },
+        "genus": {
+          "scientificName": "Tabanus",
+          "commonName": "",
+          "ktsn": 120000147871
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "haysi",
+          "commonName": "서울등에",
+          "ktsn": 120000023207
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:19:14.541Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:07.051Z"
+      }
+    },
+    {
+      "ktsn": 120000023208,
+      "scientificName": "Tabanus kinoshitai Kono and Takahasi, 1939",
+      "commonName": "여린황등에",
+      "terminalLatinName": "kinoshitai",
+      "nomenclaturalAuthor": "Kono and Takahasi",
+      "namingYear": "1939",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Tabanidae",
+          "commonName": "등에과",
+          "ktsn": 120000023166
+        },
+        "genus": {
+          "scientificName": "Tabanus",
+          "commonName": "",
+          "ktsn": 120000147871
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "kinoshitai",
+          "commonName": "여린황등에",
+          "ktsn": 120000023208
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:19:14.541Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:07.051Z"
+      }
+    },
+    {
+      "ktsn": 120000023209,
+      "scientificName": "Tabanus loukashkini Philip, 1956",
+      "commonName": "알락배등에",
+      "terminalLatinName": "loukashkini",
+      "nomenclaturalAuthor": "Philip",
+      "namingYear": "1956",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Tabanidae",
+          "commonName": "등에과",
+          "ktsn": 120000023166
+        },
+        "genus": {
+          "scientificName": "Tabanus",
+          "commonName": "",
+          "ktsn": 120000147871
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "loukashkini",
+          "commonName": "알락배등에",
+          "ktsn": 120000023209
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:19:14.541Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:07.051Z"
+      }
+    },
+    {
+      "ktsn": 120000023210,
+      "scientificName": "Tabanus mandarinus Schiner, 1868",
+      "commonName": "재등에",
+      "terminalLatinName": "mandarinus",
+      "nomenclaturalAuthor": "Schiner",
+      "namingYear": "1868",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Tabanidae",
+          "commonName": "등에과",
+          "ktsn": 120000023166
+        },
+        "genus": {
+          "scientificName": "Tabanus",
+          "commonName": "",
+          "ktsn": 120000147871
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "mandarinus",
+          "commonName": "재등에",
+          "ktsn": 120000023210
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:19:14.541Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 2,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/636347801/medium.jpg",
+        "months": [
+          6
+        ]
+      }
+    },
+    {
+      "ktsn": 120000023211,
+      "scientificName": "Tabanus miyajima Ricardo, 1911",
+      "commonName": "미야지등에",
+      "terminalLatinName": "miyajima",
+      "nomenclaturalAuthor": "Ricardo",
+      "namingYear": "1911",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Tabanidae",
+          "commonName": "등에과",
+          "ktsn": 120000023166
+        },
+        "genus": {
+          "scientificName": "Tabanus",
+          "commonName": "",
+          "ktsn": 120000147871
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "miyajima",
+          "commonName": "미야지등에",
+          "ktsn": 120000023211
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:19:14.541Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:07.051Z"
+      }
+    },
+    {
+      "ktsn": 120000023212,
+      "scientificName": "Tabanus murdochi Philip, 1961",
+      "commonName": "수원등에",
+      "terminalLatinName": "murdochi",
+      "nomenclaturalAuthor": "Philip",
+      "namingYear": "1961",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Tabanidae",
+          "commonName": "등에과",
+          "ktsn": 120000023166
+        },
+        "genus": {
+          "scientificName": "Tabanus",
+          "commonName": "",
+          "ktsn": 120000147871
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "murdochi",
+          "commonName": "수원등에",
+          "ktsn": 120000023212
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:19:14.541Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:07.051Z"
+      }
+    },
+    {
+      "ktsn": 120000147933,
+      "scientificName": "Tabanus nipponicus Murdoch and Takahasi, 1969",
+      "commonName": "일본등에",
+      "terminalLatinName": "nipponicus",
+      "nomenclaturalAuthor": "Murdoch and Takahasi",
+      "namingYear": "1969",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Tabanidae",
+          "commonName": "등에과",
+          "ktsn": 120000023166
+        },
+        "genus": {
+          "scientificName": "Tabanus",
+          "commonName": "",
+          "ktsn": 120000147871
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "nipponicus",
+          "commonName": "일본등에",
+          "ktsn": 120000147933
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:19:14.541Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:07.051Z"
+      }
+    },
+    {
+      "ktsn": 120000147937,
+      "scientificName": "Tabanus pleskei Krober, 1925",
+      "commonName": "동쪽등에",
+      "terminalLatinName": "pleskei",
+      "nomenclaturalAuthor": "Krober",
+      "namingYear": "1925",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Tabanidae",
+          "commonName": "등에과",
+          "ktsn": 120000023166
+        },
+        "genus": {
+          "scientificName": "Tabanus",
+          "commonName": "",
+          "ktsn": 120000147871
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "pleskei",
+          "commonName": "동쪽등에",
+          "ktsn": 120000147937
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:19:14.541Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:07.051Z"
+      }
+    },
+    {
+      "ktsn": 120000023215,
+      "scientificName": "Tabanus rufidens (Bigot, 1887)",
+      "commonName": "등황등에",
+      "terminalLatinName": "rufidens",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Tabanidae",
+          "commonName": "등에과",
+          "ktsn": 120000023166
+        },
+        "genus": {
+          "scientificName": "Tabanus",
+          "commonName": "",
+          "ktsn": 120000147871
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "rufidens",
+          "commonName": "등황등에",
+          "ktsn": 120000023215
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:19:14.541Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/305322177/medium.jpg",
+        "months": [
+          7
+        ]
+      }
+    },
+    {
+      "ktsn": 120000023216,
+      "scientificName": "Tabanus sapporoensis Shiraki, 1918",
+      "commonName": "삿포로등에",
+      "terminalLatinName": "sapporoensis",
+      "nomenclaturalAuthor": "Shiraki",
+      "namingYear": "1918",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Tabanidae",
+          "commonName": "등에과",
+          "ktsn": 120000023166
+        },
+        "genus": {
+          "scientificName": "Tabanus",
+          "commonName": "",
+          "ktsn": 120000147871
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "sapporoensis",
+          "commonName": "삿포로등에",
+          "ktsn": 120000023216
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:19:14.541Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/308375207/medium.jpeg",
+        "months": [
+          7
+        ]
+      }
+    },
+    {
+      "ktsn": 120000023217,
+      "scientificName": "Tabanus signatipennis Portschinsky, 1887",
+      "commonName": "멋쟁이등에",
+      "terminalLatinName": "signatipennis",
+      "nomenclaturalAuthor": "Portschinsky",
+      "namingYear": "1887",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Tabanidae",
+          "commonName": "등에과",
+          "ktsn": 120000023166
+        },
+        "genus": {
+          "scientificName": "Tabanus",
+          "commonName": "",
+          "ktsn": 120000147871
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "signatipennis",
+          "commonName": "멋쟁이등에",
+          "ktsn": 120000023217
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:19:14.541Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:07.051Z"
+      }
+    },
+    {
+      "ktsn": 120000023218,
+      "scientificName": "Tabanus taiwanus Hayakawa and Takahasi, 1983",
+      "commonName": "대만재등에",
+      "terminalLatinName": "taiwanus",
+      "nomenclaturalAuthor": "Hayakawa and Takahasi",
+      "namingYear": "1983",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Tabanidae",
+          "commonName": "등에과",
+          "ktsn": 120000023166
+        },
+        "genus": {
+          "scientificName": "Tabanus",
+          "commonName": "",
+          "ktsn": 120000147871
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "taiwanus",
+          "commonName": "대만재등에",
+          "ktsn": 120000023218
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:19:14.541Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:07.051Z"
+      }
+    },
+    {
+      "ktsn": 120000147945,
+      "scientificName": "Tabanus toshiokai Murdoch and Takahasi, 1969",
+      "commonName": "애기줄등에",
+      "terminalLatinName": "toshiokai",
+      "nomenclaturalAuthor": "Murdoch and Takahasi",
+      "namingYear": "1969",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Tabanidae",
+          "commonName": "등에과",
+          "ktsn": 120000023166
+        },
+        "genus": {
+          "scientificName": "Tabanus",
+          "commonName": "",
+          "ktsn": 120000147871
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "toshiokai",
+          "commonName": "애기줄등에",
+          "ktsn": 120000147945
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:19:14.541Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:07.051Z"
+      }
+    },
+    {
+      "ktsn": 120000023220,
+      "scientificName": "Tabanus trigonus Coquillett, 1898",
+      "commonName": "소등에",
+      "terminalLatinName": "trigonus",
+      "nomenclaturalAuthor": "Coquillett",
+      "namingYear": "1898",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Tabanidae",
+          "commonName": "등에과",
+          "ktsn": 120000023166
+        },
+        "genus": {
+          "scientificName": "Tabanus",
+          "commonName": "",
+          "ktsn": 120000147871
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "trigonus",
+          "commonName": "소등에",
+          "ktsn": 120000023220
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:19:14.541Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/526106933/medium.jpg",
+        "months": [
+          6
+        ]
+      }
+    },
+    {
+      "ktsn": 120000023221,
+      "scientificName": "Tabanus vibex Suh, Choi and Kwon, 2002",
+      "commonName": "줄등에",
+      "terminalLatinName": "vibex",
+      "nomenclaturalAuthor": "Suh, Choi and Kwon",
+      "namingYear": "2002",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "Y",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Tabanidae",
+          "commonName": "등에과",
+          "ktsn": 120000023166
+        },
+        "genus": {
+          "scientificName": "Tabanus",
+          "commonName": "",
+          "ktsn": 120000147871
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "vibex",
+          "commonName": "줄등에",
+          "ktsn": 120000023221
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:19:14.541Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:07.051Z"
+      }
+    },
+    {
+      "ktsn": 120000023222,
+      "scientificName": "Tabanus yao Macquart, 1855",
+      "commonName": "야오등에",
+      "terminalLatinName": "yao",
+      "nomenclaturalAuthor": "Macquart",
+      "namingYear": "1855",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Tabanidae",
+          "commonName": "등에과",
+          "ktsn": 120000023166
+        },
+        "genus": {
+          "scientificName": "Tabanus",
+          "commonName": "",
+          "ktsn": 120000147871
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "yao",
+          "commonName": "야오등에",
+          "ktsn": 120000023222
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:19:14.541Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:07.051Z"
+      }
+    },
+    {
+      "ktsn": 120000023224,
+      "scientificName": "Thaumastocera haitiensis (Stone, 1935)",
+      "commonName": "맵시대모등에",
+      "terminalLatinName": "haitiensis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Tabanidae",
+          "commonName": "등에과",
+          "ktsn": 120000023166
+        },
+        "genus": {
+          "scientificName": "Thaumastocera",
+          "commonName": "",
+          "ktsn": 120000023223
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "haitiensis",
+          "commonName": "맵시대모등에",
+          "ktsn": 120000023224
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:19:14.541Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:07.051Z"
+      }
+    }
+  ],
+  "digitalContentUpdatedAt": "2026-05-21T09:19:14.541Z",
+  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+}

@@ -1,189 +1,139 @@
 {
-    "generatedAt":  "2026-05-21T07:47:08.025Z",
-    "source":  "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
-    "order":  {
-                  "id":  "odonata",
-                  "scientificName":  "Odonata",
-                  "commonName":  "잠자리목",
-                  "orderKtsn":  120000037253
-              },
-    "family":  {
-                   "id":  "chlorogomphidae",
-                   "scientificName":  "Chlorogomphidae",
-                   "commonName":  "독수리잠자리과",
-                   "familyKtsn":  120000037285
-               },
-    "speciesCount":  1,
-    "insects":  [
-                    {
-                        "ktsn":  120000037287,
-                        "scientificName":  "Chlorogomphus brunneus Oguma, 1926",
-                        "commonName":  "독수리잠자리",
-                        "terminalLatinName":  "brunneus",
-                        "nomenclaturalAuthor":  "Oguma",
-                        "namingYear":  "1926",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Odonata",
-                                                       "commonName":  "잠자리목",
-                                                       "ktsn":  120000037253
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Chlorogomphidae",
-                                                        "commonName":  "독수리잠자리과",
-                                                        "ktsn":  120000037285
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Chlorogomphus",
-                                                       "commonName":  "독수리잠자리속",
-                                                       "ktsn":  120000037286
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "brunneus",
-                                                         "commonName":  "독수리잠자리",
-                                                         "ktsn":  120000037287
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  4140236,
-                                    "canonical":  "Chlorogomphus brunneus",
-                                    "fetchedAt":  "2026-05-24T17:11:24.730Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-                                                                   "독수리잠자리"
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-                                                                   "カラスヤンマ"
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-                                                       "Japan"
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  469
-                                },
-                        "gbif":  {
-                                     "usageKey":  1421252,
-                                     "matchType":  "EXACT",
-                                     "confidence":  100,
-                                     "scientificName":  "Chlorogomphus brunneus Oguma, 1926",
-                                     "canonicalName":  "Chlorogomphus brunneus",
-                                     "authorship":  "Oguma, 1926",
-                                     "basionym":  null,
-                                     "publishedIn":  null,
-                                     "rank":  "SPECIES",
-                                     "taxonomicStatus":  "ACCEPTED",
-                                     "vernacularName":  null,
-                                     "numDescendants":  0,
-                                     "taxonomy":  {
-                                                      "kingdom":  "Animalia",
-                                                      "phylum":  "Arthropoda",
-                                                      "class":  "Insecta",
-                                                      "order":  "Odonata",
-                                                      "family":  "Chlorogomphidae",
-                                                      "genus":  "Chlorogomphus",
-                                                      "species":  "Chlorogomphus brunneus"
-                                                  },
-                                     "vernaculars":  {
-                                                         "ko":  [
-                                                                    "독수리잠자리"
-                                                                ],
-                                                         "en":  [
-
-                                                                ],
-                                                         "ja":  [
-                                                                    "カラスヤンマ"
-                                                                ],
-                                                         "byLang":  {
-                                                                        "jpn":  [
-                                                                                    "カラスヤンマ"
-                                                                                ],
-                                                                        "kor":  [
-                                                                                    "독수리잠자리"
-                                                                                ]
-                                                                    }
-                                                     },
-                                     "distributions":  {
-                                                           "native":  [
-
-                                                                      ],
-                                                           "introduced":  [
-
-                                                                          ],
-                                                           "other":  [
-
-                                                                     ],
-                                                           "korea":  [
-
-                                                                     ]
-                                                       },
-                                     "media":  [
-
-                                               ],
-                                     "counts":  {
-                                                    "vernacularsRaw":  2,
-                                                    "distributionsRaw":  0,
-                                                    "mediaRaw":  0,
-                                                    "descriptionsRaw":  0
-                                                },
-                                     "descriptions":  {
-                                                          "byType":  {
-
-                                                                     },
-                                                          "all":  [
-
-                                                                  ]
-                                                      }
-                                 },
-                        "gbifFetchedAt":  "2026-05-28T05:24:32.874Z",
-                        "gbifSchemaVersion":  2,
-                        "inat":  {
-                                     "observationCount":  2,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/83864159/medium.jpg",
-                                     "months":  [
-                                                    5,
-                                                    7
-                                                ]
-                                 }
-                    }
-                ]
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "odonata",
+    "scientificName": "Odonata",
+    "commonName": "잠자리목",
+    "orderKtsn": 120000037253
+  },
+  "family": {
+    "id": "chlorogomphidae",
+    "scientificName": "Chlorogomphidae",
+    "commonName": "독수리잠자리과",
+    "familyKtsn": 120000037285
+  },
+  "speciesCount": 1,
+  "insects": [
+    {
+      "ktsn": 120000037287,
+      "scientificName": "Chlorogomphus brunneus Oguma, 1926",
+      "commonName": "독수리잠자리",
+      "terminalLatinName": "brunneus",
+      "nomenclaturalAuthor": "Oguma",
+      "namingYear": "1926",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "dispYn": "N",
+      "korUnqBispYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "genus": {
+          "scientificName": "Chlorogomphus",
+          "commonName": "독수리잠자리속",
+          "ktsn": 120000037286
+        },
+        "species": {
+          "scientificName": "brunneus",
+          "commonName": "독수리잠자리",
+          "ktsn": 120000037287
+        }
+      },
+      "eol": {
+        "pageId": 4140236,
+        "canonical": "Chlorogomphus brunneus",
+        "fetchedAt": "2026-05-24T17:11:24.730Z",
+        "vernaculars": {
+          "ko": [
+            "독수리잠자리"
+          ],
+          "en": [],
+          "ja": [
+            "カラスヤンマ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "Japan"
+        ],
+        "introduced": [],
+        "gbifRecords": 469
+      },
+      "gbif": {
+        "usageKey": 1421252,
+        "matchType": "EXACT",
+        "confidence": 100,
+        "scientificName": "Chlorogomphus brunneus Oguma, 1926",
+        "canonicalName": "Chlorogomphus brunneus",
+        "authorship": "Oguma, 1926",
+        "basionym": null,
+        "publishedIn": null,
+        "rank": "SPECIES",
+        "taxonomicStatus": "ACCEPTED",
+        "numDescendants": 0,
+        "taxonomy": {
+          "kingdom": "Animalia",
+          "phylum": "Arthropoda",
+          "class": "Insecta",
+          "order": "Odonata",
+          "family": "Chlorogomphidae",
+          "genus": "Chlorogomphus",
+          "species": "Chlorogomphus brunneus"
+        },
+        "vernaculars": {
+          "ko": [
+            "독수리잠자리"
+          ],
+          "en": [],
+          "ja": [
+            "カラスヤンマ"
+          ],
+          "byLang": {
+            "jpn": [
+              "カラスヤンマ"
+            ],
+            "kor": [
+              "독수리잠자리"
+            ]
+          }
+        },
+        "distributions": {
+          "native": [],
+          "introduced": [],
+          "other": [],
+          "korea": []
+        },
+        "media": [],
+        "counts": {
+          "vernacularsRaw": 2,
+          "distributionsRaw": 0,
+          "mediaRaw": 0,
+          "descriptionsRaw": 0
+        },
+        "descriptions": {
+          "byType": {},
+          "all": []
+        }
+      },
+      "gbifFetchedAt": "2026-05-28T05:24:32.874Z",
+      "gbifSchemaVersion": 2,
+      "inat": {
+        "observationCount": 2,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/83864159/medium.jpg",
+        "months": [
+          5,
+          7
+        ]
+      }
+    }
+  ]
 }

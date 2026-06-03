@@ -1,0 +1,76 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "hemiptera",
+    "scientificName": "Hemiptera",
+    "commonName": "노린재목",
+    "orderKtsn": 120000066597
+  },
+  "family": {
+    "id": "schizopteridae",
+    "scientificName": "Schizopteridae",
+    "commonName": "개울노린재과",
+    "familyKtsn": 120000027118
+  },
+  "speciesCount": 1,
+  "insects": [
+    {
+      "ktsn": 120000027120,
+      "scientificName": "Hypselosoma matsumurae Horváth, 1905",
+      "commonName": "꼬마개울노린재",
+      "terminalLatinName": "matsumurae",
+      "nomenclaturalAuthor": "Horváth",
+      "namingYear": "1905",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Schizopteridae",
+          "commonName": "개울노린재과",
+          "ktsn": 120000027118
+        },
+        "genus": {
+          "scientificName": "Hypselosoma",
+          "commonName": "꼬마개울노린재속",
+          "ktsn": 120000027119
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "matsumurae",
+          "commonName": "꼬마개울노린재",
+          "ktsn": 120000027120
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:07:10.917Z"
+      }
+    }
+  ]
+}

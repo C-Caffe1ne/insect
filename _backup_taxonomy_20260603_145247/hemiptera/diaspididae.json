@@ -1,0 +1,5948 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "hemiptera",
+    "scientificName": "Hemiptera",
+    "commonName": "노린재목",
+    "orderKtsn": 120000066597
+  },
+  "family": {
+    "id": "diaspididae",
+    "scientificName": "Diaspididae",
+    "commonName": "깍지벌레과",
+    "familyKtsn": 120000025824
+  },
+  "speciesCount": 80,
+  "insects": [
+    {
+      "ktsn": 120000025829,
+      "scientificName": "Aonidiella citrina (Coquillett, 1891)",
+      "commonName": "귤노랑깍지벌레",
+      "terminalLatinName": "citrina",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Aonidiella",
+          "commonName": "귤노랑깍지벌레속",
+          "ktsn": 120000025828
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "citrina",
+          "commonName": "귤노랑깍지벌레",
+          "ktsn": 120000025829
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 836296,
+        "canonical": "Aonidiella citrina",
+        "fetchedAt": "2026-05-24T10:04:47.993Z",
+        "vernaculars": {
+          "ko": [
+            "귤노랑깍지벌레"
+          ],
+          "en": [
+            "Yellow Scale",
+            "Yellow scale"
+          ],
+          "ja": []
+        },
+        "habitat": [
+          "valley"
+        ],
+        "geographic": [
+          "United States"
+        ],
+        "introduced": [
+          "The Contiguous United States",
+          "Japan"
+        ],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 232
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:06:52.571Z",
+        "title": "Aonidiella citrina",
+        "description": "species of insect"
+      }
+    },
+    {
+      "ktsn": 120000025830,
+      "scientificName": "Aonidiella taxus Leonardi, 1906",
+      "commonName": "나한송깍지벌레",
+      "terminalLatinName": "taxus",
+      "nomenclaturalAuthor": "Leonardi",
+      "namingYear": "1906",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Aonidiella",
+          "commonName": "귤노랑깍지벌레속",
+          "ktsn": 120000025828
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "taxus",
+          "commonName": "나한송깍지벌레",
+          "ktsn": 120000025830
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 836232,
+        "canonical": "Aonidiella taxus",
+        "fetchedAt": "2026-05-24T10:04:51.064Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [
+            "Asiatic Red Scale",
+            "Armored scale"
+          ],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [
+          "The Contiguous United States"
+        ],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 13
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:52.571Z"
+      }
+    },
+    {
+      "ktsn": 120000025832,
+      "scientificName": "Aspidiella phragmitis ",
+      "commonName": "잔디깍지벌레",
+      "terminalLatinName": "phragmitis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Aspidiella",
+          "commonName": "잔디깍지벌레속",
+          "ktsn": 120000025831
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "phragmitis",
+          "commonName": "잔디깍지벌레",
+          "ktsn": 120000025832
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 836195,
+        "canonical": "Aspidiella phragmitis",
+        "fetchedAt": "2026-05-24T10:04:54.211Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 1
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:52.571Z"
+      }
+    },
+    {
+      "ktsn": 120000025834,
+      "scientificName": "Aspidiotus cryptomeriae Kuwana, 1902",
+      "commonName": "삼나무깍지벌레",
+      "terminalLatinName": "cryptomeriae",
+      "nomenclaturalAuthor": "Kuwana",
+      "namingYear": "1902",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Aspidiotus",
+          "commonName": "삼나무깍지벌레속",
+          "ktsn": 120000111070
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "cryptomeriae",
+          "commonName": "삼나무깍지벌레",
+          "ktsn": 120000025834
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 836182,
+        "canonical": "Aspidiotus cryptomeriae",
+        "fetchedAt": "2026-05-24T10:04:57.593Z",
+        "vernaculars": {
+          "ko": [
+            "삼나무깍지벌레"
+          ],
+          "en": [
+            "Cryptomeria Scale",
+            "Cryptomeria scale"
+          ],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [
+          "The Contiguous United States"
+        ],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 16
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:52.571Z"
+      }
+    },
+    {
+      "ktsn": 120000025835,
+      "scientificName": "Aspidiotus destructor Signoret, 1869",
+      "commonName": "유리깍지벌레",
+      "terminalLatinName": "destructor",
+      "nomenclaturalAuthor": "Signoret",
+      "namingYear": "1869",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Aspidiotus",
+          "commonName": "삼나무깍지벌레속",
+          "ktsn": 120000111070
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "destructor",
+          "commonName": "유리깍지벌레",
+          "ktsn": 120000025835
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 836178,
+        "canonical": "Aspidiotus destructor",
+        "fetchedAt": "2026-05-24T10:05:02.491Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [
+            "coconut scale",
+            "Bourbon Scale",
+            "Armored scale",
+            "Coconut scale"
+          ],
+          "ja": []
+        },
+        "habitat": [
+          "tropical",
+          "subtropical"
+        ],
+        "geographic": [
+          "cosmopolitan",
+          "Mozambique",
+          "North Pacific"
+        ],
+        "introduced": [
+          "The Contiguous United States",
+          "The Hawaiian Islands",
+          "Dominica",
+          "GaláPagos Islands"
+        ],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 57
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:06:52.571Z",
+        "title": "Aspidiotus destructor",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Aspidiotus_destructor_from_CSIRO.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Aspidiotus_destructor_from_CSIRO.jpg",
+        "thumbnailSize": {
+          "width": 300,
+          "height": 317
+        },
+        "originalSize": {
+          "width": 300,
+          "height": 317
+        },
+        "filename": "Aspidiotus_destructor_from_CSIRO.jpg",
+        "description": "species of insect",
+        "pageUrl": "https://en.wikipedia.org/wiki/Aspidiotus_destructor",
+        "license": "see Wikimedia Commons",
+        "source": "Wikipedia"
+      }
+    },
+    {
+      "ktsn": 120000111109,
+      "scientificName": "Aspidiotus nerii (Bouché, 1833)",
+      "commonName": "흰유리깍지벌레",
+      "terminalLatinName": "nerii",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Aspidiotus",
+          "commonName": "삼나무깍지벌레속",
+          "ktsn": 120000111070
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "nerii",
+          "commonName": "흰유리깍지벌레",
+          "ktsn": 120000111109
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:06:52.571Z",
+        "title": "Aspidiotus nerii",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Aspidiotus_nerii_from_CSIRO.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Aspidiotus_nerii_from_CSIRO.jpg",
+        "thumbnailSize": {
+          "width": 300,
+          "height": 350
+        },
+        "originalSize": {
+          "width": 300,
+          "height": 350
+        },
+        "filename": "Aspidiotus_nerii_from_CSIRO.jpg",
+        "description": "species of insect",
+        "pageUrl": "https://en.wikipedia.org/wiki/Aspidiotus_nerii",
+        "license": "see Wikimedia Commons",
+        "source": "Wikipedia"
+      }
+    },
+    {
+      "ktsn": 120000025837,
+      "scientificName": "Aspidiotus ophiopogonus Kuwana and Muramatsu, 1932",
+      "commonName": "김의털깍지벌레",
+      "terminalLatinName": "ophiopogonus",
+      "nomenclaturalAuthor": "Kuwana and Muramatsu",
+      "namingYear": "1932",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Aspidiotus",
+          "commonName": "삼나무깍지벌레속",
+          "ktsn": 120000111070
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "ophiopogonus",
+          "commonName": "김의털깍지벌레",
+          "ktsn": 120000025837
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 836138,
+        "canonical": "Aspidiotus ophiopogonus",
+        "fetchedAt": "2026-05-24T10:05:06.272Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:52.571Z"
+      }
+    },
+    {
+      "ktsn": 120000506779,
+      "scientificName": "Aulacaspis difficilis (Cockerell, 1896)",
+      "commonName": "보리수흰깍지벌레",
+      "terminalLatinName": "difficilis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Aulacaspis",
+          "commonName": "흰깍지벌레속",
+          "ktsn": 120000025838
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "difficilis",
+          "commonName": "보리수흰깍지벌레",
+          "ktsn": 120000506779
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:52.571Z"
+      }
+    },
+    {
+      "ktsn": 120000506778,
+      "scientificName": "Aulacaspis latissima (Cockerell, 1897)",
+      "commonName": "조록나무흰깍지벌레",
+      "terminalLatinName": "latissima",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Aulacaspis",
+          "commonName": "흰깍지벌레속",
+          "ktsn": 120000025838
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "latissima",
+          "commonName": "조록나무흰깍지벌레",
+          "ktsn": 120000506778
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:52.571Z"
+      }
+    },
+    {
+      "ktsn": 120000025840,
+      "scientificName": "Aulacaspis rosae (Bouché, 1833)",
+      "commonName": "장미흰깍지벌레",
+      "terminalLatinName": "rosae",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Aulacaspis",
+          "commonName": "흰깍지벌레속",
+          "ktsn": 120000025838
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "rosae",
+          "commonName": "장미흰깍지벌레",
+          "ktsn": 120000025840
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 836026,
+        "canonical": "Aulacaspis rosae",
+        "fetchedAt": "2026-05-24T10:05:10.123Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [
+            "Rose Scale",
+            "Scurfy Scale",
+            "Rose scale",
+            "Rose scale"
+          ],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [
+          "cosmopolitan",
+          "United States",
+          "North Pacific"
+        ],
+        "introduced": [
+          "The Contiguous United States",
+          "The Hawaiian Islands"
+        ],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:52.571Z"
+      }
+    },
+    {
+      "ktsn": 120000025841,
+      "scientificName": "Aulacaspis rosarum Borchsenius, 1958",
+      "commonName": "각진장미흰깍지벌레",
+      "terminalLatinName": "rosarum",
+      "nomenclaturalAuthor": "Borchsenius",
+      "namingYear": "1958",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Aulacaspis",
+          "commonName": "흰깍지벌레속",
+          "ktsn": 120000025838
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "rosarum",
+          "commonName": "각진장미흰깍지벌레",
+          "ktsn": 120000025841
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 836024,
+        "canonical": "Aulacaspis rosarum",
+        "fetchedAt": "2026-05-24T10:05:13.262Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [
+            "Asiatic Rose Scale",
+            "Asian Rose Scale",
+            "Armoured scale"
+          ],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [
+          "Asia",
+          "North America",
+          "australasia",
+          "New Caledonia",
+          "Pacific Ocean"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 64
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:52.571Z"
+      }
+    },
+    {
+      "ktsn": 120000025842,
+      "scientificName": "Aulacaspis spinosa (Maskell, 1897)",
+      "commonName": "청미레덩굴흰깍지벌레",
+      "terminalLatinName": "spinosa",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Aulacaspis",
+          "commonName": "흰깍지벌레속",
+          "ktsn": 120000025838
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "spinosa",
+          "commonName": "청미레덩굴흰깍지벌레",
+          "ktsn": 120000025842
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:53.206Z"
+      }
+    },
+    {
+      "ktsn": 120000025843,
+      "scientificName": "Aulacaspis yabunikkei Kuwana, 1926",
+      "commonName": "참식나무흰깍지벌레",
+      "terminalLatinName": "yabunikkei",
+      "nomenclaturalAuthor": "Kuwana",
+      "namingYear": "1926",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Aulacaspis",
+          "commonName": "흰깍지벌레속",
+          "ktsn": 120000025838
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "yabunikkei",
+          "commonName": "참식나무흰깍지벌레",
+          "ktsn": 120000025843
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:53.206Z"
+      }
+    },
+    {
+      "ktsn": 120000025845,
+      "scientificName": "Chionaspis alnus Kuwana, 1928",
+      "commonName": "오리나무깍지벌레",
+      "terminalLatinName": "alnus",
+      "nomenclaturalAuthor": "Kuwana",
+      "namingYear": "1928",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Chionaspis",
+          "commonName": "오리나무깍지벌레속",
+          "ktsn": 120000025844
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "alnus",
+          "commonName": "오리나무깍지벌레",
+          "ktsn": 120000025845
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:53.206Z"
+      }
+    },
+    {
+      "ktsn": 120000025846,
+      "scientificName": "Chionaspis saitamaensis Kuwana, 1928",
+      "commonName": "동쪽흰깍지벌레",
+      "terminalLatinName": "saitamaensis",
+      "nomenclaturalAuthor": "Kuwana",
+      "namingYear": "1928",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Chionaspis",
+          "commonName": "오리나무깍지벌레속",
+          "ktsn": 120000025844
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "saitamaensis",
+          "commonName": "동쪽흰깍지벌레",
+          "ktsn": 120000025846
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:53.206Z"
+      }
+    },
+    {
+      "ktsn": 120000025847,
+      "scientificName": "Chionaspis salicis (Linnaeus, 1758)",
+      "commonName": "버들흰깍지벌레",
+      "terminalLatinName": "salicis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Chionaspis",
+          "commonName": "오리나무깍지벌레속",
+          "ktsn": 120000025844
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "salicis",
+          "commonName": "버들흰깍지벌레",
+          "ktsn": 120000025847
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:53.206Z"
+      }
+    },
+    {
+      "ktsn": 120000111114,
+      "scientificName": "Chrysomphalus aonidum (Linnaeus, 1758)",
+      "commonName": "온실갈색깍지벌레",
+      "terminalLatinName": "aonidum",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Chrysomphalus",
+          "commonName": "갈색깍지벌레속",
+          "ktsn": 120000111080
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "aonidum",
+          "commonName": "온실갈색깍지벌레",
+          "ktsn": 120000111114
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:06:53.206Z",
+        "title": "Chrysomphalus aonidum",
+        "description": "species of insect"
+      }
+    },
+    {
+      "ktsn": 120000025850,
+      "scientificName": "Chrysomphalus bifasciculatus Ferris, 1938",
+      "commonName": "갈색깍지벌레",
+      "terminalLatinName": "bifasciculatus",
+      "nomenclaturalAuthor": "Ferris",
+      "namingYear": "1938",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Chrysomphalus",
+          "commonName": "갈색깍지벌레속",
+          "ktsn": 120000111080
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "bifasciculatus",
+          "commonName": "갈색깍지벌레",
+          "ktsn": 120000025850
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:53.206Z"
+      }
+    },
+    {
+      "ktsn": 120000025851,
+      "scientificName": "Chrysomphalus dictyospermi (Morgan, 1889)",
+      "commonName": "귤깍지벌레",
+      "terminalLatinName": "dictyospermi",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Chrysomphalus",
+          "commonName": "갈색깍지벌레속",
+          "ktsn": 120000111080
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "dictyospermi",
+          "commonName": "귤깍지벌레",
+          "ktsn": 120000025851
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:06:53.206Z",
+        "title": "Chrysomphalus dictyospermi",
+        "description": "species of insect"
+      }
+    },
+    {
+      "ktsn": 120000025853,
+      "scientificName": "Comstockaspis macroporana (Takagi, 1956)",
+      "commonName": "밤나무둥근깍지벌레",
+      "terminalLatinName": "macroporana",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Comstockaspis",
+          "commonName": "샌호제깍지벌레속",
+          "ktsn": 120000025852
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "macroporana",
+          "commonName": "밤나무둥근깍지벌레",
+          "ktsn": 120000025853
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:53.206Z"
+      }
+    },
+    {
+      "ktsn": 120000025854,
+      "scientificName": "Comstockaspis perniciosa (Comstock, 1881)",
+      "commonName": "샌호제깍지벌레",
+      "terminalLatinName": "perniciosa",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Comstockaspis",
+          "commonName": "샌호제깍지벌레속",
+          "ktsn": 120000025852
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "perniciosa",
+          "commonName": "샌호제깍지벌레",
+          "ktsn": 120000025854
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:06:53.206Z",
+        "title": "San Jose scale",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Annual_report_of_the_Pennsylvania_Department_of_Agriculture_.._%281896-%29_%2819372062081%29.jpg/500px-Annual_report_of_the_Pennsylvania_Department_of_Agriculture_.._%281896-%29_%2819372062081%29.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Annual_report_of_the_Pennsylvania_Department_of_Agriculture_.._%281896-%29_%2819372062081%29.jpg",
+        "thumbnailSize": {
+          "width": 500,
+          "height": 389
+        },
+        "originalSize": {
+          "width": 1294,
+          "height": 1008
+        },
+        "filename": "Annual_report_of_the_Pennsylvania_Department_of_Agriculture_.._(1896-)_(19372062081).jpg",
+        "description": "species of insect",
+        "pageUrl": "https://en.wikipedia.org/wiki/San_Jose_scale",
+        "license": "see Wikimedia Commons",
+        "source": "Wikipedia"
+      }
+    },
+    {
+      "ktsn": 120000025856,
+      "scientificName": "Cryptoparlatorea leucaspis Lindinger, 1905",
+      "commonName": "검은점깍지벌레",
+      "terminalLatinName": "leucaspis",
+      "nomenclaturalAuthor": "Lindinger",
+      "namingYear": "1905",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Cryptoparlatorea",
+          "commonName": "검은점깍지벌레속",
+          "ktsn": 120000025855
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "leucaspis",
+          "commonName": "검은점깍지벌레",
+          "ktsn": 120000025856
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:53.206Z"
+      }
+    },
+    {
+      "ktsn": 120000111176,
+      "scientificName": "Diaspidiotus acutus (Borchsenius, 1964)",
+      "commonName": "뾰족깍지벌레",
+      "terminalLatinName": "acutus",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Diaspidiotus",
+          "commonName": "주목깍지벌레속",
+          "ktsn": 120000111149
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "acutus",
+          "commonName": "뾰족깍지벌레",
+          "ktsn": 120000111176
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:53.206Z"
+      }
+    },
+    {
+      "ktsn": 120000111178,
+      "scientificName": "Diaspidiotus cryptoxanthus (Cockerell, 1900)",
+      "commonName": "밤나무깍지벌레",
+      "terminalLatinName": "cryptoxanthus",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Diaspidiotus",
+          "commonName": "주목깍지벌레속",
+          "ktsn": 120000111149
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "cryptoxanthus",
+          "commonName": "밤나무깍지벌레",
+          "ktsn": 120000111178
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:53.206Z"
+      }
+    },
+    {
+      "ktsn": 120000111182,
+      "scientificName": "Diaspidiotus degeneratus (Leonardi, 1896)",
+      "commonName": "처녀동백흰깍지벌레",
+      "terminalLatinName": "degeneratus",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Diaspidiotus",
+          "commonName": "주목깍지벌레속",
+          "ktsn": 120000111149
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "degeneratus",
+          "commonName": "처녀동백흰깍지벌레",
+          "ktsn": 120000111182
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:53.206Z"
+      }
+    },
+    {
+      "ktsn": 120000025861,
+      "scientificName": "Diaspidiotus makii (Kuwana, 1932)",
+      "commonName": "주목깍지벌레",
+      "terminalLatinName": "makii",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Diaspidiotus",
+          "commonName": "주목깍지벌레속",
+          "ktsn": 120000111149
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "makii",
+          "commonName": "주목깍지벌레",
+          "ktsn": 120000025861
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:53.206Z"
+      }
+    },
+    {
+      "ktsn": 120000025862,
+      "scientificName": "Diaspidiotus ostreaeformis (Curtis, 1843)",
+      "commonName": "닮은조개깍지벌레",
+      "terminalLatinName": "ostreaeformis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Diaspidiotus",
+          "commonName": "주목깍지벌레속",
+          "ktsn": 120000111149
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "ostreaeformis",
+          "commonName": "닮은조개깍지벌레",
+          "ktsn": 120000025862
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:53.206Z"
+      }
+    },
+    {
+      "ktsn": 120000025864,
+      "scientificName": "Diaspis boisduvalii Signoret, 1869",
+      "commonName": "양란깍지벌레",
+      "terminalLatinName": "boisduvalii",
+      "nomenclaturalAuthor": "Signoret",
+      "namingYear": "1869",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Diaspis",
+          "commonName": "선인장깍지벌레속",
+          "ktsn": 120000111332
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "boisduvalii",
+          "commonName": "양란깍지벌레",
+          "ktsn": 120000025864
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:53.206Z"
+      }
+    },
+    {
+      "ktsn": 120000111404,
+      "scientificName": "Diaspis bromelia (Kerner, 1778)",
+      "commonName": "파인애플깍지벌레",
+      "terminalLatinName": "bromelia",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Diaspis",
+          "commonName": "선인장깍지벌레속",
+          "ktsn": 120000111332
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "bromelia",
+          "commonName": "파인애플깍지벌레",
+          "ktsn": 120000111404
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:53.206Z"
+      }
+    },
+    {
+      "ktsn": 120000025866,
+      "scientificName": "Diaspis echinocacti (Bouché, 1833)",
+      "commonName": "선인장깍지벌레",
+      "terminalLatinName": "echinocacti",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Diaspis",
+          "commonName": "선인장깍지벌레속",
+          "ktsn": 120000111332
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "echinocacti",
+          "commonName": "선인장깍지벌레",
+          "ktsn": 120000025866
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/463089245/medium.jpg",
+        "months": [
+          1
+        ]
+      }
+    },
+    {
+      "ktsn": 120000025868,
+      "scientificName": "Duplachionaspis divergens (Green, 1899)",
+      "commonName": "억새잎깍지벌레",
+      "terminalLatinName": "divergens",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Duplachionaspis",
+          "commonName": "억새잎깍지벌레속",
+          "ktsn": 120000025867
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "divergens",
+          "commonName": "억새잎깍지벌레",
+          "ktsn": 120000025868
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:53.206Z"
+      }
+    },
+    {
+      "ktsn": 120000111228,
+      "scientificName": "Dynaspidiotus pseudomeyeri (Kuwana, 1932)",
+      "commonName": "편백깍지벌레",
+      "terminalLatinName": "pseudomeyeri",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Dynaspidiotus",
+          "commonName": "",
+          "ktsn": 120000111190
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "pseudomeyeri",
+          "commonName": "편백깍지벌레",
+          "ktsn": 120000111228
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:53.206Z"
+      }
+    },
+    {
+      "ktsn": 120000111234,
+      "scientificName": "Dynaspidiotus tsugae (Marlatt, 1911)",
+      "commonName": "솔송깍지벌레",
+      "terminalLatinName": "tsugae",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Dynaspidiotus",
+          "commonName": "",
+          "ktsn": 120000111190
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "tsugae",
+          "commonName": "솔송깍지벌레",
+          "ktsn": 120000111234
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:53.206Z"
+      }
+    },
+    {
+      "ktsn": 120000025873,
+      "scientificName": "Fiorinia japonica Kuwana, 1902",
+      "commonName": "잎깍지벌레",
+      "terminalLatinName": "japonica",
+      "nomenclaturalAuthor": "Kuwana",
+      "namingYear": "1902",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Fiorinia",
+          "commonName": "잎깍지벌레속",
+          "ktsn": 120000025872
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "japonica",
+          "commonName": "잎깍지벌레",
+          "ktsn": 120000025873
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:53.206Z"
+      }
+    },
+    {
+      "ktsn": 120000111245,
+      "scientificName": "Hemiberlesia lataniae (Signoret, 1869)",
+      "commonName": "야자흰깍지벌레",
+      "terminalLatinName": "lataniae",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Hemiberlesia",
+          "commonName": "야자흰깍지벌레속",
+          "ktsn": 120000111186
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "lataniae",
+          "commonName": "야자흰깍지벌레",
+          "ktsn": 120000111245
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:06:53.206Z",
+        "title": "Hemiberlesia lataniae",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Hemiberlesia_lataniae_-_inat_63531062.jpg/500px-Hemiberlesia_lataniae_-_inat_63531062.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Hemiberlesia_lataniae_-_inat_63531062.jpg",
+        "thumbnailSize": {
+          "width": 500,
+          "height": 794
+        },
+        "originalSize": {
+          "width": 1290,
+          "height": 2048
+        },
+        "filename": "Hemiberlesia_lataniae_-_inat_63531062.jpg",
+        "description": "species of insect",
+        "pageUrl": "https://en.wikipedia.org/wiki/Hemiberlesia_lataniae",
+        "license": "see Wikimedia Commons",
+        "source": "Wikipedia"
+      }
+    },
+    {
+      "ktsn": 120000025877,
+      "scientificName": "Kuwanaspis hikosani (Kuwana, 1902)",
+      "commonName": "대잎흰깍지벌레",
+      "terminalLatinName": "hikosani",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Kuwanaspis",
+          "commonName": "흰깍지벌레속",
+          "ktsn": 120000025876
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "hikosani",
+          "commonName": "대잎흰깍지벌레",
+          "ktsn": 120000025877
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:53.206Z"
+      }
+    },
+    {
+      "ktsn": 120000025878,
+      "scientificName": "Kuwanaspis howardi (Cooley, 1898)",
+      "commonName": "대길쭉흰깍지벌레",
+      "terminalLatinName": "howardi",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Kuwanaspis",
+          "commonName": "흰깍지벌레속",
+          "ktsn": 120000025876
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "howardi",
+          "commonName": "대길쭉흰깍지벌레",
+          "ktsn": 120000025878
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:53.206Z"
+      }
+    },
+    {
+      "ktsn": 120000025879,
+      "scientificName": "Kuwanaspis pseudoleucaspis (Kuwana, 1902)",
+      "commonName": "대나무흰깍지벌레",
+      "terminalLatinName": "pseudoleucaspis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Kuwanaspis",
+          "commonName": "흰깍지벌레속",
+          "ktsn": 120000025876
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "pseudoleucaspis",
+          "commonName": "대나무흰깍지벌레",
+          "ktsn": 120000025879
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:53.849Z"
+      }
+    },
+    {
+      "ktsn": 120000111599,
+      "scientificName": "Lepidosaphes beckii (Newman, 1869)",
+      "commonName": "귤굴깍지벌레",
+      "terminalLatinName": "beckii",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Lepidosaphes",
+          "commonName": "굴깍지벌레속",
+          "ktsn": 120000111594
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "beckii",
+          "commonName": "귤굴깍지벌레",
+          "ktsn": 120000111599
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:06:53.849Z",
+        "title": "Lepidosaphes beckii",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Lepidosaphes_beckii_%28purple_scale%29.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Lepidosaphes_beckii_%28purple_scale%29.jpg",
+        "thumbnailSize": {
+          "width": 234,
+          "height": 216
+        },
+        "originalSize": {
+          "width": 234,
+          "height": 216
+        },
+        "filename": "Lepidosaphes_beckii_(purple_scale).jpg",
+        "description": "species of insect",
+        "pageUrl": "https://en.wikipedia.org/wiki/Lepidosaphes_beckii",
+        "license": "see Wikimedia Commons",
+        "source": "Wikipedia"
+      }
+    },
+    {
+      "ktsn": 120000111623,
+      "scientificName": "Lepidosaphes conchiformis (Gmelin, 1790)",
+      "commonName": "배나무굴깍지벌레",
+      "terminalLatinName": "conchiformis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Lepidosaphes",
+          "commonName": "굴깍지벌레속",
+          "ktsn": 120000111594
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "conchiformis",
+          "commonName": "배나무굴깍지벌레",
+          "ktsn": 120000111623
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:53.849Z"
+      }
+    },
+    {
+      "ktsn": 120000025883,
+      "scientificName": "Lepidosaphes coreana (Borchsenius, 1962)",
+      "commonName": "진굴깍지벌레",
+      "terminalLatinName": "coreana",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Lepidosaphes",
+          "commonName": "굴깍지벌레속",
+          "ktsn": 120000111594
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "coreana",
+          "commonName": "진굴깍지벌레",
+          "ktsn": 120000025883
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:53.849Z"
+      }
+    },
+    {
+      "ktsn": 120000025884,
+      "scientificName": "Lepidosaphes gloverii (Packard, 1869)",
+      "commonName": "긴굴깍지벌레",
+      "terminalLatinName": "gloverii",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Lepidosaphes",
+          "commonName": "굴깍지벌레속",
+          "ktsn": 120000111594
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "gloverii",
+          "commonName": "긴굴깍지벌레",
+          "ktsn": 120000025884
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:06:53.849Z",
+        "title": "Lepidosaphes gloverii",
+        "description": "species of insect"
+      }
+    },
+    {
+      "ktsn": 120000025885,
+      "scientificName": "Lepidosaphes japonica (Kuwana, 1902)",
+      "commonName": "솔송나무굴깍지벌레",
+      "terminalLatinName": "japonica",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Lepidosaphes",
+          "commonName": "굴깍지벌레속",
+          "ktsn": 120000111594
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "japonica",
+          "commonName": "솔송나무굴깍지벌레",
+          "ktsn": 120000025885
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:53.849Z"
+      }
+    },
+    {
+      "ktsn": 120000025886,
+      "scientificName": "Lepidosaphes okitsuensis Kuwana, 1925",
+      "commonName": "전나무굴깍지벌레",
+      "terminalLatinName": "okitsuensis",
+      "nomenclaturalAuthor": "Kuwana",
+      "namingYear": "1925",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Lepidosaphes",
+          "commonName": "굴깍지벌레속",
+          "ktsn": 120000111594
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "okitsuensis",
+          "commonName": "전나무굴깍지벌레",
+          "ktsn": 120000025886
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:53.849Z"
+      }
+    },
+    {
+      "ktsn": 120000111682,
+      "scientificName": "Lepidosaphes pallida (Maskell, 1895)",
+      "commonName": "향나무애굴깍지벌레",
+      "terminalLatinName": "pallida",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Lepidosaphes",
+          "commonName": "굴깍지벌레속",
+          "ktsn": 120000111594
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "pallida",
+          "commonName": "향나무애굴깍지벌레",
+          "ktsn": 120000111682
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:53.849Z"
+      }
+    },
+    {
+      "ktsn": 120000025888,
+      "scientificName": "Lepidosaphes pinea (Borchsenius, 1964)",
+      "commonName": "북방솔잎굴깍지벌레",
+      "terminalLatinName": "pinea",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Lepidosaphes",
+          "commonName": "굴깍지벌레속",
+          "ktsn": 120000111594
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "pinea",
+          "commonName": "북방솔잎굴깍지벌레",
+          "ktsn": 120000025888
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:53.849Z"
+      }
+    },
+    {
+      "ktsn": 120000025889,
+      "scientificName": "Lepidosaphes pini (Maskell, 1897)",
+      "commonName": "소나무굴깍지벌레",
+      "terminalLatinName": "pini",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Lepidosaphes",
+          "commonName": "굴깍지벌레속",
+          "ktsn": 120000111594
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "pini",
+          "commonName": "소나무굴깍지벌레",
+          "ktsn": 120000025889
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:53.849Z"
+      }
+    },
+    {
+      "ktsn": 120000111618,
+      "scientificName": "Lepidosaphes pinifolii (Borchsenius, 1964)",
+      "commonName": "솔잎굴깍지벌레",
+      "terminalLatinName": "pinifolii",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Lepidosaphes",
+          "commonName": "굴깍지벌레속",
+          "ktsn": 120000111594
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "pinifolii",
+          "commonName": "솔잎굴깍지벌레",
+          "ktsn": 120000111618
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:53.849Z"
+      }
+    },
+    {
+      "ktsn": 120000111702,
+      "scientificName": "Lepidosaphes pinnaeformis (Bouché, 1851)",
+      "commonName": "후박나무굴깍지벌레",
+      "terminalLatinName": "pinnaeformis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Lepidosaphes",
+          "commonName": "굴깍지벌레속",
+          "ktsn": 120000111594
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "pinnaeformis",
+          "commonName": "후박나무굴깍지벌레",
+          "ktsn": 120000111702
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:53.849Z"
+      }
+    },
+    {
+      "ktsn": 120000025892,
+      "scientificName": "Lepidosaphes pseudomachili (Borchsenius, 1864)",
+      "commonName": "어리후박나무굴깍지벌레",
+      "terminalLatinName": "pseudomachili",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Lepidosaphes",
+          "commonName": "굴깍지벌레속",
+          "ktsn": 120000111594
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "pseudomachili",
+          "commonName": "어리후박나무굴깍지벌레",
+          "ktsn": 120000025892
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:53.849Z"
+      }
+    },
+    {
+      "ktsn": 120000025893,
+      "scientificName": "Lepidosaphes salicina Borchsenius, 1958",
+      "commonName": "버드나무굴깍지벌레",
+      "terminalLatinName": "salicina",
+      "nomenclaturalAuthor": "Borchsenius",
+      "namingYear": "1958",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Lepidosaphes",
+          "commonName": "굴깍지벌레속",
+          "ktsn": 120000111594
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "salicina",
+          "commonName": "버드나무굴깍지벌레",
+          "ktsn": 120000025893
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:53.849Z"
+      }
+    },
+    {
+      "ktsn": 120000025894,
+      "scientificName": "Lepidosaphes towadensis Takagi and Kawai, 1966",
+      "commonName": "단풍굴깍지벌레",
+      "terminalLatinName": "towadensis",
+      "nomenclaturalAuthor": "Takagi and Kawai",
+      "namingYear": "1966",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Lepidosaphes",
+          "commonName": "굴깍지벌레속",
+          "ktsn": 120000111594
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "towadensis",
+          "commonName": "단풍굴깍지벌레",
+          "ktsn": 120000025894
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:53.849Z"
+      }
+    },
+    {
+      "ktsn": 120000025895,
+      "scientificName": "Lepidosaphes tubulorum Ferris, 1921",
+      "commonName": "검은굴깍지벌레",
+      "terminalLatinName": "tubulorum",
+      "nomenclaturalAuthor": "Ferris",
+      "namingYear": "1921",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Lepidosaphes",
+          "commonName": "굴깍지벌레속",
+          "ktsn": 120000111594
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "tubulorum",
+          "commonName": "검은굴깍지벌레",
+          "ktsn": 120000025895
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:53.849Z"
+      }
+    },
+    {
+      "ktsn": 120000025896,
+      "scientificName": "Lepidosaphes ulmi (Linnaeus, 1758)",
+      "commonName": "사과굴깍지벌레",
+      "terminalLatinName": "ulmi",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Lepidosaphes",
+          "commonName": "굴깍지벌레속",
+          "ktsn": 120000111594
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "ulmi",
+          "commonName": "사과굴깍지벌레",
+          "ktsn": 120000025896
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:06:53.849Z",
+        "title": "Lepidosaphes ulmi",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Lepidosaphes_ulmi.jpg/500px-Lepidosaphes_ulmi.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Lepidosaphes_ulmi.jpg",
+        "thumbnailSize": {
+          "width": 500,
+          "height": 750
+        },
+        "originalSize": {
+          "width": 2048,
+          "height": 3072
+        },
+        "filename": "Lepidosaphes_ulmi.jpg",
+        "description": "species of insect",
+        "pageUrl": "https://en.wikipedia.org/wiki/Lepidosaphes_ulmi",
+        "license": "see Wikimedia Commons",
+        "source": "Wikipedia"
+      }
+    },
+    {
+      "ktsn": 120000111733,
+      "scientificName": "Lepidosaphes ussuriensis (Borchsenius, 1962)",
+      "commonName": "가시굴깍지벌레",
+      "terminalLatinName": "ussuriensis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Lepidosaphes",
+          "commonName": "굴깍지벌레속",
+          "ktsn": 120000111594
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "ussuriensis",
+          "commonName": "가시굴깍지벌레",
+          "ktsn": 120000111733
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:53.849Z"
+      }
+    },
+    {
+      "ktsn": 120000025898,
+      "scientificName": "Lepidosaphes yanagicola Kuwana, 1925",
+      "commonName": "버들굴깍지벌레",
+      "terminalLatinName": "yanagicola",
+      "nomenclaturalAuthor": "Kuwana",
+      "namingYear": "1925",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Lepidosaphes",
+          "commonName": "굴깍지벌레속",
+          "ktsn": 120000111594
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "yanagicola",
+          "commonName": "버들굴깍지벌레",
+          "ktsn": 120000025898
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:53.849Z"
+      }
+    },
+    {
+      "ktsn": 120000025900,
+      "scientificName": "Lopholeucaspis japonica (Cockerell, 1897)",
+      "commonName": "배나무흰깍지벌레",
+      "terminalLatinName": "japonica",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Lopholeucaspis",
+          "commonName": "배나무흰깍지벌레속",
+          "ktsn": 120000025899
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "japonica",
+          "commonName": "배나무흰깍지벌레",
+          "ktsn": 120000025900
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:53.849Z"
+      }
+    },
+    {
+      "ktsn": 120000025902,
+      "scientificName": "Octaspidiotus stauntoniae (Takahashi, 1933)",
+      "commonName": "송악깍지벌레붙이",
+      "terminalLatinName": "stauntoniae",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Octaspidiotus",
+          "commonName": "송악깍지벌레붙이속",
+          "ktsn": 120000025901
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "stauntoniae",
+          "commonName": "송악깍지벌레붙이",
+          "ktsn": 120000025902
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:53.849Z"
+      }
+    },
+    {
+      "ktsn": 120000025904,
+      "scientificName": "Odonaspis secreta (Cockerell, 1896)",
+      "commonName": "대주름깍지벌레",
+      "terminalLatinName": "secreta",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Odonaspis",
+          "commonName": "대주름깍지벌레속",
+          "ktsn": 120000025903
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "secreta",
+          "commonName": "대주름깍지벌레",
+          "ktsn": 120000025904
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:53.849Z"
+      }
+    },
+    {
+      "ktsn": 120000025906,
+      "scientificName": "Parlatoria camelliae Comstock, 1883",
+      "commonName": "동백점깍지벌레",
+      "terminalLatinName": "camelliae",
+      "nomenclaturalAuthor": "Comstock",
+      "namingYear": "1883",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Parlatoria",
+          "commonName": "",
+          "ktsn": 120000025905
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "camelliae",
+          "commonName": "동백점깍지벌레",
+          "ktsn": 120000025906
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:53.849Z"
+      }
+    },
+    {
+      "ktsn": 120000025907,
+      "scientificName": "Parlatoria pergandii Comstock, 1881",
+      "commonName": "동글점깍지벌레",
+      "terminalLatinName": "pergandii",
+      "nomenclaturalAuthor": "Comstock",
+      "namingYear": "1881",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Parlatoria",
+          "commonName": "",
+          "ktsn": 120000025905
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "pergandii",
+          "commonName": "동글점깍지벌레",
+          "ktsn": 120000025907
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:06:53.849Z",
+        "title": "Parlatoria pergandii",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/Parlatoria_pergandii_from_CSIRO.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/Parlatoria_pergandii_from_CSIRO.jpg",
+        "thumbnailSize": {
+          "width": 300,
+          "height": 350
+        },
+        "originalSize": {
+          "width": 300,
+          "height": 350
+        },
+        "filename": "Parlatoria_pergandii_from_CSIRO.jpg",
+        "description": "species of insect",
+        "pageUrl": "https://en.wikipedia.org/wiki/Parlatoria_pergandii",
+        "license": "see Wikimedia Commons",
+        "source": "Wikipedia"
+      }
+    },
+    {
+      "ktsn": 120000025908,
+      "scientificName": "Parlatoria proteus (Curtis, 1843)",
+      "commonName": "긴점깍지벌레",
+      "terminalLatinName": "proteus",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Parlatoria",
+          "commonName": "",
+          "ktsn": 120000025905
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "proteus",
+          "commonName": "긴점깍지벌레",
+          "ktsn": 120000025908
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:53.849Z"
+      }
+    },
+    {
+      "ktsn": 120000025909,
+      "scientificName": "Parlatoria theae Cockerell, 1896",
+      "commonName": "차나무점깍지벌레",
+      "terminalLatinName": "theae",
+      "nomenclaturalAuthor": "Cockerell",
+      "namingYear": "1896",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Parlatoria",
+          "commonName": "",
+          "ktsn": 120000025905
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "theae",
+          "commonName": "차나무점깍지벌레",
+          "ktsn": 120000025909
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:54.472Z"
+      }
+    },
+    {
+      "ktsn": 120000025911,
+      "scientificName": "Pinnaspis aspidistrae (Signoret, 1869)",
+      "commonName": "난초핀깍지벌레",
+      "terminalLatinName": "aspidistrae",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Pinnaspis",
+          "commonName": "핀깍지벌레속",
+          "ktsn": 120000025910
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "aspidistrae",
+          "commonName": "난초핀깍지벌레",
+          "ktsn": 120000025911
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:54.472Z"
+      }
+    },
+    {
+      "ktsn": 120000025912,
+      "scientificName": "Pinnaspis buxi (Bouché, 1851)",
+      "commonName": "국화핀깍지벌레",
+      "terminalLatinName": "buxi",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Pinnaspis",
+          "commonName": "핀깍지벌레속",
+          "ktsn": 120000025910
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "buxi",
+          "commonName": "국화핀깍지벌레",
+          "ktsn": 120000025912
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:54.472Z"
+      }
+    },
+    {
+      "ktsn": 120000025913,
+      "scientificName": "Pinnaspis chamaecyparidis Takagi, 1961",
+      "commonName": "편백핀깍지벌레",
+      "terminalLatinName": "chamaecyparidis",
+      "nomenclaturalAuthor": "Takagi",
+      "namingYear": "1961",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Pinnaspis",
+          "commonName": "핀깍지벌레속",
+          "ktsn": 120000025910
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "chamaecyparidis",
+          "commonName": "편백핀깍지벌레",
+          "ktsn": 120000025913
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:54.472Z"
+      }
+    },
+    {
+      "ktsn": 120000025914,
+      "scientificName": "Pinnaspis hikosana Takagi, 1961",
+      "commonName": "가막살나무핀깍지벌레",
+      "terminalLatinName": "hikosana",
+      "nomenclaturalAuthor": "Takagi",
+      "namingYear": "1961",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Pinnaspis",
+          "commonName": "핀깍지벌레속",
+          "ktsn": 120000025910
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "hikosana",
+          "commonName": "가막살나무핀깍지벌레",
+          "ktsn": 120000025914
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:54.472Z"
+      }
+    },
+    {
+      "ktsn": 120000025915,
+      "scientificName": "Pinnaspis strachani (Cooley, 1899)",
+      "commonName": "고사리핀깍지벌레",
+      "terminalLatinName": "strachani",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Pinnaspis",
+          "commonName": "핀깍지벌레속",
+          "ktsn": 120000025910
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "strachani",
+          "commonName": "고사리핀깍지벌레",
+          "ktsn": 120000025915
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:06:54.472Z",
+        "title": "Pinnaspis strachani",
+        "description": "species of insect"
+      }
+    },
+    {
+      "ktsn": 120000025916,
+      "scientificName": "Pinnaspis uniloba (Kuwana, 1909)",
+      "commonName": "비쭈기핀깍지벌레",
+      "terminalLatinName": "uniloba",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Pinnaspis",
+          "commonName": "핀깍지벌레속",
+          "ktsn": 120000025910
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "uniloba",
+          "commonName": "비쭈기핀깍지벌레",
+          "ktsn": 120000025916
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:54.472Z"
+      }
+    },
+    {
+      "ktsn": 120000025918,
+      "scientificName": "Pseudaonidia duplex (Cockerell, 1896)",
+      "commonName": "조개깍지벌레",
+      "terminalLatinName": "duplex",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Pseudaonidia",
+          "commonName": "조개깍지벌속",
+          "ktsn": 120000025917
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "duplex",
+          "commonName": "조개깍지벌레",
+          "ktsn": 120000025918
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:54.472Z"
+      }
+    },
+    {
+      "ktsn": 120000025919,
+      "scientificName": "Pseudaonidia paeoniae (Cockerell, 1899)",
+      "commonName": "검은조개깍지벌레",
+      "terminalLatinName": "paeoniae",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Pseudaonidia",
+          "commonName": "조개깍지벌속",
+          "ktsn": 120000025917
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "paeoniae",
+          "commonName": "검은조개깍지벌레",
+          "ktsn": 120000025919
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:54.472Z"
+      }
+    },
+    {
+      "ktsn": 120000025921,
+      "scientificName": "Pseudaulacaspis cockerelli (Cooley, 1897)",
+      "commonName": "식나무깍지벌레",
+      "terminalLatinName": "cockerelli",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Pseudaulacaspis",
+          "commonName": "뽕나무깍지벌레속",
+          "ktsn": 120000025920
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "cockerelli",
+          "commonName": "식나무깍지벌레",
+          "ktsn": 120000025921
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/303623616/medium.jpg",
+        "months": [
+          7
+        ]
+      }
+    },
+    {
+      "ktsn": 120000025922,
+      "scientificName": "Pseudaulacaspis forsythiae (Kanda, 1941)",
+      "commonName": "개나리깍지벌레",
+      "terminalLatinName": "forsythiae",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Pseudaulacaspis",
+          "commonName": "뽕나무깍지벌레속",
+          "ktsn": 120000025920
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "forsythiae",
+          "commonName": "개나리깍지벌레",
+          "ktsn": 120000025922
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:54.472Z"
+      }
+    },
+    {
+      "ktsn": 120000025923,
+      "scientificName": "Pseudaulacaspis nishikigi (Kanda, 1941)",
+      "commonName": "화살나무깍지벌레",
+      "terminalLatinName": "nishikigi",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Pseudaulacaspis",
+          "commonName": "뽕나무깍지벌레속",
+          "ktsn": 120000025920
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "nishikigi",
+          "commonName": "화살나무깍지벌레",
+          "ktsn": 120000025923
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:54.472Z"
+      }
+    },
+    {
+      "ktsn": 120000025924,
+      "scientificName": "Pseudaulacaspis pentagona (Targioni-Tozzetti, 1886)",
+      "commonName": "뽕나무깍지벌레",
+      "terminalLatinName": "pentagona",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Pseudaulacaspis",
+          "commonName": "뽕나무깍지벌레속",
+          "ktsn": 120000025920
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "pentagona",
+          "commonName": "뽕나무깍지벌레",
+          "ktsn": 120000025924
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:06:54.472Z",
+        "title": "Pseudaulacaspis pentagona",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Pseudaulacaspis_pentagona_from_CSIRO.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Pseudaulacaspis_pentagona_from_CSIRO.jpg",
+        "thumbnailSize": {
+          "width": 300,
+          "height": 350
+        },
+        "originalSize": {
+          "width": 300,
+          "height": 350
+        },
+        "filename": "Pseudaulacaspis_pentagona_from_CSIRO.jpg",
+        "description": "species of insect",
+        "pageUrl": "https://en.wikipedia.org/wiki/Pseudaulacaspis_pentagona",
+        "license": "see Wikimedia Commons",
+        "source": "Wikipedia"
+      }
+    },
+    {
+      "ktsn": 120000025925,
+      "scientificName": "Pseudaulacaspis prunicola (Maskell, 1895)",
+      "commonName": "벚나무깍지벌레",
+      "terminalLatinName": "prunicola",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Pseudaulacaspis",
+          "commonName": "뽕나무깍지벌레속",
+          "ktsn": 120000025920
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "prunicola",
+          "commonName": "벚나무깍지벌레",
+          "ktsn": 120000025925
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:54.472Z"
+      }
+    },
+    {
+      "ktsn": 120000025927,
+      "scientificName": "Rhizaspidiotus canariensis Lindinger, 1911",
+      "commonName": "카나리깍지벌레",
+      "terminalLatinName": "canariensis",
+      "nomenclaturalAuthor": "Lindinger",
+      "namingYear": "1911",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Rhizaspidiotus",
+          "commonName": "카나리깍지벌레속",
+          "ktsn": 120000025926
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "canariensis",
+          "commonName": "카나리깍지벌레",
+          "ktsn": 120000025927
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:54.472Z"
+      }
+    },
+    {
+      "ktsn": 120000025929,
+      "scientificName": "Unachionaspis tenuis (Maskell, 1897)",
+      "commonName": "대잎깍지벌레",
+      "terminalLatinName": "tenuis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Unachionaspis",
+          "commonName": "대잎깍지벌레속",
+          "ktsn": 120000025928
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "tenuis",
+          "commonName": "대잎깍지벌레",
+          "ktsn": 120000025929
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:54.472Z"
+      }
+    },
+    {
+      "ktsn": 120000025931,
+      "scientificName": "Unaspis euonymi (Comstock, 1881)",
+      "commonName": "사철깍지벌레",
+      "terminalLatinName": "euonymi",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Unaspis",
+          "commonName": "화살깍지벌레속",
+          "ktsn": 120000025930
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "euonymi",
+          "commonName": "사철깍지벌레",
+          "ktsn": 120000025931
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:54.472Z"
+      }
+    },
+    {
+      "ktsn": 120000025932,
+      "scientificName": "Unaspis yanonensis (Kuwana, 1923)",
+      "commonName": "화살깍지벌레",
+      "terminalLatinName": "yanonensis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Diaspididae",
+          "commonName": "깍지벌레과",
+          "ktsn": 120000025824
+        },
+        "genus": {
+          "scientificName": "Unaspis",
+          "commonName": "화살깍지벌레속",
+          "ktsn": 120000025930
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "yanonensis",
+          "commonName": "화살깍지벌레",
+          "ktsn": 120000025932
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:26:19.624Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:54.472Z"
+      }
+    }
+  ],
+  "digitalContentUpdatedAt": "2026-05-21T09:26:19.624Z",
+  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+}

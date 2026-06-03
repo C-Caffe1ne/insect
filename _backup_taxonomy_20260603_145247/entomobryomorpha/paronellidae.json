@@ -1,0 +1,92 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "entomobryomorpha",
+    "scientificName": "Entomobryomorpha",
+    "commonName": "털보톡토기목",
+    "orderKtsn": 120000023743
+  },
+  "family": {
+    "id": "paronellidae",
+    "scientificName": "Paronellidae",
+    "commonName": "곱추털보톡토기과",
+    "familyKtsn": 120000023839
+  },
+  "speciesCount": 1,
+  "insects": [
+    {
+      "ktsn": 120000023841,
+      "scientificName": "Akabosia matsudoensis Kinoshita, 1919",
+      "commonName": "아까보시곱추털보톡토기",
+      "terminalLatinName": "matsudoensis",
+      "nomenclaturalAuthor": "Kinoshita",
+      "namingYear": "1919",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Collembola",
+          "commonName": "톡토기강",
+          "ktsn": 120000095088
+        },
+        "order": {
+          "scientificName": "Entomobryomorpha",
+          "commonName": "털보톡토기목",
+          "ktsn": 120000023743
+        },
+        "family": {
+          "scientificName": "Paronellidae",
+          "commonName": "곱추털보톡토기과",
+          "ktsn": 120000023839
+        },
+        "genus": {
+          "scientificName": "Akabosia",
+          "commonName": "곱추털보톡토기속",
+          "ktsn": 120000023840
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "matsudoensis",
+          "commonName": "아까보시곱추털보톡토기",
+          "ktsn": 120000023841
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:21:20.504Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:20.063Z"
+      }
+    }
+  ],
+  "digitalContentUpdatedAt": "2026-05-21T09:21:20.504Z",
+  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+}

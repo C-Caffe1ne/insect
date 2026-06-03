@@ -1,116 +1,81 @@
 {
-    "generatedAt":  "2026-05-21T07:47:08.025Z",
-    "source":  "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
-    "order":  {
-                  "id":  "lepidoptera",
-                  "scientificName":  "Lepidoptera",
-                  "commonName":  "나비목",
-                  "orderKtsn":  120000031663
-              },
-    "family":  {
-                   "id":  "endromidae",
-                   "scientificName":  "Endromidae",
-                   "commonName":  "반달누에나방과",
-                   "familyKtsn":  120000215324
-               },
-    "speciesCount":  1,
-    "insects":  [
-                    {
-                        "ktsn":  120000032318,
-                        "scientificName":  "Mirina christophi Staudinger, 1887",
-                        "commonName":  "반달누에나방",
-                        "terminalLatinName":  "christophi",
-                        "nomenclaturalAuthor":  "Staudinger",
-                        "namingYear":  "1887",
-                        "corsynSeYn":  "Y",
-                        "egspcsYn":  "N",
-                        "hrmflSpecsYn":  "N",
-                        "dispYn":  "N",
-                        "phspYn":  "N",
-                        "korUnqBispYn":  "N",
-                        "ntmYn":  "N",
-                        "taxonomy":  {
-                                         "phylum":  {
-                                                        "scientificName":  "Arthropoda",
-                                                        "commonName":  "절지동물문",
-                                                        "ktsn":  120000013748
-                                                    },
-                                         "class":  {
-                                                       "scientificName":  "Insecta",
-                                                       "commonName":  "곤충강",
-                                                       "ktsn":  120000013749
-                                                   },
-                                         "order":  {
-                                                       "scientificName":  "Lepidoptera",
-                                                       "commonName":  "나비목",
-                                                       "ktsn":  120000031663
-                                                   },
-                                         "family":  {
-                                                        "scientificName":  "Endromidae",
-                                                        "commonName":  "반달누에나방과",
-                                                        "ktsn":  120000215324
-                                                    },
-                                         "genus":  {
-                                                       "scientificName":  "Mirina",
-                                                       "commonName":  "반달누에나방속",
-                                                       "ktsn":  120000032317
-                                                   },
-                                         "subgenus":  {
-                                                          "scientificName":  "",
-                                                          "commonName":  "",
-                                                          "ktsn":  null
-                                                      },
-                                         "species":  {
-                                                         "scientificName":  "christophi",
-                                                         "commonName":  "반달누에나방",
-                                                         "ktsn":  120000032318
-                                                     }
-                                     },
-                        "eol":  {
-                                    "pageId":  385199,
-                                    "canonical":  "Mirina christophi",
-                                    "fetchedAt":  "2026-05-24T11:22:35.498Z",
-                                    "vernaculars":  {
-                                                        "ko":  [
-                                                                   "반달누에나방"
-                                                               ],
-                                                        "en":  [
-
-                                                               ],
-                                                        "ja":  [
-
-                                                               ]
-                                                    },
-                                    "habitat":  [
-
-                                                ],
-                                    "geographic":  [
-                                                       "South Korea",
-                                                       "Russia"
-                                                   ],
-                                    "introduced":  [
-
-                                                   ],
-                                    "eats":  [
-
-                                             ],
-                                    "visitsFlowersOf":  [
-
-                                                        ],
-                                    "pathogenOf":  [
-
-                                                   ],
-                                    "gbifRecords":  115
-                                },
-                        "inat":  {
-                                     "observationCount":  20,
-                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/200201887/medium.png",
-                                     "months":  [
-                                                    4,
-                                                    5,
-                                                    6
-                                                ]
-                                 }
-                    }
-                ]
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "lepidoptera",
+    "scientificName": "Lepidoptera",
+    "commonName": "나비목",
+    "orderKtsn": 120000031663
+  },
+  "family": {
+    "id": "endromidae",
+    "scientificName": "Endromidae",
+    "commonName": "반달누에나방과",
+    "familyKtsn": 120000215324
+  },
+  "speciesCount": 1,
+  "insects": [
+    {
+      "ktsn": 120000032318,
+      "scientificName": "Mirina christophi Staudinger, 1887",
+      "commonName": "반달누에나방",
+      "terminalLatinName": "christophi",
+      "nomenclaturalAuthor": "Staudinger",
+      "namingYear": "1887",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "dispYn": "N",
+      "korUnqBispYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "genus": {
+          "scientificName": "Mirina",
+          "commonName": "반달누에나방속",
+          "ktsn": 120000032317
+        },
+        "species": {
+          "scientificName": "christophi",
+          "commonName": "반달누에나방",
+          "ktsn": 120000032318
+        }
+      },
+      "eol": {
+        "pageId": 385199,
+        "canonical": "Mirina christophi",
+        "fetchedAt": "2026-05-24T11:22:35.498Z",
+        "vernaculars": {
+          "ko": [
+            "반달누에나방"
+          ],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [
+          "South Korea",
+          "Russia"
+        ],
+        "introduced": [],
+        "gbifRecords": 115
+      },
+      "inat": {
+        "observationCount": 20,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/200201887/medium.png",
+        "months": [
+          4,
+          5,
+          6
+        ]
+      }
+    }
+  ]
 }

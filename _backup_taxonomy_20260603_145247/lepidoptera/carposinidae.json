@@ -1,0 +1,443 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "lepidoptera",
+    "scientificName": "Lepidoptera",
+    "commonName": "나비목",
+    "orderKtsn": 120000031663
+  },
+  "family": {
+    "id": "carposinidae",
+    "scientificName": "Carposinidae",
+    "commonName": "심식나방과",
+    "familyKtsn": 120000031721
+  },
+  "speciesCount": 5,
+  "insects": [
+    {
+      "ktsn": 120000031723,
+      "scientificName": "Carposina coreana Kim, 1955",
+      "commonName": "산수유심식나방",
+      "terminalLatinName": "coreana",
+      "nomenclaturalAuthor": "Kim",
+      "namingYear": "1955",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Carposinidae",
+          "commonName": "심식나방과",
+          "ktsn": 120000031721
+        },
+        "genus": {
+          "scientificName": "Carposina",
+          "commonName": "심식나방속",
+          "ktsn": 120000031722
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "coreana",
+          "commonName": "산수유심식나방",
+          "ktsn": 120000031723
+        }
+      },
+      "eol": {
+        "pageId": 947507,
+        "canonical": "Carposina coreana",
+        "fetchedAt": "2026-05-24T11:14:25.295Z",
+        "vernaculars": {
+          "ko": [
+            "산수유심식나방"
+          ],
+          "en": [],
+          "ja": [
+            "サンシュユシンクイ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 2
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:09:17.659Z",
+        "title": "Carposina coreana",
+        "description": "species of insect"
+      }
+    },
+    {
+      "ktsn": 120000031724,
+      "scientificName": "Carposina sasakii Matsumura, 1900",
+      "commonName": "복숭아심식나방",
+      "terminalLatinName": "sasakii",
+      "nomenclaturalAuthor": "Matsumura",
+      "namingYear": "1900",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Carposinidae",
+          "commonName": "심식나방과",
+          "ktsn": 120000031721
+        },
+        "genus": {
+          "scientificName": "Carposina",
+          "commonName": "심식나방속",
+          "ktsn": 120000031722
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "sasakii",
+          "commonName": "복숭아심식나방",
+          "ktsn": 120000031724
+        }
+      },
+      "eol": {
+        "pageId": 942701,
+        "canonical": "Carposina sasakii",
+        "fetchedAt": "2026-05-24T11:14:28.441Z",
+        "vernaculars": {
+          "ko": [
+            "복숭아심식나방"
+          ],
+          "en": [
+            "Peach Fruit Moth",
+            "Asian Peach Fruit Moth",
+            "Peach fruit moth",
+            "Peach Fruit Moth"
+          ],
+          "ja": [
+            "モモシンクイガ"
+          ]
+        },
+        "habitat": [
+          "valley"
+        ],
+        "geographic": [
+          "United States",
+          "South Korea"
+        ],
+        "introduced": [
+          "The Contiguous United States"
+        ],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 275
+      },
+      "inat": {
+        "observationCount": 53,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/156781976/medium.png",
+        "months": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "ktsn": 120000031726,
+      "scientificName": "Commatarcha vaga Diakonoff, 1989",
+      "commonName": "흰점검은심식나방",
+      "terminalLatinName": "vaga",
+      "nomenclaturalAuthor": "Diakonoff",
+      "namingYear": "1989",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Carposinidae",
+          "commonName": "심식나방과",
+          "ktsn": 120000031721
+        },
+        "genus": {
+          "scientificName": "Commatarcha",
+          "commonName": "",
+          "ktsn": 120000031725
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "vaga",
+          "commonName": "흰점검은심식나방",
+          "ktsn": 120000031726
+        }
+      },
+      "eol": {
+        "pageId": 945949,
+        "canonical": "Commatarcha vaga",
+        "fetchedAt": "2026-05-24T11:14:31.587Z",
+        "vernaculars": {
+          "ko": [
+            "흰점검은심식나방"
+          ],
+          "en": [],
+          "ja": [
+            "ニセシロモンクロシンクイ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "South Korea"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 16
+      },
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/296050283/medium.jpg",
+        "months": [
+          6
+        ]
+      }
+    },
+    {
+      "ktsn": 120000031728,
+      "scientificName": "Meridarchis excisa (Walsingham, 1900)",
+      "commonName": "어깨무늬심식나방",
+      "terminalLatinName": "excisa",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Carposinidae",
+          "commonName": "심식나방과",
+          "ktsn": 120000031721
+        },
+        "genus": {
+          "scientificName": "Meridarchis",
+          "commonName": "",
+          "ktsn": 120000031727
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "excisa",
+          "commonName": "어깨무늬심식나방",
+          "ktsn": 120000031728
+        }
+      },
+      "eol": {
+        "pageId": 947633,
+        "canonical": "Meridarchis excisa",
+        "fetchedAt": "2026-05-24T11:14:35.015Z",
+        "vernaculars": {
+          "ko": [
+            "어깨무늬심식나방"
+          ],
+          "en": [],
+          "ja": [
+            "コブシロシンクイ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "South Korea"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 64
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:09:17.659Z",
+        "title": "Meridarchis excisa",
+        "description": "species of insect"
+      }
+    },
+    {
+      "ktsn": 120000031729,
+      "scientificName": "Meridarchis jumboa Kawabe, 1980",
+      "commonName": "삼각무늬심식나방",
+      "terminalLatinName": "jumboa",
+      "nomenclaturalAuthor": "Kawabe",
+      "namingYear": "1980",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Carposinidae",
+          "commonName": "심식나방과",
+          "ktsn": 120000031721
+        },
+        "genus": {
+          "scientificName": "Meridarchis",
+          "commonName": "",
+          "ktsn": 120000031727
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "jumboa",
+          "commonName": "삼각무늬심식나방",
+          "ktsn": 120000031729
+        }
+      },
+      "eol": {
+        "pageId": 947641,
+        "canonical": "Meridarchis jumboa",
+        "fetchedAt": "2026-05-24T11:14:38.307Z",
+        "vernaculars": {
+          "ko": [
+            "삼각무늬심식나방"
+          ],
+          "en": [],
+          "ja": [
+            "オオモンシロシンクイ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "Russia",
+          "Korea",
+          "Japan"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 11
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:09:17.659Z",
+        "title": "Meridarchis jumboa",
+        "description": "species of insect"
+      }
+    }
+  ]
+}

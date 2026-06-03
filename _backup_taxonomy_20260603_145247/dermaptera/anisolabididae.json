@@ -1,0 +1,683 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "dermaptera",
+    "scientificName": "Dermaptera",
+    "commonName": "집게벌레목",
+    "orderKtsn": 120000020841,
+    "abstract": "집게벌레목은 애흰수염집게벌레, 고마로브집게벌레 등 집게벌레과에 속한 곤충들을 통틀어 부르는 분류이다. 집게벌레과, 민집게벌레과, 큰집게벌레과, 꼬마집게벌레과 등의 하위분류를 갖고 있다. 집게벌레는 배 끝에 미모가 변형된 집게를 갖고 있고, 작은 곤충이나 썩은 낙엽, 부식질 등을 먹는 잡식성이다. 습한 곳을 좋아하여 축축한 땅 밑이나 돌 밑, 풀숲, 정원 등에서 볼 수 있는데, 종종 사람의 집에 들어오기도 한다. 하지만 집게벌레는 사람에게 피해를 주지 않는다. 집게벌레 어미는 자신의 알을 보호하는 모성애적인 본능을 갖고 있다.",
+    "description": "집게벌레목은 애흰수염집게벌레, 고마로브집게벌레 등 집게벌레과에 속한 곤충들을 통틀어 부르는 분류이다. 집게벌레과, 민집게벌레과, 큰집게벌레과, 꼬마집게벌레과 등의 하위분류를 갖고 있다. 집게벌레는 배 끝에 미모가 변형된 집게를 갖고 있고, 작은 곤충이나 썩은 낙엽, 부식질 등을 먹는 잡식성이다. 습한 곳을 좋아하여 축축한 땅 밑이나 돌 밑, 풀숲, 정원 등에서 볼 수 있는데, 종종 사람의 집에 들어오기도 한다. 하지만 집게벌레는 사람에게 피해를 주지 않는다. 집게벌레 어미는 자신의 알을 보호하는 모성애적인 본능을 갖고 있다."
+  },
+  "family": {
+    "id": "anisolabididae",
+    "scientificName": "Anisolabididae",
+    "commonName": "민집게벌레과",
+    "familyKtsn": 120000020842
+  },
+  "speciesCount": 7,
+  "insects": [
+    {
+      "ktsn": 120000226374,
+      "scientificName": "Anisolabella marginalis (Dohrn, 1864)",
+      "commonName": "끝마디통통집게벌레",
+      "terminalLatinName": "marginalis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Dermaptera",
+          "commonName": "집게벌레목",
+          "ktsn": 120000020841
+        },
+        "family": {
+          "scientificName": "Anisolabididae",
+          "commonName": "민집게벌레과",
+          "ktsn": 120000020842
+        },
+        "genus": {
+          "scientificName": "Anisolabella",
+          "commonName": "끝마디통통집게벌레속",
+          "ktsn": 120000226373
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "marginalis",
+          "commonName": "끝마디통통집게벌레",
+          "ktsn": 120000226374
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:08:56.787Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 87,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/639559557/medium.jpg",
+        "months": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "ktsn": 120000020844,
+      "scientificName": "Anisolabis maritima (Bonelli, 1832)",
+      "commonName": "민집게벌레",
+      "terminalLatinName": "maritima",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Dermaptera",
+          "commonName": "집게벌레목",
+          "ktsn": 120000020841
+        },
+        "family": {
+          "scientificName": "Anisolabididae",
+          "commonName": "민집게벌레과",
+          "ktsn": 120000020842
+        },
+        "genus": {
+          "scientificName": "Anisolabis",
+          "commonName": "민집게벌레속",
+          "ktsn": 120000020843
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "maritima",
+          "commonName": "민집게벌레",
+          "ktsn": 120000020844
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:08:56.787Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 473292,
+        "canonical": "Anisolabis maritima",
+        "fetchedAt": "2026-05-24T08:42:36.799Z",
+        "vernaculars": {
+          "ko": [
+            "민집게벌레",
+            "민집게벌레"
+          ],
+          "en": [
+            "Maritime Earwig",
+            "seaside earwig",
+            "maritime earwig",
+            "Earwig",
+            "Maritime earwig"
+          ],
+          "ja": [
+            "ハマベハサミムシ"
+          ]
+        },
+        "habitat": [
+          "canal",
+          "subtropical",
+          "tropical",
+          "temperate"
+        ],
+        "geographic": [
+          "Indian Ocean",
+          "Pacific Ocean",
+          "cosmopolitan",
+          "South Pacific Ocean",
+          "South Pacific",
+          "The Nearctic",
+          "Antilles",
+          "Lesser Antilles",
+          "Dominica",
+          "West Indies",
+          "United States",
+          "Canada",
+          "China",
+          "Croatia",
+          "Germany",
+          "Spain",
+          "Tanzania",
+          "Japan",
+          "Balearic Sea",
+          "North Atlantic",
+          "North Pacific",
+          "Sea Of Japan",
+          "Tasman Sea"
+        ],
+        "introduced": [
+          "Galapagos Exclusive Economic Zone",
+          "Indian Ocean",
+          "The Contiguous United States"
+        ],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 1553
+      },
+      "abstract": "민집게벌레는 민집게벌레과에 속하는 곤충이다. 몸길이 20mm, 몸색깔은 흑갈색이고 광택이 나며 다리는 황갈색이다. 몸은 길며 뒤쪽에서 약간 넓어지고 마지막 배마디에서 가장 넓어진다. 날개는 없으며 잡식성이다. 어른벌레는 알이나 유충을 보호하는 습성이 있다. 2령 이상의 유충은 독립하여 생활하고 4~5령을 거쳐 성충이 된다. 배 끝 꼬리집게는 둥글며 안으로 휘어져 있다. 야행성으로 낙엽 밑이나 썩은 나무 안, 정원 등에서 살지만 습하고 따뜻한 곳을 찾아 인간의 집으로 들어오기도 한다. 인간에게 해를 끼치지 않는다.\n애흰수염집게벌레와 함께 흔한 가주성 집게벌레이다.",
+      "description": "민집게벌레는 민집게벌레과에 속하는 곤충이다. 몸길이 20mm, 몸색깔은 흑갈색이고 광택이 나며 다리는 황갈색이다. 몸은 길며 뒤쪽에서 약간 넓어지고 마지막 배마디에서 가장 넓어진다. 날개는 없으며 잡식성이다. 어른벌레는 알이나 유충을 보호하는 습성이 있다. 2령 이상의 유충은 독립하여 생활하고 4~5령을 거쳐 성충이 된다. 배 끝 꼬리집게는 둥글며 안으로 휘어져 있다. 야행성으로 낙엽 밑이나 썩은 나무 안, 정원 등에서 살지만 습하고 따뜻한 곳을 찾아 인간의 집으로 들어오기도 한다. 인간에게 해를 끼치지 않는다.\n애흰수염집게벌레와 함께 흔한 가주성 집게벌레이다.",
+      "inat": {
+        "observationCount": 11,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/431392602/medium.jpeg",
+        "months": [
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "ktsn": 120000020845,
+      "scientificName": "Anisolabis seirokui Nishikawa, 2008",
+      "commonName": "해변집게벌레",
+      "terminalLatinName": "seirokui",
+      "nomenclaturalAuthor": "Nishikawa",
+      "namingYear": "2008",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Dermaptera",
+          "commonName": "집게벌레목",
+          "ktsn": 120000020841
+        },
+        "family": {
+          "scientificName": "Anisolabididae",
+          "commonName": "민집게벌레과",
+          "ktsn": 120000020842
+        },
+        "genus": {
+          "scientificName": "Anisolabis",
+          "commonName": "민집게벌레속",
+          "ktsn": 120000020843
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "seirokui",
+          "commonName": "해변집게벌레",
+          "ktsn": 120000020845
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:08:56.787Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 7,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/594260947/medium.jpg",
+        "months": [
+          5,
+          7,
+          8,
+          9,
+          11
+        ]
+      }
+    },
+    {
+      "ktsn": 120000222275,
+      "scientificName": "Euborellia annulata (Fabricius, 1793)",
+      "commonName": "노랑다리집게벌레",
+      "terminalLatinName": "annulata",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Dermaptera",
+          "commonName": "집게벌레목",
+          "ktsn": 120000020841
+        },
+        "family": {
+          "scientificName": "Anisolabididae",
+          "commonName": "민집게벌레과",
+          "ktsn": 120000020842
+        },
+        "genus": {
+          "scientificName": "Euborellia",
+          "commonName": "노란다리민집게벌레속",
+          "ktsn": 120000020846
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "annulata",
+          "commonName": "노랑다리집게벌레",
+          "ktsn": 120000222275
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:08:56.787Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/114116276/medium.jpg",
+        "months": [
+          2
+        ]
+      }
+    },
+    {
+      "ktsn": 120000020847,
+      "scientificName": "Euborellia annulipes (Lucas, 1847)",
+      "commonName": "애흰수염집게벌레",
+      "terminalLatinName": "annulipes",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Dermaptera",
+          "commonName": "집게벌레목",
+          "ktsn": 120000020841
+        },
+        "family": {
+          "scientificName": "Anisolabididae",
+          "commonName": "민집게벌레과",
+          "ktsn": 120000020842
+        },
+        "genus": {
+          "scientificName": "Euborellia",
+          "commonName": "노란다리민집게벌레속",
+          "ktsn": 120000020846
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "annulipes",
+          "commonName": "애흰수염집게벌레",
+          "ktsn": 120000020847
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:08:56.787Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 473733,
+        "canonical": "Euborellia annulipes",
+        "fetchedAt": "2026-05-24T08:42:50.042Z",
+        "vernaculars": {
+          "ko": [
+            "애흰수염집게벌레"
+          ],
+          "en": [
+            "Ring-legged Earwig",
+            "Earwig",
+            "Ringlegged earwig",
+            "Ringlegged earwig",
+            "Ring-legged Earwig",
+            "Ring-legged Earwig"
+          ],
+          "ja": [
+            "コヒゲジロハサミムシ"
+          ]
+        },
+        "habitat": [
+          "tropical",
+          "temperate",
+          "terrestrial"
+        ],
+        "geographic": [
+          "United States",
+          "South Pacific",
+          "North Pacific",
+          "North Atlantic",
+          "Mexico",
+          "China",
+          "France",
+          "Germany",
+          "Northern Mariana Islands",
+          "New Zealand",
+          "United Kingdom",
+          "Uruguay",
+          "Argentina"
+        ],
+        "introduced": [
+          "The Contiguous United States",
+          "The Hawaiian Islands",
+          "Delaware",
+          "South Africa",
+          "GaláPagos Islands"
+        ],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 4289
+      },
+      "inat": {
+        "observationCount": 2,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/622698818/medium.jpg",
+        "months": [
+          3,
+          9
+        ]
+      }
+    },
+    {
+      "ktsn": 120000020848,
+      "scientificName": "Euborellia plebeja (Dohrn, 1863)",
+      "commonName": "작은흰수염집게벌레",
+      "terminalLatinName": "plebeja",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Dermaptera",
+          "commonName": "집게벌레목",
+          "ktsn": 120000020841
+        },
+        "family": {
+          "scientificName": "Anisolabididae",
+          "commonName": "민집게벌레과",
+          "ktsn": 120000020842
+        },
+        "genus": {
+          "scientificName": "Euborellia",
+          "commonName": "노란다리민집게벌레속",
+          "ktsn": 120000020846
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "plebeja",
+          "commonName": "작은흰수염집게벌레",
+          "ktsn": 120000020848
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:08:56.787Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 404151,
+        "canonical": "Euborellia plebeja",
+        "fetchedAt": "2026-05-24T08:42:52.795Z",
+        "vernaculars": {
+          "ko": [
+            "작은흰수염집게벌레",
+            "노랑다리집게벌레"
+          ],
+          "en": [],
+          "ja": [
+            "キアシハサミムシ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "South Korea"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 28
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:05:01.614Z",
+        "title": "Euborellia plebeja",
+        "description": "species of insect"
+      }
+    },
+    {
+      "ktsn": 120000226369,
+      "scientificName": "Mongolabis distincta (Nishikawa, 1969)",
+      "commonName": "흙빛배통통집게벌레",
+      "terminalLatinName": "distincta",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Dermaptera",
+          "commonName": "집게벌레목",
+          "ktsn": 120000020841
+        },
+        "family": {
+          "scientificName": "Anisolabididae",
+          "commonName": "민집게벌레과",
+          "ktsn": 120000020842
+        },
+        "genus": {
+          "scientificName": "Mongolabis",
+          "commonName": "흙빛배통통집게벌레속",
+          "ktsn": 120000226368
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "distincta",
+          "commonName": "흙빛배통통집게벌레",
+          "ktsn": 120000226369
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:08:56.787Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:05:01.614Z"
+      }
+    }
+  ],
+  "digitalContentUpdatedAt": "2026-05-21T09:08:56.787Z",
+  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+}

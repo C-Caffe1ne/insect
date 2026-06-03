@@ -1,0 +1,852 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "dermaptera",
+    "scientificName": "Dermaptera",
+    "commonName": "집게벌레목",
+    "orderKtsn": 120000020841,
+    "abstract": "집게벌레목은 애흰수염집게벌레, 고마로브집게벌레 등 집게벌레과에 속한 곤충들을 통틀어 부르는 분류이다. 집게벌레과, 민집게벌레과, 큰집게벌레과, 꼬마집게벌레과 등의 하위분류를 갖고 있다. 집게벌레는 배 끝에 미모가 변형된 집게를 갖고 있고, 작은 곤충이나 썩은 낙엽, 부식질 등을 먹는 잡식성이다. 습한 곳을 좋아하여 축축한 땅 밑이나 돌 밑, 풀숲, 정원 등에서 볼 수 있는데, 종종 사람의 집에 들어오기도 한다. 하지만 집게벌레는 사람에게 피해를 주지 않는다. 집게벌레 어미는 자신의 알을 보호하는 모성애적인 본능을 갖고 있다.",
+    "description": "집게벌레목은 애흰수염집게벌레, 고마로브집게벌레 등 집게벌레과에 속한 곤충들을 통틀어 부르는 분류이다. 집게벌레과, 민집게벌레과, 큰집게벌레과, 꼬마집게벌레과 등의 하위분류를 갖고 있다. 집게벌레는 배 끝에 미모가 변형된 집게를 갖고 있고, 작은 곤충이나 썩은 낙엽, 부식질 등을 먹는 잡식성이다. 습한 곳을 좋아하여 축축한 땅 밑이나 돌 밑, 풀숲, 정원 등에서 볼 수 있는데, 종종 사람의 집에 들어오기도 한다. 하지만 집게벌레는 사람에게 피해를 주지 않는다. 집게벌레 어미는 자신의 알을 보호하는 모성애적인 본능을 갖고 있다."
+  },
+  "family": {
+    "id": "forficulidae",
+    "scientificName": "Forficulidae",
+    "commonName": "집게벌레과",
+    "familyKtsn": 120000020852
+  },
+  "speciesCount": 8,
+  "insects": [
+    {
+      "ktsn": 120000020854,
+      "scientificName": "Anechura harmandi (Burr, 1904)",
+      "commonName": "혹집게벌레",
+      "terminalLatinName": "harmandi",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Dermaptera",
+          "commonName": "집게벌레목",
+          "ktsn": 120000020841
+        },
+        "family": {
+          "scientificName": "Forficulidae",
+          "commonName": "집게벌레과",
+          "ktsn": 120000020852
+        },
+        "genus": {
+          "scientificName": "Anechura",
+          "commonName": "좀집게벌레속",
+          "ktsn": 120000020853
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "harmandi",
+          "commonName": "혹집게벌레",
+          "ktsn": 120000020854
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:08:58.668Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 3488187,
+        "canonical": "Anechura harmandi",
+        "fetchedAt": "2026-05-24T08:43:22.961Z",
+        "vernaculars": {
+          "ko": [
+            "혹집게벌레"
+          ],
+          "en": [],
+          "ja": [
+            "コブハサミムシ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "Japan"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 252
+      },
+      "inat": {
+        "observationCount": 20,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/416927798/medium.jpeg",
+        "months": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "ktsn": 120000020855,
+      "scientificName": "Anechura japonica (Bormans, 1880)",
+      "commonName": "좀집게벌레",
+      "terminalLatinName": "japonica",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Dermaptera",
+          "commonName": "집게벌레목",
+          "ktsn": 120000020841
+        },
+        "family": {
+          "scientificName": "Forficulidae",
+          "commonName": "집게벌레과",
+          "ktsn": 120000020852
+        },
+        "genus": {
+          "scientificName": "Anechura",
+          "commonName": "좀집게벌레속",
+          "ktsn": 120000020853
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "japonica",
+          "commonName": "좀집게벌레",
+          "ktsn": 120000020855
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:08:58.668Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 3488188,
+        "canonical": "Anechura japonica",
+        "fetchedAt": "2026-05-24T08:43:26.668Z",
+        "vernaculars": {
+          "ko": [
+            "좀집게벌레"
+          ],
+          "en": [],
+          "ja": [
+            "ヤマトコブハサミムシ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "South Korea",
+          "Russia",
+          "China"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 377
+      },
+      "inat": {
+        "observationCount": 45,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/161703628/medium.jpeg",
+        "months": [
+          2,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "ktsn": 120000020858,
+      "scientificName": "Eparchus yezoensis (Matsumura and Shiraki, 1905)",
+      "commonName": "북방집게벌레",
+      "terminalLatinName": "yezoensis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Dermaptera",
+          "commonName": "집게벌레목",
+          "ktsn": 120000020841
+        },
+        "family": {
+          "scientificName": "Forficulidae",
+          "commonName": "집게벌레과",
+          "ktsn": 120000020852
+        },
+        "genus": {
+          "scientificName": "Eparchus",
+          "commonName": "북방집게벌레속",
+          "ktsn": 120000020857
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "yezoensis",
+          "commonName": "북방집게벌레",
+          "ktsn": 120000020858
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:08:58.668Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 3488234,
+        "canonical": "Eparchus yezoensis",
+        "fetchedAt": "2026-05-24T08:43:30.655Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": [
+            "エゾハサミムシ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 58
+      },
+      "inat": {
+        "observationCount": 5,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/111420998/medium.jpg",
+        "months": [
+          5,
+          7,
+          8
+        ]
+      }
+    },
+    {
+      "ktsn": 120000020860,
+      "scientificName": "Forficula auricularia Linnaeus, 1758",
+      "commonName": "양집게벌레",
+      "terminalLatinName": "auricularia",
+      "nomenclaturalAuthor": "Linnaeus",
+      "namingYear": "1758",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Dermaptera",
+          "commonName": "집게벌레목",
+          "ktsn": 120000020841
+        },
+        "family": {
+          "scientificName": "Forficulidae",
+          "commonName": "집게벌레과",
+          "ktsn": 120000020852
+        },
+        "genus": {
+          "scientificName": "Forficula",
+          "commonName": "못뽑이집게벌레속",
+          "ktsn": 120000020859
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "auricularia",
+          "commonName": "양집게벌레",
+          "ktsn": 120000020860
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:08:58.668Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 473785,
+        "canonical": "Forficula auricularia",
+        "fetchedAt": "2026-05-24T08:43:33.369Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [
+            "European Earwig",
+            "European earwig",
+            "European earwig",
+            "European earwig",
+            "common earwig",
+            "Common European earwig"
+          ],
+          "ja": []
+        },
+        "habitat": [
+          "valley",
+          "stream valley",
+          "river",
+          "temperate",
+          "anthropogenic",
+          "terrestrial",
+          "agricultural",
+          "forest",
+          "fossorial and/or ground dwelling only"
+        ],
+        "geographic": [
+          "Alaska",
+          "cosmopolitan",
+          "United States",
+          "the palearctic",
+          "low arctic",
+          "Greenland",
+          "Quebec",
+          "Labrador",
+          "Canadian Arctic Archipelago",
+          "Nunavut",
+          "Northwest Territories",
+          "Yukon",
+          "subarctic",
+          "South Pacific",
+          "North Pacific",
+          "North Atlantic",
+          "Argentina",
+          "United Kingdom",
+          "The Netherlands",
+          "Switzerland",
+          "Sweden",
+          "Spain",
+          "Serbia",
+          "Russia",
+          "Poland",
+          "Norway",
+          "New Zealand",
+          "Morocco",
+          "Luxembourg",
+          "Italy",
+          "Isle Of Man",
+          "Ireland",
+          "Hungary",
+          "Greece",
+          "Germany",
+          "France",
+          "Finland",
+          "Estonia",
+          "Denmark",
+          "Czech Republic",
+          "Croatia",
+          "China",
+          "Canada",
+          "Bulgaria",
+          "Belgium",
+          "Australia",
+          "Austria",
+          "Jordan"
+        ],
+        "introduced": [
+          "The Contiguous United States",
+          "The Hawaiian Islands",
+          "Alaska",
+          "Ethiopia",
+          "The Neotropics",
+          "Oceania continent (Australia, NZ and islands)",
+          "The Nearctic",
+          "Falkland Islands"
+        ],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 52794
+      },
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/404291514/medium.jpeg",
+        "months": [
+          7
+        ]
+      }
+    },
+    {
+      "ktsn": 120000020861,
+      "scientificName": "Forficula mikado Burr, 1904",
+      "commonName": "노랑날개집게벌레",
+      "terminalLatinName": "mikado",
+      "nomenclaturalAuthor": "Burr",
+      "namingYear": "1904",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Dermaptera",
+          "commonName": "집게벌레목",
+          "ktsn": 120000020841
+        },
+        "family": {
+          "scientificName": "Forficulidae",
+          "commonName": "집게벌레과",
+          "ktsn": 120000020852
+        },
+        "genus": {
+          "scientificName": "Forficula",
+          "commonName": "못뽑이집게벌레속",
+          "ktsn": 120000020859
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "mikado",
+          "commonName": "노랑날개집게벌레",
+          "ktsn": 120000020861
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:08:58.668Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 3488167,
+        "canonical": "Forficula mikado",
+        "fetchedAt": "2026-05-24T08:43:37.264Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": [
+            "キバネハサミムシ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "Japan"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 105
+      },
+      "inat": {
+        "observationCount": 3,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/596068167/medium.jpg",
+        "months": [
+          7
+        ]
+      }
+    },
+    {
+      "ktsn": 120000226375,
+      "scientificName": "Forficula scudderii Bormans, 1880",
+      "commonName": "못뽑이집게벌레",
+      "terminalLatinName": "scudderii",
+      "nomenclaturalAuthor": "Bormans",
+      "namingYear": "1880",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Dermaptera",
+          "commonName": "집게벌레목",
+          "ktsn": 120000020841
+        },
+        "family": {
+          "scientificName": "Forficulidae",
+          "commonName": "집게벌레과",
+          "ktsn": 120000020852
+        },
+        "genus": {
+          "scientificName": "Forficula",
+          "commonName": "못뽑이집게벌레속",
+          "ktsn": 120000020859
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "scudderii",
+          "commonName": "못뽑이집게벌레",
+          "ktsn": 120000226375
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:08:58.668Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 62,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/47917226/medium.png",
+        "months": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "ktsn": 120000020863,
+      "scientificName": "Forficula vicaria Semenov, 1902",
+      "commonName": "비카리아집게벌레",
+      "terminalLatinName": "vicaria",
+      "nomenclaturalAuthor": "Semenov",
+      "namingYear": "1902",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Dermaptera",
+          "commonName": "집게벌레목",
+          "ktsn": 120000020841
+        },
+        "family": {
+          "scientificName": "Forficulidae",
+          "commonName": "집게벌레과",
+          "ktsn": 120000020852
+        },
+        "genus": {
+          "scientificName": "Forficula",
+          "commonName": "못뽑이집게벌레속",
+          "ktsn": 120000020859
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "vicaria",
+          "commonName": "비카리아집게벌레",
+          "ktsn": 120000020863
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:08:58.668Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 3488183,
+        "canonical": "Forficula vicaria",
+        "fetchedAt": "2026-05-24T08:43:40.917Z",
+        "vernaculars": {
+          "ko": [
+            "비카리아집게벌레"
+          ],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 14
+      },
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/99918466/medium.jpeg",
+        "months": [
+          10
+        ]
+      }
+    },
+    {
+      "ktsn": 120000020865,
+      "scientificName": "Timomenus komarowi (Semenov, 1901)",
+      "commonName": "고마로브집게벌레",
+      "terminalLatinName": "komarowi",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Dermaptera",
+          "commonName": "집게벌레목",
+          "ktsn": 120000020841
+        },
+        "family": {
+          "scientificName": "Forficulidae",
+          "commonName": "집게벌레과",
+          "ktsn": 120000020852
+        },
+        "genus": {
+          "scientificName": "Timomenus",
+          "commonName": "세장집게벌레속",
+          "ktsn": 120000020864
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "komarowi",
+          "commonName": "고마로브집게벌레",
+          "ktsn": 120000020865
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:08:58.668Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 47369145,
+        "canonical": "Timomenus komarowi",
+        "fetchedAt": "2026-05-24T08:43:48.242Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [
+          "South Korea"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "abstract": "고마로브집게벌레는 집게벌레목, 집게벌레과에 속하는 곤충이다. 한국산 집게벌레 중에서 흔하게 볼 수 있는 종이다. 성충의 몸길이는 보통 15~20mm정도이다. 몸은 흑갈색이고 집게는 활처럼 길게 휘며 작은 돌기가 있다. 앞날개는 적갈색이며 뒷날개는 펼치면 무늬가 있다. 알은 땅속의 굴 안에서 낳는다. 봄에서 가을에 걸쳐 자주 출현한다. 동아시아에 널리 분포한다.",
+      "description": "고마로브집게벌레는 집게벌레목, 집게벌레과에 속하는 곤충이다. 한국산 집게벌레 중에서 흔하게 볼 수 있는 종이다. 성충의 몸길이는 보통 15~20mm정도이다. 몸은 흑갈색이고 집게는 활처럼 길게 휘며 작은 돌기가 있다. 앞날개는 적갈색이며 뒷날개는 펼치면 무늬가 있다. 알은 땅속의 굴 안에서 낳는다. 봄에서 가을에 걸쳐 자주 출현한다. 동아시아에 널리 분포한다.",
+      "wiki": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:05:01.616Z",
+        "title": "Timomenus komarowi",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Timomenus_komarowi_%2815502437885%29.jpg/500px-Timomenus_komarowi_%2815502437885%29.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Timomenus_komarowi_%2815502437885%29.jpg",
+        "thumbnailSize": {
+          "width": 500,
+          "height": 375
+        },
+        "originalSize": {
+          "width": 3601,
+          "height": 2700
+        },
+        "filename": "Timomenus_komarowi_(15502437885).jpg",
+        "description": "species of earwig",
+        "pageUrl": "https://en.wikipedia.org/wiki/Timomenus_komarowi",
+        "license": "see Wikimedia Commons",
+        "source": "Wikipedia"
+      }
+    }
+  ],
+  "digitalContentUpdatedAt": "2026-05-21T09:08:58.668Z",
+  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+}

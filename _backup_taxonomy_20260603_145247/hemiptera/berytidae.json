@@ -1,0 +1,409 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "hemiptera",
+    "scientificName": "Hemiptera",
+    "commonName": "노린재목",
+    "orderKtsn": 120000066597
+  },
+  "family": {
+    "id": "berytidae",
+    "scientificName": "Berytidae",
+    "commonName": "실노린재과",
+    "familyKtsn": 120000024962
+  },
+  "speciesCount": 4,
+  "insects": [
+    {
+      "ktsn": 120000024965,
+      "scientificName": "Berytinus (Berytinus) clavipes (Fabricius, 1775)",
+      "commonName": "딱다기노린재",
+      "terminalLatinName": "clavipes",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Berytidae",
+          "commonName": "실노린재과",
+          "ktsn": 120000024962
+        },
+        "genus": {
+          "scientificName": "Berytinus",
+          "commonName": "참실노린재속",
+          "ktsn": 120000024963
+        },
+        "subgenus": {
+          "scientificName": "Berytinus",
+          "commonName": "",
+          "ktsn": 120000024964
+        },
+        "species": {
+          "scientificName": "clavipes",
+          "commonName": "딱다기노린재",
+          "ktsn": 120000024965
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:24:04.697Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 609050,
+        "canonical": "Berytinus clavipes",
+        "fetchedAt": "2026-05-24T09:40:27.926Z",
+        "vernaculars": {
+          "ko": [
+            "딱다기노린재"
+          ],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [
+          "valley",
+          "river"
+        ],
+        "geographic": [
+          "Austria",
+          "Czech Republic",
+          "Estonia",
+          "Finland",
+          "Germany",
+          "Luxembourg",
+          "Sweden",
+          "United Kingdom"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 773
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:39.876Z"
+      }
+    },
+    {
+      "ktsn": 120000024968,
+      "scientificName": "Metacanthus (Cardopostethus) pulchellus Dallas, 1852",
+      "commonName": "각시실노린재",
+      "terminalLatinName": "pulchellus",
+      "nomenclaturalAuthor": "Dallas",
+      "namingYear": "1852",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Berytidae",
+          "commonName": "실노린재과",
+          "ktsn": 120000024962
+        },
+        "genus": {
+          "scientificName": "Metacanthus",
+          "commonName": "각시실노린재속",
+          "ktsn": 120000024966
+        },
+        "subgenus": {
+          "scientificName": "Cardopostethus",
+          "commonName": "",
+          "ktsn": 120000024967
+        },
+        "species": {
+          "scientificName": "pulchellus",
+          "commonName": "각시실노린재",
+          "ktsn": 120000024968
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:24:04.697Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 3691406,
+        "canonical": "Metacanthus pulchellus",
+        "fetchedAt": "2026-05-24T09:40:31.408Z",
+        "vernaculars": {
+          "ko": [
+            "각시실노린재"
+          ],
+          "en": [],
+          "ja": [
+            "ヒメイトカメムシ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "Japan"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 54
+      },
+      "inat": {
+        "observationCount": 3,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/134625497/medium.jpeg",
+        "months": [
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "ktsn": 120000024970,
+      "scientificName": "Metatropis tesongsanicus Josifov, 1975",
+      "commonName": "대성산실노린재",
+      "terminalLatinName": "tesongsanicus",
+      "nomenclaturalAuthor": "Josifov",
+      "namingYear": "1975",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "Y",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Berytidae",
+          "commonName": "실노린재과",
+          "ktsn": 120000024962
+        },
+        "genus": {
+          "scientificName": "Metatropis",
+          "commonName": "대성산실노린재속",
+          "ktsn": 120000024969
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "tesongsanicus",
+          "commonName": "대성산실노린재",
+          "ktsn": 120000024970
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:24:04.697Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 46912221,
+        "canonical": "Metatropis tesongsanicus",
+        "fetchedAt": "2026-05-24T09:40:36.743Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:39.876Z"
+      }
+    },
+    {
+      "ktsn": 120000024972,
+      "scientificName": "Yemma exilis (Horváth, 1905)",
+      "commonName": "실노린재",
+      "terminalLatinName": "exilis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Berytidae",
+          "commonName": "실노린재과",
+          "ktsn": 120000024962
+        },
+        "genus": {
+          "scientificName": "Yemma",
+          "commonName": "실노린재속",
+          "ktsn": 120000024971
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "exilis",
+          "commonName": "실노린재",
+          "ktsn": 120000024972
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:24:04.697Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 46338183,
+        "canonical": "Yemma exilis",
+        "fetchedAt": "2026-05-24T09:40:41.970Z",
+        "vernaculars": {
+          "ko": [
+            "실노린재"
+          ],
+          "en": [],
+          "ja": [
+            "イトカメムシ",
+            "イトカメムシ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "Japan",
+          "South Korea"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 928
+      },
+      "inat": {
+        "observationCount": 89,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/7850482/medium.jpg",
+        "months": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    }
+  ],
+  "digitalContentUpdatedAt": "2026-05-21T09:24:04.697Z",
+  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+}

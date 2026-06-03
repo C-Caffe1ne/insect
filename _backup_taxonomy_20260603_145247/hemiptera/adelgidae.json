@@ -1,0 +1,403 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "hemiptera",
+    "scientificName": "Hemiptera",
+    "commonName": "노린재목",
+    "orderKtsn": 120000066597
+  },
+  "family": {
+    "id": "adelgidae",
+    "scientificName": "Adelgidae",
+    "commonName": "솜벌레과",
+    "familyKtsn": 120000024058
+  },
+  "speciesCount": 4,
+  "insects": [
+    {
+      "ktsn": 120000024061,
+      "scientificName": "Adelges (Adelges) laricis Vallot, 1836",
+      "commonName": "낙엽송방울솜벌레",
+      "terminalLatinName": "laricis",
+      "nomenclaturalAuthor": "Vallot",
+      "namingYear": "1836",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Adelgidae",
+          "commonName": "솜벌레과",
+          "ktsn": 120000024058
+        },
+        "genus": {
+          "scientificName": "Adelges",
+          "commonName": "",
+          "ktsn": 120000024059
+        },
+        "subgenus": {
+          "scientificName": "Adelges",
+          "commonName": "",
+          "ktsn": 120000024060
+        },
+        "species": {
+          "scientificName": "laricis",
+          "commonName": "낙엽송방울솜벌레",
+          "ktsn": 120000024061
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:21:53.224Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 3687184,
+        "canonical": "Adelges laricis",
+        "fetchedAt": "2026-05-24T09:33:42.524Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [
+            "Larch Woolly Aphid",
+            "Larch adelgid",
+            "larch aphid",
+            "Larch Adelges",
+            "Woolly Larch Aphid"
+          ],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [
+          "United States",
+          "Norway",
+          "Canada",
+          "Germany",
+          "Poland",
+          "Sweden",
+          "Switzerland",
+          "United Kingdom",
+          "North Atlantic"
+        ],
+        "introduced": [
+          "The Contiguous United States",
+          "Estonia"
+        ],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 1204
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:23.453Z"
+      }
+    },
+    {
+      "ktsn": 120000024063,
+      "scientificName": "Adelges (Cholodkovskya) viridanus (Cholodkovsky, 1896)",
+      "commonName": "초록방울솜벌레",
+      "terminalLatinName": "viridanus",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Adelgidae",
+          "commonName": "솜벌레과",
+          "ktsn": 120000024058
+        },
+        "genus": {
+          "scientificName": "Adelges",
+          "commonName": "",
+          "ktsn": 120000024059
+        },
+        "subgenus": {
+          "scientificName": "Cholodkovskya",
+          "commonName": "",
+          "ktsn": 120000024062
+        },
+        "species": {
+          "scientificName": "viridanus",
+          "commonName": "초록방울솜벌레",
+          "ktsn": 120000024063
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:21:53.224Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 46927473,
+        "canonical": "Adelges viridanus",
+        "fetchedAt": "2026-05-24T09:33:49.588Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [
+          "Sweden"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 22
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:06:23.453Z",
+        "title": "Adelges viridanus",
+        "description": "species of insect"
+      }
+    },
+    {
+      "ktsn": 120000024066,
+      "scientificName": "Pineus (Pineus) hosoyai Inouye, 1945",
+      "commonName": "잣나무솜벌레",
+      "terminalLatinName": "hosoyai",
+      "nomenclaturalAuthor": "Inouye",
+      "namingYear": "1945",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Adelgidae",
+          "commonName": "솜벌레과",
+          "ktsn": 120000024058
+        },
+        "genus": {
+          "scientificName": "Pineus",
+          "commonName": "",
+          "ktsn": 120000024064
+        },
+        "subgenus": {
+          "scientificName": "Pineus",
+          "commonName": "",
+          "ktsn": 120000024065
+        },
+        "species": {
+          "scientificName": "hosoyai",
+          "commonName": "잣나무솜벌레",
+          "ktsn": 120000024066
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:21:53.224Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 7669324,
+        "canonical": "Pineus hosoyai",
+        "fetchedAt": "2026-05-24T09:34:01.773Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:23.453Z"
+      }
+    },
+    {
+      "ktsn": 120000024067,
+      "scientificName": "Pineus (Pineus) orientalis (Dreyfus, 1888)",
+      "commonName": "소나무솜벌레",
+      "terminalLatinName": "orientalis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Hemiptera",
+          "commonName": "노린재목",
+          "ktsn": 120000066597
+        },
+        "family": {
+          "scientificName": "Adelgidae",
+          "commonName": "솜벌레과",
+          "ktsn": 120000024058
+        },
+        "genus": {
+          "scientificName": "Pineus",
+          "commonName": "",
+          "ktsn": 120000024064
+        },
+        "subgenus": {
+          "scientificName": "Pineus",
+          "commonName": "",
+          "ktsn": 120000024065
+        },
+        "species": {
+          "scientificName": "orientalis",
+          "commonName": "소나무솜벌레",
+          "ktsn": 120000024067
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:21:53.224Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 3687181,
+        "canonical": "Pineus orientalis",
+        "fetchedAt": "2026-05-24T09:34:05.561Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [
+          "Turkey",
+          "Switzerland",
+          "Poland"
+        ],
+        "introduced": [
+          "Czech Republic",
+          "Estonia"
+        ],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 85
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:23.453Z"
+      }
+    }
+  ],
+  "digitalContentUpdatedAt": "2026-05-21T09:21:53.224Z",
+  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+}

@@ -1,0 +1,448 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "coleoptera",
+    "scientificName": "Coleoptera",
+    "commonName": "딱정벌레목",
+    "orderKtsn": 120000013750,
+    "abstract": "딱정벌레목(Coleoptera)은 곤충의 종 가운데 40%인 35만여종을 차지하는 목이다. 아직 발견되지 않은 종까지 합치면 500만~800만여종이 될 것으로 추정된다. 먹는 먹이도 다양해서 식물의 잎, 송사리 등의 작은 물고기, 나무의 즙, 작은 동물, 동물의 시체 등 매우 다양하다. 딱정벌레목에 속한 곤충으로는 무당벌레, 딱정벌레, 길앞잡이, 물방개, 장수풍뎅이 등이 있다. 대부분이 두꺼운 키틴질로 된 딱딱한 껍데기를 가지고 있어서 갑충(甲蟲)이라고도 불린다.",
+    "description": "딱정벌레목(Coleoptera)은 곤충의 종 가운데 40%인 35만여종을 차지하는 목이다. 아직 발견되지 않은 종까지 합치면 500만~800만여종이 될 것으로 추정된다. 먹는 먹이도 다양해서 식물의 잎, 송사리 등의 작은 물고기, 나무의 즙, 작은 동물, 동물의 시체 등 매우 다양하다. 딱정벌레목에 속한 곤충으로는 무당벌레, 딱정벌레, 길앞잡이, 물방개, 장수풍뎅이 등이 있다. 대부분이 두꺼운 키틴질로 된 딱딱한 껍데기를 가지고 있어서 갑충(甲蟲)이라고도 불린다."
+  },
+  "family": {
+    "id": "heteroceridae",
+    "scientificName": "Heteroceridae",
+    "commonName": "진흙벌레과",
+    "familyKtsn": 120000017522
+  },
+  "speciesCount": 5,
+  "insects": [
+    {
+      "ktsn": 120000017525,
+      "scientificName": "Augyles (Augyles) japonicus (Kôno, 1931)",
+      "commonName": "일본진흙벌레",
+      "terminalLatinName": "japonicus",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Heteroceridae",
+          "commonName": "진흙벌레과",
+          "ktsn": 120000017522
+        },
+        "genus": {
+          "scientificName": "Augyles",
+          "commonName": "알락진흙벌레속",
+          "ktsn": 120000017523
+        },
+        "subgenus": {
+          "scientificName": "Augyles",
+          "commonName": "",
+          "ktsn": 120000017524
+        },
+        "species": {
+          "scientificName": "japonicus",
+          "commonName": "일본진흙벌레",
+          "ktsn": 120000017525
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:01:55.279Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:04:14.890Z"
+      }
+    },
+    {
+      "ktsn": 120000017526,
+      "scientificName": "Augyles (Augyles) koreanus (Skalický, 1994)",
+      "commonName": "고려진흙벌레",
+      "terminalLatinName": "koreanus",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Heteroceridae",
+          "commonName": "진흙벌레과",
+          "ktsn": 120000017522
+        },
+        "genus": {
+          "scientificName": "Augyles",
+          "commonName": "알락진흙벌레속",
+          "ktsn": 120000017523
+        },
+        "subgenus": {
+          "scientificName": "Augyles",
+          "commonName": "",
+          "ktsn": 120000017524
+        },
+        "species": {
+          "scientificName": "koreanus",
+          "commonName": "고려진흙벌레",
+          "ktsn": 120000017526
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:01:55.279Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 13805823,
+        "canonical": "Augyles koreanus",
+        "fetchedAt": "2026-05-24T07:59:31.031Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:04:14.890Z"
+      }
+    },
+    {
+      "ktsn": 120000017527,
+      "scientificName": "Augyles (Augyles) mascagnii (Skalický, 1994)",
+      "commonName": "마스카니진흙벌레",
+      "terminalLatinName": "mascagnii",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Heteroceridae",
+          "commonName": "진흙벌레과",
+          "ktsn": 120000017522
+        },
+        "genus": {
+          "scientificName": "Augyles",
+          "commonName": "알락진흙벌레속",
+          "ktsn": 120000017523
+        },
+        "subgenus": {
+          "scientificName": "Augyles",
+          "commonName": "",
+          "ktsn": 120000017524
+        },
+        "species": {
+          "scientificName": "mascagnii",
+          "commonName": "마스카니진흙벌레",
+          "ktsn": 120000017527
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:01:55.279Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 13805830,
+        "canonical": "Augyles mascagnii",
+        "fetchedAt": "2026-05-24T07:59:35.535Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:04:14.890Z"
+      }
+    },
+    {
+      "ktsn": 120000017529,
+      "scientificName": "Heterocerus fenestratus Thunberg, 1784",
+      "commonName": "알락진흙벌레",
+      "terminalLatinName": "fenestratus",
+      "nomenclaturalAuthor": "Thunberg",
+      "namingYear": "1784",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Heteroceridae",
+          "commonName": "진흙벌레과",
+          "ktsn": 120000017522
+        },
+        "genus": {
+          "scientificName": "Heterocerus",
+          "commonName": "진흙벌레속",
+          "ktsn": 120000017528
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "fenestratus",
+          "commonName": "알락진흙벌레",
+          "ktsn": 120000017529
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:01:55.279Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 2941830,
+        "canonical": "Heterocerus fenestratus",
+        "fetchedAt": "2026-05-24T07:59:38.096Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [
+          "Norway"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "inat": {
+        "observationCount": 2,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/424382980/medium.jpg",
+        "months": [
+          7
+        ]
+      }
+    },
+    {
+      "ktsn": 120000017530,
+      "scientificName": "Heterocerus marginatus (Fabricius, 1787)",
+      "commonName": "강변진흙벌레",
+      "terminalLatinName": "marginatus",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Heteroceridae",
+          "commonName": "진흙벌레과",
+          "ktsn": 120000017522
+        },
+        "genus": {
+          "scientificName": "Heterocerus",
+          "commonName": "진흙벌레속",
+          "ktsn": 120000017528
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "marginatus",
+          "commonName": "강변진흙벌레",
+          "ktsn": 120000017530
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:01:55.279Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 3269436,
+        "canonical": "Heterocerus marginatus",
+        "fetchedAt": "2026-05-24T07:59:40.998Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:04:14.890Z"
+      }
+    }
+  ],
+  "digitalContentUpdatedAt": "2026-05-21T09:01:55.279Z",
+  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+}

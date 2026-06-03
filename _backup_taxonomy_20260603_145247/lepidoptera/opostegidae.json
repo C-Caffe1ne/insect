@@ -1,0 +1,97 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "lepidoptera",
+    "scientificName": "Lepidoptera",
+    "commonName": "나비목",
+    "orderKtsn": 120000031663
+  },
+  "family": {
+    "id": "opostegidae",
+    "scientificName": "Opostegidae",
+    "commonName": "흰꼬마굴나방과",
+    "familyKtsn": 120000035902
+  },
+  "speciesCount": 1,
+  "insects": [
+    {
+      "ktsn": 120000514399,
+      "scientificName": "Opostegoides minodensis (Kuroko, 1982)",
+      "commonName": "흰꼬마굴나방",
+      "terminalLatinName": "minodensis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Opostegidae",
+          "commonName": "흰꼬마굴나방과",
+          "ktsn": 120000035902
+        },
+        "genus": {
+          "scientificName": "Opostegoides",
+          "commonName": "",
+          "ktsn": 120000232734
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "minodensis",
+          "commonName": "흰꼬마굴나방",
+          "ktsn": 120000514399
+        }
+      },
+      "eol": {
+        "pageId": 965520,
+        "canonical": "Opostegoides minodensis",
+        "fetchedAt": "2026-05-24T18:54:18.278Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": [
+            "ミノドヒラタモグリガ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:10:06.715Z",
+        "title": "Opostegoides minodensis",
+        "description": "species of insect"
+      }
+    }
+  ]
+}

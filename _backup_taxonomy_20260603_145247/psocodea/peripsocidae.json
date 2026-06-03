@@ -1,0 +1,103 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "psocodea",
+    "scientificName": "Psocodea",
+    "commonName": "다듬이벌레목",
+    "orderKtsn": 120000038214
+  },
+  "family": {
+    "id": "peripsocidae",
+    "scientificName": "Peripsocidae",
+    "commonName": "창다듬이벌레과",
+    "familyKtsn": 120000210550
+  },
+  "speciesCount": 1,
+  "insects": [
+    {
+      "ktsn": 120000210552,
+      "scientificName": "Peripsocus didymus Roesler, 1939",
+      "commonName": "창다듬이벌레",
+      "terminalLatinName": "didymus",
+      "nomenclaturalAuthor": "Roesler",
+      "namingYear": "1939",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Psocodea",
+          "commonName": "다듬이벌레목",
+          "ktsn": 120000038214
+        },
+        "family": {
+          "scientificName": "Peripsocidae",
+          "commonName": "창다듬이벌레과",
+          "ktsn": 120000210550
+        },
+        "genus": {
+          "scientificName": "Peripsocus",
+          "commonName": "",
+          "ktsn": 120000210551
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "didymus",
+          "commonName": "창다듬이벌레",
+          "ktsn": 120000210552
+        }
+      },
+      "eol": {
+        "pageId": 4192635,
+        "canonical": "Peripsocus didymus",
+        "fetchedAt": "2026-05-24T18:34:47.091Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [
+          "North Atlantic",
+          "United Kingdom",
+          "Sweden",
+          "Norway",
+          "Luxembourg",
+          "Ireland",
+          "Germany"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 198
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:10:35.526Z",
+        "title": "Peripsocus didymus",
+        "description": "species of insect"
+      }
+    }
+  ]
+}

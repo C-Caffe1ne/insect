@@ -1,0 +1,805 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "diptera",
+    "scientificName": "Diptera",
+    "commonName": "파리목",
+    "orderKtsn": 120000020933,
+    "abstract": "파리목(Diptera)은 파리, 모기, 등에 등이 속해 있는 곤충의 한 분류이다. 수십 개의 과에 85,000여 종이 있다. 대한민국에서 발견하여 기록한 전체기록 종은 1,099종이다. 작거나 중간 크기의 곤충으로서, 형태와 습성이 매우 다양하다. 머리부에는 발달된 겹눈이 있으며, 입은 찌르는형·씹는형·핥는형 등이 있고, 다양한 촉각을 갖는다. 특히 앞날개가 발달하여 있으며, 맥은 적으나 나는 힘은 강하다. 뒷날개는 변형되어 평형을 유지하는 기관인 평형곤이 되었다. 날개가 퇴화된 것도 많다. 완전변태를 하며, 유충은 애벌래 형태를 띈다. 파리는 우리 주위에서 쉽게 볼 수 있지만, 바다에서 생활하는 종류도 있다. 모기·깔따구·등에·파리매·똥파리·초파리·집파리·쇠파리·쉬파리·각다귀 등이 이에 포함된다.",
+    "description": "파리목(Diptera)은 파리, 모기, 등에 등이 속해 있는 곤충의 한 분류이다. 수십 개의 과에 85,000여 종이 있다. 대한민국에서 발견하여 기록한 전체기록 종은 1,099종이다. 작거나 중간 크기의 곤충으로서, 형태와 습성이 매우 다양하다. 머리부에는 발달된 겹눈이 있으며, 입은 찌르는형·씹는형·핥는형 등이 있고, 다양한 촉각을 갖는다. 특히 앞날개가 발달하여 있으며, 맥은 적으나 나는 힘은 강하다. 뒷날개는 변형되어 평형을 유지하는 기관인 평형곤이 되었다. 날개가 퇴화된 것도 많다. 완전변태를 하며, 유충은 애벌래 형태를 띈다. 파리는 우리 주위에서 쉽게 볼 수 있지만, 바다에서 생활하는 종류도 있다. 모기·깔따구·등에·파리매·똥파리·초파리·집파리·쇠파리·쉬파리·각다귀 등이 이에 포함된다."
+  },
+  "family": {
+    "id": "ulidiidae",
+    "scientificName": "Ulidiidae",
+    "commonName": "띠날개파리과",
+    "familyKtsn": 120000023713
+  },
+  "speciesCount": 8,
+  "insects": [
+    {
+      "ktsn": 120000023715,
+      "scientificName": "Ceroxys amurensis Hennig, 1939",
+      "commonName": "검정띠날개파리",
+      "terminalLatinName": "amurensis",
+      "nomenclaturalAuthor": "Hennig",
+      "namingYear": "1939",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Ulidiidae",
+          "commonName": "띠날개파리과",
+          "ktsn": 120000023713
+        },
+        "genus": {
+          "scientificName": "Ceroxys",
+          "commonName": "",
+          "ktsn": 120000023714
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "amurensis",
+          "commonName": "검정띠날개파리",
+          "ktsn": 120000023715
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:20:58.354Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 811342,
+        "canonical": "Ceroxys amurensis",
+        "fetchedAt": "2026-05-24T09:18:06.171Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 1
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:06:17.263Z",
+        "title": "Ceroxys amurensis",
+        "description": "species of insect"
+      }
+    },
+    {
+      "ktsn": 120000023716,
+      "scientificName": "Ceroxys urticae (Linnaeus, 1758)",
+      "commonName": "네띠날개파리",
+      "terminalLatinName": "urticae",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Ulidiidae",
+          "commonName": "띠날개파리과",
+          "ktsn": 120000023713
+        },
+        "genus": {
+          "scientificName": "Ceroxys",
+          "commonName": "",
+          "ktsn": 120000023714
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "urticae",
+          "commonName": "네띠날개파리",
+          "ktsn": 120000023716
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:20:58.354Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 811327,
+        "canonical": "Ceroxys urticae",
+        "fetchedAt": "2026-05-24T09:18:09.143Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [
+            "Band-winged Wingwaver"
+          ],
+          "ja": []
+        },
+        "habitat": [
+          "wadi",
+          "valley",
+          "meadow",
+          "desert oasis"
+        ],
+        "geographic": [
+          "China",
+          "Eastern Siberia",
+          "Egypt",
+          "Israel",
+          "Iran",
+          "Europe",
+          "Kazakhstan",
+          "Uzbekistan",
+          "Kyrgyzstan",
+          "Saudi Arabia",
+          "Mongolia",
+          "Siberia",
+          "Turkmenistan",
+          "United Kingdom",
+          "The Netherlands",
+          "Sweden",
+          "Russia",
+          "Norway",
+          "Finland",
+          "Belgium"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 1593
+      },
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/577410948/medium.jpg",
+        "months": [
+          10
+        ]
+      }
+    },
+    {
+      "ktsn": 120000023718,
+      "scientificName": "Herina hennigi Hering, 1940",
+      "commonName": "가로띠날개파리",
+      "terminalLatinName": "hennigi",
+      "nomenclaturalAuthor": "Hering",
+      "namingYear": "1940",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Ulidiidae",
+          "commonName": "띠날개파리과",
+          "ktsn": 120000023713
+        },
+        "genus": {
+          "scientificName": "Herina",
+          "commonName": "",
+          "ktsn": 120000023717
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "hennigi",
+          "commonName": "가로띠날개파리",
+          "ktsn": 120000023718
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:20:58.354Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 811320,
+        "canonical": "Herina hennigi",
+        "fetchedAt": "2026-05-24T09:18:13.009Z",
+        "vernaculars": {
+          "ko": [
+            "가로띠날개파리"
+          ],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 1
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:17.263Z"
+      }
+    },
+    {
+      "ktsn": 120000023719,
+      "scientificName": "Herina zojae Kameneva, 1999",
+      "commonName": "세로띠날개파리",
+      "terminalLatinName": "zojae",
+      "nomenclaturalAuthor": "Kameneva",
+      "namingYear": "1999",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Ulidiidae",
+          "commonName": "띠날개파리과",
+          "ktsn": 120000023713
+        },
+        "genus": {
+          "scientificName": "Herina",
+          "commonName": "",
+          "ktsn": 120000023717
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "zojae",
+          "commonName": "세로띠날개파리",
+          "ktsn": 120000023719
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:20:58.354Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 785562,
+        "canonical": "Herina zojae",
+        "fetchedAt": "2026-05-24T09:18:15.906Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:06:17.263Z",
+        "title": "Herina (fly)",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Bastavales%2C_Bri%C3%B3n._090706.JPG/500px-Bastavales%2C_Bri%C3%B3n._090706.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Bastavales%2C_Bri%C3%B3n._090706.JPG",
+        "thumbnailSize": {
+          "width": 500,
+          "height": 666
+        },
+        "originalSize": {
+          "width": 883,
+          "height": 1177
+        },
+        "filename": "Bastavales,_Brión._090706.JPG",
+        "description": "genus of insects",
+        "pageUrl": "https://en.wikipedia.org/wiki/Herina_(fly)",
+        "license": "see Wikimedia Commons",
+        "source": "Wikipedia"
+      }
+    },
+    {
+      "ktsn": 120000023721,
+      "scientificName": "Melieria omissa Meigen, 1826",
+      "commonName": "밀가루띠날개파리",
+      "terminalLatinName": "omissa",
+      "nomenclaturalAuthor": "Meigen",
+      "namingYear": "1826",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Ulidiidae",
+          "commonName": "띠날개파리과",
+          "ktsn": 120000023713
+        },
+        "genus": {
+          "scientificName": "Melieria",
+          "commonName": "",
+          "ktsn": 120000023720
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "omissa",
+          "commonName": "밀가루띠날개파리",
+          "ktsn": 120000023721
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:20:58.354Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 811295,
+        "canonical": "Melieria omissa",
+        "fetchedAt": "2026-05-24T09:18:19.794Z",
+        "vernaculars": {
+          "ko": [
+            "밀가루띠날개파리"
+          ],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [
+          "Egypt",
+          "The Netherlands",
+          "Mongolia",
+          "Algeria",
+          "Russia",
+          "Romania",
+          "Ukraine",
+          "Hungary",
+          "Belgium",
+          "Italy",
+          "Morocco",
+          "Denmark",
+          "Great Britain",
+          "Saudi Arabia",
+          "Iran",
+          "Greece",
+          "Austria",
+          "Poland",
+          "France",
+          "Switzerland",
+          "Korea",
+          "Latvia",
+          "Israel",
+          "Spain",
+          "Czech Republic",
+          "Slovakia",
+          "Japan",
+          "Germany",
+          "United Kingdom",
+          "Turkmenistan",
+          "Sweden",
+          "Norway",
+          "Finland"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 1211
+      },
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/7934748/medium.jpg",
+        "months": [
+          5
+        ]
+      }
+    },
+    {
+      "ktsn": 120000023723,
+      "scientificName": "Myennis sibirica Portschinsky, 1892",
+      "commonName": "맵시띠날개파리",
+      "terminalLatinName": "sibirica",
+      "nomenclaturalAuthor": "Portschinsky",
+      "namingYear": "1892",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Ulidiidae",
+          "commonName": "띠날개파리과",
+          "ktsn": 120000023713
+        },
+        "genus": {
+          "scientificName": "Myennis",
+          "commonName": "",
+          "ktsn": 120000023722
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "sibirica",
+          "commonName": "맵시띠날개파리",
+          "ktsn": 120000023723
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:20:58.354Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 811354,
+        "canonical": "Myennis sibirica",
+        "fetchedAt": "2026-05-24T09:18:23.281Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [
+          "Russia"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 8
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:06:17.263Z",
+        "title": "Myennis sibirica",
+        "description": "species of insect"
+      }
+    },
+    {
+      "ktsn": 120000023725,
+      "scientificName": "Pseudoseioptera demonstrans (Hennig, 1941)",
+      "commonName": "끝검정띠날개파리",
+      "terminalLatinName": "demonstrans",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Ulidiidae",
+          "commonName": "띠날개파리과",
+          "ktsn": 120000023713
+        },
+        "genus": {
+          "scientificName": "Pseudoseioptera",
+          "commonName": "",
+          "ktsn": 120000023724
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "demonstrans",
+          "commonName": "끝검정띠날개파리",
+          "ktsn": 120000023725
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:20:58.354Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:17.263Z"
+      }
+    },
+    {
+      "ktsn": 120000023727,
+      "scientificName": "Pseudotephritis millepunctata (Hennig, 1939)",
+      "commonName": "곰보띠날개파리",
+      "terminalLatinName": "millepunctata",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Ulidiidae",
+          "commonName": "띠날개파리과",
+          "ktsn": 120000023713
+        },
+        "genus": {
+          "scientificName": "Pseudotephritis",
+          "commonName": "",
+          "ktsn": 120000023726
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "millepunctata",
+          "commonName": "곰보띠날개파리",
+          "ktsn": 120000023727
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:20:58.354Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 811345,
+        "canonical": "Pseudotephritis millepunctata",
+        "fetchedAt": "2026-05-24T09:18:37.610Z",
+        "vernaculars": {
+          "ko": [
+            "곰보띠날개파리"
+          ],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 8
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:06:17.263Z",
+        "title": "Pseudotephritis millepunctata",
+        "description": "species of insect"
+      }
+    }
+  ],
+  "digitalContentUpdatedAt": "2026-05-21T09:20:58.354Z",
+  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+}

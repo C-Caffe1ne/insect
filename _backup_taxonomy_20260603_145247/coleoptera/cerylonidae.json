@@ -1,0 +1,274 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "coleoptera",
+    "scientificName": "Coleoptera",
+    "commonName": "딱정벌레목",
+    "orderKtsn": 120000013750,
+    "abstract": "딱정벌레목(Coleoptera)은 곤충의 종 가운데 40%인 35만여종을 차지하는 목이다. 아직 발견되지 않은 종까지 합치면 500만~800만여종이 될 것으로 추정된다. 먹는 먹이도 다양해서 식물의 잎, 송사리 등의 작은 물고기, 나무의 즙, 작은 동물, 동물의 시체 등 매우 다양하다. 딱정벌레목에 속한 곤충으로는 무당벌레, 딱정벌레, 길앞잡이, 물방개, 장수풍뎅이 등이 있다. 대부분이 두꺼운 키틴질로 된 딱딱한 껍데기를 가지고 있어서 갑충(甲蟲)이라고도 불린다.",
+    "description": "딱정벌레목(Coleoptera)은 곤충의 종 가운데 40%인 35만여종을 차지하는 목이다. 아직 발견되지 않은 종까지 합치면 500만~800만여종이 될 것으로 추정된다. 먹는 먹이도 다양해서 식물의 잎, 송사리 등의 작은 물고기, 나무의 즙, 작은 동물, 동물의 시체 등 매우 다양하다. 딱정벌레목에 속한 곤충으로는 무당벌레, 딱정벌레, 길앞잡이, 물방개, 장수풍뎅이 등이 있다. 대부분이 두꺼운 키틴질로 된 딱딱한 껍데기를 가지고 있어서 갑충(甲蟲)이라고도 불린다."
+  },
+  "family": {
+    "id": "cerylonidae",
+    "scientificName": "Cerylonidae",
+    "commonName": "애고목벌레과",
+    "familyKtsn": 120000015187
+  },
+  "speciesCount": 3,
+  "insects": [
+    {
+      "ktsn": 120000015189,
+      "scientificName": "Cautomus hystriculus Sharp, 1885",
+      "commonName": "창주둥이애고목벌레",
+      "terminalLatinName": "hystriculus",
+      "nomenclaturalAuthor": "Sharp",
+      "namingYear": "1885",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Cerylonidae",
+          "commonName": "애고목벌레과",
+          "ktsn": 120000015187
+        },
+        "genus": {
+          "scientificName": "Cautomus",
+          "commonName": "창주둥이애고목벌레속",
+          "ktsn": 120000015188
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "hystriculus",
+          "commonName": "창주둥이애고목벌레",
+          "ktsn": 120000015189
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:55:32.507Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:03:36.726Z"
+      }
+    },
+    {
+      "ktsn": 120000503140,
+      "scientificName": "Cerylon sharpi Nakane, 1967",
+      "commonName": "두점가슴애고목벌레",
+      "terminalLatinName": "sharpi",
+      "nomenclaturalAuthor": "Nakane",
+      "namingYear": "1967",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Cerylonidae",
+          "commonName": "애고목벌레과",
+          "ktsn": 120000015187
+        },
+        "genus": {
+          "scientificName": "Cerylon",
+          "commonName": "",
+          "ktsn": 120000503139
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "sharpi",
+          "commonName": "두점가슴애고목벌레",
+          "ktsn": 120000503140
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:55:32.507Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 40957501,
+        "canonical": "Cerylon sharpi",
+        "fetchedAt": "2026-05-24T07:45:20.904Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:03:36.726Z"
+      }
+    },
+    {
+      "ktsn": 120000475479,
+      "scientificName": "Thyroderus porcatus Sharp, 1885",
+      "commonName": "네홈가슴애고목벌레",
+      "terminalLatinName": "porcatus",
+      "nomenclaturalAuthor": "Sharp",
+      "namingYear": "1885",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Cerylonidae",
+          "commonName": "애고목벌레과",
+          "ktsn": 120000015187
+        },
+        "genus": {
+          "scientificName": "Thyroderus",
+          "commonName": "",
+          "ktsn": 120000475478
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "porcatus",
+          "commonName": "네홈가슴애고목벌레",
+          "ktsn": 120000475479
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:55:32.507Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 40957688,
+        "canonical": "Thyroderus porcatus",
+        "fetchedAt": "2026-05-24T07:45:15.381Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": [
+            "アナムネカクホソカタムシ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "Japan"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:03:36.726Z"
+      }
+    }
+  ],
+  "digitalContentUpdatedAt": "2026-05-21T08:55:32.507Z",
+  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+}

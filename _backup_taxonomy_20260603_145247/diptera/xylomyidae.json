@@ -1,0 +1,391 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "diptera",
+    "scientificName": "Diptera",
+    "commonName": "파리목",
+    "orderKtsn": 120000020933,
+    "abstract": "파리목(Diptera)은 파리, 모기, 등에 등이 속해 있는 곤충의 한 분류이다. 수십 개의 과에 85,000여 종이 있다. 대한민국에서 발견하여 기록한 전체기록 종은 1,099종이다. 작거나 중간 크기의 곤충으로서, 형태와 습성이 매우 다양하다. 머리부에는 발달된 겹눈이 있으며, 입은 찌르는형·씹는형·핥는형 등이 있고, 다양한 촉각을 갖는다. 특히 앞날개가 발달하여 있으며, 맥은 적으나 나는 힘은 강하다. 뒷날개는 변형되어 평형을 유지하는 기관인 평형곤이 되었다. 날개가 퇴화된 것도 많다. 완전변태를 하며, 유충은 애벌래 형태를 띈다. 파리는 우리 주위에서 쉽게 볼 수 있지만, 바다에서 생활하는 종류도 있다. 모기·깔따구·등에·파리매·똥파리·초파리·집파리·쇠파리·쉬파리·각다귀 등이 이에 포함된다.",
+    "description": "파리목(Diptera)은 파리, 모기, 등에 등이 속해 있는 곤충의 한 분류이다. 수십 개의 과에 85,000여 종이 있다. 대한민국에서 발견하여 기록한 전체기록 종은 1,099종이다. 작거나 중간 크기의 곤충으로서, 형태와 습성이 매우 다양하다. 머리부에는 발달된 겹눈이 있으며, 입은 찌르는형·씹는형·핥는형 등이 있고, 다양한 촉각을 갖는다. 특히 앞날개가 발달하여 있으며, 맥은 적으나 나는 힘은 강하다. 뒷날개는 변형되어 평형을 유지하는 기관인 평형곤이 되었다. 날개가 퇴화된 것도 많다. 완전변태를 하며, 유충은 애벌래 형태를 띈다. 파리는 우리 주위에서 쉽게 볼 수 있지만, 바다에서 생활하는 종류도 있다. 모기·깔따구·등에·파리매·똥파리·초파리·집파리·쇠파리·쉬파리·각다귀 등이 이에 포함된다."
+  },
+  "family": {
+    "id": "xylomyidae",
+    "scientificName": "Xylomyidae",
+    "commonName": "점밑들이파리매과",
+    "familyKtsn": 120000023728
+  },
+  "speciesCount": 4,
+  "insects": [
+    {
+      "ktsn": 120000518024,
+      "scientificName": "Solva harmandi Séguy, 1956",
+      "commonName": "알통다리점밑들이파리매",
+      "terminalLatinName": "harmandi",
+      "nomenclaturalAuthor": "Séguy",
+      "namingYear": "1956",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Xylomyidae",
+          "commonName": "점밑들이파리매과",
+          "ktsn": 120000023728
+        },
+        "genus": {
+          "scientificName": "Solva",
+          "commonName": "알통다리점밑들이파리매속",
+          "ktsn": 120000075291
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "harmandi",
+          "commonName": "알통다리점밑들이파리매",
+          "ktsn": 120000518024
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:21:00.322Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 720192,
+        "canonical": "Solva harmandi",
+        "fetchedAt": "2026-05-24T09:18:50.102Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 61
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:06:17.966Z"
+      }
+    },
+    {
+      "ktsn": 120000518025,
+      "scientificName": "Xylomya longicornis Matsumura, 1915",
+      "commonName": "긴수염점밑들이파리매",
+      "terminalLatinName": "longicornis",
+      "nomenclaturalAuthor": "Matsumura",
+      "namingYear": "1915",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Xylomyidae",
+          "commonName": "점밑들이파리매과",
+          "ktsn": 120000023728
+        },
+        "genus": {
+          "scientificName": "Xylomya",
+          "commonName": "",
+          "ktsn": 120000023729
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "longicornis",
+          "commonName": "긴수염점밑들이파리매",
+          "ktsn": 120000518025
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:21:00.322Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 720196,
+        "canonical": "Xylomya longicornis",
+        "fetchedAt": "2026-05-24T09:18:56.964Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 13
+      },
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/506712886/medium.jpg",
+        "months": [
+          5
+        ]
+      }
+    },
+    {
+      "ktsn": 120000023730,
+      "scientificName": "Xylomya maculata (Meigen, 1804)",
+      "commonName": "얼룩점밑들이파리매",
+      "terminalLatinName": "maculata",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Xylomyidae",
+          "commonName": "점밑들이파리매과",
+          "ktsn": 120000023728
+        },
+        "genus": {
+          "scientificName": "Xylomya",
+          "commonName": "",
+          "ktsn": 120000023729
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "maculata",
+          "commonName": "얼룩점밑들이파리매",
+          "ktsn": 120000023730
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:21:00.322Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 720170,
+        "canonical": "Xylomya maculata",
+        "fetchedAt": "2026-05-24T09:18:43.344Z",
+        "vernaculars": {
+          "ko": [
+            "얼룩점밑들이파리매"
+          ],
+          "en": [
+            "Wasp Wood-soldierfly"
+          ],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [
+          "United Kingdom",
+          "Sweden"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 219
+      },
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/661967628/medium.jpg",
+        "months": [
+          5
+        ]
+      }
+    },
+    {
+      "ktsn": 120000023731,
+      "scientificName": "Xylomya moiwana (Matsumura, 1915)",
+      "commonName": "점밑들이파리매",
+      "terminalLatinName": "moiwana",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "commonName": "파리목",
+          "ktsn": 120000020933
+        },
+        "family": {
+          "scientificName": "Xylomyidae",
+          "commonName": "점밑들이파리매과",
+          "ktsn": 120000023728
+        },
+        "genus": {
+          "scientificName": "Xylomya",
+          "commonName": "",
+          "ktsn": 120000023729
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "moiwana",
+          "commonName": "점밑들이파리매",
+          "ktsn": 120000023731
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:21:00.322Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 720174,
+        "canonical": "Xylomya moiwana",
+        "fetchedAt": "2026-05-24T09:18:46.827Z",
+        "vernaculars": {
+          "ko": [
+            "점밑들이파리매"
+          ],
+          "en": [],
+          "ja": [
+            "ミツボシキアブモドキ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "Japan"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 64
+      },
+      "inat": {
+        "observationCount": 4,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/199966055/medium.jpeg",
+        "months": [
+          5,
+          6
+        ]
+      }
+    }
+  ],
+  "digitalContentUpdatedAt": "2026-05-21T09:21:00.322Z",
+  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+}

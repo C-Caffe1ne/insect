@@ -1707,10 +1707,11 @@
             abstract: item.abstract || placeholder.abstract,
             conservationStatus: {
               endangered: item.egspcsYn === 'Y' ? 'II' : (item.conservationStatus?.endangered || placeholder.conservationStatus.endangered),
-              invasive: item.phspYn === 'Y' ? true : (item.phspYn === 'N' ? false : placeholder.conservationStatus.invasive),
+              // phspYn/ntmYn/hrmflSpecsYn 데이터가 cleanup으로 제거됨 — 모든 종 'N' 상태였으므로 명시적 false로 고정 ("해당없음" 표시)
+              invasive: false,
               hazardous: item.dispYn === 'Y' ? true : (item.dispYn === 'N' ? false : placeholder.conservationStatus.hazardous),
-              naturalMonument: item.ntmYn === 'Y' ? '지정' : placeholder.conservationStatus.naturalMonument,
-              harmful: item.hrmflSpecsYn === 'Y' ? true : (item.hrmflSpecsYn === 'N' ? false : placeholder.conservationStatus.harmful),
+              naturalMonument: false,
+              harmful: false,
               endemic: (item.korUnqBispYn === 'Y' || item.corsynSeYn === 'Y') ? true : ((item.korUnqBispYn === 'N' || item.corsynSeYn === 'N') ? false : placeholder.conservationStatus.endemic)
             },
             // 이미지 폴백 체인: iNaturalist → GBIF media → Wikipedia
@@ -2342,10 +2343,11 @@
           images: item.inat?.imageUrl ? [item.inat.imageUrl] : (ins.img ? [ins.img] : placeholder.images),
           conservationStatus: {
             endangered: item.egspcsYn === 'Y' ? 'II' : (item.conservationStatus?.endangered || placeholder.conservationStatus.endangered),
-            invasive: item.phspYn === 'Y' ? true : (item.phspYn === 'N' ? false : placeholder.conservationStatus.invasive),
+            // phspYn/ntmYn/hrmflSpecsYn 데이터가 cleanup으로 제거됨 — 모든 종 'N' 상태였으므로 명시적 false로 고정 ("해당없음" 표시)
+            invasive: false,
             hazardous: item.dispYn === 'Y' ? true : (item.dispYn === 'N' ? false : placeholder.conservationStatus.hazardous),
-            naturalMonument: item.ntmYn === 'Y' ? '지정' : placeholder.conservationStatus.naturalMonument,
-            harmful: item.hrmflSpecsYn === 'Y' ? true : (item.hrmflSpecsYn === 'N' ? false : placeholder.conservationStatus.harmful),
+            naturalMonument: false,
+            harmful: false,
             endemic: (item.korUnqBispYn === 'Y' || item.corsynSeYn === 'Y') ? true : ((item.korUnqBispYn === 'N' || item.corsynSeYn === 'N') ? false : placeholder.conservationStatus.endemic)
           },
           taxonomy: {

@@ -1,0 +1,2783 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "orthoptera",
+    "scientificName": "Orthoptera",
+    "commonName": "메뚜기목",
+    "orderKtsn": 120000037446,
+    "abstract": "메뚜기목(영어: Orthoptera)은 메뚜기, 여치, 귀뚜라미 등이 속하는 곤충의 분류이다. 직시류(直翅類)라고도 한다. 번데기의 과정이 없이 허물벗기로 성장하는 불완전변태를 한다. 주로 초식성인 것이 많으며, 뒷다리가 발달하여 뛰어오르는 능력이 좋은 것이 특징이다. 청각기나 발음기를 가진 종이 많으며, 수컷은 날개를 비비거나 날개에 뒷다리를 마찰하여 소리를 내기도 한다. 비행하는 경우 뒷날개를 펄럭이며 날아간다.",
+    "description": "메뚜기목(영어: Orthoptera)은 메뚜기, 여치, 귀뚜라미 등이 속하는 곤충의 분류이다. 직시류(直翅類)라고도 한다. 번데기의 과정이 없이 허물벗기로 성장하는 불완전변태를 한다. 주로 초식성인 것이 많으며, 뒷다리가 발달하여 뛰어오르는 능력이 좋은 것이 특징이다. 청각기나 발음기를 가진 종이 많으며, 수컷은 날개를 비비거나 날개에 뒷다리를 마찰하여 소리를 내기도 한다. 비행하는 경우 뒷날개를 펄럭이며 날아간다."
+  },
+  "family": {
+    "id": "gryllidae",
+    "scientificName": "Gryllidae",
+    "commonName": "귀뚜라미과",
+    "familyKtsn": 120000037582
+  },
+  "speciesCount": 42,
+  "insects": [
+    {
+      "ktsn": 120000037587,
+      "scientificName": "Comidoblemmus nipponensis (Shiraki, 1911)",
+      "commonName": "루루곰귀뚜라미",
+      "terminalLatinName": "nipponensis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Orthoptera",
+          "commonName": "메뚜기목",
+          "ktsn": 120000037446
+        },
+        "family": {
+          "scientificName": "Gryllidae",
+          "commonName": "귀뚜라미과",
+          "ktsn": 120000037582
+        },
+        "genus": {
+          "scientificName": "Comidoblemmus",
+          "commonName": "루루곰귀뚜라미속",
+          "ktsn": 120000037586
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "nipponensis",
+          "commonName": "루루곰귀뚜라미",
+          "ktsn": 120000037587
+        }
+      },
+      "eol": {
+        "pageId": 501530,
+        "canonical": "Comidoblemmus nipponensis",
+        "fetchedAt": "2026-05-24T17:15:47.696Z",
+        "vernaculars": {
+          "ko": [
+            "루루곰귀뚜라미"
+          ],
+          "en": [],
+          "ja": [
+            "ヒメコオロギ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "Korean Peninsula",
+          "Taiwan",
+          "Japan",
+          "forest",
+          "Korea",
+          "China"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 17
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:10:27.731Z"
+      }
+    },
+    {
+      "ktsn": 120000037589,
+      "scientificName": "Dianemobius csikii (Bolívar, 1901)",
+      "commonName": "모래방울벌레",
+      "terminalLatinName": "csikii",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Orthoptera",
+          "commonName": "메뚜기목",
+          "ktsn": 120000037446
+        },
+        "family": {
+          "scientificName": "Gryllidae",
+          "commonName": "귀뚜라미과",
+          "ktsn": 120000037582
+        },
+        "genus": {
+          "scientificName": "Dianemobius",
+          "commonName": "알락방울벌레속",
+          "ktsn": 120000037588
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "csikii",
+          "commonName": "모래방울벌레",
+          "ktsn": 120000037589
+        }
+      },
+      "eol": {
+        "pageId": 598869,
+        "canonical": "Dianemobius csikii",
+        "fetchedAt": "2026-05-24T17:15:54.454Z",
+        "vernaculars": {
+          "ko": [
+            "모래방울벌레"
+          ],
+          "en": [],
+          "ja": [
+            "ハマスズ"
+          ]
+        },
+        "habitat": [
+          "sandy beach",
+          "beach"
+        ],
+        "geographic": [
+          "Yellow Sea",
+          "Japan",
+          "South Korea"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 24
+      },
+      "inat": {
+        "observationCount": 2,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/10767169/medium.jpg",
+        "months": [
+          9
+        ]
+      }
+    },
+    {
+      "ktsn": 120000037592,
+      "scientificName": "Dianemobius furumagiensis (Ohmachi and Furukawa, 1929)",
+      "commonName": "여울알락방울벌레",
+      "terminalLatinName": "furumagiensis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Orthoptera",
+          "commonName": "메뚜기목",
+          "ktsn": 120000037446
+        },
+        "family": {
+          "scientificName": "Gryllidae",
+          "commonName": "귀뚜라미과",
+          "ktsn": 120000037582
+        },
+        "genus": {
+          "scientificName": "Dianemobius",
+          "commonName": "알락방울벌레속",
+          "ktsn": 120000037588
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "furumagiensis",
+          "commonName": "여울알락방울벌레",
+          "ktsn": 120000037592
+        }
+      },
+      "eol": {
+        "pageId": 598868,
+        "canonical": "Dianemobius furumagiensis",
+        "fetchedAt": "2026-05-24T17:16:23.242Z",
+        "vernaculars": {
+          "ko": [
+            "여울알락방울벌레"
+          ],
+          "en": [],
+          "ja": [
+            "カワラスズ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "Mongolia",
+          "Taiwan",
+          "Japan"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 39
+      },
+      "inat": {
+        "observationCount": 2,
+        "imageUrl": null,
+        "months": [
+          9,
+          10
+        ]
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:10:27.731Z"
+      }
+    },
+    {
+      "ktsn": 120000090993,
+      "scientificName": "Dianemobius nigrofasciatus (Matsumura, 1904)",
+      "commonName": "알락방울벌레",
+      "terminalLatinName": "nigrofasciatus",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Orthoptera",
+          "commonName": "메뚜기목",
+          "ktsn": 120000037446
+        },
+        "family": {
+          "scientificName": "Gryllidae",
+          "commonName": "귀뚜라미과",
+          "ktsn": 120000037582
+        },
+        "genus": {
+          "scientificName": "Dianemobius",
+          "commonName": "알락방울벌레속",
+          "ktsn": 120000037588
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "nigrofasciatus",
+          "commonName": "알락방울벌레",
+          "ktsn": 120000090993
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:10:27.731Z"
+      }
+    },
+    {
+      "ktsn": 120000037595,
+      "scientificName": "Duolandrevus (Eulandrevus) ivani (Gorochov, 1988)",
+      "commonName": "뚱보귀뚜라미",
+      "terminalLatinName": "ivani",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Orthoptera",
+          "commonName": "메뚜기목",
+          "ktsn": 120000037446
+        },
+        "family": {
+          "scientificName": "Gryllidae",
+          "commonName": "귀뚜라미과",
+          "ktsn": 120000037582
+        },
+        "genus": {
+          "scientificName": "Duolandrevus",
+          "commonName": "뚱보귀뚜라미속",
+          "ktsn": 120000037593
+        },
+        "subgenus": {
+          "scientificName": "Eulandrevus",
+          "commonName": "",
+          "ktsn": 120000037594
+        },
+        "species": {
+          "scientificName": "ivani",
+          "commonName": "뚱보귀뚜라미",
+          "ktsn": 120000037595
+        }
+      },
+      "eol": {
+        "pageId": 502184,
+        "canonical": "Duolandrevus ivani",
+        "fetchedAt": "2026-05-24T17:16:53.129Z",
+        "vernaculars": {
+          "ko": [
+            "뚱보귀뚜라미"
+          ],
+          "en": [],
+          "ja": [
+            "クチキコオロギ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "Japan"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 72
+      },
+      "inat": {
+        "observationCount": 4,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/433717146/medium.jpeg",
+        "months": [
+          7,
+          8,
+          9
+        ]
+      }
+    },
+    {
+      "ktsn": 120000037598,
+      "scientificName": "Euscyrtus (Osus) japonicus Shiraki, 1930",
+      "commonName": "홀쭉귀뚜라미",
+      "terminalLatinName": "japonicus",
+      "nomenclaturalAuthor": "Shiraki",
+      "namingYear": "1930",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Orthoptera",
+          "commonName": "메뚜기목",
+          "ktsn": 120000037446
+        },
+        "family": {
+          "scientificName": "Gryllidae",
+          "commonName": "귀뚜라미과",
+          "ktsn": 120000037582
+        },
+        "genus": {
+          "scientificName": "Euscyrtus",
+          "commonName": "홀쭉귀뚜라미속",
+          "ktsn": 120000037596
+        },
+        "subgenus": {
+          "scientificName": "Osus",
+          "commonName": "",
+          "ktsn": 120000037597
+        },
+        "species": {
+          "scientificName": "japonicus",
+          "commonName": "홀쭉귀뚜라미",
+          "ktsn": 120000037598
+        }
+      },
+      "eol": {
+        "pageId": 599885,
+        "canonical": "Euscyrtus japonicus",
+        "fetchedAt": "2026-05-24T17:17:07.363Z",
+        "vernaculars": {
+          "ko": [
+            "홀쭉귀뚜라미"
+          ],
+          "en": [],
+          "ja": [
+            "カヤコオロギ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "Japan",
+          "Korea",
+          "Taiwan"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 155
+      },
+      "inat": {
+        "observationCount": 4,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/544299873/medium.jpg",
+        "months": [
+          7,
+          8,
+          9
+        ]
+      }
+    },
+    {
+      "ktsn": 120000037600,
+      "scientificName": "Gryllodes sigillatus Walker, 1869",
+      "commonName": "희시무르귀뚜라미",
+      "terminalLatinName": "sigillatus",
+      "nomenclaturalAuthor": "Walker",
+      "namingYear": "1869",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Orthoptera",
+          "commonName": "메뚜기목",
+          "ktsn": 120000037446
+        },
+        "family": {
+          "scientificName": "Gryllidae",
+          "commonName": "귀뚜라미과",
+          "ktsn": 120000037582
+        },
+        "genus": {
+          "scientificName": "Gryllodes",
+          "commonName": "희시무루귀뚜라미속",
+          "ktsn": 120000037599
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "sigillatus",
+          "commonName": "희시무르귀뚜라미",
+          "ktsn": 120000037600
+        }
+      },
+      "eol": {
+        "pageId": 10913190,
+        "canonical": "Gryllodes sigillatus",
+        "fetchedAt": "2026-05-24T17:17:14.419Z",
+        "vernaculars": {
+          "ko": [
+            "희시무르귀뚜라미"
+          ],
+          "en": [
+            "Indian House Cricket",
+            "Tropical House Cricket",
+            "Tropical House Cricket",
+            "Tropical House Cricket",
+            "Tropical House Cricket",
+            "Tropical House Cricket",
+            "Tropical House Cricket"
+          ],
+          "ja": [
+            "カマドコオロギ"
+          ]
+        },
+        "habitat": [
+          "tropical",
+          "subtropical"
+        ],
+        "geographic": [
+          "cosmopolitan",
+          "United States",
+          "Australia",
+          "Bolivia",
+          "China",
+          "India",
+          "Malaysia",
+          "Puerto Rico",
+          "Singapore",
+          "Thailand",
+          "Mexico",
+          "North Atlantic",
+          "North Pacific"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 5086
+      },
+      "inat": {
+        "observationCount": 85,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/318383769/medium.jpeg",
+        "months": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "ktsn": 120000037603,
+      "scientificName": "Gryllus (Gryllus) bimaculatus de Geer, 1773",
+      "commonName": "쌍별귀뚜라미",
+      "terminalLatinName": "bimaculatus",
+      "nomenclaturalAuthor": "de Geer",
+      "namingYear": "1773",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Orthoptera",
+          "commonName": "메뚜기목",
+          "ktsn": 120000037446
+        },
+        "family": {
+          "scientificName": "Gryllidae",
+          "commonName": "귀뚜라미과",
+          "ktsn": 120000037582
+        },
+        "genus": {
+          "scientificName": "Gryllus",
+          "commonName": "쌍별귀뚜라미속",
+          "ktsn": 120000037601
+        },
+        "subgenus": {
+          "scientificName": "Gryllus",
+          "commonName": "",
+          "ktsn": 120000037602
+        },
+        "species": {
+          "scientificName": "bimaculatus",
+          "commonName": "쌍별귀뚜라미",
+          "ktsn": 120000037603
+        }
+      },
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/4644047/medium.jpeg",
+        "months": [
+          8
+        ]
+      }
+    },
+    {
+      "ktsn": 120000037606,
+      "scientificName": "Homoeoxipha obliterata (Caudell, 1927)",
+      "commonName": "홍가슴종다리",
+      "terminalLatinName": "obliterata",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Orthoptera",
+          "commonName": "메뚜기목",
+          "ktsn": 120000037446
+        },
+        "family": {
+          "scientificName": "Gryllidae",
+          "commonName": "귀뚜라미과",
+          "ktsn": 120000037582
+        },
+        "genus": {
+          "scientificName": "Homoeoxipha",
+          "commonName": "홍가슴종다리속",
+          "ktsn": 120000037605
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "obliterata",
+          "commonName": "홍가슴종다리",
+          "ktsn": 120000037606
+        }
+      },
+      "eol": {
+        "pageId": 46943389,
+        "canonical": "Homoeoxipha obliterata",
+        "fetchedAt": "2026-05-24T17:17:30.593Z",
+        "vernaculars": {
+          "ko": [
+            "홍가슴종다리"
+          ],
+          "en": [],
+          "ja": [
+            "ヤマトヒバリ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "Japan"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 125
+      },
+      "inat": {
+        "observationCount": 5,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/328951367/medium.jpeg",
+        "months": [
+          8,
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "ktsn": 120000072369,
+      "scientificName": "Loxoblemmus arietulus Saussure, 1877",
+      "commonName": "알락귀뚜라미",
+      "terminalLatinName": "arietulus",
+      "nomenclaturalAuthor": "Saussure",
+      "namingYear": "1877",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Orthoptera",
+          "commonName": "메뚜기목",
+          "ktsn": 120000037446
+        },
+        "family": {
+          "scientificName": "Gryllidae",
+          "commonName": "귀뚜라미과",
+          "ktsn": 120000037582
+        },
+        "genus": {
+          "scientificName": "Loxoblemmus",
+          "commonName": "알락귀뚜라미속",
+          "ktsn": 120000037609
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "arietulus",
+          "commonName": "알락귀뚜라미",
+          "ktsn": 120000072369
+        }
+      },
+      "inat": {
+        "observationCount": 20,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/5410790/medium.jpg",
+        "months": [
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "ktsn": 120000037611,
+      "scientificName": "Loxoblemmus doenitzi Stein, 1881",
+      "commonName": "모대가리귀뚜라미",
+      "terminalLatinName": "doenitzi",
+      "nomenclaturalAuthor": "Stein",
+      "namingYear": "1881",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Orthoptera",
+          "commonName": "메뚜기목",
+          "ktsn": 120000037446
+        },
+        "family": {
+          "scientificName": "Gryllidae",
+          "commonName": "귀뚜라미과",
+          "ktsn": 120000037582
+        },
+        "genus": {
+          "scientificName": "Loxoblemmus",
+          "commonName": "알락귀뚜라미속",
+          "ktsn": 120000037609
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "doenitzi",
+          "commonName": "모대가리귀뚜라미",
+          "ktsn": 120000037611
+        }
+      },
+      "inat": {
+        "observationCount": 33,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/557343989/medium.jpg",
+        "months": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "ktsn": 120000037612,
+      "scientificName": "Loxoblemmus equestris Saussure, 1877",
+      "commonName": "야산알락귀뚜라미",
+      "terminalLatinName": "equestris",
+      "nomenclaturalAuthor": "Saussure",
+      "namingYear": "1877",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Orthoptera",
+          "commonName": "메뚜기목",
+          "ktsn": 120000037446
+        },
+        "family": {
+          "scientificName": "Gryllidae",
+          "commonName": "귀뚜라미과",
+          "ktsn": 120000037582
+        },
+        "genus": {
+          "scientificName": "Loxoblemmus",
+          "commonName": "알락귀뚜라미속",
+          "ktsn": 120000037609
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "equestris",
+          "commonName": "야산알락귀뚜라미",
+          "ktsn": 120000037612
+        }
+      },
+      "inat": {
+        "observationCount": 16,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/577581050/medium.jpg",
+        "months": [
+          8,
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "ktsn": 120000095494,
+      "scientificName": "Loxoblemmus magnatus Matsuura, 1985",
+      "commonName": "큰알락귀뚜라미",
+      "terminalLatinName": "magnatus",
+      "nomenclaturalAuthor": "Matsuura",
+      "namingYear": "1985",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Orthoptera",
+          "commonName": "메뚜기목",
+          "ktsn": 120000037446
+        },
+        "family": {
+          "scientificName": "Gryllidae",
+          "commonName": "귀뚜라미과",
+          "ktsn": 120000037582
+        },
+        "genus": {
+          "scientificName": "Loxoblemmus",
+          "commonName": "알락귀뚜라미속",
+          "ktsn": 120000037609
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "magnatus",
+          "commonName": "큰알락귀뚜라미",
+          "ktsn": 120000095494
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:10:27.731Z"
+      }
+    },
+    {
+      "ktsn": 120000037614,
+      "scientificName": "Loxoblemmus spectabilis Gorochov and Kostia, 1993",
+      "commonName": "꽃알락귀뚜라미",
+      "terminalLatinName": "spectabilis",
+      "nomenclaturalAuthor": "Gorochov and Kostia",
+      "namingYear": "1993",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "Y",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Orthoptera",
+          "commonName": "메뚜기목",
+          "ktsn": 120000037446
+        },
+        "family": {
+          "scientificName": "Gryllidae",
+          "commonName": "귀뚜라미과",
+          "ktsn": 120000037582
+        },
+        "genus": {
+          "scientificName": "Loxoblemmus",
+          "commonName": "알락귀뚜라미속",
+          "ktsn": 120000037609
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "spectabilis",
+          "commonName": "꽃알락귀뚜라미",
+          "ktsn": 120000037614
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:10:27.731Z"
+      }
+    },
+    {
+      "ktsn": 120000212850,
+      "scientificName": "Meloimorpha japonica japonica (De Haan, 1842)",
+      "commonName": "방울벌레",
+      "terminalLatinName": "japonica",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Orthoptera",
+          "commonName": "메뚜기목",
+          "ktsn": 120000037446
+        },
+        "family": {
+          "scientificName": "Gryllidae",
+          "commonName": "귀뚜라미과",
+          "ktsn": 120000037582
+        },
+        "genus": {
+          "scientificName": "Meloimorpha",
+          "commonName": "방울벌레속",
+          "ktsn": 120000037615
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "japonica",
+          "commonName": "",
+          "ktsn": 120000074491
+        }
+      },
+      "abstract": "방울벌레는 한국, 중국, 일본 등 아시아에 서식하는 귀뚜라미과의 곤충이다. 방울소리와 같은 울음소리를 내기 때문에 방울벌레라고 불린다.",
+      "description": "방울벌레는 한국, 중국, 일본 등 아시아에 서식하는 귀뚜라미과의 곤충이다. 방울소리와 같은 울음소리를 내기 때문에 방울벌레라고 불린다.",
+      "inat": {
+        "observationCount": 18,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/325743089/medium.jpeg",
+        "months": [
+          8,
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "ktsn": 120000037619,
+      "scientificName": "Metioche japonica (Ichikawa, 2001)",
+      "commonName": "먹종다리",
+      "terminalLatinName": "japonica",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Orthoptera",
+          "commonName": "메뚜기목",
+          "ktsn": 120000037446
+        },
+        "family": {
+          "scientificName": "Gryllidae",
+          "commonName": "귀뚜라미과",
+          "ktsn": 120000037582
+        },
+        "genus": {
+          "scientificName": "Metioche",
+          "commonName": "먹종다리속",
+          "ktsn": 120000037618
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "japonica",
+          "commonName": "먹종다리",
+          "ktsn": 120000037619
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:10:27.731Z"
+      }
+    },
+    {
+      "ktsn": 120000037621,
+      "scientificName": "Mitius minor (Shiraki, 1911)",
+      "commonName": "곰귀뚜라미",
+      "terminalLatinName": "minor",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Orthoptera",
+          "commonName": "메뚜기목",
+          "ktsn": 120000037446
+        },
+        "family": {
+          "scientificName": "Gryllidae",
+          "commonName": "귀뚜라미과",
+          "ktsn": 120000037582
+        },
+        "genus": {
+          "scientificName": "Mitius",
+          "commonName": "곰귀뚜라미속",
+          "ktsn": 120000037620
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "minor",
+          "commonName": "곰귀뚜라미",
+          "ktsn": 120000037621
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:10:27.731Z"
+      }
+    },
+    {
+      "ktsn": 120000037623,
+      "scientificName": "Natula matsuurai Sugimoto, 2001",
+      "commonName": "새금빛종다리",
+      "terminalLatinName": "matsuurai",
+      "nomenclaturalAuthor": "Sugimoto",
+      "namingYear": "2001",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Orthoptera",
+          "commonName": "메뚜기목",
+          "ktsn": 120000037446
+        },
+        "family": {
+          "scientificName": "Gryllidae",
+          "commonName": "귀뚜라미과",
+          "ktsn": 120000037582
+        },
+        "genus": {
+          "scientificName": "Natula",
+          "commonName": "금빛종다리속",
+          "ktsn": 120000037622
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "matsuurai",
+          "commonName": "새금빛종다리",
+          "ktsn": 120000037623
+        }
+      },
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/416199283/medium.jpg",
+        "months": [
+          7
+        ]
+      }
+    },
+    {
+      "ktsn": 120000095497,
+      "scientificName": "Nigrogryllus sibiricus (Chopard, 1925)",
+      "commonName": "먹귀뚜라미",
+      "terminalLatinName": "sibiricus",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Orthoptera",
+          "commonName": "메뚜기목",
+          "ktsn": 120000037446
+        },
+        "family": {
+          "scientificName": "Gryllidae",
+          "commonName": "귀뚜라미과",
+          "ktsn": 120000037582
+        },
+        "genus": {
+          "scientificName": "Nigrogryllus",
+          "commonName": "먹귀뚜라미속",
+          "ktsn": 120000095496
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "sibiricus",
+          "commonName": "먹귀뚜라미",
+          "ktsn": 120000095497
+        }
+      },
+      "inat": {
+        "observationCount": 9,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/74219495/medium.jpg",
+        "months": [
+          4,
+          5,
+          6,
+          7,
+          10
+        ]
+      }
+    },
+    {
+      "ktsn": 120000037626,
+      "scientificName": "Oecanthus euryelytra Ichikawa, 2001",
+      "commonName": "폭날개긴꼬리",
+      "terminalLatinName": "euryelytra",
+      "nomenclaturalAuthor": "Ichikawa",
+      "namingYear": "2001",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Orthoptera",
+          "commonName": "메뚜기목",
+          "ktsn": 120000037446
+        },
+        "family": {
+          "scientificName": "Gryllidae",
+          "commonName": "귀뚜라미과",
+          "ktsn": 120000037582
+        },
+        "genus": {
+          "scientificName": "Oecanthus",
+          "commonName": "긴꼬리속",
+          "ktsn": 120000037625
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "euryelytra",
+          "commonName": "폭날개긴꼬리",
+          "ktsn": 120000037626
+        }
+      },
+      "inat": {
+        "observationCount": 9,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/575809022/medium.jpg",
+        "months": [
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "ktsn": 120000037627,
+      "scientificName": "Oecanthus longicauda Matsumura, 1904",
+      "commonName": "긴꼬리",
+      "terminalLatinName": "longicauda",
+      "nomenclaturalAuthor": "Matsumura",
+      "namingYear": "1904",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Orthoptera",
+          "commonName": "메뚜기목",
+          "ktsn": 120000037446
+        },
+        "family": {
+          "scientificName": "Gryllidae",
+          "commonName": "귀뚜라미과",
+          "ktsn": 120000037582
+        },
+        "genus": {
+          "scientificName": "Oecanthus",
+          "commonName": "긴꼬리속",
+          "ktsn": 120000037625
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "longicauda",
+          "commonName": "긴꼬리",
+          "ktsn": 120000037627
+        }
+      },
+      "abstract": "긴꼬리(학명: Oecanthus longicauda)는 귀뚜라미과의 곤충이다.",
+      "description": "긴꼬리(학명: Oecanthus longicauda)는 귀뚜라미과의 곤충이다.",
+      "inat": {
+        "observationCount": 75,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/304370166/medium.jpg",
+        "months": [
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "ktsn": 120000226955,
+      "scientificName": "Parapteronemobius niisatoi (Ishikawa, 2017)",
+      "commonName": "무늬바다방울벌레",
+      "terminalLatinName": "niisatoi",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Orthoptera",
+          "commonName": "메뚜기목",
+          "ktsn": 120000037446
+        },
+        "family": {
+          "scientificName": "Gryllidae",
+          "commonName": "귀뚜라미과",
+          "ktsn": 120000037582
+        },
+        "genus": {
+          "scientificName": "Parapteronemobius",
+          "commonName": "바다방울벌레속",
+          "ktsn": 120000129450
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "niisatoi",
+          "commonName": "무늬바다방울벌레",
+          "ktsn": 120000226955
+        }
+      },
+      "inat": {
+        "observationCount": 2,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/361287757/medium.jpg",
+        "months": [
+          7,
+          9
+        ]
+      }
+    },
+    {
+      "ktsn": 120000129451,
+      "scientificName": "Parapteronemobius sazanami Furukawa, 1970",
+      "commonName": "바다방울벌레",
+      "terminalLatinName": "sazanami",
+      "nomenclaturalAuthor": "Furukawa",
+      "namingYear": "1970",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Orthoptera",
+          "commonName": "메뚜기목",
+          "ktsn": 120000037446
+        },
+        "family": {
+          "scientificName": "Gryllidae",
+          "commonName": "귀뚜라미과",
+          "ktsn": 120000037582
+        },
+        "genus": {
+          "scientificName": "Parapteronemobius",
+          "commonName": "바다방울벌레속",
+          "ktsn": 120000129450
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "sazanami",
+          "commonName": "바다방울벌레",
+          "ktsn": 120000129451
+        }
+      },
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/543212978/medium.jpg",
+        "months": [
+          7
+        ]
+      }
+    },
+    {
+      "ktsn": 120000212924,
+      "scientificName": "Phonarellus (Phonarellus) ritsemae (Saussure, 1877)",
+      "commonName": "검은귀뚜라미",
+      "terminalLatinName": "ritsemae",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Orthoptera",
+          "commonName": "메뚜기목",
+          "ktsn": 120000037446
+        },
+        "family": {
+          "scientificName": "Gryllidae",
+          "commonName": "귀뚜라미과",
+          "ktsn": 120000037582
+        },
+        "genus": {
+          "scientificName": "Phonarellus",
+          "commonName": "검은귀뚜라미속",
+          "ktsn": 120000037628
+        },
+        "subgenus": {
+          "scientificName": "Phonarellus",
+          "commonName": "",
+          "ktsn": 120000212923
+        },
+        "species": {
+          "scientificName": "ritsemae",
+          "commonName": "검은귀뚜라미",
+          "ktsn": 120000212924
+        }
+      },
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/632663953/medium.jpg",
+        "months": [
+          6
+        ]
+      }
+    },
+    {
+      "ktsn": 120000037631,
+      "scientificName": "Polionemobius flavoantennalis (Shiraki, 1911)",
+      "commonName": "흰수염방울벌레",
+      "terminalLatinName": "flavoantennalis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Orthoptera",
+          "commonName": "메뚜기목",
+          "ktsn": 120000037446
+        },
+        "family": {
+          "scientificName": "Gryllidae",
+          "commonName": "귀뚜라미과",
+          "ktsn": 120000037582
+        },
+        "genus": {
+          "scientificName": "Polionemobius",
+          "commonName": "좀방울벌레속",
+          "ktsn": 120000037630
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "flavoantennalis",
+          "commonName": "흰수염방울벌레",
+          "ktsn": 120000037631
+        }
+      },
+      "inat": {
+        "observationCount": 4,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/428072678/medium.jpeg",
+        "months": [
+          8,
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "ktsn": 120000037633,
+      "scientificName": "Polionemobius taprobanensis (Walker, 1869)",
+      "commonName": "좀방울벌레",
+      "terminalLatinName": "taprobanensis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Orthoptera",
+          "commonName": "메뚜기목",
+          "ktsn": 120000037446
+        },
+        "family": {
+          "scientificName": "Gryllidae",
+          "commonName": "귀뚜라미과",
+          "ktsn": 120000037582
+        },
+        "genus": {
+          "scientificName": "Polionemobius",
+          "commonName": "좀방울벌레속",
+          "ktsn": 120000037630
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "taprobanensis",
+          "commonName": "좀방울벌레",
+          "ktsn": 120000037633
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:10:27.731Z",
+        "title": "Polionemobius taprobanensis",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Polionemobius_taprobanensis.jpg/500px-Polionemobius_taprobanensis.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/85/Polionemobius_taprobanensis.jpg",
+        "thumbnailSize": {
+          "width": 500,
+          "height": 333
+        },
+        "originalSize": {
+          "width": 2647,
+          "height": 1765
+        },
+        "filename": "Polionemobius_taprobanensis.jpg",
+        "description": "species of insect",
+        "pageUrl": "https://en.wikipedia.org/wiki/Polionemobius_taprobanensis",
+        "license": "see Wikimedia Commons",
+        "source": "Wikipedia"
+      }
+    },
+    {
+      "ktsn": 120000129486,
+      "scientificName": "Pteronemobius (Pteronemobius) gorochovi Storozhenko, 2004",
+      "commonName": "담색방울벌레",
+      "terminalLatinName": "gorochovi",
+      "nomenclaturalAuthor": "Storozhenko",
+      "namingYear": "2004",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Orthoptera",
+          "commonName": "메뚜기목",
+          "ktsn": 120000037446
+        },
+        "family": {
+          "scientificName": "Gryllidae",
+          "commonName": "귀뚜라미과",
+          "ktsn": 120000037582
+        },
+        "genus": {
+          "scientificName": "Pteronemobius",
+          "commonName": "습지방울벌레속",
+          "ktsn": 120000037634
+        },
+        "subgenus": {
+          "scientificName": "Pteronemobius",
+          "commonName": "",
+          "ktsn": 120000129485
+        },
+        "species": {
+          "scientificName": "gorochovi",
+          "commonName": "담색방울벌레",
+          "ktsn": 120000129486
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:10:27.731Z"
+      }
+    },
+    {
+      "ktsn": 120000129490,
+      "scientificName": "Pteronemobius (Pteronemobius) nitidus (Bolívar, 1901)",
+      "commonName": "북방울벌레",
+      "terminalLatinName": "nitidus",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Orthoptera",
+          "commonName": "메뚜기목",
+          "ktsn": 120000037446
+        },
+        "family": {
+          "scientificName": "Gryllidae",
+          "commonName": "귀뚜라미과",
+          "ktsn": 120000037582
+        },
+        "genus": {
+          "scientificName": "Pteronemobius",
+          "commonName": "습지방울벌레속",
+          "ktsn": 120000037634
+        },
+        "subgenus": {
+          "scientificName": "Pteronemobius",
+          "commonName": "",
+          "ktsn": 120000129485
+        },
+        "species": {
+          "scientificName": "nitidus",
+          "commonName": "북방울벌레",
+          "ktsn": 120000129490
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:10:27.731Z"
+      }
+    },
+    {
+      "ktsn": 120000129497,
+      "scientificName": "Pteronemobius (Pteronemobius) yezoensis (Shiraki, 1911)",
+      "commonName": "습지방울벌레",
+      "terminalLatinName": "yezoensis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Orthoptera",
+          "commonName": "메뚜기목",
+          "ktsn": 120000037446
+        },
+        "family": {
+          "scientificName": "Gryllidae",
+          "commonName": "귀뚜라미과",
+          "ktsn": 120000037582
+        },
+        "genus": {
+          "scientificName": "Pteronemobius",
+          "commonName": "습지방울벌레속",
+          "ktsn": 120000037634
+        },
+        "subgenus": {
+          "scientificName": "Pteronemobius",
+          "commonName": "",
+          "ktsn": 120000129485
+        },
+        "species": {
+          "scientificName": "yezoensis",
+          "commonName": "습지방울벌레",
+          "ktsn": 120000129497
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:10:27.731Z"
+      }
+    },
+    {
+      "ktsn": 120000037641,
+      "scientificName": "Sclerogryllus punctatus (Brunner-Wattenwyl, 1893)",
+      "commonName": "곰방울벌레",
+      "terminalLatinName": "punctatus",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Orthoptera",
+          "commonName": "메뚜기목",
+          "ktsn": 120000037446
+        },
+        "family": {
+          "scientificName": "Gryllidae",
+          "commonName": "귀뚜라미과",
+          "ktsn": 120000037582
+        },
+        "genus": {
+          "scientificName": "Sclerogryllus",
+          "commonName": "곰방울벌레속",
+          "ktsn": 120000037640
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "punctatus",
+          "commonName": "곰방울벌레",
+          "ktsn": 120000037641
+        }
+      },
+      "inat": {
+        "observationCount": 2,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/435790668/medium.jpg",
+        "months": [
+          9
+        ]
+      }
+    },
+    {
+      "ktsn": 120000212922,
+      "scientificName": "Svercacheta siamensis (Chopard, 1961)",
+      "commonName": "샴귀뚜라미",
+      "terminalLatinName": "siamensis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Orthoptera",
+          "commonName": "메뚜기목",
+          "ktsn": 120000037446
+        },
+        "family": {
+          "scientificName": "Gryllidae",
+          "commonName": "귀뚜라미과",
+          "ktsn": 120000037582
+        },
+        "genus": {
+          "scientificName": "Svercacheta",
+          "commonName": "샴귀뚜라미속",
+          "ktsn": 120000212921
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "siamensis",
+          "commonName": "샴귀뚜라미",
+          "ktsn": 120000212922
+        }
+      },
+      "inat": {
+        "observationCount": 5,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/602444939/medium.jpg",
+        "months": [
+          4,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "ktsn": 120000037643,
+      "scientificName": "Svistella bifasciata (Shiraki, 1911)",
+      "commonName": "풀종다리",
+      "terminalLatinName": "bifasciata",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Orthoptera",
+          "commonName": "메뚜기목",
+          "ktsn": 120000037446
+        },
+        "family": {
+          "scientificName": "Gryllidae",
+          "commonName": "귀뚜라미과",
+          "ktsn": 120000037582
+        },
+        "genus": {
+          "scientificName": "Svistella",
+          "commonName": "풀종다리속",
+          "ktsn": 120000037642
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "bifasciata",
+          "commonName": "풀종다리",
+          "ktsn": 120000037643
+        }
+      },
+      "inat": {
+        "observationCount": 83,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/222895691/medium.jpeg",
+        "months": [
+          1,
+          4,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "ktsn": 120000037646,
+      "scientificName": "Teleogryllus (Brachyteleogryllus) emma (Ohmachi and Matsuura, 1951)",
+      "commonName": "왕귀뚜라미",
+      "terminalLatinName": "emma",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Orthoptera",
+          "commonName": "메뚜기목",
+          "ktsn": 120000037446
+        },
+        "family": {
+          "scientificName": "Gryllidae",
+          "commonName": "귀뚜라미과",
+          "ktsn": 120000037582
+        },
+        "genus": {
+          "scientificName": "Teleogryllus",
+          "commonName": "왕귀뚜라미속",
+          "ktsn": 120000037644
+        },
+        "subgenus": {
+          "scientificName": "Brachyteleogryllus",
+          "commonName": "",
+          "ktsn": 120000037645
+        },
+        "species": {
+          "scientificName": "emma",
+          "commonName": "왕귀뚜라미",
+          "ktsn": 120000037646
+        }
+      },
+      "abstract": "왕귀뚜라미는 동아시아 등지에 서식하는 귀뚜라미의 일종이다. 일본 이름 'エンマコオロギ'(엔마코오로기. 閻魔蟋蟀)에서 유래한 학명 Teleogryllus emma(이명: Teleogryllus yemma)에 따온 ‘염마(閻魔:)귀뚜라미’ 또는 ‘엠마(emma 또는 yemma)귀뚜라미’로도 불린다. 한국에 서식하는 귀뚜라미 중 두 번째로 크며, 여름에 흔히 볼 수 있다. 몸은 검은색이거나 흑갈색이다.",
+      "description": "왕귀뚜라미는 동아시아 등지에 서식하는 귀뚜라미의 일종이다. 일본 이름 'エンマコオロギ'(엔마코오로기. 閻魔蟋蟀)에서 유래한 학명 Teleogryllus emma(이명: Teleogryllus yemma)에 따온 ‘염마(閻魔:)귀뚜라미’ 또는 ‘엠마(emma 또는 yemma)귀뚜라미’로도 불린다. 한국에 서식하는 귀뚜라미 중 두 번째로 크며, 여름에 흔히 볼 수 있다. 몸은 검은색이거나 흑갈색이다.",
+      "inat": {
+        "observationCount": 229,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/156583451/medium.jpeg",
+        "months": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "ktsn": 120000037647,
+      "scientificName": "Teleogryllus (Brachyteleogryllus) infernalis (Saussure, 1877)",
+      "commonName": "새왕귀뚜라미",
+      "terminalLatinName": "infernalis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Orthoptera",
+          "commonName": "메뚜기목",
+          "ktsn": 120000037446
+        },
+        "family": {
+          "scientificName": "Gryllidae",
+          "commonName": "귀뚜라미과",
+          "ktsn": 120000037582
+        },
+        "genus": {
+          "scientificName": "Teleogryllus",
+          "commonName": "왕귀뚜라미속",
+          "ktsn": 120000037644
+        },
+        "subgenus": {
+          "scientificName": "Brachyteleogryllus",
+          "commonName": "",
+          "ktsn": 120000037645
+        },
+        "species": {
+          "scientificName": "infernalis",
+          "commonName": "새왕귀뚜라미",
+          "ktsn": 120000037647
+        }
+      },
+      "inat": {
+        "observationCount": 3,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/229670523/medium.jpeg",
+        "months": [
+          6,
+          9
+        ]
+      }
+    },
+    {
+      "ktsn": 120000511016,
+      "scientificName": "Teleogryllus (Brachyteleogryllus) marini Otte and Alexander, 1983",
+      "commonName": "해안왕귀뚜라미",
+      "terminalLatinName": "marini",
+      "nomenclaturalAuthor": "Otte and Alexander",
+      "namingYear": "1983",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Orthoptera",
+          "commonName": "메뚜기목",
+          "ktsn": 120000037446
+        },
+        "family": {
+          "scientificName": "Gryllidae",
+          "commonName": "귀뚜라미과",
+          "ktsn": 120000037582
+        },
+        "genus": {
+          "scientificName": "Teleogryllus",
+          "commonName": "왕귀뚜라미속",
+          "ktsn": 120000037644
+        },
+        "subgenus": {
+          "scientificName": "Brachyteleogryllus",
+          "commonName": "",
+          "ktsn": 120000037645
+        },
+        "species": {
+          "scientificName": "marini",
+          "commonName": "해안왕귀뚜라미",
+          "ktsn": 120000511016
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:10:27.731Z"
+      }
+    },
+    {
+      "ktsn": 120000212925,
+      "scientificName": "Truljalia hibinonis hibinonis (Matsumura, 1917)",
+      "commonName": "청솔귀뚜라미",
+      "terminalLatinName": "hibinonis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Orthoptera",
+          "commonName": "메뚜기목",
+          "ktsn": 120000037446
+        },
+        "family": {
+          "scientificName": "Gryllidae",
+          "commonName": "귀뚜라미과",
+          "ktsn": 120000037582
+        },
+        "genus": {
+          "scientificName": "Truljalia",
+          "commonName": "청솔귀뚜라미속",
+          "ktsn": 120000037648
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "hibinonis",
+          "commonName": "",
+          "ktsn": 120000037649
+        }
+      },
+      "inat": {
+        "observationCount": 113,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/167347358/medium.jpeg",
+        "months": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "ktsn": 120000037651,
+      "scientificName": "Turanogryllus eous Bey-Bienko, 1956",
+      "commonName": "각시귀뚜라미",
+      "terminalLatinName": "eous",
+      "nomenclaturalAuthor": "Bey-Bienko",
+      "namingYear": "1956",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Orthoptera",
+          "commonName": "메뚜기목",
+          "ktsn": 120000037446
+        },
+        "family": {
+          "scientificName": "Gryllidae",
+          "commonName": "귀뚜라미과",
+          "ktsn": 120000037582
+        },
+        "genus": {
+          "scientificName": "Turanogryllus",
+          "commonName": "각시귀뚜라미속",
+          "ktsn": 120000037650
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "eous",
+          "commonName": "각시귀뚜라미",
+          "ktsn": 120000037651
+        }
+      },
+      "inat": {
+        "observationCount": 6,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/565604991/medium.jpg",
+        "months": [
+          6,
+          8,
+          9
+        ]
+      }
+    },
+    {
+      "ktsn": 120000037654,
+      "scientificName": "Velarifictorus (Velarifictorus) aspersus (Walker, 1869)",
+      "commonName": "탈귀뚜라미",
+      "terminalLatinName": "aspersus",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Orthoptera",
+          "commonName": "메뚜기목",
+          "ktsn": 120000037446
+        },
+        "family": {
+          "scientificName": "Gryllidae",
+          "commonName": "귀뚜라미과",
+          "ktsn": 120000037582
+        },
+        "genus": {
+          "scientificName": "Velarifictorus",
+          "commonName": "극동귀뚜라미속",
+          "ktsn": 120000037652
+        },
+        "subgenus": {
+          "scientificName": "Velarifictorus",
+          "commonName": "",
+          "ktsn": 120000037653
+        },
+        "species": {
+          "scientificName": "aspersus",
+          "commonName": "탈귀뚜라미",
+          "ktsn": 120000037654
+        }
+      },
+      "inat": {
+        "observationCount": 10,
+        "imageUrl": "https://static.inaturalist.org/sounds/1943053.wav?1778473353",
+        "months": [
+          4,
+          5,
+          6,
+          7,
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "ktsn": 120000507394,
+      "scientificName": "Velarifictorus (Velarifictorus) beybienkoi Gorochov, 1985",
+      "commonName": "황해귀뚜라미",
+      "terminalLatinName": "beybienkoi",
+      "nomenclaturalAuthor": "Gorochov",
+      "namingYear": "1985",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Orthoptera",
+          "commonName": "메뚜기목",
+          "ktsn": 120000037446
+        },
+        "family": {
+          "scientificName": "Gryllidae",
+          "commonName": "귀뚜라미과",
+          "ktsn": 120000037582
+        },
+        "genus": {
+          "scientificName": "Velarifictorus",
+          "commonName": "극동귀뚜라미속",
+          "ktsn": 120000037652
+        },
+        "subgenus": {
+          "scientificName": "Velarifictorus",
+          "commonName": "",
+          "ktsn": 120000037653
+        },
+        "species": {
+          "scientificName": "beybienkoi",
+          "commonName": "황해귀뚜라미",
+          "ktsn": 120000507394
+        }
+      },
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/448390472/medium.jpeg",
+        "months": [
+          9
+        ]
+      }
+    },
+    {
+      "ktsn": 120000037656,
+      "scientificName": "Velarifictorus (Velarifictorus) micado (Saussure, 1877)",
+      "commonName": "극동귀뚜라미",
+      "terminalLatinName": "micado",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Orthoptera",
+          "commonName": "메뚜기목",
+          "ktsn": 120000037446
+        },
+        "family": {
+          "scientificName": "Gryllidae",
+          "commonName": "귀뚜라미과",
+          "ktsn": 120000037582
+        },
+        "genus": {
+          "scientificName": "Velarifictorus",
+          "commonName": "극동귀뚜라미속",
+          "ktsn": 120000037652
+        },
+        "subgenus": {
+          "scientificName": "Velarifictorus",
+          "commonName": "",
+          "ktsn": 120000037653
+        },
+        "species": {
+          "scientificName": "micado",
+          "commonName": "극동귀뚜라미",
+          "ktsn": 120000037656
+        }
+      },
+      "inat": {
+        "observationCount": 86,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/411640090/medium.jpeg",
+        "months": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "ktsn": 120000037657,
+      "scientificName": "Velarifictorus (Velarifictorus) ornatus (Shiraki, 1911)",
+      "commonName": "봄여름귀뚜라미",
+      "terminalLatinName": "ornatus",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Orthoptera",
+          "commonName": "메뚜기목",
+          "ktsn": 120000037446
+        },
+        "family": {
+          "scientificName": "Gryllidae",
+          "commonName": "귀뚜라미과",
+          "ktsn": 120000037582
+        },
+        "genus": {
+          "scientificName": "Velarifictorus",
+          "commonName": "극동귀뚜라미속",
+          "ktsn": 120000037652
+        },
+        "subgenus": {
+          "scientificName": "Velarifictorus",
+          "commonName": "",
+          "ktsn": 120000037653
+        },
+        "species": {
+          "scientificName": "ornatus",
+          "commonName": "봄여름귀뚜라미",
+          "ktsn": 120000037657
+        }
+      },
+      "inat": {
+        "observationCount": 3,
+        "imageUrl": null,
+        "months": [
+          5,
+          6,
+          8
+        ]
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:10:27.731Z"
+      }
+    },
+    {
+      "ktsn": 120000037660,
+      "scientificName": "Xenogryllus marmoratus marmoratus (De Haan, 1842)",
+      "commonName": "솔귀뚜라미",
+      "terminalLatinName": "marmoratus",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Orthoptera",
+          "commonName": "메뚜기목",
+          "ktsn": 120000037446
+        },
+        "family": {
+          "scientificName": "Gryllidae",
+          "commonName": "귀뚜라미과",
+          "ktsn": 120000037582
+        },
+        "genus": {
+          "scientificName": "Xenogryllus",
+          "commonName": "솔귀뚜라미속",
+          "ktsn": 120000037658
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "marmoratus",
+          "commonName": "",
+          "ktsn": 120000037659
+        }
+      },
+      "inat": {
+        "observationCount": 4,
+        "imageUrl": "https://static.inaturalist.org/sounds/814604.mp3?1695002212",
+        "months": [
+          8,
+          9,
+          10
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,4094 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "coleoptera",
+    "scientificName": "Coleoptera",
+    "commonName": "딱정벌레목",
+    "orderKtsn": 120000013750,
+    "abstract": "딱정벌레목(Coleoptera)은 곤충의 종 가운데 40%인 35만여종을 차지하는 목이다. 아직 발견되지 않은 종까지 합치면 500만~800만여종이 될 것으로 추정된다. 먹는 먹이도 다양해서 식물의 잎, 송사리 등의 작은 물고기, 나무의 즙, 작은 동물, 동물의 시체 등 매우 다양하다. 딱정벌레목에 속한 곤충으로는 무당벌레, 딱정벌레, 길앞잡이, 물방개, 장수풍뎅이 등이 있다. 대부분이 두꺼운 키틴질로 된 딱딱한 껍데기를 가지고 있어서 갑충(甲蟲)이라고도 불린다.",
+    "description": "딱정벌레목(Coleoptera)은 곤충의 종 가운데 40%인 35만여종을 차지하는 목이다. 아직 발견되지 않은 종까지 합치면 500만~800만여종이 될 것으로 추정된다. 먹는 먹이도 다양해서 식물의 잎, 송사리 등의 작은 물고기, 나무의 즙, 작은 동물, 동물의 시체 등 매우 다양하다. 딱정벌레목에 속한 곤충으로는 무당벌레, 딱정벌레, 길앞잡이, 물방개, 장수풍뎅이 등이 있다. 대부분이 두꺼운 키틴질로 된 딱딱한 껍데기를 가지고 있어서 갑충(甲蟲)이라고도 불린다."
+  },
+  "family": {
+    "id": "cantharidae",
+    "scientificName": "Cantharidae",
+    "commonName": "병대벌레과",
+    "familyKtsn": 120000014131
+  },
+  "speciesCount": 40,
+  "insects": [
+    {
+      "ktsn": 120000014133,
+      "scientificName": "Asiopodabrus asperipunctatus Kang and Okushima, 2003",
+      "commonName": "거친목가는병대벌레",
+      "terminalLatinName": "asperipunctatus",
+      "nomenclaturalAuthor": "Kang and Okushima",
+      "namingYear": "2003",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Cantharidae",
+          "commonName": "병대벌레과",
+          "ktsn": 120000014131
+        },
+        "genus": {
+          "scientificName": "Asiopodabrus",
+          "commonName": "연노랑목가는병대벌레속",
+          "ktsn": 120000014132
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "asperipunctatus",
+          "commonName": "거친목가는병대벌레",
+          "ktsn": 120000014133
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:51:13.068Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:03:15.333Z"
+      },
+      "inatTaxon": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T06:00:13.565Z",
+        "taxonId": 1240987,
+        "preferredCommonName": null,
+        "observationsCount": 0,
+        "wikipediaUrl": null,
+        "defaultPhoto": null,
+        "wikipediaSummary": null,
+        "taxonPhotos": []
+      }
+    },
+    {
+      "ktsn": 120000014134,
+      "scientificName": "Asiopodabrus circumangulatus (Kang and Kim, 2000)",
+      "commonName": "원통목가는병대벌레",
+      "terminalLatinName": "circumangulatus",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "Y",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Cantharidae",
+          "commonName": "병대벌레과",
+          "ktsn": 120000014131
+        },
+        "genus": {
+          "scientificName": "Asiopodabrus",
+          "commonName": "연노랑목가는병대벌레속",
+          "ktsn": 120000014132
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "circumangulatus",
+          "commonName": "원통목가는병대벌레",
+          "ktsn": 120000014134
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:51:13.068Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:03:15.333Z"
+      },
+      "inatTaxon": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T06:00:17.844Z",
+        "taxonId": 1240988,
+        "preferredCommonName": null,
+        "observationsCount": 3,
+        "wikipediaUrl": null,
+        "defaultPhoto": {
+          "mediumUrl": "https://static.inaturalist.org/photos/241939150/medium.jpeg",
+          "squareUrl": "https://static.inaturalist.org/photos/241939150/square.jpeg",
+          "originalDimensions": {
+            "height": 1365,
+            "width": 2048
+          },
+          "license": null,
+          "attribution": "(c) Taewoo Kim, all rights reserved, uploaded by Taewoo Kim",
+          "attributionName": "Taewoo Kim"
+        },
+        "wikipediaSummary": null,
+        "taxonPhotos": [
+          {
+            "mediumUrl": "https://static.inaturalist.org/photos/241939150/medium.jpeg",
+            "largeUrl": "https://static.inaturalist.org/photos/241939150/large.jpeg",
+            "license": null,
+            "attribution": "(c) Taewoo Kim, all rights reserved, uploaded by Taewoo Kim",
+            "attributionName": "Taewoo Kim"
+          }
+        ]
+      }
+    },
+    {
+      "ktsn": 120000014135,
+      "scientificName": "Asiopodabrus fragiliformis (Kang and Kim, 2000)",
+      "commonName": "연노랑목가는병대벌레",
+      "terminalLatinName": "fragiliformis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "Y",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Cantharidae",
+          "commonName": "병대벌레과",
+          "ktsn": 120000014131
+        },
+        "genus": {
+          "scientificName": "Asiopodabrus",
+          "commonName": "연노랑목가는병대벌레속",
+          "ktsn": 120000014132
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "fragiliformis",
+          "commonName": "연노랑목가는병대벌레",
+          "ktsn": 120000014135
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:51:13.068Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:03:15.333Z"
+      },
+      "inatTaxon": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T06:00:19.021Z",
+        "taxonId": 706659,
+        "preferredCommonName": null,
+        "observationsCount": 1,
+        "wikipediaUrl": null,
+        "defaultPhoto": {
+          "mediumUrl": "https://static.inaturalist.org/photos/16680790/medium.jpeg",
+          "squareUrl": "https://static.inaturalist.org/photos/16680790/square.jpeg",
+          "originalDimensions": {
+            "height": 1152,
+            "width": 1728
+          },
+          "license": null,
+          "attribution": "(c) Taewoo Kim, all rights reserved, uploaded by Taewoo Kim",
+          "attributionName": "Taewoo Kim"
+        },
+        "wikipediaSummary": null,
+        "taxonPhotos": [
+          {
+            "mediumUrl": "https://static.inaturalist.org/photos/16680790/medium.jpeg",
+            "largeUrl": "https://static.inaturalist.org/photos/16680790/large.jpeg",
+            "license": null,
+            "attribution": "(c) Taewoo Kim, all rights reserved, uploaded by Taewoo Kim",
+            "attributionName": "Taewoo Kim"
+          }
+        ]
+      }
+    },
+    {
+      "ktsn": 120000014136,
+      "scientificName": "Asiopodabrus koryeoensis Kang, Han, Okushima and Park, 2012",
+      "commonName": "고려연노랑목가는병대벌레",
+      "terminalLatinName": "koryeoensis",
+      "nomenclaturalAuthor": "Kang, Han, Okushima and Park",
+      "namingYear": "2012",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Cantharidae",
+          "commonName": "병대벌레과",
+          "ktsn": 120000014131
+        },
+        "genus": {
+          "scientificName": "Asiopodabrus",
+          "commonName": "연노랑목가는병대벌레속",
+          "ktsn": 120000014132
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "koryeoensis",
+          "commonName": "고려연노랑목가는병대벌레",
+          "ktsn": 120000014136
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:51:13.068Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 2,
+        "imageUrl": null,
+        "months": [
+          5
+        ]
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:03:15.333Z"
+      },
+      "inatTaxon": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T06:00:20.278Z",
+        "taxonId": 1097008,
+        "preferredCommonName": null,
+        "observationsCount": 6,
+        "wikipediaUrl": null,
+        "defaultPhoto": {
+          "mediumUrl": "https://static.inaturalist.org/photos/85745364/medium.jpeg",
+          "squareUrl": "https://static.inaturalist.org/photos/85745364/square.jpeg",
+          "originalDimensions": {
+            "height": 667,
+            "width": 1000
+          },
+          "license": null,
+          "attribution": "(c) WonGun Kim, all rights reserved, uploaded by WonGun Kim",
+          "attributionName": "WonGun Kim"
+        },
+        "wikipediaSummary": null,
+        "taxonPhotos": [
+          {
+            "mediumUrl": "https://static.inaturalist.org/photos/85745364/medium.jpeg",
+            "largeUrl": "https://static.inaturalist.org/photos/85745364/large.jpeg",
+            "license": null,
+            "attribution": "(c) WonGun Kim, all rights reserved, uploaded by WonGun Kim",
+            "attributionName": "WonGun Kim"
+          }
+        ]
+      }
+    },
+    {
+      "ktsn": 120000014137,
+      "scientificName": "Asiopodabrus kurbatovi (Kazantsev, 1998)",
+      "commonName": "어리연노랑목가는병대벌레",
+      "terminalLatinName": "kurbatovi",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Cantharidae",
+          "commonName": "병대벌레과",
+          "ktsn": 120000014131
+        },
+        "genus": {
+          "scientificName": "Asiopodabrus",
+          "commonName": "연노랑목가는병대벌레속",
+          "ktsn": 120000014132
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "kurbatovi",
+          "commonName": "어리연노랑목가는병대벌레",
+          "ktsn": 120000014137
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:51:13.068Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:03:15.333Z"
+      },
+      "inatTaxon": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T06:00:20.835Z"
+      }
+    },
+    {
+      "ktsn": 120000014138,
+      "scientificName": "Asiopodabrus oreumsensis Kang and Okushima, 2003",
+      "commonName": "오름목가는병대벌레",
+      "terminalLatinName": "oreumsensis",
+      "nomenclaturalAuthor": "Kang and Okushima",
+      "namingYear": "2003",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Cantharidae",
+          "commonName": "병대벌레과",
+          "ktsn": 120000014131
+        },
+        "genus": {
+          "scientificName": "Asiopodabrus",
+          "commonName": "연노랑목가는병대벌레속",
+          "ktsn": 120000014132
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "oreumsensis",
+          "commonName": "오름목가는병대벌레",
+          "ktsn": 120000014138
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:51:13.068Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:03:15.333Z"
+      },
+      "inatTaxon": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T06:00:21.390Z"
+      }
+    },
+    {
+      "ktsn": 120000014146,
+      "scientificName": "Cantharis (Cantharis) nigricolor Pic, 1906",
+      "commonName": "검은병대벌레",
+      "terminalLatinName": "nigricolor",
+      "nomenclaturalAuthor": "Pic",
+      "namingYear": "1906",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Cantharidae",
+          "commonName": "병대벌레과",
+          "ktsn": 120000014131
+        },
+        "genus": {
+          "scientificName": "Cantharis",
+          "commonName": "병대벌레속",
+          "ktsn": 120000014144
+        },
+        "subgenus": {
+          "scientificName": "Cantharis",
+          "commonName": "",
+          "ktsn": 120000014145
+        },
+        "species": {
+          "scientificName": "nigricolor",
+          "commonName": "검은병대벌레",
+          "ktsn": 120000014146
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:51:13.068Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:03:15.333Z"
+      },
+      "inatTaxon": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T06:00:26.225Z",
+        "taxonId": 1238444,
+        "preferredCommonName": null,
+        "observationsCount": 4,
+        "wikipediaUrl": null,
+        "defaultPhoto": {
+          "mediumUrl": "https://static.inaturalist.org/photos/125147861/medium.jpeg",
+          "squareUrl": "https://static.inaturalist.org/photos/125147861/square.jpeg",
+          "originalDimensions": {
+            "height": 667,
+            "width": 1000
+          },
+          "license": null,
+          "attribution": "(c) WonGun Kim, all rights reserved, uploaded by WonGun Kim",
+          "attributionName": "WonGun Kim"
+        },
+        "wikipediaSummary": null,
+        "taxonPhotos": [
+          {
+            "mediumUrl": "https://static.inaturalist.org/photos/125147861/medium.jpeg",
+            "largeUrl": "https://static.inaturalist.org/photos/125147861/large.jpeg",
+            "license": null,
+            "attribution": "(c) WonGun Kim, all rights reserved, uploaded by WonGun Kim",
+            "attributionName": "WonGun Kim"
+          }
+        ]
+      }
+    },
+    {
+      "ktsn": 120000014147,
+      "scientificName": "Cantharis (Cantharis) pallida Goeze, 1777",
+      "commonName": "멋쟁이병대벌레",
+      "terminalLatinName": "pallida",
+      "nomenclaturalAuthor": "Goeze",
+      "namingYear": "1777",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Cantharidae",
+          "commonName": "병대벌레과",
+          "ktsn": 120000014131
+        },
+        "genus": {
+          "scientificName": "Cantharis",
+          "commonName": "병대벌레속",
+          "ktsn": 120000014144
+        },
+        "subgenus": {
+          "scientificName": "Cantharis",
+          "commonName": "",
+          "ktsn": 120000014145
+        },
+        "species": {
+          "scientificName": "pallida",
+          "commonName": "멋쟁이병대벌레",
+          "ktsn": 120000014147
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:51:13.068Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 47346563,
+        "canonical": "Cantharis pallida",
+        "fetchedAt": "2026-05-24T07:43:42.601Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [
+          "Norway"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:03:15.333Z",
+        "title": "Cantharis pallida",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Cantharis_pallida_probably_-_Flickr_-_gailhampshire_%281%29.jpg/500px-Cantharis_pallida_probably_-_Flickr_-_gailhampshire_%281%29.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/90/Cantharis_pallida_probably_-_Flickr_-_gailhampshire_%281%29.jpg",
+        "thumbnailSize": {
+          "width": 500,
+          "height": 507
+        },
+        "originalSize": {
+          "width": 1861,
+          "height": 1888
+        },
+        "filename": "Cantharis_pallida_probably_-_Flickr_-_gailhampshire_(1).jpg",
+        "description": "species of insect",
+        "pageUrl": "https://en.wikipedia.org/wiki/Cantharis_pallida",
+        "license": "see Wikimedia Commons",
+        "source": "Wikipedia"
+      },
+      "inatTaxon": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T06:00:27.404Z",
+        "taxonId": 82105,
+        "preferredCommonName": null,
+        "observationsCount": 101,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Cantharis_pallida",
+        "defaultPhoto": {
+          "mediumUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/136540641/medium.jpeg",
+          "squareUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/136540641/square.jpeg",
+          "originalDimensions": {
+            "height": 2048,
+            "width": 1536
+          },
+          "license": "cc-by",
+          "attribution": "(c) M Funnell, some rights reserved (CC BY), uploaded by M Funnell",
+          "attributionName": "M Funnell"
+        },
+        "wikipediaSummary": "<i><b>Cantharis pallida</b></i> is a species of soldier beetles native to Europe.",
+        "taxonPhotos": [
+          {
+            "mediumUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/136540641/medium.jpeg",
+            "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/136540641/large.jpeg",
+            "license": "cc-by",
+            "attribution": "(c) M Funnell, some rights reserved (CC BY), uploaded by M Funnell",
+            "attributionName": "M Funnell"
+          },
+          {
+            "mediumUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/133971217/medium.jpg",
+            "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/133971217/large.jpg",
+            "license": "cc0",
+            "attribution": "no rights reserved, uploaded by Jean-Paul Boerekamps",
+            "attributionName": "Jean-Paul Boerekamps"
+          },
+          {
+            "mediumUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/133971117/medium.jpg",
+            "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/133971117/large.jpg",
+            "license": "cc0",
+            "attribution": "no rights reserved, uploaded by Jean-Paul Boerekamps",
+            "attributionName": "Jean-Paul Boerekamps"
+          }
+        ]
+      }
+    },
+    {
+      "ktsn": 120000014148,
+      "scientificName": "Cantharis (Cantharis) soeulensis Pic, 1922",
+      "commonName": "서울병대벌레",
+      "terminalLatinName": "soeulensis",
+      "nomenclaturalAuthor": "Pic",
+      "namingYear": "1922",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "Y",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Cantharidae",
+          "commonName": "병대벌레과",
+          "ktsn": 120000014131
+        },
+        "genus": {
+          "scientificName": "Cantharis",
+          "commonName": "병대벌레속",
+          "ktsn": 120000014144
+        },
+        "subgenus": {
+          "scientificName": "Cantharis",
+          "commonName": "",
+          "ktsn": 120000014145
+        },
+        "species": {
+          "scientificName": "soeulensis",
+          "commonName": "서울병대벌레",
+          "ktsn": 120000014148
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:51:13.068Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 47,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/39117604/medium.jpg",
+        "months": [
+          4,
+          5,
+          6
+        ]
+      },
+      "inatTaxon": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T06:00:28.629Z",
+        "taxonId": 635051,
+        "preferredCommonName": null,
+        "observationsCount": 111,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Cantharis_soeulensis",
+        "defaultPhoto": {
+          "mediumUrl": "https://static.inaturalist.org/photos/39308992/medium.jpeg",
+          "squareUrl": "https://static.inaturalist.org/photos/39308992/square.jpeg",
+          "originalDimensions": {
+            "height": 667,
+            "width": 1000
+          },
+          "license": null,
+          "attribution": "(c) WonGun Kim, all rights reserved, uploaded by WonGun Kim",
+          "attributionName": "WonGun Kim"
+        },
+        "wikipediaSummary": "<i><b>Cantharis soeulensis</b></i> is a species of beetle in the Cantharidae family. It was first described in 1922 by Maurice Pic. The species epithet, <i>soeulensis</i>, describes the beetle as being found in Seoul.",
+        "taxonPhotos": [
+          {
+            "mediumUrl": "https://static.inaturalist.org/photos/39308992/medium.jpeg",
+            "largeUrl": "https://static.inaturalist.org/photos/39308992/large.jpeg",
+            "license": null,
+            "attribution": "(c) WonGun Kim, all rights reserved, uploaded by WonGun Kim",
+            "attributionName": "WonGun Kim"
+          },
+          {
+            "mediumUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/10489371/medium.jpg",
+            "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/10489371/large.jpg",
+            "license": "cc-by-nc",
+            "attribution": "(c) Alexander Ganse, some rights reserved (CC BY-NC), uploaded by Alexander Ganse",
+            "attributionName": "Alexander Ganse"
+          }
+        ]
+      }
+    },
+    {
+      "ktsn": 120000014150,
+      "scientificName": "Cantharis (Cyrtomoptila) plagiata Heyden, 1889",
+      "commonName": "붉은가슴병대벌레",
+      "terminalLatinName": "plagiata",
+      "nomenclaturalAuthor": "Heyden",
+      "namingYear": "1889",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Cantharidae",
+          "commonName": "병대벌레과",
+          "ktsn": 120000014131
+        },
+        "genus": {
+          "scientificName": "Cantharis",
+          "commonName": "병대벌레속",
+          "ktsn": 120000014144
+        },
+        "subgenus": {
+          "scientificName": "Cyrtomoptila",
+          "commonName": "",
+          "ktsn": 120000014149
+        },
+        "species": {
+          "scientificName": "plagiata",
+          "commonName": "붉은가슴병대벌레",
+          "ktsn": 120000014150
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:51:13.068Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 12,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/72276792/medium.jpeg",
+        "months": [
+          4,
+          5
+        ]
+      },
+      "inatTaxon": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T06:00:29.773Z",
+        "taxonId": 706658,
+        "preferredCommonName": null,
+        "observationsCount": 21,
+        "wikipediaUrl": null,
+        "defaultPhoto": {
+          "mediumUrl": "https://static.inaturalist.org/photos/40761500/medium.jpeg",
+          "squareUrl": "https://static.inaturalist.org/photos/40761500/square.jpeg",
+          "originalDimensions": {
+            "height": 667,
+            "width": 1000
+          },
+          "license": null,
+          "attribution": "(c) WonGun Kim, all rights reserved, uploaded by WonGun Kim",
+          "attributionName": "WonGun Kim"
+        },
+        "wikipediaSummary": null,
+        "taxonPhotos": [
+          {
+            "mediumUrl": "https://static.inaturalist.org/photos/40761500/medium.jpeg",
+            "largeUrl": "https://static.inaturalist.org/photos/40761500/large.jpeg",
+            "license": null,
+            "attribution": "(c) WonGun Kim, all rights reserved, uploaded by WonGun Kim",
+            "attributionName": "WonGun Kim"
+          },
+          {
+            "mediumUrl": "https://static.inaturalist.org/photos/40085622/medium.jpeg",
+            "largeUrl": "https://static.inaturalist.org/photos/40085622/large.jpeg",
+            "license": null,
+            "attribution": "(c) WonGun Kim, all rights reserved, uploaded by WonGun Kim",
+            "attributionName": "WonGun Kim"
+          },
+          {
+            "mediumUrl": "https://static.inaturalist.org/photos/39409480/medium.jpeg",
+            "largeUrl": "https://static.inaturalist.org/photos/39409480/large.jpeg",
+            "license": null,
+            "attribution": "(c) Wonwoong Kim, all rights reserved, uploaded by Wonwoong Kim",
+            "attributionName": "Wonwoong Kim"
+          }
+        ]
+      }
+    },
+    {
+      "ktsn": 120000014171,
+      "scientificName": "Hatchiana glochidiata (Kazantsev, 1996)",
+      "commonName": "등점목가는병대벌레",
+      "terminalLatinName": "glochidiata",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "Y",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Cantharidae",
+          "commonName": "병대벌레과",
+          "ktsn": 120000014131
+        },
+        "genus": {
+          "scientificName": "Hatchiana",
+          "commonName": "등점목가는병대벌레속",
+          "ktsn": 120000014170
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "glochidiata",
+          "commonName": "등점목가는병대벌레",
+          "ktsn": 120000014171
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:51:13.068Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:03:15.949Z"
+      },
+      "inatTaxon": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T06:00:30.913Z",
+        "taxonId": 1240675,
+        "preferredCommonName": null,
+        "observationsCount": 60,
+        "wikipediaUrl": null,
+        "defaultPhoto": {
+          "mediumUrl": "https://static.inaturalist.org/photos/8430995/medium.jpeg",
+          "squareUrl": "https://static.inaturalist.org/photos/8430995/square.jpeg",
+          "originalDimensions": {
+            "height": 750,
+            "width": 1000
+          },
+          "license": null,
+          "attribution": "(c) WonGun Kim, all rights reserved, uploaded by WonGun Kim",
+          "attributionName": "WonGun Kim"
+        },
+        "wikipediaSummary": null,
+        "taxonPhotos": [
+          {
+            "mediumUrl": "https://static.inaturalist.org/photos/8430995/medium.jpeg",
+            "largeUrl": "https://static.inaturalist.org/photos/8430995/large.jpeg",
+            "license": null,
+            "attribution": "(c) WonGun Kim, all rights reserved, uploaded by WonGun Kim",
+            "attributionName": "WonGun Kim"
+          },
+          {
+            "mediumUrl": "https://static.inaturalist.org/photos/44509597/medium.jpeg",
+            "largeUrl": "https://static.inaturalist.org/photos/44509597/large.jpeg",
+            "license": null,
+            "attribution": "(c) WonGun Kim, all rights reserved, uploaded by WonGun Kim",
+            "attributionName": "WonGun Kim"
+          }
+        ]
+      }
+    },
+    {
+      "ktsn": 120000014172,
+      "scientificName": "Hatchiana jirisanensis (Kang and Kim, 2000)",
+      "commonName": "지리목가는병대벌레",
+      "terminalLatinName": "jirisanensis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "Y",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Cantharidae",
+          "commonName": "병대벌레과",
+          "ktsn": 120000014131
+        },
+        "genus": {
+          "scientificName": "Hatchiana",
+          "commonName": "등점목가는병대벌레속",
+          "ktsn": 120000014170
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "jirisanensis",
+          "commonName": "지리목가는병대벌레",
+          "ktsn": 120000014172
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:51:13.068Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 12046680,
+        "canonical": "Hatchiana jirisanensis",
+        "fetchedAt": "2026-05-25T07:30:57.024Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:03:15.949Z"
+      },
+      "inatTaxon": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T06:00:35.270Z",
+        "taxonId": 1240672,
+        "preferredCommonName": null,
+        "observationsCount": 0,
+        "wikipediaUrl": null,
+        "defaultPhoto": null,
+        "wikipediaSummary": null,
+        "taxonPhotos": []
+      }
+    },
+    {
+      "ktsn": 120000014173,
+      "scientificName": "Hatchiana rosinae (Pic, 1904)",
+      "commonName": "극동병대벌레",
+      "terminalLatinName": "rosinae",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Cantharidae",
+          "commonName": "병대벌레과",
+          "ktsn": 120000014131
+        },
+        "genus": {
+          "scientificName": "Hatchiana",
+          "commonName": "등점목가는병대벌레속",
+          "ktsn": 120000014170
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "rosinae",
+          "commonName": "극동병대벌레",
+          "ktsn": 120000014173
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:51:13.068Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:03:15.949Z"
+      },
+      "inatTaxon": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T06:00:36.507Z",
+        "taxonId": 717190,
+        "preferredCommonName": null,
+        "observationsCount": 9,
+        "wikipediaUrl": null,
+        "defaultPhoto": {
+          "mediumUrl": "https://static.inaturalist.org/photos/19401314/medium.jpeg",
+          "squareUrl": "https://static.inaturalist.org/photos/19401314/square.jpeg",
+          "originalDimensions": {
+            "height": 667,
+            "width": 1000
+          },
+          "license": null,
+          "attribution": "(c) WonGun Kim, all rights reserved, uploaded by WonGun Kim",
+          "attributionName": "WonGun Kim"
+        },
+        "wikipediaSummary": null,
+        "taxonPhotos": [
+          {
+            "mediumUrl": "https://static.inaturalist.org/photos/19401314/medium.jpeg",
+            "largeUrl": "https://static.inaturalist.org/photos/19401314/large.jpeg",
+            "license": null,
+            "attribution": "(c) WonGun Kim, all rights reserved, uploaded by WonGun Kim",
+            "attributionName": "WonGun Kim"
+          }
+        ]
+      }
+    },
+    {
+      "ktsn": 120000014175,
+      "scientificName": "Lycocerus jejuensis (Kang & Okushima, 2003)",
+      "commonName": "제주어리병대벌레",
+      "terminalLatinName": "jejuensis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Cantharidae",
+          "commonName": "병대벌레과",
+          "ktsn": 120000014131
+        },
+        "genus": {
+          "scientificName": "Lycocerus",
+          "commonName": "어리병대벌레속",
+          "ktsn": 120000014174
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "jejuensis",
+          "commonName": "제주어리병대벌레",
+          "ktsn": 120000014175
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:51:13.068Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 40921677,
+        "canonical": "Lycocerus jejuensis",
+        "fetchedAt": "2026-05-25T07:31:17.196Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:03:15.949Z"
+      },
+      "inatTaxon": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T06:00:37.653Z",
+        "taxonId": 551656,
+        "preferredCommonName": null,
+        "observationsCount": 2,
+        "wikipediaUrl": null,
+        "defaultPhoto": {
+          "mediumUrl": "https://static.inaturalist.org/photos/8739976/medium.jpeg",
+          "squareUrl": "https://static.inaturalist.org/photos/8739976/square.jpeg",
+          "originalDimensions": {
+            "height": 750,
+            "width": 1000
+          },
+          "license": null,
+          "attribution": "(c) WonGun Kim, all rights reserved, uploaded by WonGun Kim",
+          "attributionName": "WonGun Kim"
+        },
+        "wikipediaSummary": null,
+        "taxonPhotos": [
+          {
+            "mediumUrl": "https://static.inaturalist.org/photos/8739976/medium.jpeg",
+            "largeUrl": "https://static.inaturalist.org/photos/8739976/large.jpeg",
+            "license": null,
+            "attribution": "(c) WonGun Kim, all rights reserved, uploaded by WonGun Kim",
+            "attributionName": "WonGun Kim"
+          }
+        ]
+      }
+    },
+    {
+      "ktsn": 120000014176,
+      "scientificName": "Lycocerus nigrimembris (Kazantsev, 1994)",
+      "commonName": "노랑줄어리병대벌레",
+      "terminalLatinName": "nigrimembris",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Cantharidae",
+          "commonName": "병대벌레과",
+          "ktsn": 120000014131
+        },
+        "genus": {
+          "scientificName": "Lycocerus",
+          "commonName": "어리병대벌레속",
+          "ktsn": 120000014174
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "nigrimembris",
+          "commonName": "노랑줄어리병대벌레",
+          "ktsn": 120000014176
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:51:13.068Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 40921680,
+        "canonical": "Lycocerus nigrimembris",
+        "fetchedAt": "2026-05-25T07:31:21.947Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:03:15.949Z"
+      },
+      "inatTaxon": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T06:00:38.795Z",
+        "taxonId": 565093,
+        "preferredCommonName": null,
+        "observationsCount": 25,
+        "wikipediaUrl": null,
+        "defaultPhoto": {
+          "mediumUrl": "https://static.inaturalist.org/photos/38370983/medium.jpeg",
+          "squareUrl": "https://static.inaturalist.org/photos/38370983/square.jpeg",
+          "originalDimensions": {
+            "height": 666,
+            "width": 1000
+          },
+          "license": null,
+          "attribution": "(c) WonGun Kim, all rights reserved, uploaded by WonGun Kim",
+          "attributionName": "WonGun Kim"
+        },
+        "wikipediaSummary": null,
+        "taxonPhotos": [
+          {
+            "mediumUrl": "https://static.inaturalist.org/photos/38370983/medium.jpeg",
+            "largeUrl": "https://static.inaturalist.org/photos/38370983/large.jpeg",
+            "license": null,
+            "attribution": "(c) WonGun Kim, all rights reserved, uploaded by WonGun Kim",
+            "attributionName": "WonGun Kim"
+          }
+        ]
+      }
+    },
+    {
+      "ktsn": 120000212594,
+      "scientificName": "Lycocerus striatus (Kazantsev, 1994)",
+      "commonName": "세로줄어리병대벌레",
+      "terminalLatinName": "striatus",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Cantharidae",
+          "commonName": "병대벌레과",
+          "ktsn": 120000014131
+        },
+        "genus": {
+          "scientificName": "Lycocerus",
+          "commonName": "어리병대벌레속",
+          "ktsn": 120000014174
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "striatus",
+          "commonName": "세로줄어리병대벌레",
+          "ktsn": 120000212594
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:51:13.068Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:03:15.949Z"
+      },
+      "inatTaxon": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T06:00:42.496Z"
+      }
+    },
+    {
+      "ktsn": 120000014179,
+      "scientificName": "Lycocerus vitellinus (Kiesenwetter, 1874)",
+      "commonName": "회황색병대벌레",
+      "terminalLatinName": "vitellinus",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Cantharidae",
+          "commonName": "병대벌레과",
+          "ktsn": 120000014131
+        },
+        "genus": {
+          "scientificName": "Lycocerus",
+          "commonName": "어리병대벌레속",
+          "ktsn": 120000014174
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "vitellinus",
+          "commonName": "회황색병대벌레",
+          "ktsn": 120000014179
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:51:13.068Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 12046665,
+        "canonical": "Lycocerus vitellinus",
+        "fetchedAt": "2026-05-25T07:31:39.502Z",
+        "vernaculars": {
+          "ko": [
+            "회황색병대벌레"
+          ],
+          "en": [],
+          "ja": [
+            "セボシジョウカイ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "South Korea"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 455
+      },
+      "inat": {
+        "observationCount": 12,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/109343172/medium.jpg",
+        "months": [
+          4,
+          5,
+          6
+        ]
+      },
+      "inatTaxon": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T06:00:43.740Z",
+        "taxonId": 546349,
+        "preferredCommonName": null,
+        "observationsCount": 220,
+        "wikipediaUrl": null,
+        "defaultPhoto": {
+          "mediumUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/383405622/medium.jpeg",
+          "squareUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/383405622/square.jpeg",
+          "originalDimensions": {
+            "height": 1365,
+            "width": 2048
+          },
+          "license": "cc-by",
+          "attribution": "(c) WATANABE Hitoshi 渡辺仁, some rights reserved (CC BY), uploaded by WATANABE Hitoshi 渡辺仁",
+          "attributionName": "WATANABE Hitoshi 渡辺仁"
+        },
+        "wikipediaSummary": null,
+        "taxonPhotos": [
+          {
+            "mediumUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/383405622/medium.jpeg",
+            "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/383405622/large.jpeg",
+            "license": "cc-by",
+            "attribution": "(c) WATANABE Hitoshi 渡辺仁, some rights reserved (CC BY), uploaded by WATANABE Hitoshi 渡辺仁",
+            "attributionName": "WATANABE Hitoshi 渡辺仁"
+          },
+          {
+            "mediumUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/109343172/medium.jpg",
+            "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/109343172/large.jpg",
+            "license": "cc-by-nc",
+            "attribution": "(c) onidiras-iNaturalist, some rights reserved (CC BY-NC), uploaded by onidiras-iNaturalist",
+            "attributionName": "onidiras-iNaturalist"
+          },
+          {
+            "mediumUrl": "https://static.inaturalist.org/photos/8301036/medium.jpeg",
+            "largeUrl": "https://static.inaturalist.org/photos/8301036/large.jpeg",
+            "license": null,
+            "attribution": "(c) WonGun Kim, all rights reserved, uploaded by WonGun Kim",
+            "attributionName": "WonGun Kim"
+          }
+        ]
+      }
+    },
+    {
+      "ktsn": 120000095127,
+      "scientificName": "Malthacus angusticollis (Motschulsky, 1860)",
+      "commonName": "검정목가는병대벌레",
+      "terminalLatinName": "angusticollis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Cantharidae",
+          "commonName": "병대벌레과",
+          "ktsn": 120000014131
+        },
+        "genus": {
+          "scientificName": "Malthacus",
+          "commonName": "검정목가는병대벌레속",
+          "ktsn": 120000095126
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "angusticollis",
+          "commonName": "검정목가는병대벌레",
+          "ktsn": 120000095127
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:51:13.068Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:03:15.949Z"
+      },
+      "inatTaxon": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T06:00:44.327Z"
+      }
+    },
+    {
+      "ktsn": 120000014181,
+      "scientificName": "Malthinellus bicolor Kiesenwetter, 1874",
+      "commonName": "어리밑빠진병대벌레",
+      "terminalLatinName": "bicolor",
+      "nomenclaturalAuthor": "Kiesenwetter",
+      "namingYear": "1874",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Cantharidae",
+          "commonName": "병대벌레과",
+          "ktsn": 120000014131
+        },
+        "genus": {
+          "scientificName": "Malthinellus",
+          "commonName": "어리밑빠진병대벌레속",
+          "ktsn": 120000014180
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "bicolor",
+          "commonName": "어리밑빠진병대벌레",
+          "ktsn": 120000014181
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:51:13.068Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 46874116,
+        "canonical": "Malthinellus bicolor",
+        "fetchedAt": "2026-05-25T07:31:55.241Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:03:15.949Z"
+      },
+      "inatTaxon": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T06:00:45.573Z",
+        "taxonId": 361124,
+        "preferredCommonName": null,
+        "observationsCount": 0,
+        "wikipediaUrl": null,
+        "defaultPhoto": null,
+        "wikipediaSummary": null,
+        "taxonPhotos": []
+      }
+    },
+    {
+      "ktsn": 120000014184,
+      "scientificName": "Malthinus (Malthinus) quadratipennis Kim and Kang, 2000",
+      "commonName": "밑빠진병대벌레",
+      "terminalLatinName": "quadratipennis",
+      "nomenclaturalAuthor": "Kim and Kang",
+      "namingYear": "2000",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "Y",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Cantharidae",
+          "commonName": "병대벌레과",
+          "ktsn": 120000014131
+        },
+        "genus": {
+          "scientificName": "Malthinus",
+          "commonName": "밑빠진병대벌레속",
+          "ktsn": 120000014182
+        },
+        "subgenus": {
+          "scientificName": "Malthinus",
+          "commonName": "",
+          "ktsn": 120000014183
+        },
+        "species": {
+          "scientificName": "quadratipennis",
+          "commonName": "밑빠진병대벌레",
+          "ktsn": 120000014184
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:51:13.068Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 33787115,
+        "canonical": "Malthinus quadratipennis",
+        "fetchedAt": "2026-05-25T07:32:03.796Z",
+        "vernaculars": {
+          "ko": [
+            "밑빠진병대벌레"
+          ],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:03:15.949Z"
+      },
+      "inatTaxon": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T06:00:46.807Z",
+        "taxonId": 1098802,
+        "preferredCommonName": null,
+        "observationsCount": 3,
+        "wikipediaUrl": null,
+        "defaultPhoto": {
+          "mediumUrl": "https://static.inaturalist.org/photos/84215642/medium.jpeg",
+          "squareUrl": "https://static.inaturalist.org/photos/84215642/square.jpeg",
+          "originalDimensions": {
+            "height": 667,
+            "width": 1000
+          },
+          "license": null,
+          "attribution": "(c) WonGun Kim, all rights reserved, uploaded by WonGun Kim",
+          "attributionName": "WonGun Kim"
+        },
+        "wikipediaSummary": null,
+        "taxonPhotos": [
+          {
+            "mediumUrl": "https://static.inaturalist.org/photos/84215642/medium.jpeg",
+            "largeUrl": "https://static.inaturalist.org/photos/84215642/large.jpeg",
+            "license": null,
+            "attribution": "(c) WonGun Kim, all rights reserved, uploaded by WonGun Kim",
+            "attributionName": "WonGun Kim"
+          },
+          {
+            "mediumUrl": "https://static.inaturalist.org/photos/78905078/medium.jpeg",
+            "largeUrl": "https://static.inaturalist.org/photos/78905078/large.jpeg",
+            "license": null,
+            "attribution": "(c) WonGun Kim, all rights reserved, uploaded by WonGun Kim",
+            "attributionName": "WonGun Kim"
+          }
+        ]
+      }
+    },
+    {
+      "ktsn": 120000201851,
+      "scientificName": "Malthinus mucoreus Kiesenwetter, 1879",
+      "commonName": "무늬밑빠진병대벌레",
+      "terminalLatinName": "mucoreus",
+      "nomenclaturalAuthor": "Kiesenwetter",
+      "namingYear": "1879",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Cantharidae",
+          "commonName": "병대벌레과",
+          "ktsn": 120000014131
+        },
+        "genus": {
+          "scientificName": "Malthinus",
+          "commonName": "밑빠진병대벌레속",
+          "ktsn": 120000014182
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "mucoreus",
+          "commonName": "무늬밑빠진병대벌레",
+          "ktsn": 120000201851
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:51:13.068Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 3262496,
+        "canonical": "Malthinus mucoreus",
+        "fetchedAt": "2026-05-25T07:32:08.733Z",
+        "vernaculars": {
+          "ko": [
+            "무늬밑빠진병대벌레"
+          ],
+          "en": [],
+          "ja": [
+            "クロスジツマキジョウカイ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:03:15.949Z"
+      },
+      "inatTaxon": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T06:00:48.039Z",
+        "taxonId": 361187,
+        "preferredCommonName": null,
+        "observationsCount": 5,
+        "wikipediaUrl": null,
+        "defaultPhoto": {
+          "mediumUrl": "https://static.inaturalist.org/photos/43122382/medium.jpeg",
+          "squareUrl": "https://static.inaturalist.org/photos/43122382/square.jpeg",
+          "originalDimensions": {
+            "height": 666,
+            "width": 1000
+          },
+          "license": null,
+          "attribution": "(c) WonGun Kim, all rights reserved, uploaded by WonGun Kim",
+          "attributionName": "WonGun Kim"
+        },
+        "wikipediaSummary": null,
+        "taxonPhotos": [
+          {
+            "mediumUrl": "https://static.inaturalist.org/photos/43122382/medium.jpeg",
+            "largeUrl": "https://static.inaturalist.org/photos/43122382/large.jpeg",
+            "license": null,
+            "attribution": "(c) WonGun Kim, all rights reserved, uploaded by WonGun Kim",
+            "attributionName": "WonGun Kim"
+          }
+        ]
+      }
+    },
+    {
+      "ktsn": 120000223107,
+      "scientificName": "Malthodes (Malthodes) mysticus mysticus Kiesenwetter, 1852",
+      "commonName": "쌍점밑빠진병대벌레",
+      "terminalLatinName": "mysticus",
+      "nomenclaturalAuthor": "Kiesenwetter",
+      "namingYear": "1852",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Cantharidae",
+          "commonName": "병대벌레과",
+          "ktsn": 120000014131
+        },
+        "genus": {
+          "scientificName": "Malthodes",
+          "commonName": "",
+          "ktsn": 120000014185
+        },
+        "subgenus": {
+          "scientificName": "Malthodes",
+          "commonName": "",
+          "ktsn": 120000014186
+        },
+        "species": {
+          "scientificName": "mysticus",
+          "commonName": "",
+          "ktsn": 120000223106
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:51:13.068Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 3262825,
+        "canonical": "Malthodes mysticus mysticus",
+        "fetchedAt": "2026-05-25T07:32:22.221Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 246
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:03:15.949Z"
+      },
+      "inatTaxon": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T06:00:48.596Z"
+      }
+    },
+    {
+      "ktsn": 120000014197,
+      "scientificName": "Pacificanthia knirschi (Pic, 1929)",
+      "commonName": "홍가슴병대벌레",
+      "terminalLatinName": "knirschi",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Cantharidae",
+          "commonName": "병대벌레과",
+          "ktsn": 120000014131
+        },
+        "genus": {
+          "scientificName": "Pacificanthia",
+          "commonName": "홍가슴병대벌레속",
+          "ktsn": 120000014196
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "knirschi",
+          "commonName": "홍가슴병대벌레",
+          "ktsn": 120000014197
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:51:13.068Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 40920571,
+        "canonical": "Pacificanthia knirschi",
+        "fetchedAt": "2026-05-25T07:32:28.082Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:03:15.949Z"
+      },
+      "inatTaxon": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T06:00:52.877Z",
+        "taxonId": 244437,
+        "preferredCommonName": null,
+        "observationsCount": 0,
+        "wikipediaUrl": null,
+        "defaultPhoto": null,
+        "wikipediaSummary": null,
+        "taxonPhotos": []
+      }
+    },
+    {
+      "ktsn": 120000014199,
+      "scientificName": "Podabrus annulatus Mannerheim, 1825",
+      "commonName": "북방목가는병대벌레",
+      "terminalLatinName": "annulatus",
+      "nomenclaturalAuthor": "Mannerheim",
+      "namingYear": "1825",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Cantharidae",
+          "commonName": "병대벌레과",
+          "ktsn": 120000014131
+        },
+        "genus": {
+          "scientificName": "Podabrus",
+          "commonName": "목가는병대벌레속",
+          "ktsn": 120000014198
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "annulatus",
+          "commonName": "북방목가는병대벌레",
+          "ktsn": 120000014199
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:51:13.068Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 3263082,
+        "canonical": "Podabrus annulatus",
+        "fetchedAt": "2026-05-25T07:32:33.805Z",
+        "vernaculars": {
+          "ko": [
+            "북방목가는병대벌레"
+          ],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:03:15.949Z"
+      },
+      "inatTaxon": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T06:00:54.024Z",
+        "taxonId": 1081232,
+        "preferredCommonName": null,
+        "observationsCount": 3,
+        "wikipediaUrl": null,
+        "defaultPhoto": {
+          "mediumUrl": "https://static.inaturalist.org/photos/73164979/medium.jpeg",
+          "squareUrl": "https://static.inaturalist.org/photos/73164979/square.jpeg",
+          "originalDimensions": {
+            "height": 745,
+            "width": 744
+          },
+          "license": null,
+          "attribution": "(c) Konstantin, all rights reserved, uploaded by Konstantin",
+          "attributionName": "Konstantin"
+        },
+        "wikipediaSummary": null,
+        "taxonPhotos": [
+          {
+            "mediumUrl": "https://static.inaturalist.org/photos/73164979/medium.jpeg",
+            "largeUrl": "https://static.inaturalist.org/photos/73164979/large.jpeg",
+            "license": null,
+            "attribution": "(c) Konstantin, all rights reserved, uploaded by Konstantin",
+            "attributionName": "Konstantin"
+          }
+        ]
+      }
+    },
+    {
+      "ktsn": 120000014200,
+      "scientificName": "Podabrus dilaticollis Motschulsky, 1860",
+      "commonName": "노랑테병대벌레",
+      "terminalLatinName": "dilaticollis",
+      "nomenclaturalAuthor": "Motschulsky",
+      "namingYear": "1860",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Cantharidae",
+          "commonName": "병대벌레과",
+          "ktsn": 120000014131
+        },
+        "genus": {
+          "scientificName": "Podabrus",
+          "commonName": "목가는병대벌레속",
+          "ktsn": 120000014198
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "dilaticollis",
+          "commonName": "노랑테병대벌레",
+          "ktsn": 120000014200
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:51:13.068Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 53818149,
+        "canonical": "Podabrus dilaticollis",
+        "fetchedAt": "2026-05-25T07:32:41.059Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [
+          "South Korea"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/10489414/medium.jpg",
+        "months": [
+          6
+        ]
+      },
+      "inatTaxon": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T06:00:55.373Z",
+        "taxonId": 549046,
+        "preferredCommonName": null,
+        "observationsCount": 29,
+        "wikipediaUrl": null,
+        "defaultPhoto": {
+          "mediumUrl": "https://static.inaturalist.org/photos/19401325/medium.jpeg",
+          "squareUrl": "https://static.inaturalist.org/photos/19401325/square.jpeg",
+          "originalDimensions": {
+            "height": 667,
+            "width": 1000
+          },
+          "license": null,
+          "attribution": "(c) WonGun Kim, all rights reserved, uploaded by WonGun Kim",
+          "attributionName": "WonGun Kim"
+        },
+        "wikipediaSummary": null,
+        "taxonPhotos": [
+          {
+            "mediumUrl": "https://static.inaturalist.org/photos/19401325/medium.jpeg",
+            "largeUrl": "https://static.inaturalist.org/photos/19401325/large.jpeg",
+            "license": null,
+            "attribution": "(c) WonGun Kim, all rights reserved, uploaded by WonGun Kim",
+            "attributionName": "WonGun Kim"
+          }
+        ]
+      }
+    },
+    {
+      "ktsn": 120000014201,
+      "scientificName": "Podabrus longissimus Pic, 1905",
+      "commonName": "목가는병대벌레",
+      "terminalLatinName": "longissimus",
+      "nomenclaturalAuthor": "Pic",
+      "namingYear": "1905",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Cantharidae",
+          "commonName": "병대벌레과",
+          "ktsn": 120000014131
+        },
+        "genus": {
+          "scientificName": "Podabrus",
+          "commonName": "목가는병대벌레속",
+          "ktsn": 120000014198
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "longissimus",
+          "commonName": "목가는병대벌레",
+          "ktsn": 120000014201
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:51:13.068Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:03:15.949Z"
+      },
+      "inatTaxon": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T06:00:59.734Z",
+        "taxonId": 361211,
+        "preferredCommonName": null,
+        "observationsCount": 4,
+        "wikipediaUrl": null,
+        "defaultPhoto": {
+          "mediumUrl": "https://static.inaturalist.org/photos/19345661/medium.jpeg",
+          "squareUrl": "https://static.inaturalist.org/photos/19345661/square.jpeg",
+          "originalDimensions": {
+            "height": 667,
+            "width": 1000
+          },
+          "license": null,
+          "attribution": "(c) WonGun Kim, all rights reserved, uploaded by WonGun Kim",
+          "attributionName": "WonGun Kim"
+        },
+        "wikipediaSummary": null,
+        "taxonPhotos": [
+          {
+            "mediumUrl": "https://static.inaturalist.org/photos/19345661/medium.jpeg",
+            "largeUrl": "https://static.inaturalist.org/photos/19345661/large.jpeg",
+            "license": null,
+            "attribution": "(c) WonGun Kim, all rights reserved, uploaded by WonGun Kim",
+            "attributionName": "WonGun Kim"
+          }
+        ]
+      }
+    },
+    {
+      "ktsn": 120000014204,
+      "scientificName": "Podistra (Pseudoabsidia) ussurica (Wittmer, 1979)",
+      "commonName": "고산병대벌레",
+      "terminalLatinName": "ussurica",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Cantharidae",
+          "commonName": "병대벌레과",
+          "ktsn": 120000014131
+        },
+        "genus": {
+          "scientificName": "Podistra",
+          "commonName": "고산병대벌레속",
+          "ktsn": 120000014202
+        },
+        "subgenus": {
+          "scientificName": "Pseudoabsidia",
+          "commonName": "",
+          "ktsn": 120000014203
+        },
+        "species": {
+          "scientificName": "ussurica",
+          "commonName": "고산병대벌레",
+          "ktsn": 120000014204
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:51:13.068Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:03:15.949Z"
+      },
+      "inatTaxon": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T06:01:00.873Z",
+        "taxonId": 894816,
+        "preferredCommonName": null,
+        "observationsCount": 10,
+        "wikipediaUrl": null,
+        "defaultPhoto": {
+          "mediumUrl": "https://static.inaturalist.org/photos/76656124/medium.jpeg",
+          "squareUrl": "https://static.inaturalist.org/photos/76656124/square.jpeg",
+          "originalDimensions": {
+            "height": 1067,
+            "width": 1600
+          },
+          "license": null,
+          "attribution": "(c) WonGun Kim, all rights reserved, uploaded by WonGun Kim",
+          "attributionName": "WonGun Kim"
+        },
+        "wikipediaSummary": null,
+        "taxonPhotos": [
+          {
+            "mediumUrl": "https://static.inaturalist.org/photos/76656124/medium.jpeg",
+            "largeUrl": "https://static.inaturalist.org/photos/76656124/large.jpeg",
+            "license": null,
+            "attribution": "(c) WonGun Kim, all rights reserved, uploaded by WonGun Kim",
+            "attributionName": "WonGun Kim"
+          },
+          {
+            "mediumUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/43176317/medium.jpeg",
+            "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/43176317/large.jpeg",
+            "license": "cc-by-nc",
+            "attribution": "(c) V.S. Volkotrub, some rights reserved (CC BY-NC), uploaded by V.S. Volkotrub",
+            "attributionName": "V.S. Volkotrub"
+          }
+        ]
+      }
+    },
+    {
+      "ktsn": 120000014206,
+      "scientificName": "Podosilis geukdongensis Kang and Park, 2010",
+      "commonName": "살짝뿔병대벌레",
+      "terminalLatinName": "geukdongensis",
+      "nomenclaturalAuthor": "Kang and Park",
+      "namingYear": "2010",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Cantharidae",
+          "commonName": "병대벌레과",
+          "ktsn": 120000014131
+        },
+        "genus": {
+          "scientificName": "Podosilis",
+          "commonName": "살짝뿔병대벌레속",
+          "ktsn": 120000014205
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "geukdongensis",
+          "commonName": "살짝뿔병대벌레",
+          "ktsn": 120000014206
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:51:13.068Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 46874174,
+        "canonical": "Podosilis geukdongensis",
+        "fetchedAt": "2026-05-25T07:33:07.625Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [
+          "South Korea",
+          "Korea"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 1
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:03:15.949Z"
+      },
+      "inatTaxon": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T06:01:01.487Z"
+      }
+    },
+    {
+      "ktsn": 120000014211,
+      "scientificName": "Rhagonycha (Rhagonycha) asiatica Wittmer, 1971",
+      "commonName": "아세아산병대벌레",
+      "terminalLatinName": "asiatica",
+      "nomenclaturalAuthor": "Wittmer",
+      "namingYear": "1971",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Cantharidae",
+          "commonName": "병대벌레과",
+          "ktsn": 120000014131
+        },
+        "genus": {
+          "scientificName": "Rhagonycha",
+          "commonName": "산병대벌레속",
+          "ktsn": 120000014209
+        },
+        "subgenus": {
+          "scientificName": "Rhagonycha",
+          "commonName": "",
+          "ktsn": 120000014210
+        },
+        "species": {
+          "scientificName": "asiatica",
+          "commonName": "아세아산병대벌레",
+          "ktsn": 120000014211
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:51:13.068Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 40920338,
+        "canonical": "Rhagonycha asiatica",
+        "fetchedAt": "2026-05-25T07:33:17.481Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:03:15.949Z"
+      },
+      "inatTaxon": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T06:01:02.744Z",
+        "taxonId": 1473195,
+        "preferredCommonName": null,
+        "observationsCount": 0,
+        "wikipediaUrl": null,
+        "defaultPhoto": {
+          "mediumUrl": "https://static.inaturalist.org/photos/288203491/medium.jpeg",
+          "squareUrl": "https://static.inaturalist.org/photos/288203491/square.jpeg",
+          "originalDimensions": {
+            "height": 667,
+            "width": 1000
+          },
+          "license": null,
+          "attribution": "(c) WonGun Kim, all rights reserved, uploaded by WonGun Kim",
+          "attributionName": "WonGun Kim"
+        },
+        "wikipediaSummary": null,
+        "taxonPhotos": [
+          {
+            "mediumUrl": "https://static.inaturalist.org/photos/288203491/medium.jpeg",
+            "largeUrl": "https://static.inaturalist.org/photos/288203491/large.jpeg",
+            "license": null,
+            "attribution": "(c) WonGun Kim, all rights reserved, uploaded by WonGun Kim",
+            "attributionName": "WonGun Kim"
+          }
+        ]
+      }
+    },
+    {
+      "ktsn": 120000014212,
+      "scientificName": "Rhagonycha (Rhagonycha) atra Linnaeus, 1767",
+      "commonName": "검은산병대벌레",
+      "terminalLatinName": "atra",
+      "nomenclaturalAuthor": "Linnaeus",
+      "namingYear": "1767",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Cantharidae",
+          "commonName": "병대벌레과",
+          "ktsn": 120000014131
+        },
+        "genus": {
+          "scientificName": "Rhagonycha",
+          "commonName": "산병대벌레속",
+          "ktsn": 120000014209
+        },
+        "subgenus": {
+          "scientificName": "Rhagonycha",
+          "commonName": "",
+          "ktsn": 120000014210
+        },
+        "species": {
+          "scientificName": "atra",
+          "commonName": "검은산병대벌레",
+          "ktsn": 120000014212
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:51:13.068Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 3262873,
+        "canonical": "Rhagonycha atra",
+        "fetchedAt": "2026-05-25T07:33:21.283Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [
+          "Norway"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:03:15.949Z"
+      },
+      "inatTaxon": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T06:01:03.891Z",
+        "taxonId": 62460,
+        "preferredCommonName": null,
+        "observationsCount": 14,
+        "wikipediaUrl": null,
+        "defaultPhoto": {
+          "mediumUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/46598761/medium.jpeg",
+          "squareUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/46598761/square.jpeg",
+          "originalDimensions": {
+            "height": 1365,
+            "width": 2048
+          },
+          "license": "cc-by-nc",
+          "attribution": "(c) Alejandro Ocampo, some rights reserved (CC BY-NC), uploaded by Alejandro Ocampo",
+          "attributionName": "Alejandro Ocampo"
+        },
+        "wikipediaSummary": null,
+        "taxonPhotos": [
+          {
+            "mediumUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/46598761/medium.jpeg",
+            "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/46598761/large.jpeg",
+            "license": "cc-by-nc",
+            "attribution": "(c) Alejandro Ocampo, some rights reserved (CC BY-NC), uploaded by Alejandro Ocampo",
+            "attributionName": "Alejandro Ocampo"
+          }
+        ]
+      }
+    },
+    {
+      "ktsn": 120000014213,
+      "scientificName": "Rhagonycha (Rhagonycha) coreana Pic, 1921",
+      "commonName": "우리산병대벌레",
+      "terminalLatinName": "coreana",
+      "nomenclaturalAuthor": "Pic",
+      "namingYear": "1921",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Cantharidae",
+          "commonName": "병대벌레과",
+          "ktsn": 120000014131
+        },
+        "genus": {
+          "scientificName": "Rhagonycha",
+          "commonName": "산병대벌레속",
+          "ktsn": 120000014209
+        },
+        "subgenus": {
+          "scientificName": "Rhagonycha",
+          "commonName": "",
+          "ktsn": 120000014210
+        },
+        "species": {
+          "scientificName": "coreana",
+          "commonName": "우리산병대벌레",
+          "ktsn": 120000014213
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:51:13.068Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:03:15.949Z"
+      },
+      "inatTaxon": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T06:01:04.449Z"
+      }
+    },
+    {
+      "ktsn": 120000014214,
+      "scientificName": "Rhagonycha (Rhagonycha) indistincta Medvedev and Ryvkin, 1989",
+      "commonName": "산병대벌레",
+      "terminalLatinName": "indistincta",
+      "nomenclaturalAuthor": "Medvedev and Ryvkin",
+      "namingYear": "1989",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Cantharidae",
+          "commonName": "병대벌레과",
+          "ktsn": 120000014131
+        },
+        "genus": {
+          "scientificName": "Rhagonycha",
+          "commonName": "산병대벌레속",
+          "ktsn": 120000014209
+        },
+        "subgenus": {
+          "scientificName": "Rhagonycha",
+          "commonName": "",
+          "ktsn": 120000014210
+        },
+        "species": {
+          "scientificName": "indistincta",
+          "commonName": "산병대벌레",
+          "ktsn": 120000014214
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:51:13.068Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 40920361,
+        "canonical": "Rhagonycha indistincta",
+        "fetchedAt": "2026-05-25T07:33:37.930Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:03:15.949Z"
+      },
+      "inatTaxon": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T06:01:05.003Z"
+      }
+    },
+    {
+      "ktsn": 120000014215,
+      "scientificName": "Rhagonycha (Rhagonycha) kanwonensis Švihla, 1995",
+      "commonName": "금강산병대벌레",
+      "terminalLatinName": "kanwonensis",
+      "nomenclaturalAuthor": "Švihla",
+      "namingYear": "1995",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Cantharidae",
+          "commonName": "병대벌레과",
+          "ktsn": 120000014131
+        },
+        "genus": {
+          "scientificName": "Rhagonycha",
+          "commonName": "산병대벌레속",
+          "ktsn": 120000014209
+        },
+        "subgenus": {
+          "scientificName": "Rhagonycha",
+          "commonName": "",
+          "ktsn": 120000014210
+        },
+        "species": {
+          "scientificName": "kanwonensis",
+          "commonName": "금강산병대벌레",
+          "ktsn": 120000014215
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:51:13.068Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 40920494,
+        "canonical": "Rhagonycha kanwonensis",
+        "fetchedAt": "2026-05-25T07:33:42.901Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:03:15.949Z"
+      },
+      "inatTaxon": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T06:01:08.703Z"
+      }
+    },
+    {
+      "ktsn": 120000014216,
+      "scientificName": "Rhagonycha (Rhagonycha) koreaensis Kang and Kim, 2000",
+      "commonName": "눈큰산병대벌레",
+      "terminalLatinName": "koreaensis",
+      "nomenclaturalAuthor": "Kang and Kim",
+      "namingYear": "2000",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "Y",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Cantharidae",
+          "commonName": "병대벌레과",
+          "ktsn": 120000014131
+        },
+        "genus": {
+          "scientificName": "Rhagonycha",
+          "commonName": "산병대벌레속",
+          "ktsn": 120000014209
+        },
+        "subgenus": {
+          "scientificName": "Rhagonycha",
+          "commonName": "",
+          "ktsn": 120000014210
+        },
+        "species": {
+          "scientificName": "koreaensis",
+          "commonName": "눈큰산병대벌레",
+          "ktsn": 120000014216
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:51:13.068Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 40920440,
+        "canonical": "Rhagonycha koreaensis",
+        "fetchedAt": "2026-05-25T07:33:48.129Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:03:15.949Z"
+      },
+      "inatTaxon": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T06:01:09.876Z",
+        "taxonId": 1077771,
+        "preferredCommonName": null,
+        "observationsCount": 4,
+        "wikipediaUrl": null,
+        "defaultPhoto": {
+          "mediumUrl": "https://static.inaturalist.org/photos/71350776/medium.jpeg",
+          "squareUrl": "https://static.inaturalist.org/photos/71350776/square.jpeg",
+          "originalDimensions": {
+            "height": 667,
+            "width": 1000
+          },
+          "license": null,
+          "attribution": "(c) WonGun Kim, all rights reserved, uploaded by WonGun Kim",
+          "attributionName": "WonGun Kim"
+        },
+        "wikipediaSummary": null,
+        "taxonPhotos": [
+          {
+            "mediumUrl": "https://static.inaturalist.org/photos/71350776/medium.jpeg",
+            "largeUrl": "https://static.inaturalist.org/photos/71350776/large.jpeg",
+            "license": null,
+            "attribution": "(c) WonGun Kim, all rights reserved, uploaded by WonGun Kim",
+            "attributionName": "WonGun Kim"
+          }
+        ]
+      }
+    },
+    {
+      "ktsn": 120000014217,
+      "scientificName": "Rhagonycha (Rhagonycha) lederi Pic, 1909",
+      "commonName": "작은산병대벌레",
+      "terminalLatinName": "lederi",
+      "nomenclaturalAuthor": "Pic",
+      "namingYear": "1909",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Cantharidae",
+          "commonName": "병대벌레과",
+          "ktsn": 120000014131
+        },
+        "genus": {
+          "scientificName": "Rhagonycha",
+          "commonName": "산병대벌레속",
+          "ktsn": 120000014209
+        },
+        "subgenus": {
+          "scientificName": "Rhagonycha",
+          "commonName": "",
+          "ktsn": 120000014210
+        },
+        "species": {
+          "scientificName": "lederi",
+          "commonName": "작은산병대벌레",
+          "ktsn": 120000014217
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:51:13.068Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 40920496,
+        "canonical": "Rhagonycha lederi",
+        "fetchedAt": "2026-05-25T07:33:59.996Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:03:15.949Z"
+      },
+      "inatTaxon": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T06:01:10.432Z"
+      }
+    },
+    {
+      "ktsn": 120000014218,
+      "scientificName": "Rhagonycha (Rhagonycha) mlikovskyi Švihla, 1995",
+      "commonName": "백두산병대벌레",
+      "terminalLatinName": "mlikovskyi",
+      "nomenclaturalAuthor": "Švihla",
+      "namingYear": "1995",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Cantharidae",
+          "commonName": "병대벌레과",
+          "ktsn": 120000014131
+        },
+        "genus": {
+          "scientificName": "Rhagonycha",
+          "commonName": "산병대벌레속",
+          "ktsn": 120000014209
+        },
+        "subgenus": {
+          "scientificName": "Rhagonycha",
+          "commonName": "",
+          "ktsn": 120000014210
+        },
+        "species": {
+          "scientificName": "mlikovskyi",
+          "commonName": "백두산병대벌레",
+          "ktsn": 120000014218
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:51:13.068Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 40920373,
+        "canonical": "Rhagonycha mlikovskyi",
+        "fetchedAt": "2026-05-25T07:34:04.903Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:03:15.949Z"
+      },
+      "inatTaxon": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T06:01:11.087Z"
+      }
+    },
+    {
+      "ktsn": 120000014219,
+      "scientificName": "Rhagonycha (Rhagonycha) parviocellata Kang and Kim, 2000",
+      "commonName": "작은눈산병대벌레",
+      "terminalLatinName": "parviocellata",
+      "nomenclaturalAuthor": "Kang and Kim",
+      "namingYear": "2000",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "Y",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Cantharidae",
+          "commonName": "병대벌레과",
+          "ktsn": 120000014131
+        },
+        "genus": {
+          "scientificName": "Rhagonycha",
+          "commonName": "산병대벌레속",
+          "ktsn": 120000014209
+        },
+        "subgenus": {
+          "scientificName": "Rhagonycha",
+          "commonName": "",
+          "ktsn": 120000014210
+        },
+        "species": {
+          "scientificName": "parviocellata",
+          "commonName": "작은눈산병대벌레",
+          "ktsn": 120000014219
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:51:13.068Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 40920489,
+        "canonical": "Rhagonycha parviocellata",
+        "fetchedAt": "2026-05-25T07:34:09.659Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:03:15.949Z"
+      },
+      "inatTaxon": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T06:01:12.257Z",
+        "taxonId": 1077770,
+        "preferredCommonName": null,
+        "observationsCount": 6,
+        "wikipediaUrl": null,
+        "defaultPhoto": {
+          "mediumUrl": "https://static.inaturalist.org/photos/71350790/medium.jpeg",
+          "squareUrl": "https://static.inaturalist.org/photos/71350790/square.jpeg",
+          "originalDimensions": {
+            "height": 667,
+            "width": 1000
+          },
+          "license": null,
+          "attribution": "(c) WonGun Kim, all rights reserved, uploaded by WonGun Kim",
+          "attributionName": "WonGun Kim"
+        },
+        "wikipediaSummary": null,
+        "taxonPhotos": [
+          {
+            "mediumUrl": "https://static.inaturalist.org/photos/71350790/medium.jpeg",
+            "largeUrl": "https://static.inaturalist.org/photos/71350790/large.jpeg",
+            "license": null,
+            "attribution": "(c) WonGun Kim, all rights reserved, uploaded by WonGun Kim",
+            "attributionName": "WonGun Kim"
+          }
+        ]
+      }
+    },
+    {
+      "ktsn": 120000014220,
+      "scientificName": "Rhagonycha (Rhagonycha) transita Wittmer, 1971",
+      "commonName": "꼬마산병대벌레",
+      "terminalLatinName": "transita",
+      "nomenclaturalAuthor": "Wittmer",
+      "namingYear": "1971",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Cantharidae",
+          "commonName": "병대벌레과",
+          "ktsn": 120000014131
+        },
+        "genus": {
+          "scientificName": "Rhagonycha",
+          "commonName": "산병대벌레속",
+          "ktsn": 120000014209
+        },
+        "subgenus": {
+          "scientificName": "Rhagonycha",
+          "commonName": "",
+          "ktsn": 120000014210
+        },
+        "species": {
+          "scientificName": "transita",
+          "commonName": "꼬마산병대벌레",
+          "ktsn": 120000014220
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:51:13.068Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:03:16.564Z"
+      },
+      "inatTaxon": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T06:01:13.397Z",
+        "taxonId": 1095203,
+        "preferredCommonName": null,
+        "observationsCount": 8,
+        "wikipediaUrl": null,
+        "defaultPhoto": {
+          "mediumUrl": "https://static.inaturalist.org/photos/84215625/medium.jpeg",
+          "squareUrl": "https://static.inaturalist.org/photos/84215625/square.jpeg",
+          "originalDimensions": {
+            "height": 667,
+            "width": 1000
+          },
+          "license": null,
+          "attribution": "(c) WonGun Kim, all rights reserved, uploaded by WonGun Kim",
+          "attributionName": "WonGun Kim"
+        },
+        "wikipediaSummary": null,
+        "taxonPhotos": [
+          {
+            "mediumUrl": "https://static.inaturalist.org/photos/84215625/medium.jpeg",
+            "largeUrl": "https://static.inaturalist.org/photos/84215625/large.jpeg",
+            "license": null,
+            "attribution": "(c) WonGun Kim, all rights reserved, uploaded by WonGun Kim",
+            "attributionName": "WonGun Kim"
+          },
+          {
+            "mediumUrl": "https://static.inaturalist.org/photos/76812629/medium.jpeg",
+            "largeUrl": "https://static.inaturalist.org/photos/76812629/large.jpeg",
+            "license": null,
+            "attribution": "(c) WonGun Kim, all rights reserved, uploaded by WonGun Kim",
+            "attributionName": "WonGun Kim"
+          }
+        ]
+      }
+    },
+    {
+      "ktsn": 120000014222,
+      "scientificName": "Silis triimpressa Pic, 1926",
+      "commonName": "뿔병대벌레",
+      "terminalLatinName": "triimpressa",
+      "nomenclaturalAuthor": "Pic",
+      "namingYear": "1926",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Cantharidae",
+          "commonName": "병대벌레과",
+          "ktsn": 120000014131
+        },
+        "genus": {
+          "scientificName": "Silis",
+          "commonName": "뿔병대벌레속",
+          "ktsn": 120000014221
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "triimpressa",
+          "commonName": "뿔병대벌레",
+          "ktsn": 120000014222
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:51:13.068Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:03:16.564Z"
+      },
+      "inatTaxon": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T06:01:17.095Z"
+      }
+    },
+    {
+      "ktsn": 120000014232,
+      "scientificName": "Trypherus niponicus (Lewis, 1879)",
+      "commonName": "반날개병대벌레",
+      "terminalLatinName": "niponicus",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Cantharidae",
+          "commonName": "병대벌레과",
+          "ktsn": 120000014131
+        },
+        "genus": {
+          "scientificName": "Trypherus",
+          "commonName": "반날개병대벌레속",
+          "ktsn": 120000014231
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "niponicus",
+          "commonName": "반날개병대벌레",
+          "ktsn": 120000014232
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:51:13.068Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:03:16.564Z"
+      },
+      "inatTaxon": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T06:01:18.322Z",
+        "taxonId": 361159,
+        "preferredCommonName": null,
+        "observationsCount": 20,
+        "wikipediaUrl": null,
+        "defaultPhoto": {
+          "mediumUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/391090740/medium.jpg",
+          "squareUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/391090740/square.jpg",
+          "originalDimensions": {
+            "height": 1500,
+            "width": 1500
+          },
+          "license": "cc-by-nc",
+          "attribution": "(c) Kirill Kryukov, some rights reserved (CC BY-NC), uploaded by Kirill Kryukov",
+          "attributionName": "Kirill Kryukov"
+        },
+        "wikipediaSummary": null,
+        "taxonPhotos": [
+          {
+            "mediumUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/391090740/medium.jpg",
+            "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/391090740/large.jpg",
+            "license": "cc-by-nc",
+            "attribution": "(c) Kirill Kryukov, some rights reserved (CC BY-NC), uploaded by Kirill Kryukov",
+            "attributionName": "Kirill Kryukov"
+          },
+          {
+            "mediumUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/216438670/medium.jpg",
+            "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/216438670/large.jpg",
+            "license": "cc-by-nc",
+            "attribution": "(c) 登坂久雄, some rights reserved (CC BY-NC), uploaded by 登坂久雄",
+            "attributionName": "登坂久雄"
+          }
+        ]
+      }
+    }
+  ],
+  "digitalContentUpdatedAt": "2026-05-21T08:51:13.068Z",
+  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+}

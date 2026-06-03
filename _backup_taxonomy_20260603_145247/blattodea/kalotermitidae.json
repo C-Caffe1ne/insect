@@ -1,0 +1,122 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "blattodea",
+    "scientificName": "Blattodea",
+    "commonName": "바퀴목",
+    "orderKtsn": 120000224585
+  },
+  "family": {
+    "id": "kalotermitidae",
+    "scientificName": "Kalotermitidae",
+    "commonName": "마른나무흰개미과",
+    "familyKtsn": 120000505070
+  },
+  "speciesCount": 1,
+  "insects": [
+    {
+      "ktsn": 120000505072,
+      "scientificName": "Glyptotermes nakajimai Morimoto, 1973",
+      "commonName": "통짜흰개미",
+      "terminalLatinName": "nakajimai",
+      "nomenclaturalAuthor": "Morimoto",
+      "namingYear": "1973",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Blattodea",
+          "commonName": "바퀴목",
+          "ktsn": 120000224585
+        },
+        "family": {
+          "scientificName": "Kalotermitidae",
+          "commonName": "마른나무흰개미과",
+          "ktsn": 120000505070
+        },
+        "genus": {
+          "scientificName": "Glyptotermes",
+          "commonName": "",
+          "ktsn": 120000505071
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "nakajimai",
+          "commonName": "통짜흰개미",
+          "ktsn": 120000505072
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:43:29.499Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 12027209,
+        "canonical": "Glyptotermes nakajimai",
+        "fetchedAt": "2026-05-24T18:52:37.193Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": [
+            "ナカジマシロアリ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:03:09.256Z"
+      },
+      "inatTaxon": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:52:47.928Z",
+        "taxonId": 1087257,
+        "preferredCommonName": null,
+        "observationsCount": 0,
+        "wikipediaUrl": null,
+        "defaultPhoto": null,
+        "wikipediaSummary": null,
+        "taxonPhotos": []
+      }
+    }
+  ],
+  "digitalContentUpdatedAt": "2026-05-21T08:43:29.499Z",
+  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+}

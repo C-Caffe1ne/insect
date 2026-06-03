@@ -1,0 +1,710 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "coleoptera",
+    "scientificName": "Coleoptera",
+    "commonName": "딱정벌레목",
+    "orderKtsn": 120000013750,
+    "abstract": "딱정벌레목(Coleoptera)은 곤충의 종 가운데 40%인 35만여종을 차지하는 목이다. 아직 발견되지 않은 종까지 합치면 500만~800만여종이 될 것으로 추정된다. 먹는 먹이도 다양해서 식물의 잎, 송사리 등의 작은 물고기, 나무의 즙, 작은 동물, 동물의 시체 등 매우 다양하다. 딱정벌레목에 속한 곤충으로는 무당벌레, 딱정벌레, 길앞잡이, 물방개, 장수풍뎅이 등이 있다. 대부분이 두꺼운 키틴질로 된 딱딱한 껍데기를 가지고 있어서 갑충(甲蟲)이라고도 불린다.",
+    "description": "딱정벌레목(Coleoptera)은 곤충의 종 가운데 40%인 35만여종을 차지하는 목이다. 아직 발견되지 않은 종까지 합치면 500만~800만여종이 될 것으로 추정된다. 먹는 먹이도 다양해서 식물의 잎, 송사리 등의 작은 물고기, 나무의 즙, 작은 동물, 동물의 시체 등 매우 다양하다. 딱정벌레목에 속한 곤충으로는 무당벌레, 딱정벌레, 길앞잡이, 물방개, 장수풍뎅이 등이 있다. 대부분이 두꺼운 키틴질로 된 딱딱한 껍데기를 가지고 있어서 갑충(甲蟲)이라고도 불린다."
+  },
+  "family": {
+    "id": "lampyridae",
+    "scientificName": "Lampyridae",
+    "commonName": "반딧불이과",
+    "familyKtsn": 120000017785,
+    "abstract": "반딧불이 또는 개똥벌레(문화어: 불벌레, firefly 또는 lightning bug, 학명: Lampyridae)는 딱정벌레목의 하위 과 가운데 하나이다. 약 1,900종의 곤충이 이 무리에 드는데, 대부분 생물 발광이라는 생리 과정을 통해 배에서 빛을 발한다.",
+    "description": "반딧불이 또는 개똥벌레(문화어: 불벌레, firefly 또는 lightning bug, 학명: Lampyridae)는 딱정벌레목의 하위 과 가운데 하나이다. 약 1,900종의 곤충이 이 무리에 드는데, 대부분 생물 발광이라는 생리 과정을 통해 배에서 빛을 발한다."
+  },
+  "speciesCount": 7,
+  "insects": [
+    {
+      "ktsn": 120000017787,
+      "scientificName": "Drilaster unicolor Lewis, 1895",
+      "commonName": "큰흙갈색반딧불이",
+      "terminalLatinName": "unicolor",
+      "nomenclaturalAuthor": "Lewis",
+      "namingYear": "1895",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Lampyridae",
+          "commonName": "반딧불이과",
+          "ktsn": 120000017785
+        },
+        "genus": {
+          "scientificName": "Drilaster",
+          "commonName": "",
+          "ktsn": 120000017786
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "unicolor",
+          "commonName": "큰흙갈색반딧불이",
+          "ktsn": 120000017787
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:02:31.015Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 40930969,
+        "canonical": "Drilaster unicolor",
+        "fetchedAt": "2026-05-24T08:03:32.900Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": [
+            "クロミナミボタル"
+          ]
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 6
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:04:19.092Z"
+      }
+    },
+    {
+      "ktsn": 120000017789,
+      "scientificName": "Lampyris noctiluca (Linnaeus, 1767)",
+      "commonName": "북방반딧불이",
+      "terminalLatinName": "noctiluca",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Lampyridae",
+          "commonName": "반딧불이과",
+          "ktsn": 120000017785
+        },
+        "genus": {
+          "scientificName": "Lampyris",
+          "commonName": "반딧불이속",
+          "ktsn": 120000017788
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "noctiluca",
+          "commonName": "북방반딧불이",
+          "ktsn": 120000017789
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:02:31.015Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 2923994,
+        "canonical": "Lampyris noctiluca",
+        "fetchedAt": "2026-05-24T08:03:38.737Z",
+        "vernaculars": {
+          "ko": [
+            "북방반딧불이"
+          ],
+          "en": [
+            "European Glow-worm",
+            "Common Glowworm"
+          ],
+          "ja": []
+        },
+        "habitat": [
+          "plant litter"
+        ],
+        "geographic": [
+          "United States",
+          "Norway",
+          "Austria",
+          "Belgium",
+          "Croatia",
+          "Denmark",
+          "Estonia",
+          "Finland",
+          "France",
+          "Germany",
+          "Italy",
+          "Latvia",
+          "Luxembourg",
+          "Poland",
+          "Russia",
+          "Slovakia",
+          "Spain",
+          "Sweden",
+          "Switzerland",
+          "The Netherlands",
+          "United Kingdom"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 39819
+      },
+      "inat": {
+        "observationCount": 5,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/291730437/medium.jpg",
+        "months": [
+          1,
+          4,
+          6,
+          8
+        ]
+      }
+    },
+    {
+      "ktsn": 120000017791,
+      "scientificName": "Lucidina kotbandia Park and Kang, 2005",
+      "commonName": "꽃반딧불이",
+      "terminalLatinName": "kotbandia",
+      "nomenclaturalAuthor": "Park and Kang",
+      "namingYear": "2005",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Lampyridae",
+          "commonName": "반딧불이과",
+          "ktsn": 120000017785
+        },
+        "genus": {
+          "scientificName": "Lucidina",
+          "commonName": "꽃반딧불이속",
+          "ktsn": 120000017790
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "kotbandia",
+          "commonName": "꽃반딧불이",
+          "ktsn": 120000017791
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:02:31.015Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 12046209,
+        "canonical": "Lucidina kotbandia",
+        "fetchedAt": "2026-05-24T08:03:47.340Z",
+        "vernaculars": {
+          "ko": [
+            "꽃반딧불이"
+          ],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 7
+      },
+      "inat": {
+        "observationCount": 4,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/141082788/medium.jpeg",
+        "months": [
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "ktsn": 120000017794,
+      "scientificName": "Luciola (Hotaria) papariensis Doi, 1932",
+      "commonName": "파파리반딧불이",
+      "terminalLatinName": "papariensis",
+      "nomenclaturalAuthor": "Doi",
+      "namingYear": "1932",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Lampyridae",
+          "commonName": "반딧불이과",
+          "ktsn": 120000017785
+        },
+        "genus": {
+          "scientificName": "Luciola",
+          "commonName": "애반딧불이속",
+          "ktsn": 120000017792
+        },
+        "subgenus": {
+          "scientificName": "Hotaria",
+          "commonName": "",
+          "ktsn": 120000017793
+        },
+        "species": {
+          "scientificName": "papariensis",
+          "commonName": "파파리반딧불이",
+          "ktsn": 120000017794
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:02:31.015Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 12046288,
+        "canonical": "Luciola papariensis",
+        "fetchedAt": "2026-05-24T08:03:54.302Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": [
+            "ツシマヒメボタル"
+          ]
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 3
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:04:19.092Z"
+      }
+    },
+    {
+      "ktsn": 120000017796,
+      "scientificName": "Luciola (Luciola) lateralis Motschulsky, 1860",
+      "commonName": "애반딧불이",
+      "terminalLatinName": "lateralis",
+      "nomenclaturalAuthor": "Motschulsky",
+      "namingYear": "1860",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Lampyridae",
+          "commonName": "반딧불이과",
+          "ktsn": 120000017785
+        },
+        "genus": {
+          "scientificName": "Luciola",
+          "commonName": "애반딧불이속",
+          "ktsn": 120000017792
+        },
+        "subgenus": {
+          "scientificName": "Luciola",
+          "commonName": "",
+          "ktsn": 120000017795
+        },
+        "species": {
+          "scientificName": "lateralis",
+          "commonName": "애반딧불이",
+          "ktsn": 120000017796
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:02:31.015Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 48488349,
+        "canonical": "Luciola lateralis",
+        "fetchedAt": "2026-05-24T08:04:16.523Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "abstract": "애반딧불이(문화어: 물반디, 학명: Luciola lateralis)는 반딧불이과의 곤충이다. '형설지공'(螢雪之功)의 고사성어에 인용되는 곤충으로 몸에서 빛을 내어 암수 간에 통신수단으로 사용하는 곤충류이다. 몸길이 7∼10mm로 반딧불이 종류 중에서 비교적 작은 편이다. 몸빛깔은 검은색이다. 가슴은 앞쪽으로 약간 좁으며 뒤 모서리 각이 돌출되어 있다. 앞가슴등판은 적색을 띠며 중앙에 띠 모양의 흑색 줄이 있다. 수컷은 배의 제5~6배마디에, 암컷은 제5배마디에 황백색의 발광기가 있다. 6월 초에서 8월 중순까지 출현하며 성충은 약 보름 정도 생존하는 것으로 알려져 있다. 애벌레는 논이나 연못, 또는 계류에서 물달팽이류나 다슬기를 먹고 살며 일반적으로 좋은 수계에서 사는 환경지표종으로도 알려져 있다. 개체수가 환경오염으로 감소되는 추세를 보이고 있다. 전라북도 무주군 설천면 일대의 하천은 애반딧불이와 늦반딧불이의 주요 서식처로서 천연기념물 제322호로 지정되어 보호받고 있다. 약용곤충. 민간약재. 애완용 정서곤충으로 가치가 있으며 국외반출 승인대상 생물자원이다.",
+      "description": "애반딧불이(문화어: 물반디, 학명: Luciola lateralis)는 반딧불이과의 곤충이다. '형설지공'(螢雪之功)의 고사성어에 인용되는 곤충으로 몸에서 빛을 내어 암수 간에 통신수단으로 사용하는 곤충류이다. 몸길이 7∼10mm로 반딧불이 종류 중에서 비교적 작은 편이다. 몸빛깔은 검은색이다. 가슴은 앞쪽으로 약간 좁으며 뒤 모서리 각이 돌출되어 있다. 앞가슴등판은 적색을 띠며 중앙에 띠 모양의 흑색 줄이 있다. 수컷은 배의 제5~6배마디에, 암컷은 제5배마디에 황백색의 발광기가 있다. 6월 초에서 8월 중순까지 출현하며 성충은 약 보름 정도 생존하는 것으로 알려져 있다. 애벌레는 논이나 연못, 또는 계류에서 물달팽이류나 다슬기를 먹고 살며 일반적으로 좋은 수계에서 사는 환경지표종으로도 알려져 있다. 개체수가 환경오염으로 감소되는 추세를 보이고 있다. 전라북도 무주군 설천면 일대의 하천은 애반딧불이와 늦반딧불이의 주요 서식처로서 천연기념물 제322호로 지정되어 보호받고 있다. 약용곤충. 민간약재. 애완용 정서곤충으로 가치가 있으며 국외반출 승인대상 생물자원이다.",
+      "wiki": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:04:19.092Z",
+        "title": "Aquatica lateralis",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Japanese_Firefly_%E3%83%98%E3%82%A4%E3%82%B1%E3%83%9C%E3%82%BF%E3%83%AB_Luciola_lateralis.jpg/500px-Japanese_Firefly_%E3%83%98%E3%82%A4%E3%82%B1%E3%83%9C%E3%82%BF%E3%83%AB_Luciola_lateralis.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/90/Japanese_Firefly_%E3%83%98%E3%82%A4%E3%82%B1%E3%83%9C%E3%82%BF%E3%83%AB_Luciola_lateralis.jpg",
+        "thumbnailSize": {
+          "width": 500,
+          "height": 318
+        },
+        "originalSize": {
+          "width": 550,
+          "height": 350
+        },
+        "filename": "Japanese_Firefly_ヘイケボタル_Luciola_lateralis.jpg",
+        "description": "species of insect",
+        "pageUrl": "https://en.wikipedia.org/wiki/Aquatica_lateralis",
+        "license": "see Wikimedia Commons",
+        "source": "Wikipedia"
+      }
+    },
+    {
+      "ktsn": 120000017797,
+      "scientificName": "Luciola (Luciola) unmunsana Doi, 1931",
+      "commonName": "운문산반딧불이",
+      "terminalLatinName": "unmunsana",
+      "nomenclaturalAuthor": "Doi",
+      "namingYear": "1931",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "Y",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Lampyridae",
+          "commonName": "반딧불이과",
+          "ktsn": 120000017785
+        },
+        "genus": {
+          "scientificName": "Luciola",
+          "commonName": "애반딧불이속",
+          "ktsn": 120000017792
+        },
+        "subgenus": {
+          "scientificName": "Luciola",
+          "commonName": "",
+          "ktsn": 120000017795
+        },
+        "species": {
+          "scientificName": "unmunsana",
+          "commonName": "운문산반딧불이",
+          "ktsn": 120000017797
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:02:31.015Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 12046300,
+        "canonical": "Luciola unmunsana",
+        "fetchedAt": "2026-05-24T08:04:21.130Z",
+        "vernaculars": {
+          "ko": [
+            "운문산반딧불이"
+          ],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 172
+      },
+      "inat": {
+        "observationCount": 3,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/215434493/medium.jpeg",
+        "months": [
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "ktsn": 120000017799,
+      "scientificName": "Pyrocoelia rufa (Olivier, 1886)",
+      "commonName": "늦반딧불이",
+      "terminalLatinName": "rufa",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Lampyridae",
+          "commonName": "반딧불이과",
+          "ktsn": 120000017785
+        },
+        "genus": {
+          "scientificName": "Pyrocoelia",
+          "commonName": "늦반딧불이속",
+          "ktsn": 120000017798
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "rufa",
+          "commonName": "늦반딧불이",
+          "ktsn": 120000017799
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:02:31.015Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "error": "HTTP 500 서버 내부 오류가 발생했습니다.",
+        "thumbnailUrl": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 3485776,
+        "canonical": "Pyrocoelia rufa",
+        "fetchedAt": "2026-05-24T08:04:27.684Z",
+        "vernaculars": {
+          "ko": [
+            "늦반딧불이"
+          ],
+          "en": [],
+          "ja": [
+            "アキマドボタル"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "South Korea"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 208
+      },
+      "abstract": "늦반딧불이는 반딧불이과의 곤충이다. 몸길이는 15~18mm이다. 머리는 넓은 앞가슴등판 밑에 숨겨져서 위에서는 보이지 않는다. 앞가슴등판은 뒤쪽이 등황색이나 양옆의 앞쪽은 맑고 투명하다. 몸의 대부분은 암갈색 내지 흑갈색이며, 배의 뒤쪽에 있는 발광기관은 황백색이다. 암컷은 날개가 없으며 몸은 수컷에 비해 크고, 눈은 작다. 더듬이는 수컷보다 짧다. 애벌레는 달팽이나 고동류를 잡아먹고산다. 유충이 땅에 서식하는 육서종이지만, 습한 상태가 항상 유지되는 지역인 계곡 주변의 산기슭이나, 강 주변의 제방 등에서 서식한다. 성충은 8월 중순부터 10월 사이에 나타나는데 땅의 표면이나 풀줄기에서 불빛을 내는 암컷에게 수컷이 날아와 짝짓기를 한다. 한반도 중·남부와 제주도에 서식하며 일본, 중국에 분포한다.",
+      "description": "늦반딧불이는 반딧불이과의 곤충이다. 몸길이는 15~18mm이다. 머리는 넓은 앞가슴등판 밑에 숨겨져서 위에서는 보이지 않는다. 앞가슴등판은 뒤쪽이 등황색이나 양옆의 앞쪽은 맑고 투명하다. 몸의 대부분은 암갈색 내지 흑갈색이며, 배의 뒤쪽에 있는 발광기관은 황백색이다. 암컷은 날개가 없으며 몸은 수컷에 비해 크고, 눈은 작다. 더듬이는 수컷보다 짧다. 애벌레는 달팽이나 고동류를 잡아먹고산다. 유충이 땅에 서식하는 육서종이지만, 습한 상태가 항상 유지되는 지역인 계곡 주변의 산기슭이나, 강 주변의 제방 등에서 서식한다. 성충은 8월 중순부터 10월 사이에 나타나는데 땅의 표면이나 풀줄기에서 불빛을 내는 암컷에게 수컷이 날아와 짝짓기를 한다. 한반도 중·남부와 제주도에 서식하며 일본, 중국에 분포한다.",
+      "inat": {
+        "observationCount": 56,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/546572859/medium.jpg",
+        "months": [
+          1,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "digitalContentUpdatedAt": "2026-05-21T09:02:31.015Z",
+  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+}

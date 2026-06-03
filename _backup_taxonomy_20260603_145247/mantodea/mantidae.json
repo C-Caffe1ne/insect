@@ -1,0 +1,899 @@
+{
+    "generatedAt":  "2026-05-21T07:47:08.025Z",
+    "source":  "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+    "order":  {
+                  "id":  "mantodea",
+                  "scientificName":  "Mantodea",
+                  "commonName":  "사마귀목",
+                  "orderKtsn":  120000066625
+              },
+    "family":  {
+                   "id":  "mantidae",
+                   "scientificName":  "Mantidae",
+                   "commonName":  "사마귀과",
+                   "familyKtsn":  120000020900
+               },
+    "speciesCount":  8,
+    "insects":  [
+                    {
+                        "ktsn":  120000020902,
+                        "scientificName":  "Amantis nawai ",
+                        "commonName":  "좁쌀사마귀",
+                        "terminalLatinName":  "nawai",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Mantodea",
+                                                       "commonName":  "사마귀목",
+                                                       "ktsn":  120000066625
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Mantidae",
+                                                        "commonName":  "사마귀과",
+                                                        "ktsn":  120000020900
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Amantis",
+                                                       "commonName":  "좁쌀사마귀속",
+                                                       "ktsn":  120000020901
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "nawai",
+                                                         "commonName":  "좁쌀사마귀",
+                                                         "ktsn":  120000020902
+                                                     }
+                                     },
+                        "eol":  {
+                                    "pageId":  3489766,
+                                    "canonical":  "Amantis nawai",
+                                    "fetchedAt":  "2026-05-24T08:45:06.976Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+                                                                   "좁쌀사마귀"
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+                                                                   "ヒナカマキリ",
+                                                                   "ヒナカマキリ"
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+                                                       "Japan",
+                                                       "China"
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  235
+                                },
+                        "inat":  {
+                                     "observationCount":  5,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/591783081/medium.jpg",
+                                     "months":  [
+                                                    1,
+                                                    7,
+                                                    8,
+                                                    11
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000473277,
+                        "scientificName":  "Hierodula chinensis Werner, 1929",
+                        "commonName":  "붉은긴가슴넓적배사마귀",
+                        "terminalLatinName":  "chinensis",
+                        "nomenclaturalAuthor":  "Werner",
+                        "namingYear":  "1929",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Mantodea",
+                                                       "commonName":  "사마귀목",
+                                                       "ktsn":  120000066625
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Mantidae",
+                                                        "commonName":  "사마귀과",
+                                                        "ktsn":  120000020900
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Hierodula",
+                                                       "commonName":  "넓적배사마귀속",
+                                                       "ktsn":  120000020903
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "chinensis",
+                                                         "commonName":  "붉은긴가슴넓적배사마귀",
+                                                         "ktsn":  120000473277
+                                                     }
+                                     },
+                        "eol":  {
+                                    "pageId":  8101512,
+                                    "canonical":  "Hierodula chinensis",
+                                    "fetchedAt":  "2026-05-24T08:45:34.055Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+                                                                   "붉은긴가슴넓적배사마귀"
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+                                                                   "ムネアカハラビロカマキリ"
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+                                                       "Korea",
+                                                       "China"
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  190
+                                },
+                        "abstract":  "붉은긴가슴넓적배사마귀는 사마귀목 사마귀과의 곤충으로, 중국이 원산지이며 대한민국과 일본에 유입되었다.",
+                        "description":  "붉은긴가슴넓적배사마귀는 사마귀목 사마귀과의 곤충으로, 중국이 원산지이며 대한민국과 일본에 유입되었다.",
+                        "inat":  {
+                                     "observationCount":  33,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/277746822/medium.jpg",
+                                     "months":  [
+                                                    3,
+                                                    5,
+                                                    7,
+                                                    8,
+                                                    9,
+                                                    10,
+                                                    11,
+                                                    12
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000020904,
+                        "scientificName":  "Hierodula patellifera ",
+                        "commonName":  "넓적배사마귀",
+                        "terminalLatinName":  "patellifera",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Mantodea",
+                                                       "commonName":  "사마귀목",
+                                                       "ktsn":  120000066625
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Mantidae",
+                                                        "commonName":  "사마귀과",
+                                                        "ktsn":  120000020900
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Hierodula",
+                                                       "commonName":  "넓적배사마귀속",
+                                                       "ktsn":  120000020903
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "patellifera",
+                                                         "commonName":  "넓적배사마귀",
+                                                         "ktsn":  120000020904
+                                                     }
+                                     },
+                        "eol":  {
+                                    "pageId":  3489778,
+                                    "canonical":  "Hierodula patellifera",
+                                    "fetchedAt":  "2026-05-24T08:45:11.023Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+                                                                   "넓적배사마귀",
+                                                                   "넓적배사마귀"
+                                                               ],
+                                                        "en":  [
+                                                                   "Harabiro Mantis",
+                                                                   "Giant Asian Mantis",
+                                                                   "Asian mantis",
+                                                                   "Giant Asian Mantis"
+                                                               ],
+                                                        "ja":  [
+                                                                   "ハラビロカマキリ",
+                                                                   "ハラビロカマキリ（腹広螳螂）"
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+                                                       "India",
+                                                       "Japan",
+                                                       "Korean Peninsula",
+                                                       "Hawaii",
+                                                       "Malaysia",
+                                                       "Thailand",
+                                                       "Taiwan",
+                                                       "The Philippines",
+                                                       "New Guinea",
+                                                       "China",
+                                                       "Vietnam",
+                                                       "Cambodia",
+                                                       "Guam",
+                                                       "Hong Kong",
+                                                       "Burma",
+                                                       "Singapore",
+                                                       "South Korea",
+                                                       "Mexico",
+                                                       "North Pacific",
+                                                       "United States"
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  4324
+                                },
+                        "abstract":  "넓적배사마귀는 사마귀과 곤충이다. 앞날개 가장자리에는 하얀 점이 있으며 몸길이는 4~7cm 정도이다. 주로 녹색이며 드물게 갈색의 개체도 있다. 몸길이에 비하여 머리와 앞다리가 크고 전체적으로 땅딸막해 보인다. 겉날개에 한 쌍의 흰색 반점이 있고 앞다리의 밑마디에 황색의 돌기가 3개씩 있다. 암컷은 알집을 나뭇가지나 돌 등에 낳는다. 약충의 경우 배의 아랫면을 둥글게 구부려 치켜드는 자세를 취하는 것이 특징이다. 산이나 숲의 나뭇가지, 줄기, 인가 주변에서 서식하며 다른 곤충을 잡아먹는다. 성충은 8~10월 사이에 볼 수 있다. 한국, 중국, 일본, 대만 등 아시아에 널리 서식한다.차나 사람에게 밟혀 죽는경우도 있다.넓적배사마귀는 사이즈가 크지 않아서 쉽게 키울수 있다. 알집은 크고 불룩하다.",
+                        "description":  "넓적배사마귀는 사마귀과 곤충이다. 앞날개 가장자리에는 하얀 점이 있으며 몸길이는 4~7cm 정도이다. 주로 녹색이며 드물게 갈색의 개체도 있다. 몸길이에 비하여 머리와 앞다리가 크고 전체적으로 땅딸막해 보인다. 겉날개에 한 쌍의 흰색 반점이 있고 앞다리의 밑마디에 황색의 돌기가 3개씩 있다. 암컷은 알집을 나뭇가지나 돌 등에 낳는다. 약충의 경우 배의 아랫면을 둥글게 구부려 치켜드는 자세를 취하는 것이 특징이다. 산이나 숲의 나뭇가지, 줄기, 인가 주변에서 서식하며 다른 곤충을 잡아먹는다. 성충은 8~10월 사이에 볼 수 있다. 한국, 중국, 일본, 대만 등 아시아에 널리 서식한다.차나 사람에게 밟혀 죽는경우도 있다.넓적배사마귀는 사이즈가 크지 않아서 쉽게 키울수 있다. 알집은 크고 불룩하다.",
+                        "inat":  {
+                                     "observationCount":  828,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/48969283/medium.jpg",
+                                     "months":  [
+                                                    1,
+                                                    2,
+                                                    3,
+                                                    4,
+                                                    5,
+                                                    6,
+                                                    7,
+                                                    8,
+                                                    9,
+                                                    10,
+                                                    11,
+                                                    12
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000020907,
+                        "scientificName":  "Mantis religiosa sinica Bazyluk, 1960",
+                        "commonName":  "항라사마귀",
+                        "terminalLatinName":  "sinica",
+                        "nomenclaturalAuthor":  "Bazyluk",
+                        "namingYear":  "1960",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Mantodea",
+                                                       "commonName":  "사마귀목",
+                                                       "ktsn":  120000066625
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Mantidae",
+                                                        "commonName":  "사마귀과",
+                                                        "ktsn":  120000020900
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Mantis",
+                                                       "commonName":  "항라사마귀속",
+                                                       "ktsn":  120000020905
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "religiosa",
+                                                         "commonName":  "",
+                                                         "ktsn":  120000020906
+                                                     }
+                                     },
+                        "eol":  {
+                                    "pageId":  8101643,
+                                    "canonical":  "Mantis religiosa sinica",
+                                    "fetchedAt":  "2026-05-24T08:45:15.195Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+                                                                   "항라사마귀"
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+                                                                   "ウスバカマキリ"
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  16
+                                },
+                        "abstract":  "항라사마귀(문화어: 유리날개사마귀)는 사마귀목에 속하는 곤충이다. 앞날개가 약간 투명해서 마치 누런 모시 옷감처럼 보이는 데서 이런 이름이 붙었다. 몸길이는 47∼65mm 내외이며 몸 색깔은 연한 연두색이거나 연한 갈색이다. 수컷의 촉각(더듬이)은 굵고 길며 암컷은 실 모양이고 짧다. 앞날개는 배끝을 약간 넘는데, 암컷의 경우 약간 가죽질이며 수컷의 경우 넓고 투명하다. 앞가두리에 가늘고 불규칙한 날개맥이 있다. 특징은 앞다리 넓적다리마디 안쪽에 노란 점이, 앞다리 밑마디 안쪽에 검은 얼룩무늬가 있다는 것이고, 뒷다리 넓적다리마디에 가시돌기가 없는 점들이 다른 종과 구별된다. 유럽에서 항라사마귀는 그냥 \u0027사마귀(Mantis)\u0027 혹은 \u0027유럽사마귀(European mantis)\u0027라고 불린다. 8월에서 10월까지 들이나 개천가의 풀밭에서 볼 수 있으며 주로 땅과 가까운 곳에 서식한다. 먹이는 작은 곤충이나 작은 척추동물이다. 알집은 약간 길고 베개 모양이며 담 밑이나 돌 밑 등에 산란한다. 알로 월동한다. 유충은 불완전변태를 통해 성충이 된다.",
+                        "description":  "항라사마귀(문화어: 유리날개사마귀)는 사마귀목에 속하는 곤충이다. 앞날개가 약간 투명해서 마치 누런 모시 옷감처럼 보이는 데서 이런 이름이 붙었다. 몸길이는 47∼65mm 내외이며 몸 색깔은 연한 연두색이거나 연한 갈색이다. 수컷의 촉각(더듬이)은 굵고 길며 암컷은 실 모양이고 짧다. 앞날개는 배끝을 약간 넘는데, 암컷의 경우 약간 가죽질이며 수컷의 경우 넓고 투명하다. 앞가두리에 가늘고 불규칙한 날개맥이 있다. 특징은 앞다리 넓적다리마디 안쪽에 노란 점이, 앞다리 밑마디 안쪽에 검은 얼룩무늬가 있다는 것이고, 뒷다리 넓적다리마디에 가시돌기가 없는 점들이 다른 종과 구별된다. 유럽에서 항라사마귀는 그냥 \u0027사마귀(Mantis)\u0027 혹은 \u0027유럽사마귀(European mantis)\u0027라고 불린다. 8월에서 10월까지 들이나 개천가의 풀밭에서 볼 수 있으며 주로 땅과 가까운 곳에 서식한다. 먹이는 작은 곤충이나 작은 척추동물이다. 알집은 약간 길고 베개 모양이며 담 밑이나 돌 밑 등에 산란한다. 알로 월동한다. 유충은 불완전변태를 통해 성충이 된다.",
+                        "inat":  {
+                                     "observationCount":  28,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/547219214/medium.jpg",
+                                     "months":  [
+                                                    6,
+                                                    7,
+                                                    8,
+                                                    9,
+                                                    10
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000020909,
+                        "scientificName":  "Statilia maculata ",
+                        "commonName":  "좀사마귀",
+                        "terminalLatinName":  "maculata",
+                        "nomenclaturalAuthor":  "",
+                        "namingYear":  "",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Mantodea",
+                                                       "commonName":  "사마귀목",
+                                                       "ktsn":  120000066625
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Mantidae",
+                                                        "commonName":  "사마귀과",
+                                                        "ktsn":  120000020900
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Statilia",
+                                                       "commonName":  "좀사마귀속",
+                                                       "ktsn":  120000020908
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "maculata",
+                                                         "commonName":  "좀사마귀",
+                                                         "ktsn":  120000020909
+                                                     }
+                                     },
+                        "eol":  {
+                                    "pageId":  3489790,
+                                    "canonical":  "Statilia maculata",
+                                    "fetchedAt":  "2026-05-24T08:45:19.173Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+                                                                   "좀사마귀",
+                                                                   "좀사마귀"
+                                                               ],
+                                                        "en":  [
+                                                                   "Asian Jumping Mantis"
+                                                               ],
+                                                        "ja":  [
+                                                                   "コカマキリ",
+                                                                   "コカマキリ"
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+                                                       "Mexico",
+                                                       "Japan",
+                                                       "Taiwan",
+                                                       "South Korea",
+                                                       "Hong Kong",
+                                                       "China"
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  2000
+                                },
+                        "abstract":  "좀사마귀는 사마귀과의 곤충이다. 몸 색은 진한 갈색이나 옅은 갈색 등 변이가 심하며 드물게 녹색형도 나타난다. 앞다리 사이에는 검은 눈 무늬가 있고, 앞날개에 옅은 하얀 반점이 있다. 나뭇가지처럼 위장을 하고 있다가 지나가는 곤충을 잡아먹는 육식성이다. 산지나 들판 등에서 서식하며 한국, 일본, 중국 등지에 널리 분포한다.",
+                        "description":  "좀사마귀는 사마귀과의 곤충이다. 몸 색은 진한 갈색이나 옅은 갈색 등 변이가 심하며 드물게 녹색형도 나타난다. 앞다리 사이에는 검은 눈 무늬가 있고, 앞날개에 옅은 하얀 반점이 있다. 나뭇가지처럼 위장을 하고 있다가 지나가는 곤충을 잡아먹는 육식성이다. 산지나 들판 등에서 서식하며 한국, 일본, 중국 등지에 널리 분포한다.",
+                        "inat":  {
+                                     "observationCount":  457,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/324949820/medium.jpg",
+                                     "months":  [
+                                                    1,
+                                                    2,
+                                                    4,
+                                                    5,
+                                                    6,
+                                                    7,
+                                                    8,
+                                                    9,
+                                                    10,
+                                                    11
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000020910,
+                        "scientificName":  "Statilia nemoralis Saussure, 1870",
+                        "commonName":  "민무늬좀사마귀",
+                        "terminalLatinName":  "nemoralis",
+                        "nomenclaturalAuthor":  "Saussure",
+                        "namingYear":  "1870",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Mantodea",
+                                                       "commonName":  "사마귀목",
+                                                       "ktsn":  120000066625
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Mantidae",
+                                                        "commonName":  "사마귀과",
+                                                        "ktsn":  120000020900
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Statilia",
+                                                       "commonName":  "좀사마귀속",
+                                                       "ktsn":  120000020908
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "nemoralis",
+                                                         "commonName":  "민무늬좀사마귀",
+                                                         "ktsn":  120000020910
+                                                     }
+                                     },
+                        "eol":  {
+                                    "pageId":  8101621,
+                                    "canonical":  "Statilia nemoralis",
+                                    "fetchedAt":  "2026-05-24T08:45:23.466Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+
+                                                               ],
+                                                        "en":  [
+
+                                                               ],
+                                                        "ja":  [
+                                                                   "スジイリコカマキリ"
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+
+                                                   ],
+                                    "introduced":  [
+
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  91
+                                },
+                        "inat":  {
+                                     "observationCount":  16,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/280074172/medium.jpeg",
+                                     "months":  [
+                                                    3,
+                                                    4,
+                                                    5,
+                                                    6,
+                                                    7,
+                                                    9,
+                                                    10,
+                                                    11,
+                                                    12
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000020912,
+                        "scientificName":  "Tenodera angustipennis Saussure, 1869",
+                        "commonName":  "사마귀",
+                        "terminalLatinName":  "angustipennis",
+                        "nomenclaturalAuthor":  "Saussure",
+                        "namingYear":  "1869",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Mantodea",
+                                                       "commonName":  "사마귀목",
+                                                       "ktsn":  120000066625
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Mantidae",
+                                                        "commonName":  "사마귀과",
+                                                        "ktsn":  120000020900
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Tenodera",
+                                                       "commonName":  "사마귀속",
+                                                       "ktsn":  120000020911
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "angustipennis",
+                                                         "commonName":  "사마귀",
+                                                         "ktsn":  120000020912
+                                                     }
+                                     },
+                        "eol":  {
+                                    "pageId":  403225,
+                                    "canonical":  "Tenodera angustipennis",
+                                    "fetchedAt":  "2026-05-24T08:45:26.154Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+                                                                   "사마귀",
+                                                                   "사마귀"
+                                                               ],
+                                                        "en":  [
+                                                                   "Japanese Mantis",
+                                                                   "Narrow-winged Mantis",
+                                                                   "Asian mantis",
+                                                                   "Mantis"
+                                                               ],
+                                                        "ja":  [
+                                                                   "カマキリ",
+                                                                   "チョウセンカマキリ",
+                                                                   "チョウセンカマキリ"
+                                                               ]
+                                                    },
+                                    "habitat":  [
+
+                                                ],
+                                    "geographic":  [
+                                                       "United States",
+                                                       "China",
+                                                       "South Korea",
+                                                       "Japan",
+                                                       "North Atlantic",
+                                                       "North Pacific"
+                                                   ],
+                                    "introduced":  [
+                                                       "The Contiguous United States"
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  2056
+                                },
+                        "inat":  {
+                                     "observationCount":  270,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/116140550/medium.jpg",
+                                     "months":  [
+                                                    1,
+                                                    2,
+                                                    3,
+                                                    4,
+                                                    6,
+                                                    7,
+                                                    8,
+                                                    9,
+                                                    10,
+                                                    11,
+                                                    12
+                                                ]
+                                 }
+                    },
+                    {
+                        "ktsn":  120000020913,
+                        "scientificName":  "Tenodera sinensis Saussure, 1871",
+                        "commonName":  "왕사마귀",
+                        "terminalLatinName":  "sinensis",
+                        "nomenclaturalAuthor":  "Saussure",
+                        "namingYear":  "1871",
+                        "corsynSeYn":  "Y",
+                        "egspcsYn":  "N",
+                        "hrmflSpecsYn":  "N",
+                        "dispYn":  "N",
+                        "phspYn":  "N",
+                        "korUnqBispYn":  "N",
+                        "ntmYn":  "N",
+                        "taxonomy":  {
+                                         "phylum":  {
+                                                        "scientificName":  "Arthropoda",
+                                                        "commonName":  "절지동물문",
+                                                        "ktsn":  120000013748
+                                                    },
+                                         "class":  {
+                                                       "scientificName":  "Insecta",
+                                                       "commonName":  "곤충강",
+                                                       "ktsn":  120000013749
+                                                   },
+                                         "order":  {
+                                                       "scientificName":  "Mantodea",
+                                                       "commonName":  "사마귀목",
+                                                       "ktsn":  120000066625
+                                                   },
+                                         "family":  {
+                                                        "scientificName":  "Mantidae",
+                                                        "commonName":  "사마귀과",
+                                                        "ktsn":  120000020900
+                                                    },
+                                         "genus":  {
+                                                       "scientificName":  "Tenodera",
+                                                       "commonName":  "사마귀속",
+                                                       "ktsn":  120000020911
+                                                   },
+                                         "subgenus":  {
+                                                          "scientificName":  "",
+                                                          "commonName":  "",
+                                                          "ktsn":  null
+                                                      },
+                                         "species":  {
+                                                         "scientificName":  "sinensis",
+                                                         "commonName":  "왕사마귀",
+                                                         "ktsn":  120000020913
+                                                     }
+                                     },
+                        "eol":  {
+                                    "pageId":  3489757,
+                                    "canonical":  "Tenodera sinensis",
+                                    "fetchedAt":  "2026-05-24T08:45:30.082Z",
+                                    "vernaculars":  {
+                                                        "ko":  [
+                                                                   "왕사마귀",
+                                                                   "왕사마귀"
+                                                               ],
+                                                        "en":  [
+                                                                   "Chinese Mantis",
+                                                                   "Chinese mantid",
+                                                                   "Chinese mantis",
+                                                                   "Chinese mantis"
+                                                               ],
+                                                        "ja":  [
+                                                                   "オオカマキリ"
+                                                               ]
+                                                    },
+                                    "habitat":  [
+                                                    "canal"
+                                                ],
+                                    "geographic":  [
+                                                       "United States",
+                                                       "North Pacific",
+                                                       "North Atlantic",
+                                                       "Mexico",
+                                                       "Japan",
+                                                       "South Korea",
+                                                       "Hong Kong",
+                                                       "China",
+                                                       "Canada"
+                                                   ],
+                                    "introduced":  [
+                                                       "United States"
+                                                   ],
+                                    "eats":  [
+
+                                             ],
+                                    "visitsFlowersOf":  [
+
+                                                        ],
+                                    "pathogenOf":  [
+
+                                                   ],
+                                    "gbifRecords":  16721
+                                },
+                        "inat":  {
+                                     "observationCount":  563,
+                                     "imageUrl":  "https://inaturalist-open-data.s3.amazonaws.com/photos/284887743/medium.jpeg",
+                                     "months":  [
+                                                    1,
+                                                    2,
+                                                    3,
+                                                    4,
+                                                    5,
+                                                    6,
+                                                    7,
+                                                    8,
+                                                    9,
+                                                    10,
+                                                    11,
+                                                    12
+                                                ]
+                                 }
+                    }
+                ]
+}

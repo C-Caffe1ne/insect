@@ -1,0 +1,928 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "coleoptera",
+    "scientificName": "Coleoptera",
+    "commonName": "딱정벌레목",
+    "orderKtsn": 120000013750,
+    "abstract": "딱정벌레목(Coleoptera)은 곤충의 종 가운데 40%인 35만여종을 차지하는 목이다. 아직 발견되지 않은 종까지 합치면 500만~800만여종이 될 것으로 추정된다. 먹는 먹이도 다양해서 식물의 잎, 송사리 등의 작은 물고기, 나무의 즙, 작은 동물, 동물의 시체 등 매우 다양하다. 딱정벌레목에 속한 곤충으로는 무당벌레, 딱정벌레, 길앞잡이, 물방개, 장수풍뎅이 등이 있다. 대부분이 두꺼운 키틴질로 된 딱딱한 껍데기를 가지고 있어서 갑충(甲蟲)이라고도 불린다.",
+    "description": "딱정벌레목(Coleoptera)은 곤충의 종 가운데 40%인 35만여종을 차지하는 목이다. 아직 발견되지 않은 종까지 합치면 500만~800만여종이 될 것으로 추정된다. 먹는 먹이도 다양해서 식물의 잎, 송사리 등의 작은 물고기, 나무의 즙, 작은 동물, 동물의 시체 등 매우 다양하다. 딱정벌레목에 속한 곤충으로는 무당벌레, 딱정벌레, 길앞잡이, 물방개, 장수풍뎅이 등이 있다. 대부분이 두꺼운 키틴질로 된 딱딱한 껍데기를 가지고 있어서 갑충(甲蟲)이라고도 불린다."
+  },
+  "family": {
+    "id": "monotomidae",
+    "scientificName": "Monotomidae",
+    "commonName": "톱가슴긴고목벌레과",
+    "familyKtsn": 120000018142
+  },
+  "speciesCount": 10,
+  "insects": [
+    {
+      "ktsn": 120000471654,
+      "scientificName": "Europs (Europs) temporis Reitter, 1884",
+      "commonName": "애긴고목벌레",
+      "terminalLatinName": "temporis",
+      "nomenclaturalAuthor": "Reitter",
+      "namingYear": "1884",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Monotomidae",
+          "commonName": "톱가슴긴고목벌레과",
+          "ktsn": 120000018142
+        },
+        "genus": {
+          "scientificName": "Europs",
+          "commonName": "",
+          "ktsn": 120000231800
+        },
+        "subgenus": {
+          "scientificName": "Europs",
+          "commonName": "",
+          "ktsn": 120000471653
+        },
+        "species": {
+          "scientificName": "temporis",
+          "commonName": "애긴고목벌레",
+          "ktsn": 120000471654
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:03:11.010Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:04:23.264Z"
+      }
+    },
+    {
+      "ktsn": 120000164233,
+      "scientificName": "Mimemodes cribratus (Reitter, 1874)",
+      "commonName": "큰머리톱가슴긴고목벌레",
+      "terminalLatinName": "cribratus",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Monotomidae",
+          "commonName": "톱가슴긴고목벌레과",
+          "ktsn": 120000018142
+        },
+        "genus": {
+          "scientificName": "Mimemodes",
+          "commonName": "큰머리긴고목벌레속",
+          "ktsn": 120000164232
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "cribratus",
+          "commonName": "큰머리톱가슴긴고목벌레",
+          "ktsn": 120000164233
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:03:11.010Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 41011515,
+        "canonical": "Mimemodes cribratus",
+        "fetchedAt": "2026-05-24T08:12:34.746Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:04:23.264Z"
+      }
+    },
+    {
+      "ktsn": 120000471655,
+      "scientificName": "Mimemodes emmerichi Mader, 1937",
+      "commonName": "큰머리긴고목벌레",
+      "terminalLatinName": "emmerichi",
+      "nomenclaturalAuthor": "Mader",
+      "namingYear": "1937",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Monotomidae",
+          "commonName": "톱가슴긴고목벌레과",
+          "ktsn": 120000018142
+        },
+        "genus": {
+          "scientificName": "Mimemodes",
+          "commonName": "큰머리긴고목벌레속",
+          "ktsn": 120000164232
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "emmerichi",
+          "commonName": "큰머리긴고목벌레",
+          "ktsn": 120000471655
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:03:11.010Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:04:23.264Z"
+      }
+    },
+    {
+      "ktsn": 120000018146,
+      "scientificName": "Monotoma picipes Herbst, 1793",
+      "commonName": "톱가슴긴고목벌레",
+      "terminalLatinName": "picipes",
+      "nomenclaturalAuthor": "Herbst",
+      "namingYear": "1793",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Monotomidae",
+          "commonName": "톱가슴긴고목벌레과",
+          "ktsn": 120000018142
+        },
+        "genus": {
+          "scientificName": "Monotoma",
+          "commonName": "톱가슴긴고목벌레속",
+          "ktsn": 120000018145
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "picipes",
+          "commonName": "톱가슴긴고목벌레",
+          "ktsn": 120000018146
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:03:11.010Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 1041780,
+        "canonical": "Monotoma picipes",
+        "fetchedAt": "2026-05-24T08:12:18.008Z",
+        "vernaculars": {
+          "ko": [
+            "톱가슴긴고목벌레"
+          ],
+          "en": [
+            "Root-eating beetle"
+          ],
+          "ja": [
+            "トビイロデオネスイ"
+          ]
+        },
+        "habitat": [
+          "terrestrial"
+        ],
+        "geographic": [
+          "United States",
+          "Norway",
+          "Austria",
+          "Belgium",
+          "Czech Republic",
+          "Estonia",
+          "Finland",
+          "France",
+          "Germany",
+          "Ireland",
+          "Luxembourg",
+          "Poland",
+          "Slovenia",
+          "Sweden",
+          "The Netherlands",
+          "United Kingdom",
+          "Japan"
+        ],
+        "introduced": [
+          "Japan"
+        ],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 2032
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:04:23.264Z",
+        "title": "Monotoma picipes",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Monotoma_picipes_Herbst%2C_1793_%2814588186868%29.png/500px-Monotoma_picipes_Herbst%2C_1793_%2814588186868%29.png",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Monotoma_picipes_Herbst%2C_1793_%2814588186868%29.png",
+        "thumbnailSize": {
+          "width": 500,
+          "height": 275
+        },
+        "originalSize": {
+          "width": 2622,
+          "height": 1442
+        },
+        "filename": "Monotoma_picipes_Herbst,_1793_(14588186868).png",
+        "description": "species of insect",
+        "pageUrl": "https://en.wikipedia.org/wiki/Monotoma_picipes",
+        "license": "see Wikimedia Commons",
+        "source": "Wikipedia"
+      }
+    },
+    {
+      "ktsn": 120000231803,
+      "scientificName": "Monotoma testacea Motschulsky, 1845 ",
+      "commonName": "갈색톱가슴긴고목벌레",
+      "terminalLatinName": "testacea",
+      "nomenclaturalAuthor": "Motschulsky",
+      "namingYear": "1845 ",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Monotomidae",
+          "commonName": "톱가슴긴고목벌레과",
+          "ktsn": 120000018142
+        },
+        "genus": {
+          "scientificName": "Monotoma",
+          "commonName": "톱가슴긴고목벌레속",
+          "ktsn": 120000018145
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "testacea",
+          "commonName": "갈색톱가슴긴고목벌레",
+          "ktsn": 120000231803
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:03:11.010Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 3273645,
+        "canonical": "Monotoma testacea",
+        "fetchedAt": "2026-05-24T08:12:41.411Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": [
+            "ウスイロデオネスイ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "United Kingdom",
+          "Sweden",
+          "Norway",
+          "Germany",
+          "Belgium",
+          "Austria"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 482
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:04:23.264Z",
+        "title": "Monotoma testacea",
+        "description": "species of insect"
+      }
+    },
+    {
+      "ktsn": 120000231799,
+      "scientificName": "Rhizophagoides kojimai Nakane and Hsamatsu, 1963",
+      "commonName": "털보긴고목벌레",
+      "terminalLatinName": "kojimai",
+      "nomenclaturalAuthor": "Nakane and Hsamatsu",
+      "namingYear": "1963",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Monotomidae",
+          "commonName": "톱가슴긴고목벌레과",
+          "ktsn": 120000018142
+        },
+        "genus": {
+          "scientificName": "Rhizophagoides",
+          "commonName": "",
+          "ktsn": 120000231798
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "kojimai",
+          "commonName": "털보긴고목벌레",
+          "ktsn": 120000231799
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:03:11.010Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 29441758,
+        "canonical": "Rhizophagoides kojimai",
+        "fetchedAt": "2026-05-24T08:12:38.951Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:04:23.264Z"
+      }
+    },
+    {
+      "ktsn": 120000018149,
+      "scientificName": "Rhizophagus (Anomophagus) puncticollis Sahlberg, 1837",
+      "commonName": "곰보긴고목벌레",
+      "terminalLatinName": "puncticollis",
+      "nomenclaturalAuthor": "Sahlberg",
+      "namingYear": "1837",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Monotomidae",
+          "commonName": "톱가슴긴고목벌레과",
+          "ktsn": 120000018142
+        },
+        "genus": {
+          "scientificName": "Rhizophagus",
+          "commonName": "",
+          "ktsn": 120000018147
+        },
+        "subgenus": {
+          "scientificName": "Anomophagus",
+          "commonName": "",
+          "ktsn": 120000018148
+        },
+        "species": {
+          "scientificName": "puncticollis",
+          "commonName": "곰보긴고목벌레",
+          "ktsn": 120000018149
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:03:11.010Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 3218476,
+        "canonical": "Rhizophagus puncticollis",
+        "fetchedAt": "2026-05-24T08:12:21.593Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [
+          "Poland",
+          "Luxembourg"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 30
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:04:23.264Z"
+      }
+    },
+    {
+      "ktsn": 120000018151,
+      "scientificName": "Rhizophagus (Rhizophagus) japonicus Reitter, 1884",
+      "commonName": "긴고목벌레",
+      "terminalLatinName": "japonicus",
+      "nomenclaturalAuthor": "Reitter",
+      "namingYear": "1884",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Monotomidae",
+          "commonName": "톱가슴긴고목벌레과",
+          "ktsn": 120000018142
+        },
+        "genus": {
+          "scientificName": "Rhizophagus",
+          "commonName": "",
+          "ktsn": 120000018147
+        },
+        "subgenus": {
+          "scientificName": "Rhizophagus",
+          "commonName": "",
+          "ktsn": 120000018150
+        },
+        "species": {
+          "scientificName": "japonicus",
+          "commonName": "긴고목벌레",
+          "ktsn": 120000018151
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:03:11.010Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 3482653,
+        "canonical": "Rhizophagus japonicus",
+        "fetchedAt": "2026-05-24T08:12:25.258Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": [
+            "ヤマトネスイ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 73
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:04:23.264Z"
+      }
+    },
+    {
+      "ktsn": 120000018152,
+      "scientificName": "Rhizophagus (Rhizophagus) nobilis Lewis, 1893",
+      "commonName": "검정긴고목벌레",
+      "terminalLatinName": "nobilis",
+      "nomenclaturalAuthor": "Lewis",
+      "namingYear": "1893",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Monotomidae",
+          "commonName": "톱가슴긴고목벌레과",
+          "ktsn": 120000018142
+        },
+        "genus": {
+          "scientificName": "Rhizophagus",
+          "commonName": "",
+          "ktsn": 120000018147
+        },
+        "subgenus": {
+          "scientificName": "Rhizophagus",
+          "commonName": "",
+          "ktsn": 120000018150
+        },
+        "species": {
+          "scientificName": "nobilis",
+          "commonName": "검정긴고목벌레",
+          "ktsn": 120000018152
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:03:11.010Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 41011595,
+        "canonical": "Rhizophagus nobilis",
+        "fetchedAt": "2026-05-24T08:12:29.969Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 8
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:04:23.264Z"
+      }
+    },
+    {
+      "ktsn": 120000471652,
+      "scientificName": "Rhizophagus (Rhizophagus) parviceps Reitter, 1884",
+      "commonName": "무늬긴고목벌레",
+      "terminalLatinName": "parviceps",
+      "nomenclaturalAuthor": "Reitter",
+      "namingYear": "1884",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Monotomidae",
+          "commonName": "톱가슴긴고목벌레과",
+          "ktsn": 120000018142
+        },
+        "genus": {
+          "scientificName": "Rhizophagus",
+          "commonName": "",
+          "ktsn": 120000018147
+        },
+        "subgenus": {
+          "scientificName": "Rhizophagus",
+          "commonName": "",
+          "ktsn": 120000018150
+        },
+        "species": {
+          "scientificName": "parviceps",
+          "commonName": "무늬긴고목벌레",
+          "ktsn": 120000471652
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:03:11.010Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 41011624,
+        "canonical": "Rhizophagus parviceps",
+        "fetchedAt": "2026-05-24T08:12:46.271Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 11
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:04:23.264Z"
+      }
+    }
+  ],
+  "digitalContentUpdatedAt": "2026-05-21T09:03:11.010Z",
+  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+}

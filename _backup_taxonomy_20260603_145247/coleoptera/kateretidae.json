@@ -1,0 +1,392 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "coleoptera",
+    "scientificName": "Coleoptera",
+    "commonName": "딱정벌레목",
+    "orderKtsn": 120000013750,
+    "abstract": "딱정벌레목(Coleoptera)은 곤충의 종 가운데 40%인 35만여종을 차지하는 목이다. 아직 발견되지 않은 종까지 합치면 500만~800만여종이 될 것으로 추정된다. 먹는 먹이도 다양해서 식물의 잎, 송사리 등의 작은 물고기, 나무의 즙, 작은 동물, 동물의 시체 등 매우 다양하다. 딱정벌레목에 속한 곤충으로는 무당벌레, 딱정벌레, 길앞잡이, 물방개, 장수풍뎅이 등이 있다. 대부분이 두꺼운 키틴질로 된 딱딱한 껍데기를 가지고 있어서 갑충(甲蟲)이라고도 불린다.",
+    "description": "딱정벌레목(Coleoptera)은 곤충의 종 가운데 40%인 35만여종을 차지하는 목이다. 아직 발견되지 않은 종까지 합치면 500만~800만여종이 될 것으로 추정된다. 먹는 먹이도 다양해서 식물의 잎, 송사리 등의 작은 물고기, 나무의 즙, 작은 동물, 동물의 시체 등 매우 다양하다. 딱정벌레목에 속한 곤충으로는 무당벌레, 딱정벌레, 길앞잡이, 물방개, 장수풍뎅이 등이 있다. 대부분이 두꺼운 키틴질로 된 딱딱한 껍데기를 가지고 있어서 갑충(甲蟲)이라고도 불린다."
+  },
+  "family": {
+    "id": "kateretidae",
+    "scientificName": "Kateretidae",
+    "commonName": "긴수염밑빠진벌레과",
+    "familyKtsn": 120000017769
+  },
+  "speciesCount": 3,
+  "insects": [
+    {
+      "ktsn": 120000017771,
+      "scientificName": "Brachypterolus pulicarius (Linnaeus, 1758)",
+      "commonName": "왕긴수염밑빠진벌레",
+      "terminalLatinName": "pulicarius",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Kateretidae",
+          "commonName": "긴수염밑빠진벌레과",
+          "ktsn": 120000017769
+        },
+        "genus": {
+          "scientificName": "Brachypterolus",
+          "commonName": "",
+          "ktsn": 120000017770
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "pulicarius",
+          "commonName": "왕긴수염밑빠진벌레",
+          "ktsn": 120000017771
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:02:26.955Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 1174786,
+        "canonical": "Brachypterolus pulicarius",
+        "fetchedAt": "2026-05-24T08:02:36.501Z",
+        "vernaculars": {
+          "ko": [
+            "왕긴수염밑빠진벌레"
+          ],
+          "en": [
+            "Antirrhinum Beetle",
+            "Toadflax Flower Beetle",
+            "Toadflax Flower-eating Beetle"
+          ],
+          "ja": [
+            "ウンランチビハナケシキスイ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "Norway",
+          "Austria",
+          "Canada",
+          "Estonia",
+          "Finland",
+          "Germany",
+          "Luxembourg",
+          "Poland",
+          "Sweden",
+          "The Netherlands",
+          "United Kingdom",
+          "North Atlantic",
+          "United States",
+          "Mongolia",
+          "South Korea",
+          "China",
+          "Kazakhstan",
+          "Siberia",
+          "Turkey",
+          "Russia",
+          "Korea",
+          "Japan",
+          "Europe"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 1014
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:04:18.432Z",
+        "title": "Brachypterolus pulicarius",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Brachypterolus_pulicarius_01.JPG/500px-Brachypterolus_pulicarius_01.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Brachypterolus_pulicarius_01.JPG",
+        "thumbnailSize": {
+          "width": 500,
+          "height": 375
+        },
+        "originalSize": {
+          "width": 1024,
+          "height": 768
+        },
+        "filename": "Brachypterolus_pulicarius_01.JPG",
+        "description": "species of insect",
+        "pageUrl": "https://en.wikipedia.org/wiki/Brachypterolus_pulicarius",
+        "license": "see Wikimedia Commons",
+        "source": "Wikipedia"
+      }
+    },
+    {
+      "ktsn": 120000017773,
+      "scientificName": "Brachypterus urticae (Fabricius, 1792)",
+      "commonName": "긴수염밑빠진벌레",
+      "terminalLatinName": "urticae",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Kateretidae",
+          "commonName": "긴수염밑빠진벌레과",
+          "ktsn": 120000017769
+        },
+        "genus": {
+          "scientificName": "Brachypterus",
+          "commonName": "",
+          "ktsn": 120000017772
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "urticae",
+          "commonName": "긴수염밑빠진벌레",
+          "ktsn": 120000017773
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:02:26.955Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 1174799,
+        "canonical": "Brachypterus urticae",
+        "fetchedAt": "2026-05-24T08:02:39.653Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [
+            "Nettle Pollen Beetle",
+            "Nettle Pollen Beetle",
+            "Nettle Pollen Beetle"
+          ],
+          "ja": [
+            "コクロチビハナケシキスイ"
+          ]
+        },
+        "habitat": [
+          "lake"
+        ],
+        "geographic": [
+          "Siberia",
+          "Turkey",
+          "Japan",
+          "Russia",
+          "Kazakhstan",
+          "China",
+          "Korea",
+          "North America",
+          "Kyrgyzstan",
+          "Europe",
+          "South Korea",
+          "Alaska",
+          "United States",
+          "Norway",
+          "Austria",
+          "Belgium",
+          "Canada",
+          "Czech Republic",
+          "Denmark",
+          "Estonia",
+          "Finland",
+          "France",
+          "Germany",
+          "Ireland",
+          "Italy",
+          "Luxembourg",
+          "Poland",
+          "Sweden",
+          "Switzerland",
+          "The Netherlands",
+          "United Kingdom"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 4406
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:04:18.432Z",
+        "title": "Brachypterus urticae",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Brachypterus_urticae_%28Fabricius%2C_1792%29_%2828738537153%29.png/500px-Brachypterus_urticae_%28Fabricius%2C_1792%29_%2828738537153%29.png",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Brachypterus_urticae_%28Fabricius%2C_1792%29_%2828738537153%29.png",
+        "thumbnailSize": {
+          "width": 500,
+          "height": 342
+        },
+        "originalSize": {
+          "width": 2006,
+          "height": 1374
+        },
+        "filename": "Brachypterus_urticae_(Fabricius,_1792)_(28738537153).png",
+        "description": "species of insect",
+        "pageUrl": "https://en.wikipedia.org/wiki/Brachypterus_urticae",
+        "license": "see Wikimedia Commons",
+        "source": "Wikipedia"
+      }
+    },
+    {
+      "ktsn": 120000017775,
+      "scientificName": "Heterhelus scutellaris (Heer, 1841)",
+      "commonName": "검정긴수염밑빠진벌레",
+      "terminalLatinName": "scutellaris",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Kateretidae",
+          "commonName": "긴수염밑빠진벌레과",
+          "ktsn": 120000017769
+        },
+        "genus": {
+          "scientificName": "Heterhelus",
+          "commonName": "",
+          "ktsn": 120000017774
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "scutellaris",
+          "commonName": "검정긴수염밑빠진벌레",
+          "ktsn": 120000017775
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T09:02:26.955Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 3214061,
+        "canonical": "Heterhelus scutellaris",
+        "fetchedAt": "2026-05-24T08:02:43.645Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [
+          "Norway",
+          "Luxembourg"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:04:18.432Z"
+      }
+    }
+  ],
+  "digitalContentUpdatedAt": "2026-05-21T09:02:26.955Z",
+  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+}

@@ -1,0 +1,4879 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "lepidoptera",
+    "scientificName": "Lepidoptera",
+    "commonName": "나비목",
+    "orderKtsn": 120000031663
+  },
+  "family": {
+    "id": "nolidae",
+    "scientificName": "Nolidae",
+    "commonName": "혹나방과",
+    "familyKtsn": 120000035446
+  },
+  "speciesCount": 77,
+  "insects": [
+    {
+      "ktsn": 120000035448,
+      "scientificName": "Ariolica argentea (Butler, 1881)",
+      "commonName": "은무늬애나방",
+      "terminalLatinName": "argentea",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Ariolica",
+          "commonName": "",
+          "ktsn": 120000035447
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "argentea",
+          "commonName": "은무늬애나방",
+          "ktsn": 120000035448
+        }
+      },
+      "eol": {
+        "pageId": 547162,
+        "canonical": "Ariolica argentea",
+        "fetchedAt": "2026-05-24T11:34:10.881Z",
+        "vernaculars": {
+          "ko": [
+            "은무늬애나방"
+          ],
+          "en": [],
+          "ja": [
+            "ギンボシリンガ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "North Pacific",
+          "Japan"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 252
+      },
+      "inat": {
+        "observationCount": 31,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/109197163/medium.jpg",
+        "months": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "ktsn": 120000035450,
+      "scientificName": "Blenina senex (Butler, 1878)",
+      "commonName": "나무껍질나방",
+      "terminalLatinName": "senex",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Blenina",
+          "commonName": "",
+          "ktsn": 120000035449
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "senex",
+          "commonName": "나무껍질나방",
+          "ktsn": 120000035450
+        }
+      },
+      "eol": {
+        "pageId": 537980,
+        "canonical": "Blenina senex",
+        "fetchedAt": "2026-05-24T11:34:13.705Z",
+        "vernaculars": {
+          "ko": [
+            "나무껍질밤나방"
+          ],
+          "en": [],
+          "ja": [
+            "キノカワガ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "Russia",
+          "India",
+          "Malaysia",
+          "Amur",
+          "Thailand",
+          "China",
+          "Japan",
+          "Korea",
+          "Nepal",
+          "Indonesia",
+          "Taiwan",
+          "North Pacific",
+          "Hong Kong"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 555
+      },
+      "inat": {
+        "observationCount": 23,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/332278232/medium.jpg",
+        "months": [
+          1,
+          6,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "ktsn": 120000219107,
+      "scientificName": "Camptoloma interioratum (Walker, 1865)",
+      "commonName": "꽃무늬나방",
+      "terminalLatinName": "interioratum",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Camptoloma",
+          "commonName": "",
+          "ktsn": 120000035451
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "interioratum",
+          "commonName": "꽃무늬나방",
+          "ktsn": 120000219107
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:10:02.522Z",
+        "title": "Camptoloma interiorata",
+        "description": "species of insect"
+      }
+    },
+    {
+      "ktsn": 120000219070,
+      "scientificName": "Casminola pulchella (Leech, 1889)",
+      "commonName": "끝검은혹나방",
+      "terminalLatinName": "pulchella",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Casminola",
+          "commonName": "",
+          "ktsn": 120000219069
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "pulchella",
+          "commonName": "끝검은혹나방",
+          "ktsn": 120000219070
+        }
+      },
+      "inat": {
+        "observationCount": 2,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/538285782/medium.jpg",
+        "months": [
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "ktsn": 120000035459,
+      "scientificName": "Clethrophora distincta (Leech, 1889)",
+      "commonName": "푸른나방",
+      "terminalLatinName": "distincta",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Clethrophora",
+          "commonName": "",
+          "ktsn": 120000035458
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "distincta",
+          "commonName": "푸른나방",
+          "ktsn": 120000035459
+        }
+      },
+      "eol": {
+        "pageId": 547573,
+        "canonical": "Clethrophora distincta",
+        "fetchedAt": "2026-05-24T11:34:16.964Z",
+        "vernaculars": {
+          "ko": [
+            "푸른나방"
+          ],
+          "en": [],
+          "ja": [
+            "ミドリリンガ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "Japan",
+          "Taiwan",
+          "China"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 246
+      },
+      "inat": {
+        "observationCount": 3,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/241344577/medium.jpg",
+        "months": [
+          6,
+          9
+        ]
+      }
+    },
+    {
+      "ktsn": 120000035461,
+      "scientificName": "Earias cupreoviridis (Walker, 1862)",
+      "commonName": "목화꼬마푸른나방",
+      "terminalLatinName": "cupreoviridis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Earias",
+          "commonName": "",
+          "ktsn": 120000035460
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "cupreoviridis",
+          "commonName": "목화꼬마푸른나방",
+          "ktsn": 120000035461
+        }
+      },
+      "eol": {
+        "pageId": 547615,
+        "canonical": "Earias cupreoviridis",
+        "fetchedAt": "2026-05-24T11:34:19.999Z",
+        "vernaculars": {
+          "ko": [
+            "목화꼬마푸른나방"
+          ],
+          "en": [],
+          "ja": [
+            "ワタリンガ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "Indian Ocean",
+          "Sri Lanka",
+          "Thailand",
+          "Taiwan",
+          "South Africa",
+          "Hong Kong",
+          "China"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 235
+      },
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/236960425/medium.jpeg",
+        "months": [
+          10
+        ]
+      }
+    },
+    {
+      "ktsn": 120000035462,
+      "scientificName": "Earias pudicana Staudinger, 1887",
+      "commonName": "붉은가꼬마푸른나방",
+      "terminalLatinName": "pudicana",
+      "nomenclaturalAuthor": "Staudinger",
+      "namingYear": "1887",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Earias",
+          "commonName": "",
+          "ktsn": 120000035460
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "pudicana",
+          "commonName": "붉은가꼬마푸른나방",
+          "ktsn": 120000035462
+        }
+      },
+      "eol": {
+        "pageId": 547624,
+        "canonical": "Earias pudicana",
+        "fetchedAt": "2026-05-24T11:34:23.255Z",
+        "vernaculars": {
+          "ko": [
+            "붉은가꼬마푸른나방",
+            "붉은가밤나방"
+          ],
+          "en": [],
+          "ja": [
+            "アカマエアオリンガ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "North Pacific",
+          "Japan",
+          "Russia"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 640
+      },
+      "inat": {
+        "observationCount": 25,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/307458226/medium.jpg",
+        "months": [
+          4,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    },
+    {
+      "ktsn": 120000035463,
+      "scientificName": "Earias roseifera Butler, 1881",
+      "commonName": "분홍꼬마푸른나방",
+      "terminalLatinName": "roseifera",
+      "nomenclaturalAuthor": "Butler",
+      "namingYear": "1881",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Earias",
+          "commonName": "",
+          "ktsn": 120000035460
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "roseifera",
+          "commonName": "분홍꼬마푸른나방",
+          "ktsn": 120000035463
+        }
+      },
+      "eol": {
+        "pageId": 547632,
+        "canonical": "Earias roseifera",
+        "fetchedAt": "2026-05-24T11:34:26.207Z",
+        "vernaculars": {
+          "ko": [
+            "분홍꼬마푸른나방",
+            "분홍무늬푸른밤나방"
+          ],
+          "en": [],
+          "ja": [
+            "ベニモンアオリンガ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "Japan",
+          "Taiwan",
+          "China"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 524
+      },
+      "inat": {
+        "observationCount": 26,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/507979477/medium.jpg",
+        "months": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    },
+    {
+      "ktsn": 120000090413,
+      "scientificName": "Earias roseoviridis Sugi, 1982",
+      "commonName": "큰분홍푸른나방",
+      "terminalLatinName": "roseoviridis",
+      "nomenclaturalAuthor": "Sugi",
+      "namingYear": "1982",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Earias",
+          "commonName": "",
+          "ktsn": 120000035460
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "roseoviridis",
+          "commonName": "큰분홍푸른나방",
+          "ktsn": 120000090413
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:10:02.522Z"
+      }
+    },
+    {
+      "ktsn": 120000035465,
+      "scientificName": "Eligma narcissus (Cramer, 1775)",
+      "commonName": "가중나무껍질나방",
+      "terminalLatinName": "narcissus",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Eligma",
+          "commonName": "",
+          "ktsn": 120000035464
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "narcissus",
+          "commonName": "가중나무껍질나방",
+          "ktsn": 120000035465
+        }
+      },
+      "eol": {
+        "pageId": 545637,
+        "canonical": "Eligma narcissus",
+        "fetchedAt": "2026-05-24T11:34:29.414Z",
+        "vernaculars": {
+          "ko": [
+            "가중나무껍질나방",
+            "가중나무껍질밤나방"
+          ],
+          "en": [
+            "Ailanthus Defoliator"
+          ],
+          "ja": [
+            "シンジュキノカワガ"
+          ]
+        },
+        "habitat": [
+          "tropical"
+        ],
+        "geographic": [
+          "Japan",
+          "Sri Lanka",
+          "Taiwan",
+          "Hong Kong",
+          "China"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 647
+      },
+      "inat": {
+        "observationCount": 97,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/54500468/medium.jpg",
+        "months": [
+          1,
+          2,
+          5,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "ktsn": 120000219025,
+      "scientificName": "Evonima mandschuriana (Oberthür, 1880)",
+      "commonName": "사과혹나방",
+      "terminalLatinName": "mandschuriana",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Evonima",
+          "commonName": "",
+          "ktsn": 120000219024
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "mandschuriana",
+          "commonName": "사과혹나방",
+          "ktsn": 120000219025
+        }
+      },
+      "inat": {
+        "observationCount": 4,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/319827501/medium.png",
+        "months": [
+          6,
+          9
+        ]
+      }
+    },
+    {
+      "ktsn": 120000035467,
+      "scientificName": "Gabala argentata Butler, 1878",
+      "commonName": "은무늬모진애나방",
+      "terminalLatinName": "argentata",
+      "nomenclaturalAuthor": "Butler",
+      "namingYear": "1878",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Gabala",
+          "commonName": "",
+          "ktsn": 120000035466
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "argentata",
+          "commonName": "은무늬모진애나방",
+          "ktsn": 120000035467
+        }
+      },
+      "eol": {
+        "pageId": 545655,
+        "canonical": "Gabala argentata",
+        "fetchedAt": "2026-05-24T11:34:32.227Z",
+        "vernaculars": {
+          "ko": [
+            "은무늬모진애나방"
+          ],
+          "en": [],
+          "ja": [
+            "ハイイロリンガ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "North Pacific",
+          "Japan",
+          "Taiwan",
+          "Hong Kong",
+          "China"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 275
+      },
+      "inat": {
+        "observationCount": 19,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/49542718/medium.jpg",
+        "months": [
+          5,
+          6,
+          7,
+          8,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "ktsn": 120000207509,
+      "scientificName": "Gadirtha impingens Walker, 1857",
+      "commonName": "남방껍질나방",
+      "terminalLatinName": "impingens",
+      "nomenclaturalAuthor": "Walker",
+      "namingYear": "1857",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Gadirtha",
+          "commonName": "",
+          "ktsn": 120000076594
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "impingens",
+          "commonName": "남방껍질나방",
+          "ktsn": 120000207509
+        }
+      },
+      "inat": {
+        "observationCount": 2,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/552525226/medium.jpg",
+        "months": [
+          7,
+          8
+        ]
+      }
+    },
+    {
+      "ktsn": 120000218878,
+      "scientificName": "Gadirtha pulchra (Butler, 1886)",
+      "commonName": "희미무늬남방껍질나방",
+      "terminalLatinName": "pulchra",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Gadirtha",
+          "commonName": "",
+          "ktsn": 120000076594
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "pulchra",
+          "commonName": "희미무늬남방껍질나방",
+          "ktsn": 120000218878
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:10:02.522Z",
+        "title": "Gadirtha pulchra",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Gadirtha_pulchra_%2826832704066%29.jpg/500px-Gadirtha_pulchra_%2826832704066%29.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Gadirtha_pulchra_%2826832704066%29.jpg",
+        "thumbnailSize": {
+          "width": 500,
+          "height": 666
+        },
+        "originalSize": {
+          "width": 2023,
+          "height": 2696
+        },
+        "filename": "Gadirtha_pulchra_(26832704066).jpg",
+        "description": "species of insect",
+        "pageUrl": "https://en.wikipedia.org/wiki/Gadirtha_pulchra",
+        "license": "see Wikimedia Commons",
+        "source": "Wikipedia"
+      }
+    },
+    {
+      "ktsn": 120000219102,
+      "scientificName": "Garella ruficirra (Hampson, 1905)",
+      "commonName": "상수리껍질나방",
+      "terminalLatinName": "ruficirra",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Garella",
+          "commonName": "",
+          "ktsn": 120000219101
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "ruficirra",
+          "commonName": "상수리껍질나방",
+          "ktsn": 120000219102
+        }
+      },
+      "inat": {
+        "observationCount": 4,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/320837557/medium.jpg",
+        "months": [
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "ktsn": 120000035469,
+      "scientificName": "Gelastocera eminentissima Bryk, 1948",
+      "commonName": "황토얼룩애나방",
+      "terminalLatinName": "eminentissima",
+      "nomenclaturalAuthor": "Bryk",
+      "namingYear": "1948",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Gelastocera",
+          "commonName": "",
+          "ktsn": 120000035468
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "eminentissima",
+          "commonName": "황토얼룩애나방",
+          "ktsn": 120000035469
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:10:03.216Z"
+      }
+    },
+    {
+      "ktsn": 120000035470,
+      "scientificName": "Gelastocera exusta Butler, 1877",
+      "commonName": "검은띠애나방",
+      "terminalLatinName": "exusta",
+      "nomenclaturalAuthor": "Butler",
+      "namingYear": "1877",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Gelastocera",
+          "commonName": "",
+          "ktsn": 120000035468
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "exusta",
+          "commonName": "검은띠애나방",
+          "ktsn": 120000035470
+        }
+      },
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/460421390/medium.jpg",
+        "months": [
+          4
+        ]
+      }
+    },
+    {
+      "ktsn": 120000035471,
+      "scientificName": "Gelastocera hallasana Ronkay and Kononenko, 1998",
+      "commonName": "한라애나방",
+      "terminalLatinName": "hallasana",
+      "nomenclaturalAuthor": "Ronkay and Kononenko",
+      "namingYear": "1998",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "Y",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Gelastocera",
+          "commonName": "",
+          "ktsn": 120000035468
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "hallasana",
+          "commonName": "한라애나방",
+          "ktsn": 120000035471
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:10:03.216Z"
+      }
+    },
+    {
+      "ktsn": 120000219106,
+      "scientificName": "Gelastocera kotschubeji (Obraztsov, 1943)",
+      "commonName": "황색띠애나방",
+      "terminalLatinName": "kotschubeji",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Gelastocera",
+          "commonName": "",
+          "ktsn": 120000035468
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "kotschubeji",
+          "commonName": "황색띠애나방",
+          "ktsn": 120000219106
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:10:03.216Z"
+      }
+    },
+    {
+      "ktsn": 120000234906,
+      "scientificName": "Hampsonola gigantoides (Inoue, 1961)",
+      "commonName": "울릉혹나방",
+      "terminalLatinName": "gigantoides",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Hampsonola",
+          "commonName": "",
+          "ktsn": 120000234905
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "gigantoides",
+          "commonName": "울릉혹나방",
+          "ktsn": 120000234906
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:10:03.216Z"
+      }
+    },
+    {
+      "ktsn": 120000035474,
+      "scientificName": "Iragaodes nobilis (Staüdinger, 1887)",
+      "commonName": "앞노랑모나방",
+      "terminalLatinName": "nobilis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Iragaodes",
+          "commonName": "",
+          "ktsn": 120000035473
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "nobilis",
+          "commonName": "앞노랑모나방",
+          "ktsn": 120000035474
+        }
+      },
+      "inat": {
+        "observationCount": 7,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/62332182/medium.jpg",
+        "months": [
+          5,
+          6,
+          7,
+          8
+        ]
+      }
+    },
+    {
+      "ktsn": 120000035479,
+      "scientificName": "Kerala decipiens (Butler, 1878)",
+      "commonName": "긴날개푸른나방",
+      "terminalLatinName": "decipiens",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Kerala",
+          "commonName": "",
+          "ktsn": 120000035478
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "decipiens",
+          "commonName": "긴날개푸른나방",
+          "ktsn": 120000035479
+        }
+      },
+      "inat": {
+        "observationCount": 6,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/211861144/medium.jpg",
+        "months": [
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "ktsn": 120000035481,
+      "scientificName": "Macrochthonia fervens Butler, 1881",
+      "commonName": "애기푸른나방",
+      "terminalLatinName": "fervens",
+      "nomenclaturalAuthor": "Butler",
+      "namingYear": "1881",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Macrochthonia",
+          "commonName": "",
+          "ktsn": 120000035480
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "fervens",
+          "commonName": "애기푸른나방",
+          "ktsn": 120000035481
+        }
+      },
+      "inat": {
+        "observationCount": 18,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/309277763/medium.jpg",
+        "months": [
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    },
+    {
+      "ktsn": 120000219066,
+      "scientificName": "Manoba banghaasi (West, 1929)",
+      "commonName": "두점회색혹나방",
+      "terminalLatinName": "banghaasi",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Manoba",
+          "commonName": "",
+          "ktsn": 120000219065
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "banghaasi",
+          "commonName": "두점회색혹나방",
+          "ktsn": 120000219066
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:10:03.216Z",
+        "title": "Manoba banghaasi",
+        "description": "species of insect"
+      }
+    },
+    {
+      "ktsn": 120000521682,
+      "scientificName": "Manoba melancholica (Wileman and West, 1928)",
+      "commonName": "점박이더듬이혹나방",
+      "terminalLatinName": "melancholica",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Manoba",
+          "commonName": "",
+          "ktsn": 120000219065
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "melancholica",
+          "commonName": "점박이더듬이혹나방",
+          "ktsn": 120000521682
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:10:03.216Z",
+        "title": "Manoba melancholica",
+        "description": "species of insect"
+      }
+    },
+    {
+      "ktsn": 120000219067,
+      "scientificName": "Manoba microphasma (Butler, 1885)",
+      "commonName": "잔점박이혹나방",
+      "terminalLatinName": "microphasma",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Manoba",
+          "commonName": "",
+          "ktsn": 120000219065
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "microphasma",
+          "commonName": "잔점박이혹나방",
+          "ktsn": 120000219067
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:10:03.216Z",
+        "title": "Manoba microphasma",
+        "description": "species of insect"
+      }
+    },
+    {
+      "ktsn": 120000117085,
+      "scientificName": "Meganola albula (Denis and Schiffermüller, 1775)",
+      "commonName": "혹나방",
+      "terminalLatinName": "albula",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Meganola",
+          "commonName": "",
+          "ktsn": 120000117084
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "albula",
+          "commonName": "혹나방",
+          "ktsn": 120000117085
+        }
+      },
+      "inat": {
+        "observationCount": 4,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/539377216/medium.jpg",
+        "months": [
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "ktsn": 120000370629,
+      "scientificName": "Meganola basisignata Inoue, 1991",
+      "commonName": "닮은맵시혹나방",
+      "terminalLatinName": "basisignata",
+      "nomenclaturalAuthor": "Inoue",
+      "namingYear": "1991",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Meganola",
+          "commonName": "",
+          "ktsn": 120000117084
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "basisignata",
+          "commonName": "닮은맵시혹나방",
+          "ktsn": 120000370629
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:10:03.216Z"
+      }
+    },
+    {
+      "ktsn": 120000219059,
+      "scientificName": "Meganola bryophilalis (Staudinger, 1887)",
+      "commonName": "깊은산혹나방",
+      "terminalLatinName": "bryophilalis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Meganola",
+          "commonName": "",
+          "ktsn": 120000117084
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "bryophilalis",
+          "commonName": "깊은산혹나방",
+          "ktsn": 120000219059
+        }
+      },
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/284412751/medium.png",
+        "months": [
+          5
+        ]
+      }
+    },
+    {
+      "ktsn": 120000117088,
+      "scientificName": "Meganola costalis (Staüdinger, 1887)",
+      "commonName": "앞검은혹나방",
+      "terminalLatinName": "costalis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Meganola",
+          "commonName": "",
+          "ktsn": 120000117084
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "costalis",
+          "commonName": "앞검은혹나방",
+          "ktsn": 120000117088
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:10:03.216Z"
+      }
+    },
+    {
+      "ktsn": 120000117090,
+      "scientificName": "Meganola fumosa (Butler, 1878)",
+      "commonName": "쌍줄혹나방",
+      "terminalLatinName": "fumosa",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Meganola",
+          "commonName": "",
+          "ktsn": 120000117084
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "fumosa",
+          "commonName": "쌍줄혹나방",
+          "ktsn": 120000117090
+        }
+      },
+      "inat": {
+        "observationCount": 3,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/349226688/medium.jpg",
+        "months": [
+          8,
+          9
+        ]
+      }
+    },
+    {
+      "ktsn": 120000219060,
+      "scientificName": "Meganola gigas (Butler, 1884)",
+      "commonName": "큰혹나방",
+      "terminalLatinName": "gigas",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Meganola",
+          "commonName": "",
+          "ktsn": 120000117084
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "gigas",
+          "commonName": "큰혹나방",
+          "ktsn": 120000219060
+        }
+      },
+      "inat": {
+        "observationCount": 3,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/410972774/medium.jpeg",
+        "months": [
+          7,
+          8
+        ]
+      }
+    },
+    {
+      "ktsn": 120000532010,
+      "scientificName": "Meganola major (Hampson, 1891)",
+      "commonName": "맵시혹나방",
+      "terminalLatinName": "major",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Meganola",
+          "commonName": "",
+          "ktsn": 120000117084
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "major",
+          "commonName": "맵시혹나방",
+          "ktsn": 120000532010
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:10:03.216Z",
+        "title": "Manoba major",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Manoba_major_%285163283135%29.jpg/500px-Manoba_major_%285163283135%29.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/47/Manoba_major_%285163283135%29.jpg",
+        "thumbnailSize": {
+          "width": 500,
+          "height": 375
+        },
+        "originalSize": {
+          "width": 2272,
+          "height": 1704
+        },
+        "filename": "Manoba_major_(5163283135).jpg",
+        "description": "species of insect",
+        "pageUrl": "https://en.wikipedia.org/wiki/Manoba_major",
+        "license": "see Wikimedia Commons",
+        "source": "Wikipedia"
+      }
+    },
+    {
+      "ktsn": 120000117091,
+      "scientificName": "Meganola mediofascia (Inoue, 1958)",
+      "commonName": "속검은혹나방",
+      "terminalLatinName": "mediofascia",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Meganola",
+          "commonName": "",
+          "ktsn": 120000117084
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "mediofascia",
+          "commonName": "속검은혹나방",
+          "ktsn": 120000117091
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:10:03.216Z"
+      }
+    },
+    {
+      "ktsn": 120000219061,
+      "scientificName": "Meganola mikabo (Inoue, 1970)",
+      "commonName": "거무튀튀혹나방",
+      "terminalLatinName": "mikabo",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Meganola",
+          "commonName": "",
+          "ktsn": 120000117084
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "mikabo",
+          "commonName": "거무튀튀혹나방",
+          "ktsn": 120000219061
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:10:03.216Z"
+      }
+    },
+    {
+      "ktsn": 120000370628,
+      "scientificName": "Meganola ohsunghwani László, Ronkay and Ronkay, 2014",
+      "commonName": "쌍줄톱날혹나방",
+      "terminalLatinName": "ohsunghwani",
+      "nomenclaturalAuthor": "László, Ronkay and Ronkay",
+      "namingYear": "2014",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Meganola",
+          "commonName": "",
+          "ktsn": 120000117084
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "ohsunghwani",
+          "commonName": "쌍줄톱날혹나방",
+          "ktsn": 120000370628
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:10:03.216Z"
+      }
+    },
+    {
+      "ktsn": 120000219064,
+      "scientificName": "Meganola parki Oh, 1991",
+      "commonName": "한국혹나방",
+      "terminalLatinName": "parki",
+      "nomenclaturalAuthor": "Oh",
+      "namingYear": "1991",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Meganola",
+          "commonName": "",
+          "ktsn": 120000117084
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "parki",
+          "commonName": "한국혹나방",
+          "ktsn": 120000219064
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:10:03.216Z"
+      }
+    },
+    {
+      "ktsn": 120000117092,
+      "scientificName": "Meganola protogigas (Inoue, 1970)",
+      "commonName": "큰쌍줄혹나방",
+      "terminalLatinName": "protogigas",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Meganola",
+          "commonName": "",
+          "ktsn": 120000117084
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "protogigas",
+          "commonName": "큰쌍줄혹나방",
+          "ktsn": 120000117092
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:10:03.216Z"
+      }
+    },
+    {
+      "ktsn": 120000219062,
+      "scientificName": "Meganola shimekii (Inoue, 1970)",
+      "commonName": "숯검은혹나방",
+      "terminalLatinName": "shimekii",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Meganola",
+          "commonName": "",
+          "ktsn": 120000117084
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "shimekii",
+          "commonName": "숯검은혹나방",
+          "ktsn": 120000219062
+        }
+      },
+      "inat": {
+        "observationCount": 2,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/316707301/medium.jpg",
+        "months": [
+          6,
+          9
+        ]
+      }
+    },
+    {
+      "ktsn": 120000219063,
+      "scientificName": "Meganola strigulosa (Staudinger, 1887)",
+      "commonName": "신선혹나방",
+      "terminalLatinName": "strigulosa",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Meganola",
+          "commonName": "",
+          "ktsn": 120000117084
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "strigulosa",
+          "commonName": "신선혹나방",
+          "ktsn": 120000219063
+        }
+      },
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/147445417/medium.png",
+        "months": [
+          7
+        ]
+      }
+    },
+    {
+      "ktsn": 120000219058,
+      "scientificName": "Meganola subgigas Inoue, 1982",
+      "commonName": "대왕혹나방",
+      "terminalLatinName": "subgigas",
+      "nomenclaturalAuthor": "Inoue",
+      "namingYear": "1982",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Meganola",
+          "commonName": "",
+          "ktsn": 120000117084
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "subgigas",
+          "commonName": "대왕혹나방",
+          "ktsn": 120000219058
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:10:03.216Z"
+      }
+    },
+    {
+      "ktsn": 120000117094,
+      "scientificName": "Meganola triangulalis (Leech, 1888)",
+      "commonName": "삼각무늬혹나방",
+      "terminalLatinName": "triangulalis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Meganola",
+          "commonName": "",
+          "ktsn": 120000117084
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "triangulalis",
+          "commonName": "삼각무늬혹나방",
+          "ktsn": 120000117094
+        }
+      },
+      "inat": {
+        "observationCount": 32,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/418447069/medium.jpeg",
+        "months": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "ktsn": 120000521684,
+      "scientificName": "Nanola liaoningensis (Han and Li, 2008)",
+      "commonName": "북방큰혹나방",
+      "terminalLatinName": "liaoningensis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Nanola",
+          "commonName": "",
+          "ktsn": 120000521683
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "liaoningensis",
+          "commonName": "북방큰혹나방",
+          "ktsn": 120000521684
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:10:03.216Z"
+      }
+    },
+    {
+      "ktsn": 120000035485,
+      "scientificName": "Negritothripa hampsoni (Wileman, 1911)",
+      "commonName": "흰무늬껍질밤나방",
+      "terminalLatinName": "hampsoni",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Negritothripa",
+          "commonName": "",
+          "ktsn": 120000035484
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "hampsoni",
+          "commonName": "흰무늬껍질밤나방",
+          "ktsn": 120000035485
+        }
+      },
+      "inat": {
+        "observationCount": 14,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/133931284/medium.jpg",
+        "months": [
+          5,
+          6,
+          7,
+          8
+        ]
+      }
+    },
+    {
+      "ktsn": 120000117080,
+      "scientificName": "Nola aerugula (Hübner, 1793)",
+      "commonName": "회색혹나방",
+      "terminalLatinName": "aerugula",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Nola",
+          "commonName": "혹나방속",
+          "ktsn": 120000117079
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "aerugula",
+          "commonName": "회색혹나방",
+          "ktsn": 120000117080
+        }
+      },
+      "inat": {
+        "observationCount": 2,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/50495113/medium.png",
+        "months": [
+          9
+        ]
+      }
+    },
+    {
+      "ktsn": 120000506166,
+      "scientificName": "Nola atomosa (Bremer, 1861)",
+      "commonName": "연갈색줄무늬혹나방",
+      "terminalLatinName": "atomosa",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Nola",
+          "commonName": "혹나방속",
+          "ktsn": 120000117079
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "atomosa",
+          "commonName": "연갈색줄무늬혹나방",
+          "ktsn": 120000506166
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:10:03.216Z"
+      }
+    },
+    {
+      "ktsn": 120000219071,
+      "scientificName": "Nola cicatricalis (Treitschke, 1853)",
+      "commonName": "긴날개선비혹나방",
+      "terminalLatinName": "cicatricalis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Nola",
+          "commonName": "혹나방속",
+          "ktsn": 120000117079
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "cicatricalis",
+          "commonName": "긴날개선비혹나방",
+          "ktsn": 120000219071
+        }
+      },
+      "inat": {
+        "observationCount": 3,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/265028489/medium.jpeg",
+        "months": [
+          4
+        ]
+      }
+    },
+    {
+      "ktsn": 120000035487,
+      "scientificName": "Nola confusalis (Herrich-Schäffer, 1847)",
+      "commonName": "선비혹나방",
+      "terminalLatinName": "confusalis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Nola",
+          "commonName": "혹나방속",
+          "ktsn": 120000117079
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "confusalis",
+          "commonName": "선비혹나방",
+          "ktsn": 120000035487
+        }
+      },
+      "inat": {
+        "observationCount": 2,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/64372366/medium.png",
+        "months": [
+          3,
+          5
+        ]
+      }
+    },
+    {
+      "ktsn": 120000219072,
+      "scientificName": "Nola costimacula Staudinger, 1887",
+      "commonName": "어깨무늬혹나방",
+      "terminalLatinName": "costimacula",
+      "nomenclaturalAuthor": "Staudinger",
+      "namingYear": "1887",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Nola",
+          "commonName": "혹나방속",
+          "ktsn": 120000117079
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "costimacula",
+          "commonName": "어깨무늬혹나방",
+          "ktsn": 120000219072
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:10:03.216Z"
+      }
+    },
+    {
+      "ktsn": 120000219074,
+      "scientificName": "Nola ebatoi (Inoue, 1970)",
+      "commonName": "작은연갈색혹나방",
+      "terminalLatinName": "ebatoi",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Nola",
+          "commonName": "혹나방속",
+          "ktsn": 120000117079
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "ebatoi",
+          "commonName": "작은연갈색혹나방",
+          "ktsn": 120000219074
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "no_image",
+        "attemptedAt": "2026-06-02T05:10:03.216Z",
+        "title": "Nola ebatoi",
+        "description": "species of moth"
+      }
+    },
+    {
+      "ktsn": 120000219055,
+      "scientificName": "Nola emi (Inoue, 1956)",
+      "commonName": "쌍검은혹나방",
+      "terminalLatinName": "emi",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Nola",
+          "commonName": "혹나방속",
+          "ktsn": 120000117079
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "emi",
+          "commonName": "쌍검은혹나방",
+          "ktsn": 120000219055
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:10:03.216Z"
+      }
+    },
+    {
+      "ktsn": 120000475579,
+      "scientificName": "Nola estonica Õunap, 2021",
+      "commonName": "연회색혹나방",
+      "terminalLatinName": "estonica",
+      "nomenclaturalAuthor": "Õunap",
+      "namingYear": "2021",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Nola",
+          "commonName": "혹나방속",
+          "ktsn": 120000117079
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "estonica",
+          "commonName": "연회색혹나방",
+          "ktsn": 120000475579
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:10:03.216Z"
+      }
+    },
+    {
+      "ktsn": 120000528287,
+      "scientificName": "Nola infralba Inoue, 1976",
+      "commonName": "뒷흰무늬혹나방",
+      "terminalLatinName": "infralba",
+      "nomenclaturalAuthor": "Inoue",
+      "namingYear": "1976",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Nola",
+          "commonName": "혹나방속",
+          "ktsn": 120000117079
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "infralba",
+          "commonName": "뒷흰무늬혹나방",
+          "ktsn": 120000528287
+        }
+      },
+      "inat": {
+        "observationCount": 5,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/168010230/medium.jpeg",
+        "months": [
+          2,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "ktsn": 120000117099,
+      "scientificName": "Nola innocua Butler, 1880",
+      "commonName": "둥근어깨무늬혹나방",
+      "terminalLatinName": "innocua",
+      "nomenclaturalAuthor": "Butler",
+      "namingYear": "1880",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Nola",
+          "commonName": "혹나방속",
+          "ktsn": 120000117079
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "innocua",
+          "commonName": "둥근어깨무늬혹나방",
+          "ktsn": 120000117099
+        }
+      },
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/227149250/medium.jpeg",
+        "months": [
+          7
+        ]
+      }
+    },
+    {
+      "ktsn": 120000217659,
+      "scientificName": "Nola japonibia (Strand, 1920)",
+      "commonName": "꼬마혹나방",
+      "terminalLatinName": "japonibia",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Nola",
+          "commonName": "혹나방속",
+          "ktsn": 120000117079
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "japonibia",
+          "commonName": "꼬마혹나방",
+          "ktsn": 120000217659
+        }
+      },
+      "inat": {
+        "observationCount": 6,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/83503990/medium.jpg",
+        "months": [
+          5,
+          7,
+          8,
+          9
+        ]
+      }
+    },
+    {
+      "ktsn": 120000219076,
+      "scientificName": "Nola kanshireiensis (Wileman and South, 1916)",
+      "commonName": "어리두줄혹나방",
+      "terminalLatinName": "kanshireiensis",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Nola",
+          "commonName": "혹나방속",
+          "ktsn": 120000117079
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "kanshireiensis",
+          "commonName": "어리두줄혹나방",
+          "ktsn": 120000219076
+        }
+      },
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/360803648/medium.jpg",
+        "months": [
+          3
+        ]
+      }
+    },
+    {
+      "ktsn": 120000219083,
+      "scientificName": "Nola minutalis Leech, 1888",
+      "commonName": "각시혹나방",
+      "terminalLatinName": "minutalis",
+      "nomenclaturalAuthor": "Leech",
+      "namingYear": "1888",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Nola",
+          "commonName": "혹나방속",
+          "ktsn": 120000117079
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "minutalis",
+          "commonName": "각시혹나방",
+          "ktsn": 120000219083
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:10:03.216Z"
+      }
+    },
+    {
+      "ktsn": 120000217664,
+      "scientificName": "Nola miyanoi Sasaki, 2009",
+      "commonName": "띠혹나방",
+      "terminalLatinName": "miyanoi",
+      "nomenclaturalAuthor": "Sasaki",
+      "namingYear": "2009",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Nola",
+          "commonName": "혹나방속",
+          "ktsn": 120000117079
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "miyanoi",
+          "commonName": "띠혹나방",
+          "ktsn": 120000217664
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:10:03.216Z"
+      }
+    },
+    {
+      "ktsn": 120000219056,
+      "scientificName": "Nola nami (Inoue, 1956)",
+      "commonName": "연갈색혹나방",
+      "terminalLatinName": "nami",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Nola",
+          "commonName": "혹나방속",
+          "ktsn": 120000117079
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "nami",
+          "commonName": "연갈색혹나방",
+          "ktsn": 120000219056
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:10:03.216Z"
+      }
+    },
+    {
+      "ktsn": 120000219073,
+      "scientificName": "Nola neglecta Inoue, 1991",
+      "commonName": "두줄흰혹나방",
+      "terminalLatinName": "neglecta",
+      "nomenclaturalAuthor": "Inoue",
+      "namingYear": "1991",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Nola",
+          "commonName": "혹나방속",
+          "ktsn": 120000117079
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "neglecta",
+          "commonName": "두줄흰혹나방",
+          "ktsn": 120000219073
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:10:03.923Z"
+      }
+    },
+    {
+      "ktsn": 120000219075,
+      "scientificName": "Nola okanoi (Inoue, 1958)",
+      "commonName": "반백혹나방",
+      "terminalLatinName": "okanoi",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Nola",
+          "commonName": "혹나방속",
+          "ktsn": 120000117079
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "okanoi",
+          "commonName": "반백혹나방",
+          "ktsn": 120000219075
+        }
+      },
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/417166281/medium.jpg",
+        "months": [
+          7
+        ]
+      }
+    },
+    {
+      "ktsn": 120000217665,
+      "scientificName": "Nola semiconfusa (Inoue, 1976)",
+      "commonName": "이른봄혹나방",
+      "terminalLatinName": "semiconfusa",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Nola",
+          "commonName": "혹나방속",
+          "ktsn": 120000117079
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "semiconfusa",
+          "commonName": "이른봄혹나방",
+          "ktsn": 120000217665
+        }
+      },
+      "inat": {
+        "observationCount": 13,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/266161865/medium.png",
+        "months": [
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "ktsn": 120000117081,
+      "scientificName": "Nola taeniata Snellen, 1875",
+      "commonName": "흰혹나방",
+      "terminalLatinName": "taeniata",
+      "nomenclaturalAuthor": "Snellen",
+      "namingYear": "1875",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Nola",
+          "commonName": "혹나방속",
+          "ktsn": 120000117079
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "taeniata",
+          "commonName": "흰혹나방",
+          "ktsn": 120000117081
+        }
+      },
+      "inat": {
+        "observationCount": 30,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/138719945/medium.jpg",
+        "months": [
+          4,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "ktsn": 120000117101,
+      "scientificName": "Nola trilinea Marumo, 1923",
+      "commonName": "다갈색혹나방",
+      "terminalLatinName": "trilinea",
+      "nomenclaturalAuthor": "Marumo",
+      "namingYear": "1923",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Nola",
+          "commonName": "혹나방속",
+          "ktsn": 120000117079
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "trilinea",
+          "commonName": "다갈색혹나방",
+          "ktsn": 120000117101
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:10:03.923Z"
+      }
+    },
+    {
+      "ktsn": 120000035491,
+      "scientificName": "Nolathripa lactaria (Graeser, 1892)",
+      "commonName": "흰껍질혹나방",
+      "terminalLatinName": "lactaria",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Nolathripa",
+          "commonName": "",
+          "ktsn": 120000035490
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "lactaria",
+          "commonName": "흰껍질혹나방",
+          "ktsn": 120000035491
+        }
+      },
+      "inat": {
+        "observationCount": 30,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/137299070/medium.jpg",
+        "months": [
+          5,
+          6,
+          7,
+          8
+        ]
+      }
+    },
+    {
+      "ktsn": 120000035493,
+      "scientificName": "Nycteola asiatica (Krulikovsky, 1904)",
+      "commonName": "부채껍질나방",
+      "terminalLatinName": "asiatica",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Nycteola",
+          "commonName": "",
+          "ktsn": 120000035492
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "asiatica",
+          "commonName": "부채껍질나방",
+          "ktsn": 120000035493
+        }
+      },
+      "inat": {
+        "observationCount": 5,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/63545976/medium.jpg",
+        "months": [
+          3,
+          7,
+          8
+        ]
+      }
+    },
+    {
+      "ktsn": 120000035494,
+      "scientificName": "Nycteola coreana (Leech, 1900)",
+      "commonName": "꼬마부채껍질나방",
+      "terminalLatinName": "coreana",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Nycteola",
+          "commonName": "",
+          "ktsn": 120000035492
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "coreana",
+          "commonName": "꼬마부채껍질나방",
+          "ktsn": 120000035494
+        }
+      },
+      "inat": {
+        "observationCount": 2,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/460410611/medium.jpg",
+        "months": [
+          6,
+          9
+        ]
+      }
+    },
+    {
+      "ktsn": 120000035495,
+      "scientificName": "Nycteola costalis Sugi, 1959",
+      "commonName": "앞무늬부채껍질밤나방",
+      "terminalLatinName": "costalis",
+      "nomenclaturalAuthor": "Sugi",
+      "namingYear": "1959",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Nycteola",
+          "commonName": "",
+          "ktsn": 120000035492
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "costalis",
+          "commonName": "앞무늬부채껍질밤나방",
+          "ktsn": 120000035495
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:10:03.923Z"
+      }
+    },
+    {
+      "ktsn": 120000035496,
+      "scientificName": "Nycteola degenerana (Hübner, 1799)",
+      "commonName": "깨소금껍질나방",
+      "terminalLatinName": "degenerana",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Nycteola",
+          "commonName": "",
+          "ktsn": 120000035492
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "degenerana",
+          "commonName": "깨소금껍질나방",
+          "ktsn": 120000035496
+        }
+      },
+      "inat": {
+        "observationCount": 20,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/71610583/medium.jpeg",
+        "months": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    },
+    {
+      "ktsn": 120000035498,
+      "scientificName": "Paracrama angulata Sugi, 1985",
+      "commonName": "끝갈색푸른나방",
+      "terminalLatinName": "angulata",
+      "nomenclaturalAuthor": "Sugi",
+      "namingYear": "1985",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Paracrama",
+          "commonName": "",
+          "ktsn": 120000035497
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "angulata",
+          "commonName": "끝갈색푸른나방",
+          "ktsn": 120000035498
+        }
+      },
+      "inat": {
+        "observationCount": 8,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/490578447/medium.jpeg",
+        "months": [
+          4,
+          5,
+          6,
+          9,
+          12
+        ]
+      }
+    },
+    {
+      "ktsn": 120000035500,
+      "scientificName": "Pseudoips prasinanus (Linnaeus, 1758)",
+      "commonName": "쌍줄푸른나방",
+      "terminalLatinName": "prasinanus",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Pseudoips",
+          "commonName": "",
+          "ktsn": 120000035499
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "prasinanus",
+          "commonName": "쌍줄푸른나방",
+          "ktsn": 120000035500
+        }
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:10:03.923Z"
+      }
+    },
+    {
+      "ktsn": 120000035501,
+      "scientificName": "Pseudoips sylpha (Butler, 1879)",
+      "commonName": "큰쌍줄푸른나방",
+      "terminalLatinName": "sylpha",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Pseudoips",
+          "commonName": "",
+          "ktsn": 120000035499
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "sylpha",
+          "commonName": "큰쌍줄푸른나방",
+          "ktsn": 120000035501
+        }
+      },
+      "inat": {
+        "observationCount": 12,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/11641359/medium.jpg",
+        "months": [
+          4,
+          5,
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "ktsn": 120000035503,
+      "scientificName": "Risoba prominens Moore, 1881",
+      "commonName": "고구마껍질나방",
+      "terminalLatinName": "prominens",
+      "nomenclaturalAuthor": "Moore",
+      "namingYear": "1881",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Risoba",
+          "commonName": "",
+          "ktsn": 120000035502
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "prominens",
+          "commonName": "고구마껍질나방",
+          "ktsn": 120000035503
+        }
+      },
+      "inat": {
+        "observationCount": 7,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/278085248/medium.jpg",
+        "months": [
+          4,
+          6,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "ktsn": 120000212052,
+      "scientificName": "Risoba yanagitai Nakao, Fukuda and Hayashi, 2016",
+      "commonName": "",
+      "terminalLatinName": "yanagitai",
+      "nomenclaturalAuthor": "Nakao, Fukuda and Hayashi",
+      "namingYear": "2016",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Risoba",
+          "commonName": "",
+          "ktsn": 120000035502
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "yanagitai",
+          "commonName": "",
+          "ktsn": 120000212052
+        }
+      },
+      "inat": {
+        "observationCount": 4,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/156219004/medium.jpg",
+        "months": [
+          6,
+          7,
+          8
+        ]
+      }
+    },
+    {
+      "ktsn": 120000035513,
+      "scientificName": "Siglophora ferreilutea Hampson, 1895",
+      "commonName": "다갈색애나방",
+      "terminalLatinName": "ferreilutea",
+      "nomenclaturalAuthor": "Hampson",
+      "namingYear": "1895",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Siglophora",
+          "commonName": "",
+          "ktsn": 120000035512
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "ferreilutea",
+          "commonName": "다갈색애나방",
+          "ktsn": 120000035513
+        }
+      },
+      "inat": {
+        "observationCount": 37,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/913004/medium.JPG",
+        "months": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "ktsn": 120000035514,
+      "scientificName": "Siglophora sanguinolenta (Moore, 1888)",
+      "commonName": "붉은무늬갈색애나방",
+      "terminalLatinName": "sanguinolenta",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Siglophora",
+          "commonName": "",
+          "ktsn": 120000035512
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "sanguinolenta",
+          "commonName": "붉은무늬갈색애나방",
+          "ktsn": 120000035514
+        }
+      },
+      "inat": {
+        "observationCount": 34,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/62332221/medium.jpg",
+        "months": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    },
+    {
+      "ktsn": 120000035516,
+      "scientificName": "Sinna extrema (Walker, 1854)",
+      "commonName": "그물애나방",
+      "terminalLatinName": "extrema",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Lepidoptera",
+          "commonName": "나비목",
+          "ktsn": 120000031663
+        },
+        "family": {
+          "scientificName": "Nolidae",
+          "commonName": "혹나방과",
+          "ktsn": 120000035446
+        },
+        "genus": {
+          "scientificName": "Sinna",
+          "commonName": "",
+          "ktsn": 120000035515
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "extrema",
+          "commonName": "그물애나방",
+          "ktsn": 120000035516
+        }
+      },
+      "inat": {
+        "observationCount": 149,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/151296281/medium.png",
+        "months": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    }
+  ]
+}

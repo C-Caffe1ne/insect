@@ -1,0 +1,2905 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "odonata",
+    "scientificName": "Odonata",
+    "commonName": "잠자리목",
+    "orderKtsn": 120000037253
+  },
+  "family": {
+    "id": "corduliidae",
+    "scientificName": "Corduliidae",
+    "commonName": "청동잠자리과",
+    "familyKtsn": 120000037322
+  },
+  "speciesCount": 9,
+  "insects": [
+    {
+      "ktsn": 120000037324,
+      "scientificName": "Cordulia aenea (Linnaeus, 1758)",
+      "commonName": "청동잠자리",
+      "terminalLatinName": "aenea",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Odonata",
+          "commonName": "잠자리목",
+          "ktsn": 120000037253
+        },
+        "family": {
+          "scientificName": "Corduliidae",
+          "commonName": "청동잠자리과",
+          "ktsn": 120000037322
+        },
+        "genus": {
+          "scientificName": "Cordulia",
+          "commonName": "청동잠자리속",
+          "ktsn": 120000037323
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "aenea",
+          "commonName": "청동잠자리",
+          "ktsn": 120000037324
+        }
+      },
+      "eol": {
+        "pageId": 4139271,
+        "canonical": "Cordulia aenea",
+        "fetchedAt": "2026-05-24T17:11:54.554Z",
+        "vernaculars": {
+          "ko": [
+            "청동잠자리"
+          ],
+          "en": [
+            "Downy Emerald",
+            "downy emerald"
+          ],
+          "ja": [
+            "カラカネトンボ"
+          ]
+        },
+        "habitat": [
+          "lentic",
+          "freshwater habitat",
+          "terrestrial"
+        ],
+        "geographic": [
+          "North Atlantic",
+          "Japan",
+          "United Kingdom",
+          "The Netherlands",
+          "Switzerland",
+          "Sweden",
+          "Poland",
+          "Norway",
+          "Luxembourg",
+          "Liechtenstein",
+          "Italy",
+          "Ireland",
+          "Hungary",
+          "Germany",
+          "France",
+          "Finland",
+          "Estonia",
+          "Denmark",
+          "Czech Republic",
+          "Belgium",
+          "Belarus",
+          "Austria"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 136355
+      },
+      "gbif": {
+        "usageKey": 1429717,
+        "matchType": "EXACT",
+        "confidence": 100,
+        "scientificName": "Cordulia aenea (Linnaeus, 1758)",
+        "canonicalName": "Cordulia aenea",
+        "authorship": "(Linnaeus, 1758) ",
+        "basionym": "Libellula aenea Linnaeus, 1758",
+        "publishedIn": null,
+        "rank": "SPECIES",
+        "taxonomicStatus": "ACCEPTED",
+        "vernacularName": null,
+        "numDescendants": 2,
+        "taxonomy": {
+          "kingdom": "Animalia",
+          "phylum": "Arthropoda",
+          "class": "Insecta",
+          "order": "Odonata",
+          "family": "Corduliidae",
+          "genus": "Cordulia",
+          "species": "Cordulia aenea"
+        },
+        "vernaculars": {
+          "ko": [],
+          "en": [
+            "Downy Emerald",
+            "Downy Emerald Dragonfly"
+          ],
+          "ja": [],
+          "byLang": {
+            "srp": [
+              "Barski zeleni konjic"
+            ],
+            "lit": [
+              "Bronzinė Skėtė"
+            ],
+            "fra": [
+              "Cordulie Bronzée",
+              "Cordulie bronzée (La)"
+            ],
+            "eng": [
+              "Downy Emerald",
+              "Downy Emerald Dragonfly"
+            ],
+            "spa": [
+              "Esmeralda bronceada"
+            ],
+            "deu": [
+              "Falkenlibelle",
+              "Gemeine Smaragdlibelle"
+            ],
+            "dan": [
+              "Grøn guldsmed",
+              "Grøn smaragdlibel"
+            ],
+            "cym": [
+              "Gwas Gwyrdd Blewog",
+              "Gweision Gwyrdd Blewog",
+              "Gwyrddwesyn Blewog"
+            ]
+          }
+        },
+        "distributions": {
+          "native": [
+            {
+              "locality": "Belgium",
+              "locationId": "ISO_3166-2:BE",
+              "establishmentMeans": "NATIVE",
+              "source": "Waarnemingen.be / observations.be - List of species observed in Belgium"
+            },
+            {
+              "locality": "Brussels-Capital Region",
+              "locationId": "ISO_3166-2:BE-BRU",
+              "establishmentMeans": "NATIVE",
+              "source": "Waarnemingen.be / observations.be - List of species observed in Belgium"
+            },
+            {
+              "locality": "Flemish Region",
+              "locationId": "ISO_3166-2:BE-VLG",
+              "establishmentMeans": "NATIVE",
+              "source": "Waarnemingen.be / observations.be - List of species observed in Belgium"
+            },
+            {
+              "locality": "Walloon Region",
+              "locationId": "ISO_3166-2:BE-WAL",
+              "establishmentMeans": "NATIVE",
+              "source": "Waarnemingen.be / observations.be - List of species observed in Belgium"
+            },
+            {
+              "locality": "Flanders",
+              "locationId": "ISO_3166:BE-VLG",
+              "establishmentMeans": "NATIVE",
+              "source": "Non-validated red list of Flanders, Belgium"
+            },
+            {
+              "locality": "Flanders",
+              "locationId": "ISO_3166:BE-VLG",
+              "establishmentMeans": "NATIVE",
+              "source": "Validated red lists of Flanders, Belgium"
+            },
+            {
+              "locality": "",
+              "locationId": "",
+              "establishmentMeans": "NATIVE",
+              "source": "Dyntaxa. Svensk taxonomisk databas"
+            }
+          ],
+          "introduced": [],
+          "other": [
+            {
+              "locality": "Global",
+              "locationId": "",
+              "establishmentMeans": "",
+              "source": "The IUCN Red List of Threatened Species"
+            },
+            {
+              "locality": "Flanders",
+              "locationId": "MRGID:2469",
+              "establishmentMeans": "",
+              "source": "Red list of dragonflies in Flanders, Belgium"
+            },
+            {
+              "locality": "",
+              "locationId": "",
+              "establishmentMeans": "",
+              "source": "National Checklist of all species occurring in Denmark"
+            },
+            {
+              "locality": "Grand Duchy of Luxembourg",
+              "locationId": "ISO:LU",
+              "establishmentMeans": "",
+              "source": "Red list of Odonata of Luxembourg 2006"
+            },
+            {
+              "locality": "ISO:NO",
+              "locationId": "ISO:NO",
+              "establishmentMeans": "",
+              "source": ""
+            }
+          ],
+          "korea": []
+        },
+        "media": [
+          {
+            "url": "https://images.naturalis.nl/original/192347.jpg",
+            "format": "image/jpeg",
+            "license": "CC BY",
+            "rightsHolder": "Dick Belgers",
+            "source": "Checklist Dutch Species Register - Nederlands Soortenregister",
+            "created": "2010-05-13T00:00:00.000+00:00"
+          },
+          {
+            "url": "https://images.naturalis.nl/original/95705_smaragdlibel_dsc0116.jpg",
+            "format": "image/jpeg",
+            "license": "CC BY-NC",
+            "rightsHolder": "Wijnand van Buuren",
+            "source": "Checklist Dutch Species Register - Nederlands Soortenregister",
+            "created": "2014-04-28T00:00:00.000+00:00"
+          },
+          {
+            "url": "https://images.naturalis.nl/original/95704_smaragdlibel_dsc0107.jpg",
+            "format": "image/jpeg",
+            "license": "CC BY-NC",
+            "rightsHolder": "Wijnand van Buuren",
+            "source": "Checklist Dutch Species Register - Nederlands Soortenregister",
+            "created": "2014-04-28T00:00:00.000+00:00"
+          }
+        ],
+        "counts": {
+          "vernacularsRaw": 20,
+          "distributionsRaw": 12,
+          "mediaRaw": 3,
+          "descriptionsRaw": 24
+        },
+        "descriptions": {
+          "byType": {
+            "Habitat_agriculture": [
+              {
+                "type": "Habitat_agriculture",
+                "description": "0",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Habitat_dunes": [
+              {
+                "type": "Habitat_dunes",
+                "description": "0",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Habitat_forest": [
+              {
+                "type": "Habitat_forest",
+                "description": "0",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Habitat_grassland": [
+              {
+                "type": "Habitat_grassland",
+                "description": "0",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Habitat_salt_marshes": [
+              {
+                "type": "Habitat_salt_marshes",
+                "description": "0",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Habitat_urban": [
+              {
+                "type": "Habitat_urban",
+                "description": "0",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Overwintering_adult": [
+              {
+                "type": "Overwintering_adult",
+                "description": "0",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Overwintering_egg": [
+              {
+                "type": "Overwintering_egg",
+                "description": "0",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Habitat_fresh_marshes": [
+              {
+                "type": "Habitat_fresh_marshes",
+                "description": "1",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Habitat_heathland": [
+              {
+                "type": "Habitat_heathland",
+                "description": "1",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Overwintering_larva": [
+              {
+                "type": "Overwintering_larva",
+                "description": "1",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Feeding_guild_adult": [
+              {
+                "type": "Feeding_guild_adult",
+                "description": "carnivore",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Feeding_guild_larva": [
+              {
+                "type": "Feeding_guild_larva",
+                "description": "carnivore",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Diurnality": [
+              {
+                "type": "Diurnality",
+                "description": "diurnal",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Voltinism_max": [
+              {
+                "type": "Voltinism_max",
+                "description": "partivoltine",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Trophic_range_adult": [
+              {
+                "type": "Trophic_range_adult",
+                "description": "polyphagous",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Trophic_range_larva": [
+              {
+                "type": "Trophic_range_larva",
+                "description": "polyphagous",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "biome": [
+              {
+                "type": "biome",
+                "description": "aquatic",
+                "language": "eng",
+                "source": "Validated red lists of Flanders, Belgium"
+              }
+            ],
+            "nutrient level": [
+              {
+                "type": "nutrient level",
+                "description": "eutrophic",
+                "language": "eng",
+                "source": "Validated red lists of Flanders, Belgium"
+              }
+            ],
+            "spine": [
+              {
+                "type": "spine",
+                "description": "invertebrate",
+                "language": "eng",
+                "source": "Validated red lists of Flanders, Belgium"
+              }
+            ],
+            "mobility": [
+              {
+                "type": "mobility",
+                "description": "mobile",
+                "language": "eng",
+                "source": "Validated red lists of Flanders, Belgium"
+              }
+            ],
+            "cuddliness": [
+              {
+                "type": "cuddliness",
+                "description": "non cuddly",
+                "language": "eng",
+                "source": "Validated red lists of Flanders, Belgium"
+              }
+            ],
+            "lifespan": [
+              {
+                "type": "lifespan",
+                "description": "shortlived",
+                "language": "eng",
+                "source": "Validated red lists of Flanders, Belgium"
+              }
+            ],
+            "biotope": [
+              {
+                "type": "biotope",
+                "description": "standing waters",
+                "language": "eng",
+                "source": "Validated red lists of Flanders, Belgium"
+              }
+            ]
+          },
+          "all": [
+            {
+              "type": "Habitat_agriculture",
+              "description": "0",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Habitat_dunes",
+              "description": "0",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Habitat_forest",
+              "description": "0",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Habitat_grassland",
+              "description": "0",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Habitat_salt_marshes",
+              "description": "0",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Habitat_urban",
+              "description": "0",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Overwintering_adult",
+              "description": "0",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Overwintering_egg",
+              "description": "0",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Habitat_fresh_marshes",
+              "description": "1",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Habitat_heathland",
+              "description": "1",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Overwintering_larva",
+              "description": "1",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Feeding_guild_adult",
+              "description": "carnivore",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Feeding_guild_larva",
+              "description": "carnivore",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Diurnality",
+              "description": "diurnal",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Voltinism_max",
+              "description": "partivoltine",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Trophic_range_adult",
+              "description": "polyphagous",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Trophic_range_larva",
+              "description": "polyphagous",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "biome",
+              "description": "aquatic",
+              "language": "eng",
+              "source": "Validated red lists of Flanders, Belgium"
+            },
+            {
+              "type": "nutrient level",
+              "description": "eutrophic",
+              "language": "eng",
+              "source": "Validated red lists of Flanders, Belgium"
+            },
+            {
+              "type": "spine",
+              "description": "invertebrate",
+              "language": "eng",
+              "source": "Validated red lists of Flanders, Belgium"
+            },
+            {
+              "type": "mobility",
+              "description": "mobile",
+              "language": "eng",
+              "source": "Validated red lists of Flanders, Belgium"
+            },
+            {
+              "type": "cuddliness",
+              "description": "non cuddly",
+              "language": "eng",
+              "source": "Validated red lists of Flanders, Belgium"
+            },
+            {
+              "type": "lifespan",
+              "description": "shortlived",
+              "language": "eng",
+              "source": "Validated red lists of Flanders, Belgium"
+            },
+            {
+              "type": "biotope",
+              "description": "standing waters",
+              "language": "eng",
+              "source": "Validated red lists of Flanders, Belgium"
+            }
+          ]
+        }
+      },
+      "gbifFetchedAt": "2026-05-28T05:24:45.979Z",
+      "gbifSchemaVersion": 2,
+      "inat": {
+        "observationCount": 15,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/201450186/medium.jpg",
+        "months": [
+          5,
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "ktsn": 120000037326,
+      "scientificName": "Epitheca marginata (Selys, 1883)",
+      "commonName": "언저리잠자리",
+      "terminalLatinName": "marginata",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Odonata",
+          "commonName": "잠자리목",
+          "ktsn": 120000037253
+        },
+        "family": {
+          "scientificName": "Corduliidae",
+          "commonName": "청동잠자리과",
+          "ktsn": 120000037322
+        },
+        "genus": {
+          "scientificName": "Epitheca",
+          "commonName": "언저리잠자리속",
+          "ktsn": 120000037325
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "marginata",
+          "commonName": "언저리잠자리",
+          "ktsn": 120000037326
+        }
+      },
+      "eol": {
+        "pageId": 255704,
+        "canonical": "Epitheca marginata",
+        "fetchedAt": "2026-05-24T17:11:56.090Z",
+        "vernaculars": {
+          "ko": [
+            "언저리잠자리"
+          ],
+          "en": [],
+          "ja": [
+            "トラフトンボ"
+          ]
+        },
+        "habitat": [
+          "lentic",
+          "freshwater habitat"
+        ],
+        "geographic": [
+          "Japan",
+          "South Korea"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 663
+      },
+      "gbif": {
+        "usageKey": 1430082,
+        "matchType": "EXACT",
+        "confidence": 100,
+        "scientificName": "Epitheca marginata (Selys, 1883)",
+        "canonicalName": "Epitheca marginata",
+        "authorship": "(Selys, 1883) ",
+        "basionym": "Somatochlora marginata Selys, 1883",
+        "publishedIn": null,
+        "rank": "SPECIES",
+        "taxonomicStatus": "ACCEPTED",
+        "vernacularName": null,
+        "numDescendants": 0,
+        "taxonomy": {
+          "kingdom": "Animalia",
+          "phylum": "Arthropoda",
+          "class": "Insecta",
+          "order": "Odonata",
+          "family": "Corduliidae",
+          "genus": "Epitheca",
+          "species": "Epitheca marginata"
+        },
+        "vernaculars": {
+          "ko": [
+            "언저리잠자리"
+          ],
+          "en": [],
+          "ja": [
+            "Torafu-tombo",
+            "トラフトンボ"
+          ],
+          "byLang": {
+            "jpn": [
+              "Torafu-tombo",
+              "トラフトンボ"
+            ],
+            "zho": [
+              "缘斑毛伪蜻"
+            ],
+            "kor": [
+              "언저리잠자리"
+            ]
+          }
+        },
+        "distributions": {
+          "native": [],
+          "introduced": [],
+          "other": [
+            {
+              "locality": "Global",
+              "locationId": "",
+              "establishmentMeans": "",
+              "source": "The IUCN Red List of Threatened Species"
+            }
+          ],
+          "korea": []
+        },
+        "media": [],
+        "counts": {
+          "vernacularsRaw": 5,
+          "distributionsRaw": 1,
+          "mediaRaw": 0,
+          "descriptionsRaw": 0
+        },
+        "descriptions": {
+          "byType": {},
+          "all": []
+        }
+      },
+      "gbifFetchedAt": "2026-05-28T05:24:46.505Z",
+      "gbifSchemaVersion": 2,
+      "inat": {
+        "observationCount": 12,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/492118243/medium.jpg",
+        "months": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "ktsn": 120000037328,
+      "scientificName": "Somatochlora alpestris (Selys, 1840)",
+      "commonName": "북방잠자리",
+      "terminalLatinName": "alpestris",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Odonata",
+          "commonName": "잠자리목",
+          "ktsn": 120000037253
+        },
+        "family": {
+          "scientificName": "Corduliidae",
+          "commonName": "청동잠자리과",
+          "ktsn": 120000037322
+        },
+        "genus": {
+          "scientificName": "Somatochlora",
+          "commonName": "북방잠자리속",
+          "ktsn": 120000037327
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "alpestris",
+          "commonName": "북방잠자리",
+          "ktsn": 120000037328
+        }
+      },
+      "eol": {
+        "pageId": 254619,
+        "canonical": "Somatochlora alpestris",
+        "fetchedAt": "2026-05-24T17:11:57.663Z",
+        "vernaculars": {
+          "ko": [
+            "북방잠자리"
+          ],
+          "en": [
+            "Alpine Emerald",
+            "Alpine emerald"
+          ],
+          "ja": [
+            "クモマエゾトンボ",
+            "クモマエゾトンボ"
+          ]
+        },
+        "habitat": [
+          "alpine",
+          "mountain",
+          "montane",
+          "valley",
+          "lentic",
+          "freshwater habitat",
+          "terrestrial"
+        ],
+        "geographic": [
+          "Alps",
+          "Norway",
+          "Austria",
+          "Czech Republic",
+          "Finland",
+          "France",
+          "Germany",
+          "Italy",
+          "Russia",
+          "Sweden",
+          "Switzerland"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 4121
+      },
+      "gbif": {
+        "usageKey": 1430020,
+        "matchType": "EXACT",
+        "confidence": 100,
+        "scientificName": "Somatochlora alpestris (Selys, 1840)",
+        "canonicalName": "Somatochlora alpestris",
+        "authorship": "(Selys, 1840) ",
+        "basionym": "Cordulia alpestris Selys, 1840",
+        "publishedIn": null,
+        "rank": "SPECIES",
+        "taxonomicStatus": "ACCEPTED",
+        "vernacularName": null,
+        "numDescendants": 1,
+        "taxonomy": {
+          "kingdom": "Animalia",
+          "phylum": "Arthropoda",
+          "class": "Insecta",
+          "order": "Odonata",
+          "family": "Corduliidae",
+          "genus": "Somatochlora",
+          "species": "Somatochlora alpestris"
+        },
+        "vernaculars": {
+          "ko": [],
+          "en": [
+            "Alpine Emerald"
+          ],
+          "ja": [],
+          "byLang": {
+            "deu": [
+              "Alpen-Smaragdlibelle"
+            ],
+            "eng": [
+              "Alpine Emerald"
+            ],
+            "slv": [
+              "Alpski lesketnik"
+            ],
+            "srp": [
+              "Alpski zeleni konjic"
+            ],
+            "fra": [
+              "Chlorocordulie alpestre",
+              "Cordulie Alpestre",
+              "Cordulie alpestre (La)"
+            ],
+            "pol": [
+              "Miedziopierś alpejska",
+              "miedziopierś górska"
+            ],
+            "ita": [
+              "Smeralda alpina"
+            ],
+            "nld": [
+              "Taigaglanslibel"
+            ],
+            "fin": [
+              "aapakiiltokorento"
+            ],
+            "nob": [
+              "fjell-metalløyenstikker",
+              "fjellmetallibelle"
+            ],
+            "swe": [
+              "fjälltrollslända"
+            ],
+            "ces": [
+              "lesklice horská"
+            ]
+          }
+        },
+        "distributions": {
+          "native": [
+            {
+              "locality": "",
+              "locationId": "",
+              "establishmentMeans": "NATIVE",
+              "source": "Dyntaxa. Svensk taxonomisk databas"
+            }
+          ],
+          "introduced": [],
+          "other": [
+            {
+              "locality": "Europe & Northern Asia (excluding China)",
+              "locationId": "",
+              "establishmentMeans": "",
+              "source": "Integrated Taxonomic Information System (ITIS)"
+            },
+            {
+              "locality": "Global",
+              "locationId": "",
+              "establishmentMeans": "",
+              "source": "The IUCN Red List of Threatened Species"
+            },
+            {
+              "locality": "ISO:NO",
+              "locationId": "ISO:NO",
+              "establishmentMeans": "",
+              "source": ""
+            }
+          ],
+          "korea": []
+        },
+        "media": [],
+        "counts": {
+          "vernacularsRaw": 20,
+          "distributionsRaw": 4,
+          "mediaRaw": 0,
+          "descriptionsRaw": 2
+        },
+        "descriptions": {
+          "byType": {
+            "conservation": [
+              {
+                "type": "conservation",
+                "description": "Conservation and breeding status: LC (EU), LC (IT), NT (MED), B This boreo-alpine lentic dragonfly was reported in 4 out of 7 study areas: namely LPO (8,10), LPR (18), CDB (20) and LGE (21); breeding was confirmed in CDB and LGE and deemed likely in the remaining two. S. alpestris was considered rare in Piedmont and Valle d’Aosta by Boano et al. (2007) and Sindaco et al. (2008) and no records were available for VCO at that time. Later surveys confirmed its presence along the alpine border of north eastern Piedmont (Bionda et al. 2013; Riservato et al. 2014 c). Records collected during this study are the first to confirm its presence in PNVG and are spatially separated from the main Alpine ridge by Vigezzo valley. De Marmels & Schiess (1978) also reported the occurrence of S. alpestris as new in Canton Tessin (apart from an old record dating back to 1880), though they immediately recognized it as the most frequent corduliid; however, they did not collect any observations further south than Vigezzo valley; the same geographic distribution was confirmed by Wildermuth et al. (2005). The autocthony of S. alpestris in the Orobian Prealps (province of Brescia, Lombardy) was described as an interesting record by Gheza (2015) on the basis of its boreo-alpine chorology and Italian distribution, which is limited to the inner part of the Alps, with only a few records coming from the Prealps. Though its occurrence was reported in all Italian alpine regions and despite it being a generalist dragonfly (Riservato et al. 2014 c), many of its isolated populations are considered at risk of substantial alterations due to anthropic intervention or significant changes in climate, because they are scattered and found only in the Alps (Zandigiacomo et al. 2014; Wildermuth et al. 2005; Assandri 2019). S. alpestris distribution may be underestimated because suitable habitats are often located in remote high-altitude sites and populations are accounted for by a few individuals (Wildermuth et al. 2005; Sindaco et al. 2008; Pettavino 2015).",
+                "language": "eng",
+                "source": "The Odonate fauna of Val Grande National Park (Insecta: Odonata)"
+              }
+            ],
+            "description": [
+              {
+                "type": "description",
+                "description": "Ältere Nachweise: Aubert (1964 a) bezeichnet die Art als zur lokalen Fauna gehörig.",
+                "language": "deu",
+                "source": "Beobachtungen von Libellen (Odonata) auf dem Col de Bretolet (VS)"
+              }
+            ]
+          },
+          "all": [
+            {
+              "type": "conservation",
+              "description": "Conservation and breeding status: LC (EU), LC (IT), NT (MED), B This boreo-alpine lentic dragonfly was reported in 4 out of 7 study areas: namely LPO (8,10), LPR (18), CDB (20) and LGE (21); breeding was confirmed in CDB and LGE and deemed likely in the remaining two. S. alpestris was considered rare in Piedmont and Valle d’Aosta by Boano et al. (2007) and Sindaco et al. (2008) and no records were available for VCO at that time. Later surveys confirmed its presence along the alpine border of north eastern Piedmont (Bionda et al. 2013; Riservato et al. 2014 c). Records collected during this study are the first to confirm its presence in PNVG and are spatially separated from the main Alpine ridge by Vigezzo valley. De Marmels & Schiess (1978) also reported the occurrence of S. alpestris as new in Canton Tessin (apart from an old record dating back to 1880), though they immediately recognized it as the most frequent corduliid; however, they did not collect any observations further south than Vigezzo valley; the same geographic distribution was confirmed by Wildermuth et al. (2005). The autocthony of S. alpestris in the Orobian Prealps (province of Brescia, Lombardy) was described as an interesting record by Gheza (2015) on the basis of its boreo-alpine chorology and Italian distribution, which is limited to the inner part of the Alps, with only a few records coming from the Prealps. Though its occurrence was reported in all Italian alpine regions and despite it being a generalist dragonfly (Riservato et al. 2014 c), many of its isolated populations are considered at risk of substantial alterations due to anthropic intervention or significant changes in climate, because they are scattered and found only in the Alps (Zandigiacomo et al. 2014; Wildermuth et al. 2005; Assandri 2019). S. alpestris distribution may be underestimated because suitable habitats are often located in remote high-altitude sites and populations are accounted for by a few individuals (Wildermuth et al. 2005; Sindaco et al. 2008; Pettavino 2015).",
+              "language": "eng",
+              "source": "The Odonate fauna of Val Grande National Park (Insecta: Odonata)"
+            },
+            {
+              "type": "description",
+              "description": "Ältere Nachweise: Aubert (1964 a) bezeichnet die Art als zur lokalen Fauna gehörig.",
+              "language": "deu",
+              "source": "Beobachtungen von Libellen (Odonata) auf dem Col de Bretolet (VS)"
+            }
+          ]
+        }
+      },
+      "gbifFetchedAt": "2026-05-28T05:24:47.027Z",
+      "gbifSchemaVersion": 2,
+      "wiki": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:10:27.062Z",
+        "title": "Somatochlora alpestris",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Somatochlora_alpestris_01.jpg/500px-Somatochlora_alpestris_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/25/Somatochlora_alpestris_01.jpg",
+        "thumbnailSize": {
+          "width": 500,
+          "height": 335
+        },
+        "originalSize": {
+          "width": 3086,
+          "height": 2066
+        },
+        "filename": "Somatochlora_alpestris_01.jpg",
+        "description": "species of insect",
+        "pageUrl": "https://en.wikipedia.org/wiki/Somatochlora_alpestris",
+        "license": "see Wikimedia Commons",
+        "source": "Wikipedia"
+      }
+    },
+    {
+      "ktsn": 120000037329,
+      "scientificName": "Somatochlora arctica (Zetterstedt, 1840)",
+      "commonName": "밑노란잠자리붙이",
+      "terminalLatinName": "arctica",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Odonata",
+          "commonName": "잠자리목",
+          "ktsn": 120000037253
+        },
+        "family": {
+          "scientificName": "Corduliidae",
+          "commonName": "청동잠자리과",
+          "ktsn": 120000037322
+        },
+        "genus": {
+          "scientificName": "Somatochlora",
+          "commonName": "북방잠자리속",
+          "ktsn": 120000037327
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "arctica",
+          "commonName": "밑노란잠자리붙이",
+          "ktsn": 120000037329
+        }
+      },
+      "eol": {
+        "pageId": 254618,
+        "canonical": "Somatochlora arctica",
+        "fetchedAt": "2026-05-24T17:12:01.185Z",
+        "vernaculars": {
+          "ko": [
+            "밑노란잠자리붙이"
+          ],
+          "en": [
+            "Northern Emerald",
+            "northern emerald"
+          ],
+          "ja": [
+            "ホソミモリトンボ"
+          ]
+        },
+        "habitat": [
+          "mountain",
+          "alpine",
+          "lentic",
+          "terrestrial",
+          "freshwater habitat"
+        ],
+        "geographic": [
+          "Norway",
+          "Austria",
+          "Estonia",
+          "Finland",
+          "France",
+          "Germany",
+          "Ireland",
+          "Italy",
+          "Russia",
+          "Sweden",
+          "Switzerland",
+          "The Netherlands",
+          "United Kingdom"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 11003
+      },
+      "gbif": {
+        "usageKey": 1429997,
+        "matchType": "EXACT",
+        "confidence": 100,
+        "scientificName": "Somatochlora arctica (Zetterstedt, 1840)",
+        "canonicalName": "Somatochlora arctica",
+        "authorship": "(Zetterstedt, 1840) ",
+        "basionym": "Aeschna arctica Zetterstedt, 1840",
+        "publishedIn": null,
+        "rank": "SPECIES",
+        "taxonomicStatus": "ACCEPTED",
+        "vernacularName": null,
+        "numDescendants": 1,
+        "taxonomy": {
+          "kingdom": "Animalia",
+          "phylum": "Arthropoda",
+          "class": "Insecta",
+          "order": "Odonata",
+          "family": "Corduliidae",
+          "genus": "Somatochlora",
+          "species": "Somatochlora arctica"
+        },
+        "vernaculars": {
+          "ko": [],
+          "en": [
+            "Northern Emerald",
+            "Northern Emerald Dragonfly"
+          ],
+          "ja": [],
+          "byLang": {
+            "deu": [
+              "Arktische Smaragdlibelle"
+            ],
+            "dan": [
+              "Arktisk smaragdlibel",
+              "Glinsende Smaragdlibel"
+            ],
+            "fra": [
+              "Chlorocordulie arctique",
+              "Cordulie arctique",
+              "Cordulie arctique (La)"
+            ],
+            "cym": [
+              "Gwas Gwyrdd y Gogledd",
+              "Gweision Gwyrdd y Gogledd"
+            ],
+            "nld": [
+              "Hoogveenglanslibel"
+            ],
+            "pol": [
+              "Miedziopierś północna"
+            ],
+            "eng": [
+              "Northern Emerald",
+              "Northern Emerald Dragonfly"
+            ],
+            "est": [
+              "Põhja-läikkiil"
+            ],
+            "ita": [
+              "Smeralda artica"
+            ]
+          }
+        },
+        "distributions": {
+          "native": [
+            {
+              "locality": "Belgium",
+              "locationId": "ISO_3166-2:BE",
+              "establishmentMeans": "NATIVE",
+              "source": "Waarnemingen.be / observations.be - List of species observed in Belgium"
+            },
+            {
+              "locality": "Flemish Region",
+              "locationId": "ISO_3166-2:BE-VLG",
+              "establishmentMeans": "NATIVE",
+              "source": "Waarnemingen.be / observations.be - List of species observed in Belgium"
+            },
+            {
+              "locality": "Walloon Region",
+              "locationId": "ISO_3166-2:BE-WAL",
+              "establishmentMeans": "NATIVE",
+              "source": "Waarnemingen.be / observations.be - List of species observed in Belgium"
+            },
+            {
+              "locality": "Flanders",
+              "locationId": "ISO_3166:BE-VLG",
+              "establishmentMeans": "NATIVE",
+              "source": "Non-validated red list of Flanders, Belgium"
+            },
+            {
+              "locality": "Flanders",
+              "locationId": "ISO_3166:BE-VLG",
+              "establishmentMeans": "NATIVE",
+              "source": "Validated red lists of Flanders, Belgium"
+            },
+            {
+              "locality": "",
+              "locationId": "",
+              "establishmentMeans": "NATIVE",
+              "source": "Dyntaxa. Svensk taxonomisk databas"
+            }
+          ],
+          "introduced": [],
+          "other": [
+            {
+              "locality": "Europe & Northern Asia (excluding China)",
+              "locationId": "",
+              "establishmentMeans": "",
+              "source": "Integrated Taxonomic Information System (ITIS)"
+            },
+            {
+              "locality": "Global",
+              "locationId": "",
+              "establishmentMeans": "",
+              "source": "The IUCN Red List of Threatened Species"
+            },
+            {
+              "locality": "Flanders",
+              "locationId": "MRGID:2469",
+              "establishmentMeans": "",
+              "source": "Red list of dragonflies in Flanders, Belgium"
+            },
+            {
+              "locality": "",
+              "locationId": "",
+              "establishmentMeans": "",
+              "source": "National Checklist of all species occurring in Denmark"
+            },
+            {
+              "locality": "ISO:NO",
+              "locationId": "ISO:NO",
+              "establishmentMeans": "",
+              "source": ""
+            },
+            {
+              "locality": "",
+              "locationId": "",
+              "establishmentMeans": "",
+              "source": "List of animal species included into the Red Data Book of Ukraine"
+            }
+          ],
+          "korea": []
+        },
+        "media": [],
+        "counts": {
+          "vernacularsRaw": 20,
+          "distributionsRaw": 12,
+          "mediaRaw": 0,
+          "descriptionsRaw": 24
+        },
+        "descriptions": {
+          "byType": {
+            "Habitat_agriculture": [
+              {
+                "type": "Habitat_agriculture",
+                "description": "0",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Habitat_dunes": [
+              {
+                "type": "Habitat_dunes",
+                "description": "0",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Habitat_forest": [
+              {
+                "type": "Habitat_forest",
+                "description": "0",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Habitat_fresh_marshes": [
+              {
+                "type": "Habitat_fresh_marshes",
+                "description": "0",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Habitat_grassland": [
+              {
+                "type": "Habitat_grassland",
+                "description": "0",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Habitat_salt_marshes": [
+              {
+                "type": "Habitat_salt_marshes",
+                "description": "0",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Habitat_urban": [
+              {
+                "type": "Habitat_urban",
+                "description": "0",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Overwintering_adult": [
+              {
+                "type": "Overwintering_adult",
+                "description": "0",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Overwintering_egg": [
+              {
+                "type": "Overwintering_egg",
+                "description": "0",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Habitat_heathland": [
+              {
+                "type": "Habitat_heathland",
+                "description": "1",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Overwintering_larva": [
+              {
+                "type": "Overwintering_larva",
+                "description": "1",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Feeding_guild_adult": [
+              {
+                "type": "Feeding_guild_adult",
+                "description": "carnivore",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Feeding_guild_larva": [
+              {
+                "type": "Feeding_guild_larva",
+                "description": "carnivore",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Diurnality": [
+              {
+                "type": "Diurnality",
+                "description": "diurnal",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Voltinism_max": [
+              {
+                "type": "Voltinism_max",
+                "description": "partivoltine",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Trophic_range_adult": [
+              {
+                "type": "Trophic_range_adult",
+                "description": "polyphagous",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Trophic_range_larva": [
+              {
+                "type": "Trophic_range_larva",
+                "description": "polyphagous",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "biome": [
+              {
+                "type": "biome",
+                "description": "aquatic",
+                "language": "eng",
+                "source": "Validated red lists of Flanders, Belgium"
+              }
+            ],
+            "spine": [
+              {
+                "type": "spine",
+                "description": "invertebrate",
+                "language": "eng",
+                "source": "Validated red lists of Flanders, Belgium"
+              }
+            ],
+            "mobility": [
+              {
+                "type": "mobility",
+                "description": "mobile",
+                "language": "eng",
+                "source": "Validated red lists of Flanders, Belgium"
+              }
+            ],
+            "cuddliness": [
+              {
+                "type": "cuddliness",
+                "description": "non cuddly",
+                "language": "eng",
+                "source": "Validated red lists of Flanders, Belgium"
+              }
+            ],
+            "nutrient level": [
+              {
+                "type": "nutrient level",
+                "description": "oligotrophic",
+                "language": "eng",
+                "source": "Validated red lists of Flanders, Belgium"
+              }
+            ],
+            "lifespan": [
+              {
+                "type": "lifespan",
+                "description": "shortlived",
+                "language": "eng",
+                "source": "Validated red lists of Flanders, Belgium"
+              }
+            ],
+            "biotope": [
+              {
+                "type": "biotope",
+                "description": "standing waters",
+                "language": "eng",
+                "source": "Validated red lists of Flanders, Belgium"
+              }
+            ]
+          },
+          "all": [
+            {
+              "type": "Habitat_agriculture",
+              "description": "0",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Habitat_dunes",
+              "description": "0",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Habitat_forest",
+              "description": "0",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Habitat_fresh_marshes",
+              "description": "0",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Habitat_grassland",
+              "description": "0",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Habitat_salt_marshes",
+              "description": "0",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Habitat_urban",
+              "description": "0",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Overwintering_adult",
+              "description": "0",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Overwintering_egg",
+              "description": "0",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Habitat_heathland",
+              "description": "1",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Overwintering_larva",
+              "description": "1",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Feeding_guild_adult",
+              "description": "carnivore",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Feeding_guild_larva",
+              "description": "carnivore",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Diurnality",
+              "description": "diurnal",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Voltinism_max",
+              "description": "partivoltine",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Trophic_range_adult",
+              "description": "polyphagous",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Trophic_range_larva",
+              "description": "polyphagous",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "biome",
+              "description": "aquatic",
+              "language": "eng",
+              "source": "Validated red lists of Flanders, Belgium"
+            },
+            {
+              "type": "spine",
+              "description": "invertebrate",
+              "language": "eng",
+              "source": "Validated red lists of Flanders, Belgium"
+            },
+            {
+              "type": "mobility",
+              "description": "mobile",
+              "language": "eng",
+              "source": "Validated red lists of Flanders, Belgium"
+            },
+            {
+              "type": "cuddliness",
+              "description": "non cuddly",
+              "language": "eng",
+              "source": "Validated red lists of Flanders, Belgium"
+            },
+            {
+              "type": "nutrient level",
+              "description": "oligotrophic",
+              "language": "eng",
+              "source": "Validated red lists of Flanders, Belgium"
+            },
+            {
+              "type": "lifespan",
+              "description": "shortlived",
+              "language": "eng",
+              "source": "Validated red lists of Flanders, Belgium"
+            },
+            {
+              "type": "biotope",
+              "description": "standing waters",
+              "language": "eng",
+              "source": "Validated red lists of Flanders, Belgium"
+            }
+          ]
+        }
+      },
+      "gbifFetchedAt": "2026-05-28T05:24:47.550Z",
+      "gbifSchemaVersion": 2,
+      "inat": {
+        "observationCount": 3,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/531346010/medium.jpg",
+        "months": [
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "ktsn": 120000037330,
+      "scientificName": "Somatochlora clavata Oguma, 1913",
+      "commonName": "백두산북방잠자리",
+      "terminalLatinName": "clavata",
+      "nomenclaturalAuthor": "Oguma",
+      "namingYear": "1913",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Odonata",
+          "commonName": "잠자리목",
+          "ktsn": 120000037253
+        },
+        "family": {
+          "scientificName": "Corduliidae",
+          "commonName": "청동잠자리과",
+          "ktsn": 120000037322
+        },
+        "genus": {
+          "scientificName": "Somatochlora",
+          "commonName": "북방잠자리속",
+          "ktsn": 120000037327
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "clavata",
+          "commonName": "백두산북방잠자리",
+          "ktsn": 120000037330
+        }
+      },
+      "eol": {
+        "pageId": 254614,
+        "canonical": "Somatochlora clavata",
+        "fetchedAt": "2026-05-24T17:12:03.447Z",
+        "vernaculars": {
+          "ko": [
+            "백두산북방잠자리"
+          ],
+          "en": [],
+          "ja": [
+            "ハネビロエゾトンボ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "Japan"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 251
+      },
+      "gbif": {
+        "usageKey": 1429987,
+        "matchType": "EXACT",
+        "confidence": 100,
+        "scientificName": "Somatochlora clavata Oguma, 1913",
+        "canonicalName": "Somatochlora clavata",
+        "authorship": "Oguma, 1913",
+        "basionym": null,
+        "publishedIn": null,
+        "rank": "SPECIES",
+        "taxonomicStatus": "ACCEPTED",
+        "vernacularName": null,
+        "numDescendants": 0,
+        "taxonomy": {
+          "kingdom": "Animalia",
+          "phylum": "Arthropoda",
+          "class": "Insecta",
+          "order": "Odonata",
+          "family": "Corduliidae",
+          "genus": "Somatochlora",
+          "species": "Somatochlora clavata"
+        },
+        "vernaculars": {
+          "ko": [
+            "백두산북방잠자리"
+          ],
+          "en": [],
+          "ja": [
+            "ハネビロエゾトンボ"
+          ],
+          "byLang": {
+            "jpn": [
+              "ハネビロエゾトンボ"
+            ],
+            "kor": [
+              "백두산북방잠자리"
+            ]
+          }
+        },
+        "distributions": {
+          "native": [],
+          "introduced": [],
+          "other": [],
+          "korea": []
+        },
+        "media": [],
+        "counts": {
+          "vernacularsRaw": 2,
+          "distributionsRaw": 0,
+          "mediaRaw": 0,
+          "descriptionsRaw": 1
+        },
+        "descriptions": {
+          "byType": {
+            "Somatochlora clavata Oguma 1913": [
+              {
+                "type": "Somatochlora clavata Oguma 1913",
+                "description": "<div><p>26. Somatochlora clavata Oguma, 1913</p> <p>Somatochlora clavata Oguma, 1913 c, p. 449, “ Hokkaido (Sapporo)”, ♂; Oguma, 1922, p. 105, “Hokkaido”.</p> <p>This species was originally described from two males: the one labelled “Sapporo, 10. VIII. 1906 ” is selected as lectotype.</p></div>",
+                "language": "eng",
+                "source": "The Type Specimens of the Odonata in the Entomological Institute, Hokkaido University"
+              }
+            ]
+          },
+          "all": [
+            {
+              "type": "Somatochlora clavata Oguma 1913",
+              "description": "<div><p>26. Somatochlora clavata Oguma, 1913</p> <p>Somatochlora clavata Oguma, 1913 c, p. 449, “ Hokkaido (Sapporo)”, ♂; Oguma, 1922, p. 105, “Hokkaido”.</p> <p>This species was originally described from two males: the one labelled “Sapporo, 10. VIII. 1906 ” is selected as lectotype.</p></div>",
+              "language": "eng",
+              "source": "The Type Specimens of the Odonata in the Entomological Institute, Hokkaido University"
+            }
+          ]
+        }
+      },
+      "gbifFetchedAt": "2026-05-28T05:24:48.131Z",
+      "gbifSchemaVersion": 2,
+      "inat": {
+        "observationCount": 5,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/443197/medium.jpg",
+        "months": [
+          7,
+          8
+        ]
+      }
+    },
+    {
+      "ktsn": 120000037331,
+      "scientificName": "Somatochlora graeseri Selys, 1887",
+      "commonName": "밑노란잠자리",
+      "terminalLatinName": "graeseri",
+      "nomenclaturalAuthor": "Selys",
+      "namingYear": "1887",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Odonata",
+          "commonName": "잠자리목",
+          "ktsn": 120000037253
+        },
+        "family": {
+          "scientificName": "Corduliidae",
+          "commonName": "청동잠자리과",
+          "ktsn": 120000037322
+        },
+        "genus": {
+          "scientificName": "Somatochlora",
+          "commonName": "북방잠자리속",
+          "ktsn": 120000037327
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "graeseri",
+          "commonName": "밑노란잠자리",
+          "ktsn": 120000037331
+        }
+      },
+      "eol": {
+        "pageId": 4139143,
+        "canonical": "Somatochlora graeseri",
+        "fetchedAt": "2026-05-24T17:12:06.988Z",
+        "vernaculars": {
+          "ko": [
+            "밑노란잠자리"
+          ],
+          "en": [],
+          "ja": [
+            "モリトンボ"
+          ]
+        },
+        "habitat": [
+          "terrestrial",
+          "freshwater habitat"
+        ],
+        "geographic": [
+          "Japan"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 101
+      },
+      "gbif": {
+        "usageKey": 1429975,
+        "matchType": "EXACT",
+        "confidence": 100,
+        "scientificName": "Somatochlora graeseri Selys, 1887",
+        "canonicalName": "Somatochlora graeseri",
+        "authorship": "Selys, 1887",
+        "basionym": null,
+        "publishedIn": null,
+        "rank": "SPECIES",
+        "taxonomicStatus": "ACCEPTED",
+        "vernacularName": null,
+        "numDescendants": 3,
+        "taxonomy": {
+          "kingdom": "Animalia",
+          "phylum": "Arthropoda",
+          "class": "Insecta",
+          "order": "Odonata",
+          "family": "Corduliidae",
+          "genus": "Somatochlora",
+          "species": "Somatochlora graeseri"
+        },
+        "vernaculars": {
+          "ko": [
+            "밑노란잠자리"
+          ],
+          "en": [
+            "Siberian Emerald"
+          ],
+          "ja": [
+            "モリトンボ"
+          ],
+          "byLang": {
+            "fra": [
+              "Chlorocordulie sibérienne"
+            ],
+            "eng": [
+              "Siberian Emerald"
+            ],
+            "deu": [
+              "Sibirische Smaragdlibelle"
+            ],
+            "rus": [
+              "Зеленотелка Грэзера"
+            ],
+            "jpn": [
+              "モリトンボ"
+            ],
+            "kor": [
+              "밑노란잠자리"
+            ]
+          }
+        },
+        "distributions": {
+          "native": [],
+          "introduced": [],
+          "other": [
+            {
+              "locality": "Global",
+              "locationId": "",
+              "establishmentMeans": "",
+              "source": "The IUCN Red List of Threatened Species"
+            }
+          ],
+          "korea": []
+        },
+        "media": [],
+        "counts": {
+          "vernacularsRaw": 8,
+          "distributionsRaw": 1,
+          "mediaRaw": 0,
+          "descriptionsRaw": 0
+        },
+        "descriptions": {
+          "byType": {},
+          "all": []
+        }
+      },
+      "gbifFetchedAt": "2026-05-28T05:24:48.597Z",
+      "gbifSchemaVersion": 2,
+      "inat": {
+        "observationCount": 12,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/217780025/medium.jpeg",
+        "months": [
+          7,
+          8,
+          9
+        ]
+      }
+    },
+    {
+      "ktsn": 120000037332,
+      "scientificName": "Somatochlora japonica Matsumura, 1911",
+      "commonName": "북해도북방잠자리",
+      "terminalLatinName": "japonica",
+      "nomenclaturalAuthor": "Matsumura",
+      "namingYear": "1911",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Odonata",
+          "commonName": "잠자리목",
+          "ktsn": 120000037253
+        },
+        "family": {
+          "scientificName": "Corduliidae",
+          "commonName": "청동잠자리과",
+          "ktsn": 120000037322
+        },
+        "genus": {
+          "scientificName": "Somatochlora",
+          "commonName": "북방잠자리속",
+          "ktsn": 120000037327
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "japonica",
+          "commonName": "북해도북방잠자리",
+          "ktsn": 120000037332
+        }
+      },
+      "eol": {
+        "pageId": 50945493,
+        "canonical": "Somatochlora japonica",
+        "fetchedAt": "2026-05-24T17:12:15.564Z",
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": []
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "gbif": {
+        "usageKey": 1430013,
+        "matchType": "EXACT",
+        "confidence": 100,
+        "scientificName": "Somatochlora japonica Matsumura, 1911",
+        "canonicalName": "Somatochlora japonica",
+        "authorship": "Matsumura, 1911",
+        "basionym": null,
+        "publishedIn": null,
+        "rank": "SPECIES",
+        "taxonomicStatus": "SYNONYM",
+        "vernacularName": null,
+        "numDescendants": 0,
+        "taxonomy": {
+          "kingdom": "Animalia",
+          "phylum": "Arthropoda",
+          "class": "Insecta",
+          "order": "Odonata",
+          "family": "Corduliidae",
+          "genus": "Somatochlora",
+          "species": "Somatochlora exuberata"
+        },
+        "vernaculars": {
+          "ko": [],
+          "en": [],
+          "ja": [],
+          "byLang": {}
+        },
+        "distributions": {
+          "native": [],
+          "introduced": [],
+          "other": [],
+          "korea": []
+        },
+        "media": [],
+        "counts": {
+          "vernacularsRaw": 0,
+          "distributionsRaw": 0,
+          "mediaRaw": 0,
+          "descriptionsRaw": 1
+        },
+        "descriptions": {
+          "byType": {
+            "Somatochlora japonica Matsumura 1911": [
+              {
+                "type": "Somatochlora japonica Matsumura 1911",
+                "description": "<div><p>27. Somatochlora japonica Matsumura, 1911</p> <p>Somatochlora japonica Matsumura, 1911, p. 8, “Sachalia (Krestoi; Tonnaicha; Todoroki”.</p> <p>Three males and two females were used as cotype by Matsumura: the male labelled</p> <p>“Krestoi, Sachalin, 29. VII ” is selected as lectotype.</p></div>",
+                "language": "eng",
+                "source": "The Type Specimens of the Odonata in the Entomological Institute, Hokkaido University"
+              }
+            ]
+          },
+          "all": [
+            {
+              "type": "Somatochlora japonica Matsumura 1911",
+              "description": "<div><p>27. Somatochlora japonica Matsumura, 1911</p> <p>Somatochlora japonica Matsumura, 1911, p. 8, “Sachalia (Krestoi; Tonnaicha; Todoroki”.</p> <p>Three males and two females were used as cotype by Matsumura: the male labelled</p> <p>“Krestoi, Sachalin, 29. VII ” is selected as lectotype.</p></div>",
+              "language": "eng",
+              "source": "The Type Specimens of the Odonata in the Entomological Institute, Hokkaido University"
+            }
+          ]
+        }
+      },
+      "gbifFetchedAt": "2026-05-28T05:24:49.122Z",
+      "gbifSchemaVersion": 2,
+      "wiki": {
+        "schemaVersion": 1,
+        "fetchedAt": "2026-06-02T05:10:27.062Z",
+        "title": "Somatochlora exuberata",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Somatochlora_exuberata_84220765.jpg/500px-Somatochlora_exuberata_84220765.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Somatochlora_exuberata_84220765.jpg",
+        "thumbnailSize": {
+          "width": 500,
+          "height": 320
+        },
+        "originalSize": {
+          "width": 2048,
+          "height": 1309
+        },
+        "filename": "Somatochlora_exuberata_84220765.jpg",
+        "description": "species of insect",
+        "pageUrl": "https://en.wikipedia.org/wiki/Somatochlora_exuberata",
+        "license": "see Wikimedia Commons",
+        "source": "Wikipedia"
+      }
+    },
+    {
+      "ktsn": 120000037333,
+      "scientificName": "Somatochlora metallica (Van der Linden, 1825)",
+      "commonName": "참북방잠자리",
+      "terminalLatinName": "metallica",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Odonata",
+          "commonName": "잠자리목",
+          "ktsn": 120000037253
+        },
+        "family": {
+          "scientificName": "Corduliidae",
+          "commonName": "청동잠자리과",
+          "ktsn": 120000037322
+        },
+        "genus": {
+          "scientificName": "Somatochlora",
+          "commonName": "북방잠자리속",
+          "ktsn": 120000037327
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "metallica",
+          "commonName": "참북방잠자리",
+          "ktsn": 120000037333
+        }
+      },
+      "eol": {
+        "pageId": 4139144,
+        "canonical": "Somatochlora metallica",
+        "fetchedAt": "2026-05-24T17:12:18.008Z",
+        "vernaculars": {
+          "ko": [
+            "참북방잠자리"
+          ],
+          "en": [
+            "Brilliant Emerald",
+            "Brilliant Emerald"
+          ],
+          "ja": []
+        },
+        "habitat": [
+          "lentic",
+          "freshwater habitat",
+          "terrestrial"
+        ],
+        "geographic": [
+          "United Kingdom",
+          "The Netherlands",
+          "Switzerland",
+          "Sweden",
+          "Slovakia",
+          "Russia",
+          "Romania",
+          "Poland",
+          "Norway",
+          "Luxembourg",
+          "Liechtenstein",
+          "Italy",
+          "Germany",
+          "France",
+          "Finland",
+          "Estonia",
+          "Denmark",
+          "Czech Republic",
+          "Belgium",
+          "Belarus",
+          "Austria"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 43334
+      },
+      "gbif": {
+        "usageKey": 1430023,
+        "matchType": "EXACT",
+        "confidence": 100,
+        "scientificName": "Somatochlora metallica (Vander Linden, 1825)",
+        "canonicalName": "Somatochlora metallica",
+        "authorship": "(Vander Linden, 1825) ",
+        "basionym": "Libellula metallica Vander Linden, 1825",
+        "publishedIn": null,
+        "rank": "SPECIES",
+        "taxonomicStatus": "ACCEPTED",
+        "vernacularName": null,
+        "numDescendants": 0,
+        "taxonomy": {
+          "kingdom": "Animalia",
+          "phylum": "Arthropoda",
+          "class": "Insecta",
+          "order": "Odonata",
+          "family": "Corduliidae",
+          "genus": "Somatochlora",
+          "species": "Somatochlora metallica"
+        },
+        "vernaculars": {
+          "ko": [],
+          "en": [
+            "Brilliant Emerald",
+            "Brilliant Emerald Dragonfly"
+          ],
+          "ja": [],
+          "byLang": {
+            "eng": [
+              "Brilliant Emerald",
+              "Brilliant Emerald Dragonfly"
+            ],
+            "fra": [
+              "Chlorocordulie",
+              "Chlorocordulie métallique",
+              "Chlorocordulie/Cordulie métallique",
+              "Cordulie metallique",
+              "Cordulie métallique",
+              "Cordulie métallique (La)"
+            ],
+            "spa": [
+              "Esmeralda brillante"
+            ],
+            "glg": [
+              "Esmeralda metálica"
+            ],
+            "dan": [
+              "Glinsende smaragdlibel"
+            ],
+            "deu": [
+              "Glänzende Smaragdlibelle"
+            ],
+            "srp": [
+              "Gorski zeleni konjic"
+            ],
+            "cym": [
+              "Gwas Gwyrdd Gloyw"
+            ]
+          }
+        },
+        "distributions": {
+          "native": [
+            {
+              "locality": "Belgium",
+              "locationId": "ISO_3166-2:BE",
+              "establishmentMeans": "NATIVE",
+              "source": "Waarnemingen.be / observations.be - List of species observed in Belgium"
+            },
+            {
+              "locality": "Flemish Region",
+              "locationId": "ISO_3166-2:BE-VLG",
+              "establishmentMeans": "NATIVE",
+              "source": "Waarnemingen.be / observations.be - List of species observed in Belgium"
+            },
+            {
+              "locality": "Walloon Region",
+              "locationId": "ISO_3166-2:BE-WAL",
+              "establishmentMeans": "NATIVE",
+              "source": "Waarnemingen.be / observations.be - List of species observed in Belgium"
+            },
+            {
+              "locality": "Flanders",
+              "locationId": "ISO_3166:BE-VLG",
+              "establishmentMeans": "NATIVE",
+              "source": "Non-validated red list of Flanders, Belgium"
+            },
+            {
+              "locality": "Flanders",
+              "locationId": "ISO_3166:BE-VLG",
+              "establishmentMeans": "NATIVE",
+              "source": "Validated red lists of Flanders, Belgium"
+            },
+            {
+              "locality": "",
+              "locationId": "",
+              "establishmentMeans": "NATIVE",
+              "source": "Dyntaxa. Svensk taxonomisk databas"
+            }
+          ],
+          "introduced": [],
+          "other": [
+            {
+              "locality": "Global",
+              "locationId": "",
+              "establishmentMeans": "",
+              "source": "The IUCN Red List of Threatened Species"
+            },
+            {
+              "locality": "Flanders",
+              "locationId": "MRGID:2469",
+              "establishmentMeans": "",
+              "source": "Red list of dragonflies in Flanders, Belgium"
+            },
+            {
+              "locality": "",
+              "locationId": "",
+              "establishmentMeans": "",
+              "source": "National Checklist of all species occurring in Denmark"
+            },
+            {
+              "locality": "Grand Duchy of Luxembourg",
+              "locationId": "ISO:LU",
+              "establishmentMeans": "",
+              "source": "Red list of Odonata of Luxembourg 2006"
+            },
+            {
+              "locality": "ISO:NO",
+              "locationId": "ISO:NO",
+              "establishmentMeans": "",
+              "source": ""
+            }
+          ],
+          "korea": []
+        },
+        "media": [],
+        "counts": {
+          "vernacularsRaw": 20,
+          "distributionsRaw": 11,
+          "mediaRaw": 0,
+          "descriptionsRaw": 25
+        },
+        "descriptions": {
+          "byType": {
+            "Habitat_agriculture": [
+              {
+                "type": "Habitat_agriculture",
+                "description": "0",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Habitat_dunes": [
+              {
+                "type": "Habitat_dunes",
+                "description": "0",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Habitat_grassland": [
+              {
+                "type": "Habitat_grassland",
+                "description": "0",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Habitat_salt_marshes": [
+              {
+                "type": "Habitat_salt_marshes",
+                "description": "0",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Habitat_urban": [
+              {
+                "type": "Habitat_urban",
+                "description": "0",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Overwintering_adult": [
+              {
+                "type": "Overwintering_adult",
+                "description": "0",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Overwintering_egg": [
+              {
+                "type": "Overwintering_egg",
+                "description": "0",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Habitat_forest": [
+              {
+                "type": "Habitat_forest",
+                "description": "1",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Habitat_fresh_marshes": [
+              {
+                "type": "Habitat_fresh_marshes",
+                "description": "1",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Habitat_heathland": [
+              {
+                "type": "Habitat_heathland",
+                "description": "1",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Overwintering_larva": [
+              {
+                "type": "Overwintering_larva",
+                "description": "1",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Feeding_guild_adult": [
+              {
+                "type": "Feeding_guild_adult",
+                "description": "carnivore",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Feeding_guild_larva": [
+              {
+                "type": "Feeding_guild_larva",
+                "description": "carnivore",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Diurnality": [
+              {
+                "type": "Diurnality",
+                "description": "diurnal",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Voltinism_max": [
+              {
+                "type": "Voltinism_max",
+                "description": "partivoltine",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Trophic_range_adult": [
+              {
+                "type": "Trophic_range_adult",
+                "description": "polyphagous",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "Trophic_range_larva": [
+              {
+                "type": "Trophic_range_larva",
+                "description": "polyphagous",
+                "language": "eng",
+                "source": "Northwestern European arthropod life histories and ecological traits"
+              }
+            ],
+            "biome": [
+              {
+                "type": "biome",
+                "description": "aquatic",
+                "language": "eng",
+                "source": "Validated red lists of Flanders, Belgium"
+              }
+            ],
+            "nutrient level": [
+              {
+                "type": "nutrient level",
+                "description": "eutrophic",
+                "language": "eng",
+                "source": "Validated red lists of Flanders, Belgium"
+              }
+            ],
+            "spine": [
+              {
+                "type": "spine",
+                "description": "invertebrate",
+                "language": "eng",
+                "source": "Validated red lists of Flanders, Belgium"
+              }
+            ],
+            "mobility": [
+              {
+                "type": "mobility",
+                "description": "mobile",
+                "language": "eng",
+                "source": "Validated red lists of Flanders, Belgium"
+              }
+            ],
+            "cuddliness": [
+              {
+                "type": "cuddliness",
+                "description": "non cuddly",
+                "language": "eng",
+                "source": "Validated red lists of Flanders, Belgium"
+              }
+            ],
+            "lifespan": [
+              {
+                "type": "lifespan",
+                "description": "shortlived",
+                "language": "eng",
+                "source": "Validated red lists of Flanders, Belgium"
+              }
+            ],
+            "biotope": [
+              {
+                "type": "biotope",
+                "description": "standing waters",
+                "language": "eng",
+                "source": "Validated red lists of Flanders, Belgium"
+              }
+            ],
+            "description": [
+              {
+                "type": "description",
+                "description": "The congeneric euro-sibiric lentic S. metallica is a lowland species which was observed frequently in EXP in slow running water habitats (4,6); breeding was not confirmed, although it seems likely. Boano et al. (2007) reported it as the most common and widespread corduliid in Piedmont, though records from VCO were still missing at the time; S. metallica was later reported to be common also in north eastern Piedmont, mostly at low altitudes and in the central and southern part of the province, including one record from EXP (Clemente et al. 2011). All data collected in this survey represent new sites of occurrence for VGNP and VCO. S. metallica was the third most abundant species in the park.",
+                "language": "eng",
+                "source": "The Odonate fauna of Val Grande National Park (Insecta: Odonata)"
+              }
+            ]
+          },
+          "all": [
+            {
+              "type": "Habitat_agriculture",
+              "description": "0",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Habitat_dunes",
+              "description": "0",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Habitat_grassland",
+              "description": "0",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Habitat_salt_marshes",
+              "description": "0",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Habitat_urban",
+              "description": "0",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Overwintering_adult",
+              "description": "0",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Overwintering_egg",
+              "description": "0",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Habitat_forest",
+              "description": "1",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Habitat_fresh_marshes",
+              "description": "1",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Habitat_heathland",
+              "description": "1",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Overwintering_larva",
+              "description": "1",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Feeding_guild_adult",
+              "description": "carnivore",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Feeding_guild_larva",
+              "description": "carnivore",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Diurnality",
+              "description": "diurnal",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Voltinism_max",
+              "description": "partivoltine",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Trophic_range_adult",
+              "description": "polyphagous",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "Trophic_range_larva",
+              "description": "polyphagous",
+              "language": "eng",
+              "source": "Northwestern European arthropod life histories and ecological traits"
+            },
+            {
+              "type": "biome",
+              "description": "aquatic",
+              "language": "eng",
+              "source": "Validated red lists of Flanders, Belgium"
+            },
+            {
+              "type": "nutrient level",
+              "description": "eutrophic",
+              "language": "eng",
+              "source": "Validated red lists of Flanders, Belgium"
+            },
+            {
+              "type": "spine",
+              "description": "invertebrate",
+              "language": "eng",
+              "source": "Validated red lists of Flanders, Belgium"
+            },
+            {
+              "type": "mobility",
+              "description": "mobile",
+              "language": "eng",
+              "source": "Validated red lists of Flanders, Belgium"
+            },
+            {
+              "type": "cuddliness",
+              "description": "non cuddly",
+              "language": "eng",
+              "source": "Validated red lists of Flanders, Belgium"
+            },
+            {
+              "type": "lifespan",
+              "description": "shortlived",
+              "language": "eng",
+              "source": "Validated red lists of Flanders, Belgium"
+            },
+            {
+              "type": "biotope",
+              "description": "standing waters",
+              "language": "eng",
+              "source": "Validated red lists of Flanders, Belgium"
+            },
+            {
+              "type": "description",
+              "description": "The congeneric euro-sibiric lentic S. metallica is a lowland species which was observed frequently in EXP in slow running water habitats (4,6); breeding was not confirmed, although it seems likely. Boano et al. (2007) reported it as the most common and widespread corduliid in Piedmont, though records from VCO were still missing at the time; S. metallica was later reported to be common also in north eastern Piedmont, mostly at low altitudes and in the central and southern part of the province, including one record from EXP (Clemente et al. 2011). All data collected in this survey represent new sites of occurrence for VGNP and VCO. S. metallica was the third most abundant species in the park.",
+              "language": "eng",
+              "source": "The Odonate fauna of Val Grande National Park (Insecta: Odonata)"
+            }
+          ]
+        }
+      },
+      "gbifFetchedAt": "2026-05-28T05:24:49.650Z",
+      "gbifSchemaVersion": 2,
+      "inat": {
+        "observationCount": 4,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/286835848/medium.jpg",
+        "months": [
+          6,
+          7,
+          8
+        ]
+      }
+    },
+    {
+      "ktsn": 120000037334,
+      "scientificName": "Somatochlora viridiaenea (Uhler, 1858)",
+      "commonName": "삼지연북방잠자리",
+      "terminalLatinName": "viridiaenea",
+      "nomenclaturalAuthor": "",
+      "namingYear": "",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Odonata",
+          "commonName": "잠자리목",
+          "ktsn": 120000037253
+        },
+        "family": {
+          "scientificName": "Corduliidae",
+          "commonName": "청동잠자리과",
+          "ktsn": 120000037322
+        },
+        "genus": {
+          "scientificName": "Somatochlora",
+          "commonName": "북방잠자리속",
+          "ktsn": 120000037327
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "viridiaenea",
+          "commonName": "삼지연북방잠자리",
+          "ktsn": 120000037334
+        }
+      },
+      "gbif": {
+        "usageKey": 1429981,
+        "matchType": "EXACT",
+        "confidence": 100,
+        "scientificName": "Somatochlora viridiaenea (Uhler, 1858)",
+        "canonicalName": "Somatochlora viridiaenea",
+        "authorship": "(Uhler, 1858) ",
+        "basionym": "Cordulia viridiaenea Uhler, 1858",
+        "publishedIn": null,
+        "rank": "SPECIES",
+        "taxonomicStatus": "ACCEPTED",
+        "vernacularName": null,
+        "numDescendants": 0,
+        "taxonomy": {
+          "kingdom": "Animalia",
+          "phylum": "Arthropoda",
+          "class": "Insecta",
+          "order": "Odonata",
+          "family": "Corduliidae",
+          "genus": "Somatochlora",
+          "species": "Somatochlora viridiaenea"
+        },
+        "vernaculars": {
+          "ko": [
+            "삼지연북방잠자리"
+          ],
+          "en": [],
+          "ja": [
+            "エゾトンボ"
+          ],
+          "byLang": {
+            "rus": [
+              "Зеленотелка бронзово-зеленая"
+            ],
+            "jpn": [
+              "エゾトンボ"
+            ],
+            "kor": [
+              "삼지연북방잠자리"
+            ]
+          }
+        },
+        "distributions": {
+          "native": [],
+          "introduced": [],
+          "other": [
+            {
+              "locality": "Global",
+              "locationId": "",
+              "establishmentMeans": "",
+              "source": "The IUCN Red List of Threatened Species"
+            }
+          ],
+          "korea": []
+        },
+        "media": [],
+        "counts": {
+          "vernacularsRaw": 3,
+          "distributionsRaw": 1,
+          "mediaRaw": 0,
+          "descriptionsRaw": 1
+        },
+        "descriptions": {
+          "byType": {
+            "Somatochlora viridiaenea Selys 1883": [
+              {
+                "type": "Somatochlora viridiaenea Selys 1883",
+                "description": "<div><p>28. Somatochlora viridiaenea atrovirens Selys, 1883</p> <p>= Somatochlora vividiaenea magna Oguma, 1913</p> <p>Somatochlora viridiaenea magna Oguma, 1913 c, p. 451 [Honshu (northern part)].</p> <p>Judging from the original description the cotypes seem to be one male and several females. I found, in 1935, one male and three females as cotype of this subspecies in the collection. The single male specimen labelled “Dokan-yama, 1. VIII. 1901 ” is now selected as lectotype.</p> <p>Somatochlora viridiaenea was described by Uhler (1858) based on a single female specimen taken from Hakodate, Hokkaido. Later, Selys (1883) described S. atrovirens based on several male specimens from “Japon”. The possibility that both the species are identical has been suggested by the later authors, Foerster (1909) and Oguma (1913 c); Foerster mentioned the other possibility that atrovirens would represent the Honshu-race [“Hondorasse”] of viridiaenea which is bigger than the Hokkaido race. But Oguma named the Honshu race as magna. On examining the Selysian types of atrovirens I found that the type label is given to a large-sized specimen, therefore atrovirens Selys may have priority over magna Oguma.</p> </div>",
+                "language": "eng",
+                "source": "The Type Specimens of the Odonata in the Entomological Institute, Hokkaido University"
+              }
+            ]
+          },
+          "all": [
+            {
+              "type": "Somatochlora viridiaenea Selys 1883",
+              "description": "<div><p>28. Somatochlora viridiaenea atrovirens Selys, 1883</p> <p>= Somatochlora vividiaenea magna Oguma, 1913</p> <p>Somatochlora viridiaenea magna Oguma, 1913 c, p. 451 [Honshu (northern part)].</p> <p>Judging from the original description the cotypes seem to be one male and several females. I found, in 1935, one male and three females as cotype of this subspecies in the collection. The single male specimen labelled “Dokan-yama, 1. VIII. 1901 ” is now selected as lectotype.</p> <p>Somatochlora viridiaenea was described by Uhler (1858) based on a single female specimen taken from Hakodate, Hokkaido. Later, Selys (1883) described S. atrovirens based on several male specimens from “Japon”. The possibility that both the species are identical has been suggested by the later authors, Foerster (1909) and Oguma (1913 c); Foerster mentioned the other possibility that atrovirens would represent the Honshu-race [“Hondorasse”] of viridiaenea which is bigger than the Hokkaido race. But Oguma named the Honshu race as magna. On examining the Selysian types of atrovirens I found that the type label is given to a large-sized specimen, therefore atrovirens Selys may have priority over magna Oguma.</p> </div>",
+              "language": "eng",
+              "source": "The Type Specimens of the Odonata in the Entomological Institute, Hokkaido University"
+            }
+          ]
+        }
+      },
+      "gbifFetchedAt": "2026-05-28T05:24:50.173Z",
+      "gbifSchemaVersion": 2,
+      "inat": {
+        "observationCount": 1,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/454848/medium.jpg",
+        "months": [
+          8
+        ]
+      }
+    }
+  ]
+}

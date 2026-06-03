@@ -1,0 +1,289 @@
+{
+  "generatedAt": "2026-05-21T07:47:08.025Z",
+  "source": "국립생물자원관 KTSN API /gwsvc/openapi/rest/ktsn/taxons/search?schTxgrpGroupCd=IN",
+  "order": {
+    "id": "coleoptera",
+    "scientificName": "Coleoptera",
+    "commonName": "딱정벌레목",
+    "orderKtsn": 120000013750,
+    "abstract": "딱정벌레목(Coleoptera)은 곤충의 종 가운데 40%인 35만여종을 차지하는 목이다. 아직 발견되지 않은 종까지 합치면 500만~800만여종이 될 것으로 추정된다. 먹는 먹이도 다양해서 식물의 잎, 송사리 등의 작은 물고기, 나무의 즙, 작은 동물, 동물의 시체 등 매우 다양하다. 딱정벌레목에 속한 곤충으로는 무당벌레, 딱정벌레, 길앞잡이, 물방개, 장수풍뎅이 등이 있다. 대부분이 두꺼운 키틴질로 된 딱딱한 껍데기를 가지고 있어서 갑충(甲蟲)이라고도 불린다.",
+    "description": "딱정벌레목(Coleoptera)은 곤충의 종 가운데 40%인 35만여종을 차지하는 목이다. 아직 발견되지 않은 종까지 합치면 500만~800만여종이 될 것으로 추정된다. 먹는 먹이도 다양해서 식물의 잎, 송사리 등의 작은 물고기, 나무의 즙, 작은 동물, 동물의 시체 등 매우 다양하다. 딱정벌레목에 속한 곤충으로는 무당벌레, 딱정벌레, 길앞잡이, 물방개, 장수풍뎅이 등이 있다. 대부분이 두꺼운 키틴질로 된 딱딱한 껍데기를 가지고 있어서 갑충(甲蟲)이라고도 불린다."
+  },
+  "family": {
+    "id": "cucujidae",
+    "scientificName": "Cucujidae",
+    "commonName": "머리대장과",
+    "familyKtsn": 120000016074
+  },
+  "speciesCount": 3,
+  "insects": [
+    {
+      "ktsn": 120000016076,
+      "scientificName": "Cucujus coccinatus Lewis, 1881",
+      "commonName": "주홍머리대장",
+      "terminalLatinName": "coccinatus",
+      "nomenclaturalAuthor": "Lewis",
+      "namingYear": "1881",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Cucujidae",
+          "commonName": "머리대장과",
+          "ktsn": 120000016074
+        },
+        "genus": {
+          "scientificName": "Cucujus",
+          "commonName": "머리대장속",
+          "ktsn": 120000016075
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "coccinatus",
+          "commonName": "주홍머리대장",
+          "ktsn": 120000016076
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:58:04.640Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 3214431,
+        "canonical": "Cucujus coccinatus",
+        "fetchedAt": "2026-05-24T07:50:25.771Z",
+        "vernaculars": {
+          "ko": [
+            "주홍머리대장"
+          ],
+          "en": [],
+          "ja": [
+            "ベニヒラタムシ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": null
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:03:50.267Z"
+      }
+    },
+    {
+      "ktsn": 120000473460,
+      "scientificName": "Cucujus haematodes haematodes Erichson, 1845",
+      "commonName": "머리대장",
+      "terminalLatinName": "haematodes",
+      "nomenclaturalAuthor": "Erichson",
+      "namingYear": "1845",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Cucujidae",
+          "commonName": "머리대장과",
+          "ktsn": 120000016074
+        },
+        "genus": {
+          "scientificName": "Cucujus",
+          "commonName": "머리대장속",
+          "ktsn": 120000016075
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "haematodes",
+          "commonName": "",
+          "ktsn": 120000016077
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:58:04.640Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "inat": {
+        "observationCount": 28,
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/35248341/medium.png",
+        "months": [
+          3,
+          4,
+          5,
+          6,
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "ktsn": 120000067688,
+      "scientificName": "Pediacus japonicus Reitter, 1874",
+      "commonName": "갈색꼬마머리대장",
+      "terminalLatinName": "japonicus",
+      "nomenclaturalAuthor": "Reitter",
+      "namingYear": "1874",
+      "corsynSeYn": "Y",
+      "egspcsYn": "N",
+      "hrmflSpecsYn": "N",
+      "dispYn": "N",
+      "phspYn": "N",
+      "korUnqBispYn": "N",
+      "ntmYn": "N",
+      "taxonomy": {
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "commonName": "절지동물문",
+          "ktsn": 120000013748
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "commonName": "곤충강",
+          "ktsn": 120000013749
+        },
+        "order": {
+          "scientificName": "Coleoptera",
+          "commonName": "딱정벌레목",
+          "ktsn": 120000013750
+        },
+        "family": {
+          "scientificName": "Cucujidae",
+          "commonName": "머리대장과",
+          "ktsn": 120000016074
+        },
+        "genus": {
+          "scientificName": "Pediacus",
+          "commonName": "꼬마머리대장속",
+          "ktsn": 120000067687
+        },
+        "subgenus": {
+          "scientificName": "",
+          "commonName": "",
+          "ktsn": null
+        },
+        "species": {
+          "scientificName": "japonicus",
+          "commonName": "갈색꼬마머리대장",
+          "ktsn": 120000067688
+        }
+      },
+      "digitalContent": {
+        "cachedAt": "2026-05-21T08:58:04.640Z",
+        "source": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search",
+        "totalElements": 0,
+        "totalPages": 1,
+        "thumbnailUrl": null,
+        "thumbnail": null,
+        "contents": {
+          "EO": [],
+          "FR": [],
+          "DT": [],
+          "EX": []
+        }
+      },
+      "eol": {
+        "pageId": 3214446,
+        "canonical": "Pediacus japonicus",
+        "fetchedAt": "2026-05-24T07:50:29.463Z",
+        "vernaculars": {
+          "ko": [
+            "갈색꼬마머리대장"
+          ],
+          "en": [],
+          "ja": [
+            "クロムネキカワヒラタムシ"
+          ]
+        },
+        "habitat": [],
+        "geographic": [
+          "Japan",
+          "North Pacific"
+        ],
+        "introduced": [],
+        "eats": [],
+        "visitsFlowersOf": [],
+        "pathogenOf": [],
+        "gbifRecords": 83
+      },
+      "wiki": {
+        "schemaVersion": 1,
+        "status": "not_found",
+        "attemptedAt": "2026-06-02T05:03:50.267Z"
+      }
+    }
+  ],
+  "digitalContentUpdatedAt": "2026-05-21T08:58:04.640Z",
+  "digitalContentSource": "https://species.nibr.go.kr/gwsvc/openapi/rest/digital/bispconts/search"
+}
