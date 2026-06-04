@@ -169,7 +169,7 @@ function mergePics(familyData, picsBySpecies, country) {
     if (!canon) continue;
     const pics = picsBySpecies.get(canon);
     if (!pics || pics.length === 0) continue;
-    const photos = pics.slice(0, 5);
+    const photos = pics.slice(0, 3);
     insect.gbifPics = {
       schemaVersion: SCHEMA,
       fetchedAt: new Date().toISOString(),
@@ -289,9 +289,9 @@ async function main() {
       const picsBySpecies = groupBySpecies(allOcc);
       const { matched, totalImg } = mergePics(data, picsBySpecies, chosenCountry);
 
-      // 라이센스 분포 집계
+      // 라이센스 분포 집계 (3장 캡 일치)
       for (const [, pics] of picsBySpecies.entries()) {
-        for (const p of pics.slice(0, 5)) {
+        for (const p of pics.slice(0, 3)) {
           const lic = p.license || '(unknown)';
           licenseDist[lic] = (licenseDist[lic] || 0) + 1;
         }

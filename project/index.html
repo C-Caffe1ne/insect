@@ -2999,10 +2999,10 @@
         });
       }
 
-      // 캡 (최대 5장)
-      const imgs = images.length > 0 ? images.slice(0, 5)
-                                     : (Array.isArray(fallbackImages) ? fallbackImages.slice(0, 5) : []);
-      const creds = credits.slice(0, 5);
+      // 캡 (최대 3장)
+      const imgs = images.length > 0 ? images.slice(0, 3)
+                                     : (Array.isArray(fallbackImages) ? fallbackImages.slice(0, 3) : []);
+      const creds = credits.slice(0, 3);
       return { images: imgs, imageCredits: creds };
     }
 
@@ -3012,7 +3012,7 @@
       const all = Array.isArray(species.images) ? species.images : [];
       // 중복 제거 + 최대 5장 캡
       const images = [];
-      for (const u of all) { if (u && !images.includes(u)) images.push(u); if (images.length >= 5) break; }
+      for (const u of all) { if (u && !images.includes(u)) images.push(u); if (images.length >= 3) break; }
 
       const sig = images.join('|');
       if (heroImg.dataset.currentSig === sig) return;
@@ -3229,22 +3229,7 @@
           li.appendChild(meta);
         }
 
-        // URL — 페이지 링크 우선, 없으면 이미지 직링크
-        const linkUrl = c.pageUrl || c.url;
-        if (linkUrl) {
-          const div = document.createElement('div');
-          div.className = 'species-credit-meta';
-          const a = document.createElement('a');
-          a.className = 'species-credit-link';
-          a.href = linkUrl;
-          a.target = '_blank';
-          a.rel = 'noopener noreferrer';
-          a.textContent = linkUrl.length > 80 ? linkUrl.slice(0, 80) + '…' : linkUrl;
-          div.appendChild(a);
-          li.appendChild(div);
-        }
-
-        // 라이센스 + 저작자
+        // 라이센스 + 저작자 + 출처 (URL은 표시하지 않음 — 사용자 요청)
         const metaParts = [];
         if (c.license) metaParts.push(`라이센스: ${c.license}`);
         if (c.rightsHolder) metaParts.push(`저작자: ${c.rightsHolder}`);
