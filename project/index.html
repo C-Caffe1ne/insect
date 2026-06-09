@@ -92,8 +92,8 @@
                 <div class="featured-overlay"></div>
                 <div class="featured-info">
                   <span class="featured-tag">COLLECTION</span>
-                  <h3 class="featured-name">아싸호랑나비</h3>
-                  <p class="featured-count">navy eungdy</p>
+                  <h3 class="featured-name">호랑나비</h3>
+                  <p class="featured-count">Papilio xuthus</p>
                 </div>
               </article>
             </div>
@@ -113,8 +113,8 @@
                 <div class="species-img">
                   <div class="placeholder-thumb placeholder-thumb--1"></div>
                 </div>
-                <p class="species-kr">왕나방</p>
-                <p class="species-sci">Coscinocera cribraria</p>
+                <p class="species-kr">미국흰불나방</p>
+                <p class="species-sci">Hyphantria cunea</p>
               </div>
               <div class="species-card">
                 <div class="species-img">
@@ -127,8 +127,8 @@
                 <div class="species-img">
                   <div class="placeholder-thumb placeholder-thumb--3"></div>
                 </div>
-                <p class="species-kr">귀뚜라미</p>
-                <p class="species-sci">Gryllus bimaculatus</p>
+                <p class="species-kr">왕귀뚜라미</p>
+                <p class="species-sci">Teleogryllus emma</p>
               </div>
             </div>
           </section>
@@ -147,8 +147,8 @@
                 <div class="species-img">
                   <div class="placeholder-thumb placeholder-thumb--4"></div>
                 </div>
-                <p class="species-kr">비단벌레</p>
-                <p class="species-sci">Chrysochroa fulgidissima</p>
+                <p class="species-kr">길앞잡이</p>
+                <p class="species-sci">Cicindela chinensis</p>
               </div>
               <div class="species-card">
                 <div class="species-img">
@@ -188,8 +188,8 @@
                 <div class="species-img">
                   <div class="placeholder-thumb placeholder-thumb--8"></div>
                 </div>
-                <p class="species-kr">검은나비</p>
-                <p class="species-sci">Limenitis camilla</p>
+                <p class="species-kr">애기세줄나비</p>
+                <p class="species-sci">Neptis sappho</p>
               </div>
               <div class="species-card">
                 <div class="species-img">
@@ -258,72 +258,31 @@
     </div> <!-- End of pageDiscover -->
 
     <!-- ═══════════════════════════════════════════ -->
-    <!-- PAGE 2: FAMILY LIST                         -->
-    <!-- ═══════════════════════════════════════════ -->
-    <div class="page" id="pageFamilyList">
-      <div class="family-page-header">
-        <button class="family-back-btn" id="familyBackBtn" aria-label="분류 보기로 돌아가기">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-            stroke-linecap="round" stroke-linejoin="round">
-            <line x1="19" y1="12" x2="5" y2="12"></line>
-            <polyline points="12 19 5 12 12 5"></polyline>
-          </svg>
-        </button>
-        <div>
-          <h2 class="family-page-title" id="familyPageTitle">과 전체보기</h2>
-          <p class="family-page-sub" id="familyPageSub">Family list</p>
-        </div>
-      </div>
-
-      <div class="search-bar family-search-bar">
-        <div class="search-inner">
-          <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <circle cx="11" cy="11" r="8" />
-            <path d="m21 21-4.3-4.3" />
-          </svg>
-          <input id="familySearchInput" type="text" placeholder="Search family name..." aria-label="과 이름 검색" />
-        </div>
-      </div>
-
-      <section class="section family-results-section">
-        <div class="family-card-grid" id="familyCardGrid"></div>
-        <p class="family-empty" id="familyEmpty">검색 결과가 없습니다</p>
-      </section>
-    </div>
-
-    <!-- ═══════════════════════════════════════════ -->
-    <!-- PAGE 3: FAMILY DETAIL                       -->
+    <!-- PAGE 2: ORDER SPECIES                       -->
     <!-- ═══════════════════════════════════════════ -->
     <div class="page" id="pageFamilyDetail">
       <div class="family-detail-topbar">
-        <button class="family-back-btn" id="familyDetailBackBtn" aria-label="과 목록으로 돌아가기">
+        <button class="family-back-btn" id="familyDetailBackBtn" aria-label="목 목록으로 돌아가기">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
             stroke-linecap="round" stroke-linejoin="round">
             <line x1="19" y1="12" x2="5" y2="12"></line>
             <polyline points="12 19 5 12 12 5"></polyline>
           </svg>
         </button>
-        <h2 class="family-detail-title" id="familyDetailTitle">과 상세</h2>
+        <h2 class="family-detail-title" id="familyDetailTitle">목별 곤충</h2>
       </div>
 
-      <section class="family-detail-section">
-        <h3 class="family-detail-section-title" id="otherFamilyTitle">Other Families</h3>
-        <p class="family-detail-section-sub" id="otherFamilySub">같은 목의 다른 과</p>
-        <div class="family-carousel" id="otherFamilyCarousel"></div>
-      </section>
-
       <section class="family-detail-section family-order-section">
-        <h3 class="family-detail-eyebrow">EXPLORE OTHER ORDERS</h3>
+        <h3 class="family-detail-eyebrow">다른 목 보기</h3>
         <div class="order-tag-scroll" id="otherOrderTags"></div>
       </section>
 
       <section class="family-detail-section species-detail-section">
         <div class="species-tabs-row">
           <div class="species-tabs" id="speciesTabsRow">
-            <span class="species-tab active" data-sort="popular" role="button" tabindex="0">POPULAR</span>
+            <span class="species-tab active" data-sort="popular" role="button" tabindex="0">도감순</span>
+            <span class="species-tab" data-sort="kr" role="button" tabindex="0">가나다</span>
             <span class="species-tab" data-sort="az" role="button" tabindex="0">A-Z</span>
-            <span class="species-tab" data-sort="color" role="button" tabindex="0">BY COLOR</span>
           </div>
           <span class="species-count" id="familySpeciesCount">0 species</span>
         </div>
@@ -359,91 +318,71 @@
         </div>
       </section>
 
-      <!-- ── STATUS BADGES ── -->
-      <section class="species-info-section">
-        <h3 class="species-info-eyebrow">CONSERVATION STATUS</h3>
-        <p class="species-info-title">보전 상태</p>
-        <div class="status-badge-grid" id="statusBadgeGrid">
-          <article class="status-badge" data-status="unknown" data-badge-key="endangered">
-            <span class="status-badge-icon" aria-hidden="true">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-                <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z" />
-                <line x1="12" x2="12" y1="9" y2="13" />
-                <line x1="12" x2="12.01" y1="17" y2="17" />
-              </svg>
-            </span>
-            <span class="status-badge-label">멸종위기</span>
-            <span class="status-badge-value" data-slot="endangered">데이터 없음</span>
+      <!-- ── 1. OBSERVATION SUMMARY ── -->
+      <section class="species-info-section" data-optional-section="fieldGuide">
+        <h3 class="species-info-eyebrow">FIELD GUIDE</h3>
+        <p class="species-info-title">관찰 정보</p>
+        <div class="species-fact-grid">
+          <article class="species-fact-card" data-fact-card="size">
+            <span class="species-fact-label">몸길이</span>
+            <strong class="species-fact-value" data-slot="factSize">—</strong>
+            <span class="species-fact-detail" data-slot="factSizeDetail"></span>
           </article>
-
-          <article class="status-badge" data-status="unknown" data-badge-key="invasive">
-            <span class="status-badge-icon" aria-hidden="true">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-                <polygon points="7.86 2 16.14 2 22 7.86 22 16.14 16.14 22 7.86 22 2 16.14 2 7.86 7.86 2" />
-                <line x1="12" x2="12" y1="8" y2="12" />
-                <line x1="12" x2="12.01" y1="16" y2="16" />
-              </svg>
-            </span>
-            <span class="status-badge-label">생태계교란</span>
-            <span class="status-badge-value" data-slot="invasive">데이터 없음</span>
+          <article class="species-fact-card" data-fact-card="season">
+            <span class="species-fact-label">활동 · 관찰 시기</span>
+            <strong class="species-fact-value" data-slot="factSeason">—</strong>
+            <span class="species-fact-detail" data-slot="factSeasonDetail"></span>
           </article>
-
-          <article class="status-badge" data-status="unknown" data-badge-key="hazardous">
-            <span class="status-badge-icon" aria-hidden="true">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-                <circle cx="12" cy="12" r="10" />
-                <line x1="12" y1="8" x2="12" y2="12" />
-                <line x1="12" y1="16" x2="12.01" y2="16" />
-              </svg>
-            </span>
-            <span class="status-badge-label">위해우려</span>
-            <span class="status-badge-value" data-slot="hazardous">데이터 없음</span>
-          </article>
-
-          <article class="status-badge" data-status="unknown" data-badge-key="naturalMonument">
-            <span class="status-badge-icon" aria-hidden="true">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-                <polygon
-                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
-              </svg>
-            </span>
-            <span class="status-badge-label">천연기념물</span>
-            <span class="status-badge-value" data-slot="naturalMonument">데이터 없음</span>
-          </article>
-
-          <article class="status-badge" data-status="unknown" data-badge-key="harmful">
-            <span class="status-badge-icon" aria-hidden="true">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M12 9v4" />
-                <path
-                  d="M10.363 3.591 2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0Z" />
-                <path d="M12 16h.01" />
-              </svg>
-            </span>
-            <span class="status-badge-label">유해종</span>
-            <span class="status-badge-value" data-slot="harmful">데이터 없음</span>
-          </article>
-
-          <article class="status-badge" data-status="unknown" data-badge-key="endemic">
-            <span class="status-badge-icon" aria-hidden="true">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z" />
-                <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12" />
-              </svg>
-            </span>
-            <span class="status-badge-label">한국고유종</span>
-            <span class="status-badge-value" data-slot="endemic">데이터 없음</span>
+          <article class="species-fact-card" data-fact-card="activity">
+            <span class="species-fact-label">활동 시간</span>
+            <strong class="species-fact-value" data-slot="factActivity">—</strong>
+            <span class="species-fact-detail" data-slot="factActivityDetail"></span>
           </article>
         </div>
       </section>
 
-      <!-- ── TAXONOMY TREE ── -->
+      <!-- ── 2. MORPHOLOGY ── -->
+      <section class="species-info-section">
+        <h3 class="species-info-eyebrow">MORPHOLOGY</h3>
+        <p class="species-info-title">형태 특징</p>
+        <div class="info-card info-card--text">
+          <p class="info-card-body" data-slot="description">
+            이 종에 대한 상세 설명은 데이터 연결 후 표시됩니다. 형태적 특징, 행동 습성, 분포 정보 등이 이곳에 채워질 예정입니다.
+          </p>
+        </div>
+      </section>
+
+      <!-- ── 3. ECOLOGY ── -->
+      <section class="species-info-section" data-optional-section="ecology">
+        <h3 class="species-info-eyebrow">ECOLOGY</h3>
+        <p class="species-info-title">생태</p>
+        <div class="info-card info-card--text">
+          <ul class="nibr-list" data-slot="ecologyList"></ul>
+        </div>
+      </section>
+
+      <!-- ── 4. HABITAT ── -->
+      <section class="species-info-section" data-optional-section="habitat">
+        <h3 class="species-info-eyebrow">HABITAT</h3>
+        <p class="species-info-title">서식지</p>
+        <div class="info-card habitat-card">
+          <div class="habitat-row">
+            <span class="habitat-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+            </span>
+            <p class="habitat-text" data-slot="habitat">서식지 정보는 데이터 연결 후 표시됩니다.</p>
+          </div>
+          <div class="habitat-map" data-slot="habitatMap" aria-hidden="true">
+            <span class="habitat-map-placeholder">한국 지도 데이터 준비 중</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── 5. TAXONOMY TREE ── -->
       <section class="species-info-section">
         <h3 class="species-info-eyebrow">TAXONOMY</h3>
         <p class="species-info-title">분류 계층</p>
@@ -479,148 +418,33 @@
         </ol>
       </section>
 
-      <!-- ── SCIENTIFIC NAME / AUTHOR CARD ── -->
+      <!-- ── 6. SCIENTIFIC NAME ── -->
       <section class="species-info-section">
         <h3 class="species-info-eyebrow">SCIENTIFIC NAME</h3>
         <p class="species-info-title">학명</p>
         <div class="info-card">
-          <p class="info-card-primary" data-slot="fullScientificName">— 데이터 준비 중 —</p>
+          <p class="info-card-primary" data-slot="fullScientificName">-</p>
           <p class="info-card-secondary">
             <span class="info-meta-label">명명자 · Author</span>
-            <span class="info-meta-value" data-slot="author">— 곧 공개됩니다 —</span>
+            <span class="info-meta-value" data-slot="author">-</span>
           </p>
           <p class="info-card-secondary">
             <span class="info-meta-label">연도 · Year</span>
-            <span class="info-meta-value" data-slot="year">—</span>
+            <span class="info-meta-value" data-slot="year">-</span>
           </p>
         </div>
       </section>
 
-      <!-- ── DESCRIPTION ── -->
-      <section class="species-info-section">
-        <h3 class="species-info-eyebrow">DESCRIPTION</h3>
-        <p class="species-info-title">곤충 설명</p>
+      <!-- ── 7. OTHER NOTES ── -->
+      <section class="species-info-section" data-optional-section="other">
+        <h3 class="species-info-eyebrow">NOTES</h3>
+        <p class="species-info-title">기타 정보</p>
         <div class="info-card info-card--text">
-          <p class="info-card-body" data-slot="description">
-            이 종에 대한 상세 설명은 데이터 연결 후 표시됩니다. 형태적 특징, 행동 습성, 분포 정보 등이 이곳에 채워질 예정입니다.
-          </p>
+          <ul class="nibr-list" data-slot="otherList"></ul>
         </div>
       </section>
 
-      <!-- ── SIZE VISUALIZATION ── -->
-      <section class="species-info-section">
-        <h3 class="species-info-eyebrow">SIZE</h3>
-        <p class="species-info-title">크기</p>
-        <div class="info-card size-card">
-          <div class="size-visual" aria-hidden="true">
-            <div class="size-ruler">
-              <span class="size-ruler-tick"></span>
-              <span class="size-ruler-tick"></span>
-              <span class="size-ruler-tick"></span>
-              <span class="size-ruler-tick"></span>
-              <span class="size-ruler-tick"></span>
-              <span class="size-ruler-tick"></span>
-              <span class="size-ruler-tick"></span>
-              <span class="size-ruler-tick"></span>
-              <span class="size-ruler-tick"></span>
-              <span class="size-ruler-tick"></span>
-              <span class="size-ruler-tick"></span>
-            </div>
-            <div class="size-bar" data-slot="sizeBar" style="--size-start: 30%; --size-end: 65%;">
-              <span class="size-bar-fill"></span>
-              <span class="size-bar-arrow size-bar-arrow--left"></span>
-              <span class="size-bar-arrow size-bar-arrow--right"></span>
-            </div>
-          </div>
-          <p class="size-text">
-            <span class="size-range" data-slot="sizeRange">— ~ — mm</span>
-            <span class="size-hint">성충 기준 · 데이터 준비 중</span>
-          </p>
-        </div>
-      </section>
-
-      <!-- ── HABITAT ── -->
-      <section class="species-info-section">
-        <h3 class="species-info-eyebrow">HABITAT</h3>
-        <p class="species-info-title">서식지</p>
-        <div class="info-card habitat-card">
-          <div class="habitat-row">
-            <span class="habitat-icon" aria-hidden="true">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
-                <circle cx="12" cy="10" r="3" />
-              </svg>
-            </span>
-            <p class="habitat-text" data-slot="habitat">서식지 정보는 데이터 연결 후 표시됩니다.</p>
-          </div>
-          <div class="habitat-map" data-slot="habitatMap" aria-hidden="true">
-            <span class="habitat-map-placeholder">한국 지도 데이터 준비 중</span>
-          </div>
-        </div>
-      </section>
-
-      <!-- ── LIFE CYCLE ── -->
-      <section class="species-info-section">
-        <h3 class="species-info-eyebrow">LIFE CYCLE</h3>
-        <p class="species-info-title">생애 주기</p>
-        <ol class="lifecycle-grid" id="lifecycleGrid">
-          <li class="lifecycle-stage" data-stage="egg">
-            <span class="lifecycle-icon" aria-hidden="true">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-                <ellipse cx="12" cy="13" rx="6" ry="8" />
-              </svg>
-            </span>
-            <span class="lifecycle-name">알</span>
-            <span class="lifecycle-sub">Egg</span>
-            <span class="lifecycle-desc" data-slot="lifecycleEgg">준비 중</span>
-          </li>
-          <li class="lifecycle-stage" data-stage="larva">
-            <span class="lifecycle-icon" aria-hidden="true">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M3 14c2-3 4-3 5 0s3 3 4 0 3-3 4 0 3 3 5 0" />
-                <circle cx="20" cy="11" r="0.8" fill="currentColor" />
-              </svg>
-            </span>
-            <span class="lifecycle-name">유충</span>
-            <span class="lifecycle-sub">Larva</span>
-            <span class="lifecycle-desc" data-slot="lifecycleLarva">준비 중</span>
-          </li>
-          <li class="lifecycle-stage" data-stage="pupa">
-            <span class="lifecycle-icon" aria-hidden="true">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M12 3c3 0 6 3 6 8s-3 10-6 10-6-5-6-10 3-8 6-8Z" />
-                <path d="M9 9h6M9 13h6M9 17h6" />
-              </svg>
-            </span>
-            <span class="lifecycle-name">번데기</span>
-            <span class="lifecycle-sub">Pupa</span>
-            <span class="lifecycle-desc" data-slot="lifecyclePupa">준비 중</span>
-          </li>
-          <li class="lifecycle-stage" data-stage="adult">
-            <span class="lifecycle-icon" aria-hidden="true">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-                <rect width="6" height="12" x="9" y="7" rx="3" />
-                <path d="m18 8-3 2" />
-                <path d="m6 8 3 2" />
-                <path d="m18 18-3-2" />
-                <path d="m6 18 3-2" />
-                <path d="M19 13h-4" />
-                <path d="M5 13h4" />
-              </svg>
-            </span>
-            <span class="lifecycle-name">성충</span>
-            <span class="lifecycle-sub">Adult</span>
-            <span class="lifecycle-desc" data-slot="lifecycleAdult">준비 중</span>
-          </li>
-        </ol>
-      </section>
-
-      <!-- ── Image Credits Footer ── -->
+      <!-- ── 8. IMAGE CREDITS ── -->
       <footer class="species-info-section species-credits-section" data-slot="creditsSectionWrapper">
         <h3 class="species-info-title">이미지 출처</h3>
         <ul class="species-credits-list" data-slot="imageCredits"></ul>
@@ -637,7 +461,7 @@
       <header class="search-page-header">
         <p class="search-eyebrow">ENTOMA · KR</p>
         <h2 class="search-page-title">곤충 검색</h2>
-        <p class="search-page-sub">한글명 · 학명 · 통명 · 목/과로 21,395종 탐색</p>
+        <p class="search-page-sub" id="searchPageSubtitle">한글명 · 학명 · 통명 · 목/과로 곤충 탐색</p>
       </header>
 
       <!-- ── Search Bar ── -->
@@ -676,13 +500,6 @@
         <!-- 결과 헤더 (검색어 있을 때만 노출) -->
         <div class="search-result-header" id="searchResultHeader" hidden>
           <p class="search-result-summary" id="searchResultSummary">결과</p>
-          <button class="search-clear-filter-btn" id="searchClearFilterBtn" type="button" hidden>
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-              stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-              <line x1="18" y1="6" x2="6" y2="18" />
-              <line x1="6" y1="6" x2="18" y2="18" />
-            </svg>
-          </button>
           <button class="search-result-sort" id="searchResultSort" type="button" aria-label="정렬 변경">
             관련도순
           </button>
@@ -717,59 +534,6 @@
             </button>
           </section>
 
-          <!-- 카테고리 보기 (4종 2x2) -->
-          <section class="section">
-            <h3 class="search-section-title">카테고리로 둘러보기</h3>
-            <p class="search-section-sub">한국 생태계의 특별한 곤충들</p>
-            <div class="explore-grid">
-              <article class="explore-card explore-card--danger" role="button" tabindex="0" data-category="endangered">
-                <span class="explore-icon" aria-hidden="true">
-                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                    stroke-linecap="round" stroke-linejoin="round">
-                    <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z" />
-                    <line x1="12" x2="12" y1="9" y2="13" />
-                    <line x1="12" x2="12.01" y1="17" y2="17" />
-                  </svg>
-                </span>
-                <h4 class="explore-card-title">멸종위기종</h4>
-                <p class="explore-card-count" data-slot="count-endangered">—</p>
-              </article>
-              <article class="explore-card explore-card--endemic" role="button" tabindex="0" data-category="endemic">
-                <span class="explore-icon" aria-hidden="true">
-                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                    stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z" />
-                    <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12" />
-                  </svg>
-                </span>
-                <h4 class="explore-card-title">한국고유종</h4>
-                <p class="explore-card-count" data-slot="count-endemic">—</p>
-              </article>
-              <article class="explore-card explore-card--invasive" role="button" tabindex="0" data-category="invasive">
-                <span class="explore-icon" aria-hidden="true">
-                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                    stroke-linecap="round" stroke-linejoin="round">
-                    <polygon points="7.86 2 16.14 2 22 7.86 22 16.14 16.14 22 7.86 22 2 16.14 2 7.86 7.86 2" />
-                    <line x1="12" x2="12" y1="8" y2="12" />
-                    <line x1="12" x2="12.01" y1="16" y2="16" />
-                  </svg>
-                </span>
-                <h4 class="explore-card-title">생태계교란</h4>
-                <p class="explore-card-count" data-slot="count-invasive">—</p>
-              </article>
-              <article class="explore-card explore-card--heritage" role="button" tabindex="0" data-category="natural-monument">
-                <span class="explore-icon" aria-hidden="true">
-                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                    stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M12 2 15.09 8.26 22 9.27l-5 4.87 1.18 6.88L12 17.77 5.82 21l1.18-6.88-5-4.87 6.91-1.01z" />
-                  </svg>
-                </span>
-                <h4 class="explore-card-title">천연기념물</h4>
-                <p class="explore-card-count" data-slot="count-natural-monument">—</p>
-              </article>
-            </div>
-          </section>
-
           <!-- 랜덤 곤충 (와이드) -->
           <section class="section">
             <button class="random-finder-card" type="button" id="btnRandom">
@@ -784,7 +548,7 @@
               </span>
               <span class="random-finder-text">
                 <span class="random-finder-title">랜덤 곤충 보기</span>
-                <span class="random-finder-sub">21,395종 중 무작위 한 마리</span>
+                <span class="random-finder-sub">NIBR 300종 중 무작위 한 마리</span>
               </span>
             </button>
           </section>
@@ -1276,63 +1040,230 @@
       return kr || binomial || null;
     }
 
-    function getFamilyKey(orderKey, familyScientificName) {
-      return `${orderKey}::${familyScientificName}`;
+    function formatGenusRank(genusName, koreanName) {
+      const sci = String(genusName || '').trim();
+      const kr = String(koreanName || '').trim();
+      if (kr && sci) return `${kr} (${sci})`;
+      if (kr) return kr;
+      return '-';
     }
 
-    function getFamilyImage(index) {
-      const images = [
-        'images/jewel_beetle.png',
-        'images/asian_swallowtail.png',
-        'images/catocala_nupta.png',
-        'images/limenitis_camilla.png'
-      ];
-      return images[index % images.length];
+    function formatSpeciesTaxonomy(commonName, scientificName) {
+      const kr = String(commonName || '').trim();
+      const sci = canonicalizeSciName(scientificName || '');
+      if (kr && sci) return `${kr} (${sci})`;
+      return kr || sci || null;
     }
 
     // ── 데이터 ──
     let ordersData = [];
-    let speciesCache = {};
-    let cachedSpeciesData = null;
     let sortAsc = false;
-    let expandedOrderKey = null;
     let selectedOrder = null;
-    let selectedFamilies = [];
     let selectedFamily = null;
-    let previousFamilyPage = 'pageFamilyList';
     let currentSpeciesList = [];
     let currentSpeciesSort = 'popular';
     let selectedSpecies = null;
     let previousSpeciesPage = 'pageFamilyDetail';
+    let searchIndexData = null;
+    let searchIndexLoading = null;
 
     // EOL TraitBank 캐시 — eol_species_cache.json (cached/cache_eol_species.mjs로 생성)
     let eolCacheData = null;
     let eolCacheLoading = null;
 
-    // 캐싱된 종 데이터 로드 (korea_insect_species_by_family.json)
-    function loadCachedSpecies() {
-      if (cachedSpeciesData) return Promise.resolve(cachedSpeciesData);
-      return fetch('korea_insect_species_by_family.json')
-        .then(r => {
-          if (!r.ok) throw new Error(`HTTP ${r.status}`);
-          return r.json();
-        })
+    // NIBR 캐시 — nibr_cache.json (nibr_insects.json에서 생성)
+    let nibrCacheData = null;
+    let nibrCacheLoading = null;
+    let nibrCacheAliases = null;
+
+    function loadNibrCache() {
+      if (nibrCacheData) return Promise.resolve(nibrCacheData);
+      if (nibrCacheLoading) return nibrCacheLoading;
+      nibrCacheLoading = fetch('nibr_cache.json')
+        .then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
         .then(data => {
-          cachedSpeciesData = data.families || {};
-          return cachedSpeciesData;
+          nibrCacheData = data && typeof data === 'object' ? data : {};
+          nibrCacheAliases = {};
+          Object.keys(nibrCacheData).forEach((key) => {
+            const binomial = key.split(/\s+/).slice(0, 2).join(' ');
+            if (!nibrCacheAliases[binomial]) nibrCacheAliases[binomial] = nibrCacheData[key];
+          });
+          return nibrCacheData;
+        })
+        .catch(() => {
+          nibrCacheData = {};
+          nibrCacheAliases = {};
+          return nibrCacheData;
+        });
+      return nibrCacheLoading;
+    }
+
+    function lookupNibr(scientificName) {
+      if (!nibrCacheData || !scientificName) return null;
+      const canonical = canonicalizeSciName(scientificName);
+      const binomial = canonical.split(/\s+/).slice(0, 2).join(' ');
+      return nibrCacheData[canonical]
+        || nibrCacheData[binomial]
+        || nibrCacheAliases?.[binomial]
+        || null;
+    }
+
+    function cleanEvidence(text) {
+      const value = String(text || '').replace(/\s+/g, ' ').trim();
+      if (!value) return '';
+      return value.length > 110 ? `${value.slice(0, 107).trim()}...` : value;
+    }
+
+    function extractNibrSize(nibr) {
+      if (!Array.isArray(nibr?.morphology)) return null;
+      const values = [];
+      let detail = '';
+      nibr.morphology
+        .filter(text => /몸길이|체장|전체 길이/.test(text))
+        .forEach((text) => {
+          if (!detail) detail = cleanEvidence(text);
+          const matches = String(text).matchAll(/(\d+(?:\.\d+)?)\s*(?:~|–|—|-)\s*(\d+(?:\.\d+)?)\s*mm|(\d+(?:\.\d+)?)\s*mm/gi);
+          for (const match of matches) {
+            const nums = [match[1], match[2], match[3]].filter(Boolean).map(Number);
+            nums.filter(n => Number.isFinite(n) && n > 0 && n <= 300).forEach(n => values.push(n));
+          }
+        });
+      if (values.length === 0) return null;
+      return { min: Math.min(...values), max: Math.max(...values), unit: 'mm', detail };
+    }
+
+    function nibrSentences(nibr, keys = ['ecology', 'morphology', 'other']) {
+      return keys.flatMap(key => Array.isArray(nibr?.[key]) ? nibr[key] : [])
+        .flatMap(text => String(text).split(/(?<=[.!?])\s+/))
+        .map(text => text.trim())
+        .filter(Boolean);
+    }
+
+    function extractActivitySeason(nibr) {
+      const candidate = nibrSentences(nibr).find(text =>
+        /(출현|관찰|활동|나타나|볼 수)/.test(text)
+        && /(\d{1,2}\s*월|\d{1,2}\s*[~–—-]\s*\d{1,2}\s*월|봄|여름|가을|겨울)/.test(text));
+      if (!candidate) return null;
+
+      const compactRange = candidate.match(/(\d{1,2})\s*[~–—-]\s*(\d{1,2})\s*월/);
+      const monthValues = [...candidate.matchAll(/(\d{1,2})\s*월/g)].map(match => Number(match[1]));
+      let value = '';
+      if (compactRange) {
+        value = `${Number(compactRange[1])}월 ~ ${Number(compactRange[2])}월`;
+      } else if (monthValues.length >= 2) {
+        value = `${monthValues[0]}월 ~ ${monthValues.at(-1)}월`;
+      } else if (monthValues.length === 1) {
+        value = `${monthValues[0]}월`;
+      } else {
+        const seasons = ['봄', '여름', '가을', '겨울'].filter(season => candidate.includes(season));
+        value = [...new Set(seasons)].join(' · ');
+      }
+      return value ? { value, detail: cleanEvidence(candidate) } : null;
+    }
+
+    function extractActivityTime(nibr, fallback) {
+      const sentences = nibrSentences(nibr);
+      const dayPattern = /주간|낮에|낮 동안|한낮|햇빛이 있는 동안/;
+      const nightPattern = /야간|밤에|밤 동안|밤이 되면|밤에는|해질 무렵|저녁|일몰|황혼|새벽/;
+      const candidate = sentences.find(text => dayPattern.test(text) || nightPattern.test(text));
+      if (candidate) {
+        const day = dayPattern.test(candidate);
+        const night = nightPattern.test(candidate);
+        const dusk = /해질 무렵|저녁|일몰|황혼/.test(candidate);
+        const value = day && night ? '주간 · 야간' : (night ? (dusk ? '황혼 · 야간' : '야간') : '주간');
+        return { value, detail: cleanEvidence(candidate) };
+      }
+      const fallbackValue = String(fallback || '').trim();
+      return fallbackValue ? { value: fallbackValue, detail: '분류군의 일반적인 활동 특성' } : null;
+    }
+
+    function enrichSpeciesWithNibr(species) {
+      if (!species) return species;
+      if (!species.nibr) {
+        species.nibr = lookupNibr(species.scientificName || species.rawScientificName);
+      }
+      if (species.nibr && !species.size) {
+        species.size = extractNibrSize(species.nibr);
+      }
+      return species;
+    }
+
+    function mapIndexSpecies(ins) {
+      const name = parseScientificNameMetadata(ins.sci);
+      return {
+        scientificName: name.canonical || ins.sci || '',
+        rawScientificName: ins.sci || '',
+        commonName: ins.kr || ins.eolKo || '',
+        author: name.author,
+        year: name.year,
+        page: ins.page || 0,
+        genus: ins.g || '',
+        species: ins.s || '',
+        inat: ins.img ? { imageUrl: ins.img } : null,
+        nibr: lookupNibr(ins.sci),
+        taxonomy: {
+          order: [ins.oKr, ins.os ? `(${ins.os})` : null].filter(Boolean).join(' '),
+          family: [ins.fKr, ins.fs ? `(${ins.fs})` : null].filter(Boolean).join(' '),
+          genus: formatGenusRank(ins.g),
+          species: formatSpeciesTaxonomy(ins.kr || ins.eolKo, name.canonical || ins.s)
+        },
+        _indexEntry: ins
+      };
+    }
+
+    function buildTaxonomyFromSearchIndex(data) {
+      const insects = Array.isArray(data?.insects) ? data.insects : [];
+      const families = Array.isArray(data?.families) ? data.families : [];
+      const familyMap = new Map();
+
+      families.forEach((family) => {
+        const key = `${family.order}::${family.sci}`;
+        familyMap.set(key, {
+          id: family.id,
+          commonName: family.kr || '',
+          scientificName: family.sci || '',
+          recordCount: family.count || 0,
+          speciesCount: family.count || 0
+        });
+      });
+
+      insects.forEach((ins) => {
+        if (!ins.o || !ins.fs) return;
+        const key = `${ins.o}::${ins.fs}`;
+        if (!familyMap.has(key)) {
+          familyMap.set(key, {
+            id: ins.f || ins.fs.toLowerCase(),
+            commonName: ins.fKr || '',
+            scientificName: ins.fs,
+            recordCount: 0,
+            speciesCount: 0
+          });
+        }
+      });
+
+      ordersData = (data?.orders || [])
+        .filter(order => order.id && order.count > 0)
+        .map((order) => {
+          const orderFamilies = families
+            .filter(family => family.order === order.id)
+            .map(family => familyMap.get(`${order.id}::${family.sci}`))
+            .filter(Boolean);
+          return {
+            id: order.id,
+            commonName: order.kr || '',
+            scientificName: order.sci || '',
+            recordCount: order.count || 0,
+            familyCount: orderFamilies.length,
+            families: orderFamilies
+          };
         });
     }
 
-    // 캐시에서 종 데이터를 insects 형식으로 변환
-    function mapCachedSpecies(cachedFamily) {
-      if (!cachedFamily || !cachedFamily.species) return [];
-      return cachedFamily.species.map(sp => ({
-        scientificName: sp.scientificName || '',
-        commonName: sp.commonName || '',
-        genus: sp.genus || '',
-        species: sp.species || '',
-        url: sp.url || ''
-      }));
+    function getIndexSpeciesForOrder(order) {
+      const insects = searchIndexData?.insects || [];
+      return insects
+        .filter(ins => ins.o === order.id)
+        .map(mapIndexSpecies);
     }
 
     // ── 그리드 렌더 ──
@@ -1340,67 +1271,16 @@
       const grid = document.getElementById('orderGrid');
       grid.innerHTML = '';
 
-      // 현재 확장된 카드의 인덱스 찾기
-      const expandedIndex = orders.findIndex(o => getOrderKey(o) === expandedOrderKey);
-
       orders.forEach((order, index) => {
         const bg = ORDER_GRADIENTS[index % ORDER_GRADIENTS.length];
         const orderKey = getOrderKey(order);
-        const families = order.families || [];
-        const showFamilies = families.slice(0, 5);
-        const isExpanded = orderKey === expandedOrderKey;
-
-        // 오른쪽 카드(홀수 인덱스)가 클릭되었을 때, 왼쪽 카드와 순서를 스왑하여 
-        // 오른쪽 카드가 밑으로 떨어지지 않고 그 자리에서 커지며 왼쪽 카드를 밀어내도록 처리
-        let cssOrder = index;
-        if (isExpanded && index % 2 !== 0) {
-          cssOrder = index - 1; // 오른쪽 확장 카드를 앞 순서로
-        } else if (expandedIndex !== -1 && expandedIndex % 2 !== 0 && index === expandedIndex - 1) {
-          cssOrder = index + 1; // 밀려나는 왼쪽 카드를 뒤 순서로
-        }
 
         const card = document.createElement('article');
-        card.className = 'order-card-mini' + (isExpanded ? ' expanded' : '');
+        card.className = 'order-card-mini';
         card.style.viewTransitionName = `card-${orderKey}`;
-        card.style.order = cssOrder;
-
-        if (isExpanded) {
-          // 확장된 상태 HTML
-          let familyListHTML = '';
-          if (showFamilies.length > 0) {
-            familyListHTML = showFamilies.map(f => `
-            <li class="family-item" data-family="${escapeHTML(f.scientificName)}">
-              <div>
-                <p class="family-item-name">${escapeHTML(f.commonName || f.scientificName)}</p>
-                <p class="family-item-kr">${escapeHTML(f.scientificName)}</p>
-              </div>
-              <span class="family-item-count">${formatCount(f.recordCount)}종</span>
-            </li>
-          `).join('');
-          } else {
-            familyListHTML = '<li class="family-item"><div><p class="family-item-kr">과 데이터 없음</p></div></li>';
-          }
-
-          card.innerHTML = `
-          <div class="expanded-img">
-            <div class="placeholder-img" style="background: ${bg}"></div>
-            <div class="order-img-overlay"></div>
-            <button class="expanded-close" onclick="collapseOrder(event)">✕</button>
-          </div>
-          <div class="expanded-body">
-            <h3 class="expanded-title">${escapeHTML(order.commonName)}</h3>
-            <p class="expanded-kr">${escapeHTML(order.scientificName)}</p>
-            <p class="order-count">${formatCount(order.familyCount)}개 과</p>
-            <div class="family-divider">
-              <span class="family-divider-label">FAMILIES · ${families.length}</span>
-              <button class="see-all family-view-all" data-order-key="${escapeHTML(orderKey)}">전체보기</button>
-            </div>
-            <ul class="family-list">${familyListHTML}</ul>
-          </div>
-        `;
-        } else {
-          // 미니 카드 상태 HTML
-          card.innerHTML = `
+        card.setAttribute('role', 'button');
+        card.tabIndex = 0;
+        card.innerHTML = `
           <div class="order-mini-img">
             <div class="placeholder-img" style="background: ${bg}"></div>
             <div class="order-img-overlay"></div>
@@ -1408,225 +1288,61 @@
           <div class="order-mini-body">
             <h3 class="order-name-kr">${escapeHTML(order.commonName)}</h3>
             <p class="order-sci">${escapeHTML(order.scientificName)}</p>
-            <p class="order-count">${formatCount(order.familyCount)}개 과</p>
+            <p class="order-count">${formatCount(order.recordCount)}종</p>
           </div>
         `;
-        }
+        const open = () => openOrderSpecies(orderKey);
+        card.addEventListener('click', open);
+        card.addEventListener('keydown', (event) => {
+          if (event.key === 'Enter' || event.key === ' ') {
+            event.preventDefault();
+            open();
+          }
+        });
 
-        // 카드 전체 영역 클릭 시 토글 (링크나 닫기 버튼 제외)
-        card.addEventListener('click', (e) => {
-          if (e.target.closest('a') || e.target.closest('button') || e.target.closest('.expanded-close')) return;
-          
-          const familyItem = e.target.closest('.family-item');
-          if (familyItem) {
-            const familySci = familyItem.getAttribute('data-family');
-            if (familySci) {
-              openFamilyDetail(orderKey, familySci, 'pageDiscover');
-              return;
+        grid.appendChild(card);
+      });
+    }
+
+    function openOrderSpecies(orderKey) {
+      const order = ordersData.find(item => getOrderKey(item) === orderKey);
+      if (!order) return;
+
+      selectedOrder = order;
+      selectedFamily = null;
+      currentSpeciesSort = 'popular';
+      document.querySelectorAll('#speciesTabsRow .species-tab').forEach((tab) => {
+        tab.classList.toggle('active', tab.dataset.sort === 'popular');
+      });
+      document.getElementById('familyDetailTitle').textContent =
+        `${order.commonName} (${order.scientificName})`;
+      currentSpeciesList = getIndexSpeciesForOrder(order);
+      document.getElementById('familySpeciesCount').textContent =
+        `${formatCount(currentSpeciesList.length)}종`;
+
+      const tags = document.getElementById('otherOrderTags');
+      tags.replaceChildren();
+      ordersData
+        .filter(item => getOrderKey(item) !== orderKey)
+        .forEach((item) => {
+          const tag = document.createElement('div');
+          tag.setAttribute('role', 'button');
+          tag.tabIndex = 0;
+          tag.className = 'order-tag';
+          tag.textContent = `${item.commonName} (${item.scientificName})`;
+          const open = () => openOrderSpecies(getOrderKey(item));
+          tag.addEventListener('click', open);
+          tag.addEventListener('keydown', (event) => {
+            if (event.key === 'Enter' || event.key === ' ') {
+              event.preventDefault();
+              open();
             }
-          }
-          
-          expandOrder(orderKey);
+          });
+          tags.appendChild(tag);
         });
 
-        const viewAllBtn = card.querySelector('.family-view-all');
-        if (viewAllBtn) {
-          viewAllBtn.addEventListener('click', (e) => {
-            e.stopPropagation();
-            openFamilyPage(orderKey);
-          });
-        }
-
-        grid.appendChild(card);
-      });
-    }
-
-    // ── 확장/축소 액션 ──
-    function expandOrder(key) {
-      if (expandedOrderKey === key) {
-        collapseOrder();
-        return;
-      }
-
-      const order = ordersData.find(o => getOrderKey(o) === key);
-      if (order && !order.families) {
-        fetch(`taxonomy/${order.file}`)
-          .then(r => {
-            if (!r.ok) throw new Error(`HTTP ${r.status}`);
-            return r.json();
-          })
-          .then(data => {
-            order.families = data.families || [];
-            executeExpand(key);
-          })
-          .catch(err => {
-            console.error('Error fetching order families:', err);
-            order.families = order.families || [];
-            executeExpand(key);
-          });
-      } else {
-        executeExpand(key);
-      }
-    }
-
-    // 현재 활성 페이지(.page.active)가 실제 스크롤 컨테이너 — flex column .app 안에서 자체 스크롤
-    function getActivePageScroller() {
-      return document.querySelector('.page.active') || document.scrollingElement;
-    }
-
-    // FLIP 기반 expand/collapse — transform만 사용하여 .app { overflow: hidden }과 호환.
-    // View Transitions API는 가상 요소를 root에 렌더하여 모바일 셸 프레임을 뚫고 나가지만,
-    // FLIP은 카드 자신의 transform 속성만 변경하므로 안전하다.
-    function executeExpand(key) {
-      // First: 현재 카드 위치/크기 캡처
-      const before = captureCardPositions();
-      // Last: DOM 갱신
-      expandedOrderKey = key;
-      renderOrders(ordersData);
-      // Invert + Play: 다음 프레임에 역변환 적용 후 자연 상태로 애니메이션
-      // 펼쳐질 때는 다른 카드가 빠르게(240ms) 비켜 겹침 방지
-      requestAnimationFrame(() => {
-        playFlipAnimation(before, 480, /* includeScale */ true, /* positionShiftMs */ 240);
-      });
-      // 스크롤을 확장 카드로 부드럽게 이동 (애니메이션이 중반 정도 진행된 뒤)
-      setTimeout(() => {
-        const expandedEl = document.querySelector('.order-card-mini.expanded');
-        if (!expandedEl) return;
-        const scroller = getActivePageScroller();
-        if (!scroller) return;
-        const scrollerRect = scroller.getBoundingClientRect();
-        const elRect = expandedEl.getBoundingClientRect();
-        const offset = elRect.top - scrollerRect.top - 80;
-        if (Math.abs(offset) > 4) {
-          scroller.scrollBy({ top: offset, behavior: 'smooth' });
-        }
-      }, 220);
-    }
-
-    function collapseOrder(e) {
-      if (e) e.stopPropagation();
-      const before = captureCardPositions();
-      expandedOrderKey = null;
-      renderOrders(ordersData);
-      // 축소 시 다른 카드들도 함께 원래 자리로 — positionShiftMs 생략 → 480ms 동일
-      requestAnimationFrame(() => {
-        playFlipAnimation(before, 480, /* includeScale */ true);
-      });
-    }
-    function openFamilyPage(orderKey) {
-      const order = ordersData.find(item => getOrderKey(item) === orderKey);
-      if (!order) return;
-
-      const executeOpen = () => {
-        selectedOrder = order;
-        selectedFamilies = order.families || [];
-        document.getElementById('familySearchInput').value = '';
-        document.getElementById('familyPageTitle').textContent = `${order.commonName}의 과 전체보기`;
-        document.getElementById('familyPageSub').textContent =
-          `${order.scientificName} · ${formatCount(selectedFamilies.length)}개 과`;
-        renderFamilyPage(selectedFamilies);
-        showPage('pageFamilyList', { keepNav: true });
-      };
-
-      if (!order.families) {
-        fetch(`taxonomy/${order.file}`)
-          .then(r => {
-            if (!r.ok) throw new Error(`HTTP ${r.status}`);
-            return r.json();
-          })
-          .then(data => {
-            order.families = data.families || [];
-            executeOpen();
-          })
-          .catch(err => {
-            console.error('Error fetching order families:', err);
-            order.families = order.families || [];
-            executeOpen();
-          });
-      } else {
-        executeOpen();
-      }
-    }
-
-    function renderFamilyPage(families) {
-      const grid = document.getElementById('familyCardGrid');
-      const empty = document.getElementById('familyEmpty');
-      grid.innerHTML = '';
-
-      empty.classList.toggle('visible', families.length === 0);
-
-      families.forEach((family, index) => {
-        const card = document.createElement('article');
-        card.className = 'family-photo-card';
-        card.setAttribute('role', 'button');
-        card.tabIndex = 0;
-        const famImgSrc = family.representativeImage || getFamilyImage(index);
-        card.innerHTML = `
-          <img src="${escapeHTML(famImgSrc)}" alt="${escapeHTML(family.commonName || family.scientificName)}" loading="lazy" decoding="async" />
-          <div class="family-photo-overlay"></div>
-          <div class="family-photo-info">
-            <h3>${escapeHTML(family.commonName || family.scientificName)}</h3>
-            <p>${escapeHTML(family.scientificName)}</p>
-            <span>${formatCount(family.recordCount)}종</span>
-          </div>
-        `;
-        card.addEventListener('click', () => {
-          openFamilyDetail(selectedOrder.scientificName, family.scientificName, 'pageFamilyList');
-        });
-        card.addEventListener('keydown', (e) => {
-          if (e.key === 'Enter' || e.key === ' ') {
-            e.preventDefault();
-            openFamilyDetail(selectedOrder.scientificName, family.scientificName, 'pageFamilyList');
-          }
-        });
-        grid.appendChild(card);
-      });
-    }
-
-    function filterFamilyPage() {
-      const query = document.getElementById('familySearchInput').value.trim().toLowerCase();
-      const filtered = selectedFamilies.filter(family => {
-        const commonName = (family.commonName || '').toLowerCase();
-        const scientificName = (family.scientificName || '').toLowerCase();
-        return commonName.includes(query) || scientificName.includes(query);
-      });
-      renderFamilyPage(filtered);
-    }
-
-    function openFamilyDetail(orderKey, familyScientificName, fromPage = 'pageFamilyList') {
-      const order = ordersData.find(item => getOrderKey(item) === orderKey);
-      if (!order) return;
-
-      const executeDetail = () => {
-        const family = (order.families || []).find(item => item.scientificName === familyScientificName);
-        if (!family) return;
-
-        selectedOrder = order;
-        selectedFamilies = order.families || [];
-        selectedFamily = family;
-        previousFamilyPage = fromPage;
-        renderFamilyDetail(order, family);
-        showPage('pageFamilyDetail', { keepNav: true });
-      };
-
-      if (!order.families) {
-        fetch(`taxonomy/${order.file}`)
-          .then(r => {
-            if (!r.ok) throw new Error(`HTTP ${r.status}`);
-            return r.json();
-          })
-          .then(data => {
-            order.families = data.families || [];
-            executeDetail();
-          })
-          .catch(err => {
-            console.error('Error fetching order families:', err);
-            order.families = order.families || [];
-            executeDetail();
-          });
-      } else {
-        executeDetail();
-      }
+      renderSpeciesSorted();
+      showPage('pageFamilyDetail', { keepNav: true });
     }
 
     function renderSpeciesSorted() {
@@ -1635,16 +1351,13 @@
       if (!grid || !empty) return;
 
       let list = currentSpeciesList.slice();
-      if (currentSpeciesSort === 'az') {
+      if (currentSpeciesSort === 'popular') {
+        list.sort((a, b) => (a.page || 0) - (b.page || 0));
+      } else if (currentSpeciesSort === 'kr') {
+        list.sort((a, b) => (a.commonName || '').localeCompare(b.commonName || '', 'ko'));
+      } else if (currentSpeciesSort === 'az') {
         list.sort((a, b) => (a.scientificName || '').localeCompare(b.scientificName || ''));
-      } else if (currentSpeciesSort === 'color') {
-        // 색상 정보가 데이터에 없으므로 임시로 셔플 — 시각적 변화만 제공
-        for (let i = list.length - 1; i > 0; i--) {
-          const j = Math.floor(Math.random() * (i + 1));
-          [list[i], list[j]] = [list[j], list[i]];
-        }
       }
-      // 'popular'는 원본 순서 유지
 
       grid.innerHTML = '';
       empty.classList.toggle('visible', list.length === 0);
@@ -1689,31 +1402,30 @@
             kingdom: placeholder.taxonomy.kingdom,  // KTSN에 kingdom 없음 → 기본 "동물계 (Animalia)"
             phylum:  formatTaxonRank(ktsn.phylum)  || placeholder.taxonomy.phylum,
             class:   formatTaxonRank(ktsn.class)   || placeholder.taxonomy.class,
-            order:   formatTaxonRank(ktsn.order)   || placeholder.taxonomy.order,
-            family:  formatTaxonRank(ktsn.family)  || placeholder.taxonomy.family,
-            genus:   formatTaxonRank(ktsn.genus)   || item.genus || placeholder.taxonomy.genus,
+            order:   (typeof ktsn.order === 'string' ? ktsn.order : formatTaxonRank(ktsn.order)) || placeholder.taxonomy.order,
+            family:  (typeof ktsn.family === 'string' ? ktsn.family : formatTaxonRank(ktsn.family)) || placeholder.taxonomy.family,
+            genus:   formatGenusRank(
+              typeof ktsn.genus === 'string' ? ktsn.genus : ktsn.genus?.scientificName || item.genus,
+              typeof ktsn.genus === 'object' ? ktsn.genus?.commonName : ''
+            ) || placeholder.taxonomy.genus,
             // 종 단계는 학명만 있으면 binomial(Genus + epithet)로 합쳐 표기
-            species: formatSpeciesRank(ktsn.species, ktsn.genus) || item.species || placeholder.taxonomy.species
+            species: formatSpeciesTaxonomy(
+              item.commonName || (typeof ktsn.species === 'object' ? ktsn.species?.commonName : ''),
+              item.scientificName || (typeof ktsn.species === 'string'
+                ? ktsn.species
+                : formatSpeciesRank(ktsn.species, ktsn.genus))
+            ) || placeholder.taxonomy.species
           };
 
           openSpeciesDetail({
             ...placeholder,
             scientificName: item.scientificName || placeholder.scientificName,
-            rawScientificName: item.scientificName,
+            rawScientificName: item.rawScientificName || item.scientificName,
             commonName: item.commonName || placeholder.commonName,
             author: item.nomenclaturalAuthor || item.author || placeholder.author,
             year: item.namingYear || item.year || placeholder.year,
             description: item.description || item.abstract || placeholder.description,
             abstract: item.abstract || placeholder.abstract,
-            conservationStatus: {
-              endangered: item.egspcsYn === 'Y' ? 'II' : (item.conservationStatus?.endangered || placeholder.conservationStatus.endangered),
-              // phspYn/ntmYn/hrmflSpecsYn 데이터가 cleanup으로 제거됨 — 모든 종 'N' 상태였으므로 명시적 false로 고정 ("해당없음" 표시)
-              invasive: false,
-              hazardous: item.dispYn === 'Y' ? true : (item.dispYn === 'N' ? false : placeholder.conservationStatus.hazardous),
-              naturalMonument: false,
-              harmful: false,
-              endemic: (item.korUnqBispYn === 'Y' || item.corsynSeYn === 'Y') ? true : ((item.korUnqBispYn === 'N' || item.corsynSeYn === 'N') ? false : placeholder.conservationStatus.endemic)
-            },
             // 이미지 + 출처: buildImagesAndCredits 헬퍼로 통일 (inat + inatTaxon + gbif + wiki)
             ...buildImagesAndCredits(item, placeholder.images),
             taxonomy: fullTaxonomy,
@@ -1734,123 +1446,21 @@
       });
     }
 
-    function renderFamilyDetail(order, family) {
-      const orderKey = getOrderKey(order);
-      const familyKey = getFamilyKey(orderKey, family.scientificName);
-      const siblingFamilies = (order.families || []).filter(item => item.scientificName !== family.scientificName);
-
-      document.getElementById('familyDetailTitle').textContent =
-        `${family.commonName || family.scientificName} (${family.scientificName})`;
-      document.getElementById('otherFamilyTitle').textContent = `Other Families in ${order.scientificName}`;
-      document.getElementById('otherFamilySub').textContent = `${order.commonName}의 다른 과`;
-      document.getElementById('familySpeciesCount').textContent = `${formatCount(family.recordCount)} species`;
-
-      const carousel = document.getElementById('otherFamilyCarousel');
-      carousel.innerHTML = '';
-      siblingFamilies.forEach((item, index) => {
-        const card = document.createElement('div');
-        card.setAttribute('role', 'button');
-        card.tabIndex = 0;
-        card.className = 'family-carousel-card';
-        const carouselImgSrc = item.representativeImage || getFamilyImage(index + 1);
-        card.innerHTML = `
-          <img src="${escapeHTML(carouselImgSrc)}" alt="${escapeHTML(item.commonName || item.scientificName)}" loading="lazy" decoding="async" />
-          <span class="family-photo-overlay"></span>
-          <span class="family-carousel-info">
-            <strong>${escapeHTML(item.commonName || item.scientificName)}</strong>
-            <em>${escapeHTML(item.scientificName)}</em>
-          </span>
-        `;
-        card.addEventListener('click', () => openFamilyDetail(orderKey, item.scientificName, 'pageFamilyDetail'));
-        card.addEventListener('keydown', (e) => {
-          if (e.key === 'Enter' || e.key === ' ') {
-            e.preventDefault();
-            openFamilyDetail(orderKey, item.scientificName, 'pageFamilyDetail');
-          }
-        });
-        carousel.appendChild(card);
-      });
-
-
-
-      const tags = document.getElementById('otherOrderTags');
-      tags.innerHTML = '';
-      ordersData
-        .filter(item => getOrderKey(item) !== orderKey)
-        .forEach(item => {
-          const tag = document.createElement('div');
-          tag.setAttribute('role', 'button');
-          tag.tabIndex = 0;
-          tag.className = 'order-tag';
-          tag.textContent = `${item.commonName} (${item.scientificName})`;
-          tag.addEventListener('click', () => openFamilyPage(getOrderKey(item)));
-          tag.addEventListener('keydown', (e) => {
-            if (e.key === 'Enter' || e.key === ' ') {
-              e.preventDefault();
-              openFamilyPage(getOrderKey(item));
-            }
-          });
-          tags.appendChild(tag);
-        });
-
-      const renderSpecies = (species) => {
-        currentSpeciesList = species || [];
-        renderSpeciesSorted();
-      };
-
-      if (!speciesCache[familyKey]) {
-        renderSpecies([]); // clear old data while loading
-        fetch(`taxonomy/families/${order.id}/${family.id}.json`)
-          .then(r => {
-            if (!r.ok) throw new Error(`HTTP ${r.status}`);
-            return r.json();
-          })
-          .then(data => {
-            const insects = data.insects || [];
-            if (insects.length > 0) {
-              speciesCache[familyKey] = insects;
-              renderSpecies(speciesCache[familyKey]);
-            } else {
-              // 과 JSON에 종 데이터가 없으면 캐싱된 데이터에서 로드
-              return loadCachedSpecies().then(cached => {
-                const cachedFamily = cached[familyKey];
-                const mapped = mapCachedSpecies(cachedFamily);
-                speciesCache[familyKey] = mapped;
-                renderSpecies(mapped);
-              });
-            }
-          })
-          .catch(err => {
-            console.error('Error fetching species:', err);
-            // 과 JSON 로드 실패 시에도 캐싱된 데이터에서 시도
-            loadCachedSpecies().then(cached => {
-              const cachedFamily = cached[familyKey];
-              const mapped = mapCachedSpecies(cachedFamily);
-              speciesCache[familyKey] = mapped;
-              renderSpecies(mapped);
-            }).catch(() => {
-              speciesCache[familyKey] = [];
-              renderSpecies([]);
-            });
-          });
-      } else {
-        renderSpecies(speciesCache[familyKey]);
-      }
-    }
-
-    // ── EOL 캐시 사전 로드 (비차단) — 종 상세 페이지 진입 전 미리 메모리 캐싱 ──
+    // ── EOL + NIBR 캐시 사전 로드 (비차단) ──
     loadEolCache();
+    loadNibrCache();
 
     // ── 데이터 로드 ──
-    fetch('taxonomy/index.json')
-      .then(r => {
-        if (!r.ok) throw new Error(`HTTP ${r.status}`);
-        return r.json();
-      })
+    loadSearchIndex()
       .then(data => {
-        ordersData = Array.isArray(data?.orders) ? data.orders : [];
+        buildTaxonomyFromSearchIndex(data);
         document.getElementById('orderSubtitle').textContent =
-          `한국 서식 ${data?.totalOrders ?? ordersData.length}개 목 · ${formatCount(data?.totalFamilies ?? 0)}개 과`;
+          `NIBR eCatalog ${ordersData.length}개 목 · ${formatCount(data?.counts?.total ?? 0)}종`;
+        const searchSubtitle = document.getElementById('searchPageSubtitle');
+        if (searchSubtitle) {
+          searchSubtitle.textContent =
+            `한글명 · 학명 · 통명 · 목/과로 ${formatCount(data?.counts?.total ?? data?.insects?.length ?? 0)}종 탐색`;
+        }
         renderOrders(ordersData);
       })
       .catch(err => {
@@ -1980,28 +1590,10 @@
       if (fab) fab.hidden = true;
     }
 
-    document.getElementById('familyBackBtn').addEventListener('click', () => {
+    document.getElementById('familyDetailBackBtn').addEventListener('click', () => {
       showPage('pageDiscover');
       document.getElementById('navDiscover').classList.add('active');
       tabTaxonomy.click();
-    });
-
-    document.getElementById('familySearchInput').addEventListener('input', filterFamilyPage);
-
-    document.getElementById('familyDetailBackBtn').addEventListener('click', () => {
-      if (previousFamilyPage === 'pageDiscover') {
-        showPage('pageDiscover');
-        document.getElementById('navDiscover').classList.add('active');
-        tabTaxonomy.click();
-        return;
-      }
-      if (selectedOrder) {
-        openFamilyPage(selectedOrder.scientificName);
-      } else {
-        showPage('pageDiscover');
-        document.getElementById('navDiscover').classList.add('active');
-        tabTaxonomy.click();
-      }
     });
 
     document.getElementById('navDiscover').addEventListener('click', () => {
@@ -2048,11 +1640,8 @@
     // ══════════════════════════════════════════════
     // SEARCH PAGE — 인덱스 기반 통합 검색 (v2 재구성)
     // ══════════════════════════════════════════════
-    let searchIndexData = null;       // { insects, orders, families, counts }
-    let searchIndexLoading = null;
     let currentSearchScope = 'all';   // 'all' | 'kr' | 'sci' | 'order' | 'family'
     let currentSearchQuery = '';
-    let currentSearchCategory = null; // 'endangered' | 'invasive' | 'endemic' | null
     const SEARCH_RESULT_LIMIT = 80;
     const SEARCH_DEBOUNCE_MS = 120;
 
@@ -2066,32 +1655,14 @@
         })
         .then(data => {
           searchIndexData = data;
-          // 빈 상태 UI에 카테고리/목 카운트 채움
-          renderSearchEmptyState();
           return data;
         })
         .catch(err => {
           console.warn('검색 인덱스 로드 실패:', err.message);
-          searchIndexData = { insects: [], orders: [], families: [], counts: { flags: {} } };
+          searchIndexData = { insects: [], orders: [], families: [], counts: {} };
           return searchIndexData;
         });
       return searchIndexLoading;
-    }
-
-    function renderSearchEmptyState() {
-      if (!searchIndexData) return;
-      const flags = searchIndexData.counts?.flags || {};
-      const fmt = (n) => Number(n || 0).toLocaleString('ko-KR') + '종';
-      const ePage = document.getElementById('pageSearch');
-      if (!ePage) return;
-      const setCount = (slot, n) => {
-        const el = ePage.querySelector(`[data-slot="${slot}"]`);
-        if (el) el.textContent = fmt(n);
-      };
-      setCount('count-endangered', flags.endangered);
-      setCount('count-endemic',    flags.endemic);
-      setCount('count-invasive',   flags.invasive);
-      setCount('count-natural-monument', NATURAL_MONUMENT_CANONICALS.size);
     }
 
     // 검색 매칭 — scope와 카테고리 필터에 따라 인덱스 인섹트 배열에서 필터링
@@ -2107,26 +1678,6 @@
       return checks[scope] ? checks[scope]() : false;
     }
 
-    // 천연기념물 — KTSN 데이터셋에 별도 컬럼이 없어 학명 기준 하드코딩 (canonical 매칭)
-    // 한국 곤충 천연기념물은 매우 적음. 추가 지정 시 이 Set만 확장한다.
-    const NATURAL_MONUMENT_CANONICALS = new Set([
-      'Callipogon relictus',         // 천연기념물 제218호 (1968) 장수하늘소
-      'Chrysochroa coreana',         // 천연기념물 제496호 (2008) 비단벌레 (한국산)
-    ]);
-
-    function matchCategory(insect, cat) {
-      if (!cat) return true;
-      const f = insect.flags || '000';
-      if (cat === 'endangered') return f[0] === '1';
-      if (cat === 'invasive')   return f[1] === '1';
-      if (cat === 'endemic')    return f[2] === '1';
-      if (cat === 'natural-monument') {
-        const canonical = canonicalizeSciName(insect.sci || '');
-        return NATURAL_MONUMENT_CANONICALS.has(canonical);
-      }
-      return true;
-    }
-
     function performSearch() {
       const area = document.getElementById('searchResultArea');
       const header = document.getElementById('searchResultHeader');
@@ -2135,14 +1686,11 @@
       if (!area || !list) return;
 
       const q = currentSearchQuery.trim().toLowerCase();
-      const hasInput = q.length > 0 || currentSearchCategory !== null;
-
-      const clearFilterBtnEarly = document.getElementById('searchClearFilterBtn');
+      const hasInput = q.length > 0;
 
       if (!hasInput) {
         area.dataset.state = 'empty';
         if (header) header.hidden = true;
-        if (clearFilterBtnEarly) clearFilterBtnEarly.hidden = true;
         list.replaceChildren();
         return;
       }
@@ -2150,38 +1698,22 @@
       const indexInsects = searchIndexData?.insects || [];
       const filtered = [];
       for (const ins of indexInsects) {
-        if (!matchCategory(ins, currentSearchCategory)) continue;
         if (q && !matchInsect(ins, q, currentSearchScope)) continue;
-        if (!q && currentSearchCategory) {
-          // 카테고리만 선택된 상태
-        }
         filtered.push(ins);
         if (filtered.length >= SEARCH_RESULT_LIMIT) break;
       }
 
       if (filtered.length === 0) {
         area.dataset.state = 'no-result';
-        // no-result 상태에서도 필터 제거 버튼이 보여야 사용자가 원위치로 돌아갈 수 있다
-        if (header) header.hidden = !currentSearchCategory; // 카테고리 있을 때만 헤더 노출
-        if (clearFilterBtnEarly) clearFilterBtnEarly.hidden = !currentSearchCategory;
+        if (header) header.hidden = true;
         list.replaceChildren();
         return;
       }
 
       area.dataset.state = 'results';
       if (header) header.hidden = false;
-      // 카테고리 필터가 활성화된 경우에만 "필터 제거" 버튼 노출
-      const clearFilterBtn = document.getElementById('searchClearFilterBtn');
-      if (clearFilterBtn) clearFilterBtn.hidden = !currentSearchCategory;
       if (summary) {
-        const parts = [];
-        if (q) parts.push(`"<strong>${escapeHTML(currentSearchQuery)}</strong>"`);
-        if (currentSearchCategory) {
-          const labels = { endangered: '멸종위기', invasive: '생태계교란', endemic: '한국고유', 'natural-monument': '천연기념물' };
-          parts.push(`<strong>${labels[currentSearchCategory] || currentSearchCategory}</strong>`);
-        }
-        const ctx = parts.join(' · ');
-        summary.innerHTML = `${ctx} — ${filtered.length}건${filtered.length === SEARCH_RESULT_LIMIT ? '+' : ''}`;
+        summary.innerHTML = `"<strong>${escapeHTML(currentSearchQuery)}</strong>" — ${filtered.length}건${filtered.length === SEARCH_RESULT_LIMIT ? '+' : ''}`;
       }
 
       list.replaceChildren();
@@ -2233,29 +1765,16 @@
 
       const badges = document.createElement('div');
       badges.className = 'result-badges';
-      const f = ins.flags || '000';
-      if (f[0] === '1') {
-        const b = document.createElement('span');
-        b.className = 'result-badge result-badge--endangered';
-        b.textContent = '멸종위기';
-        badges.appendChild(b);
-      }
-      if (f[1] === '1') {
-        const b = document.createElement('span');
-        b.className = 'result-badge result-badge--invasive';
-        b.textContent = '교란';
-        badges.appendChild(b);
-      }
-      if (f[2] === '1') {
-        const b = document.createElement('span');
-        b.className = 'result-badge result-badge--endemic';
-        b.textContent = '고유';
-        badges.appendChild(b);
-      }
       if (ins.eolKo) {
         const b = document.createElement('span');
         b.className = 'result-badge result-badge--eol';
         b.textContent = 'EOL';
+        badges.appendChild(b);
+      }
+      if (ins.nibr || lookupNibr(ins.sci)) {
+        const b = document.createElement('span');
+        b.className = 'result-badge result-badge--nibr';
+        b.textContent = 'NIBR';
         badges.appendChild(b);
       }
 
@@ -2284,72 +1803,37 @@
         }
       }
 
-      const proceed = (detailedInsect) => {
-        const placeholder = buildPlaceholderSpecies(ins.sci, ins.kr);
-        const item = detailedInsect || {};
-        openSpeciesDetail({
-          ...placeholder,
-          scientificName: ins.sci || placeholder.scientificName,
-          rawScientificName: ins.sci,
-          commonName: ins.kr || placeholder.commonName,
-          author: item.nomenclaturalAuthor || item.author || placeholder.author,
-          year: item.namingYear || item.year || placeholder.year,
-          description: item.description || item.abstract || placeholder.description,
-          abstract: item.abstract || placeholder.abstract,
-          // 이미지 + 출처 (검색 진입) — search_index의 ins.img도 폴백에 포함
-          ...(() => {
-            const r = buildImagesAndCredits(item, placeholder.images);
-            // ins.img는 search_index의 inat 사진 URL — 이미 매칭이 안 됐을 때만 추가
-            if (r.images.length === 0 && ins.img) {
-              const photoId = inatPhotoIdFromUrl(ins.img);
-              return {
-                images: [ins.img],
-                imageCredits: [{
-                  source: 'iNaturalist',
-                  sourceClass: 'inat',
-                  url: ins.img,
-                  pageUrl: photoId ? `https://www.inaturalist.org/photos/${photoId}` : 'https://www.inaturalist.org',
-                  license: 'iNaturalist 사진 페이지에서 확인',
-                }],
-              };
-            }
-            return r;
-          })(),
-          conservationStatus: {
-            endangered: item.egspcsYn === 'Y' ? 'II' : (item.conservationStatus?.endangered || placeholder.conservationStatus.endangered),
-            // phspYn/ntmYn/hrmflSpecsYn 데이터가 cleanup으로 제거됨 — 모든 종 'N' 상태였으므로 명시적 false로 고정 ("해당없음" 표시)
-            invasive: false,
-            hazardous: item.dispYn === 'Y' ? true : (item.dispYn === 'N' ? false : placeholder.conservationStatus.hazardous),
-            naturalMonument: false,
-            harmful: false,
-            endemic: (item.korUnqBispYn === 'Y' || item.corsynSeYn === 'Y') ? true : ((item.korUnqBispYn === 'N' || item.corsynSeYn === 'N') ? false : placeholder.conservationStatus.endemic)
-          },
-          taxonomy: {
-            ...placeholder.taxonomy,
-            order: `${ins.oKr || ''} (${ins.os || ''})`.trim(),
-            family: `${ins.fKr || ''} (${ins.fs || ''})`.trim(),
-            genus: ins.g || item.genus || placeholder.taxonomy.genus,
-            species: ins.s || item.species || placeholder.taxonomy.species
-          }
-        }, 'pageSearch');
-      };
+      const placeholder = buildPlaceholderSpecies(ins.sci, ins.kr);
+      const name = parseScientificNameMetadata(ins.sci);
+      const canonical = name.canonical;
+      const familyLabel = [ins.fKr, ins.fs ? `(${ins.fs})` : null].filter(Boolean).join(' ');
+      const orderLabel = [ins.oKr, ins.os ? `(${ins.os})` : null].filter(Boolean).join(' ');
+      const photoId = inatPhotoIdFromUrl(ins.img);
 
-      // Fetch detailed family data to get the abstract and other detailed attributes
-      if (ins.o && ins.f) {
-        fetch(`taxonomy/families/${ins.o}/${ins.f}.json`)
-          .then(r => r.json())
-          .then(data => {
-            const insects = data.insects || [];
-            const detailed = insects.find(x => x.scientificName === ins.sci || x.commonName === ins.kr);
-            proceed(detailed);
-          })
-          .catch(err => {
-            console.error('Error fetching detailed species from family:', err);
-            proceed(null);
-          });
-      } else {
-        proceed(null);
-      }
+      openSpeciesDetail({
+        ...placeholder,
+        scientificName: canonical || ins.sci || placeholder.scientificName,
+        rawScientificName: ins.sci,
+        commonName: ins.kr || ins.eolKo || placeholder.commonName,
+        author: name.author,
+        year: name.year,
+        nibr: lookupNibr(ins.sci),
+        images: ins.img ? [ins.img] : [],
+        imageCredits: ins.img ? [{
+          source: 'iNaturalist',
+          sourceClass: 'inat',
+          url: ins.img,
+          pageUrl: photoId ? `https://www.inaturalist.org/photos/${photoId}` : 'https://www.inaturalist.org',
+          license: 'iNaturalist 사진 페이지에서 확인'
+        }] : [],
+        taxonomy: {
+          ...placeholder.taxonomy,
+          order: orderLabel || placeholder.taxonomy.order,
+          family: familyLabel || placeholder.taxonomy.family,
+          genus: formatGenusRank(ins.g) || placeholder.taxonomy.genus,
+          species: formatSpeciesTaxonomy(ins.kr || ins.eolKo, canonical || ins.s) || placeholder.taxonomy.species
+        }
+      }, 'pageSearch');
     }
 
     // 입력/필터 바인딩
@@ -2387,41 +1871,6 @@
         loadSearchIndex().then(performSearch);
       });
     });
-
-    // 카테고리 카드 (멸종위기/한국고유/생태계교란) → category 필터로 검색
-    document.querySelectorAll('#pageSearch .explore-card[data-category]').forEach(card => {
-      const activate = () => {
-        currentSearchCategory = card.dataset.category || null;
-        if (globalSearchEl) globalSearchEl.value = '';
-        currentSearchQuery = '';
-        if (searchClearBtn) searchClearBtn.hidden = true;
-        loadSearchIndex().then(performSearch);
-      };
-      card.addEventListener('click', activate);
-      card.addEventListener('keydown', (e) => {
-        if (e.key === 'Enter' || e.key === ' ') {
-          e.preventDefault();
-          activate();
-        }
-      });
-    });
-
-    // 필터 제거 버튼 — 카테고리 필터를 해제하고 검색 페이지 빈 상태로 복귀
-    const searchClearFilterBtn = document.getElementById('searchClearFilterBtn');
-    if (searchClearFilterBtn) {
-      searchClearFilterBtn.addEventListener('click', () => {
-        currentSearchCategory = null;
-        if (globalSearchEl) globalSearchEl.value = '';
-        currentSearchQuery = '';
-        if (searchClearBtn) searchClearBtn.hidden = true;
-        // 스코프 칩도 '전체'로 초기화
-        document.querySelectorAll('#searchScopeRow .scope-chip').forEach(c => c.classList.remove('active'));
-        const allChip = document.querySelector('#searchScopeRow .scope-chip[data-scope="all"]');
-        if (allChip) allChip.classList.add('active');
-        currentSearchScope = 'all';
-        performSearch();
-      });
-    }
 
     // 랜덤 곤충 — 인덱스에서 무작위 1종을 종 상세로
     const randomBtn = document.getElementById('btnRandom');
@@ -2775,14 +2224,6 @@
         author: null,
         year: null,
         images: [],
-        conservationStatus: {
-          endangered: null,       // 'I' | 'II' | '관찰종' | null
-          invasive: null,         // boolean | null
-          hazardous: null,        // boolean | null
-          naturalMonument: null,  // 지정번호 string | null
-          harmful: null,          // boolean | null
-          endemic: null           // boolean | null
-        },
         taxonomy: {
           kingdom: '동물계 (Animalia)',
           phylum: '절지동물문 (Arthropoda)',
@@ -2819,44 +2260,30 @@
       return hasValue;
     }
 
-    // 배지 상태 매핑 — 각 키별로 'active' | 'inactive' | 'unknown' + 표시 텍스트
-    function resolveBadge(key, raw) {
-      // unknown: 값이 null/undefined
-      if (raw === null || raw === undefined) {
-        return { status: 'unknown', text: '데이터 없음' };
+    function setTaxonomySlot(root, slotName, value, fallback) {
+      const el = root.querySelector(`[data-slot="${slotName}"]`);
+      if (!el) return false;
+      const hasValue = value !== null && value !== undefined && value !== '';
+      const text = hasValue ? String(value) : fallback;
+      const match = String(text || '').match(/^(.*?)\s*\(([^()]*)\)$/);
+      el.replaceChildren();
+      if (match) {
+        const korean = match[1].trim();
+        if (korean) el.append(`${korean} `);
+        const scientific = document.createElement('em');
+        scientific.className = 'taxonomy-scientific';
+        scientific.textContent = `(${match[2].trim()})`;
+        el.appendChild(scientific);
+      } else {
+        el.textContent = text || '';
       }
-      // 키별 표현 규칙
-      switch (key) {
-        case 'endangered': {
-          // 'I' | 'II' | '관찰종' | '해당없음' | falsy → inactive
-          if (!raw || raw === '해당없음') return { status: 'inactive', text: '해당없음' };
-          const labelMap = { 'I': 'Ⅰ급', 'II': 'Ⅱ급', '관찰종': '관찰종' };
-          return { status: 'active', text: labelMap[raw] || String(raw) };
-        }
-        case 'naturalMonument': {
-          // 지정번호 string이 있으면 active, 아니면 inactive
-          if (!raw) return { status: 'inactive', text: '해당없음' };
-          return { status: 'active', text: `제${raw}호` };
-        }
-        case 'invasive':
-        case 'hazardous':
-        case 'harmful':
-        case 'endemic': {
-          // boolean
-          return raw === true
-            ? { status: 'active', text: '해당' }
-            : { status: 'inactive', text: '해당없음' };
-        }
-        default:
-          return { status: 'unknown', text: '데이터 없음' };
-      }
+      el.dataset.pending = hasValue ? 'false' : 'true';
+      return hasValue;
     }
 
-    function applyBadge(badgeEl, badgeState) {
-      if (!badgeEl) return;
-      badgeEl.dataset.status = badgeState.status;
-      const valueEl = badgeEl.querySelector('.status-badge-value');
-      if (valueEl) valueEl.textContent = badgeState.text;
+    function setOptionalSection(page, name, visible) {
+      const section = page.querySelector(`[data-optional-section="${name}"]`);
+      if (section) section.hidden = !visible;
     }
 
     // 히어로 이미지 placeholder DOM 헬퍼 — 초기 마크업과 렌더 분기에서 공통 사용
@@ -3120,13 +2547,6 @@
       const heroImg = page.querySelector('[data-slot="heroImg"]');
       if (heroImg) renderHeroCarousel(heroImg, species);
 
-      // ── 상태 배지 6종 ──
-      const cs = species.conservationStatus || {};
-      ['endangered', 'invasive', 'hazardous', 'naturalMonument', 'harmful', 'endemic'].forEach(key => {
-        const badge = page.querySelector(`.status-badge[data-badge-key="${key}"]`);
-        applyBadge(badge, resolveBadge(key, cs[key]));
-      });
-
       // ── 분류 트리 ──
       const tax = species.taxonomy || {};
       const taxSlots = [
@@ -3135,70 +2555,222 @@
         ['taxClass', tax.class, '곤충강 (Insecta)'],
         ['taxOrder', tax.order, '데이터 준비 중'],
         ['taxFamily', tax.family, '데이터 준비 중'],
-        ['taxGenus', tax.genus, '데이터 준비 중'],
+        ['taxGenus', tax.genus, '-'],
         ['taxSpecies', tax.species, '데이터 준비 중']
       ];
       taxSlots.forEach(([slot, val, fallback]) => {
-        const filled = setSlot(page, slot, val, fallback);
+        const filled = setTaxonomySlot(page, slot, val, fallback);
         const step = page.querySelector(`[data-slot="${slot}"]`)?.closest('.taxonomy-step');
         if (step) step.dataset.pending = filled ? 'false' : 'true';
       });
 
       // ── 학명/명명자/연도 ──
-      const fullName = species.scientificName
-        ? (species.author && species.year
-            ? `${species.scientificName} ${species.author}, ${species.year}`
-            : species.scientificName)
-        : null;
-      setSlot(page, 'fullScientificName', fullName, '— 데이터 준비 중 —');
-      setSlot(page, 'author', species.author, '— 곧 공개됩니다 —');
-      setSlot(page, 'year', species.year, '—');
+      setSlot(page, 'fullScientificName', species.scientificName, '-');
+      setSlot(page, 'author', species.author, '-');
+      setSlot(page, 'year', species.year, '-');
 
-      // ── 설명 ──
-      setSlot(page, 'description', species.description,
+      // ── 설명에서 추출한 관찰 요약 ──
+      const nibr = species.nibr;
+      const size = species.size;
+      const sizeSummary = size && typeof size.min === 'number' && typeof size.max === 'number'
+        ? {
+            value: size.min === size.max
+              ? `${size.min} ${size.unit || 'mm'}`
+              : `${size.min} ~ ${size.max} ${size.unit || 'mm'}`,
+            detail: size.detail || 'NIBR 형태 설명 기준'
+          }
+        : null;
+      const seasonSummary = extractActivitySeason(nibr);
+      const activityFallback = Array.isArray(species.activity)
+        ? species.activity.join(' · ')
+        : species.activity;
+      const activitySummary = extractActivityTime(nibr, activityFallback);
+      const factItems = [
+        ['size', 'factSize', 'factSizeDetail', sizeSummary],
+        ['season', 'factSeason', 'factSeasonDetail', seasonSummary],
+        ['activity', 'factActivity', 'factActivityDetail', activitySummary]
+      ];
+      let visibleFactCount = 0;
+      factItems.forEach(([key, valueSlot, detailSlot, summary]) => {
+        const card = page.querySelector(`[data-fact-card="${key}"]`);
+        const visible = Boolean(summary?.value);
+        if (card) card.hidden = !visible;
+        if (!visible) return;
+        visibleFactCount += 1;
+        setSlot(page, valueSlot, summary.value);
+        setSlot(page, detailSlot, summary.detail, '');
+      });
+      setOptionalSection(page, 'fieldGuide', visibleFactCount > 0);
+
+      // ── 설명 (nibr 형태 우선, 없으면 기존 description) ──
+      const nibrDesc = nibr?.morphology?.length > 0
+        ? nibr.morphology.join(' ')
+        : null;
+      setSlot(page, 'description', nibrDesc || species.description,
         '이 종에 대한 상세 설명은 데이터 연결 후 표시됩니다. 형태적 특징, 행동 습성, 분포 정보 등이 이곳에 채워질 예정입니다.');
 
-      // ── 크기 ──
-      const sizeBar = page.querySelector('[data-slot="sizeBar"]');
-      if (species.size && typeof species.size.min === 'number' && typeof species.size.max === 'number') {
-        const unit = species.size.unit || 'mm';
-        setSlot(page, 'sizeRange', `${species.size.min} ~ ${species.size.max} ${unit}`);
-        if (sizeBar) {
-          // 가정 범위 0~100mm — 데이터 연결 시 더 정교한 스케일 가능
-          const maxScale = 100;
-          const startPct = Math.min(100, Math.max(0, (species.size.min / maxScale) * 100));
-          const endPct = Math.min(100, Math.max(startPct + 5, (species.size.max / maxScale) * 100));
-          sizeBar.style.setProperty('--size-start', `${startPct}%`);
-          sizeBar.style.setProperty('--size-end', `${endPct}%`);
-        }
-      } else {
-        setSlot(page, 'sizeRange', null, '— ~ — mm');
-        if (sizeBar) {
-          sizeBar.style.setProperty('--size-start', '30%');
-          sizeBar.style.setProperty('--size-end', '65%');
-        }
-      }
+      // ── NIBR 생태 · 기타 섹션 ──
+      renderNibrList(page, 'ecology', nibr?.ecology);
+      renderNibrList(page, 'other', nibr?.other);
 
-      // ── 서식지 ──
-      setSlot(page, 'habitat', species.habitat,
+      // ── 서식지 (nibr 우선) ──
+      const habitat = nibr?.habitat || species.habitat;
+      const hasRegions = Array.isArray(species.habitatRegions) && species.habitatRegions.length > 0;
+      setOptionalSection(page, 'habitat', Boolean(habitat || hasRegions));
+      setSlot(page, 'habitat', habitat,
         '서식지 정보는 데이터 연결 후 표시됩니다.');
-
-      // ── 생애 주기 ──
-      const lc = species.lifecycle || {};
-      const lifecycleSlots = [
-        ['lifecycleEgg', lc.egg],
-        ['lifecycleLarva', lc.larva],
-        ['lifecyclePupa', lc.pupa],
-        ['lifecycleAdult', lc.adult]
-      ];
-      lifecycleSlots.forEach(([slot, val]) => {
-        const filled = setSlot(page, slot, val, '준비 중');
-        const stage = page.querySelector(`[data-slot="${slot}"]`)?.closest('.lifecycle-stage');
-        if (stage) stage.dataset.pending = filled ? 'false' : 'true';
-      });
+      renderHabitatRegions(page, species.habitatRegions || []);
 
       // ── 이미지 출처 Footer ──
       renderImageCredits(page, species.imageCredits || []);
+    }
+
+    function renderHabitatRegions(page, regions) {
+      const map = page.querySelector('[data-slot="habitatMap"]');
+      if (!map) return;
+      map.replaceChildren();
+      const values = Array.isArray(regions)
+        ? [...new Set(regions.filter(Boolean).map(translateGeographicName))].slice(0, 12)
+        : [];
+      map.hidden = values.length === 0;
+      if (values.length === 0) return;
+      map.classList.add('habitat-region-list');
+      values.forEach((region) => {
+        const chip = document.createElement('span');
+        chip.className = 'habitat-region-chip';
+        chip.textContent = region;
+        map.appendChild(chip);
+      });
+    }
+
+    const GEOGRAPHIC_NAME_KO = {
+      'africa': '아프리카',
+      'alaska': '알래스카',
+      'arabian sea': '아라비아해',
+      'arizona': '애리조나',
+      'asia': '아시아',
+      'barents sea': '바렌츠해',
+      'bay of bengal': '벵골만',
+      'borneo': '보르네오',
+      'bristol channel': '브리스틀 해협',
+      'burma': '미얀마',
+      'cabo verde': '카보베르데',
+      'canadian arctic archipelago': '캐나다 북극 제도',
+      'canary islands': '카나리아 제도',
+      'celtic sea': '켈트해',
+      'cosmopolitan': '전 세계',
+      'czech republic': '체코',
+      'delaware': '델라웨어',
+      'democratic republic of the congo': '콩고 민주 공화국',
+      'east china sea': '동중국해',
+      'eastern asia': '동아시아',
+      'english channel': '영국 해협',
+      'european russia': '유럽 러시아',
+      'florida': '플로리다',
+      'galápagos islands': '갈라파고스 제도',
+      'georgia (us state)': '조지아주',
+      'great britain': '영국',
+      'gulf of alaska': '알래스카만',
+      'gulf of bothnia': '보트니아만',
+      'gulf of finland': '핀란드만',
+      'gulf of saint lawrence': '세인트로렌스만',
+      'hawaii': '하와이',
+      'high arctic': '고위도 북극권',
+      'hispaniola': '히스파니올라섬',
+      'hong kong': '홍콩',
+      'indian ocean': '인도양',
+      'inner seas off the west coast of scotland': '스코틀랜드 서해 내해',
+      'irish sea': '아일랜드해',
+      'java sea': '자바해',
+      'kattegat': '카테가트 해협',
+      'korea': '한국',
+      'korean peninsula': '한반도',
+      'kotzebue sound': '코츠뷰 해협',
+      'labrador': '래브라도',
+      'laccadive sea': '라카디브해',
+      'low arctic': '저위도 북극권',
+      'macedonia': '북마케도니아',
+      'malacca strait': '말라카 해협',
+      'malaya': '말레이반도',
+      'new guinea': '뉴기니',
+      'north atlantic': '북대서양',
+      'north pacific': '북태평양',
+      'north sea': '북해',
+      'northwest territories': '노스웨스트 준주',
+      'nunavut': '누나부트',
+      'oceania continent (australia, nz and islands)': '오세아니아',
+      'philippine sea': '필리핀해',
+      'polynesia': '폴리네시아',
+      'quebec': '퀘벡',
+      'saint helena': '세인트헬레나',
+      'sea of japan': '동해',
+      'seto inland sea': '세토 내해',
+      'seward peninsula': '수어드반도',
+      'siberia': '시베리아',
+      'singapore strait': '싱가포르 해협',
+      'skagerrak': '스카게라크 해협',
+      'south america': '남아메리카',
+      'south atlantic': '남대서양',
+      'south carolina': '사우스캐롤라이나',
+      'south china sea': '남중국해',
+      'south pacific': '남태평양',
+      'southeast asia': '동남아시아',
+      'subarctic': '아한대',
+      'texas': '텍사스',
+      'the congo': '콩고',
+      'the contiguous united states': '미국 본토',
+      'the hawaiian islands': '하와이 제도',
+      'the nearctic': '신북구',
+      'the neotropics': '신열대구',
+      'the netherlands': '네덜란드',
+      'the palearctic': '구북구',
+      'the philippines': '필리핀',
+      'turkey': '튀르키예',
+      'wisconsin': '위스콘신',
+      'yellow sea': '황해',
+      'yugoslavia': '유고슬라비아',
+      'yukon': '유콘'
+    };
+    let countryNameKoMap = null;
+
+    function buildCountryNameKoMap() {
+      if (countryNameKoMap) return countryNameKoMap;
+      countryNameKoMap = new Map();
+      if (!Intl.DisplayNames) return countryNameKoMap;
+      const englishNames = new Intl.DisplayNames(['en'], { type: 'region' });
+      const koreanNames = new Intl.DisplayNames(['ko'], { type: 'region' });
+      for (let first = 65; first <= 90; first += 1) {
+        for (let second = 65; second <= 90; second += 1) {
+          const code = String.fromCharCode(first, second);
+          const english = englishNames.of(code);
+          const korean = koreanNames.of(code);
+          if (english && korean && english !== code && korean !== code) {
+            countryNameKoMap.set(english.toLowerCase(), korean);
+          }
+        }
+      }
+      return countryNameKoMap;
+    }
+
+    function translateGeographicName(value) {
+      const original = String(value || '').trim();
+      if (!original) return '';
+      const key = original.toLowerCase();
+      return GEOGRAPHIC_NAME_KO[key] || buildCountryNameKoMap().get(key) || original;
+    }
+
+    function renderNibrList(page, sectionName, items) {
+      const list = page.querySelector(`[data-slot="${sectionName}List"]`);
+      const values = Array.isArray(items) ? items.filter(Boolean) : [];
+      setOptionalSection(page, sectionName, values.length > 0);
+      if (!list) return;
+      list.replaceChildren();
+      values.forEach((text) => {
+        const item = document.createElement('li');
+        item.className = 'nibr-list-item';
+        item.textContent = text;
+        list.appendChild(item);
+      });
     }
 
     // 이미지 출처 footer 렌더 — textContent로 안전 출력
@@ -3265,6 +2837,22 @@
       return out.join(' ');
     }
 
+    function parseScientificNameMetadata(raw) {
+      const value = String(raw || '').trim();
+      const canonical = canonicalizeSciName(value);
+      const yearMatch = value.match(/[\[(]?(\d{4})[\])]?/);
+      const year = yearMatch ? yearMatch[1] : null;
+      let author = null;
+      if (canonical && yearMatch) {
+        const start = value.indexOf(canonical) + canonical.length;
+        author = value.slice(start, yearMatch.index)
+          .replace(/[()[\],]/g, ' ')
+          .replace(/\s+/g, ' ')
+          .trim() || null;
+      }
+      return { canonical, author, year };
+    }
+
     function loadEolCache() {
       if (eolCacheData) return Promise.resolve(eolCacheData);
       if (eolCacheLoading) return eolCacheLoading;
@@ -3306,7 +2894,7 @@
       const parts = [];
       if (Array.isArray(t.habitat) && t.habitat.length > 0) parts.push(t.habitat.join(', '));
       if (Array.isArray(t.geographic) && t.geographic.length > 0) {
-        const regions = t.geographic.slice(0, 10).join(', ');
+        const regions = t.geographic.slice(0, 10).map(translateGeographicName).join(', ');
         const suffix = t.geographic.length > 10 ? ` 외 ${t.geographic.length - 10}개 지역` : '';
         parts.push(`분포: ${regions}${suffix}`);
       }
@@ -3512,11 +3100,19 @@
         catch (err) { console.error('renderSpeciesDetail failed:', err); }
       };
 
+      // nibr 캐시 보강 — species.nibr이 없을 때만 캐시에서 조회
+      const safeEnrichNibr = (sp) => {
+        try {
+          enrichSpeciesWithNibr(sp);
+        } catch (err) { console.error('NIBR enrich failed:', err); }
+      };
+
       // 깜빡임 방지: 캐시가 이미 로드돼 있으면 단 한 번만 렌더한다.
       // 캐시가 아직 로드 중이면 200ms까지 짧게 기다렸다가, 그 안에 도착하면 1회 렌더.
       // 시간 초과 시에만 placeholder를 먼저 보여주고 데이터 도착 후 한 번 더 렌더.
       const render = () => {
         if (selectedSpecies !== species) return; // race: 사용자가 다른 종으로 이동
+        safeEnrichNibr(species);
         safeEnrichEol(species);
         safeEnrichGbif(species);
         safeRender(species);
@@ -3525,7 +3121,7 @@
       // GBIF는 동기 데이터(inline)이므로 EOL 캐시 도착 전이라도 미리 보강
       safeEnrichGbif(species);
 
-      if (eolCacheData) {
+      if (eolCacheData && nibrCacheData) {
         render();
         showPage('pageSpeciesDetail', { keepNav: true });
       } else {
@@ -3533,10 +3129,11 @@
         const placeholderTimer = setTimeout(() => {
           if (selectedSpecies !== species) return;
           shownPlaceholder = true;
+          safeEnrichNibr(species);
           safeRender(species);
           showPage('pageSpeciesDetail', { keepNav: true });
         }, 200);
-        loadEolCache().then(() => {
+        Promise.all([loadEolCache(), loadNibrCache()]).then(() => {
           clearTimeout(placeholderTimer);
           if (selectedSpecies !== species) return;
           render();
@@ -3553,34 +3150,6 @@
       });
     }
 
-    // ── Global Mouse Drag Scrolling for Carousel ──
-    const familyCarousel = document.getElementById('otherFamilyCarousel');
-    if (familyCarousel) {
-      let isDown = false, startX = 0, scrollLeft = 0, hasDragged = false;
-
-      const stopDrag = () => {
-        isDown = false;
-        familyCarousel.classList.remove('dragging');
-      };
-
-      familyCarousel.addEventListener('mousedown', (e) => {
-        isDown = true; hasDragged = false;
-        startX = e.pageX - familyCarousel.offsetLeft;
-        scrollLeft = familyCarousel.scrollLeft;
-        familyCarousel.classList.add('dragging');
-      });
-      window.addEventListener('mouseup', stopDrag);
-      familyCarousel.addEventListener('mouseleave', stopDrag);
-      familyCarousel.addEventListener('mousemove', (e) => {
-        if (!isDown) return;
-        e.preventDefault();
-        const x = e.pageX - familyCarousel.offsetLeft;
-        const walk = (x - startX) * 1.5;
-        if (Math.abs(walk) > 5) hasDragged = true;
-        familyCarousel.scrollLeft = scrollLeft - walk;
-      });
-      familyCarousel.addEventListener('click', (e) => { if (hasDragged) e.stopPropagation(); }, true);
-    }
   </script>
 
 </body>

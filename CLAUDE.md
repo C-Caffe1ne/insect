@@ -4,7 +4,7 @@
 
 - **목적**: 한국 곤충 분류와 종 정보를 큐레이션·탐색하는 웹 도감 (ENTOMA · KR)
 - **기술**: 순수 HTML/CSS/JavaScript (프레임워크 없음)
-- **데이터 규모**: 34목 / 610과 / 통합 종 JSON ~1MB
+- **데이터 규모**: 16목 / 94과 / NIBR eCatalog 300종
 - **작업 디렉토리**: `project/` (HTML/CSS/이미지/폰트/JSON)
 - **중간 산출물**: 루트 `_workspace/` (오케스트레이션용)
 
@@ -19,7 +19,7 @@
 **참고 경로:**
 - 에이전트 정의: `.claude/agents/`
 - 스킬: `.claude/skills/`
-- 데이터: `project/taxonomy/index.json`, `project/taxonomy/orders/`, `project/taxonomy/families/`
+- 데이터: `project/search_index.json`, `project/nibr_cache.json`, `project/eol_species_cache.json`
 
 **변경 이력:**
 | 날짜 | 변경 내용 | 대상 | 사유 |

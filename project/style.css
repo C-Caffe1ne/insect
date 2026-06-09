@@ -1731,15 +1731,7 @@ ul { list-style: none; }
    SPECIES DETAIL PAGE (INFOGRAPHIC)
    ══════════════════════════════════════════════ */
 
-/* ── Status color tokens (only used inside species detail) ── */
 #pageSpeciesDetail {
-  --status-endangered:      #d94a4a;
-  --status-invasive:        #e08a3c;
-  --status-hazardous:       #d9bd3e;
-  --status-natural:         #c79a3b;
-  --status-harmful:         #8c2f2f;
-  --status-endemic:         #4ea38a;
-
   --data-pending-line:      rgba(255,255,255,0.10);
   --section-card-bg:        rgba(255,255,255,0.035);
   --section-card-border:    rgba(255,255,255,0.06);
@@ -1986,154 +1978,6 @@ ul { list-style: none; }
   word-break: keep-all;
 }
 
-/* ── STATUS BADGE GRID ── */
-.status-badge-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 12px;
-}
-
-@media (min-width: 480px) {
-  .status-badge-grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-.status-badge {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 8px;
-  padding: 16px 14px;
-  border-radius: 16px;
-  background: var(--section-card-bg);
-  border: 1px solid var(--section-card-border);
-  min-height: 116px;
-  transition: transform 0.18s ease;
-  word-break: keep-all;
-}
-
-.status-badge-icon {
-  display: inline-flex;
-  width: 36px;
-  height: 36px;
-  align-items: center;
-  justify-content: center;
-  border-radius: 12px;
-  background: rgba(255,255,255,0.05);
-  color: var(--text-secondary);
-}
-
-.status-badge-label {
-  font-size: 12px;
-  font-weight: 700;
-  color: var(--text-primary);
-  letter-spacing: 0.02em;
-}
-
-.status-badge-value {
-  font-size: 11px;
-  color: var(--text-muted);
-  line-height: 1.3;
-  margin-top: auto;
-  font-weight: 600;
-}
-
-/* Active (해당) state — color by data-badge-key */
-.status-badge[data-status="active"] {
-  border-color: rgba(255,255,255,0.18);
-}
-
-.status-badge[data-status="active"] .status-badge-value {
-  color: #fff;
-  font-weight: 700;
-}
-
-.status-badge[data-status="active"][data-badge-key="endangered"] {
-  background: rgba(217,74,74,0.18);
-  border-color: rgba(217,74,74,0.55);
-}
-.status-badge[data-status="active"][data-badge-key="endangered"] .status-badge-icon {
-  background: var(--status-endangered);
-  color: #fff;
-}
-
-.status-badge[data-status="active"][data-badge-key="invasive"] {
-  background: rgba(224,138,60,0.16);
-  border-color: rgba(224,138,60,0.52);
-}
-.status-badge[data-status="active"][data-badge-key="invasive"] .status-badge-icon {
-  background: var(--status-invasive);
-  color: #fff;
-}
-
-.status-badge[data-status="active"][data-badge-key="hazardous"] {
-  background: rgba(217,189,62,0.16);
-  border-color: rgba(217,189,62,0.5);
-}
-.status-badge[data-status="active"][data-badge-key="hazardous"] .status-badge-icon {
-  background: var(--status-hazardous);
-  color: #1a1a1a;
-}
-
-.status-badge[data-status="active"][data-badge-key="naturalMonument"] {
-  background: rgba(199,154,59,0.18);
-  border-color: rgba(199,154,59,0.55);
-}
-.status-badge[data-status="active"][data-badge-key="naturalMonument"] .status-badge-icon {
-  background: var(--status-natural);
-  color: #1a1a1a;
-}
-
-.status-badge[data-status="active"][data-badge-key="harmful"] {
-  background: rgba(140,47,47,0.22);
-  border-color: rgba(140,47,47,0.6);
-}
-.status-badge[data-status="active"][data-badge-key="harmful"] .status-badge-icon {
-  background: var(--status-harmful);
-  color: #fff;
-}
-
-.status-badge[data-status="active"][data-badge-key="endemic"] {
-  background: rgba(78,163,138,0.16);
-  border-color: rgba(78,163,138,0.55);
-}
-.status-badge[data-status="active"][data-badge-key="endemic"] .status-badge-icon {
-  background: var(--status-endemic);
-  color: #fff;
-}
-
-/* Inactive (비해당) state */
-.status-badge[data-status="inactive"] {
-  background: rgba(255,255,255,0.02);
-  border-color: var(--border-faint);
-}
-
-.status-badge[data-status="inactive"] .status-badge-icon,
-.status-badge[data-status="inactive"] .status-badge-label,
-.status-badge[data-status="inactive"] .status-badge-value {
-  color: var(--text-faint);
-  opacity: 0.7;
-}
-
-/* Unknown (데이터 없음) state */
-.status-badge[data-status="unknown"] {
-  background: transparent;
-  border: 1px dashed var(--data-pending-line);
-}
-
-.status-badge[data-status="unknown"] .status-badge-icon {
-  background: rgba(255,255,255,0.03);
-  color: var(--text-faint);
-}
-
-.status-badge[data-status="unknown"] .status-badge-value {
-  color: var(--text-faint);
-  font-style: italic;
-  font-weight: 500;
-}
-
 /* ── TAXONOMY TREE ── */
 .taxonomy-tree {
   background: var(--section-card-bg);
@@ -2202,98 +2046,72 @@ ul { list-style: none; }
   word-break: keep-all;
 }
 
+.taxonomy-scientific {
+  font-family: 'Cormorant Garamond', var(--font-sci), serif;
+  font-style: italic;
+  font-weight: 500;
+}
+
 .taxonomy-step[data-pending="true"] .taxonomy-value {
   color: var(--text-faint);
   font-style: italic;
   font-weight: 500;
 }
 
-/* ── SIZE VISUALIZATION ── */
-.size-card {
-  padding: 20px 18px;
+/* ── FIELD GUIDE SUMMARY ── */
+.species-fact-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
 }
 
-.size-visual {
-  position: relative;
-  padding: 10px 4px 22px;
-  margin-bottom: 14px;
+.species-fact-card {
+  display: grid;
+  grid-template-columns: minmax(92px, 0.8fr) minmax(110px, 1fr);
+  gap: 5px 14px;
+  align-items: center;
+  padding: 16px;
+  border: 1px solid var(--section-card-border);
+  border-radius: 16px;
+  background: var(--section-card-bg);
 }
 
-.size-ruler {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  height: 14px;
-  margin-bottom: 8px;
+.species-fact-card[hidden] {
+  display: none;
 }
 
-.size-ruler-tick {
-  width: 1px;
-  height: 8px;
-  background: var(--text-faint);
-}
-
-.size-ruler-tick:nth-child(odd) {
-  height: 14px;
-  background: var(--text-muted);
-}
-
-.size-bar {
-  position: relative;
-  height: 10px;
-  border-radius: var(--radius-pill);
-  background: rgba(255,255,255,0.06);
-  overflow: hidden;
-}
-
-.size-bar-fill {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: var(--size-start, 30%);
-  right: calc(100% - var(--size-end, 65%));
-  background: linear-gradient(90deg, var(--green-mid), var(--green-soft));
-  border-radius: var(--radius-pill);
-}
-
-.size-bar-arrow {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 0;
-  height: 0;
-  border-top: 5px solid transparent;
-  border-bottom: 5px solid transparent;
-}
-
-.size-bar-arrow--left {
-  left: calc(var(--size-start, 30%) - 6px);
-  border-right: 7px solid var(--green-mid);
-}
-
-.size-bar-arrow--right {
-  left: calc(var(--size-end, 65%) - 1px);
-  border-left: 7px solid var(--green-soft);
-}
-
-.size-text {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: 12px;
-}
-
-.size-range {
-  font-family: 'Cormorant Garamond', var(--font-sci), serif;
-  font-size: 22px;
-  font-weight: 500;
-  color: var(--text-primary);
-}
-
-.size-hint {
-  font-size: 11px;
+.species-fact-label {
+  grid-row: 1 / span 2;
   color: var(--text-muted);
+  font-size: 11px;
+  font-weight: 700;
   letter-spacing: 0.04em;
+}
+
+.species-fact-value {
+  color: var(--text-primary);
+  font-size: 16px;
+  line-height: 1.3;
+}
+
+.species-fact-detail {
+  color: var(--text-faint);
+  font-size: 10px;
+  line-height: 1.45;
+  word-break: keep-all;
+}
+
+@media (min-width: 720px) {
+  .species-fact-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .species-fact-card {
+    display: flex;
+    min-height: 138px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
 
 /* ── HABITAT ── */
@@ -2348,6 +2166,31 @@ ul { list-style: none; }
   letter-spacing: 0.08em;
   text-transform: uppercase;
   font-weight: 600;
+}
+
+.habitat-map[hidden],
+.species-info-section[hidden] {
+  display: none;
+}
+
+.habitat-map.habitat-region-list {
+  height: auto;
+  min-height: 0;
+  padding: 14px;
+  justify-content: flex-start;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  gap: 8px;
+  border-style: solid;
+}
+
+.habitat-region-chip {
+  padding: 7px 10px;
+  border-radius: 999px;
+  background: rgba(127,168,142,0.13);
+  color: var(--green-soft);
+  font-size: 12px;
+  line-height: 1;
 }
 
 /* ── LIFE CYCLE ── */
@@ -2441,9 +2284,6 @@ ul { list-style: none; }
   --search-chip-bg: rgba(255,255,255,0.05);
   --search-chip-bg-active: rgba(255,255,255,0.16);
   --search-chip-border: rgba(255,255,255,0.10);
-  --search-cat-endangered: linear-gradient(135deg, #3d1f1f, #2a1414);
-  --search-cat-endemic:    linear-gradient(135deg, #16302a, #0e1f1a);
-  --search-cat-invasive:   linear-gradient(135deg, #2f1c3d, #1b1226);
   --search-cat-random:     linear-gradient(135deg, #2a2418, #1a1610);
 }
 
@@ -2742,10 +2582,8 @@ ul { list-style: none; }
   letter-spacing: 0.02em;
   white-space: nowrap;
 }
-.result-badge--endangered { background: rgba(220,80,80,0.18); color: #ff8e8e; }
-.result-badge--invasive   { background: rgba(180,90,200,0.18); color: #d59ce8; }
-.result-badge--endemic    { background: rgba(80,180,140,0.16); color: #82d8ad; }
 .result-badge--eol        { background: rgba(120,140,200,0.16); color: #a4b3e8; font-size: 9px; }
+.result-badge--nibr       { background: rgba(203,164,78,0.16); color: #e2c47d; font-size: 9px; }
 
 /* ── No Result / Empty State ── */
 .search-no-result {
@@ -2786,57 +2624,6 @@ ul { list-style: none; }
 .search-empty-state .section + .section {
   padding-top: 24px;
 }
-
-/* ── Category Explore Grid (재설계) ── */
-.search-empty-state .explore-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
-  margin-top: 12px;
-}
-.search-empty-state .explore-card {
-  padding: 18px 16px;
-  border-radius: 14px;
-  border: 1px solid rgba(255,255,255,0.06);
-  cursor: pointer;
-  transition: transform 0.05s, border-color 0.15s;
-  text-align: left;
-  font-family: inherit;
-}
-.search-empty-state .explore-card:hover,
-.search-empty-state .explore-card:focus-visible {
-  border-color: rgba(255,255,255,0.20);
-  outline: none;
-}
-.search-empty-state .explore-card:active { transform: scale(0.98); }
-.search-empty-state .explore-icon {
-  display: inline-flex;
-  width: 36px;
-  height: 36px;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 14px;
-  background: rgba(255,255,255,0.08);
-  border-radius: 9px;
-  color: rgba(255,255,255,0.92);
-}
-.search-empty-state .explore-card-title {
-  font-size: 14px;
-  font-weight: 600;
-  color: var(--text-primary);
-  margin: 0 0 4px;
-}
-.explore-card-count {
-  font-size: 11.5px;
-  color: var(--text-muted);
-  font-family: 'Cormorant Garamond', serif;
-  font-style: italic;
-  letter-spacing: 0.02em;
-}
-.explore-card--danger   { background: var(--search-cat-endangered); }
-.explore-card--endemic  { background: var(--search-cat-endemic); }
-.explore-card--invasive { background: var(--search-cat-invasive); }
-
 
 /* ══════════════════════════════════════════════
    SEARCH PAGE v3 — Feature Finder + Categories
@@ -3219,6 +3006,44 @@ ul { list-style: none; }
 
 
 /* ══════════════════════════════════════════════
+   NIBR 생태·기타 섹션
+   ══════════════════════════════════════════════ */
+.nibr-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.nibr-list-item {
+  font-size: 14px;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  position: relative;
+  padding-left: 14px;
+}
+
+.nibr-list-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.nibr-list-item::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 18px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--text-muted);
+}
+
+/* ══════════════════════════════════════════════
    SPECIES DETAIL — IMAGE CREDITS FOOTER
    ══════════════════════════════════════════════ */
 .species-credits-section {
@@ -3285,4 +3110,3 @@ ul { list-style: none; }
   font-style: italic;
   margin-top: 8px;
 }
-
