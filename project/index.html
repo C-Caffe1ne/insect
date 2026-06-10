@@ -318,37 +318,30 @@
         </div>
       </section>
 
-      <!-- ── 1. OBSERVATION SUMMARY ── -->
-      <section class="species-info-section" data-optional-section="fieldGuide">
-        <h3 class="species-info-eyebrow">FIELD GUIDE</h3>
-        <p class="species-info-title">관찰 정보</p>
-        <div class="species-fact-grid">
-          <article class="species-fact-card" data-fact-card="size">
-            <span class="species-fact-label">몸길이</span>
-            <strong class="species-fact-value" data-slot="factSize">—</strong>
-            <span class="species-fact-detail" data-slot="factSizeDetail"></span>
-          </article>
-          <article class="species-fact-card" data-fact-card="season">
-            <span class="species-fact-label">활동 · 관찰 시기</span>
-            <strong class="species-fact-value" data-slot="factSeason">—</strong>
-            <span class="species-fact-detail" data-slot="factSeasonDetail"></span>
-          </article>
-          <article class="species-fact-card" data-fact-card="activity">
-            <span class="species-fact-label">활동 시간</span>
-            <strong class="species-fact-value" data-slot="factActivity">—</strong>
-            <span class="species-fact-detail" data-slot="factActivityDetail"></span>
-          </article>
-        </div>
+      <!-- ── 1. SIZE ── -->
+      <section class="species-info-section" data-optional-section="size">
+        <h3 class="species-info-eyebrow">SIZE</h3>
+        <p class="species-info-title">몸길이</p>
+        <div class="size-visual" data-slot="sizeVisual"></div>
       </section>
 
-      <!-- ── 2. MORPHOLOGY ── -->
-      <section class="species-info-section">
+      <!-- ── 2. SEASON ── -->
+      <section class="species-info-section" data-optional-section="season">
+        <h3 class="species-info-eyebrow">SEASON</h3>
+        <p class="species-info-title">활동·관찰 시기</p>
+        <div class="month-bar-wrap" data-slot="monthBar"></div>
+        <article class="species-fact-card season-activity-card" data-fact-card="activity">
+          <span class="species-fact-label">활동 시간</span>
+          <strong class="species-fact-value" data-slot="factActivity">—</strong>
+        </article>
+      </section>
+
+      <!-- ── 3. MORPHOLOGY ── -->
+      <section class="species-info-section" data-optional-section="morphology">
         <h3 class="species-info-eyebrow">MORPHOLOGY</h3>
         <p class="species-info-title">형태 특징</p>
         <div class="info-card info-card--text">
-          <p class="info-card-body" data-slot="description">
-            이 종에 대한 상세 설명은 데이터 연결 후 표시됩니다. 형태적 특징, 행동 습성, 분포 정보 등이 이곳에 채워질 예정입니다.
-          </p>
+          <ul class="nibr-list" data-slot="morphologyList"></ul>
         </div>
       </section>
 
@@ -1580,6 +1573,19 @@
     const allNavItems = document.querySelectorAll('.nav-item');
     const allPages = document.querySelectorAll('.page');
 
+    const PAGE_HASHES = {
+      pageFamilyDetail: 'family',
+      pageSpeciesDetail: 'species'
+    };
+
+    function syncNavForPage(pageId) {
+      allNavItems.forEach(n => n.classList.remove('active'));
+      if (pageId === 'pageSearch') document.getElementById('navSearch').classList.add('active');
+      else if (pageId === 'pageSaved') document.getElementById('navSaved').classList.add('active');
+      else if (pageId === 'pageProfile') document.getElementById('navProfile').classList.add('active');
+      else document.getElementById('navDiscover').classList.add('active');
+    }
+
     function showPage(pageId, options = {}) {
       allPages.forEach(p => p.classList.remove('active'));
       if (!options.keepNav) allNavItems.forEach(n => n.classList.remove('active'));
@@ -1588,7 +1594,26 @@
       if (target) target.scrollTop = 0;
       const fab = document.getElementById('searchScrollTopBtn');
       if (fab) fab.hidden = true;
+      if (!options._fromHistory) {
+        const hash = PAGE_HASHES[pageId];
+        if (options.keepNav && hash) {
+          history.pushState({ page: pageId }, '', '#' + hash);
+        } else {
+          const cleanUrl = location.href.split('#')[0];
+          history.replaceState({ page: pageId }, '', cleanUrl);
+        }
+      }
     }
+
+    // 초기 히스토리 state 설정
+    history.replaceState({ page: 'pageDiscover' }, '', location.href.split('#')[0]);
+
+    window.addEventListener('popstate', (e) => {
+      const pageId = e.state?.page || 'pageDiscover';
+      const isSubPage = pageId === 'pageFamilyDetail' || pageId === 'pageSpeciesDetail';
+      showPage(pageId, { keepNav: isSubPage, _fromHistory: true });
+      syncNavForPage(pageId);
+    });
 
     document.getElementById('familyDetailBackBtn').addEventListener('click', () => {
       showPage('pageDiscover');
@@ -1629,6 +1654,8 @@
     const searchInputEl = document.getElementById('searchInput');
     if (searchInputEl) {
       searchInputEl.addEventListener('focus', () => {
+        // pageDiscover가 active인 경우에만 라우팅 (다른 페이지에서 focus 복원 시 오작동 방지)
+        if (!document.getElementById('pageDiscover').classList.contains('active')) return;
         showPage('pageSearch');
         document.getElementById('navSearch').classList.add('active');
         document.getElementById('navDiscover').classList.remove('active');
@@ -2585,29 +2612,22 @@
         ? species.activity.join(' · ')
         : species.activity;
       const activitySummary = extractActivityTime(nibr, activityFallback);
-      const factItems = [
-        ['size', 'factSize', 'factSizeDetail', sizeSummary],
-        ['season', 'factSeason', 'factSeasonDetail', seasonSummary],
-        ['activity', 'factActivity', 'factActivityDetail', activitySummary]
-      ];
-      let visibleFactCount = 0;
-      factItems.forEach(([key, valueSlot, detailSlot, summary]) => {
-        const card = page.querySelector(`[data-fact-card="${key}"]`);
-        const visible = Boolean(summary?.value);
-        if (card) card.hidden = !visible;
-        if (!visible) return;
-        visibleFactCount += 1;
-        setSlot(page, valueSlot, summary.value);
-        setSlot(page, detailSlot, summary.detail, '');
-      });
-      setOptionalSection(page, 'fieldGuide', visibleFactCount > 0);
+      // ── SIZE 섹션 ──
+      setOptionalSection(page, 'size', Boolean(size?.min != null));
+      if (size?.min != null) renderSizeVisual(page, size, species.taxonomy?.order);
 
-      // ── 설명 (nibr 형태 우선, 없으면 기존 description) ──
-      const nibrDesc = nibr?.morphology?.length > 0
-        ? nibr.morphology.join(' ')
-        : null;
-      setSlot(page, 'description', nibrDesc || species.description,
-        '이 종에 대한 상세 설명은 데이터 연결 후 표시됩니다. 형태적 특징, 행동 습성, 분포 정보 등이 이곳에 채워질 예정입니다.');
+      // ── SEASON 섹션 ──
+      const seasonVisible = Boolean(seasonSummary?.value || activitySummary?.value);
+      setOptionalSection(page, 'season', seasonVisible);
+      if (seasonVisible) {
+        renderMonthBar(page, seasonSummary);
+        const actCard = page.querySelector('[data-fact-card="activity"]');
+        if (actCard) actCard.hidden = !activitySummary?.value;
+        if (activitySummary?.value) setSlot(page, 'factActivity', activitySummary.value);
+      }
+
+      // ── MORPHOLOGY 섹션 (리스트) ──
+      renderNibrList(page, 'morphology', nibr?.morphology);
 
       // ── NIBR 생태 · 기타 섹션 ──
       renderNibrList(page, 'ecology', nibr?.ecology);
@@ -2757,6 +2777,139 @@
       if (!original) return '';
       const key = original.toLowerCase();
       return GEOGRAPHIC_NAME_KO[key] || buildCountryNameKoMap().get(key) || original;
+    }
+
+    const ORDER_IMG = {
+      lepidoptera:   'images/order/lepidoptera.png',
+      trichoptera:   'images/order/trichoptera.png',
+      hemiptera:     'images/order/hemiptera.png',
+      phasmida:      'images/order/phasmida.png',
+      phasmatodea:   'images/order/phasmida.png',
+      orthoptera:    'images/order/orthoptera.png',
+      mecoptera:     'images/order/mecoptera.png',
+      blattodea:     'images/order/blattodea.png',
+      hymenoptera:   'images/order/hymenoptera.png',
+      mantodea:      'images/order/mantodea.png',
+      odonata:       'images/order/odonata.png',
+      zygentoma:     'images/order/zygentoma.png',
+      dermaptera:    'images/order/dermaptera.png',
+      diptera:       'images/order/diptera.png',
+      neuroptera:    'images/order/neuroptera.png',
+      coleoptera:    'images/order/coleoptera.png',
+      ephemeroptera: 'images/order/ephemeroptera.png',
+    };
+
+    function renderSizeVisual(page, size, orderStr) {
+      const el = page.querySelector('[data-slot="sizeVisual"]');
+      if (!el) return;
+      el.replaceChildren();
+
+      const COIN_MM = 26.5;
+      const COIN_D  = 80;                      // 동전 시각 지름 px
+      const SCALE   = COIN_D / COIN_MM;        // px/mm
+      const min = size.min;
+      const max = size.max ?? size.min;
+      const unit = size.unit || 'mm';
+      const valueText = min === max ? `${min} ${unit}` : `${min} – ${max} ${unit}`;
+      const avg = (min + max) / 2;
+
+      let compareText;
+      if (avg < 5)       compareText = '500원 동전의 약 ⅕ 크기';
+      else if (avg < 13) compareText = '500원 동전의 절반 이하';
+      else if (avg < 22) compareText = '500원 동전보다 작음';
+      else if (avg < 32) compareText = '500원 동전과 비슷한 크기';
+      else if (avg < 53) compareText = '500원 동전보다 큰 편';
+      else               compareText = '500원 동전의 2배 이상';
+
+      // 목 → 이미지 경로
+      const orderLatin = (orderStr?.match(/\(([A-Za-z]+)\)/)?.[1] || '').toLowerCase();
+      const imgSrc = ORDER_IMG[orderLatin] || null;
+
+      // 곤충 이미지 표시 너비 (비례 스케일, 최소 20px)
+      const MIN_DISPLAY = 20;
+      const insectW = Math.max(avg * SCALE, MIN_DISPLAY);
+      const scaled = insectW === MIN_DISPLAY && avg * SCALE < MIN_DISPLAY;
+
+      // 오버레이 스테이지 크기
+      const stageW = Math.max(COIN_D, insectW) + 16;
+      const stageH = COIN_D;
+      const coinLeft = ((stageW - COIN_D) / 2).toFixed(1);
+      const insectLeft = ((stageW - insectW) / 2).toFixed(1);
+
+      // 동전 SVG (스테이지 내 절대 위치)
+      const coinSvgEl = `<svg class="size-overlay-coin-svg"
+          style="left:${coinLeft}px"
+          width="${COIN_D}" height="${COIN_D}" viewBox="0 0 ${COIN_D} ${COIN_D}" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <circle cx="${COIN_D/2}" cy="${COIN_D/2}" r="${COIN_D/2-1}"
+          fill="rgba(210,185,110,0.08)" stroke="rgba(210,185,110,0.55)" stroke-width="1.5"/>
+        <circle cx="${COIN_D/2}" cy="${COIN_D/2}" r="${(COIN_D/2)*0.82}"
+          fill="none" stroke="rgba(210,185,110,0.22)" stroke-width="0.8"/>
+        <text x="${COIN_D/2}" y="${COIN_D/2-4}" text-anchor="middle" dominant-baseline="middle"
+          fill="rgba(210,185,110,0.70)" font-size="10" font-weight="700">500원</text>
+        <text x="${COIN_D/2}" y="${COIN_D/2+9}" text-anchor="middle" dominant-baseline="middle"
+          fill="rgba(210,185,110,0.40)" font-size="8">${COIN_MM}mm</text>
+      </svg>`;
+
+      // 곤충 시각 (이미지 or SVG 캡슐 폴백) — 스테이지 내 절대 위치
+      const insectEl = imgSrc
+        ? `<img class="size-overlay-insect-img"
+               style="left:${insectLeft}px; width:${insectW.toFixed(0)}px"
+               src="${imgSrc}" alt="${orderStr || '곤충'}">`
+        : `<svg class="size-overlay-insect-svg"
+               style="left:${insectLeft}px"
+               width="${insectW.toFixed(0)}" height="16" xmlns="http://www.w3.org/2000/svg">
+             <rect x="0" y="2" width="${insectW.toFixed(1)}" height="12" rx="6" fill="rgba(127,168,142,0.75)"/>
+           </svg>`;
+
+      const footerW = Math.max(stageW, 120);
+
+      const wrap = document.createElement('div');
+      wrap.className = 'size-visual-inner';
+      wrap.innerHTML = `
+        <div class="size-visual-header">
+          <div class="size-visual-value">${valueText}</div>
+          <div class="size-compare-badge">${compareText}</div>
+        </div>
+        <div class="size-overlay-scene">
+          <div class="size-overlay-stage" style="width:${stageW}px; height:${stageH}px">
+            ${coinSvgEl}
+            ${insectEl}
+          </div>
+          <div class="size-overlay-footer" style="width:${footerW}px">
+            <span class="size-overlay-ref-label">◯ 500원 동전</span>
+            <span class="size-overlay-val-label">${valueText}${scaled ? ' (확대)' : ''}</span>
+          </div>
+        </div>`;
+      el.appendChild(wrap);
+    }
+
+    function renderMonthBar(page, seasonSummary) {
+      const el = page.querySelector('[data-slot="monthBar"]');
+      if (!el) return;
+      el.replaceChildren();
+      if (!seasonSummary?.value) return;
+
+      const value = seasonSummary.value;
+      const active = new Set();
+      const rangeMatch = value.match(/(\d{1,2})\s*월?\s*[~–—-]\s*(\d{1,2})\s*월/);
+      if (rangeMatch) {
+        const s = Number(rangeMatch[1]);
+        const e = Number(rangeMatch[2]);
+        if (e >= s) { for (let m = s; m <= e; m++) active.add(m); }
+        else { for (let m = s; m <= 12; m++) active.add(m); for (let m = 1; m <= e; m++) active.add(m); }
+      } else {
+        [...value.matchAll(/(\d{1,2})\s*월/g)].forEach(([, m]) => active.add(Number(m)));
+      }
+
+      const grid = document.createElement('div');
+      grid.className = 'month-bar';
+      for (let m = 1; m <= 12; m++) {
+        const cell = document.createElement('div');
+        cell.className = 'month-cell' + (active.has(m) ? ' active' : '');
+        cell.innerHTML = `<div class="month-cell-block"></div><span class="month-cell-label">${m}</span>`;
+        grid.appendChild(cell);
+      }
+      el.appendChild(grid);
     }
 
     function renderNibrList(page, sectionName, items) {

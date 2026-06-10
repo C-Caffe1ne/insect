@@ -2114,6 +2114,130 @@ ul { list-style: none; }
   }
 }
 
+/* ── SIZE VISUAL ── */
+.size-visual { padding: 4px 0; }
+
+.size-visual-inner { display: flex; flex-direction: column; gap: 12px; }
+
+.size-visual-header {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.size-visual-value {
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: -0.02em;
+  line-height: 1;
+}
+
+.size-compare-badge {
+  font-size: 11px;
+  color: var(--text-muted);
+  background: rgba(255,255,255,0.06);
+  border-radius: 20px;
+  padding: 3px 10px;
+  white-space: nowrap;
+}
+
+
+/* ── SIZE COMPARE OVERLAY ── */
+.size-overlay-scene {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 4px 0;
+}
+
+.size-overlay-stage {
+  position: relative;
+  overflow: visible;
+  flex-shrink: 0;
+}
+
+.size-overlay-coin-svg {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.size-overlay-insect-img,
+.size-overlay-insect-svg {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+.size-overlay-footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.size-overlay-ref-label {
+  font-size: 10px;
+  color: rgba(210,185,110,0.55);
+  white-space: nowrap;
+}
+
+.size-overlay-val-label {
+  font-size: 10px;
+  color: var(--text-faint);
+  white-space: nowrap;
+  text-align: right;
+}
+
+/* ── MONTH BAR ── */
+.month-bar-wrap { padding: 4px 0; }
+
+.month-bar {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 3px;
+}
+
+.month-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.month-cell-block {
+  width: 100%;
+  height: 28px;
+  border-radius: 4px;
+  background: rgba(255,255,255,0.07);
+  transition: background 0.15s;
+}
+
+.month-cell.active .month-cell-block {
+  background: var(--green-mid);
+}
+
+.month-cell-label {
+  font-size: 9px;
+  color: var(--text-faint);
+  line-height: 1;
+}
+
+.month-cell.active .month-cell-label {
+  color: var(--text-muted);
+}
+
+.season-activity-card {
+  margin-top: 12px;
+}
+
 /* ── HABITAT ── */
 .habitat-card {
   display: flex;
