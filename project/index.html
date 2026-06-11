@@ -2804,9 +2804,12 @@
       if (!el) return;
       el.replaceChildren();
 
-      const COIN_MM = 26.5;
-      const COIN_D  = 110;                     // 동전 시각 지름 px
-      const SCALE   = COIN_D / COIN_MM;        // px/mm
+      const COIN_MM    = 26.5;
+      const COIN_D_MAX = 110;  // 동전 최대 지름 px
+      const MIN_W      = 50;   // 곤충 최소 너비 px (치수선 레이블 확보)
+      const MAX_TOTAL  = 270;  // coinD + insectW 합계 최대값 (gap·padding 제외)
+      const GAP        = 20;   // 두 컬럼 사이 gap
+
       const min = size.min;
       const max = size.max ?? size.min;
       const unit = size.unit || 'mm';
@@ -2825,25 +2828,24 @@
       const orderLatin = (orderStr?.match(/\(([A-Za-z]+)\)/)?.[1] || '').toLowerCase();
       const imgSrc = ORDER_IMG[orderLatin] || null;
 
-      // 곤충 이미지 표시 너비 (비례 스케일, 최소 50px — 치수선 레이블 공간 확보)
-      const MIN_DISPLAY = 50;
-      const MAX_W = 250; // 박스 과대 팽창 방지 (동전·곤충 동일 비율 축소)
-      const rawInsectW = Math.max(avg * SCALE, MIN_DISPLAY);
-      const scaleRatio = rawInsectW > MAX_W ? MAX_W / rawInsectW : 1;
-      const insectW = Math.round(rawInsectW * scaleRatio);
-      const coinD   = Math.round(COIN_D * scaleRatio); // 동전도 같은 비율로
+      // coinD + insectW ≤ MAX_TOTAL 을 유지하면서 비율 보존
+      // ratio = avg / COIN_MM → insectW = coinD * ratio
+      // coinD * (1 + ratio) ≤ MAX_TOTAL → coinD ≤ MAX_TOTAL / (1 + ratio)
+      const sizeRatio = avg / COIN_MM;
+      const coinD   = Math.min(COIN_D_MAX, Math.floor(MAX_TOTAL / (1 + sizeRatio)));
+      const insectW = Math.max(Math.round(coinD * sizeRatio), MIN_W);
 
-      // 동전 SVG (viewBox는 원본 80px 기준, width/height만 coinD로 축소)
+      // 동전 SVG — 100×100 정규화 viewBox, coinD로 렌더 크기만 조절
       const coinSvgEl = `<svg class="size-compare-item-coin"
-          width="${coinD}" height="${coinD}" viewBox="0 0 ${COIN_D} ${COIN_D}" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-        <circle cx="${COIN_D/2}" cy="${COIN_D/2}" r="${COIN_D/2-1}"
-          fill="rgba(210,185,110,0.10)" stroke="rgba(210,185,110,0.55)" stroke-width="1.5"/>
-        <circle cx="${COIN_D/2}" cy="${COIN_D/2}" r="${(COIN_D/2)*0.82}"
-          fill="none" stroke="rgba(210,185,110,0.22)" stroke-width="0.8"/>
-        <text x="${COIN_D/2}" y="${COIN_D/2-4}" text-anchor="middle" dominant-baseline="middle"
-          fill="rgba(210,185,110,0.70)" font-size="10" font-weight="700">500원</text>
-        <text x="${COIN_D/2}" y="${COIN_D/2+9}" text-anchor="middle" dominant-baseline="middle"
-          fill="rgba(210,185,110,0.40)" font-size="8">${COIN_MM}mm</text>
+          width="${coinD}" height="${coinD}" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <circle cx="50" cy="50" r="49"
+          fill="rgba(210,185,110,0.10)" stroke="rgba(210,185,110,0.55)" stroke-width="2"/>
+        <circle cx="50" cy="50" r="40"
+          fill="none" stroke="rgba(210,185,110,0.22)" stroke-width="1.2"/>
+        <text x="50" y="46" text-anchor="middle" dominant-baseline="middle"
+          fill="rgba(210,185,110,0.70)" font-size="16" font-weight="700">500원</text>
+        <text x="50" y="62" text-anchor="middle" dominant-baseline="middle"
+          fill="rgba(210,185,110,0.40)" font-size="12">${COIN_MM}mm</text>
       </svg>`;
 
       // 곤충 시각 (이미지 or SVG 캡슐 폴백)
