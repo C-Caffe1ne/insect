@@ -2144,56 +2144,44 @@ ul { list-style: none; }
 }
 
 
-/* ── SIZE COMPARE OVERLAY ── */
-.size-overlay-scene {
+/* ── SIZE COMPARE SIDE-BY-SIDE ── */
+.size-compare-scene {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  gap: 8px;
+  gap: 0;
   padding: 4px 0;
 }
 
-.size-overlay-stage {
-  position: relative;
+.size-compare-stage {
+  display: grid;
+  grid-template-rows: auto auto;
+  column-gap: 20px;
+  row-gap: 10px;
+  background: rgba(100,100,105,0.22);
+  border-radius: 12px;
+  padding: 16px 20px;
+  width: fit-content;
   overflow: visible;
-  flex-shrink: 0;
 }
 
-.size-overlay-coin-svg {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 1;
+.size-compare-img-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.size-overlay-insect-img,
-.size-overlay-insect-svg {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 2;
-  height: auto;
+.size-compare-item-img {
   display: block;
   object-fit: contain;
 }
 
-.size-overlay-footer {
+.size-compare-item-coin {
+  display: block;
+}
+
+.size-compare-dim-area {
   display: flex;
-  justify-content: space-between;
-  gap: 8px;
-}
-
-.size-overlay-ref-label {
-  font-size: 10px;
-  color: rgba(210,185,110,0.55);
-  white-space: nowrap;
-}
-
-.size-overlay-val-label {
-  font-size: 10px;
-  color: var(--text-faint);
-  white-space: nowrap;
-  text-align: right;
+  justify-content: center;
 }
 
 /* ── MONTH BAR ── */

@@ -1112,7 +1112,7 @@
       const values = [];
       let detail = '';
       nibr.morphology
-        .filter(text => /몸길이|체장|전체 길이/.test(text))
+        .filter(text => /몸길이|체장|전체 길이|크기는|성충의 크기|날개 끝까지 길이|앞날개 길이|날개 편 길이/.test(text))
         .forEach((text) => {
           if (!detail) detail = cleanEvidence(text);
           const matches = String(text).matchAll(/(\d+(?:\.\d+)?)\s*(?:~|–|—|-)\s*(\d+(?:\.\d+)?)\s*mm|(\d+(?:\.\d+)?)\s*mm/gi);
@@ -2805,7 +2805,7 @@
       el.replaceChildren();
 
       const COIN_MM = 26.5;
-      const COIN_D  = 80;                      // 동전 시각 지름 px
+      const COIN_D  = 110;                     // 동전 시각 지름 px
       const SCALE   = COIN_D / COIN_MM;        // px/mm
       const min = size.min;
       const max = size.max ?? size.min;
@@ -2825,23 +2825,19 @@
       const orderLatin = (orderStr?.match(/\(([A-Za-z]+)\)/)?.[1] || '').toLowerCase();
       const imgSrc = ORDER_IMG[orderLatin] || null;
 
-      // 곤충 이미지 표시 너비 (비례 스케일, 최소 20px)
-      const MIN_DISPLAY = 20;
-      const insectW = Math.max(avg * SCALE, MIN_DISPLAY);
-      const scaled = insectW === MIN_DISPLAY && avg * SCALE < MIN_DISPLAY;
+      // 곤충 이미지 표시 너비 (비례 스케일, 최소 50px — 치수선 레이블 공간 확보)
+      const MIN_DISPLAY = 50;
+      const MAX_W = 250; // 박스 과대 팽창 방지 (동전·곤충 동일 비율 축소)
+      const rawInsectW = Math.max(avg * SCALE, MIN_DISPLAY);
+      const scaleRatio = rawInsectW > MAX_W ? MAX_W / rawInsectW : 1;
+      const insectW = Math.round(rawInsectW * scaleRatio);
+      const coinD   = Math.round(COIN_D * scaleRatio); // 동전도 같은 비율로
 
-      // 오버레이 스테이지 크기
-      const stageW = Math.max(COIN_D, insectW) + 16;
-      const stageH = COIN_D;
-      const coinLeft = ((stageW - COIN_D) / 2).toFixed(1);
-      const insectLeft = ((stageW - insectW) / 2).toFixed(1);
-
-      // 동전 SVG (스테이지 내 절대 위치)
-      const coinSvgEl = `<svg class="size-overlay-coin-svg"
-          style="left:${coinLeft}px"
-          width="${COIN_D}" height="${COIN_D}" viewBox="0 0 ${COIN_D} ${COIN_D}" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      // 동전 SVG (viewBox는 원본 80px 기준, width/height만 coinD로 축소)
+      const coinSvgEl = `<svg class="size-compare-item-coin"
+          width="${coinD}" height="${coinD}" viewBox="0 0 ${COIN_D} ${COIN_D}" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
         <circle cx="${COIN_D/2}" cy="${COIN_D/2}" r="${COIN_D/2-1}"
-          fill="rgba(210,185,110,0.08)" stroke="rgba(210,185,110,0.55)" stroke-width="1.5"/>
+          fill="rgba(210,185,110,0.10)" stroke="rgba(210,185,110,0.55)" stroke-width="1.5"/>
         <circle cx="${COIN_D/2}" cy="${COIN_D/2}" r="${(COIN_D/2)*0.82}"
           fill="none" stroke="rgba(210,185,110,0.22)" stroke-width="0.8"/>
         <text x="${COIN_D/2}" y="${COIN_D/2-4}" text-anchor="middle" dominant-baseline="middle"
@@ -2850,18 +2846,29 @@
           fill="rgba(210,185,110,0.40)" font-size="8">${COIN_MM}mm</text>
       </svg>`;
 
-      // 곤충 시각 (이미지 or SVG 캡슐 폴백) — 스테이지 내 절대 위치
+      // 곤충 시각 (이미지 or SVG 캡슐 폴백)
       const insectEl = imgSrc
-        ? `<img class="size-overlay-insect-img"
-               style="left:${insectLeft}px; width:${insectW.toFixed(0)}px"
+        ? `<img class="size-compare-item-img"
+               style="width:${insectW.toFixed(0)}px"
                src="${imgSrc}" alt="${orderStr || '곤충'}">`
-        : `<svg class="size-overlay-insect-svg"
-               style="left:${insectLeft}px"
-               width="${insectW.toFixed(0)}" height="16" xmlns="http://www.w3.org/2000/svg">
-             <rect x="0" y="2" width="${insectW.toFixed(1)}" height="12" rx="6" fill="rgba(127,168,142,0.75)"/>
+        : `<svg width="${insectW.toFixed(0)}" height="${Math.max(insectW * 0.45, 14).toFixed(0)}"
+               xmlns="http://www.w3.org/2000/svg">
+             <rect x="0" y="4" width="${insectW.toFixed(1)}" height="${Math.max(insectW*0.45-8,6).toFixed(1)}" rx="5" fill="rgba(127,168,142,0.75)"/>
            </svg>`;
 
-      const footerW = Math.max(stageW, 120);
+      // 치수선 SVG 생성기 "|———|" + 수치
+      const LY = 5, TH = 4, DH = 20;
+      const dimSvg = (w, label, stroke) =>
+        `<svg width="${w}" height="${DH}" xmlns="http://www.w3.org/2000/svg" style="overflow:visible">
+          <line x1="0.5" y1="${LY}" x2="${w-0.5}" y2="${LY}" stroke="${stroke}" stroke-width="0.8"/>
+          <line x1="0.5" y1="${LY-TH}" x2="0.5" y2="${LY+TH}" stroke="${stroke}" stroke-width="0.8"/>
+          <line x1="${w-0.5}" y1="${LY-TH}" x2="${w-0.5}" y2="${LY+TH}" stroke="${stroke}" stroke-width="0.8"/>
+          <text x="${w/2}" y="${DH-1}" text-anchor="middle" fill="${stroke}"
+                font-size="9" font-family="system-ui,sans-serif">${label}</text>
+        </svg>`;
+
+      const coinDimEl   = dimSvg(coinD, `${COIN_MM}mm`, 'rgba(210,185,110,0.55)');
+      const insectDimEl = dimSvg(insectW, valueText, 'rgba(255,255,255,0.38)');
 
       const wrap = document.createElement('div');
       wrap.className = 'size-visual-inner';
@@ -2870,14 +2877,13 @@
           <div class="size-visual-value">${valueText}</div>
           <div class="size-compare-badge">${compareText}</div>
         </div>
-        <div class="size-overlay-scene">
-          <div class="size-overlay-stage" style="width:${stageW}px; height:${stageH}px">
-            ${coinSvgEl}
-            ${insectEl}
-          </div>
-          <div class="size-overlay-footer" style="width:${footerW}px">
-            <span class="size-overlay-ref-label">◯ 500원 동전</span>
-            <span class="size-overlay-val-label">${valueText}${scaled ? ' (확대)' : ''}</span>
+        <div class="size-compare-scene">
+          <div class="size-compare-stage"
+               style="grid-template-columns:${coinD}px ${insectW}px">
+            <div class="size-compare-img-area">${coinSvgEl}</div>
+            <div class="size-compare-img-area">${insectEl}</div>
+            <div class="size-compare-dim-area">${coinDimEl}</div>
+            <div class="size-compare-dim-area">${insectDimEl}</div>
           </div>
         </div>`;
       el.appendChild(wrap);
