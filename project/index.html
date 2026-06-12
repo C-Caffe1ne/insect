@@ -330,10 +330,6 @@
         <h3 class="species-info-eyebrow">SEASON</h3>
         <p class="species-info-title">활동·관찰 시기</p>
         <div class="month-bar-wrap" data-slot="monthBar"></div>
-        <article class="species-fact-card season-activity-card" data-fact-card="activity">
-          <span class="species-fact-label">활동 시간</span>
-          <strong class="species-fact-value" data-slot="factActivity">—</strong>
-        </article>
       </section>
 
       <!-- ── 3. MORPHOLOGY ── -->
@@ -2608,23 +2604,13 @@
           }
         : null;
       const seasonSummary = extractActivitySeason(nibr);
-      const activityFallback = Array.isArray(species.activity)
-        ? species.activity.join(' · ')
-        : species.activity;
-      const activitySummary = extractActivityTime(nibr, activityFallback);
       // ── SIZE 섹션 ──
       setOptionalSection(page, 'size', Boolean(size?.min != null));
       if (size?.min != null) renderSizeVisual(page, size, species.taxonomy?.order);
 
       // ── SEASON 섹션 ──
-      const seasonVisible = Boolean(seasonSummary?.value || activitySummary?.value);
-      setOptionalSection(page, 'season', seasonVisible);
-      if (seasonVisible) {
-        renderMonthBar(page, seasonSummary);
-        const actCard = page.querySelector('[data-fact-card="activity"]');
-        if (actCard) actCard.hidden = !activitySummary?.value;
-        if (activitySummary?.value) setSlot(page, 'factActivity', activitySummary.value);
-      }
+      setOptionalSection(page, 'season', Boolean(seasonSummary?.value));
+      if (seasonSummary?.value) renderMonthBar(page, seasonSummary);
 
       // ── MORPHOLOGY 섹션 (리스트) ──
       renderNibrList(page, 'morphology', nibr?.morphology);
