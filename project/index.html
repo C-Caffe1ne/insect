@@ -240,7 +240,7 @@
         <!-- ═══════════════════════════════════════════ -->
         <!-- TAB 2: TAXONOMY BROWSE                     -->
         <!-- ═══════════════════════════════════════════ -->
-        <div class="tab-content" id="panelTaxonomy" aria-hidden="true" inert>
+        <div class="tab-content" id="panelTaxonomy" aria-hidden="true">
           <section class="section">
             <div class="section-head">
               <div>
@@ -977,6 +977,16 @@
 
   <script>
     // ── 그라데이션 팔레트 (8종 순환) ──
+    const ORDER_IMG = {
+      zygentoma: 'zygentoma', ephemeroptera: 'ephemeroptera', odonata: 'odonata',
+      blattaria: 'blattodea', blattodea: 'blattodea', mantodea: 'mantodea',
+      dermaptera: 'dermaptera', orthoptera: 'orthoptera',
+      phasmida: 'phasmida', phasmatodea: 'phasmida',
+      hemiptera: 'hemiptera', neuroptera: 'neuroptera', coleoptera: 'coleoptera',
+      diptera: 'diptera', mecoptera: 'mecoptera', trichoptera: 'trichoptera',
+      lepidoptera: 'lepidoptera', hymenoptera: 'hymenoptera',
+    };
+
     const ORDER_GRADIENTS = [
       'radial-gradient(ellipse at 40% 50%, rgba(80,60,30,0.5), transparent 50%), linear-gradient(150deg, #1a1510, #20251a, #15180f)',
       'radial-gradient(ellipse at 50% 50%, rgba(100,60,80,0.4), transparent 50%), linear-gradient(130deg, #1a1218, #221a20, #181015)',
@@ -1269,9 +1279,12 @@
         card.style.viewTransitionName = `card-${orderKey}`;
         card.setAttribute('role', 'button');
         card.tabIndex = 0;
+        const imgFile = ORDER_IMG[(order.scientificName || '').toLowerCase()];
+        const orderImgTag = imgFile ? `<img src="images/order/${imgFile}.png" alt="" loading="lazy" decoding="async">` : '';
         card.innerHTML = `
           <div class="order-mini-img">
             <div class="placeholder-img" style="background: ${bg}"></div>
+            ${orderImgTag}
             <div class="order-img-overlay"></div>
           </div>
           <div class="order-mini-body">
@@ -1556,8 +1569,6 @@
       panelTaxonomy.classList.toggle('active', isTaxonomy);
       panelCurated.setAttribute('aria-hidden', String(isTaxonomy));
       panelTaxonomy.setAttribute('aria-hidden', String(!isTaxonomy));
-      panelCurated.inert = isTaxonomy;
-      panelTaxonomy.inert = !isTaxonomy;
     }
 
     tabCurated.addEventListener('click', () => switchDiscoverTab('curated'));
