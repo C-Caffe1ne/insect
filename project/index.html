@@ -87,13 +87,13 @@
             </div>
 
             <div class="featured-grid">
-              <article class="featured-card featured-card--large">
-                <div class="placeholder-img placeholder-img--night"></div>
+              <article class="featured-card featured-card--large" id="todayInsectCard" role="button" tabindex="0">
+                <div class="featured-card-bg placeholder-img placeholder-img--night" id="todayInsectBg"></div>
                 <div class="featured-overlay"></div>
                 <div class="featured-info">
-                  <span class="featured-tag">COLLECTION</span>
-                  <h3 class="featured-name">호랑나비</h3>
-                  <p class="featured-count">Papilio xuthus</p>
+                  <span class="featured-tag" id="todayInsectTag">TODAY</span>
+                  <h3 class="featured-name" id="todayInsectName">—</h3>
+                  <p class="featured-count" id="todayInsectSci"></p>
                 </div>
               </article>
             </div>
@@ -103,8 +103,8 @@
           <section class="section">
             <div class="section-head">
               <div>
-                <h2 class="section-title">여름밤을 장식하는 곤충</h2>
-                <p class="section-sub">여름 곤충소리</p>
+                <h2 class="section-title">여름 곤충</h2>
+                <p class="section-sub">여름에 만날 수 있는 곤충들</p>
               </div>
               <a class="see-all" href="#">전체보기</a>
             </div>
@@ -133,12 +133,12 @@
             </div>
           </section>
 
-          <!-- The Iridescent Ones -->
+          <!-- The Harmful -->
           <section class="section">
             <div class="section-head">
               <div>
-                <h2 class="section-title">개간지 딱정벌레</h2>
-                <p class="section-sub">Light that bends across the shell</p>
+                <h2 class="section-title">해충</h2>
+                <p class="section-sub">해충으로 분류된 곤충들</p>
               </div>
               <a class="see-all" href="#">전체보기</a>
             </div>
@@ -1060,6 +1060,36 @@
     let eolCacheData = null;
     let eolCacheLoading = null;
 
+    // iNaturalist 사진 캐시 — inat_photo_cache.json (scripts/fetch_inat_photos.mjs로 생성)
+    // 구조: { "Genus species": ["url1","url2","url3"], ... }
+    let inatPhotoCacheData = null;
+    let inatPhotoCacheLoading = null;
+
+    function loadInatPhotoCache() {
+      if (inatPhotoCacheData) return Promise.resolve(inatPhotoCacheData);
+      if (inatPhotoCacheLoading) return inatPhotoCacheLoading;
+      inatPhotoCacheLoading = fetch('inat_photo_cache.json')
+        .then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
+        .then(data => {
+          inatPhotoCacheData = data && typeof data === 'object' ? data : {};
+          return inatPhotoCacheData;
+        })
+        .catch(() => {
+          inatPhotoCacheData = {};
+          return inatPhotoCacheData;
+        });
+      return inatPhotoCacheLoading;
+    }
+
+    // [{url, license, attribution}, ...] 반환
+    function lookupInatPhotos(ins) {
+      if (!inatPhotoCacheData) return [];
+      const key = [ins.g, ins.s].filter(Boolean).join(' ');
+      const entries = inatPhotoCacheData[key] || [];
+      // 구 구조(string[]) 호환
+      return entries.map(e => typeof e === 'string' ? { url: e, license: '', attribution: '' } : e);
+    }
+
     // NIBR 캐시 — nibr_cache.json (nibr_insects.json에서 생성)
     let nibrCacheData = null;
     let nibrCacheLoading = null;
@@ -1179,6 +1209,8 @@
 
     function mapIndexSpecies(ins) {
       const name = parseScientificNameMetadata(ins.sci);
+      const inatPhotos = lookupInatPhotos(ins);
+      const primaryUrl = inatPhotos[0]?.url || ins.img || null;
       return {
         scientificName: name.canonical || ins.sci || '',
         rawScientificName: ins.sci || '',
@@ -1188,7 +1220,8 @@
         page: ins.page || 0,
         genus: ins.g || '',
         species: ins.s || '',
-        inat: ins.img ? { imageUrl: ins.img } : null,
+        inat: primaryUrl ? { imageUrl: primaryUrl } : null,
+        inatPhotos,
         nibr: lookupNibr(ins.sci),
         taxonomy: {
           order: [ins.oKr, ins.os ? `(${ins.os})` : null].filter(Boolean).join(' '),
@@ -1435,9 +1468,10 @@
       });
     }
 
-    // ── EOL + NIBR 캐시 사전 로드 (비차단) ──
+    // ── EOL + NIBR + iNat 사진 캐시 사전 로드 (비차단) ──
     loadEolCache();
     loadNibrCache();
+    loadInatPhotoCache();
 
     // ── 데이터 로드 ──
     loadSearchIndex()
@@ -1755,9 +1789,10 @@
 
       const thumb = document.createElement('div');
       thumb.className = 'result-thumb';
-      if (ins.img) {
+      const thumbSrc = ins.img || lookupInatPhotos(ins)[0]?.url || null;
+      if (thumbSrc) {
         const img = document.createElement('img');
-        img.src = ins.img;
+        img.src = thumbSrc;
         img.alt = ins.kr || ins.sci || '';
         img.loading = 'lazy';
         img.decoding = 'async';
@@ -1786,22 +1821,7 @@
       });
       info.append(krEl, sciEl, taxEl);
 
-      const badges = document.createElement('div');
-      badges.className = 'result-badges';
-      if (ins.eolKo) {
-        const b = document.createElement('span');
-        b.className = 'result-badge result-badge--eol';
-        b.textContent = 'EOL';
-        badges.appendChild(b);
-      }
-      if (ins.nibr || lookupNibr(ins.sci)) {
-        const b = document.createElement('span');
-        b.className = 'result-badge result-badge--nibr';
-        b.textContent = 'NIBR';
-        badges.appendChild(b);
-      }
-
-      li.append(thumb, info, badges);
+      li.append(thumb, info);
 
       const open = () => openSpeciesFromIndex(ins);
       li.addEventListener('click', open);
@@ -1815,7 +1835,7 @@
     }
 
     // 인덱스 검색 결과 → 종 상세 진입
-    function openSpeciesFromIndex(ins) {
+    function openSpeciesFromIndex(ins, fromPage = 'pageSearch') {
       // 상세 페이지가 참조할 수 있도록 selectedOrder/selectedFamily 동기화
       const order = ordersData.find(d => d.id === ins.o || d.scientificName === ins.os);
       if (order) {
@@ -1831,7 +1851,24 @@
       const canonical = name.canonical;
       const familyLabel = [ins.fKr, ins.fs ? `(${ins.fs})` : null].filter(Boolean).join(' ');
       const orderLabel = [ins.oKr, ins.os ? `(${ins.os})` : null].filter(Boolean).join(' ');
-      const photoId = inatPhotoIdFromUrl(ins.img);
+
+      // iNat 사진 캐시(3장, license 포함) → 없으면 기존 단일 img fallback
+      const cachedPhotos = lookupInatPhotos(ins);
+      const photoSources = cachedPhotos.length > 0
+        ? cachedPhotos
+        : (ins.img ? [{ url: ins.img, license: '', attribution: '' }] : []);
+      const images = photoSources.map(p => p.url);
+      const imageCredits = photoSources.map(p => {
+        const photoId = inatPhotoIdFromUrl(p.url);
+        return {
+          source: p.sourceName || 'iNaturalist',
+          sourceClass: p.sourceClass || 'inat',
+          url: p.url,
+          pageUrl: p.pageUrl || (photoId ? `https://www.inaturalist.org/photos/${photoId}` : 'https://www.inaturalist.org'),
+          license: formatLicense(p.license) || null,
+          rightsHolder: extractInatAuthor(p.attribution),
+        };
+      });
 
       openSpeciesDetail({
         ...placeholder,
@@ -1841,14 +1878,8 @@
         author: name.author,
         year: name.year,
         nibr: lookupNibr(ins.sci),
-        images: ins.img ? [ins.img] : [],
-        imageCredits: ins.img ? [{
-          source: 'iNaturalist',
-          sourceClass: 'inat',
-          url: ins.img,
-          pageUrl: photoId ? `https://www.inaturalist.org/photos/${photoId}` : 'https://www.inaturalist.org',
-          license: 'iNaturalist 사진 페이지에서 확인'
-        }] : [],
+        images,
+        imageCredits,
         taxonomy: {
           ...placeholder.taxonomy,
           order: orderLabel || placeholder.taxonomy.order,
@@ -1856,7 +1887,7 @@
           genus: formatGenusRank(ins.g) || placeholder.taxonomy.genus,
           species: formatSpeciesTaxonomy(ins.kr || ins.eolKo, canonical || ins.s) || placeholder.taxonomy.species
         }
-      }, 'pageSearch');
+      }, fromPage);
     }
 
     // 입력/필터 바인딩
@@ -1894,6 +1925,46 @@
         loadSearchIndex().then(performSearch);
       });
     });
+
+    // 오늘의 곤충 카드 — 날짜 기반 시드로 하루에 같은 곤충, 클릭 시 상세 오픈
+    function initTodayInsectCard() {
+      const card = document.getElementById('todayInsectCard');
+      if (!card) return;
+      Promise.all([loadSearchIndex(), loadInatPhotoCache()]).then(() => {
+        // 사진 있는 종 우선: 캐시 or ins.img
+        const list = (searchIndexData?.insects || []).filter(i =>
+          lookupInatPhotos(i)[0]?.url || i.img
+        );
+        if (!list.length) return;
+        const today = new Date();
+        const seed = today.getFullYear() * 10000 + (today.getMonth() + 1) * 100 + today.getDate();
+        const ins = list[seed % list.length];
+
+        const cardPhotoSrc = lookupInatPhotos(ins)[0]?.url || ins.img || null;
+        const bg = document.getElementById('todayInsectBg');
+        if (cardPhotoSrc && bg) {
+          const img = document.createElement('img');
+          img.src = cardPhotoSrc;
+          img.alt = ins.kr || ins.sci || '';
+          img.className = 'featured-card-bg';
+          img.loading = 'eager';
+          img.decoding = 'async';
+          bg.replaceWith(img);
+        }
+
+        const nameEl = document.getElementById('todayInsectName');
+        const sciEl  = document.getElementById('todayInsectSci');
+        const tagEl  = document.getElementById('todayInsectTag');
+        if (nameEl) nameEl.textContent = ins.kr || ins.eolKo || ins.sci || '—';
+        if (sciEl)  sciEl.textContent  = ins.sci || '';
+        if (tagEl)  tagEl.textContent  = ins.oKr || ins.os || 'TODAY';
+
+        card.addEventListener('click', () => openSpeciesFromIndex(ins, 'pageDiscover'));
+        card.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') openSpeciesFromIndex(ins, 'pageDiscover'); });
+        card.style.cursor = 'pointer';
+      });
+    }
+    initTodayInsectCard();
 
     // 랜덤 곤충 — 인덱스에서 무작위 1종을 종 상세로
     const randomBtn = document.getElementById('btnRandom');
@@ -2339,8 +2410,19 @@
       return s;
     }
 
+    // iNat attribution 문자열에서 저작자 이름만 추출
+    // "(c) Cole Shoemaker, some rights reserved (CC BY)" → "Cole Shoemaker"
+    // "no rights reserved" → "CC0"
+    function extractInatAuthor(attribution) {
+      if (!attribution) return '';
+      if (/^no rights reserved/i.test(attribution)) return 'CC0';
+      const m = attribution.match(/^\(c\)\s+(.+?)(?:,\s+(?:some|all)\s+rights|$)/i);
+      return m ? m[1].trim() : '';
+    }
+
     // 여러 소스에서 이미지 + 출처 정보를 수집해 (image URL, credit) 쌍을 dedupe로 최대 5개 반환.
-    // - inat: 단일 imageUrl + observationCount (license 없으면 사진 페이지 링크)
+    // - inatPhotos: 캐시 3장 (license + attribution 포함) — 최우선
+    // - inat: 단일 imageUrl (캐시 없을 때 fallback)
     // - inatTaxon.taxonPhotos / defaultPhoto: 풍부한 attribution
     // - gbif.media: license + rightsHolder + source
     // - wiki: Wikimedia Commons 페이지 링크
@@ -2356,7 +2438,23 @@
         credits.push(credit);
       }
 
-      // 1) iNat 단일 이미지 (가벼운 캐시)
+      // 0) iNat 사진 캐시 — license + attribution 포함 (최우선)
+      if (Array.isArray(item?.inatPhotos) && item.inatPhotos.length > 0) {
+        for (const p of item.inatPhotos) {
+          if (!p?.url) continue;
+          const photoId = inatPhotoIdFromUrl(p.url);
+          add(p.url, {
+            source: p.sourceName || 'iNaturalist',
+            sourceClass: p.sourceClass || 'inat',
+            url: p.url,
+            pageUrl: p.pageUrl || (photoId ? `https://www.inaturalist.org/photos/${photoId}` : 'https://www.inaturalist.org'),
+            license: formatLicense(p.license) || null,
+            rightsHolder: extractInatAuthor(p.attribution),
+          });
+        }
+      }
+
+      // 1) iNat 단일 이미지 (캐시 없을 때 fallback)
       if (item?.inat?.imageUrl) {
         const photoId = inatPhotoIdFromUrl(item.inat.imageUrl);
         add(item.inat.imageUrl, {
