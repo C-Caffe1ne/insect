@@ -977,7 +977,7 @@
 
   <script>
     // ── 그라데이션 팔레트 (8종 순환) ──
-    const ORDER_IMG = {
+    const ORDER_FILE_MAP = {
       zygentoma: 'zygentoma', ephemeroptera: 'ephemeroptera', odonata: 'odonata',
       blattaria: 'blattodea', blattodea: 'blattodea', mantodea: 'mantodea',
       dermaptera: 'dermaptera', orthoptera: 'orthoptera',
@@ -1312,7 +1312,7 @@
         card.style.viewTransitionName = `card-${orderKey}`;
         card.setAttribute('role', 'button');
         card.tabIndex = 0;
-        const imgFile = ORDER_IMG[(order.scientificName || '').toLowerCase()];
+        const imgFile = ORDER_FILE_MAP[(order.scientificName || '').toLowerCase()];
         const orderImgTag = imgFile ? `<img src="images/order/${imgFile}.png" alt="" loading="lazy" decoding="async">` : '';
         card.innerHTML = `
           <div class="order-mini-img">
