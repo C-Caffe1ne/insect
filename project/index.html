@@ -1265,6 +1265,32 @@
           tags.appendChild(tag);
         });
 
+      // 마우스 드래그 스크롤
+      let isDragging = false, dragStartX = 0, dragScrollLeft = 0, dragMoved = false;
+      tags.addEventListener('pointerdown', (e) => {
+        isDragging = true;
+        dragMoved = false;
+        dragStartX = e.clientX;
+        dragScrollLeft = tags.scrollLeft;
+        tags.setPointerCapture(e.pointerId);
+        tags.style.cursor = 'grabbing';
+      });
+      tags.addEventListener('pointermove', (e) => {
+        if (!isDragging) return;
+        const dx = e.clientX - dragStartX;
+        if (Math.abs(dx) > 4) dragMoved = true;
+        tags.scrollLeft = dragScrollLeft - dx;
+      });
+      tags.addEventListener('pointerup', (e) => {
+        isDragging = false;
+        tags.style.cursor = '';
+        tags.releasePointerCapture(e.pointerId);
+      });
+      // 드래그 중 클릭 차단
+      tags.addEventListener('click', (e) => {
+        if (dragMoved) { e.stopPropagation(); e.preventDefault(); dragMoved = false; }
+      }, true);
+
       renderSpeciesSorted();
       showPage('pageFamilyDetail', { keepNav: true });
     }

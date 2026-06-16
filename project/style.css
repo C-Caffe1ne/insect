@@ -955,6 +955,11 @@ ul { list-style: none; }
   padding-bottom: 4px;
   -webkit-overflow-scrolling: touch;
   scrollbar-width: none;
+  cursor: grab;
+  user-select: none;
+}
+.order-tag-scroll:active {
+  cursor: grabbing;
 }
 
 .order-tag {
