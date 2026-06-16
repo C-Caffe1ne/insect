@@ -14,6 +14,7 @@
 import fs from 'fs/promises';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import Anthropic from '@anthropic-ai/sdk';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
@@ -29,7 +30,46 @@ const MAX_RETRY = 2;
 const HEADERS = { 'User-Agent': 'ENTOMA-KR/1.0 (hwanghs5290@gmail.com)' };
 const OPEN_LICENSES = 'cc-by,cc-by-nc,cc-by-sa,cc-by-nc-sa,cc0';
 
+const anthropic = new Anthropic();
+
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
+
+/**
+ * Claude 비전으로 이미지에 곤충 형태가 선명하게 보이는지 검증.
+ * 네트워크/API 오류 시 true 반환 (수집 중단 방지).
+ */
+async function isInsectVisible(url) {
+  try {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), TIMEOUT_MS);
+    const imgRes = await fetch(url, { signal: controller.signal, headers: HEADERS });
+    clearTimeout(timer);
+    if (!imgRes.ok) return false;
+
+    const buffer = await imgRes.arrayBuffer();
+    const base64 = Buffer.from(buffer).toString('base64');
+    const rawType = imgRes.headers.get('content-type') || '';
+    const mediaType = (['image/jpeg', 'image/png', 'image/gif', 'image/webp']
+      .find(t => rawType.includes(t)) || 'image/jpeg');
+
+    const msg = await anthropic.messages.create({
+      model: 'claude-haiku-4-5-20251001',
+      max_tokens: 5,
+      messages: [{
+        role: 'user',
+        content: [
+          { type: 'image', source: { type: 'base64', media_type: mediaType, data: base64 } },
+          { type: 'text', text: '이 사진에서 곤충의 몸 형태(머리·흉부·복부·다리·날개 등)가 명확하게 보이나요? 예 또는 아니오로만 답하세요.' },
+        ],
+      }],
+    });
+
+    const answer = (msg.content[0]?.text || '').trim();
+    return answer.startsWith('예') || /^yes/i.test(answer);
+  } catch {
+    return true;
+  }
+}
 
 async function apiFetch(url, retryCount = 0) {
   const controller = new AbortController();
@@ -87,32 +127,57 @@ async function getTaxon(genusSpecies) {
   };
 }
 
-/** step2: taxon_id 기반 관찰 사진 목록 획득 (license + attribution 포함) */
-async function getObsPhotos(taxonId) {
-  const params = new URLSearchParams({
-    taxon_id: String(taxonId),
-    license: OPEN_LICENSES,
-    photos: 'true',
-    per_page: '15',
-    order: 'desc',
-    order_by: 'votes',
-  });
-  const data = await apiFetch(`${INAT_BASE}/observations?${params}`);
-  if (!data?.results?.length) return [];
+function extractAuthor(attribution) {
+  if (!attribution) return '';
+  if (/^no rights reserved/i.test(attribution)) return 'cc0';
+  const m = attribution.match(/^\(c\)\s+(.+?)(?:,\s+(?:some|all)\s+rights|$)/i);
+  return m ? m[1].trim().toLowerCase() : attribution.toLowerCase();
+}
 
-  const seen = new Set();
+/** step2: taxon_id 기반 관찰 사진 목록 획득 — 저작자 중복 없이 최대 PHOTOS_PER_SPECIES장 */
+async function getObsPhotos(taxonId, excludeAuthors = new Set()) {
+  const seenUrls = new Set();
+  const seenAuthors = new Set(excludeAuthors);
   const photos = [];
-  for (const obs of data.results) {
-    for (const photo of obs.photos || []) {
-      const url = toMediumUrl(photo.url);
-      if (!url || seen.has(url)) continue;
-      seen.add(url);
-      photos.push({
-        url,
-        license: photo.license_code || '',
-        attribution: photo.attribution || '',
-      });
-      if (photos.length >= PHOTOS_PER_SPECIES) return photos;
+
+  // 비전 검증으로 탈락하는 후보가 생기므로 최대 5페이지까지 탐색
+  for (let page = 1; page <= 5 && photos.length < PHOTOS_PER_SPECIES; page++) {
+    const params = new URLSearchParams({
+      taxon_id: String(taxonId),
+      license: OPEN_LICENSES,
+      photos: 'true',
+      per_page: '30',
+      page: String(page),
+      order: 'desc',
+      order_by: 'votes',
+    });
+    const data = await apiFetch(`${INAT_BASE}/observations?${params}`);
+    if (!data?.results?.length) break;
+
+    for (const obs of data.results) {
+      for (const photo of obs.photos || []) {
+        const url = toMediumUrl(photo.url);
+        if (!url || seenUrls.has(url)) continue;
+        const author = extractAuthor(photo.attribution || '');
+        if (seenAuthors.has(author)) continue;
+
+        seenUrls.add(url);
+
+        const visible = await isInsectVisible(url);
+        if (!visible) {
+          process.stdout.write(' [vision:skip]');
+          continue;
+        }
+
+        seenAuthors.add(author);
+        photos.push({
+          url,
+          license: photo.license_code || '',
+          attribution: photo.attribution || '',
+        });
+        process.stdout.write(' [vision:ok]');
+        if (photos.length >= PHOTOS_PER_SPECIES) return photos;
+      }
     }
   }
   return photos;
@@ -122,12 +187,17 @@ async function fetchPhotosForSpecies(genusSpecies) {
   const taxon = await getTaxon(genusSpecies);
   if (!taxon) return [];
 
-  const obsPhotos = await getObsPhotos(taxon.id);
+  const dp = taxon.defaultPhoto;
+  const isOpen = dp?.license && dp.license !== 'c' && dp.license !== 'cc-by-nd';
+
+  // default_photo 저작자를 먼저 등록해 obs 수집 시 중복 방지
+  const defaultAuthor = (dp?.url && isOpen) ? extractAuthor(dp.attribution) : '';
+  const excludeAuthors = defaultAuthor ? new Set([defaultAuthor]) : new Set();
+
+  const obsPhotos = await getObsPhotos(taxon.id, excludeAuthors);
 
   // default_photo가 open license이면 앞에 삽입 (중복 URL 제외)
   const result = [...obsPhotos];
-  const dp = taxon.defaultPhoto;
-  const isOpen = dp?.license && dp.license !== 'c' && dp.license !== 'cc-by-nd';
   if (dp?.url && isOpen && !result.some(p => p.url === dp.url)) {
     result.unshift(dp);
   }

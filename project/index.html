@@ -505,7 +505,7 @@
               <div class="feature-finder-text">
                 <p class="feature-finder-eyebrow">FEATURE FINDER</p>
                 <h3 class="feature-finder-title">특징으로 찾기</h3>
-                <p class="feature-finder-sub">크기 · 색상 · 서식지 · 활동 시간을 선택해 추천</p>
+                <p class="feature-finder-sub">크기 · 서식지 · 활동 시간을 선택해 추천</p>
               </div>
               <span class="feature-finder-icon" aria-hidden="true">
                 <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
@@ -522,10 +522,9 @@
               <span class="random-finder-icon" aria-hidden="true">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                   stroke-linecap="round" stroke-linejoin="round">
-                  <rect width="18" height="18" x="3" y="3" rx="2" ry="2" />
-                  <circle cx="8.5" cy="8.5" r="1.5" />
-                  <circle cx="15.5" cy="15.5" r="1.5" />
-                  <circle cx="12" cy="12" r="1.5" />
+                  <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" />
+                  <circle cx="12" cy="17" r="1" fill="currentColor" stroke="none" />
+                  <circle cx="12" cy="12" r="10" />
                 </svg>
               </span>
               <span class="random-finder-text">
@@ -779,9 +778,8 @@
           <li class="feature-dot" data-step-index="1"></li>
           <li class="feature-dot" data-step-index="2"></li>
           <li class="feature-dot" data-step-index="3"></li>
-          <li class="feature-dot" data-step-index="4"></li>
         </ol>
-        <span class="feature-step-counter"><span id="featureStepNum">1</span><em>/4</em></span>
+        <span class="feature-step-counter"><span id="featureStepNum">1</span><em>/3</em></span>
       </header>
 
       <div class="feature-modal-body" id="featureModalBody">
@@ -806,42 +804,10 @@
           </div>
         </section>
 
-        <!-- Step 2: 색상 -->
-        <section class="feature-step" data-step-id="color">
-          <h3 class="feature-step-title">색상</h3>
-          <p class="feature-step-sub">눈에 띄는 주된 색을 골라 주세요</p>
-          <div class="feature-options feature-options--grid" data-key="color">
-            <button class="feature-option color-chip" data-value="검정" type="button">
-              <span class="color-swatch" style="background:#1a1a1a;"></span>검정
-            </button>
-            <button class="feature-option color-chip" data-value="갈색" type="button">
-              <span class="color-swatch" style="background:#6e4a2b;"></span>갈색
-            </button>
-            <button class="feature-option color-chip" data-value="녹색" type="button">
-              <span class="color-swatch" style="background:#3a7045;"></span>녹색
-            </button>
-            <button class="feature-option color-chip" data-value="노란색" type="button">
-              <span class="color-swatch" style="background:#d6b240;"></span>노란색
-            </button>
-            <button class="feature-option color-chip" data-value="적색" type="button">
-              <span class="color-swatch" style="background:#a83a3a;"></span>적색
-            </button>
-            <button class="feature-option color-chip" data-value="푸른색" type="button">
-              <span class="color-swatch" style="background:#3050a0;"></span>푸른색
-            </button>
-            <button class="feature-option color-chip" data-value="금속광택" type="button">
-              <span class="color-swatch color-swatch--metallic"></span>금속광택
-            </button>
-            <button class="feature-option color-chip" data-value="다양" type="button">
-              <span class="color-swatch color-swatch--gradient"></span>다양
-            </button>
-          </div>
-        </section>
-
-        <!-- Step 3: 서식지 -->
+        <!-- Step 2: 서식지 -->
         <section class="feature-step" data-step-id="habitat">
           <h3 class="feature-step-title">서식지</h3>
-          <p class="feature-step-sub">주로 어디서 만나고 싶나요?</p>
+          <p class="feature-step-sub">어디에서 볼 수 있나요?</p>
           <div class="feature-options feature-options--grid" data-key="habitat">
             <button class="feature-option" data-value="숲" type="button">
               <span class="feature-option-label">숲</span>
@@ -865,7 +831,7 @@
         <!-- Step 4: 활동 시간 -->
         <section class="feature-step" data-step-id="activity">
           <h3 class="feature-step-title">활동 시간</h3>
-          <p class="feature-step-sub">언제 활동하는 곤충이 좋을까요?</p>
+          <p class="feature-step-sub">언제 볼 수 있나요?</p>
           <div class="feature-options" data-key="activity">
             <button class="feature-option" data-value="주간" type="button">
               <span class="feature-option-label">주간</span>
@@ -876,21 +842,20 @@
               <span class="feature-option-sub">밤에 활동</span>
             </button>
             <button class="feature-option" data-value="모두" type="button">
-              <span class="feature-option-label">상관없음</span>
-              <span class="feature-option-sub">시간 무관</span>
+              <span class="feature-option-label">항상</span>
             </button>
           </div>
         </section>
 
         <!-- Step 5: 결과 -->
         <section class="feature-step feature-step--result" data-step-id="result">
-          <h3 class="feature-step-title">추천 결과</h3>
+          <h3 class="feature-step-title">탐색 결과</h3>
           <p class="feature-step-sub" id="featureResultSummary">선택한 특징과 맞는 곤충</p>
           <div class="feature-criteria-chips" id="featureCriteriaChips"></div>
           <ul class="feature-result-list" id="featureResultList" role="list"></ul>
-          <p class="feature-result-note">크기·색·활동 시간은 분류군 기반 추정값이며, 서식지는 EOL 데이터가 있을 때 활용됩니다.</p>
         </section>
 
+        <p class="feature-step-error" id="featureStepError" hidden></p>
       </div>
 
       <footer class="feature-modal-footer">
@@ -994,10 +959,6 @@
     let previousSpeciesPage = 'pageFamilyDetail';
     let searchIndexData = null;
     let searchIndexLoading = null;
-
-    // EOL TraitBank 캐시 — eol_species_cache.json (cached/cache_eol_species.mjs로 생성)
-    let eolCacheData = null;
-    let eolCacheLoading = null;
 
     // iNaturalist 사진 캐시 — inat_photo_cache.json (scripts/fetch_inat_photos.mjs로 생성)
     // 구조: { "Genus species": ["url1","url2","url3"], ... }
@@ -1389,11 +1350,8 @@
             year: item.namingYear || item.year || placeholder.year,
             description: item.description || item.abstract || placeholder.description,
             abstract: item.abstract || placeholder.abstract,
-            // 이미지 + 출처: buildImagesAndCredits 헬퍼로 통일 (inat + inatTaxon + gbif + wiki)
             ...buildImagesAndCredits(item, placeholder.images),
             taxonomy: fullTaxonomy,
-            // GBIF 데이터(있는 경우)를 openSpeciesDetail의 render()에서 enrich
-            _gbifData: item.gbif || null
           }, 'pageFamilyDetail');
         };
 
@@ -1409,8 +1367,7 @@
       });
     }
 
-    // ── EOL + NIBR + iNat 사진 캐시 사전 로드 (비차단) ──
-    loadEolCache();
+    // ── NIBR + iNat 사진 캐시 사전 로드 (비차단) ──
     loadNibrCache();
     loadInatPhotoCache();
 
@@ -1670,7 +1627,7 @@
 
       const thumb = document.createElement('div');
       thumb.className = 'result-thumb';
-      const thumbSrc = ins.img || lookupInatPhotos(ins)[0]?.url || null;
+      const thumbSrc = lookupInatPhotos(ins)[0]?.url || ins.img || null;
       if (thumbSrc) {
         const img = document.createElement('img');
         img.src = thumbSrc;
@@ -1882,8 +1839,6 @@
     // ══════════════════════════════════════════════
     // FEATURE FINDER MODAL (특징으로 찾기 — 4단계)
     // ══════════════════════════════════════════════
-    // 데이터 한계: KTSN/EOL에 크기·색·활동 시간이 종 단위로 없음.
-    // → 목/과 단위 휴리스틱 + EOL habitat 데이터를 결합한 "추천" 필터.
 
     // 목별 기본 trait — KTSN order id 기준
     const ORDER_TRAITS = {
@@ -1968,7 +1923,7 @@
     }
 
     // ── 모달 상태 머신 ──
-    const FEATURE_STEPS = ['size', 'color', 'habitat', 'activity', 'result'];
+    const FEATURE_STEPS = ['size', 'habitat', 'activity', 'result'];
     let featureModalState = { step: 0, criteria: {} };
 
     const featureModalEl    = document.getElementById('featureModal');
@@ -2026,11 +1981,14 @@
       featurePrevBtn.style.visibility = featureModalState.step === 0 ? 'hidden' : 'visible';
       if (stepId === 'result') {
         featureSkipBtn.hidden = true;
+        featureNextBtn.hidden = false;
         featureNextBtn.textContent = '닫기';
       } else {
-        featureSkipBtn.hidden = false;
         const isLastChoice = featureModalState.step === FEATURE_STEPS.length - 2; // activity
-        featureNextBtn.textContent = isLastChoice ? '결과 보기' : '다음';
+        // size·habitat: 다음 버튼 숨김 / activity: 건너뛰기 숨김
+        featureNextBtn.hidden = !isLastChoice;
+        featureSkipBtn.hidden = isLastChoice;
+        featureNextBtn.textContent = '결과 보기';
       }
 
       if (stepId === 'result') renderFeatureResults();
@@ -2038,6 +1996,7 @@
 
     function selectFeatureOption(stepKey, value, btnEl) {
       featureModalState.criteria[stepKey] = value;
+      clearFeatureStepError();
       // 같은 그룹의 다른 옵션 해제
       const group = btnEl.parentElement;
       group.querySelectorAll('.feature-option').forEach(b => b.classList.remove('selected'));
@@ -2046,9 +2005,39 @@
       setTimeout(() => advanceFeatureStep(), 180);
     }
 
+    const featureStepErrorEl = document.getElementById('featureStepError');
+
+    function showFeatureStepError(msg) {
+      const activeStep = featureModalEl.querySelector('.feature-step.active');
+      const optionsEl = activeStep?.querySelector('.feature-options');
+      if (optionsEl) {
+        optionsEl.classList.remove('feature-options--shake');
+        void optionsEl.offsetWidth;
+        optionsEl.classList.add('feature-options--shake');
+        optionsEl.addEventListener('animationend', () => optionsEl.classList.remove('feature-options--shake'), { once: true });
+      }
+      if (featureStepErrorEl) {
+        featureStepErrorEl.textContent = msg;
+        featureStepErrorEl.hidden = false;
+      }
+    }
+
+    function clearFeatureStepError() {
+      if (featureStepErrorEl) {
+        featureStepErrorEl.hidden = true;
+        featureStepErrorEl.textContent = '';
+      }
+    }
+
     function advanceFeatureStep() {
+      const nextIdx = featureModalState.step + 1;
+      // 결과 단계 진입 전 최소 하나 선택 검증
+      if (FEATURE_STEPS[nextIdx] === 'result' && Object.keys(featureModalState.criteria).length === 0) {
+        showFeatureStepError('특징을 최소 하나 이상 선택해주세요');
+        return;
+      }
       if (featureModalState.step < FEATURE_STEPS.length - 1) {
-        featureModalState.step += 1;
+        featureModalState.step = nextIdx;
         renderFeatureStep();
       } else {
         closeFeatureModal();
@@ -2084,23 +2073,15 @@
       const insects = searchIndexData?.insects || [];
       const matched = [];
       for (const ins of insects) {
-        if (matchFeature(ins, crit)) {
-          matched.push(ins);
-          if (matched.length >= 200) break; // 셔플 후 12개만 노출하므로 모집단을 200으로 제한
-        }
+        if (matchFeature(ins, crit)) matched.push(ins);
       }
-      // 같은 순서가 반복되지 않도록 가벼운 셔플
-      for (let i = matched.length - 1; i > 0; i -= 1) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [matched[i], matched[j]] = [matched[j], matched[i]];
-      }
-      const display = matched.slice(0, 12);
 
       if (featureResultSummaryEl) {
         featureResultSummaryEl.textContent = matched.length > 0
-          ? `${matched.length}건 중 상위 ${display.length}건을 무작위로 보여줍니다`
+          ? `${matched.length}건이 검색되었습니다`
           : '조건과 맞는 곤충을 찾지 못했습니다';
       }
+      const display = matched;
 
       featureResultListEl.replaceChildren();
       const frag = document.createDocumentFragment();
@@ -2300,11 +2281,10 @@
       return m ? m[1].trim() : '';
     }
 
-    // 여러 소스에서 이미지 + 출처 정보를 수집해 (image URL, credit) 쌍을 dedupe로 최대 5개 반환.
+    // 여러 소스에서 이미지 + 출처 정보를 수집해 (image URL, credit) 쌍을 dedupe로 최대 3개 반환.
     // - inatPhotos: 캐시 3장 (license + attribution 포함) — 최우선
     // - inat: 단일 imageUrl (캐시 없을 때 fallback)
     // - inatTaxon.taxonPhotos / defaultPhoto: 풍부한 attribution
-    // - gbif.media: license + rightsHolder + source
     // - wiki: Wikimedia Commons 페이지 링크
     function buildImagesAndCredits(item, fallbackImages) {
       const images = [];
@@ -2379,42 +2359,7 @@
         });
       }
 
-      // 3) GBIF 미디어
-      if (Array.isArray(item?.gbif?.media)) {
-        for (const m of item.gbif.media) {
-          if (!m?.url) continue;
-          add(m.url, {
-            source: 'GBIF',
-            sourceClass: 'gbif',
-            url: m.url,
-            pageUrl: m.url,
-            license: formatLicense(m.license) || 'GBIF 페이지 참조',
-            rightsHolder: m.rightsHolder || '',
-            sourceCitation: m.source || '',
-          });
-        }
-      }
-
-      // 3.5) GBIF Occurrence 사진 (family 단위 일괄 수집 결과)
-      // CC URL이 들어있는 경우 한국어 단축 라벨 + occurrence 페이지 직링크
-      const gbifPhotos = item?.gbifPics?.photos;
-      if (Array.isArray(gbifPhotos)) {
-        for (const p of gbifPhotos) {
-          if (!p?.url) continue;
-          add(p.url, {
-            source: 'GBIF',
-            sourceClass: 'gbif',
-            url: p.url,
-            pageUrl: p.occurrenceUrl || p.url,
-            license: formatLicense(p.license) || 'GBIF 페이지 참조',
-            rightsHolder: p.rightsHolder || p.recordedBy || '',
-            sourceCitation: p.datasetName || '',
-            meta: p.country ? `${p.country}${p.eventDate ? ' · ' + p.eventDate : ''}` : (p.eventDate || null),
-          });
-        }
-      }
-
-      // 4) Wikipedia
+      // 3) Wikipedia
       if (item?.wiki?.imageUrl) {
         add(item.wiki.imageUrl, {
           source: 'Wikipedia',
@@ -2843,214 +2788,6 @@
       return { canonical, author, year };
     }
 
-    function loadEolCache() {
-      if (eolCacheData) return Promise.resolve(eolCacheData);
-      if (eolCacheLoading) return eolCacheLoading;
-      eolCacheLoading = fetch('eol_species_cache.json')
-        .then(r => {
-          if (!r.ok) throw new Error(`HTTP ${r.status}`);
-          return r.json();
-        })
-        .then(data => {
-          eolCacheData = data && typeof data === 'object' ? data : { species: {} };
-          if (!eolCacheData.species) eolCacheData.species = {};
-          return eolCacheData;
-        })
-        .catch(err => {
-          console.warn('EOL 캐시 로드 실패 (자리표시자만 표시):', err.message);
-          eolCacheData = { species: {} };
-          return eolCacheData;
-        });
-      return eolCacheLoading;
-    }
-
-    // EOL 캐시에서 학명으로 조회하여 species 객체의 빈 필드를 보강
-    // 없거나 ok 상태가 아니면 species를 그대로 반환
-    function enrichSpeciesWithEol(species) {
-      if (!eolCacheData || !species || !species.scientificName) return species;
-      const canonical = canonicalizeSciName(species.scientificName);
-      const entry = eolCacheData.species && eolCacheData.species[canonical];
-      if (!entry || entry.status !== 'ok') return species;
-
-      const t = entry.traitsSummary || {};
-      const v = entry.vernaculars || {};
-
-      // 1) 한국어 통명 — 입력이 없을 때만 EOL 통명으로 보강
-      if ((!species.commonName || species.commonName === '이름 미상') && Array.isArray(v.ko) && v.ko.length > 0) {
-        species.commonName = v.ko[0];
-      }
-
-      // 2) 서식지 (habitat ENVO + 분포 지역 요약)
-      const parts = [];
-      if (Array.isArray(t.habitat) && t.habitat.length > 0) parts.push(t.habitat.join(', '));
-      if (!species.habitat && parts.length > 0) {
-        species.habitat = parts.join(' · ');
-      }
-
-      // 4) 설명 — EOL은 description 텍스트 미제공. 통명/상호작용/관측수로 요약 합성
-      if (!species.description) {
-        const desc = [];
-        if (Array.isArray(v.en) && v.en.length > 0) desc.push(`영명: ${v.en.slice(0, 3).join(' / ')}`);
-        if (Array.isArray(v.ja) && v.ja.length > 0) desc.push(`일본어: ${v.ja.slice(0, 2).join(' / ')}`);
-        if (Array.isArray(t.eats) && t.eats.length > 0) desc.push(`먹이: ${t.eats.slice(0, 5).join(', ')}`);
-        if (Array.isArray(t.visitsFlowersOf) && t.visitsFlowersOf.length > 0) desc.push(`방문 꽃: ${t.visitsFlowersOf.slice(0, 5).join(', ')}`);
-        if (Array.isArray(t.introduced) && t.introduced.length > 0) desc.push(`도입 지역: ${t.introduced.join(', ')}`);
-        if (desc.length > 0) species.description = desc.join(' · ');
-      }
-
-      // 5) 학명 전체 / 명명자 / 연도 — 원본 학명 문자열에서 파싱
-      if (!species.author || !species.year) {
-        const rawSci = species.rawScientificName || species.scientificName;
-        const yearMatch = rawSci.match(/\b(\d{4})\b/);
-        if (yearMatch && !species.year) species.year = yearMatch[1];
-        // 명명자: ", YYYY" 직전의 대문자 시작 단어들
-        const authorMatch = rawSci.match(/\b([A-Z][A-Za-z'’.\- ]+?)(?:,?\s*\d{4})/);
-        if (authorMatch && !species.author) species.author = authorMatch[1].trim();
-      }
-
-      // 6) EOL 출처 — 페이지 ID 보존 (디버깅/링크용)
-      species.eolPageId = entry.pageId;
-      species.eolCanonical = canonical;
-
-      return species;
-    }
-
-    // GBIF 캐시 보강 — family JSON의 insect.gbif 필드를 species 객체로 매핑.
-    // EOL과 달리 종 단위 인라인 데이터이므로 별도 fetch가 필요 없음.
-    function enrichSpeciesWithGbif(species, gbifData) {
-      if (!species || !gbifData) return species;
-      if (gbifData.status === 'not_found' || !gbifData.usageKey) return species;
-
-      // 1) 이미지 (CC 라이센스 메타 함께 보존)
-      if (Array.isArray(gbifData.media) && gbifData.media.length > 0) {
-        if (!Array.isArray(species.images) || species.images.length === 0) {
-          species.images = gbifData.media.map((m) => m.url).filter(Boolean);
-        }
-        species.imageCredits = gbifData.media.map((m) => ({
-          url: m.url, license: m.license, rightsHolder: m.rightsHolder, source: m.source,
-        }));
-      }
-
-      // 2) 한국어 통명 — 빈 경우만 보강
-      const v = gbifData.vernaculars || {};
-      if ((!species.commonName || species.commonName === '이름 미상') && Array.isArray(v.ko) && v.ko.length > 0) {
-        species.commonName = v.ko[0];
-      }
-
-      // 3) 명명자 / 연도 — authorship에서 파싱
-      if ((!species.author || !species.year) && gbifData.authorship) {
-        const m = gbifData.authorship.match(/^\(?([^,()]+?),\s*(\d{4})\)?/);
-        if (m) {
-          if (!species.author) species.author = m[1].trim();
-          if (!species.year)   species.year = m[2];
-        }
-      }
-
-      // 4) 학명 전체 표기 (예: "Pantala flavescens (Fabricius, 1798)")
-      if (!species.fullScientificName && gbifData.scientificName) {
-        species.fullScientificName = gbifData.scientificName;
-      }
-
-      // 4.5) 분류 계층 보강 — KTSN에 없는 kingdom 등을 GBIF로 채움 (학명만 있는 경우는 "학명"으로 표기)
-      const gtx = gbifData.taxonomy || {};
-      const tx = species.taxonomy || {};
-      const fillTax = (key, gbifValue, koreanLabel) => {
-        // 이미 KTSN/placeholder가 채운 값이 있으면 유지
-        if (tx[key] && tx[key] !== '데이터 준비 중') return;
-        if (!gbifValue) return;
-        tx[key] = koreanLabel ? `${koreanLabel} (${gbifValue})` : gbifValue;
-      };
-      fillTax('kingdom', gtx.kingdom, '동물계');
-      fillTax('phylum',  gtx.phylum);
-      fillTax('class',   gtx.class);
-      fillTax('order',   gtx.order);
-      fillTax('family',  gtx.family);
-      fillTax('genus',   gtx.genus);
-      fillTax('species', gtx.species);
-      species.taxonomy = tx;
-
-      // 5) 서식지 — Habitat_* Boolean 형질을 한국어로 변환
-      const byType = gbifData.descriptions?.byType || {};
-      const habitatLabels = {
-        Habitat_agriculture: '농경지',
-        Habitat_dunes: '모래언덕',
-        Habitat_forest: '숲',
-        Habitat_fresh_marshes: '담수 습지',
-        Habitat_grassland: '풀밭',
-        Habitat_heathland: '관목 황무지',
-        Habitat_salt_marshes: '염습지',
-        Habitat_urban: '도시',
-      };
-      const habitats = [];
-      for (const [key, label] of Object.entries(habitatLabels)) {
-        if (byType[key]?.[0]?.description === '1') habitats.push(label);
-      }
-      if (habitats.length > 0 && !species.habitat) {
-        species.habitat = habitats.join(', ');
-      }
-
-      // 6) 활동 시간 (Diurnality) — 한국어 매핑
-      const diurnality = byType.Diurnality?.[0]?.description;
-      if (diurnality && !species.activity) {
-        const map = { diurnal: '주간', nocturnal: '야간', crepuscular: '여명/황혼', cathemeral: '시간 무관' };
-        species.activity = map[diurnality] || diurnality;
-      }
-
-      // 8) 월동 단계 → lifecycle 필드에 "월동" 라벨 부여
-      const lifecycle = species.lifecycle || { egg: null, larva: null, pupa: null, adult: null };
-      const ovwMap = {
-        egg:   byType.Overwintering_egg?.[0]?.description,
-        larva: byType.Overwintering_larva?.[0]?.description,
-        pupa:  byType.Overwintering_pupa?.[0]?.description,
-        adult: byType.Overwintering_adult?.[0]?.description,
-      };
-      for (const stage of ['egg', 'larva', 'pupa', 'adult']) {
-        if (ovwMap[stage] === '1' && !lifecycle[stage]) {
-          lifecycle[stage] = '월동 단계';
-        }
-      }
-      species.lifecycle = lifecycle;
-
-      // 9) 설명 — 텍스트 서술 우선, 없으면 형질 합성
-      if (!species.description) {
-        const parts = [];
-        const textTypes = ['general', 'description', 'ecology', 'lifecycle', 'reproduction', 'Notes', 'discussion', 'native range'];
-        for (const type of textTypes) {
-          const entry = byType[type]?.[0];
-          if (entry?.description && entry.description.length > 20) {
-            // HTML 태그 제거 + 공백 정규화
-            const clean = entry.description.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
-            if (clean) {
-              parts.push(clean.slice(0, 500));
-              break; // 가장 우선 한 개만
-            }
-          }
-        }
-
-        const traits = [];
-        const feeding = byType.Feeding_guild_adult?.[0]?.description;
-        if (feeding && feeding !== '0') traits.push(`성충 먹이: ${feeding}`);
-        const feedingL = byType.Feeding_guild_larva?.[0]?.description;
-        if (feedingL && feedingL !== '0') traits.push(`유충 먹이: ${feedingL}`);
-        const lifespan = byType.lifespan?.[0]?.description;
-        if (lifespan) traits.push(`수명: ${lifespan}`);
-        const biome = byType.biome?.[0]?.description;
-        if (biome) traits.push(`생태권: ${biome}`);
-        const biotope = byType.biotope?.[0]?.description;
-        if (biotope) traits.push(`서식형: ${biotope}`);
-        const voltinism = byType.Voltinism_max?.[0]?.description;
-        if (voltinism) traits.push(`세대 수: ${voltinism}`);
-        if (traits.length > 0) parts.push(traits.join(' · '));
-
-        if (parts.length > 0) species.description = parts.join('\n\n');
-      }
-
-      // 10) GBIF 메타 — 추적/디버깅용
-      species.gbifPageId = gbifData.usageKey;
-
-      return species;
-    }
-
     function openSpeciesDetail(species, fromPage = 'pageFamilyDetail') {
       if (!species) return;
       previousSpeciesPage = fromPage;
@@ -3059,14 +2796,6 @@
       // enrich/render는 절대 navigation을 막지 않게 try/catch로 감싼다.
       // 어떤 데이터 결함으로 throw돼도 showPage는 반드시 실행되어
       // "클릭해도 홈으로 돌아가는" 회귀 현상을 차단한다.
-      const safeEnrichGbif = (sp) => {
-        try { if (sp._gbifData) enrichSpeciesWithGbif(sp, sp._gbifData); }
-        catch (err) { console.error('GBIF enrich failed:', err); }
-      };
-      const safeEnrichEol = (sp) => {
-        try { enrichSpeciesWithEol(sp); }
-        catch (err) { console.error('EOL enrich failed:', err); }
-      };
       const safeRender = (sp) => {
         try { renderSpeciesDetail(sp); }
         catch (err) { console.error('renderSpeciesDetail failed:', err); }
@@ -3074,9 +2803,8 @@
 
       // nibr 캐시 보강 — species.nibr이 없을 때만 캐시에서 조회
       const safeEnrichNibr = (sp) => {
-        try {
-          enrichSpeciesWithNibr(sp);
-        } catch (err) { console.error('NIBR enrich failed:', err); }
+        try { enrichSpeciesWithNibr(sp); }
+        catch (err) { console.error('NIBR enrich failed:', err); }
       };
 
       // 깜빡임 방지: 캐시가 이미 로드돼 있으면 단 한 번만 렌더한다.
@@ -3085,15 +2813,10 @@
       const render = () => {
         if (selectedSpecies !== species) return; // race: 사용자가 다른 종으로 이동
         safeEnrichNibr(species);
-        safeEnrichEol(species);
-        safeEnrichGbif(species);
         safeRender(species);
       };
 
-      // GBIF는 동기 데이터(inline)이므로 EOL 캐시 도착 전이라도 미리 보강
-      safeEnrichGbif(species);
-
-      if (eolCacheData && nibrCacheData) {
+      if (nibrCacheData) {
         render();
         showPage('pageSpeciesDetail', { keepNav: true });
       } else {
@@ -3105,7 +2828,7 @@
           safeRender(species);
           showPage('pageSpeciesDetail', { keepNav: true });
         }, 200);
-        Promise.all([loadEolCache(), loadNibrCache()]).then(() => {
+        loadNibrCache().then(() => {
           clearTimeout(placeholderTimer);
           if (selectedSpecies !== species) return;
           render();

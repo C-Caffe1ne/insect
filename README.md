@@ -1,4 +1,4 @@
-# ENTOMA · KR
+# 한국 곤충백과
 
 한국 곤충 분류와 종 정보를 탐색하는 정적 웹 도감입니다.
 
@@ -19,9 +19,8 @@ python3 -m http.server 8000
 - 16개 목 → 해당 목의 전체 종 탐색
 - 한글명, 학명, 목, 과 통합 검색
 - 보전 상태와 분류 계층 표시
-- EOL 서식지·분포 데이터 연결
 - NIBR eCatalog 300종의 형태·생태·서식지 정보 연결
-- iNaturalist, GBIF, Wikipedia 이미지와 출처 표시
+- iNaturalist 이미지와 출처 표시
 
 ## 데이터 구조
 
@@ -32,7 +31,6 @@ python3 -m http.server 8000
 |------|------|
 | `project/search_index.json` | NIBR 300종의 목·종 탐색과 검색에 사용하는 통합 인덱스 |
 | `project/nibr_cache.json` | NIBR eCatalog 300종 상세 정보 |
-| `project/eol_species_cache.json` | 300종 중 매칭된 EOL TraitBank 캐시 |
 | `project/data/nibr_insects.json` | NIBR 추출 원본 병합본 |
 
 `search_index.json`은 NIBR 300종과 16개 목만 포함하며 분류 탭과 검색 화면이 함께
@@ -72,8 +70,7 @@ node scripts/build_nibr_cache.mjs
 
 1. NIBR: 형태, 크기, 서식지, 생태, 기타 정보
 2. 종 인덱스: 이름, 분류, 보전 플래그, 대표 이미지
-3. EOL: 서식지, 분포, 통명, 생태 형질
-4. GBIF/iNaturalist/Wikipedia: 이미지와 부가 메타데이터
+3. iNaturalist: 이미지와 부가 메타데이터
 
 실제 값이 없는 크기, 서식지, 생애주기 영역은 빈 자리표시자 대신 숨깁니다.
 
@@ -106,4 +103,4 @@ insect/
 - Vanilla JavaScript
 - 정적 JSON 캐시
 
-데이터 출처: 국립생물자원관 NIBR, EOL, GBIF, iNaturalist, Wikipedia/Wikimedia Commons
+데이터 출처: 국립생물자원관 NIBR, iNaturalist

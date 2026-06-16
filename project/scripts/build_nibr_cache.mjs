@@ -7,7 +7,6 @@ const projectDir = path.resolve(scriptDir, '..');
 const dataPath = path.join(projectDir, 'data', 'nibr_insects.json');
 const cachePath = path.join(projectDir, 'nibr_cache.json');
 const searchPath = path.join(projectDir, 'search_index.json');
-const eolPath = path.join(projectDir, 'eol_species_cache.json');
 
 function canonicalize(raw) {
   let value = String(raw || '').replace(/\([^)]*\)/g, ' ');
@@ -32,7 +31,6 @@ function slug(value) {
 
 const nibrSpecies = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
 const sourceIndex = JSON.parse(fs.readFileSync(searchPath, 'utf8'));
-const sourceEol = JSON.parse(fs.readFileSync(eolPath, 'utf8'));
 const cache = {};
 
 for (const species of nibrSpecies) {
@@ -97,7 +95,6 @@ for (const species of nibrSpecies) {
     fs: species.family_latin || sourceFamily?.sci || '',
     g: sourceInsect.g || tokens[0] || '',
     s: sourceInsect.s || tokens[1] || '',
-    ...(sourceInsect.eolKo ? { eolKo: sourceInsect.eolKo } : {}),
     ...(sourceInsect.img ? { img: sourceInsect.img } : {}),
     nibr: 1,
     page: species.page
@@ -124,7 +121,6 @@ const searchIndex = {
   counts: {
     total: insects.length,
     withKtsn: insects.filter(x => x.ktsn).length,
-    withEol: insects.filter(x => x.eolKo).length,
     nibr: insects.length
   },
   orders,
@@ -132,25 +128,8 @@ const searchIndex = {
   insects: insects.sort((a, b) => a.page - b.page)
 };
 
-const eolSpecies = {};
-for (const species of nibrSpecies) {
-  const canonical = canonicalize(species.scientific_name);
-  const binomial = canonical.split(/\s+/).slice(0, 2).join(' ');
-  const entry = sourceEol.species?.[canonical] || sourceEol.species?.[binomial];
-  if (entry) eolSpecies[canonical] = entry;
-}
-const eolCache = {
-  ...sourceEol,
-  generatedAt: new Date().toISOString(),
-  savedAt: new Date().toISOString(),
-  source: `${sourceEol.source || 'EOL'}; filtered to NIBR 300 species`,
-  species: eolSpecies
-};
-
 fs.writeFileSync(cachePath, `${JSON.stringify(cache)}\n`);
 fs.writeFileSync(searchPath, `${JSON.stringify(searchIndex)}\n`);
-fs.writeFileSync(eolPath, `${JSON.stringify(eolCache)}\n`);
 
 console.log(`NIBR cache: ${Object.keys(cache).length} species`);
 console.log(`Search index: ${searchIndex.insects.length} species / ${searchIndex.orders.length} orders`);
-console.log(`EOL cache: ${Object.keys(eolSpecies).length} matched species`);
