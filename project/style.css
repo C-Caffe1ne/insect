@@ -145,101 +145,22 @@ ul { list-style: none; }
 }
 
 /* ── Small species thumbnails — 16목 ── */
-.placeholder-thumb--zygentoma {
-  background:
-    radial-gradient(circle at 50% 50%, rgba(80,80,70,0.5), transparent 60%),
-    linear-gradient(135deg, #18181a, #222225);
-}
-
-.placeholder-thumb--ephemeroptera {
-  background:
-    radial-gradient(circle at 50% 60%, rgba(50,80,100,0.5), transparent 60%),
-    linear-gradient(135deg, #0e1a25, #152030);
-}
-
-.placeholder-thumb--odonata {
-  background:
-    radial-gradient(circle at 50% 40%, rgba(30,90,90,0.6), transparent 60%),
-    linear-gradient(135deg, #0f2022, #152a2a);
-}
-
-.placeholder-thumb--blattodea {
-  background:
-    radial-gradient(circle at 50% 50%, rgba(90,40,20,0.5), transparent 60%),
-    linear-gradient(135deg, #1a1008, #22150a);
-}
-
-.placeholder-thumb--mantodea {
-  background:
-    radial-gradient(circle at 50% 50%, rgba(30,100,40,0.6), transparent 60%),
-    linear-gradient(135deg, #0f2010, #152818);
-}
-
-.placeholder-thumb--dermaptera {
-  background:
-    radial-gradient(circle at 50% 50%, rgba(90,60,20,0.6), transparent 60%),
-    linear-gradient(135deg, #1a1508, #25200a);
-}
-
-.placeholder-thumb--orthoptera {
-  background:
-    radial-gradient(circle at 50% 50%, rgba(70,90,20,0.5), transparent 60%),
-    linear-gradient(135deg, #181a08, #20250a);
-}
-
-.placeholder-thumb--phasmida {
-  background:
-    radial-gradient(circle at 50% 50%, rgba(50,80,30,0.5), transparent 60%),
-    linear-gradient(135deg, #151a0d, #1c2210);
-}
-
-.placeholder-thumb--hemiptera {
-  background:
-    radial-gradient(circle at 50% 50%, rgba(80,70,20,0.5), transparent 60%),
-    linear-gradient(135deg, #18170a, #24200c);
-}
-
-.placeholder-thumb--neuroptera {
-  background:
-    radial-gradient(circle at 50% 50%, rgba(40,90,50,0.5), transparent 60%),
-    linear-gradient(135deg, #121e12, #182518);
-}
-
-.placeholder-thumb--coleoptera {
-  background:
-    radial-gradient(circle at 50% 50%, rgba(20,50,80,0.6), transparent 60%),
-    linear-gradient(135deg, #0c1520, #101e2a);
-}
-
-.placeholder-thumb--diptera {
-  background:
-    radial-gradient(circle at 50% 50%, rgba(60,60,60,0.5), transparent 60%),
-    linear-gradient(135deg, #141418, #1c1c20);
-}
-
-.placeholder-thumb--mecoptera {
-  background:
-    radial-gradient(circle at 50% 50%, rgba(90,70,20,0.5), transparent 60%),
-    linear-gradient(135deg, #1a1808, #282010);
-}
-
-.placeholder-thumb--trichoptera {
-  background:
-    radial-gradient(circle at 50% 50%, rgba(40,70,60,0.5), transparent 60%),
-    linear-gradient(135deg, #0e1a18, #152220);
-}
-
-.placeholder-thumb--lepidoptera {
-  background:
-    radial-gradient(circle at 50% 50%, rgba(70,40,90,0.5), transparent 60%),
-    linear-gradient(135deg, #160f20, #1e1528);
-}
-
-.placeholder-thumb--hymenoptera {
-  background:
-    radial-gradient(circle at 50% 50%, rgba(100,80,20,0.5), transparent 60%),
-    linear-gradient(135deg, #1a1808, #28200a);
-}
+.placeholder-thumb--zygentoma   { background: #94A7BB; } /* 좀벌레 */
+.placeholder-thumb--ephemeroptera { background: #7E988A; } /* 하루살이 */
+.placeholder-thumb--odonata     { background: #A95151; } /* 잠자리 */
+.placeholder-thumb--blattodea   { background: #796042; } /* 바퀴 */
+.placeholder-thumb--mantodea    { background: #4C632B; } /* 사마귀 */
+.placeholder-thumb--dermaptera  { background: #8C682A; } /* 집게벌레 */
+.placeholder-thumb--orthoptera  { background: #8FB342; } /* 메뚜기 */
+.placeholder-thumb--phasmida    { background: #988E7B; } /* 대벌레 */
+.placeholder-thumb--hemiptera   { background: #B6B64D; } /* 노린재 */
+.placeholder-thumb--neuroptera  { background: #6EA47E; } /* 풀잠자리 */
+.placeholder-thumb--coleoptera  { background: #6A331D; } /* 딱정벌레 */
+.placeholder-thumb--diptera     { background: #68737A; } /* 파리 */
+.placeholder-thumb--mecoptera   { background: #D0803F; } /* 밑들이 */
+.placeholder-thumb--trichoptera { background: #BE795D; } /* 날도래 */
+.placeholder-thumb--lepidoptera { background: #A57BA5; } /* 나비 */
+.placeholder-thumb--hymenoptera { background: #D4BA25; } /* 벌 */
 
 /* ══════════════════════════════════════════════
    HERO
@@ -511,6 +432,13 @@ ul { list-style: none; }
   display: none;
 }
 
+.theme-loading {
+  font-size: 13px;
+  color: var(--text-muted);
+  padding: 20px 0;
+  white-space: nowrap;
+}
+
 .species-card {
   flex: 0 0 110px;
 }
@@ -658,16 +586,7 @@ ul { list-style: none; }
   height: 100%;
   object-fit: contain;
   object-position: center;
-  padding: 8px;
-}
-
-.order-mini-img img {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
+  padding: 6px;
 }
 
 .order-mini-body {
@@ -2392,32 +2311,59 @@ ul { list-style: none; }
 }
 .search-clear-btn[hidden] { display: none; }
 
-/* ── Scope Chips ── */
-.search-scope {
-  display: flex;
-  gap: 8px;
-  padding: 4px 20px 20px;
-  overflow-x: auto;
-  scrollbar-width: none;
+/* ── Search Filter Dropdown ── */
+.search-bar--global {
+  position: relative;
 }
-.search-scope::-webkit-scrollbar { display: none; }
-.scope-chip {
+.search-filter-btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 0 2px 0 0;
+  background: transparent;
+  border: none;
+  color: var(--text-muted);
+  font-size: 13px;
+  font-family: inherit;
+  cursor: pointer;
+  white-space: nowrap;
   flex-shrink: 0;
-  background: var(--search-chip-bg);
+  transition: color 0.15s;
+}
+.search-filter-btn:hover { color: var(--text-primary); }
+.search-filter-chevron { transition: transform 0.2s; }
+.search-filter-btn[aria-expanded="true"] .search-filter-chevron { transform: rotate(180deg); }
+.search-filter-divider {
+  width: 1px;
+  height: 14px;
+  background: var(--search-chip-border);
+  flex-shrink: 0;
+}
+.search-filter-dropdown {
+  position: absolute;
+  top: calc(100% - 10px);
+  left: 20px;
+  min-width: 110px;
+  background: var(--bg-card);
   border: 1px solid var(--search-chip-border);
-  border-radius: 999px;
-  padding: 7px 14px;
+  border-radius: 10px;
+  padding: 4px;
+  list-style: none;
+  margin: 0;
+  z-index: 200;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+}
+.search-filter-dropdown[hidden] { display: none; }
+.search-filter-option {
+  padding: 8px 12px;
+  border-radius: 7px;
   font-size: 13px;
   color: var(--text-muted);
   cursor: pointer;
-  font-family: inherit;
-  transition: background 0.15s, color 0.15s, border-color 0.15s;
+  transition: background 0.12s, color 0.12s;
 }
-.scope-chip.active {
-  background: var(--search-chip-bg-active);
-  color: var(--text-primary);
-  border-color: rgba(255,255,255,0.20);
-}
+.search-filter-option:hover { background: var(--search-chip-bg); color: var(--text-primary); }
+.search-filter-option.active { background: var(--search-chip-bg-active); color: var(--text-primary); }
 
 /* ── Result Area ── */
 .search-result-area {
