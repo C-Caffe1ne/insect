@@ -1,206 +1,65 @@
-## 코드 리뷰 — 데이터 정리 안전성 검증
+## 코드 리뷰 결과
 
-검토 대상: `project/index.html` (3,409줄, 인라인 `<script>` 포함 모든 frontend 로직)
-검토 방식: 정확한 키 이름으로 grep, 사용 위치 라인 단위 추적, 추측 배제.
-
----
-
-### 1. digitalContent 의존성
-
-**grep 결과**: `digitalContent`, `dc.contents`, `dc.thumbnail`, `DigitalContent`, `digital_content` 모두 **0건**.
-
-- 사용 위치: 없음
-- 안전성: **높음 (안전)**
-- 결론: index.html 어디에서도 참조되지 않음. 9,994개 응답 전수 제거 가능.
+검토 대상: `project/index.html`, `project/style.css`
+검토 범위: 즐겨찾기 페이지 JS, HTML 번역 누락, badge 클래스 삭제, `@font-face` weight 범위
+JS 구문 검증: `new Function()` 파싱 통과 (단일 스크립트 블록, 약 105K자)
 
 ---
-
-### 2. Yn 상수 3개
-
-#### grep 결과 (정확한 라인)
-
-| 키 | 라인 | 컨텍스트 |
-|---|---|---|
-| `hrmflSpecsYn` | **1713, 2348** | `harmful` 배지 매핑 |
-| `phspYn` | **1710, 2345** | `invasive` 배지 매핑 |
-| `ntmYn` | **1712, 2347** | `naturalMonument` 배지 매핑 |
-
-#### 종 상세 6개 배지 ↔ Yn 키 전수 매핑
-
-라인 1709~1714 (분류 브라우저 진입) 및 2344~2349 (검색 진입), 두 곳에서 **완전 동일한 매핑 사용**:
-
-| 배지(`conservationStatus`) | 소스 키 | 라인 |
-|---|---|---|
-| `endangered` | `egspcsYn === 'Y' ? 'II'` | 1709 / 2344 |
-| `invasive` | `phspYn === 'Y'/'N'` | **1710 / 2345** ← 제거 후보 |
-| `hazardous` | `dispYn === 'Y'/'N'` | 1711 / 2346 |
-| `naturalMonument` | `ntmYn === 'Y' ? '지정'` | **1712 / 2347** ← 제거 후보 |
-| `harmful` | `hrmflSpecsYn === 'Y'/'N'` | **1713 / 2348** ← 제거 후보 |
-| `endemic` | `korUnqBispYn` 또는 `corsynSeYn` | 1714 / 2349 |
-
-#### 위험도 갱신
-
-요구사항 문서의 가정("이미 멸종위기/생태계교란/한국고유는 사용중")은 **부분 오류**.
-실제로는 **6개 배지 모두 Yn 키에 매핑**돼 있으며, 제거 후보 3개(`hrmflSpecsYn`, `phspYn`, `ntmYn`)는 각각 `harmful`, `invasive`, `naturalMonument` 배지의 **유일한 소스**.
-
-다만 모든 종에서 값이 'N'이므로:
-- 제거 전: 'N' → 명시적으로 `false`/`null`로 평가됨 → 배지 라벨 "해당없음"/"비지정"
-- 제거 후: `undefined` → 폴백 체인이 `placeholder.conservationStatus.*`(즉 `null`) 사용 → 배지 라벨 "정보 없음"
-
-즉 사용자 입장에서 "비지정/해당없음"이 "정보 없음"으로 바뀐다. **배지 자체는 사라지지 않지만 의미가 달라짐**.
-
-- 안전성: **중간 (의미 회귀 가능)**
-- 권고: 제거하려면 frontend 라인 1710~1713, 2345~2348의 폴백을 `null` 대신 명시적으로 `false`/`'비지정'`로 변경하는 코드 패치 동반 필요. 코드 패치 없이 데이터만 제거하면 3개 배지가 UI상 "정보 없음" 상태가 됨.
-
----
-
-### 3. taxonomy.order / taxonomy.family 중복 (최중요)
-
-#### grep 결과
-
-| 라인 | 사용 코드 |
-|---|---|
-| **1687** | `const ktsn = item.taxonomy \|\| {};` |
-| **1690** | `phylum: formatTaxonRank(ktsn.phylum)` |
-| **1691** | `class: formatTaxonRank(ktsn.class)` |
-| **1692** | `order: formatTaxonRank(ktsn.order) \|\| placeholder.taxonomy.order` |
-| **1693** | `family: formatTaxonRank(ktsn.family) \|\| placeholder.taxonomy.family` |
-| **1694** | `genus: formatTaxonRank(ktsn.genus) \|\| item.genus \|\| placeholder.taxonomy.genus` |
-| **1696** | `species: formatSpeciesRank(ktsn.species, ktsn.genus) \|\| ...` |
-
-#### 분석
-
-- `formatTaxonRank` (1259~1265): `{commonName, scientificName, ktsn}` 객체에서 "한글명 (학명)" 문자열 생성. order/family도 동일 함수로 처리 중.
-- 폴백 체인: `placeholder.taxonomy.order/family`는 라인 2810~2821에서 `selectedOrder`/`selectedFamily` (현재 페이지 컨텍스트)로 만들어짐.
-
-#### 대체 가능성
-
-- **분류 브라우저(목→과→종) 경로**: 사용자가 목 카드를 클릭해 들어왔으므로 `selectedOrder`/`selectedFamily`가 반드시 설정돼 있음. → `ktsn.order`/`ktsn.family`가 빠져도 폴백이 그대로 동작.
-- **검색 진입 경로**: 라인 2351~2357에서 `ins.oKr`, `ins.os`, `ins.fKr`, `ins.fs`로 별도 생성 → `ktsn.order/family` 미사용.
-- **딥링크/북마크 진입**: 페이지 컨텍스트가 없으면 폴백도 null. 다만 ENTOMA의 현재 코드는 모든 진입이 위 두 경로 중 하나.
-
-폴백 표기 vs ktsn 표기 차이 검증 (라인 2814~2821):
-```js
-[selectedOrder.commonName, `(${selectedOrder.scientificName})`].filter(Boolean).join(' ')
-// → "딱정벌레목 (Coleoptera)"
-```
-`formatTaxonRank`의 출력 `${kr} (${sci})` → "딱정벌레목 (Coleoptera)"
-**표기 형식 완전 일치** (공백 위치까지 동일).
-
-- 안전성: **중간 (조건부 안전)** — 분류 브라우저 진입 경로에서는 100% 안전. 검색 경로는 어차피 미사용. 단 deep-link 진입은 폴백 작동 안 함.
-- 권고: kingdom~species 전체 중복 제거 가능. 다만 phylum/class 등 `placeholder.taxonomy`에 하드코딩된 값("절지동물문 (Arthropoda)", "곤충강 (Insecta)")이 항상 동작하므로 KTSN의 phylum/class도 함께 중복 가능성 검토 권고.
-
----
-
-### 4. taxonomy.subgenus
-
-#### grep 결과
-
-- `subgenus`, `Subgenus`, `taxonomy.subgenus` **0건**.
-- buildPlaceholderSpecies(2810~2824)의 taxonomy 객체에 `subgenus` 키 자체가 없음.
-
-#### 안전성
-
-- 안전성: **높음 (완전 안전)**
-- 권고: 17,148개 빈 객체 전수 제거. 채워진 20% 종도 frontend가 미참조이므로 **전수 제거 권장**(저장 공간 절감 우선이면). 단 future-proof 차원에서 유지하려면 빈 객체만 제거.
-
----
-
-### 5. eol.eats / eol.visitsFlowersOf / eol.pathogenOf
-
-#### grep 결과
-
-| 키 | 사용 라인 |
-|---|---|
-| `eats` | **3149**: `Array.isArray(t.eats) && t.eats.length > 0 → desc.push('먹이: ...')` |
-| `visitsFlowersOf` | **3150**: `Array.isArray(t.visitsFlowersOf) && t.visitsFlowersOf.length > 0 → desc.push('방문 꽃: ...')` |
-| `pathogenOf` | **0건** (검색 결과 없음) |
-
-#### 분석
-
-`enrichSpeciesWithEol` (3113~3170) 내부:
-- `t.eats`, `t.visitsFlowersOf`는 모두 **`length > 0` 가드** 통과 후 사용 → 빈 배열은 무시됨.
-- `pathogenOf`는 사용처 없음.
-
-#### 안전성
-
-- 안전성: **높음**
-- 권고: 셋 다 빈 배열이면 키 제거해도 동작 동일 (`Array.isArray(undefined) === false`). `pathogenOf`는 어차피 미사용이라 전수 제거 가능.
-
----
-
-### 6. gbif.vernacularName
-
-#### grep 결과
-
-- `vernacularName` (단수형) **0건**.
-- `vernaculars` (복수형)는 3189, 3190에서 사용: `gbifData.vernaculars.ko[0]`. **별도 필드**.
-
-#### 분석
-
-`enrichSpeciesWithGbif` 내부에서 사용하는 건 `gbifData.vernaculars.ko` 배열이며, Round 1이 지목한 `vernacularName`(단수형 단일 문자열)과는 무관.
-
-- 안전성: **높음**
-- 권고: `gbif.vernacularName` (단수형, 100% 빈) 97종 전수 제거 가능. **단 `vernaculars` 객체와 혼동하지 말 것**.
-
----
-
-### 7. inat.imageUrl 빈 값 238종
-
-#### 사용 위치 (모두 라인 단위)
-
-| 라인 | 코드 | 빈 값('') 처리 |
-|---|---|---|
-| **1659** | `const inatUrl = item.inat?.imageUrl \|\| null;` | falsy → null로 정상화 |
-| **1660** | `if (inatUrl) { ... }` | 정상 (placeholder로 폴백) |
-| **1718** | `if (item.inat?.imageUrl) return [item.inat.imageUrl];` | 정상 (다음 폴백으로) |
-| **1726** | `if (item.inat?.imageUrl) { credits.push(...) }` | 정상 |
-| **1730** | `url: item.inat.imageUrl` | 1726 가드 안쪽 → 빈 값이면 도달 안 함 |
-| **1731** | `pageUrl: item.inat.observationUrl \|\| item.inat.imageUrl` | 1726 가드 안쪽 |
-| **2342** | `item.inat?.imageUrl ? [...] : (ins.img ? ... )` | 빈 문자열은 falsy → 정상 폴백 |
-
-#### 분석
-
-JS의 `if (x)` / `x ? a : b` / `x || y` 패턴은 모두 빈 문자열을 falsy로 처리. **현재 코드는 빈 값을 올바르게 폴백 처리 중**. 다만:
-- 의미상 키 존재 여부가 아닌 truthy 여부로 검사하므로, 빈 값을 그대로 두어도 회귀 없음.
-- 키 자체를 제거해도 `item.inat?.imageUrl`는 `undefined`(falsy)로 동일 동작.
-
-- 안전성: **높음 (둘 다 안전)**
-- 권고: **키 제거 권장** — 저장 공간 절감과 스키마 가독성. 빈 값 유지도 무방하나 데이터 의미 모호.
-
----
-
-### 종합 권고
-
-| # | 패턴 | 위험도 (Round 1 → Round 2) | 권고 | 코드 패치 필요? |
-|---|---|---|---|---|
-| 1 | `digitalContent` 전체 제거 (9,994건) | 낮음 → **낮음** | 진행 가능 | 불필요 |
-| 2 | Yn 3개 (`hrmflSpecsYn`/`phspYn`/`ntmYn`) | 검토 필요 → **중간** | 조건부 진행 | **필요** (라인 1710~1713, 2345~2348의 폴백을 `null` 대신 `false`/`'비지정'`으로) |
-| 3 | `taxonomy.order/family` 중복 | 검토 필요 → **중간** | 조건부 진행 | 불필요 (분류 브라우저/검색 경로에서만 진입한다는 가정 하) |
-| 4 | `taxonomy.subgenus` 빈 객체 | - → **낮음** | 진행 가능 (전수 제거 가능) | 불필요 |
-| 5 | `eol.eats`/`visitsFlowersOf`/`pathogenOf` 빈/미사용 | 낮음 → **낮음** | 진행 가능 | 불필요 |
-| 6 | `gbif.vernacularName` (단수형, 미사용) | 낮음 → **낮음** | 진행 가능 (`vernaculars`와 혼동 주의) | 불필요 |
-| 7 | `inat.imageUrl` 빈 값 238종 | 검토 필요 → **낮음** | 키 제거 권장 | 불필요 |
-
-### 핵심 발견
-
-1. **#2 (Yn 3개)는 Round 1이 명시하지 않은 매핑 발견** — `harmful`/`invasive`/`naturalMonument` 배지의 유일한 소스. 데이터만 제거하면 'N'(명시적 false) → undefined(`null` 폴백)로 의미 변화. **코드 패치 동반 권장**.
-
-2. **#3 (taxonomy 중복)의 표기 형식이 폴백과 100% 일치 확인** — `formatTaxonRank` 출력과 `selectedOrder` 폴백이 동일 포맷 "한글명 (학명)". 분류 브라우저/검색 진입 경로에서 회귀 없음.
-
-3. **#7은 위험 없음** — 현재 코드가 빈 문자열을 falsy로 올바르게 폴백 처리 중. 키 제거/유지 모두 동작 동일.
-
-4. **사용 안 된 키**: `digitalContent`, `taxonomy.subgenus`, `eol.pathogenOf`, `gbif.vernacularName`(단수) — 4종은 frontend 0건 참조로 완전 안전 제거 가능.
 
 ### Critical (즉시 수정 필요)
-없음 (READ-ONLY 분석이므로 본 검토에서는 수정 권고만 기록).
 
-### Warning (데이터 정리 실행 전 권장)
-- [index.html:1710~1713, 2345~2348] Yn 키 3개 제거를 진행한다면, 폴백 표현을 `null`(→"정보 없음") 대신 명시적 `false`/`'비지정'`로 변경하여 UX 회귀 방지.
+없음. 이번 4개 태스크 변경분에서 XSS, 이벤트 리스너 누수, null 접근, fetch 미처리 등의 Critical 이슈는 발견되지 않았습니다.
 
-### Suggestion
-- [index.html:1687~1696] `taxonomy.order`/`family` 중복 제거 후 phylum/class도 중복 제거 가능성 함께 검토 (placeholder의 하드코딩 값 항상 동작).
-- [index.html:1731] `pageUrl: item.inat.observationUrl || item.inat.imageUrl` — 둘 다 빈 문자열이면 pageUrl이 ''. 1726 가드 안이라 도달 안 하지만, 방어적으로 `|| '#'` 추가 검토.
+검증 근거:
+- `buildResultItem`(index.html:1742)은 모든 데이터를 `textContent`로 삽입 (`krEl.textContent = ins.kr`, `sciEl.textContent = ins.sci`, 분류 span도 `textContent`). XSS 안전.
+- `renderSavedPage`(index.html:3369)는 `getElementById` 결과를 `if (!list) return` null 가드 처리. `emptyState?.` 옵셔널 체이닝 사용.
+- `loadSearchIndex`(index.html:1663)는 `.catch`로 fetch 실패를 처리하고 빈 인덱스로 폴백. `renderSavedPage`는 `data?.insects || []`로 추가 방어.
+- `pageshow:pageSaved` 리스너(index.html:3403)는 모듈 스크립트 최상위에서 1회만 등록. 중복 등록 경로 없음 (반복 호출되는 init 함수 내부 아님).
+
+---
+
+### Warning (권장)
+
+- **[style.css:7-13] `@font-face font-weight: 100 900`이 정적 폰트에 선언됨 — 가짜 굵기 합성 발생.**
+  `font-weight: 100 900` 2값 구문 자체는 CSS Fonts L4 표준이며 유효합니다. 그러나 `src`가 `fonts/LINESeedKR-Rg.woff2` (정적 Regular 단일 굵기) 한 개뿐이고, `fonts/` 디렉토리에 가변 폰트나 Bold/Light 파일이 없습니다. CSS는 300~700 굵기를 광범위하게 사용하므로(style.css 전체에 `font-weight: 600/700` 다수), 브라우저가 600/700을 faux-bold로 합성합니다. 한글 본문 가독성·렌더 품질 저하 가능.
+  → 수정 제안: 실제 가진 굵기에 맞춰 `font-weight: 400;`(정적 단일값)로 선언하거나, 가변 폰트(`LINESeedKR-VF.woff2`) 또는 굵기별 파일을 추가하고 각 weight에 별도 `@font-face`를 선언. 정적 Regular만 쓸 거라면 범위 선언은 제거.
+
+- **[index.html:637-638, 671-672, 680-681] `#pageProfile`에 번역 누락 영어 텍스트 잔존.**
+  태스크 2의 검토 항목입니다. 다음이 영어로 남아 있습니다:
+  - `profile-name` "Yujin Park", `profile-handle-location` "@yujin.entoma · Seoul, KR"
+  - `collection-title` "Jewel Beetle"(671), "Asian Swallowtail"(680) — 다른 카드의 통명(`recent-title-kr`)은 모두 한글인데 컬렉션 카드만 영어 통명. 일관성 불일치.
+  → 수정 제안: 컬렉션 통명을 한글로 ("비단벌레", "산호랑나비" 등). 학명(`collection-scientific` `Chrysochroa fulgidissima` 등)과 `recent-title-sci`는 학명 표기 관례상 그대로 두는 것이 맞음. 프로필 이름/핸들은 도감 톤에 맞춰 한글화 검토(선택).
+
+- **[index.html:632, 667, 676] 영어 `alt` 텍스트 잔존.**
+  `<img ... alt="Yujin Park">`(632), `alt="Jewel Beetle"`(667), `alt="Asian Swallowtail">`(676). 화면 표시 텍스트 한글화 시 `alt`도 함께 한글로 통일 권장 (스크린리더 일관성).
+
+- **[style.css:2652-2668] 미사용 CSS 규칙 `.result-badges` / `.result-badge` / `--eol` / `--nibr`.**
+  HTML·JS 어디에서도 이 클래스를 참조하지 않습니다(`grep` 교차 확인). 이번 태스크가 만든 것은 아니나(기존 잔존), badge 정리 맥락에서 함께 제거 검토 권장.
+
+- **[index.html:688] 인라인 스타일 정적 사용.**
+  `<section class="profile-section" style="margin-bottom: 24px;">` — 동적 조작이 아닌 정적 값이므로 CSS 클래스로 이동 권장. (기존 코드, 이번 변경 외.)
+
+---
+
+### Suggestion (선택)
+
+- **[index.html:3387-3388] 즐겨찾기 canonical 매칭 — 개발자 보완 적절. 추가 메모만.**
+  `favs.has(ins.sci) || favs.has(canonicalizeSciName(ins.sci))` 보완은 정확합니다. 실제 `search_index.json` 300종 중 183종이 괄호 저자명 포함이고, 괄호 없는 종조차 말미에 저자명을 가집니다(예: `"Ctenolepisma longicaudata Escherich"`). 따라서 `favs.has(ins.sci)`는 사실상 절대 매칭되지 않고, canonical 폴백이 실제 동작을 담당합니다. 즐겨찾기 저장값(`openSpeciesFromIndex` → `scientificName = canonicalizeSciName(ins.sci)`, index.html:1808-1833)과 동일 변환이므로 결정적으로 일치. 로직 정상.
+  → 첫 번째 `favs.has(ins.sci)` 항은 실질 효과가 없어 가독성상 제거해도 무방하나, 미래에 raw sci로 저장하는 경로가 생길 가능성에 대비한 방어로 남겨두는 것도 합리적. 의도를 주석으로 명시하면 좋음.
+
+- **[index.html:1742] `buildResultItem(ins, fromPage='pageSearch')` 호환성 — 안전.**
+  기본값 파라미터라 기존 `buildResultItem(ins)` 호출부(1737, 2185)는 `pageSearch`로 자동 동작. `renderSavedPage`만 `'pageSaved'` 전달. 후방 호환 OK.
+
+- **[index.html:3833 영역] Step B 흐름 — 수정 불필요 확인.**
+  `openSpeciesFromIndex(ins, fromPage)` → `openSpeciesDetail(..., fromPage)`로 `fromPage`를 전달하므로 `'pageSaved'` 뒤로가기 복귀 동작은 추가 작업 없이 성립.
+
+- **[index.html:570] `<ul ... hidden>` 가시성 — 정상.**
+  `.saved-result-list`(style.css:1285)는 `display`를 강제하지 않고 `[hidden]` 오버라이드 규칙도 없어 네이티브 `[hidden]`(display:none)이 정상 적용됨.
+
+---
 
 ### 종합 평가
-7개 제거 후보 중 4개(#1, #4, #5, #6, #7)는 frontend 미참조 또는 폴백 자동 처리로 즉시 안전 제거 가능. #3은 분류/검색 진입 시나리오만이라면 안전. **#2(Yn 3개)만 단순 데이터 제거가 아닌 코드 패치 동반 권장** — Round 1의 위험도 "검토 필요"는 정확했으며, 본 검증에서 매핑 위치를 8개 라인으로 특정함.
+
+이번 4개 태스크 변경분은 Critical 0개로 품질이 양호하며, 특히 즐겨찾기 canonical 매칭 버그를 선제적으로 발견·수정한 점이 우수합니다(데이터 300종으로 교차 검증 완료). 다만 (1) 정적 Regular 폰트에 `font-weight: 100 900` 범위 선언은 표준상 유효하나 faux-bold 합성을 유발하므로 단일값/가변폰트로 정정 권장하고, (2) `#pageProfile`의 컬렉션 카드 영어 통명·alt가 번역 누락으로 남아 있어 보완이 필요합니다.
+
+— 발신: code-reviewer · 리뷰 완료, Critical 0개 / Warning 5개 / Suggestion 4개

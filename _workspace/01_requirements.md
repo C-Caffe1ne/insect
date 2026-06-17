@@ -1,45 +1,122 @@
-## 요구사항
+# 요구사항
 
-### 사용자 요청
-각 곤충마다 비어있는 데이터, 중복 데이터를 **여러 차례 검토 후** JSON 파일 코드 삭제 및 최적화.
+## 사용자 요청
+> 내 정보 페이지에서 뱃지 관련 제거, 영어를 한글로 번역, 폰트 설정, 즐겨찾기 한 곤충들 즐겨찾기 페이지에서 볼 수 있도록 해줘
 
-### 분류된 작업 유형
-**위험한 데이터 정리** — 21,359종 곤충 데이터(42MB)에서 빈/중복 필드 제거. 사용자 강조:
-> 반드시 여러번의 검토를 진행하고 코드 삭제
+## 분류된 작업 유형
+기능 추가 + 콘텐츠 수정 (4가지 독립 태스크)
 
-### 작업 파이프라인
-- **Round 1 (완료)**: 자체 인벤토리 — 빈/중복 패턴 6종 식별
-- **Round 2 (이 단계)**: code-reviewer가 프론트엔드 의존성 교차 검증
-- **Round 3 (이 단계, 병렬)**: qa-agent가 시나리오 시뮬레이션 — 제거 시 회귀 검사
-- **STOP**: 사용자 승인 대기
-- **Round 4**: 승인 후 web-developer 실행 (백업 포함)
-- **Round 5**: 회귀 재검증
+## 관련 파일
+- `project/index.html` — 메인 파일 (모든 페이지 포함)
+- `project/style.css` — 스타일 (폰트, saved/profile 페이지 관련)
+- `project/fonts/` — LINESeedKR-Rg.woff2 (Regular만 존재)
 
-### Round 1에서 식별된 제거 후보 (검토 대상)
+---
 
-| # | 패턴 | 종 수 | 절감 추정 | 위험도 |
-|---|---|---|---|---|
-| 1 | `digitalContent` 전체 (5,596 빈 응답 + 4,398 HTTP 500) | 9,994 | ~2.19MB | 낮음 — 실데이터 0건 |
-| 2 | Yn 상수 3개 제거: `hrmflSpecsYn`, `phspYn`, `ntmYn` (모든 종 'N') | 21,359 | ~0.7MB | 검토 필요 — 프론트 사용 여부 |
-| 3 | `taxonomy.order`/`taxonomy.family` 중복 (파일 헤더와 100% 일치) | 21,359 | ~4.3MB | **검토 필요** — 종 상세 페이지가 사용 |
-| 4 | `taxonomy.subgenus` 80%가 완전 빈 객체 | 17,148 | ~3.5MB | 빈 것만 제거 가능 |
-| 5 | `eol.eats`, `eol.visitsFlowersOf`, `eol.pathogenOf` 100% 빈 배열 | 2,595 | ~0.5MB | 낮음 |
-| 6 | `gbif.vernacularName` 100% 빈 | 97 | 적음 | 낮음 |
-| 7 | `inat.imageUrl` 빈 값 238종 | 238 | 적음 | 검토 필요 |
+## 태스크 상세
 
-### 점검 항목 (각 에이전트)
+### 1. 내 정보 페이지(`#pageProfile`) — 뱃지 관련 제거
+제거 대상:
+- `<!-- Badges Earned Section -->` 전체 (`<section class="profile-section">` ~ `</section>`, line ~658-717)
+- 통계 캡슐의 BADGES stat item (`profile-stat-item` 중 BADGES 항목 + 좌우 divider 중 하나)
+- `style.css`에서 badge 관련 CSS 클래스 전체 제거: `.badge-item`, `.badge-ring`, `.badge-ring--*`, `.badge-name`, `.profile-badges-scroll`
 
-**code-reviewer**:
-- 프론트엔드(`project/index.html` 인라인 JS)가 위 7개 패턴 중 어떤 필드를 직접 참조하는지 grep
-- 특히 `insect.taxonomy.order`, `insect.taxonomy.family`, `insect.digitalContent`, `insect.hrmflSpecsYn` 등
-- 제거 안전성 판정 (각 패턴별 위험도 갱신)
+### 2. 내 정보 페이지 + 기타 — 영어 → 한글 번역
+**`#pageProfile`에서 변경:**
+| 영어 (현재) | 한글 (변경) |
+|---|---|
+| `aria-label="Go Back"` | `aria-label="뒤로"` |
+| `aria-label="Settings"` | `aria-label="설정"` |
+| `VIEWED` (stat label) | `조회` |
+| `SAVED` (stat label) | `저장` |
+| `My Collection` (section title) | `나의 컬렉션` |
+| `Species you've fallen for` (subtitle) | `관심 있는 곤충들` |
+| `VIEW ALL` (링크 3개) | `전체 보기` |
+| `FAVORITE` (collection-tag 2개) | `즐겨찾기` |
+| `Recently Encountered` (section title) | `최근 만난 곤충` |
+| `Your latest encounters` (subtitle) | `최근에 발견한 곤충들` |
+| `TODAY` (recent-time-badge) | `오늘` |
+| `YESTERDAY` | `어제` |
+| `2 DAYS AGO` | `2일 전` |
 
-**qa-agent**:
-- 시나리오: 분류 보기 → 목 펼치기 → 과 → 종 카드 → 종 상세 페이지
-- 각 화면이 표시하는 필드 추적
-- 제거 시 어떤 슬롯이 빈 폴백으로 떨어질지 예측
+**`index.html` head/meta에서 변경:**
+- title: `ENTOMA · KR — Insect Encyclopedia` → `ENTOMA · KR — 한국 곤충도감`
+- meta description: 영어 설명 → `한국 곤충 분류와 종 정보를 탐색하는 프리미엄 곤충도감입니다.`
 
-### 산출물
-- `_workspace/03_review_output.md` (code-reviewer)
-- `_workspace/04_qa_output.md` (qa-agent)
-- 그 후 오케스트레이터가 **plan 보고서 + 사용자 확인 요청** 작성
+### 3. 폰트 설정 (`style.css`)
+현재 상황: LINE Seed KR Regular(400)만 로드됨. Bold 파일 없음.
+- style.css `@font-face`에서 `LINESeedKR-Rg 2.woff2` (중복 파일) 참조 제거 (이미 없음)
+- `font-weight: 600` / `700` 사용 시 LINE Seed KR가 작동하도록 `@font-face`에 `font-weight: 400 900` 범위 선언 추가 (synthetic bold 허용)
+- Cormorant Garamond Google Fonts `<link>` 에 `LINESeed KR`는 이미 local이므로 충분
+- LINE Seed KR 한글 Bold는 cdnjs를 통해 가져오거나, `@font-face` 정의에 `font-weight: 100 900`로 범위를 넓혀 합성 볼드 활용
+- 실용적 접근: `@font-face` 두 개를 선언 — weight 400 (Rg) + weight 700 (Rg, 합성볼드 허용)
+
+### 4. 즐겨찾기 페이지(`#pageSaved`) — 실제 즐겨찾기 곤충 표시
+
+현재: 빈 상태만 보여줌 (`.saved-empty-state`)
+변경: `localStorage('entoma_favorites')` 에서 학명 Set 로드 → search_index에서 매칭 → 카드 렌더링
+
+**HTML 변경:**
+- `<div class="saved-page-header">` 다음에 `<ul class="saved-result-list" id="savedResultList" role="list"></ul>` 추가
+- 빈 상태 div는 유지 (JS로 표시/숨김)
+
+**CSS 추가:**
+- `.saved-result-list` — `search-result-list`와 동일한 스타일 재사용 (같은 클래스 사용 가능)
+- 또는 `.saved-result-list { list-style: none; padding: 0 16px; margin: 0; }`
+
+**JS 추가 (즐겨찾기 페이지 진입 시 렌더링):**
+```javascript
+async function renderSavedPage() {
+  const list = document.getElementById('savedResultList');
+  const emptyState = document.querySelector('#pageSaved .saved-empty-state');
+  if (!list) return;
+
+  const favs = loadFavorites(); // 기존 함수 재사용
+  list.innerHTML = '';
+
+  if (favs.size === 0) {
+    emptyState?.removeAttribute('hidden');
+    list.hidden = true;
+    return;
+  }
+
+  // 검색 인덱스 로드 (이미 캐시돼 있으면 즉시 반환)
+  const data = await loadSearchIndex();
+  const insects = data?.insects || [];
+  const matched = insects.filter(ins => favs.has(ins.sci));
+
+  if (matched.length === 0) {
+    emptyState?.removeAttribute('hidden');
+    list.hidden = true;
+    return;
+  }
+
+  emptyState?.setAttribute('hidden', '');
+  list.hidden = false;
+  matched.forEach(ins => {
+    const li = buildResultItem(ins); // 기존 함수 재사용
+    // fromPage를 'pageSaved'로 설정하여 뒤로가기 시 즐겨찾기 페이지로 돌아오게
+    li.addEventListener('click', () => openSpeciesFromIndex(ins, 'pageSaved'), { once: true }); // 이미 click 리스너가 있으니 이 방식은 주의
+    list.appendChild(li);
+  });
+}
+```
+
+**주의:** `buildResultItem`이 이미 내부에서 `openSpeciesFromIndex(ins)` click 리스너를 붙이므로 중복 방지.
+대신 `buildResultItem`은 재사용, `openSpeciesFromIndex` 호출 시 `fromPage` 인자를 `'pageSaved'`로 넘겨야 뒤로가기가 즐겨찾기 페이지로 돌아옴.
+→ `buildResultItem`에 `fromPage` 파라미터 추가하거나, `renderSavedPage`에서 리스너를 교체하는 방식 사용.
+
+**가장 간단한 구현:** `buildResultItemForSaved(ins)` — `buildResultItem` 복사 후 click handler만 `openSpeciesFromIndex(ins, 'pageSaved')`로 변경. 단, 코드 중복 최소화 위해 `buildResultItem(ins, fromPage='pageSearch')` 파라미터화 권장.
+
+**pageshow 이벤트 연결:**
+```javascript
+document.addEventListener('pageshow:pageSaved', renderSavedPage);
+```
+
+### 참고 사항
+- `openSpeciesFromIndex(ins, fromPage)` — 두 번째 인자가 있으면 뒤로가기 대상 페이지로 사용됨 (기존 코드 확인 필요)
+- `loadSearchIndex()` — search_index.json을 fetch하는 기존 함수 (캐시 있으면 즉시 resolve)
+- `loadFavorites()` / `FAV_KEY` — 이미 선언되어 있음 (script 맨 아래쪽)
+- `buildResultItem(ins)` — 검색 결과 카드 생성 함수, 재사용
+- 즐겨찾기 목록은 페이지 진입 시마다 새로고침 (heart 토글 후 다시 와도 최신 반영)
+- 빈 상태(`saved-empty-state`)는 `hidden` 속성으로 표시/숨김 처리
