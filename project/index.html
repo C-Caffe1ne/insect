@@ -871,11 +871,7 @@
 
   <script>
     // ── 그라데이션 팔레트 (8종 순환) ──
-<<<<<<< HEAD
     const ORDER_IMG = {
-=======
-    const ORDER_FILE_MAP = {
->>>>>>> b0c4f8f656837fe9d041b2fa817c44b000672bc7
       zygentoma: 'zygentoma', ephemeroptera: 'ephemeroptera', odonata: 'odonata',
       blattaria: 'blattodea', blattodea: 'blattodea', mantodea: 'mantodea',
       dermaptera: 'dermaptera', orthoptera: 'orthoptera',
@@ -1205,11 +1201,7 @@
         card.className = 'order-card-mini';
         card.setAttribute('role', 'button');
         card.tabIndex = 0;
-<<<<<<< HEAD
         const imgFile = ORDER_IMG[(order.scientificName || '').toLowerCase()];
-=======
-        const imgFile = ORDER_FILE_MAP[(order.scientificName || '').toLowerCase()];
->>>>>>> b0c4f8f656837fe9d041b2fa817c44b000672bc7
         const orderImgTag = imgFile ? `<img src="images/order/${imgFile}.png" alt="" loading="lazy" decoding="async">` : '';
         card.innerHTML = `
           <div class="order-mini-img">
@@ -2587,7 +2579,7 @@
     }
 
 
-    const ORDER_IMG = {
+    const ORDER_IMG_PATH = {
       lepidoptera:   'images/order/lepidoptera.png',
       trichoptera:   'images/order/trichoptera.png',
       hemiptera:     'images/order/hemiptera.png',
@@ -2634,7 +2626,7 @@
 
       // 목 → 이미지 경로
       const orderLatin = (orderStr?.match(/\(([A-Za-z]+)\)/)?.[1] || '').toLowerCase();
-      const imgSrc = ORDER_IMG[orderLatin] || null;
+      const imgSrc = ORDER_IMG_PATH[orderLatin] || null;
 
       // coinD + insectW ≤ MAX_TOTAL 을 유지하면서 비율 보존
       // ratio = avg / COIN_MM → insectW = coinD * ratio
