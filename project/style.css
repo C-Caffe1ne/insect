@@ -390,12 +390,13 @@ ul { list-style: none; }
   bottom: 0;
   left: 0;
   right: 0;
-  padding: 16px;
+  padding: 20px;
   z-index: 2;
 }
 
 .featured-tag {
-  font-size: 8px;
+  font-family: var(--font-body);
+  font-size: 13px;
   letter-spacing: 0.24em;
   color: var(--green-soft);
   text-transform: uppercase;
@@ -405,14 +406,16 @@ ul { list-style: none; }
 
 .featured-name {
   font-family: var(--font-display);
-  font-size: 18px;
+  font-size: 26px;
   font-weight: 400;
-  line-height: 1.15;
-  margin-bottom: 4px;
+  line-height: 1.25;
+  margin-bottom: 6px;
 }
 
 .featured-count {
-  font-size: 11px;
+  font-family: var(--font-sci);
+  font-size: 16px;
+  font-style: italic;
   color: var(--text-muted);
 }
 
@@ -423,9 +426,19 @@ ul { list-style: none; }
   display: flex;
   gap: 14px;
   overflow-x: auto;
+  margin-left: -24px;
+  margin-right: -24px;
+  padding-left: 24px;
+  padding-right: 24px;
   padding-bottom: 4px;
   -webkit-overflow-scrolling: touch;
   scrollbar-width: none;
+  cursor: grab;
+  user-select: none;
+}
+
+.species-scroll:active {
+  cursor: grabbing;
 }
 
 .species-scroll::-webkit-scrollbar {
@@ -604,7 +617,7 @@ ul { list-style: none; }
 
 /* Dynamic order card names */
 .order-name-kr {
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 600;
   line-height: 1.2;
   margin-bottom: 4px;
@@ -614,7 +627,7 @@ ul { list-style: none; }
 .order-sci {
   font-size: 12px;
   color: var(--text-secondary);
-  font-family: var(--font-sci);
+  font-family: var(--font-display);
   font-style: italic;
   margin-bottom: 2px;
 }
@@ -879,7 +892,10 @@ ul { list-style: none; }
   display: flex;
   gap: 10px;
   overflow-x: auto;
+  margin-left: -24px;
   margin-right: -24px;
+  padding-left: 24px;
+  padding-right: 24px;
   padding-bottom: 4px;
   -webkit-overflow-scrolling: touch;
   scrollbar-width: none;
@@ -980,7 +996,7 @@ ul { list-style: none; }
   align-items: center;
   justify-content: center;
   color: rgba(255,255,255,0.18);
-  font-family: 'Cormorant Garamond', serif;
+  font-family: var(--font-display);
   font-style: italic;
   font-size: 36px;
 }
@@ -1775,7 +1791,7 @@ ul { list-style: none; }
 }
 
 .species-detail-sci {
-  font-family: 'Cormorant Garamond', var(--font-sci), serif;
+  font-family: var(--font-display);
   font-style: italic;
   font-size: 17px;
   color: var(--green-soft);
@@ -1817,7 +1833,7 @@ ul { list-style: none; }
 }
 
 .info-card-primary {
-  font-family: 'Cormorant Garamond', var(--font-sci), serif;
+  font-family: var(--font-display);
   font-style: italic;
   font-size: 18px;
   color: var(--text-primary);
@@ -1926,7 +1942,7 @@ ul { list-style: none; }
 }
 
 .taxonomy-scientific {
-  font-family: 'Cormorant Garamond', var(--font-sci), serif;
+  font-family: var(--font-display);
   font-style: italic;
   font-weight: 500;
 }
@@ -2197,7 +2213,7 @@ ul { list-style: none; }
 }
 
 .lifecycle-sub {
-  font-family: 'Cormorant Garamond', var(--font-sci), serif;
+  font-family: var(--font-display);
   font-style: italic;
   font-size: 11px;
   color: var(--text-muted);
@@ -2241,7 +2257,7 @@ ul { list-style: none; }
   text-align: center;
 }
 .search-eyebrow {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: var(--font-display);
   font-size: 11px;
   letter-spacing: 0.32em;
   color: var(--text-muted);
@@ -2485,7 +2501,7 @@ ul { list-style: none; }
   align-items: center;
   justify-content: center;
   color: rgba(255,255,255,0.55);
-  font-family: 'Cormorant Garamond', serif;
+  font-family: var(--font-display);
   font-style: italic;
   font-size: 22px;
   flex-shrink: 0;
@@ -2512,7 +2528,7 @@ ul { list-style: none; }
   text-overflow: ellipsis;
 }
 .result-sci {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: var(--font-display);
   font-style: italic;
   font-size: 13px;
   color: var(--text-muted);
@@ -2611,7 +2627,7 @@ ul { list-style: none; }
 }
 .feature-finder-card:active { transform: scale(0.99); }
 .feature-finder-eyebrow {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: var(--font-display);
   font-size: 10.5px;
   letter-spacing: 0.28em;
   color: rgba(180,200,230,0.7);
@@ -2774,7 +2790,7 @@ ul { list-style: none; }
 .feature-dot.active { background: rgba(180,200,230,0.85); }
 .feature-dot.completed { background: rgba(120,160,200,0.55); }
 .feature-step-counter {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: var(--font-display);
   font-size: 14px;
   color: var(--text-muted);
   font-style: italic;
@@ -3074,4 +3090,122 @@ ul { list-style: none; }
   color: var(--text-faint, rgba(255,255,255,0.4));
   font-style: italic;
   margin-top: 8px;
+}
+
+/* ══════════════════════════════════════════════
+   ORDER GUIDE — 목(Order) 기준 안내 페이지
+   ══════════════════════════════════════════════ */
+
+/* ── 검색 페이지 진입 버튼 ── */
+.order-guide-entry-btn {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding: 14px 16px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 14px;
+  font-family: inherit;
+  text-align: left;
+  cursor: pointer;
+  color: inherit;
+  transition: transform 0.06s, background 0.15s;
+}
+.order-guide-entry-btn:active { transform: scale(0.99); background: rgba(255,255,255,0.07); }
+
+.order-guide-entry-icon {
+  display: inline-flex;
+  width: 38px;
+  height: 38px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background: rgba(140,168,146,0.12);
+  color: var(--green-soft);
+  flex-shrink: 0;
+}
+
+.order-guide-entry-text {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  flex: 1;
+}
+
+.order-guide-entry-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.order-guide-entry-sub {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-top: 1px;
+}
+
+.order-guide-entry-chevron {
+  color: var(--text-faint);
+  flex-shrink: 0;
+}
+
+/* ── 목 기준 페이지 내부 ── */
+.order-guide-intro {
+  padding: 0 24px 24px;
+}
+
+.order-guide-intro-text {
+  font-size: 13px;
+  line-height: 1.65;
+  color: var(--text-secondary);
+  word-break: keep-all;
+}
+
+.order-guide-list {
+  list-style: none;
+  padding: 0 24px;
+  padding-bottom: calc(32px + env(safe-area-inset-bottom));
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.order-guide-item {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: 16px;
+  padding: 18px 20px;
+}
+
+.order-guide-item-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.order-guide-item-title {
+  font-family: var(--font-body);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: 1.2;
+}
+
+.order-guide-item-sci {
+  font-family: var(--font-display);
+  font-size: 12px;
+  font-style: italic;
+  color: var(--green-soft);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.order-guide-item-desc {
+  font-size: 13px;
+  line-height: 1.7;
+  color: var(--text-secondary);
+  word-break: keep-all;
 }

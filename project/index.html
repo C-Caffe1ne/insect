@@ -430,7 +430,7 @@
             <button class="feature-finder-card" type="button" id="btnOpenFeatureFinder">
               <div class="feature-finder-text">
                 <h3 class="feature-finder-title">특징으로 찾기</h3>
-                <p class="feature-finder-sub">크기 · 서식지 · 활동 시간을 선택해 추천</p>
+                <p class="feature-finder-sub">크기 · 서식지 · 활동 시간으로 탐색</p>
               </div>
               <span class="feature-finder-icon" aria-hidden="true">
                 <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
@@ -456,6 +456,26 @@
                 <span class="random-finder-title">랜덤 곤충 보기</span>
                 <span class="random-finder-sub">무작위 곤충 페이지로 이동합니다.</span>
               </span>
+            </button>
+          </section>
+
+          <!-- 목(Order) 기준 안내 -->
+          <section class="section">
+            <button class="order-guide-entry-btn" type="button" id="btnOpenOrderGuide">
+              <span class="order-guide-entry-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 6h16M4 10h16M4 14h10M4 18h6"/>
+                </svg>
+              </span>
+              <span class="order-guide-entry-text">
+                <span class="order-guide-entry-title">목(Order)의 기준?</span>
+                <span class="order-guide-entry-sub">16목의 특징과 분류 기준 보기</span>
+              </span>
+              <svg class="order-guide-entry-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="9 18 15 12 9 6"/>
+              </svg>
             </button>
           </section>
 
@@ -789,6 +809,30 @@
     </div>
     </div>
 
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- PAGE 7: ORDER GUIDE (목 분류 기준)           -->
+    <!-- ═══════════════════════════════════════════ -->
+    <div class="page" id="pageOrderGuide">
+
+      <div class="family-detail-topbar">
+        <button class="family-back-btn" id="orderGuideBackBtn" aria-label="검색으로 돌아가기">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <line x1="19" y1="12" x2="5" y2="12"></line>
+            <polyline points="12 19 5 12 12 5"></polyline>
+          </svg>
+        </button>
+        <h2 class="family-detail-title">목(Order)의 기준</h2>
+      </div>
+
+      <div class="order-guide-intro">
+        <p class="order-guide-intro-text">곤충 분류에서 '목(目, Order)'은 과(科)보다 상위, 강(綱)보다 하위 단계입니다. 날개 구조·변태 방식·구기(입) 형태 등 주요 형질을 기준으로 구분합니다.</p>
+      </div>
+
+      <ul class="order-guide-list" id="orderGuideList" role="list"></ul>
+
+    </div>
+
   </div>
 
   <script>
@@ -803,6 +847,24 @@
       lepidoptera: 'lepidoptera', hymenoptera: 'hymenoptera',
     };
 
+    const ORDER_GUIDE_DESC = [
+      { id: 'zygentoma',     kr: '좀목',       sci: 'Zygentoma',     desc: '날개가 없는 원시적인 곤충. 비늘 모양의 체표와 3개의 긴 미모(꼬리)가 특징이다. 어두운 곳을 좋아하며 종이·섬유·전분을 먹어 가정 해충이 되기도 한다.' },
+      { id: 'ephemeroptera', kr: '하루살이목',  sci: 'Ephemeroptera',  desc: '유충은 1~3년을 물속에서 보내지만 성충의 수명은 하루에서 길어야 수 일에 불과하다. 성충은 입이 퇴화되어 먹이를 먹지 않으며 오직 번식만을 위해 존재한다.' },
+      { id: 'odonata',       kr: '잠자리목',   sci: 'Odonata',        desc: '앞·뒷날개가 독립적으로 움직이는 탁월한 비행 능력을 가진 포식성 곤충. 유충(약충)은 물속에서 생활하며 성충과 유충 모두 다른 작은 곤충을 사냥한다.' },
+      { id: 'blattodea',     kr: '바퀴목',      sci: 'Blattodea',      desc: '3억 년이 넘는 역사를 가진 매우 원시적인 그룹으로 흰개미를 포함한다. 납작한 몸체와 빠른 주행 능력이 특징이며 대부분 야행성이다.' },
+      { id: 'mantodea',      kr: '사마귀목',   sci: 'Mantodea',       desc: '낫 모양으로 변형된 앞다리로 먹이를 낚아채는 포식성 곤충. 삼각형 머리를 자유롭게 돌릴 수 있으며 특유의 기도 자세로 잘 알려져 있다.' },
+      { id: 'dermaptera',    kr: '집게벌레목', sci: 'Dermaptera',     desc: '배 끝에 강력한 집게 모양의 미모를 가진 곤충. 주로 야행성으로 식물 잔해·곤충·썩은 유기물을 먹으며 알을 직접 돌보는 모성 행동을 보인다.' },
+      { id: 'orthoptera',    kr: '메뚜기목',   sci: 'Orthoptera',     desc: '도약에 특화된 굵고 긴 뒷다리가 특징이다. 메뚜기·귀뚜라미·여치를 포함하며 수컷은 날개나 다리를 마찰시켜 특유의 울음소리를 낸다.' },
+      { id: 'phasmida',      kr: '대벌레목',   sci: 'Phasmida',       desc: '식물의 잎·가지와 거의 구별되지 않는 뛰어난 위장 능력을 지닌 곤충. 모두 식식성이며 일부 종은 수컷 없이 단독으로 번식(처녀생식)한다.' },
+      { id: 'hemiptera',     kr: '노린재목',   sci: 'Hemiptera',      desc: '관 모양의 입으로 식물 수액이나 동물의 체액을 빨아 먹는다. 매미·진딧물·깍지벌레·노린재를 포함하며 불완전변태 곤충 중 가장 많은 종 수를 자랑한다.' },
+      { id: 'neuroptera',    kr: '풀잠자리목', sci: 'Neuroptera',     desc: '날개 전체에 그물처럼 촘촘한 시맥이 발달한 포식성 곤충. 풀잠자리·명주잠자리가 대표적이며 유충도 진딧물 등을 잡아먹는 사냥꾼이다.' },
+      { id: 'coleoptera',    kr: '딱정벌레목', sci: 'Coleoptera',     desc: '앞날개가 딱딱한 시초(elytra)로 변형되어 뒷날개를 보호한다. 전체 동물 종의 약 25%를 차지할 만큼 지구상에서 가장 다양한 종 수를 보유한 목이다.' },
+      { id: 'diptera',       kr: '파리목',      sci: 'Diptera',        desc: '앞날개 한 쌍만으로 비행하며 뒷날개는 평균곤(halteres)이라는 균형 기관으로 퇴화되었다. 모기·등에·파리·각다귀 등을 포함하며 수분·분해·기생에 핵심 역할을 한다.' },
+      { id: 'mecoptera',     kr: '밑들이목',   sci: 'Mecoptera',      desc: '머리가 주둥이처럼 아래로 늘어진 원시적인 곤충. 종 수는 적지만 진화학적으로 파리목·벌목·날도래목의 공통 조상과 가까운 위치를 차지한다.' },
+      { id: 'trichoptera',   kr: '날도래목',   sci: 'Trichoptera',    desc: '유충이 모래·나뭇조각·돌을 엮어 집(통소)을 짓는 수서 곤충. 성충의 날개는 털로 덮여 있어 나비·나방과 구별되며, 수질 오염 지표종으로도 활용된다.' },
+      { id: 'lepidoptera',   kr: '나비목',     sci: 'Lepidoptera',    desc: '날개 표면이 수천 개의 작은 인편(비늘 가루)으로 뒤덮인 곤충. 나비와 나방을 합쳐 약 16만 종이 기재되어 딱정벌레목 다음으로 큰 목이다.' },
+      { id: 'hymenoptera',   kr: '벌목',       sci: 'Hymenoptera',    desc: '개미·꿀벌·말벌을 포함하며 고도의 사회성 행동을 진화시킨 그룹이 많다. 암컷의 산란관이 침으로 변형되었으며 꽃가루 매개·기생·포식 등 생태계에서 다양한 역할을 담당한다.' },
+    ];
 
     function formatCount(n) {
       return Number(n || 0).toLocaleString('ko-KR');
@@ -1125,7 +1187,6 @@
           <div class="order-mini-body">
             <h3 class="order-name-kr">${escapeHTML(order.commonName)}</h3>
             <p class="order-sci">${escapeHTML(order.scientificName)}</p>
-            <p class="order-count">${formatCount(order.recordCount)}종</p>
           </div>
         `;
         const open = () => openOrderSpecies(orderKey);
@@ -1440,6 +1501,32 @@
       showPage('pageFamilyDetail', { keepNav: true });
     }
 
+    function attachDragScroll(el) {
+      let isDragging = false, startX = 0, scrollLeft = 0, moved = false;
+      el.addEventListener('pointerdown', (e) => {
+        isDragging = true;
+        moved = false;
+        startX = e.clientX;
+        scrollLeft = el.scrollLeft;
+        el.setPointerCapture(e.pointerId);
+        el.style.cursor = 'grabbing';
+      });
+      el.addEventListener('pointermove', (e) => {
+        if (!isDragging) return;
+        const dx = e.clientX - startX;
+        if (Math.abs(dx) > 4) moved = true;
+        el.scrollLeft = scrollLeft - dx;
+      });
+      el.addEventListener('pointerup', (e) => {
+        isDragging = false;
+        el.style.cursor = '';
+        el.releasePointerCapture(e.pointerId);
+      });
+      el.addEventListener('click', (e) => {
+        if (moved) { e.stopPropagation(); e.preventDefault(); moved = false; }
+      }, true);
+    }
+
     function renderThemeSections() {
       THEMES.forEach(theme => {
         const scrollEl = document.getElementById(`themeScroll-${theme.id}`);
@@ -1458,6 +1545,7 @@
         }
 
         matched.forEach(ins => scrollEl.appendChild(buildThemeSpeciesCard(ins)));
+        attachDragScroll(scrollEl);
 
         if (seeAllBtn) {
           seeAllBtn.addEventListener('click', () => openThemeSpecies(theme));
@@ -1558,7 +1646,7 @@
 
     window.addEventListener('popstate', (e) => {
       const pageId = e.state?.page || 'pageDiscover';
-      const isSubPage = pageId === 'pageFamilyDetail' || pageId === 'pageSpeciesDetail';
+      const isSubPage = pageId === 'pageFamilyDetail' || pageId === 'pageSpeciesDetail' || pageId === 'pageOrderGuide';
       showPage(pageId, { keepNav: isSubPage, _fromHistory: true });
       syncNavForPage(pageId);
     });
@@ -1927,6 +2015,41 @@
         });
       });
     }
+
+    // 목(Order) 기준 안내 페이지 렌더
+    function renderOrderGuide() {
+      const list = document.getElementById('orderGuideList');
+      if (!list || list.childElementCount > 0) return;
+      const frag = document.createDocumentFragment();
+      ORDER_GUIDE_DESC.forEach((order) => {
+        const li = document.createElement('li');
+        li.className = 'order-guide-item';
+        li.innerHTML = `
+          <div class="order-guide-item-header">
+            <h3 class="order-guide-item-title">${escapeHTML(order.kr)}이란?</h3>
+            <span class="order-guide-item-sci">${escapeHTML(order.sci)}</span>
+          </div>
+          <p class="order-guide-item-desc">${escapeHTML(order.desc)}</p>
+        `;
+        frag.appendChild(li);
+      });
+      list.appendChild(frag);
+    }
+
+    document.addEventListener('pageshow:pageOrderGuide', renderOrderGuide);
+
+    const orderGuideEntryBtn = document.getElementById('btnOpenOrderGuide');
+    if (orderGuideEntryBtn) {
+      orderGuideEntryBtn.addEventListener('click', () => {
+        showPage('pageOrderGuide', { keepNav: true });
+        document.getElementById('navSearch').classList.add('active');
+      });
+    }
+
+    document.getElementById('orderGuideBackBtn').addEventListener('click', () => {
+      showPage('pageSearch');
+      document.getElementById('navSearch').classList.add('active');
+    });
 
     // pageSearch 진입 시 인덱스 사전 로드
     loadSearchIndex();
