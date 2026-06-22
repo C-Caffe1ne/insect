@@ -131,12 +131,12 @@
           <section class="section">
             <div class="section-head">
               <div>
-                <h2 class="section-title">화려한 곤충</h2>
-                <p class="section-sub">눈길을 사로잡는 아름다운 곤충들</p>
+                <h2 class="section-title">석주명의 나비</h2>
+                <p class="section-sub">석주명이 명명한 나비들</p>
               </div>
-              <button class="see-all" type="button" id="themeSeeAll-colorful">전체보기</button>
+              <button class="see-all" type="button" id="themeSeeAll-korean">전체보기</button>
             </div>
-            <div class="species-scroll" id="themeScroll-colorful">
+            <div class="species-scroll" id="themeScroll-korean">
               <p class="theme-loading">불러오는 중…</p>
             </div>
           </section>
@@ -523,7 +523,7 @@
             <polyline points="12 19 5 12 12 5"></polyline>
           </svg>
         </button>
-        <button class="action-btn" aria-label="설정">
+        <button class="action-btn" id="profileSettingsBtn" aria-label="설정">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
             stroke-linecap="round" stroke-linejoin="round">
             <circle cx="12" cy="12" r="3"></circle>
@@ -659,6 +659,93 @@
 
     </div>
 
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- PAGE 7: SETTINGS (설정)                      -->
+    <!-- ═══════════════════════════════════════════ -->
+    <div class="page" id="pageSettings">
+      <!-- Top Action Bar -->
+      <div class="profile-action-bar">
+        <button class="action-btn" id="settingsBackBtn" aria-label="뒤로">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <line x1="19" y1="12" x2="5" y2="12"></line>
+            <polyline points="12 19 5 12 12 5"></polyline>
+          </svg>
+        </button>
+      </div>
+
+      <!-- Settings Sections -->
+      <div class="settings-container">
+        <!-- 홈 기본 설정 -->
+        <section class="settings-section">
+          <h3 class="settings-section-title">홈 설정</h3>
+          <div class="settings-item">
+            <div class="settings-item-content">
+              <span class="settings-item-title">기본 화면</span>
+                          </div>
+            <div class="settings-control">
+              <select class="settings-select" id="defaultHomeTab">
+                <option value="curated">테마 보기</option>
+                <option value="taxonomy">분류 보기</option>
+              </select>
+            </div>
+          </div>
+        </section>
+
+        <!-- 알림 설정 -->
+        <section class="settings-section">
+          <h3 class="settings-section-title">알림 설정</h3>
+          <div class="settings-item">
+            <div class="settings-item-content">
+              <span class="settings-item-title">오늘의 곤충 알림</span>
+                          </div>
+            <div class="settings-control">
+              <label class="toggle-switch">
+                <input type="checkbox" id="dailyNotification">
+                <span class="toggle-slider"></span>
+              </label>
+            </div>
+          </div>
+        </section>
+
+        <!-- 앱 정보 -->
+        <section class="settings-section">
+          <h3 class="settings-section-title">앱 정보</h3>
+          <div class="settings-item">
+            <div class="settings-item-content">
+              <span class="settings-item-title">버전</span>
+                          </div>
+          </div>
+          <div class="settings-item">
+            <div class="settings-item-content">
+              <span class="settings-item-title">데이터 출처</span>
+                          </div>
+          </div>
+        </section>
+
+        <!-- 지원 -->
+        <section class="settings-section">
+          <h3 class="settings-section-title">지원</h3>
+          <div class="settings-item">
+            <div class="settings-item-content">
+              <span class="settings-item-title">오류 및 버그 제보</span>
+                          </div>
+            <div class="settings-control">
+              <button class="settings-button" id="reportBug">제보</button>
+            </div>
+          </div>
+          <div class="settings-item">
+            <div class="settings-item-content">
+              <span class="settings-item-title">앱 평가하기</span>
+                          </div>
+            <div class="settings-control">
+              <button class="settings-button" id="rateApp">평가</button>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
     <!-- ─── Scroll-to-top FAB ─── -->
     <button class="scroll-top-fab" id="searchScrollTopBtn" aria-label="맨 위로 이동" hidden>
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
@@ -666,6 +753,31 @@
         <path d="M18 15l-6-6-6 6"/>
       </svg>
     </button>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- PAGE 7: ORDER GUIDE (목 분류 기준)           -->
+    <!-- ═══════════════════════════════════════════ -->
+    <div class="page" id="pageOrderGuide">
+
+      <div class="family-detail-topbar">
+        <button class="family-back-btn" id="orderGuideBackBtn" aria-label="검색으로 돌아가기">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <line x1="19" y1="12" x2="5" y2="12"></line>
+            <polyline points="12 19 5 12 12 5"></polyline>
+          </svg>
+        </button>
+        <h2 class="family-detail-title">목(Order)의 기준</h2>
+      </div>
+
+      <div class="order-guide-intro">
+        <p class="order-guide-intro-text"><br>
+          곤충 분류에서 '목(目, Order)'은 과(科)보다 상위, 강(綱)보다 하위 단계입니다. 날개 구조·변태 방식·구기(입) 형태 등 주요 형질을 기준으로 구분합니다.</p>
+      </div>
+
+      <ul class="order-guide-list" id="orderGuideList" role="list"></ul>
+
+    </div>
 
     <!-- ─── BOTTOM NAV ─── -->
     <nav class="bottom-nav">
@@ -730,7 +842,7 @@
         <!-- Step 1: 크기 -->
         <section class="feature-step active" data-step-id="size">
           <h3 class="feature-step-title" id="featureModalTitle">곤충의 크기</h3>
-          <p class="feature-step-sub">선호하는 크기를 선택해 보세요</p>
+          <p class="feature-step-sub">대략적인 크기 (500원 : 26.5mm)</p>
           <div class="feature-options" data-key="size">
             <button class="feature-option" data-value="소" type="button">
               <span class="feature-option-label">소형</span>
@@ -750,7 +862,7 @@
         <!-- Step 2: 서식지 -->
         <section class="feature-step" data-step-id="habitat">
           <h3 class="feature-step-title">서식지</h3>
-          <p class="feature-step-sub">어디에서 볼 수 있나요?</p>
+          <p class="feature-step-sub">관찰 가능한 장소</p>
           <div class="feature-options feature-options--grid" data-key="habitat">
             <button class="feature-option" data-value="숲" type="button">
               <span class="feature-option-label">숲</span>
@@ -774,7 +886,7 @@
         <!-- Step 4: 활동 시간 -->
         <section class="feature-step" data-step-id="activity">
           <h3 class="feature-step-title">활동 시간</h3>
-          <p class="feature-step-sub">언제 볼 수 있나요?</p>
+          <p class="feature-step-sub">활동하는 시간대</p>
           <div class="feature-options" data-key="activity">
             <button class="feature-option" data-value="주간" type="button">
               <span class="feature-option-label">주간</span>
@@ -783,9 +895,6 @@
             <button class="feature-option" data-value="야간" type="button">
               <span class="feature-option-label">야간</span>
               <span class="feature-option-sub">밤에 활동</span>
-            </button>
-            <button class="feature-option" data-value="모두" type="button">
-              <span class="feature-option-label">항상</span>
             </button>
           </div>
         </section>
@@ -807,30 +916,6 @@
       </footer>
 
     </div>
-    </div>
-
-    <!-- ═══════════════════════════════════════════ -->
-    <!-- PAGE 7: ORDER GUIDE (목 분류 기준)           -->
-    <!-- ═══════════════════════════════════════════ -->
-    <div class="page" id="pageOrderGuide">
-
-      <div class="family-detail-topbar">
-        <button class="family-back-btn" id="orderGuideBackBtn" aria-label="검색으로 돌아가기">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-            stroke-linecap="round" stroke-linejoin="round">
-            <line x1="19" y1="12" x2="5" y2="12"></line>
-            <polyline points="12 19 5 12 12 5"></polyline>
-          </svg>
-        </button>
-        <h2 class="family-detail-title">목(Order)의 기준</h2>
-      </div>
-
-      <div class="order-guide-intro">
-        <p class="order-guide-intro-text">곤충 분류에서 '목(目, Order)'은 과(科)보다 상위, 강(綱)보다 하위 단계입니다. 날개 구조·변태 방식·구기(입) 형태 등 주요 형질을 기준으로 구분합니다.</p>
-      </div>
-
-      <ul class="order-guide-list" id="orderGuideList" role="list"></ul>
-
     </div>
 
   </div>
@@ -1239,31 +1324,37 @@
           tags.appendChild(tag);
         });
 
-      // 마우스 드래그 스크롤
-      let isDragging = false, dragStartX = 0, dragScrollLeft = 0, dragMoved = false;
-      tags.addEventListener('pointerdown', (e) => {
-        isDragging = true;
-        dragMoved = false;
-        dragStartX = e.clientX;
-        dragScrollLeft = tags.scrollLeft;
-        tags.setPointerCapture(e.pointerId);
-        tags.style.cursor = 'grabbing';
-      });
-      tags.addEventListener('pointermove', (e) => {
-        if (!isDragging) return;
-        const dx = e.clientX - dragStartX;
-        if (Math.abs(dx) > 4) dragMoved = true;
-        tags.scrollLeft = dragScrollLeft - dx;
-      });
-      tags.addEventListener('pointerup', (e) => {
-        isDragging = false;
-        tags.style.cursor = '';
-        tags.releasePointerCapture(e.pointerId);
-      });
-      // 드래그 중 클릭 차단
-      tags.addEventListener('click', (e) => {
-        if (dragMoved) { e.stopPropagation(); e.preventDefault(); dragMoved = false; }
-      }, true);
+      // 마우스 드래그 스크롤 (최초 1회만 등록)
+      if (!tags.dataset.dragInit) {
+        tags.dataset.dragInit = '1';
+        let isDragging = false, dragStartX = 0, dragScrollLeft = 0, dragMoved = false;
+        tags.addEventListener('pointerdown', (e) => {
+          isDragging = true;
+          dragMoved = false;
+          dragStartX = e.clientX;
+          dragScrollLeft = tags.scrollLeft;
+        });
+        tags.addEventListener('pointermove', (e) => {
+          if (!isDragging) return;
+          const dx = e.clientX - dragStartX;
+          if (Math.abs(dx) > 8) {
+            dragMoved = true;
+            if (!tags.hasPointerCapture(e.pointerId)) tags.setPointerCapture(e.pointerId);
+            tags.style.cursor = 'grabbing';
+            tags.scrollLeft = dragScrollLeft - dx;
+          }
+        });
+        tags.addEventListener('pointerup', (e) => {
+          isDragging = false;
+          dragMoved = false;
+          tags.style.cursor = '';
+          if (tags.hasPointerCapture(e.pointerId)) tags.releasePointerCapture(e.pointerId);
+        });
+        tags.addEventListener('pointercancel', () => { isDragging = false; dragMoved = false; tags.style.cursor = ''; });
+        tags.addEventListener('click', (e) => {
+          if (dragMoved) { e.stopPropagation(); e.preventDefault(); dragMoved = false; }
+        }, true);
+      }
 
       const orderSectionForOrder = document.querySelector('#pageFamilyDetail .family-order-section');
       if (orderSectionForOrder) orderSectionForOrder.hidden = false;
@@ -1416,10 +1507,10 @@
         keywords: ['야행성', '밤에', '빛에', '야간'],
       },
       {
-        id: 'colorful',
-        title: '화려한 곤충',
-        sub: '눈길을 사로잡는 아름다운 곤충들',
-        keywords: ['화려한', '광택', '아름'],
+        id: 'korean',
+        title: '석주명의 나비',
+        sub: '석주명이 명명한 나비들',
+        keywords: ['석주명'],
       },
     ];
 
@@ -1622,6 +1713,8 @@
     }
 
     function showPage(pageId, options = {}) {
+      const ae = document.activeElement;
+      if (ae instanceof HTMLInputElement || ae instanceof HTMLTextAreaElement) ae.blur();
       allPages.forEach(p => p.classList.remove('active'));
       if (!options.keepNav) allNavItems.forEach(n => n.classList.remove('active'));
       const target = document.getElementById(pageId);
@@ -2024,13 +2117,33 @@
       ORDER_GUIDE_DESC.forEach((order) => {
         const li = document.createElement('li');
         li.className = 'order-guide-item';
+        li.setAttribute('role', 'button');
+        li.setAttribute('tabindex', '0');
+        li.setAttribute('aria-expanded', 'false');
         li.innerHTML = `
           <div class="order-guide-item-header">
             <h3 class="order-guide-item-title">${escapeHTML(order.kr)}이란?</h3>
-            <span class="order-guide-item-sci">${escapeHTML(order.sci)}</span>
+            <div class="order-guide-item-header-right">
+              <span class="order-guide-item-sci">${escapeHTML(order.sci)}</span>
+              <svg class="order-guide-item-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </div>
           </div>
           <p class="order-guide-item-desc">${escapeHTML(order.desc)}</p>
         `;
+        li.addEventListener('click', () => {
+          const isOpen = li.classList.contains('open');
+          list.querySelectorAll('.order-guide-item.open').forEach(item => {
+            item.classList.remove('open');
+            item.setAttribute('aria-expanded', 'false');
+          });
+          if (!isOpen) {
+            li.classList.add('open');
+            li.setAttribute('aria-expanded', 'true');
+          }
+        });
+        li.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); li.click(); }
+        });
         frag.appendChild(li);
       });
       list.appendChild(frag);
@@ -2060,7 +2173,7 @@
       allPages.forEach(page => {
         page.addEventListener('scroll', () => {
           if (page.classList.contains('active')) {
-            scrollTopBtn.hidden = page.scrollTop < 200;
+            scrollTopBtn.hidden = page.id === 'pageSettings' || page.id === 'pageOrderGuide' || page.scrollTop < 200;
           }
         }, { passive: true });
       });
@@ -3164,6 +3277,107 @@
     document.addEventListener('pageshow:pageSpeciesDetail', () => {
       updateFavBtn(getFavId(selectedSpecies));
     });
+
+    // ══════════════════════════════════════════════
+    // SETTINGS PAGE FUNCTIONALITY
+    // ══════════════════════════════════════════════
+    
+    // 설정 기본값
+    const DEFAULT_SETTINGS = {
+      defaultHomeTab: 'curated',
+      dailyNotification: false
+    };
+
+    // 설정 로드
+    function loadSettings() {
+      const saved = localStorage.getItem('insectAppSettings');
+      return saved ? { ...DEFAULT_SETTINGS, ...JSON.parse(saved) } : DEFAULT_SETTINGS;
+    }
+
+    // 설정 저장
+    function saveSettings(settings) {
+      localStorage.setItem('insectAppSettings', JSON.stringify(settings));
+    }
+
+    // 설정 적용
+    function applySettings(settings) {
+      // 홈 기본 설정 적용
+      if (settings.defaultHomeTab) {
+        const defaultTab = document.querySelector(`[data-tab="${settings.defaultHomeTab}"]`);
+        if (defaultTab) {
+          // 앱 시작 시 기본 탭 설정 로직
+          localStorage.setItem('defaultHomeTab', settings.defaultHomeTab);
+        }
+      }
+
+    }
+
+
+    // 설정 페이지 UI 초기화
+    function initSettingsPage() {
+      const settings = loadSettings();
+
+      // 설정 값으로 UI 업데이트
+      document.getElementById('defaultHomeTab').value = settings.defaultHomeTab;
+      document.getElementById('dailyNotification').checked = settings.dailyNotification;
+
+      // 이벤트 리스너 추가
+      document.getElementById('defaultHomeTab').addEventListener('change', (e) => {
+        const settings = loadSettings();
+        settings.defaultHomeTab = e.target.value;
+        saveSettings(settings);
+        applySettings(settings);
+      });
+
+      document.getElementById('dailyNotification').addEventListener('change', (e) => {
+        const settings = loadSettings();
+        settings.dailyNotification = e.target.checked;
+        saveSettings(settings);
+        
+        // 알림 권한 요청 (실제 앱에서는 Notification API 사용)
+        if (e.target.checked && 'Notification' in window) {
+          Notification.requestPermission();
+        }
+      });
+
+      // 지원 버튼
+      document.getElementById('reportBug').addEventListener('click', () => {
+        // 버그 제보 (이메일 또는 외부 링크)
+        window.open('mailto:support@example.com?subject=곤충도감 버그 제보');
+      });
+
+      document.getElementById('rateApp').addEventListener('click', () => {
+        // 앱 평가 (스토어 링크)
+        alert('스토어에서 앱을 평가해주세요.');
+      });
+
+      // 뒤로 가기 버튼
+      document.getElementById('settingsBackBtn').addEventListener('click', () => {
+        showPage('pageDiscover');
+        updateNav('navDiscover');
+      });
+    }
+
+    // 설정 페이지로 이동 시 초기화
+    document.addEventListener('pageshow:pageSettings', () => {
+      initSettingsPage();
+    });
+
+    // 내 정보 페이지 설정 버튼
+    document.getElementById('profileSettingsBtn').addEventListener('click', () => {
+      showPage('pageSettings');
+      updateNav('navSettings');
+    });
+
+    // 설정 네비게이션 버튼 (현재는 직접 접근하지 않음)
+    // document.getElementById('navSettings').addEventListener('click', () => {
+    //   showPage('pageSettings');
+    //   updateNav('navSettings');
+    // });
+
+    // 앱 시작 시 설정 적용
+    const settings = loadSettings();
+    applySettings(settings);
 
   </script>
 
