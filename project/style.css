@@ -1316,6 +1316,35 @@ ul { list-style: none; }
   box-shadow: 0 12px 40px rgba(0,0,0,0.5);
 }
 
+/* 배경 이미지 있을 때만 어두운 그라디언트 오버레이 */
+.profile-glass-card.has-bg-image::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.20) 0%,
+    rgba(0, 0, 0, 0.58) 100%
+  );
+  z-index: -1;
+  pointer-events: none;
+}
+
+/* 배경 이미지 위 텍스트 선명도 보강 */
+.profile-glass-card.has-bg-image .profile-name {
+  color: #ffffff;
+  text-shadow: 0 1px 10px rgba(0,0,0,0.65);
+}
+.profile-glass-card.has-bg-image .profile-handle-location {
+  color: rgba(255, 255, 255, 0.90);
+  text-shadow: 0 1px 8px rgba(0,0,0,0.55);
+}
+.profile-glass-card.has-bg-image .profile-stat-number,
+.profile-glass-card.has-bg-image .profile-stat-label {
+  text-shadow: 0 1px 6px rgba(0,0,0,0.50);
+}
+
 /* Avatar with neon glowing border */
 .profile-avatar-container {
   position: absolute;
@@ -1408,6 +1437,290 @@ ul { list-style: none; }
   width: 1px;
   height: 24px;
   background: rgba(255,255,255,0.08);
+}
+
+/* ── 아바타 편집 배지 ── */
+.profile-avatar-container {
+  cursor: pointer;
+}
+
+.profile-avatar-edit-badge {
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: #0d0f12;
+  border: 1.5px solid rgba(163,255,18,0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255,255,255,0.65);
+  z-index: 4;
+  pointer-events: none;
+}
+
+/* ── 프로필 탑 영역 (액션바 + 히어로) ── */
+.profile-top-area {
+  position: relative;
+  flex-shrink: 0;
+}
+
+/* ── 프로필 편집 액션시트 ── */
+.profile-edit-sheet {
+  position: absolute;
+  inset: 0;
+  z-index: 500;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 16px calc(16px + env(safe-area-inset-bottom));
+  box-sizing: border-box;
+}
+
+.profile-edit-sheet[hidden] { display: none; }
+
+.profile-edit-sheet-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+.profile-edit-sheet-panel {
+  position: relative;
+  background: #1c1f1c;
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 16px;
+  overflow: hidden;
+  z-index: 1;
+  animation: sheetSlideUp 0.28s cubic-bezier(0.16,0.84,0.44,1);
+}
+
+@keyframes sheetSlideUp {
+  from { transform: translateY(40px); opacity: 0; }
+  to   { transform: translateY(0);    opacity: 1; }
+}
+
+.profile-edit-sheet-title {
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  text-align: center;
+  padding: 14px 16px 12px;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+  margin: 0;
+}
+
+.profile-edit-sheet-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  width: 100%;
+  padding: 16px 20px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+  color: var(--text-primary);
+  font-size: 15px;
+  font-family: inherit;
+  cursor: pointer;
+  text-align: left;
+  transition: background 0.15s;
+}
+
+.profile-edit-sheet-item:last-of-type { border-bottom: none; }
+.profile-edit-sheet-item:active { background: rgba(255,255,255,0.06); }
+
+.profile-edit-sheet-cancel {
+  display: block;
+  width: 100%;
+  padding: 16px;
+  margin-top: 10px;
+  background: #1c1f1c;
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 16px;
+  color: var(--text-secondary);
+  font-size: 15px;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  transition: background 0.15s;
+}
+
+.profile-edit-sheet-cancel:active { background: rgba(255,255,255,0.06); }
+
+/* ── Step 2 nav (뒤로 + 타이틀) ── */
+.profile-edit-sheet-nav {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  padding: 6px 12px 6px 8px;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+.profile-edit-sheet-back-btn {
+  background: transparent;
+  border: none;
+  padding: 8px 10px 8px 6px;
+  cursor: pointer;
+  color: rgba(255,255,255,0.5);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  transition: color 0.15s;
+}
+.profile-edit-sheet-back-btn:active { color: var(--text-primary); }
+.profile-edit-sheet-nav .profile-edit-sheet-title {
+  margin: 0;
+  padding: 0;
+}
+
+/* ── 삭제 항목 ── */
+.profile-edit-delete { color: #ff6b6b; }
+
+/* ── 크롭 모달 ── */
+.profile-crop-modal {
+  position: absolute;
+  inset: 0;
+  z-index: 600;
+  display: flex;
+  flex-direction: column;
+  background: #000;
+}
+.profile-crop-modal[hidden] { display: none; }
+
+.profile-crop-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px 14px;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  flex-shrink: 0;
+}
+.profile-crop-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+.profile-crop-btn {
+  background: transparent;
+  border: none;
+  font-family: inherit;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 6px 2px;
+  min-width: 44px;
+}
+.profile-crop-cancel-btn  { color: rgba(255,255,255,0.55); text-align: left; }
+.profile-crop-confirm-btn { color: #a3ff12; font-weight: 600; text-align: right; }
+
+.profile-crop-viewport {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  background: #111;
+  touch-action: none;
+  cursor: grab;
+  user-select: none;
+}
+.profile-crop-viewport:active { cursor: grabbing; }
+
+#profileCropImg {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  max-width: none;
+  max-height: none;
+  pointer-events: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  transform-origin: center center;
+}
+
+.profile-crop-frame {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  border: 2px solid rgba(255,255,255,0.88);
+  box-shadow: 0 0 0 9999px rgba(0,0,0,0.62);
+  z-index: 2;
+}
+.profile-crop-frame--circle { border-radius: 50%; }
+
+/* 3×2 룰오브써즈 그리드 */
+.profile-crop-frame::before,
+.profile-crop-frame::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+.profile-crop-frame::before {
+  background-image:
+    linear-gradient(to right,
+      transparent calc(33.33% - 0.5px),
+      rgba(255,255,255,0.22) calc(33.33% - 0.5px),
+      rgba(255,255,255,0.22) calc(33.33% + 0.5px),
+      transparent calc(33.33% + 0.5px)),
+    linear-gradient(to right,
+      transparent calc(66.66% - 0.5px),
+      rgba(255,255,255,0.22) calc(66.66% - 0.5px),
+      rgba(255,255,255,0.22) calc(66.66% + 0.5px),
+      transparent calc(66.66% + 0.5px));
+}
+.profile-crop-frame::after {
+  background-image:
+    linear-gradient(to bottom,
+      transparent calc(50% - 0.5px),
+      rgba(255,255,255,0.22) calc(50% - 0.5px),
+      rgba(255,255,255,0.22) calc(50% + 0.5px),
+      transparent calc(50% + 0.5px));
+}
+
+/* 리사이즈 핸들 */
+.profile-crop-resize-handle {
+  position: absolute;
+  bottom: -12px;
+  right: -12px;
+  width: 26px;
+  height: 26px;
+  pointer-events: auto;
+  cursor: nwse-resize;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile-crop-resize-handle::before {
+  content: '';
+  width: 14px;
+  height: 14px;
+  border-right: 2.5px solid rgba(255,255,255,0.9);
+  border-bottom: 2.5px solid rgba(255,255,255,0.9);
+  border-radius: 0 0 3px 0;
+}
+.profile-crop-frame--circle .profile-crop-resize-handle { display: none; }
+
+.profile-crop-footer {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 18px 24px;
+  color: rgba(255,255,255,0.38);
+  border-top: 1px solid rgba(255,255,255,0.06);
+  flex-shrink: 0;
+}
+.profile-crop-zoom {
+  flex: 1;
+  height: 3px;
+  accent-color: #a3ff12;
+  cursor: pointer;
 }
 
 /* Sections */
@@ -3316,12 +3629,17 @@ ul { list-style: none; }
   background: var(--bg-input);
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-pill);
-  padding: 8px 16px;
+  padding: 8px 30px 8px 16px;
   color: var(--text-primary);
   font-size: 14px;
   font-family: var(--font-body);
   min-width: 120px;
   outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='rgba(255%2C255%2C255%2C0.45)' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
 }
 
 .settings-select:focus {

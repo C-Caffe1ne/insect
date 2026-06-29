@@ -2,26 +2,149 @@
 
 ## 프로젝트 개요
 
-- **목적**: 한국 곤충 분류와 종 정보를 큐레이션·탐색하는 웹 도감 (ENTOMA · KR)
-- **기술**: 순수 HTML/CSS/JavaScript (프레임워크 없음)
+- **목적**: 한국 곤충 분류와 종 정보를 큐레이션·탐색하는 정적 웹 도감 (ENTOMA · KR)
+- **기술 스택**: 순수 Vanilla HTML / CSS / JavaScript — 빌드 툴·프레임워크 전혀 없음
 - **데이터 규모**: 16목 / 94과 / NIBR eCatalog 300종
-- **작업 디렉토리**: `project/` (HTML/CSS/이미지/폰트/JSON)
-- **중간 산출물**: 루트 `_workspace/` (오케스트레이션용)
+- **작업 디렉토리**: `project/` (모든 소스 파일과 JSON 캐시)
+- **진입점**: `project/index.html` (HTML + 모든 JS 인라인) + `project/style.css`
 
-## 하네스: ENTOMA · KR 웹 개발 워크플로우
+---
 
-**목표:** `project/` 하위 HTML/CSS/JS 구현 → 코드 리뷰 → QA → 문서화 전체 자동화
+## 주요 아키텍처 및 데이터 흐름
 
-**트리거:** 곤충도감 관련 웹 개발(구현, 수정, 리뷰, 테스트, 문서화) 요청 시 `web-orchestrator` 스킬을 사용하라. 단순 질문이나 1줄 수정은 직접 응답 가능.
+### 페이지 구조 (단일 HTML, 페이지 전환 방식)
 
-**팀 구성:** `web-developer` · `code-reviewer` · `qa-agent` · `doc-writer` (모두 `model: "opus"`)
+모든 페이지는 `.app` 컨테이너 안에 `.page` div로 존재. `active` 클래스를 토글하여 전환.
 
-**참고 경로:**
+| ID | 설명 |
+|----|------|
+| `#pageDiscover` | 메인 탐색 (테마 보기 / 분류 보기 탭) |
+| `#pageFamilyDetail` | 목(Order) 내 종 목록 |
+| `#pageSpeciesDetail` | 종 상세 인포그래픽 |
+| `#pageSearch` | 검색 결과 |
+| `#pageSaved` | 즐겨찾기 |
+| `#pageProfile` | 내 정보 (프로필·배경 편집 포함) |
+| `#pageSettings` | 설정 |
+| `#pageOrderGuide` | 목(Order) 분류 기준 안내 |
+
+### JSON 캐시 파일
+
+| 파일 | 역할 | 생성 방법 |
+|------|------|-----------|
+| `search_index.json` | 전체 검색 인덱스 (`insects[]`, `orders[]`, `families[]`) | `build_nibr_cache.mjs` 가 재생성 |
+| `nibr_cache.json` | 학명(canonical) → NIBR 상세 데이터 매핑 | `build_nibr_cache.mjs` 가 생성 |
+| `inat_photo_cache.json` | iNaturalist 사진 메타데이터 캐시 | 별도 수집 스크립트 |
+| `data/nibr_insects.json` | NIBR 원본 300종 (빌드 소스) | 수동 관리 |
+| `data/nibr_section*.json` | NIBR 섹션별 원본 분할본 | 수동 관리 |
+
+### 캐시 빌드 방법
+
+```bash
+node project/scripts/build_nibr_cache.mjs
+```
+
+`data/nibr_insects.json` → `nibr_cache.json` + `search_index.json` 재생성.
+학명 정규화(`canonicalize`) 기준: 속·종·아종 토큰만 추출, 연도·저자·괄호 제거.
+
+### LocalStorage 키
+
+| 키 | 용도 |
+|----|------|
+| `entoma_favorites` | 즐겨찾기 학명 배열 (JSON) |
+| `insectAppSettings` | 앱 설정 (`defaultHomeTab` 등) |
+| `entoma_profile_photo` | 프로필 사진 DataURL |
+| `entoma_profile_bg` | 배경 이미지 DataURL |
+
+---
+
+## 코드 작성 규칙
+
+### 일반
+
+- **모든 변경은 `project/` 안에서만.** `.app` 클래스 외부 DOM에 절대 접근하지 말 것.
+- HTML 구조 변경 시 CSS selector와의 정합성을 먼저 확인.
+- JS는 `index.html` 최하단 `<script>` 블록에 인라인 작성. 외부 `.js` 파일 추가 금지.
+- 인덴트: 공백 2칸. 세미콜론 사용. `const` / `let` (var 금지).
+- 함수명: camelCase. 내부(비공개) 변수·함수는 `_` 접두사 사용 (`_cropImg`, `_setBgStyle` 등).
+- 주석은 기존 스타일(한글+영문 혼용) 유지. 불필요한 주석 추가·삭제 금지.
+
+### DOM 조회
+
+- 초기화 시점에 변수에 캐싱 (`const _cropFrame = document.getElementById(...)`).
+- 반복 렌더링 루프 안에서 `querySelector` 남용 금지.
+
+### 이벤트 리스너
+
+- 모달/오버레이 내부 리스너는 반드시 해당 모달 초기화 블록 안에서 등록.
+- `pointer` 이벤트 사용 (mouse + touch 통합). `touch` 이벤트와 혼용 금지.
+- 멀티터치(핀치 줌)가 필요한 경우 `Map<pointerId, {x,y}>` 패턴으로 포인터를 추적.
+
+### 이미지 크롭 모달 — 핵심 주의사항
+
+크롭 기능은 CSS 렌더링 크기와 `canvas.drawImage()` 기준점 불일치가 버그의 근원.
+아래 규칙을 반드시 준수:
+
+1. **자연 크기 강제 설정** — `_cropImg.onload` 내 `requestAnimationFrame` 콜백 안에서:
+   ```js
+   _cropImg.style.width    = `${_cropImg.naturalWidth}px`;
+   _cropImg.style.height   = `${_cropImg.naturalHeight}px`;
+   _cropImg.style.maxWidth = 'none';  // 글로벌 CSS(max-width: 100% 등) 차단
+   ```
+2. **`transform-origin: center center`** — CSS에서 `#profileCropImg`에 명시 (이미 적용됨).
+3. **모달을 먼저 보이게** — `_cropModal.hidden = false` 를 `_cropImg.src = dataUrl` **이전**에 실행해야 `offsetWidth` 가 0이 아닌 실제 크기를 반환.
+4. **`requestAnimationFrame` 지연** — `onload` 콜백 안에서 viewport 치수를 읽을 때 반드시 `requestAnimationFrame` 으로 감싸서 브라우저 레이아웃 완료 후 계산.
+5. **`_clampCrop` / canvas 역산** — 항상 `_cropFrame.offsetWidth/Height` (동적) 사용. `CROP_CFG` 의 고정 값을 직접 참조 금지.
+6. **`closeCrop` 시 인라인 스타일 초기화** — `width`, `height`, `maxWidth` 를 `''` 로 리셋해 다음 호출 시 오염 방지.
+7. **최소 스케일 기준** — 초기 표시는 `Math.min(vpW/imgW, vpH/imgH)` (뷰포트 fit-contain). 크롭 프레임을 채우는 fill 스케일은 줌 조작 후 사용자가 직접 설정.
+
+### CSS 작성
+
+- 커스텀 프로퍼티(`--green-soft`, `--text-primary` 등)를 최대한 재사용.
+- 새 컴포넌트 스타일은 관련 섹션 주석 블록(`/* ── 섹션명 ── */`) 아래 추가.
+- `z-index` 계층: 페이지(1) < 고정 nav(10) < 모달 배경(50) < 모달 패널(51) < 크롭 프레임(2, viewport 내부 기준).
+- `.app` 외부에 절대 스타일 적용 금지.
+
+---
+
+## 바이브 코딩 가이드 (AI 에이전트 워크플로우)
+
+### 스킬 트리거 기준
+
+| 요청 유형 | 사용 스킬 |
+|-----------|-----------|
+| 새 기능 구현 / 페이지 추가 / 다중 파일 수정 | `web-orchestrator` |
+| 단일 파일 1~5줄 수정, 질문 응답 | 직접 응답 |
+| 버그·XSS·접근성·이벤트 누수 탐지 | `code-review` |
+| 기능 동작 검증, 셀렉터 정합성 확인 | `qa` |
+| README·주석·스키마 문서화 | `doc-writing` |
+
+### 팀 구성 (모두 `model: "opus"`)
+
+- `web-developer`: `project/` 하위 HTML/CSS/JS 구현
+- `code-reviewer`: 버그·보안·접근성·taxonomy 바인딩 오류 탐지
+- `qa-agent`: 셀렉터 교차 검증, 경계값 테스트, 모달 동작 추적
+- `doc-writer`: README 갱신, JSON 스키마 문서화, 코드 주석
+
+### 에이전트 공통 제약
+
+- 작업 범위: `project/index.html`, `project/style.css` 만 수정.
+- 데이터 JSON 직접 수정 금지 — 빌드 스크립트(`build_nibr_cache.mjs`) 경유.
+- 한 응답에서 같은 파일을 두 번 수정 금지 (충돌 방지).
+- 코드 삭제 전에는 반드시 `grep_search` 로 참조처 확인.
+- UI 오버레이·모달은 전부 `.app` 컨테이너 안에 위치.
+
+### 참고 경로
+
 - 에이전트 정의: `.claude/agents/`
 - 스킬: `.claude/skills/`
-- 데이터: `project/search_index.json`, `project/nibr_cache.json`, `project/eol_species_cache.json`
+- 데이터 소스: `project/data/nibr_insects.json`
+- 빌드 스크립트: `project/scripts/build_nibr_cache.mjs`
 
-**변경 이력:**
+---
+
+## 변경 이력
+
 | 날짜 | 변경 내용 | 대상 | 사유 |
 |------|----------|------|------|
 | 2026-05-22 | 프로젝트 하네스 초기 구성 | 전체 | revfactory/harness 패턴 기반 곤충도감 도메인 적용 |
+| 2026-06-29 | CLAUDE.md 전면 리팩토링 | 전체 | 크롭 모달·핀치줌·2-depth 액션시트 추가 후 현행화 |

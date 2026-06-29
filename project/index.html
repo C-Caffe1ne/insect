@@ -514,6 +514,8 @@
     <!-- ═══════════════════════════════════════════ -->
     <div class="page" id="pageProfile">
 
+      <div class="profile-top-area" id="profileTopArea">
+
       <!-- Top Action Bar -->
       <div class="profile-action-bar">
         <button class="action-btn" id="profileBackBtn" aria-label="뒤로">
@@ -535,7 +537,7 @@
       </div>
 
       <!-- Hero Profile Card Container -->
-      <div class="profile-hero-section">
+      <div class="profile-hero-section" id="profileHeroSection">
         <!-- Floating Dragonfly Background Wings Vector Graphic -->
         <div class="profile-dragonfly-bg">
           <svg width="320" height="200" viewBox="0 0 320 200" fill="none" opacity="0.15"
@@ -554,11 +556,14 @@
         <!-- Glass Profile Box -->
         <div class="profile-glass-card">
           <!-- Avatar with Glowing Neon Ring -->
-          <div class="profile-avatar-container">
+          <div class="profile-avatar-container" id="profileAvatarContainer" role="button" tabindex="0" aria-label="프로필 편집">
             <div class="profile-avatar-inner">
-              <img src="images/yujin_profile.png" alt="박유진" />
+              <img id="profileAvatarImg" src="images/yujin_profile.png" alt="박유진" />
             </div>
             <div class="profile-avatar-glow"></div>
+            <div class="profile-avatar-edit-badge" aria-hidden="true">
+              <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+            </div>
           </div>
 
           <h2 class="profile-name">홍길동</h2>
@@ -578,6 +583,7 @@
           </div>
         </div>
       </div>
+      </div><!-- /profile-top-area -->
 
       <!-- My Collection Section -->
       <section class="profile-section">
@@ -656,6 +662,67 @@
           </div>
         </div>
       </section>
+
+      <!-- 숨김 파일 인풋 -->
+      <input type="file" id="profilePhotoInput" accept="image/*" hidden>
+      <input type="file" id="profileBgInput" accept="image/*" hidden>
+
+      <!-- 프로필 편집 액션시트 -->
+      <div class="profile-edit-sheet" id="profileEditSheet" hidden>
+        <div class="profile-edit-sheet-backdrop" id="profileEditSheetBackdrop"></div>
+        <!-- Step 1: 항목 선택 -->
+        <div class="profile-edit-sheet-panel" id="profileEditStep1">
+          <p class="profile-edit-sheet-title">프로필 편집</p>
+          <button class="profile-edit-sheet-item" id="gotoProfilePhoto">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+            프로필 사진
+            <svg style="margin-left:auto;opacity:.35" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+          <button class="profile-edit-sheet-item" id="gotoProfileBg">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+            배경화면
+            <svg style="margin-left:auto;opacity:.35" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+        </div>
+        <!-- Step 2: 사진 추가 / 삭제 -->
+        <div class="profile-edit-sheet-panel" id="profileEditStep2" hidden>
+          <div class="profile-edit-sheet-nav">
+            <button class="profile-edit-sheet-back-btn" id="profileEditStep2Back">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+            </button>
+            <p class="profile-edit-sheet-title" id="profileEditStep2Title"></p>
+          </div>
+          <button class="profile-edit-sheet-item" id="doAddPhoto">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+            사진 추가
+          </button>
+          <button class="profile-edit-sheet-item profile-edit-delete" id="doDeletePhoto" hidden>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"/><path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"/><path d="M10 11v6"/><path d="M14 11v6"/><path d="M9 6V4h6v2"/></svg>
+            삭제
+          </button>
+        </div>
+        <button class="profile-edit-sheet-cancel" id="profileEditSheetCancel">취소</button>
+      </div>
+
+      <!-- 크롭 모달 -->
+      <div class="profile-crop-modal" id="profileCropModal" hidden>
+        <div class="profile-crop-header">
+          <button class="profile-crop-btn profile-crop-cancel-btn" id="profileCropCancelBtn">취소</button>
+          <span class="profile-crop-title">사진 조정</span>
+          <button class="profile-crop-btn profile-crop-confirm-btn" id="profileCropConfirmBtn">완료</button>
+        </div>
+        <div class="profile-crop-viewport" id="profileCropViewport">
+          <img id="profileCropImg" alt="" draggable="false">
+          <div class="profile-crop-frame" id="profileCropFrame">
+            <div class="profile-crop-resize-handle" id="profileCropResizeHandle"></div>
+          </div>
+        </div>
+        <div class="profile-crop-footer">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+          <input type="range" class="profile-crop-zoom" id="profileCropZoom" min="1" max="3" step="0.01" value="1">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+        </div>
+      </div>
 
     </div>
 
@@ -3378,6 +3445,347 @@
     // 앱 시작 시 설정 적용
     const settings = loadSettings();
     applySettings(settings);
+
+    // ══════════════════════════════════════════════
+    // PROFILE EDIT — 프로필 사진 / 배경화면 편집
+    // ══════════════════════════════════════════════
+
+    const PROFILE_PHOTO_KEY = 'user_avatar';
+    const PROFILE_BG_KEY    = 'user_bg';
+
+    // ── 구 키 마이그레이션 (entoma_* → user_*) ──
+    (function _migrateProfileKeys() {
+      const migrate = (oldKey, newKey) => {
+        const val = localStorage.getItem(oldKey);
+        if (val && !localStorage.getItem(newKey)) {
+          try { localStorage.setItem(newKey, val); } catch(e) {}
+          localStorage.removeItem(oldKey);
+        }
+      };
+      migrate('entoma_profile_photo', PROFILE_PHOTO_KEY);
+      migrate('entoma_profile_bg',    PROFILE_BG_KEY);
+    })();
+    function _setBgStyle(dataUrl) {
+      const card = document.querySelector('.profile-glass-card');
+      if (!card) return;
+      if (dataUrl) {
+        card.style.backgroundImage    = `url(${dataUrl})`;
+        card.style.backgroundSize     = 'cover';
+        card.style.backgroundPosition = 'center';
+        card.classList.add('has-bg-image');
+      } else {
+        card.style.backgroundImage    = '';
+        card.style.backgroundSize     = '';
+        card.style.backgroundPosition = '';
+        card.classList.remove('has-bg-image');
+      }
+    }
+
+    // ── 저장된 이미지 복원 ──
+    function loadProfileImages() {
+      const savedPhoto = localStorage.getItem(PROFILE_PHOTO_KEY);
+      const savedBg    = localStorage.getItem(PROFILE_BG_KEY);
+      const avatarImg  = document.getElementById('profileAvatarImg');
+      if (savedPhoto && avatarImg) avatarImg.src = savedPhoto;
+      _setBgStyle(savedBg || null);
+    }
+
+    document.addEventListener('pageshow:pageProfile', loadProfileImages);
+    loadProfileImages();
+
+    // ── 액션시트 (2-depth) ──
+    const _editSheet    = document.getElementById('profileEditSheet');
+    const _editBackdrop = document.getElementById('profileEditSheetBackdrop');
+    const _editCancel   = document.getElementById('profileEditSheetCancel');
+    const _avatarBtn    = document.getElementById('profileAvatarContainer');
+    const _photoInput   = document.getElementById('profilePhotoInput');
+    const _bgInput      = document.getElementById('profileBgInput');
+
+    function _profilePage() { return document.getElementById('pageProfile'); }
+
+    let _editContext = null; // 'avatar' | 'bg'
+
+    function _showStep(n) {
+      const s1 = document.getElementById('profileEditStep1');
+      const s2 = document.getElementById('profileEditStep2');
+      if (s1) s1.hidden = (n !== 1);
+      if (s2) s2.hidden = (n !== 2);
+    }
+    function openProfileEditSheet() {
+      _showStep(1);
+      const pg = _profilePage();
+      if (pg) { pg.scrollTop = 0; pg.style.overflowY = 'hidden'; }
+      if (_editSheet) _editSheet.hidden = false;
+    }
+    function closeProfileEditSheet() {
+      if (_editSheet) _editSheet.hidden = true;
+      const pg = _profilePage();
+      if (pg) pg.style.overflowY = '';
+    }
+
+    if (_avatarBtn) {
+      _avatarBtn.addEventListener('click', openProfileEditSheet);
+      _avatarBtn.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openProfileEditSheet(); }
+      });
+    }
+    if (_editBackdrop) _editBackdrop.addEventListener('click', closeProfileEditSheet);
+    if (_editCancel)   _editCancel.addEventListener('click', closeProfileEditSheet);
+
+    // Step 1 → Step 2
+    function _openStep2(context) {
+      _editContext = context;
+      const isAvatar  = context === 'avatar';
+      const storageKey = isAvatar ? PROFILE_PHOTO_KEY : PROFILE_BG_KEY;
+      const hasExisting = !!localStorage.getItem(storageKey);
+      const titleEl = document.getElementById('profileEditStep2Title');
+      const delBtn  = document.getElementById('doDeletePhoto');
+      const addBtn  = document.getElementById('doAddPhoto');
+      if (titleEl) titleEl.textContent = isAvatar ? '프로필 사진' : '배경화면';
+      if (delBtn)  delBtn.hidden = !hasExisting;
+      if (addBtn)  addBtn.style.borderBottom = hasExisting ? '' : 'none';
+      _showStep(2);
+    }
+    document.getElementById('gotoProfilePhoto')?.addEventListener('click', () => _openStep2('avatar'));
+    document.getElementById('gotoProfileBg')?.addEventListener('click',    () => _openStep2('bg'));
+    document.getElementById('profileEditStep2Back')?.addEventListener('click', () => _showStep(1));
+
+    // Step 2 액션
+    document.getElementById('doAddPhoto')?.addEventListener('click', () => {
+      closeProfileEditSheet();
+      if (_editContext === 'avatar') _photoInput?.click();
+      else                           _bgInput?.click();
+    });
+    document.getElementById('doDeletePhoto')?.addEventListener('click', () => {
+      if (_editContext === 'avatar') {
+        const avatarImg = document.getElementById('profileAvatarImg');
+        if (avatarImg) avatarImg.src = 'images/yujin_profile.png';
+        localStorage.removeItem(PROFILE_PHOTO_KEY);
+      } else {
+        _setBgStyle(null);
+        localStorage.removeItem(PROFILE_BG_KEY);
+      }
+      closeProfileEditSheet();
+    });
+
+    // ── 파일 → DataURL ──
+    function readFileAsDataURL(file) {
+      return new Promise((resolve) => {
+        const reader = new FileReader();
+        reader.onload = (e) => resolve(e.target.result);
+        reader.readAsDataURL(file);
+      });
+    }
+
+    // ── 적용 ──
+    function applyProfilePhoto(dataUrl) {
+      const avatarImg = document.getElementById('profileAvatarImg');
+      if (avatarImg) avatarImg.src = dataUrl;
+      try { localStorage.setItem(PROFILE_PHOTO_KEY, dataUrl); } catch(e) {}
+    }
+    function applyProfileBg(dataUrl) {
+      _setBgStyle(dataUrl);
+      try { localStorage.setItem(PROFILE_BG_KEY, dataUrl); } catch(e) {}
+    }
+
+    // ── 파일 인풋 ──
+    _photoInput?.addEventListener('change', async () => {
+      const file = _photoInput.files[0];
+      if (!file) return;
+      _photoInput.value = '';
+      openCrop(await readFileAsDataURL(file), 'avatar');
+    });
+    _bgInput?.addEventListener('change', async () => {
+      const file = _bgInput.files[0];
+      if (!file) return;
+      _bgInput.value = '';
+      openCrop(await readFileAsDataURL(file), 'bg');
+    });
+
+    // ══════════════════════════════════════════════
+    // CROP MODAL
+    // ══════════════════════════════════════════════
+
+    const _cropModal    = document.getElementById('profileCropModal');
+    const _cropImg      = document.getElementById('profileCropImg');
+    const _cropFrame    = document.getElementById('profileCropFrame');
+    const _cropViewport = document.getElementById('profileCropViewport');
+    const _cropZoom     = document.getElementById('profileCropZoom');
+
+    const CROP_CFG = {
+      avatar: { w: 260, h: 260, circle: true  },
+      bg:     { w: 300, h: 195, circle: false }
+    };
+
+    let _cropMode = null, _cropMinScale = 1, _cropAspect = 1;
+    let _cropX = 0, _cropY = 0, _cropScale = 1;
+    let _cropDrag = false, _cropLX = 0, _cropLY = 0;
+    let _resizing = false, _resizeLX = 0, _resizeBaseW = 0, _resizeBaseH = 0;
+    const _pointers = new Map();
+    let _pinchDist0 = 0, _pinchScale0 = 1;
+
+    function openCrop(dataUrl, mode) {
+      _cropMode = mode;
+      _cropX = 0; _cropY = 0;
+      const cfg = CROP_CFG[mode];
+      _cropFrame.style.width  = cfg.w + 'px';
+      _cropFrame.style.height = cfg.h + 'px';
+      _cropFrame.classList.toggle('profile-crop-frame--circle', cfg.circle);
+      if (_cropZoom) _cropZoom.value = 1;
+      _cropAspect = cfg.w / cfg.h;
+      const pg = _profilePage();
+      if (pg) { pg.scrollTop = 0; pg.style.overflowY = 'hidden'; }
+      if (_cropModal) _cropModal.hidden = false;
+      _cropImg.onload = () => {
+        requestAnimationFrame(() => {
+          _cropImg.style.width    = `${_cropImg.naturalWidth}px`;
+          _cropImg.style.height   = `${_cropImg.naturalHeight}px`;
+          _cropImg.style.maxWidth = 'none';
+          const vpW = (_cropViewport?.offsetWidth  || 320) - 24;
+          const vpH = (_cropViewport?.offsetHeight || 400) - 24;
+          _cropMinScale = Math.min(vpW / _cropImg.naturalWidth, vpH / _cropImg.naturalHeight);
+          _cropScale = _cropMinScale;
+          _applyTransform();
+        });
+      };
+      _cropImg.src = dataUrl;
+    }
+
+    function closeCrop() {
+      if (_cropModal) _cropModal.hidden = true;
+      if (_cropImg) {
+        _cropImg.src            = '';
+        _cropImg.style.width    = '';
+        _cropImg.style.height   = '';
+        _cropImg.style.maxWidth = '';
+      }
+      const pg = _profilePage();
+      if (pg) pg.style.overflowY = '';
+    }
+
+    function _applyTransform() {
+      if (_cropImg) _cropImg.style.transform =
+        `translate(calc(-50% + ${_cropX}px), calc(-50% + ${_cropY}px)) scale(${_cropScale})`;
+    }
+
+    function _clampCrop() {
+      if (!_cropMode || !_cropImg) return;
+      const fw = _cropFrame.offsetWidth;
+      const fh = _cropFrame.offsetHeight;
+      const hw = Math.max(0, (_cropImg.naturalWidth  * _cropScale - fw) / 2);
+      const hh = Math.max(0, (_cropImg.naturalHeight * _cropScale - fh) / 2);
+      _cropX = Math.max(-hw, Math.min(hw, _cropX));
+      _cropY = Math.max(-hh, Math.min(hh, _cropY));
+    }
+
+    if (_cropViewport) {
+      _cropViewport.addEventListener('pointerdown', (e) => {
+        _pointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
+        if (_pointers.size === 1) {
+          _cropDrag = true; _cropLX = e.clientX; _cropLY = e.clientY;
+          _cropViewport.setPointerCapture(e.pointerId);
+        } else if (_pointers.size === 2) {
+          _cropDrag = false;
+          const pts = [..._pointers.values()];
+          _pinchDist0  = Math.hypot(pts[0].x - pts[1].x, pts[0].y - pts[1].y);
+          _pinchScale0 = _cropScale;
+        }
+      });
+      _cropViewport.addEventListener('pointermove', (e) => {
+        _pointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
+        if (_pointers.size >= 2) {
+          const pts  = [..._pointers.values()];
+          const dist = Math.hypot(pts[0].x - pts[1].x, pts[0].y - pts[1].y);
+          _cropScale = Math.max(_cropMinScale, Math.min(_cropMinScale * 3, _pinchScale0 * (dist / _pinchDist0)));
+          if (_cropZoom) _cropZoom.value = (_cropScale / _cropMinScale).toFixed(2);
+          _clampCrop(); _applyTransform();
+        } else if (_cropDrag) {
+          _cropX += e.clientX - _cropLX; _cropY += e.clientY - _cropLY;
+          _cropLX = e.clientX; _cropLY = e.clientY;
+          _clampCrop(); _applyTransform();
+        }
+      });
+      _cropViewport.addEventListener('pointerup', (e) => {
+        _pointers.delete(e.pointerId);
+        if (_pointers.size === 0) {
+          _cropDrag = false;
+        } else if (_pointers.size === 1) {
+          const pt = [..._pointers.values()][0];
+          _cropDrag = true; _cropLX = pt.x; _cropLY = pt.y;
+        }
+      });
+      _cropViewport.addEventListener('pointercancel', (e) => {
+        _pointers.delete(e.pointerId); _cropDrag = false;
+      });
+      _cropViewport.addEventListener('wheel', (e) => {
+        e.preventDefault();
+        const factor = e.deltaY < 0 ? 1.08 : 0.93;
+        _cropScale = Math.max(_cropMinScale, Math.min(_cropMinScale * 3, _cropScale * factor));
+        if (_cropZoom) _cropZoom.value = (_cropScale / _cropMinScale).toFixed(2);
+        _clampCrop(); _applyTransform();
+      }, { passive: false });
+    }
+
+    _cropZoom?.addEventListener('input', () => {
+      _cropScale = _cropMinScale * parseFloat(_cropZoom.value);
+      _clampCrop(); _applyTransform();
+    });
+
+    document.getElementById('profileCropConfirmBtn')?.addEventListener('click', () => {
+      const fw   = _cropFrame.offsetWidth;
+      const fh   = _cropFrame.offsetHeight;
+      const outW = _cropMode === 'avatar' ? 400 : 800;
+      const outH = _cropMode === 'avatar' ? 400 : Math.round(outW * fh / fw);
+      const canvas = document.createElement('canvas');
+      canvas.width = outW; canvas.height = outH;
+      const ctx = canvas.getContext('2d');
+      if (_cropMode === 'avatar') {
+        ctx.beginPath();
+        ctx.arc(outW / 2, outH / 2, outW / 2, 0, Math.PI * 2);
+        ctx.clip();
+      }
+      const srcW = fw / _cropScale;
+      const srcH = fh / _cropScale;
+      const srcX = _cropImg.naturalWidth  / 2 - _cropX / _cropScale - srcW / 2;
+      const srcY = _cropImg.naturalHeight / 2 - _cropY / _cropScale - srcH / 2;
+      ctx.drawImage(_cropImg, srcX, srcY, srcW, srcH, 0, 0, outW, outH);
+      const dataUrl = canvas.toDataURL('image/jpeg', 0.92);
+      closeCrop();
+      if (_cropMode === 'avatar') applyProfilePhoto(dataUrl);
+      else                        applyProfileBg(dataUrl);
+    });
+
+    document.getElementById('profileCropCancelBtn')?.addEventListener('click', closeCrop);
+
+    // ── 프레임 리사이즈 핸들 ──
+    const _resizeHandle = document.getElementById('profileCropResizeHandle');
+    if (_resizeHandle) {
+      _resizeHandle.addEventListener('pointerdown', (e) => {
+        e.stopPropagation();
+        _resizing = true;
+        _resizeLX    = e.clientX;
+        _resizeBaseW = _cropFrame.offsetWidth;
+        _resizeBaseH = _cropFrame.offsetHeight;
+        _resizeHandle.setPointerCapture(e.pointerId);
+      });
+      _resizeHandle.addEventListener('pointermove', (e) => {
+        if (!_resizing) return;
+        const vpW = _cropViewport ? _cropViewport.offsetWidth  : 400;
+        const vpH = _cropViewport ? _cropViewport.offsetHeight : 400;
+        const dx   = e.clientX - _resizeLX;
+        let newW = Math.max(80, Math.min(vpW - 32, _resizeBaseW + dx));
+        const newH = newW / _cropAspect;
+        if (newH > vpH - 32) { newW = (vpH - 32) * _cropAspect; }
+        _cropFrame.style.width  = newW + 'px';
+        _cropFrame.style.height = (newW / _cropAspect) + 'px';
+        const newMin = newW / _cropImg.naturalWidth;
+        _cropMinScale = newMin;
+        if (_cropScale < _cropMinScale) _cropScale = _cropMinScale;
+        _clampCrop(); _applyTransform();
+      });
+      _resizeHandle.addEventListener('pointerup',     () => { _resizing = false; });
+      _resizeHandle.addEventListener('pointercancel', () => { _resizing = false; });
+    }
 
   </script>
 
