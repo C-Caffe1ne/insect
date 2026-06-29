@@ -1307,7 +1307,6 @@ ul { list-style: none; }
   background: rgba(26,29,27,0.45);
   backdrop-filter: blur(24px);
   -webkit-backdrop-filter: blur(24px);
-  border: 1px solid rgba(255,255,255,0.05);
   border-radius: 24px;
   padding: 32px 24px 24px;
   text-align: center;
@@ -1385,7 +1384,7 @@ ul { list-style: none; }
 }
 
 .profile-name {
-  font-family: var(--font-display);
+  font-family: var(--font-body);
   font-size: 30px;
   font-weight: 300;
   letter-spacing: 0.02em;
@@ -1721,6 +1720,184 @@ ul { list-style: none; }
   height: 3px;
   accent-color: #a3ff12;
   cursor: pointer;
+}
+
+/* ── 프로필 카드 편집 버튼 ── */
+.profile-card-edit-btn {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.10);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  color: rgba(255, 255, 255, 0.72);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 4;
+  flex-shrink: 0;
+  transition: background 0.15s;
+}
+.profile-card-edit-btn:active {
+  background: rgba(255, 255, 255, 0.20);
+}
+
+/* ── 프로필 정보 편집 모달 ── */
+.profile-info-modal {
+  position: absolute;
+  inset: 0;
+  z-index: 62;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.profile-info-modal[hidden] { display: none; }
+.profile-info-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.62);
+}
+.profile-info-panel {
+  position: relative;
+  width: 100%;
+  background: #131713;
+  border-radius: 20px;
+  z-index: 1;
+  max-height: 86vh;
+  overflow-y: auto;
+  animation: slideUp 0.22s cubic-bezier(0.25, 0.8, 0.25, 1) both;
+  font-family: var(--font-body);
+}
+.profile-info-panel button,
+.profile-info-panel input,
+.profile-info-panel span,
+.profile-info-panel p {
+  font-family: var(--font-body);
+}
+.profile-info-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+  position: sticky;
+  top: 0;
+  background: #131713;
+  z-index: 1;
+}
+.profile-info-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text-primary);
+  letter-spacing: -0.01em;
+}
+.profile-info-header-btn {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 6px 2px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--text-muted);
+  min-width: 40px;
+}
+.profile-info-header-btn--save {
+  color: #a3ff12;
+  font-weight: 600;
+  text-align: right;
+}
+
+/* 미리보기 카드 */
+.profile-info-preview {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 20px 20px 18px;
+  background: rgba(255, 255, 255, 0.025);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+.profile-info-preview-avatar {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid #a3ff12;
+  box-shadow: 0 0 14px rgba(163, 255, 18, 0.35);
+  flex-shrink: 0;
+}
+.profile-info-preview-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.profile-info-preview-text {
+  min-width: 0;
+}
+.profile-info-preview-name {
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 3px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.profile-info-preview-sub {
+  font-size: 12px;
+  color: var(--text-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* 입력 필드 */
+.profile-info-fields {
+  padding: 4px 0 32px;
+}
+.profile-info-field {
+  display: block;
+  padding: 14px 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  cursor: text;
+}
+.profile-info-field-label {
+  display: block;
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  margin-bottom: 7px;
+}
+.profile-info-input-row {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.profile-info-at {
+  font-size: 15px;
+  color: var(--text-muted);
+  flex-shrink: 0;
+  line-height: 1;
+}
+.profile-info-input {
+  width: 100%;
+  background: none;
+  border: none;
+  outline: none;
+  color: var(--text-primary);
+  font-size: 15px;
+  font-family: inherit;
+  padding: 0;
+  caret-color: #a3ff12;
+}
+.profile-info-input::placeholder {
+  color: rgba(255, 255, 255, 0.20);
 }
 
 /* Sections */
