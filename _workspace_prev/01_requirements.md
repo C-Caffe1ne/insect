@@ -1,75 +1,65 @@
 ## 요구사항
 
 ### 사용자 요청
-EOL(Encyclopedia of Life) API를 참고하여 곤충 상세 페이지에 실 데이터를 연결.
+검색 페이지의 각 목의 대한 설명을 목 페이지 검색 바 밑으로 옮기고 검색페이지에서 목 설명 없애줘. 오류, 버그를 반드시 확인하고 작업해줘.
 
-### 제약 조건 (사용자 명시)
-1. 없거나 얻을 수 없는 데이터는 건너뛴다
-2. 캐싱된 곤충 데이터만 대상으로 한다 (`cached/korea_insect_species_by_family.json`의 종)
-3. API 호출 비용 절약 위해 응답을 **일괄 캐싱**한다
+### 분류된 작업 유형
+기능 이동 (UI 재배치)
 
-### 보안 이슈 ⚠️
-- 사용자가 채팅으로 JWT 토큰을 공유 — **이미 노출**된 상태
-- 권장: EOL 계정에서 즉시 키 재발급
-- 본 구현: API 키는 환경변수 `EOL_API_KEY`로만 처리, **코드/저장소에 절대 하드코딩 금지**
+### 관련 파일
+- project/index.html
+- project/style.css
 
-### EOL API 탐색 결과
-- 인증: JWT 토큰을 `Authorization: JWT <token>` 헤더로 전송
-- **사용 엔드포인트**: `https://eol.org/service/cypher` (TraitBank Cypher API)
-- 레거시 `https://eol.org/api/*` 엔드포인트는 Cloudflare 챌린지로 차단됨 (이미지/설명 텍스트 미수신)
-- **Cypher로 가져올 수 있는 것**:
-  - Page: `page_id`, `canonical`, `rank`
-  - 관계: `Page -[:trait]-> Trait`, `Page -[:vernacular]-> Vernacular`, `Page -[:parent]-> Page`
-  - Trait: 술어(predicate) + literal/measurement/object_term/unit
-- **활용 가능 predicate**:
-  - `habitat` (ENVO 용어, object_term="tropical" 등)
-  - `geographic distribution`, `introduced range includes` (지리적 분포)
-  - `eat`, `visit flowers of`, `are pathogens of` (상호작용)
-  - `number of records in gbif` (관측 수)
-  - `type specimen repository`
-- **Vernacular**: 한국어("호랑나비"), 영어, 일본어, 중국어 등 다국어 통명
-- **가져올 수 없는 것 (skip)**:
-  - 이미지 (legacy API만 제공, 차단됨)
-  - 상세 설명 텍스트
-  - IUCN 보전 등급
-  - Body size/length (Papilio xuthus 샘플에 없음, 종에 따라 다를 수 있음)
-  - Lifespan/lifecycle 단계 텍스트
-  - 한국 고유 분류 (멸종위기 Ⅰ/Ⅱ급, 천연기념물, 생태계교란, 유해종, 한국고유종) — EOL에 없음
+### 현재 상태
+- `pageOrderGuide` (`id="pageOrderGuide"`) — 검색 페이지 하위 페이지. `ORDER_GUIDE_DESC` 배열로 각 목(目)의 설명을 아코디언 방식으로 렌더링 (`renderOrderGuide()`, 약 line 2208).
+- `pageFamilyDetail` (`id="pageFamilyDetail"`) — 목별 종 목록 페이지. 검색 바(`family-search-section`)는 있으나 목 설명 없음.
+- `ORDER_GUIDE_DESC` 배열 (line 1052) — 16목의 `{ id, kr, sci, desc }` 데이터. `id`는 소문자 학명 (`coleoptera`, `lepidoptera` 등).
+- `ordersData` 객체도 동일한 `id` 필드를 가짐.
 
-### 매핑 — EOL → species 객체 (`renderSpeciesDetail`이 받는 스키마)
-| species 필드 | EOL 출처 | 매핑 규칙 |
-|---|---|---|
-| `commonName` | Vernacular(kor) | 한국어 통명 있으면 우선 |
-| `description` | (없음) | skip (자리표시자 유지) |
-| `habitat` | trait[predicate=habitat].object_term | 콤마 결합 ("tropical, freshwater") |
-| `habitatRegions` | trait[predicate=geographic distribution].object_term | 배열 |
-| `lifecycle` | (없음) | skip |
-| `size` | (없음) | skip |
-| `conservationStatus.*` | (한국 분류는 EOL 미보유) | skip |
-| `taxonomy.genus/species` | 종의 학명 파싱 | 기존 로직 유지 |
+### 변경 계획
 
-### 작업 산출물
-1. **`cached/cache_eol_species.mjs`** — Node.js ESM 스크립트
-   - 입력: `cached/korea_insect_species_by_family.json` (캐싱된 종 목록)
-   - 출력: `cached/eol_species_cache.json` (EOL 데이터 매핑 캐시)
-   - 옵션: `--limit N` (테스트용), `--force` (기존 캐시 무시), `--delay-ms`, `--concurrency`, `--retries`
-   - 환경변수: `EOL_API_KEY` 필수
-   - 패턴: 기존 `cache_digital_contents.mjs` 따라 incremental save + retry + sleep
-   - 한 종당 2회 쿼리: (1) page_id + canonical, (2) traits + vernaculars (UNION)
-2. **프론트엔드 통합** (`project/index.html`):
-   - 페이지 로드 시 `cached/eol_species_cache.json` 한 번만 fetch (저장 + 메모리 캐시)
-   - `renderSpecies` 카드 클릭 핸들러에서 학명으로 EOL 캐시 조회
-   - EOL 데이터를 `buildPlaceholderSpecies()` 결과에 머지 후 `openSpeciesDetail`로 전달
-   - 미적중 시 기존 자리표시자 그대로
+#### HTML (pageFamilyDetail)
+`family-search-section` 아래, `species-detail-section` 위에 추가:
+```html
+<div id="familyOrderDesc" class="family-order-desc" hidden></div>
+```
 
-### 데이터 위치
-- 입력: `cached/korea_insect_species_by_family.json` (1MB, 610과 × 최대 8종)
-- 출력: `cached/eol_species_cache.json` (신규)
-- 사본: `project/eol_species_cache.json` (프론트엔드 fetch용 — 또는 cached/에서 직접 fetch 경로)
+#### JS 변경 1: openOrderSpecies()  (line ~1407)
+해당 목의 설명을 `ORDER_GUIDE_DESC`에서 찾아 `#familyOrderDesc`에 표시:
+```js
+const descEl = document.getElementById('familyOrderDesc');
+if (descEl) {
+  const guideEntry = ORDER_GUIDE_DESC.find(d => d.id === order.id);
+  if (guideEntry?.desc) {
+    descEl.textContent = guideEntry.desc;
+    descEl.hidden = false;
+  } else {
+    descEl.textContent = '';
+    descEl.hidden = true;
+  }
+}
+```
+
+#### JS 변경 2: openThemeSpecies()  (line ~1655)
+테마 보기에서도 pageFamilyDetail을 사용하므로 설명 숨김:
+```js
+const descEl = document.getElementById('familyOrderDesc');
+if (descEl) { descEl.textContent = ''; descEl.hidden = true; }
+```
+
+#### JS 변경 3: renderOrderGuide()  (line ~2208)
+- `li.innerHTML`에서 `<p class="order-guide-item-desc">` 제거
+- chevron SVG 제거
+- `role="button"`, `tabindex="0"`, `aria-expanded` 속성 제거
+- `addEventListener('click', ...)` 및 `addEventListener('keydown', ...)` 제거
+
+#### CSS 변경 1: .family-order-desc 신규 (style.css)
+`family-search-section` 바로 아래에 연결되는 설명 텍스트 스타일.
+
+#### CSS 변경 2: .order-guide-item
+`cursor: pointer` → `cursor: default` (더 이상 클릭 불가)
 
 ### 참고 사항
-- 호출 비용 절약: 최대 캐시 적중률 → 학명 정규화 키 사용
-- 학명에 명명자/연도 포함 케이스 처리: `"Papilio xuthus Linnaeus, 1767"` → canonical `"Papilio xuthus"`
-- 캐시 스키마 버전 필드 포함 (`schemaVersion: 1`)
-- 실패한 종도 기록(`status: "not_found"`)하여 재실행 시 건너뜀
-- `--force` 또는 종의 schemaVersion 불일치 시에만 재요청
+- `openThemeSpecies()`도 `pageFamilyDetail`을 열므로 반드시 설명 숨김 처리 필요.
+- `ORDER_GUIDE_DESC`의 `id`와 `ordersData[].id` 는 모두 소문자 학명이므로 직접 매칭 가능.
+- 설명 없는 목(데이터 미존재)의 경우 element를 `hidden` 처리.

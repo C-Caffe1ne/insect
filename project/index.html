@@ -32,10 +32,9 @@
 
       <!-- ─── HEADER ─── -->
       <header class="hero">
-        <h3 class="brand-label">한국 곤충도감</h3>
         <h1 class="hero-title">
           한국 곤충백과<br />
-          <em>Kr Insect Pedia</em>
+          <em>KoIn Pedia</em>
         </h1>
       </header>
 
@@ -51,116 +50,40 @@
         </div>
       </div>
 
-      <!-- ─── TABS ─── -->
-      <div class="tabs" id="discoverTabs" data-active-tab="curated">
-        <button class="tab active" data-tab="curated" id="tabCurated">테마 보기</button>
-        <button class="tab" data-tab="taxonomy" id="tabTaxonomy">분류 보기</button>
-      </div>
-
-      <div class="tab-panels" id="discoverTabPanels" data-active-tab="curated">
-        <!-- ═══════════════════════════════════════════ -->
-        <!-- TAB 1: CURATED THEMES                      -->
-        <!-- ═══════════════════════════════════════════ -->
-        <div class="tab-content active" id="panelCurated" aria-hidden="false">
-
-          <!-- Featured collections -->
-          <section class="section">
-            <div class="section-head">
-              <div>
-                <h2 class="section-title">오늘의 곤충</h2>
-                <p class="section-sub">오늘은 어떤 곤충을 만나볼까요?</p>
-              </div>
-            </div>
-
-            <div class="featured-grid">
-              <article class="featured-card featured-card--large" id="todayInsectCard" role="button" tabindex="0">
-                <div class="featured-card-bg placeholder-img placeholder-img--night" id="todayInsectBg"></div>
-                <div class="featured-overlay"></div>
-                <div class="featured-info">
-                  <span class="featured-tag" id="todayInsectTag">TODAY</span>
-                  <h3 class="featured-name" id="todayInsectName">—</h3>
-                  <p class="featured-count" id="todayInsectSci"></p>
-                </div>
-              </article>
-            </div>
-          </section>
-
-          <!-- Theme: 육식 곤충 -->
-          <section class="section">
-            <div class="section-head">
-              <div>
-                <h2 class="section-title">육식 곤충</h2>
-                <p class="section-sub">포식자로 살아가는 곤충들</p>
-              </div>
-              <button class="see-all" type="button" id="themeSeeAll-predator">전체보기</button>
-            </div>
-            <div class="species-scroll" id="themeScroll-predator">
-              <p class="theme-loading">불러오는 중…</p>
-            </div>
-          </section>
-
-          <!-- Theme: 해충 -->
-          <section class="section">
-            <div class="section-head">
-              <div>
-                <h2 class="section-title">해충</h2>
-                <p class="section-sub">작물과 생활에 피해를 주는 곤충들</p>
-              </div>
-              <button class="see-all" type="button" id="themeSeeAll-pest">전체보기</button>
-            </div>
-            <div class="species-scroll" id="themeScroll-pest">
-              <p class="theme-loading">불러오는 중…</p>
-            </div>
-          </section>
-
-          <!-- Theme: 야행성 곤충 -->
-          <section class="section">
-            <div class="section-head">
-              <div>
-                <h2 class="section-title">야행성 곤충</h2>
-                <p class="section-sub">밤에 활동하는 곤충들</p>
-              </div>
-              <button class="see-all" type="button" id="themeSeeAll-nocturnal">전체보기</button>
-            </div>
-            <div class="species-scroll" id="themeScroll-nocturnal">
-              <p class="theme-loading">불러오는 중…</p>
-            </div>
-          </section>
-
-          <!-- Theme: 화려한 곤충 -->
-          <section class="section">
-            <div class="section-head">
-              <div>
-                <h2 class="section-title">석주명의 나비</h2>
-                <p class="section-sub">석주명이 명명한 나비들</p>
-              </div>
-              <button class="see-all" type="button" id="themeSeeAll-korean">전체보기</button>
-            </div>
-            <div class="species-scroll" id="themeScroll-korean">
-              <p class="theme-loading">불러오는 중…</p>
-            </div>
-          </section>
-
+      <!-- ─── 오늘의 곤충 ─── -->
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <h2 class="section-title">오늘의 곤충</h2>
+            <p class="section-sub">오늘은 어떤 곤충을 만나볼까요?</p>
+          </div>
         </div>
 
-        <!-- ═══════════════════════════════════════════ -->
-        <!-- TAB 2: TAXONOMY BROWSE                     -->
-        <!-- ═══════════════════════════════════════════ -->
-        <div class="tab-content" id="panelTaxonomy" aria-hidden="true">
-          <section class="section">
-            <div class="section-head">
-              <div>
-                <h2 class="section-title">분류 보기</h2>
-                <p class="section-sub" id="orderSubtitle">Loading...</p>
-              </div>
-              <button class="sort-btn" id="sortBtn">A → Z</button>
+        <div class="featured-grid">
+          <article class="featured-card featured-card--large" id="todayInsectCard" role="button" tabindex="0">
+            <div class="featured-card-bg placeholder-img placeholder-img--night" id="todayInsectBg"></div>
+            <div class="featured-overlay"></div>
+            <div class="featured-info">
+              <span class="featured-tag" id="todayInsectTag">TODAY</span>
+              <h3 class="featured-name" id="todayInsectName">—</h3>
+              <p class="featured-count" id="todayInsectSci"></p>
             </div>
-
-            <!-- 목 카드 그리드 -->
-            <div class="order-grid" id="orderGrid"></div>
-          </section>
+          </article>
         </div>
-      </div>
+      </section>
+
+      <!-- ─── 분류 보기 (목 카드 그리드) ─── -->
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <h2 class="section-title">분류 보기</h2>
+            <p class="section-sub" id="orderSubtitle">Loading...</p>
+          </div>
+          <button class="sort-btn" id="sortBtn">ㄱ → ㅎ</button>
+        </div>
+
+        <div class="order-grid" id="orderGrid"></div>
+      </section>
     </div> <!-- End of pageDiscover -->
 
     <!-- ═══════════════════════════════════════════ -->
@@ -178,16 +101,38 @@
         <h2 class="family-detail-title" id="familyDetailTitle">목별 곤충</h2>
       </div>
 
-      <section class="family-detail-section family-order-section">
-        <h3 class="family-detail-eyebrow">다른 목 보기</h3>
-        <div class="order-tag-scroll" id="otherOrderTags"></div>
+      <section class="family-detail-section family-search-section">
+        <div class="family-search-bar">
+          <div class="search-inner">
+            <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="11" cy="11" r="8" />
+              <path d="m21 21-4.3-4.3" />
+            </svg>
+            <input id="familySearchInput" type="text" placeholder="이 목에서 검색..."
+              aria-label="목 내 종 검색" autocomplete="off" />
+            <button class="search-clear-btn" id="familySearchClear" type="button" aria-label="검색어 지우기" hidden>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" />
+              </svg>
+            </button>
+          </div>
+        </div>
       </section>
+
+      <!-- ── 목(Order) 설명 칩 토글 ── -->
+      <div id="familyOrderDescWrap" class="family-order-desc-wrap" hidden>
+        <button class="family-order-desc-chip" id="familyOrderDescToggle" type="button" aria-expanded="false">
+          <span id="familyOrderDescToggleLabel">목이란?</span>
+        </button>
+        <div class="family-order-desc" id="familyOrderDesc"></div>
+      </div>
 
       <section class="family-detail-section species-detail-section">
         <div class="species-tabs-row">
           <div class="species-tabs" id="speciesTabsRow">
-            <span class="species-tab active" data-sort="popular" role="button" tabindex="0">도감순</span>
-            <span class="species-tab" data-sort="kr" role="button" tabindex="0">가나다</span>
+            <span class="species-tab active" data-sort="kr" role="button" tabindex="0">가나다</span>
             <span class="species-tab" data-sort="az" role="button" tabindex="0">A-Z</span>
           </div>
           <span class="species-count" id="familySpeciesCount">0 species</span>
@@ -380,11 +325,6 @@
           <input id="globalSearchInput" type="text"
             placeholder="예: 꽃매미, Lycorma, 딱정벌레목, Coccinellidae"
             aria-label="한글명, 학명, 통명, 목, 과 검색" autocomplete="off" />
-          <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <circle cx="11" cy="11" r="8" />
-            <path d="m21 21-4.3-4.3" />
-          </svg>
           <button class="search-clear-btn" id="globalSearchClear" type="button" aria-label="검색어 지우기" hidden>
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
               stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -459,24 +399,62 @@
             </button>
           </section>
 
-          <!-- 목(Order) 기준 안내 -->
+          <!-- ─── 테마 섹션들 ─── -->
+
+          <!-- Theme: 육식 곤충 -->
           <section class="section">
-            <button class="order-guide-entry-btn" type="button" id="btnOpenOrderGuide">
-              <span class="order-guide-entry-icon" aria-hidden="true">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                  stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M4 6h16M4 10h16M4 14h10M4 18h6"/>
-                </svg>
-              </span>
-              <span class="order-guide-entry-text">
-                <span class="order-guide-entry-title">목(Order)의 기준?</span>
-                <span class="order-guide-entry-sub">16목의 특징과 분류 기준 보기</span>
-              </span>
-              <svg class="order-guide-entry-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none"
-                stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                <polyline points="9 18 15 12 9 6"/>
-              </svg>
-            </button>
+            <div class="section-head">
+              <div>
+                <h2 class="section-title">육식 곤충</h2>
+                <p class="section-sub">포식자로 살아가는 곤충들</p>
+              </div>
+              <button class="see-all" type="button" id="themeSeeAll-predator">전체보기</button>
+            </div>
+            <div class="species-scroll" id="themeScroll-predator">
+              <p class="theme-loading">불러오는 중…</p>
+            </div>
+          </section>
+
+          <!-- Theme: 해충 -->
+          <section class="section">
+            <div class="section-head">
+              <div>
+                <h2 class="section-title">해충</h2>
+                <p class="section-sub">작물과 생활에 피해를 주는 곤충들</p>
+              </div>
+              <button class="see-all" type="button" id="themeSeeAll-pest">전체보기</button>
+            </div>
+            <div class="species-scroll" id="themeScroll-pest">
+              <p class="theme-loading">불러오는 중…</p>
+            </div>
+          </section>
+
+          <!-- Theme: 야행성 곤충 -->
+          <section class="section">
+            <div class="section-head">
+              <div>
+                <h2 class="section-title">야행성 곤충</h2>
+                <p class="section-sub">밤에 활동하는 곤충들</p>
+              </div>
+              <button class="see-all" type="button" id="themeSeeAll-nocturnal">전체보기</button>
+            </div>
+            <div class="species-scroll" id="themeScroll-nocturnal">
+              <p class="theme-loading">불러오는 중…</p>
+            </div>
+          </section>
+
+          <!-- Theme: 석주명의 나비 -->
+          <section class="section">
+            <div class="section-head">
+              <div>
+                <h2 class="section-title">석주명의 나비</h2>
+                <p class="section-sub">석주명이 명명한 나비들</p>
+              </div>
+              <button class="see-all" type="button" id="themeSeeAll-korean">전체보기</button>
+            </div>
+            <div class="species-scroll" id="themeScroll-korean">
+              <p class="theme-loading">불러오는 중…</p>
+            </div>
           </section>
 
         </div>
@@ -490,6 +468,13 @@
     <!-- ═══════════════════════════════════════════ -->
     <div class="page" id="pageSaved">
       <div class="saved-page-header">
+        <button class="saved-back-btn" id="savedBackBtn" aria-label="뒤로">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <line x1="19" y1="12" x2="5" y2="12"></line>
+            <polyline points="12 19 5 12 12 5"></polyline>
+          </svg>
+        </button>
         <h2 class="saved-page-title">즐겨찾는 곤충</h2>
         <p class="saved-page-sub">관심 있는 곤충들이 여기에 저장됩니다.</p>
       </div>
@@ -576,12 +561,12 @@
           <!-- Statistics capsule -->
           <div class="profile-stats-container">
             <div class="profile-stat-item">
-              <span class="profile-stat-number">127</span>
+              <span class="profile-stat-number" id="profileStatViewed">0</span>
               <span class="profile-stat-label">조회</span>
             </div>
             <div class="profile-stat-divider"></div>
             <div class="profile-stat-item">
-              <span class="profile-stat-number">42</span>
+              <span class="profile-stat-number" id="profileStatSaved">0</span>
               <span class="profile-stat-label">저장</span>
             </div>
           </div>
@@ -595,28 +580,12 @@
           <div>
             <h3 class="profile-section-title">즐겨찾기</h3>
           </div>
-          <a href="#" class="profile-view-all">전체 보기</a>
+          <a href="#" class="profile-view-all" id="profileSavedViewAll">전체 보기</a>
         </div>
 
-        <div class="profile-collection-row">
-          <div class="collection-card">
-            <img src="images/jewel_beetle.png" alt="비단벌레" />
-            <div class="collection-overlay"></div>
-            <div class="collection-content">
-              <span class="collection-tag">즐겨찾기</span>
-              <h4 class="collection-title">비단벌레</h4>
-              <p class="collection-scientific">Chrysochroa fulgidissima</p>
-            </div>
-          </div>
-          <div class="collection-card">
-            <img src="images/asian_swallowtail.png" alt="호랑나비" />
-            <div class="collection-overlay"></div>
-            <div class="collection-content">
-              <span class="collection-tag">즐겨찾기</span>
-              <h4 class="collection-title">호랑나비</h4>
-              <p class="collection-scientific">Papilio xuthus</p>
-            </div>
-          </div>
+        <div class="profile-collection-row" id="profileFavRow"></div>
+        <div class="profile-fav-empty" id="profileFavEmpty" hidden>
+          <p>아직 즐겨찾기한 곤충이 없습니다.</p>
         </div>
       </section>
 
@@ -629,39 +598,9 @@
           <a href="#" class="profile-view-all">전체 보기</a>
         </div>
 
-        <div class="profile-recent-scroll">
-          <div class="recent-encounter-card">
-            <div class="recent-img-wrapper">
-              <img src="images/limenitis_camilla.png" alt="검은 나비" />
-            </div>
-            <div class="recent-details">
-              <h4 class="recent-title-kr">검은 나비</h4>
-              <p class="recent-title-sci">Limenitis camilla</p>
-              <div class="recent-time-badge">오늘</div>
-            </div>
-          </div>
-
-          <div class="recent-encounter-card">
-            <div class="recent-img-wrapper">
-              <img src="images/catocala_nupta.png" alt="밤나방" />
-            </div>
-            <div class="recent-details">
-              <h4 class="recent-title-kr">밤나방</h4>
-              <p class="recent-title-sci">Catocala nupta</p>
-              <div class="recent-time-badge">어제</div>
-            </div>
-          </div>
-
-          <div class="recent-encounter-card">
-            <div class="recent-img-wrapper">
-              <img src="images/limenitis_camilla.png" alt="푸른하늘소" style="filter: hue-rotate(180deg);" />
-            </div>
-            <div class="recent-details">
-              <h4 class="recent-title-kr">푸른하늘소</h4>
-              <p class="recent-title-sci">Rosalia lameerei</p>
-              <div class="recent-time-badge">2일 전</div>
-            </div>
-          </div>
+        <div class="profile-recent-scroll" id="profileRecentScroll"></div>
+        <div class="profile-recent-empty" id="profileRecentEmpty" hidden>
+          <p>아직 조회한 곤충이 없습니다.</p>
         </div>
       </section>
 
@@ -785,22 +724,6 @@
 
       <!-- Settings Sections -->
       <div class="settings-container">
-        <!-- 홈 기본 설정 -->
-        <section class="settings-section">
-          <h3 class="settings-section-title">홈 설정</h3>
-          <div class="settings-item">
-            <div class="settings-item-content">
-              <span class="settings-item-title">기본 화면</span>
-                          </div>
-            <div class="settings-control">
-              <select class="settings-select" id="defaultHomeTab">
-                <option value="curated">테마 보기</option>
-                <option value="taxonomy">분류 보기</option>
-              </select>
-            </div>
-          </div>
-        </section>
-
         <!-- 알림 설정 -->
         <section class="settings-section">
           <h3 class="settings-section-title">알림 설정</h3>
@@ -863,31 +786,6 @@
       </svg>
     </button>
 
-    <!-- ═══════════════════════════════════════════ -->
-    <!-- PAGE 7: ORDER GUIDE (목 분류 기준)           -->
-    <!-- ═══════════════════════════════════════════ -->
-    <div class="page" id="pageOrderGuide">
-
-      <div class="family-detail-topbar">
-        <button class="family-back-btn" id="orderGuideBackBtn" aria-label="검색으로 돌아가기">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-            stroke-linecap="round" stroke-linejoin="round">
-            <line x1="19" y1="12" x2="5" y2="12"></line>
-            <polyline points="12 19 5 12 12 5"></polyline>
-          </svg>
-        </button>
-        <h2 class="family-detail-title">목(Order)의 기준</h2>
-      </div>
-
-      <div class="order-guide-intro">
-        <p class="order-guide-intro-text"><br>
-          곤충 분류에서 '목(目, Order)'은 과(科)보다 상위, 강(綱)보다 하위 단계입니다. 날개 구조·변태 방식·구기(입) 형태 등 주요 형질을 기준으로 구분합니다.</p>
-      </div>
-
-      <ul class="order-guide-list" id="orderGuideList" role="list"></ul>
-
-    </div>
-
     <!-- ─── BOTTOM NAV ─── -->
     <nav class="bottom-nav">
       <button class="nav-item active" id="navDiscover">
@@ -905,14 +803,6 @@
           <path d="m21 21-4.3-4.3" />
         </svg>
         <span>검색</span>
-      </button>
-      <button class="nav-item" id="navSaved">
-        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
-          stroke-linecap="round" stroke-linejoin="round">
-          <path
-            d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
-        </svg>
-        <span>즐겨찾기</span>
       </button>
       <button class="nav-item" id="navProfile">
         <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
@@ -1118,14 +1008,14 @@
 
     // ── 데이터 ──
     let ordersData = [];
-    let sortAsc = false;
+    let sortAsc = true;
     let selectedOrder = null;
     let selectedFamily = null;
     let currentSpeciesList = [];
-    let currentSpeciesSort = 'popular';
+    let currentSpeciesSort = 'kr';
     let selectedSpecies = null;
     let previousSpeciesPage = 'pageFamilyDetail';
-    let previousDiscoverTab = 'taxonomy';
+    let previousFamilyPage = 'pageDiscover';
     let searchIndexData = null;
     let searchIndexLoading = null;
 
@@ -1402,9 +1292,9 @@
 
       selectedOrder = order;
       selectedFamily = null;
-      currentSpeciesSort = 'popular';
+      currentSpeciesSort = 'kr';
       document.querySelectorAll('#speciesTabsRow .species-tab').forEach((tab) => {
-        tab.classList.toggle('active', tab.dataset.sort === 'popular');
+        tab.classList.toggle('active', tab.dataset.sort === 'kr');
       });
       document.getElementById('familyDetailTitle').textContent =
         `${order.commonName} (${order.scientificName})`;
@@ -1412,64 +1302,37 @@
       document.getElementById('familySpeciesCount').textContent =
         `${formatCount(currentSpeciesList.length)}종`;
 
-      const tags = document.getElementById('otherOrderTags');
-      tags.replaceChildren();
-      ordersData
-        .filter(item => getOrderKey(item) !== orderKey)
-        .forEach((item) => {
-          const tag = document.createElement('div');
-          tag.setAttribute('role', 'button');
-          tag.tabIndex = 0;
-          tag.className = 'order-tag';
-          tag.textContent = `${item.commonName} (${item.scientificName})`;
-          const open = () => openOrderSpecies(getOrderKey(item));
-          tag.addEventListener('click', open);
-          tag.addEventListener('keydown', (event) => {
-            if (event.key === 'Enter' || event.key === ' ') {
-              event.preventDefault();
-              open();
-            }
-          });
-          tags.appendChild(tag);
-        });
-
-      // 마우스 드래그 스크롤 (최초 1회만 등록)
-      if (!tags.dataset.dragInit) {
-        tags.dataset.dragInit = '1';
-        let isDragging = false, dragStartX = 0, dragScrollLeft = 0, dragMoved = false;
-        tags.addEventListener('pointerdown', (e) => {
-          isDragging = true;
-          dragMoved = false;
-          dragStartX = e.clientX;
-          dragScrollLeft = tags.scrollLeft;
-        });
-        tags.addEventListener('pointermove', (e) => {
-          if (!isDragging) return;
-          const dx = e.clientX - dragStartX;
-          if (Math.abs(dx) > 8) {
-            dragMoved = true;
-            if (!tags.hasPointerCapture(e.pointerId)) tags.setPointerCapture(e.pointerId);
-            tags.style.cursor = 'grabbing';
-            tags.scrollLeft = dragScrollLeft - dx;
-          }
-        });
-        tags.addEventListener('pointerup', (e) => {
-          isDragging = false;
-          dragMoved = false;
-          tags.style.cursor = '';
-          if (tags.hasPointerCapture(e.pointerId)) tags.releasePointerCapture(e.pointerId);
-        });
-        tags.addEventListener('pointercancel', () => { isDragging = false; dragMoved = false; tags.style.cursor = ''; });
-        tags.addEventListener('click', (e) => {
-          if (dragMoved) { e.stopPropagation(); e.preventDefault(); dragMoved = false; }
-        }, true);
+      const _descWrap = document.getElementById('familyOrderDescWrap');
+      const _descEl = document.getElementById('familyOrderDesc');
+      if (_descWrap && _descEl) {
+        const _guideEntry = ORDER_GUIDE_DESC.find(d => d.id === order.id);
+        if (_guideEntry?.desc) {
+          _descEl.textContent = _guideEntry.desc;
+          document.getElementById('familyOrderDescToggleLabel').textContent =
+            `${order.commonName}이란?`;
+          _descWrap.hidden = false;
+          _descWrap.classList.remove('open');
+          document.getElementById('familyOrderDescToggle').setAttribute('aria-expanded', 'false');
+        } else {
+          _descEl.textContent = '';
+          _descWrap.hidden = true;
+        }
       }
 
-      const orderSectionForOrder = document.querySelector('#pageFamilyDetail .family-order-section');
-      if (orderSectionForOrder) orderSectionForOrder.hidden = false;
-      previousDiscoverTab = 'taxonomy';
+      _resetFamilySearch();
+      previousFamilyPage = 'pageDiscover';
       renderSpeciesSorted();
       showPage('pageFamilyDetail', { keepNav: true });
+    }
+
+    let _familySearchQuery = '';
+
+    function _resetFamilySearch() {
+      _familySearchQuery = '';
+      const inp = document.getElementById('familySearchInput');
+      const clr = document.getElementById('familySearchClear');
+      if (inp) inp.value = '';
+      if (clr) clr.hidden = true;
     }
 
     function renderSpeciesSorted() {
@@ -1478,12 +1341,18 @@
       if (!grid || !empty) return;
 
       let list = currentSpeciesList.slice();
-      if (currentSpeciesSort === 'popular') {
-        list.sort((a, b) => (a.page || 0) - (b.page || 0));
-      } else if (currentSpeciesSort === 'kr') {
+      if (currentSpeciesSort === 'kr') {
         list.sort((a, b) => (a.commonName || '').localeCompare(b.commonName || '', 'ko'));
       } else if (currentSpeciesSort === 'az') {
         list.sort((a, b) => (a.scientificName || '').localeCompare(b.scientificName || ''));
+      }
+
+      if (_familySearchQuery) {
+        const q = _familySearchQuery.toLowerCase();
+        list = list.filter(item =>
+          (item.commonName || '').toLowerCase().includes(q) ||
+          (item.scientificName || '').toLowerCase().includes(q)
+        );
       }
 
       grid.innerHTML = '';
@@ -1585,6 +1454,7 @@
           searchSubtitle.textContent =
             `한글명 · 학명 · 통명 · 목/과로 ${formatCount(data?.counts?.total ?? data?.insects?.length ?? 0)}종 탐색`;
         }
+        ordersData.sort((a, b) => (a.commonName || '').localeCompare(b.commonName || '', 'ko'));
         renderOrders(ordersData);
       })
       .catch(err => {
@@ -1674,9 +1544,9 @@
       sciEl.textContent = ins.sci || '';
 
       card.append(imgWrap, krEl, sciEl);
-      card.addEventListener('click', () => openSpeciesFromIndex(ins, 'pageDiscover'));
+      card.addEventListener('click', () => openSpeciesFromIndex(ins, 'pageSearch'));
       card.addEventListener('keydown', e => {
-        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openSpeciesFromIndex(ins, 'pageDiscover'); }
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openSpeciesFromIndex(ins, 'pageSearch'); }
       });
       return card;
     }
@@ -1684,19 +1554,20 @@
     function openThemeSpecies(theme) {
       const matched = filterInsectsByTheme(theme.keywords);
       currentSpeciesList = matched.map(mapIndexSpecies);
-      currentSpeciesSort = 'popular';
+      currentSpeciesSort = 'kr';
 
       document.getElementById('familyDetailTitle').textContent = theme.title;
       document.getElementById('familySpeciesCount').textContent = `${formatCount(currentSpeciesList.length)}종`;
 
-      document.getElementById('otherOrderTags').replaceChildren();
-      const orderSectionEl = document.querySelector('#pageFamilyDetail .family-order-section');
-      if (orderSectionEl) orderSectionEl.hidden = true;
+      _resetFamilySearch();
       document.querySelectorAll('#speciesTabsRow .species-tab').forEach(tab => {
-        tab.classList.toggle('active', tab.dataset.sort === 'popular');
+        tab.classList.toggle('active', tab.dataset.sort === 'kr');
       });
 
-      previousDiscoverTab = 'curated';
+      const _themeDescWrap = document.getElementById('familyOrderDescWrap');
+      if (_themeDescWrap) { _themeDescWrap.hidden = true; }
+
+      previousFamilyPage = 'pageSearch';
       renderSpeciesSorted();
       showPage('pageFamilyDetail', { keepNav: true });
     }
@@ -1776,32 +1647,6 @@
       renderOrders(ordersData);
     });
 
-    // ── Tab Switching ──
-    const discoverTabs = document.getElementById('discoverTabs');
-    const discoverTabPanels = document.getElementById('discoverTabPanels');
-    const tabCurated = document.getElementById('tabCurated');
-    const tabTaxonomy = document.getElementById('tabTaxonomy');
-    const panelCurated = document.getElementById('panelCurated');
-    const panelTaxonomy = document.getElementById('panelTaxonomy');
-
-    function switchDiscoverTab(tabName) {
-      if (discoverTabPanels.dataset.activeTab === tabName) return;
-
-      const isTaxonomy = tabName === 'taxonomy';
-
-      discoverTabs.dataset.activeTab = tabName;
-      discoverTabPanels.dataset.activeTab = tabName;
-      tabCurated.classList.toggle('active', !isTaxonomy);
-      tabTaxonomy.classList.toggle('active', isTaxonomy);
-      panelCurated.classList.toggle('active', !isTaxonomy);
-      panelTaxonomy.classList.toggle('active', isTaxonomy);
-      panelCurated.setAttribute('aria-hidden', String(isTaxonomy));
-      panelTaxonomy.setAttribute('aria-hidden', String(!isTaxonomy));
-    }
-
-    tabCurated.addEventListener('click', () => switchDiscoverTab('curated'));
-    tabTaxonomy.addEventListener('click', () => switchDiscoverTab('taxonomy'));
-
     // ── Page Navigation (Bottom Nav) ──
     const pageDiscover = document.getElementById('pageDiscover');
     const pageSearch = document.getElementById('pageSearch');
@@ -1816,8 +1661,7 @@
     function syncNavForPage(pageId) {
       allNavItems.forEach(n => n.classList.remove('active'));
       if (pageId === 'pageSearch') document.getElementById('navSearch').classList.add('active');
-      else if (pageId === 'pageSaved') document.getElementById('navSaved').classList.add('active');
-      else if (pageId === 'pageProfile') document.getElementById('navProfile').classList.add('active');
+      else if (pageId === 'pageProfile' || pageId === 'pageSaved') document.getElementById('navProfile').classList.add('active');
       else document.getElementById('navDiscover').classList.add('active');
     }
 
@@ -1848,20 +1692,40 @@
 
     window.addEventListener('popstate', (e) => {
       const pageId = e.state?.page || 'pageDiscover';
-      const isSubPage = pageId === 'pageFamilyDetail' || pageId === 'pageSpeciesDetail' || pageId === 'pageOrderGuide';
+      const isSubPage = pageId === 'pageFamilyDetail' || pageId === 'pageSpeciesDetail';
       showPage(pageId, { keepNav: isSubPage, _fromHistory: true });
       syncNavForPage(pageId);
     });
 
     document.getElementById('familyDetailBackBtn').addEventListener('click', () => {
-      showPage('pageDiscover');
-      document.getElementById('navDiscover').classList.add('active');
-      if (previousDiscoverTab === 'curated') {
-        tabCurated.click();
-      } else {
-        tabTaxonomy.click();
-      }
+      showPage(previousFamilyPage);
+      syncNavForPage(previousFamilyPage);
     });
+
+    // ── 목 설명 토글 ──
+    document.getElementById('familyOrderDescToggle').addEventListener('click', () => {
+      const wrap = document.getElementById('familyOrderDescWrap');
+      const isOpen = wrap.classList.toggle('open');
+      document.getElementById('familyOrderDescToggle').setAttribute('aria-expanded', String(isOpen));
+    });
+
+    // ── 목 페이지 내 검색 바 ──
+    const familySearchInputEl = document.getElementById('familySearchInput');
+    const familySearchClearEl = document.getElementById('familySearchClear');
+    if (familySearchInputEl) {
+      familySearchInputEl.addEventListener('input', () => {
+        _familySearchQuery = familySearchInputEl.value.trim();
+        if (familySearchClearEl) familySearchClearEl.hidden = !_familySearchQuery;
+        renderSpeciesSorted();
+      });
+    }
+    if (familySearchClearEl) {
+      familySearchClearEl.addEventListener('click', () => {
+        _resetFamilySearch();
+        renderSpeciesSorted();
+        familySearchInputEl?.focus();
+      });
+    }
 
     document.getElementById('navDiscover').addEventListener('click', () => {
       showPage('pageDiscover');
@@ -1871,11 +1735,6 @@
     document.getElementById('navSearch').addEventListener('click', () => {
       showPage('pageSearch');
       document.getElementById('navSearch').classList.add('active');
-    });
-
-    document.getElementById('navSaved').addEventListener('click', () => {
-      showPage('pageSaved');
-      document.getElementById('navSaved').classList.add('active');
     });
 
     document.getElementById('navProfile').addEventListener('click', () => {
@@ -1891,6 +1750,19 @@
         document.getElementById('navDiscover').classList.add('active');
       });
     }
+
+    // ── 즐겨찾기 페이지 뒤로가기 → 프로필 ──
+    document.getElementById('savedBackBtn').addEventListener('click', () => {
+      showPage('pageProfile');
+      document.getElementById('navProfile').classList.add('active');
+    });
+
+    // ── 프로필 즐겨찾기 '전체 보기' → 즐겨찾기 페이지 ──
+    document.getElementById('profileSavedViewAll').addEventListener('click', (e) => {
+      e.preventDefault();
+      showPage('pageSaved');
+      document.getElementById('navProfile').classList.add('active');
+    });
 
     // ── C-5 / F-1: 메인 검색 입력 → pageSearch 라우팅 ──
     const searchInputEl = document.getElementById('searchInput');
@@ -2048,6 +1920,7 @@
 
     // 인덱스 검색 결과 → 종 상세 진입
     function openSpeciesFromIndex(ins, fromPage = 'pageSearch') {
+      pushRecentEntry(ins);
       // 상세 페이지가 참조할 수 있도록 selectedOrder/selectedFamily 동기화
       const order = ordersData.find(d => d.id === ins.o || d.scientificName === ins.os);
       if (order) {
@@ -2218,61 +2091,6 @@
       });
     }
 
-    // 목(Order) 기준 안내 페이지 렌더
-    function renderOrderGuide() {
-      const list = document.getElementById('orderGuideList');
-      if (!list || list.childElementCount > 0) return;
-      const frag = document.createDocumentFragment();
-      ORDER_GUIDE_DESC.forEach((order) => {
-        const li = document.createElement('li');
-        li.className = 'order-guide-item';
-        li.setAttribute('role', 'button');
-        li.setAttribute('tabindex', '0');
-        li.setAttribute('aria-expanded', 'false');
-        li.innerHTML = `
-          <div class="order-guide-item-header">
-            <h3 class="order-guide-item-title">${escapeHTML(order.kr)}이란?</h3>
-            <div class="order-guide-item-header-right">
-              <span class="order-guide-item-sci">${escapeHTML(order.sci)}</span>
-              <svg class="order-guide-item-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-            </div>
-          </div>
-          <p class="order-guide-item-desc">${escapeHTML(order.desc)}</p>
-        `;
-        li.addEventListener('click', () => {
-          const isOpen = li.classList.contains('open');
-          list.querySelectorAll('.order-guide-item.open').forEach(item => {
-            item.classList.remove('open');
-            item.setAttribute('aria-expanded', 'false');
-          });
-          if (!isOpen) {
-            li.classList.add('open');
-            li.setAttribute('aria-expanded', 'true');
-          }
-        });
-        li.addEventListener('keydown', (e) => {
-          if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); li.click(); }
-        });
-        frag.appendChild(li);
-      });
-      list.appendChild(frag);
-    }
-
-    document.addEventListener('pageshow:pageOrderGuide', renderOrderGuide);
-
-    const orderGuideEntryBtn = document.getElementById('btnOpenOrderGuide');
-    if (orderGuideEntryBtn) {
-      orderGuideEntryBtn.addEventListener('click', () => {
-        showPage('pageOrderGuide', { keepNav: true });
-        document.getElementById('navSearch').classList.add('active');
-      });
-    }
-
-    document.getElementById('orderGuideBackBtn').addEventListener('click', () => {
-      showPage('pageSearch');
-      document.getElementById('navSearch').classList.add('active');
-    });
-
     // pageSearch 진입 시 인덱스 사전 로드
     loadSearchIndex();
 
@@ -2282,7 +2100,7 @@
       allPages.forEach(page => {
         page.addEventListener('scroll', () => {
           if (page.classList.contains('active')) {
-            scrollTopBtn.hidden = page.id === 'pageSettings' || page.id === 'pageOrderGuide' || page.scrollTop < 200;
+            scrollTopBtn.hidden = page.id === 'pageSettings' || page.scrollTop < 200;
           }
         }, { passive: true });
       });
@@ -2429,6 +2247,13 @@
       featureModalEl.setAttribute('aria-hidden', 'true');
       document.removeEventListener('keydown', handleFeatureEscape);
     }
+    function reopenFeatureModal() {
+      if (!featureModalEl) return;
+      featureModalEl.hidden = false;
+      featureModalEl.setAttribute('aria-hidden', 'false');
+      renderFeatureStep();
+      document.addEventListener('keydown', handleFeatureEscape);
+    }
     function handleFeatureEscape(e) {
       if (e.key === 'Escape') closeFeatureModal();
     }
@@ -2520,6 +2345,80 @@
       }
     }
 
+    function buildFeatureResultCard(ins) {
+      const li = document.createElement('li');
+      li.className = 'feature-result-card';
+      li.setAttribute('role', 'button');
+      li.tabIndex = 0;
+
+      const thumbSrc = lookupInatPhotos(ins)[0]?.url || ins.img || null;
+      const photo = document.createElement('div');
+      photo.className = 'frc-photo';
+      if (thumbSrc) {
+        const img = document.createElement('img');
+        img.src = thumbSrc;
+        img.alt = ins.kr || ins.sci || '';
+        img.loading = 'lazy';
+        img.decoding = 'async';
+        photo.appendChild(img);
+      } else {
+        const ph = document.createElement('span');
+        ph.className = 'frc-photo-placeholder';
+        ph.textContent = (ins.sci || '?').charAt(0);
+        photo.appendChild(ph);
+      }
+
+      const body = document.createElement('div');
+      body.className = 'frc-body';
+
+      const krEl = document.createElement('p');
+      krEl.className = 'frc-kr';
+      krEl.textContent = ins.kr || ins.eolKo || '이름 미상';
+
+      const sciEl = document.createElement('p');
+      sciEl.className = 'frc-sci';
+      sciEl.textContent = ins.sci || '';
+
+      const traits = getInsectTraits(ins);
+      const szCat = getNibrSizeCategory(ins) || traits.sizes[0] || '';
+      const SIZE_KR = { '소': '소형', '중': '중형', '대': '대형' };
+
+      const meta = document.createElement('div');
+      meta.className = 'frc-meta';
+
+      if (szCat) {
+        const sz = document.createElement('span');
+        sz.className = 'frc-badge frc-badge--size';
+        sz.textContent = SIZE_KR[szCat] || szCat;
+        meta.appendChild(sz);
+      }
+      traits.habitats.slice(0, 2).forEach(h => {
+        const hEl = document.createElement('span');
+        hEl.className = 'frc-badge frc-badge--habitat';
+        hEl.textContent = h;
+        meta.appendChild(hEl);
+      });
+
+      const actRow = document.createElement('div');
+      actRow.className = 'frc-act';
+      traits.activities.forEach(a => {
+        const aEl = document.createElement('span');
+        aEl.className = `frc-badge frc-badge--act frc-badge--${a === '주간' ? 'day' : 'night'}`;
+        aEl.textContent = a;
+        actRow.appendChild(aEl);
+      });
+
+      body.append(krEl, sciEl, meta, actRow);
+      li.append(photo, body);
+
+      const open = () => openSpeciesFromIndex(ins, 'featureModal');
+      li.addEventListener('click', open);
+      li.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(); }
+      });
+      return li;
+    }
+
     function renderFeatureResults() {
       if (!featureResultListEl) return;
       const crit = featureModalState.criteria;
@@ -2535,15 +2434,14 @@
           ? `${matched.length}건이 검색되었습니다`
           : '조건과 맞는 곤충을 찾지 못했습니다';
       }
-      const display = matched;
 
       featureResultListEl.replaceChildren();
       const frag = document.createDocumentFragment();
-      for (const ins of display) {
-        const li = buildResultItem(ins);
+      for (const ins of matched) {
+        const card = buildFeatureResultCard(ins);
         // 결과 카드 클릭 시 모달 닫고 종 상세 진입
-        li.addEventListener('click', () => closeFeatureModal(), { capture: true });
-        frag.appendChild(li);
+        card.addEventListener('click', () => closeFeatureModal(), { capture: true });
+        frag.appendChild(card);
       }
       featureResultListEl.appendChild(frag);
     }
@@ -2580,7 +2478,7 @@
     // ── F-5: species-tab 정렬 핸들러 ──
     document.querySelectorAll('#speciesTabsRow .species-tab').forEach(tab => {
       const activate = () => {
-        const sort = tab.dataset.sort || 'popular';
+        const sort = tab.dataset.sort || 'kr';
         currentSpeciesSort = sort;
         document.querySelectorAll('#speciesTabsRow .species-tab').forEach(t => t.classList.remove('active'));
         tab.classList.add('active');
@@ -3295,7 +3193,12 @@
     const speciesDetailBackBtn = document.getElementById('speciesDetailBackBtn');
     if (speciesDetailBackBtn) {
       speciesDetailBackBtn.addEventListener('click', () => {
-        showPage(previousSpeciesPage || 'pageFamilyDetail', { keepNav: true });
+        if (previousSpeciesPage === 'featureModal') {
+          showPage('pageDiscover', { keepNav: true });
+          reopenFeatureModal();
+        } else {
+          showPage(previousSpeciesPage || 'pageFamilyDetail', { keepNav: true });
+        }
       });
     }
 
@@ -3348,6 +3251,184 @@
 
     document.addEventListener('pageshow:pageSaved', renderSavedPage);
 
+    // ── 최근 본 곤충 ──
+    const RECENT_KEY = 'entoma_recent';
+    const RECENT_MAX = 30;
+
+    function loadRecent() {
+      try { return JSON.parse(localStorage.getItem(RECENT_KEY) || '[]'); }
+      catch { return []; }
+    }
+
+    function saveRecent(arr) {
+      localStorage.setItem(RECENT_KEY, JSON.stringify(arr));
+    }
+
+    // ins 객체를 최근 목록 맨 앞에 추가 (중복 제거, 최대 RECENT_MAX 유지)
+    function pushRecentEntry(ins) {
+      if (!ins?.sci) return;
+      const canonical = canonicalizeSciName(ins.sci);
+      let arr = loadRecent().filter(e => canonicalizeSciName(e.sci) !== canonical);
+      arr.unshift({ sci: ins.sci, kr: ins.kr || ins.eolKo || '', img: lookupInatPhotos(ins)[0]?.url || ins.img || null });
+      if (arr.length > RECENT_MAX) arr = arr.slice(0, RECENT_MAX);
+      saveRecent(arr);
+      // 프로필 조회 통계 실시간 반영
+      const statEl = document.getElementById('profileStatViewed');
+      if (statEl) statEl.textContent = String(arr.length);
+    }
+
+    // 프로필 최근 본 곤충 미리보기 — 최대 5장 카드
+    function renderProfileRecent() {
+      const scroll = document.getElementById('profileRecentScroll');
+      const empty = document.getElementById('profileRecentEmpty');
+      const statEl = document.getElementById('profileStatViewed');
+      if (!scroll) return;
+
+      const arr = loadRecent();
+      if (statEl) statEl.textContent = String(arr.length);
+
+      scroll.innerHTML = '';
+
+      if (arr.length === 0) {
+        scroll.hidden = true;
+        empty?.removeAttribute('hidden');
+        return;
+      }
+
+      empty?.setAttribute('hidden', '');
+      scroll.hidden = false;
+
+      const preview = arr.slice(0, 5);
+      const frag = document.createDocumentFragment();
+
+      preview.forEach(entry => {
+        const card = document.createElement('div');
+        card.className = 'recent-encounter-card';
+        card.setAttribute('role', 'button');
+        card.tabIndex = 0;
+
+        const imgWrap = document.createElement('div');
+        imgWrap.className = 'recent-img-wrapper';
+        if (entry.img) {
+          const img = document.createElement('img');
+          img.src = entry.img;
+          img.alt = entry.kr || entry.sci || '';
+          img.loading = 'lazy';
+          img.decoding = 'async';
+          imgWrap.appendChild(img);
+        } else {
+          const ph = document.createElement('div');
+          ph.className = 'recent-img-placeholder';
+          ph.textContent = (entry.sci || '?').charAt(0);
+          imgWrap.appendChild(ph);
+        }
+
+        const details = document.createElement('div');
+        details.className = 'recent-details';
+        details.innerHTML = `
+          <h4 class="recent-title-kr">${entry.kr || '이름 미상'}</h4>
+          <p class="recent-title-sci">${entry.sci || ''}</p>`;
+
+        card.append(imgWrap, details);
+
+        // 클릭 시 search_index에서 매칭해 상세 페이지 진입
+        card.addEventListener('click', async () => {
+          const data = await loadSearchIndex();
+          const canonical = canonicalizeSciName(entry.sci);
+          const ins = (data?.insects || []).find(i => canonicalizeSciName(i.sci) === canonical);
+          if (ins) openSpeciesFromIndex(ins, 'pageProfile');
+        });
+        card.addEventListener('keydown', async (e) => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            card.click();
+          }
+        });
+
+        frag.appendChild(card);
+      });
+
+      scroll.appendChild(frag);
+    }
+
+    document.addEventListener('pageshow:pageProfile', renderProfileRecent);
+
+    // 프로필 즐겨찾기 미리보기 — 최대 2장 카드 + 통계 카운트
+    async function renderProfileFavorites() {
+      const row = document.getElementById('profileFavRow');
+      const empty = document.getElementById('profileFavEmpty');
+      const statEl = document.getElementById('profileStatSaved');
+      if (!row) return;
+
+      const favs = loadFavorites();
+      if (statEl) statEl.textContent = String(favs.size);
+
+      row.innerHTML = '';
+
+      if (favs.size === 0) {
+        row.hidden = true;
+        empty?.removeAttribute('hidden');
+        return;
+      }
+
+      empty?.setAttribute('hidden', '');
+      row.hidden = false;
+
+      const data = await loadSearchIndex();
+      const insects = data?.insects || [];
+      const canonicalFavs = new Set([...favs].map(id => canonicalizeSciName(id)));
+      const matched = insects.filter(ins => canonicalFavs.has(canonicalizeSciName(ins.sci)));
+
+      const preview = matched.slice(0, 2);
+      const frag = document.createDocumentFragment();
+
+      preview.forEach(ins => {
+        const card = document.createElement('div');
+        card.className = 'collection-card';
+        card.setAttribute('role', 'button');
+        card.tabIndex = 0;
+
+        const photoSrc = lookupInatPhotos(ins)[0]?.url || ins.img || null;
+        if (photoSrc) {
+          const img = document.createElement('img');
+          img.src = photoSrc;
+          img.alt = ins.kr || ins.sci || '';
+          img.loading = 'lazy';
+          img.decoding = 'async';
+          card.appendChild(img);
+        } else {
+          const placeholder = document.createElement('div');
+          placeholder.className = 'collection-placeholder';
+          placeholder.textContent = (ins.sci || '?').charAt(0);
+          card.appendChild(placeholder);
+        }
+
+        const overlay = document.createElement('div');
+        overlay.className = 'collection-overlay';
+        card.appendChild(overlay);
+
+        const content = document.createElement('div');
+        content.className = 'collection-content';
+        content.innerHTML = `
+          <span class="collection-tag">즐겨찾기</span>
+          <h4 class="collection-title">${ins.kr || '이름 미상'}</h4>
+          <p class="collection-scientific">${ins.sci || ''}</p>`;
+        card.appendChild(content);
+
+        const open = () => openSpeciesFromIndex(ins, 'pageProfile');
+        card.addEventListener('click', open);
+        card.addEventListener('keydown', e => {
+          if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(); }
+        });
+
+        frag.appendChild(card);
+      });
+
+      row.appendChild(frag);
+    }
+
+    document.addEventListener('pageshow:pageProfile', renderProfileFavorites);
+
     function getFavId(species) {
       return species?.scientificName || species?._indexEntry?.sci || '';
     }
@@ -3379,6 +3460,9 @@
         }
         saveFavorites(favs);
         updateFavBtn(canonical);
+        // 프로필 통계 실시간 반영
+        const statEl = document.getElementById('profileStatSaved');
+        if (statEl) statEl.textContent = String(loadFavorites().size);
       });
     }
 
@@ -3393,7 +3477,6 @@
     
     // 설정 기본값
     const DEFAULT_SETTINGS = {
-      defaultHomeTab: 'curated',
       dailyNotification: false
     };
 
@@ -3409,16 +3492,8 @@
     }
 
     // 설정 적용
-    function applySettings(settings) {
-      // 홈 기본 설정 적용
-      if (settings.defaultHomeTab) {
-        const defaultTab = document.querySelector(`[data-tab="${settings.defaultHomeTab}"]`);
-        if (defaultTab) {
-          // 앱 시작 시 기본 탭 설정 로직
-          localStorage.setItem('defaultHomeTab', settings.defaultHomeTab);
-        }
-      }
-
+    function applySettings(_settings) {
+      // 추가 설정 적용 시 여기에 작성
     }
 
 
@@ -3427,17 +3502,9 @@
       const settings = loadSettings();
 
       // 설정 값으로 UI 업데이트
-      document.getElementById('defaultHomeTab').value = settings.defaultHomeTab;
       document.getElementById('dailyNotification').checked = settings.dailyNotification;
 
       // 이벤트 리스너 추가
-      document.getElementById('defaultHomeTab').addEventListener('change', (e) => {
-        const settings = loadSettings();
-        settings.defaultHomeTab = e.target.value;
-        saveSettings(settings);
-        applySettings(settings);
-      });
-
       document.getElementById('dailyNotification').addEventListener('change', (e) => {
         const settings = loadSettings();
         settings.dailyNotification = e.target.checked;

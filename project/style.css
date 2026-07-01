@@ -145,22 +145,22 @@ ul { list-style: none; }
 }
 
 /* ── Small species thumbnails — 16목 ── */
-.placeholder-thumb--zygentoma   { background: #94A7BB; } /* 좀벌레 */
-.placeholder-thumb--ephemeroptera { background: #7E988A; } /* 하루살이 */
+.placeholder-thumb--zygentoma   { background: #728183; } /* 좀벌레 */
+.placeholder-thumb--ephemeroptera { background: #32413f; } /* 하루살이 */
 .placeholder-thumb--odonata     { background: #A95151; } /* 잠자리 */
-.placeholder-thumb--blattodea   { background: #796042; } /* 바퀴 */
-.placeholder-thumb--mantodea    { background: #4C632B; } /* 사마귀 */
-.placeholder-thumb--dermaptera  { background: #8C682A; } /* 집게벌레 */
-.placeholder-thumb--orthoptera  { background: #8FB342; } /* 메뚜기 */
+.placeholder-thumb--blattodea   { background: #564530; } /* 바퀴 */
+.placeholder-thumb--mantodea    { background: #2b3819; } /* 사마귀 */
+.placeholder-thumb--dermaptera  { background: #362804; } /* 집게벌레 */
+.placeholder-thumb--orthoptera  { background: #79b100; } /* 메뚜기 */
 .placeholder-thumb--phasmida    { background: #988E7B; } /* 대벌레 */
-.placeholder-thumb--hemiptera   { background: #B6B64D; } /* 노린재 */
+.placeholder-thumb--hemiptera   { background: #7e7e0d; } /* 노린재 */
 .placeholder-thumb--neuroptera  { background: #6EA47E; } /* 풀잠자리 */
-.placeholder-thumb--coleoptera  { background: #6A331D; } /* 딱정벌레 */
-.placeholder-thumb--diptera     { background: #68737A; } /* 파리 */
-.placeholder-thumb--mecoptera   { background: #D0803F; } /* 밑들이 */
-.placeholder-thumb--trichoptera { background: #BE795D; } /* 날도래 */
+.placeholder-thumb--coleoptera  { background: #4d210f; } /* 딱정벌레 */
+.placeholder-thumb--diptera     { background: #57595b; } /* 파리 */
+.placeholder-thumb--mecoptera   { background: #ae672c; } /* 밑들이 */
+.placeholder-thumb--trichoptera { background: #c18269; } /* 날도래 */
 .placeholder-thumb--lepidoptera { background: #A57BA5; } /* 나비 */
-.placeholder-thumb--hymenoptera { background: #D4BA25; } /* 벌 */
+.placeholder-thumb--hymenoptera { background: #dada27; } /* 벌 */
 
 /* ══════════════════════════════════════════════
    HERO
@@ -232,84 +232,6 @@ ul { list-style: none; }
   color: var(--text-muted);
   flex-shrink: 0;
   padding: 4px;
-}
-
-/* ══════════════════════════════════════════════
-   TABS
-   ══════════════════════════════════════════════ */
-.tabs {
-  display: flex;
-  gap: 4px;
-  margin: 0 24px 28px;
-  background: var(--bg-input);
-  border-radius: var(--radius-pill);
-  padding: 5px;
-  position: relative;
-  overflow: hidden;
-}
-
-.tabs::before {
-  content: "";
-  position: absolute;
-  top: 5px;
-  bottom: 5px;
-  left: 5px;
-  width: calc((100% - 14px) / 2);
-  border-radius: var(--radius-pill);
-  background: linear-gradient(180deg, #25382e 0%, #1b2a22 100%);
-  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
-  transform: translateX(0);
-  transition: transform 320ms cubic-bezier(0.22, 1, 0.36, 1);
-}
-
-.tabs[data-active-tab="taxonomy"]::before {
-  transform: translateX(calc(100% + 4px));
-}
-
-.tab {
-  flex: 1;
-  padding: 11px 8px;
-  border-radius: var(--radius-pill);
-  font-size: 13px;
-  font-weight: 500;
-  color: var(--text-muted);
-  text-align: center;
-  letter-spacing: 0.01em;
-  position: relative;
-  z-index: 1;
-  transition: color 220ms ease;
-}
-
-.tab.active {
-  color: #fff;
-}
-
-/* ── Tab Content Panels ── */
-.tab-panels {
-  position: relative;
-}
-
-.tab-content {
-  display: none;
-}
-
-.tab-content.active {
-  display: block;
-  animation: tabFadeIn 240ms cubic-bezier(0.22, 1, 0.36, 1);
-}
-
-@keyframes tabFadeIn {
-  from { opacity: 0; transform: translateY(6px); }
-  to   { opacity: 1; transform: translateY(0); }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .tab-content.active { animation: none; }
-
-  .tabs::before,
-  .tab {
-    transition: none;
-  }
 }
 
 /* ══════════════════════════════════════════════
@@ -664,10 +586,6 @@ ul { list-style: none; }
   font-size: 12px;
 }
 
-.family-search-bar {
-  margin-bottom: 28px;
-}
-
 .family-results-section {
   margin-bottom: 28px;
 }
@@ -817,8 +735,7 @@ ul { list-style: none; }
   scroll-behavior: auto;
 }
 
-.family-carousel::-webkit-scrollbar,
-.order-tag-scroll::-webkit-scrollbar {
+.family-carousel::-webkit-scrollbar {
   display: none;
 }
 
@@ -875,50 +792,71 @@ ul { list-style: none; }
   font-style: italic;
 }
 
-.family-order-section {
-  padding-bottom: 34px;
+.family-search-section {
+  padding-bottom: 24px;
+}
+
+.family-order-desc-wrap {
+  padding: 12px 24px;
   border-bottom: 1px solid var(--border-subtle);
 }
 
-.family-detail-eyebrow {
+.family-order-desc-chip {
+  display: inline-flex;
+  align-items: center;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: var(--radius-pill);
+  padding: 5px 13px;
+  cursor: pointer;
   color: var(--text-secondary);
   font-size: 12px;
-  font-weight: 700;
-  letter-spacing: 0.18em;
-  margin-bottom: 16px;
-}
-
-.order-tag-scroll {
-  display: flex;
-  gap: 10px;
-  overflow-x: auto;
-  margin-left: -24px;
-  margin-right: -24px;
-  padding-left: 24px;
-  padding-right: 24px;
-  padding-bottom: 4px;
-  -webkit-overflow-scrolling: touch;
-  scrollbar-width: none;
-  cursor: grab;
-  user-select: none;
-}
-.order-tag-scroll:active {
-  cursor: grabbing;
-}
-
-.order-tag {
-  flex: 0 0 auto;
-  max-width: 230px;
-  padding: 12px 18px;
-  border-radius: var(--radius-pill);
-  border: 1px solid rgba(255,255,255,0.12);
-  background: rgba(255,255,255,0.03);
-  color: var(--text-primary);
-  font-size: 13px;
-  font-weight: 700;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  font-weight: 600;
+  font-family: var(--font-body);
   white-space: nowrap;
+  -webkit-tap-highlight-color: transparent;
+  transition: background 0.18s ease, color 0.18s ease, border-color 0.18s ease;
+}
+
+.family-order-desc-wrap.open .family-order-desc-chip {
+  background: var(--green-dim);
+  border-color: var(--green-dim);
+  color: #fff;
+}
+
+.family-order-desc {
+  font-size: 13px;
+  line-height: 1.75;
+  color: var(--text-secondary);
+  word-break: keep-all;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.3s ease, opacity 0.25s ease, margin-top 0.25s ease;
+}
+
+.family-order-desc-wrap.open .family-order-desc {
+  max-height: 400px;
+  opacity: 1;
+  margin-top: 12px;
+}
+
+.family-search-bar {
+  padding: 0;
+}
+
+.family-search-bar .search-inner {
+  padding: 11px 14px;
+}
+
+.family-search-bar .search-inner input {
+  min-width: 0;
+}
+
+.family-search-bar .search-clear-btn[hidden] {
+  display: inline-flex;
+  visibility: hidden;
+  pointer-events: none;
 }
 
 .species-detail-section {
@@ -1194,6 +1132,28 @@ ul { list-style: none; }
 .saved-page-header {
   padding: calc(52px + env(safe-area-inset-top)) 24px 28px;
   text-align: center;
+  position: relative;
+}
+
+.saved-back-btn {
+  position: absolute;
+  top: calc(12px + env(safe-area-inset-top));
+  left: 16px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.05);
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.saved-back-btn:active {
+  background: rgba(255,255,255,0.08);
+  transform: scale(0.95);
 }
 
 .saved-page-title {
@@ -2009,6 +1969,26 @@ ul { list-style: none; }
   line-height: 1.2;
 }
 
+.profile-fav-empty {
+  padding: 24px 0;
+  text-align: center;
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.collection-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--text-muted);
+  background: var(--bg-elevated);
+  text-transform: uppercase;
+}
+
 /* Recently Encountered Horiz Scroll */
 .profile-recent-scroll {
   display: flex;
@@ -2069,18 +2049,33 @@ ul { list-style: none; }
   color: var(--text-muted);
   font-family: var(--font-sci);
   font-style: italic;
-  margin-bottom: 8px;
+  margin-bottom: 0;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   line-height: 1.2;
 }
 
-.recent-time-badge {
-  font-size: 9px;
-  letter-spacing: 0.08em;
+.recent-time-badge { display: none; }
+
+.profile-recent-empty {
+  padding: 24px 0;
+  text-align: center;
+  font-size: 13px;
   color: var(--text-muted);
-  font-weight: 600;
+}
+
+.recent-img-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--text-muted);
+  background: var(--bg-elevated);
+  text-transform: uppercase;
 }
 
 /* ══════════════════════════════════════════════
@@ -2818,7 +2813,7 @@ ul { list-style: none; }
   cursor: pointer;
   transition: background 0.15s;
 }
-.search-clear-btn[hidden] { display: none; }
+.search-clear-btn[hidden] { display: inline-flex; visibility: hidden; pointer-events: none; }
 
 /* ── Search Filter Dropdown ── */
 .search-bar--global {
@@ -3466,10 +3461,114 @@ ul { list-style: none; }
   list-style: none;
   padding: 0;
   margin: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
 }
+
+/* ── 특징찾기 결과 카드 ── */
+.feature-result-card {
+  background: var(--search-card-bg);
+  border: 1px solid var(--search-card-border);
+  border-radius: 14px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s, transform 0.05s;
+}
+.feature-result-card:hover {
+  background: var(--search-card-bg-hover);
+  border-color: rgba(255,255,255,0.14);
+}
+.feature-result-card:active { transform: scale(0.97); }
+.feature-result-card:focus-visible {
+  outline: 2px solid var(--green-soft);
+  outline-offset: 2px;
+}
+
+.frc-photo {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  background: linear-gradient(135deg, rgba(80,60,30,0.45), rgba(20,25,18,0.6));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.frc-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.frc-photo-placeholder {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 28px;
+  color: rgba(255,255,255,0.4);
+}
+
+.frc-body {
+  padding: 10px;
+}
+.frc-kr {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 2px;
+}
+.frc-sci {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 10.5px;
+  color: var(--text-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 6px;
+}
+.frc-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-bottom: 4px;
+}
+.frc-act {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+.frc-badge {
+  font-size: 10px;
+  font-weight: 500;
+  padding: 2px 6px;
+  border-radius: 20px;
+  line-height: 1.5;
+  white-space: nowrap;
+}
+.frc-badge--size {
+  background: rgba(100,180,130,0.14);
+  color: rgba(140,215,165,0.9);
+  border: 1px solid rgba(100,180,130,0.2);
+}
+.frc-badge--habitat {
+  background: rgba(80,140,200,0.12);
+  color: rgba(130,185,235,0.9);
+  border: 1px solid rgba(80,140,200,0.18);
+}
+.frc-badge--day {
+  background: rgba(255,200,60,0.12);
+  color: rgba(255,215,80,0.9);
+  border: 1px solid rgba(255,200,60,0.18);
+}
+.frc-badge--night {
+  background: rgba(120,100,200,0.12);
+  color: rgba(165,145,235,0.9);
+  border: 1px solid rgba(120,100,200,0.2);
+}
+
 .feature-result-note {
   margin-top: 16px;
   padding-top: 14px;
@@ -3588,147 +3687,6 @@ ul { list-style: none; }
 /* ══════════════════════════════════════════════
    ORDER GUIDE — 목(Order) 기준 안내 페이지
    ══════════════════════════════════════════════ */
-
-/* ── 검색 페이지 진입 버튼 ── */
-.order-guide-entry-btn {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  width: 100%;
-  padding: 14px 16px;
-  background: rgba(255,255,255,0.04);
-  border: 1px solid rgba(255,255,255,0.08);
-  border-radius: 14px;
-  font-family: inherit;
-  text-align: left;
-  cursor: pointer;
-  color: inherit;
-  transition: transform 0.06s, background 0.15s;
-}
-.order-guide-entry-btn:active { transform: scale(0.99); background: rgba(255,255,255,0.07); }
-
-.order-guide-entry-icon {
-  display: inline-flex;
-  width: 38px;
-  height: 38px;
-  align-items: center;
-  justify-content: center;
-  border-radius: 10px;
-  background: rgba(140,168,146,0.12);
-  color: var(--green-soft);
-  flex-shrink: 0;
-}
-
-.order-guide-entry-text {
-  display: flex;
-  flex-direction: column;
-  min-width: 0;
-  flex: 1;
-}
-
-.order-guide-entry-title {
-  font-size: 14px;
-  font-weight: 600;
-  color: var(--text-primary);
-}
-
-.order-guide-entry-sub {
-  font-size: 12px;
-  color: var(--text-muted);
-  margin-top: 1px;
-}
-
-.order-guide-entry-chevron {
-  color: var(--text-faint);
-  flex-shrink: 0;
-}
-
-/* ── 목 기준 페이지 내부 ── */
-.order-guide-intro {
-  padding: 0 24px 24px;
-}
-
-.order-guide-intro-text {
-  font-size: 13px;
-  line-height: 1.65;
-  color: var(--text-secondary);
-  word-break: keep-all;
-}
-
-.order-guide-list {
-  list-style: none;
-  padding: 0 24px;
-  padding-bottom: calc(32px + env(safe-area-inset-bottom));
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
-.order-guide-item {
-  background: var(--bg-card);
-  border: 1px solid var(--border-subtle);
-  border-radius: 16px;
-  padding: 18px 20px;
-  cursor: pointer;
-  user-select: none;
-}
-
-.order-guide-item-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 8px;
-}
-
-.order-guide-item-header-right {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  flex-shrink: 0;
-}
-
-.order-guide-item-chevron {
-  color: var(--text-faint);
-  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.order-guide-item.open .order-guide-item-chevron {
-  transform: rotate(180deg);
-}
-
-.order-guide-item-title {
-  font-family: var(--font-body);
-  font-size: 16px;
-  font-weight: 700;
-  color: var(--text-primary);
-  line-height: 1.2;
-}
-
-.order-guide-item-sci {
-  font-family: var(--font-display);
-  font-size: 12px;
-  font-style: italic;
-  color: var(--green-soft);
-  white-space: nowrap;
-  flex-shrink: 0;
-}
-
-.order-guide-item-desc {
-  font-size: 13px;
-  line-height: 1.7;
-  color: var(--text-secondary);
-  word-break: keep-all;
-  max-height: 0;
-  overflow: hidden;
-  opacity: 0;
-  transition: max-height 0.28s ease, opacity 0.28s ease, margin-top 0.28s ease;
-}
-
-.order-guide-item.open .order-guide-item-desc {
-  max-height: 160px;
-  opacity: 1;
-  margin-top: 10px;
-}
 
 /* ══════════════════════════════════════════════
    SETTINGS PAGE UI (설정)

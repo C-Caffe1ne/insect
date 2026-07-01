@@ -1,54 +1,44 @@
 ## QA 검증 결과
 
 검증 대상: `project/index.html`, `project/style.css`
-검증 방식: 경계면 교차 비교 (HTML↔CSS↔JS 셀렉터/클래스/함수 정합성), JS 문법 파싱
+변경 사항: 홈 화면 재구성(탭 삭제 → 오늘의 곤충 + 분류 보기 직접 배치), pageSearch 빈 상태에 테마 4종 추가, Settings 기본 화면 설정 제거, `previousFamilyPage` 뒤로가기 추적.
+참고: `_workspace/03_review_output.md` 는 존재하지 않아(git상 삭제됨) 리뷰 지적 우선 검증은 생략, 체크리스트 기반 전면 검증 수행.
 
 ### Pass ✅
 
-**QA-1: 뱃지 제거**
-- HTML 클래스 제거: `index.html`에서 `badge-item`, `badge-ring`, `badge-name`, `profile-badges-scroll` grep 결과 0건 (exit 1).
-- CSS 선택자 제거: `style.css`에서 `.badge-item`, `.badge-ring`, `.badge-name`, `.profile-badges-scroll` grep 결과 0건 (exit 1).
-- BADGES 텍스트 제거: `index.html` 전체에서 `BADGES`/`Badges`(주석 포함) grep 0건.
-- 통계 캡슐 정상화: `#pageProfile` 통계 컨테이너(`index.html:641-651`)는 `조회`(127) | divider 1개 | `저장`(42) 구조. BADGES stat item 및 잉여 divider 제거 확인.
-- "Badges Earned" 섹션 전체 삭제 확인: `#pageProfile`(588~733)에 `profile-section`이 「나의 컬렉션」(656)·「최근 만난 곤충」(688) 2개만 존재.
+**DOM 셀렉터 ↔ HTML 교차 검증**
+- 오늘의 곤충: `todayInsectCard`(HTML:63), `todayInsectBg`(64), `todayInsectTag`(67), `todayInsectName`(68), `todayInsectSci`(69) 모두 pageDiscover 내 존재. JS `initTodayInsectCard`(2082,2095,2106~2111)에서 getElementById로 접근 — 전부 매칭.
+- 분류 보기: `orderGrid`(HTML:85), `sortBtn`(82), `orderSubtitle`(80) 모두 pageDiscover 내 존재. JS 접근 지점(renderOrders 1299, orderSubtitle 1497/1508, sortBtn 1682/1684/2513) 전부 매칭.
+- 테마 스크롤 컨테이너 `themeScroll-{predator,pest,nocturnal,korean}` 4개 모두 pageSearch searchEmptyState(HTML:413,427,441,455) 내 존재. JS `renderThemeSections` 가 `themeScroll-${theme.id}`(1650)로 접근 — THEMES 배열 id와 정확히 일치.
+- 테마 전체보기 `themeSeeAll-{predator,pest,nocturnal,korean}` 4개 모두 searchEmptyState(HTML:411,425,439,453) 내 존재. JS `themeSeeAll-${theme.id}`(1651) 접근, id 일치.
 
-**QA-2: 영어→한글 번역 (#pageProfile 범위 588~733)**
-- aria-label: `뒤로`(592), `설정`(599) — Go Back / Settings 없음.
-- stat label: `조회`(644), `저장`(649) — VIEWED / SAVED / BADGES 없음.
-- 섹션 제목/부제: `나의 컬렉션`(659) / `관심 있는 곤충들`(660), `최근 만난 곤충`(691) / `최근에 발견한 곤충들`(692).
-- 링크: `전체 보기`(662, 694) — VIEW ALL 없음.
-- collection-tag: `즐겨찾기`(670, 679) — FAVORITE 없음.
-- recent-time-badge: `오늘`(705) / `어제`(716) / `2일 전`(727) — TODAY/YESTERDAY/2 DAYS AGO 없음.
-- head: `<title>ENTOMA · KR — 한국 곤충도감`(11), meta description `한국 곤충 분류와 종 정보를 탐색하는 프리미엄 곤충도감입니다.`(13).
-- 주의(비결함): 잔존 영어 grep 매치는 HTML 주석 `<!-- My Collection Section -->`(655), `<!-- Recently Encountered Section -->`(687) 및 태스크 범위 밖 Discover 페이지 `featured-tag` "TODAY"(94)뿐. 모두 렌더링 텍스트 아님 → 요구사항 범위 충족.
+**제거된 식별자 정합성 (완전 삭제 확인)**
+- `tabCurated`, `tabTaxonomy`, `discoverTabs`, `discoverTabPanels`, `panelCurated`, `panelTaxonomy`, `defaultHomeTab` — HTML/JS 전체에서 grep 결과 0건. 삭제 후 잔존 참조 없음(끊긴 셀렉터 없음).
 
-**QA-3: 즐겨찾기 페이지 JS 연결**
-- `<ul id="savedResultList" class="saved-result-list" role="list" hidden>` 존재: `index.html:570`.
-- `renderSavedPage` 정의: `index.html:3369` (async function).
-- pageshow 리스너: `document.addEventListener('pageshow:pageSaved', renderSavedPage)` — `index.html:3403`.
-- `pageshow:pageSaved` 이벤트 실제 발행 확인: `showPage()`가 모든 페이지 전환 시 `document.dispatchEvent(new CustomEvent('pageshow:' + pageId))` 발행 (`index.html:1582`) → Saved 진입 시마다 renderSavedPage 실행됨.
-- `buildResultItem(ins, fromPage = 'pageSearch')` 시그니처 파라미터화: `index.html:1742`. 내부 click/keydown 핸들러가 `openSpeciesFromIndex(ins, fromPage)` 호출(1784) → fromPage 반영.
-- renderSavedPage가 `buildResultItem(ins, 'pageSaved')` 호출: `index.html:3399`. (리스너 중복 부착 버그 없음 — 단일 버전 buildResultItem 재사용.)
-- 의존 함수 전부 존재: `loadFavorites`(3359), `loadSearchIndex`(1663), `canonicalizeSciName`(3025), `.saved-empty-state`(573). 저자명 포함 학명 대응을 위해 `favs.has(ins.sci) || favs.has(canonicalizeSciName(ins.sci))` 필터 적용(3387-3388).
+**이벤트 리스너 정합성**
+- `familyDetailBackBtn`(HTML:94) 클릭 핸들러(1748~1751)가 `showPage(previousFamilyPage)` + `syncNavForPage(previousFamilyPage)` 사용. 요구사항과 정확히 일치.
+- `previousFamilyPage` 설정 지점: 목 카드 진입 시 `openOrderSpecies`에서 `'pageDiscover'`(1370), 테마 진입 시 `openThemeSpecies`에서 `'pageSearch'`(1617)로 세팅 → 뒤로가기 대상이 진입 경로에 따라 올바르게 분기됨.
+- `sortBtn` 클릭 리스너(1682)가 pageDiscover의 `orderGrid`를 `renderOrders`로 재렌더 — 정상 연결.
+- `themeSeeAll-*` 각 버튼에 `openThemeSpecies(theme)` 리스너 등록(1669). `openThemeSpecies`는 pageFamilyDetail 공용 인프라(familyDetailTitle, familySpeciesCount, speciesTabsRow, familySpeciesGrid)를 재사용 — 해당 요소 모두 존재, 연결 정상.
 
-**QA-4: 폰트 설정 (style.css @font-face Line Seed KR, 7~12행)**
-- `font-weight: 100 900` 범위로 변경 확인 (style.css:10) — 단일값(400/700) 아님.
-- `font-display: swap` 추가 확인 (style.css:12).
-- src 단일 `fonts/LINESeedKR-Rg.woff2`(9) 유지, 합성 볼드 허용 구성.
+**흐름 테스트 (코드 레벨 추적)**
+- 홈 → 목 카드 클릭 → `openOrderSpecies`(previousFamilyPage='pageDiscover') → pageFamilyDetail → 뒤로 → `showPage('pageDiscover')` + nav 홈 활성화. 복귀 정상.
+- 검색 → 테마 전체보기 → `openThemeSpecies`(previousFamilyPage='pageSearch') → pageFamilyDetail → 뒤로 → `showPage('pageSearch')` + `syncNavForPage('pageSearch')`로 navSearch 활성화. 복귀 정상.
+- searchEmptyState 표시 제어: JS `performSearch`가 `searchResultArea.dataset.state`를 empty/no-result/results로 세팅(1873,1888,1894). CSS(3106~3108)가 state=results/no-result일 때 `.search-empty-state { display:none }`, empty일 때(3103~3104) display:block. 검색어 입력 시 테마 섹션 숨김 → 정상.
 
-**QA-5: 기존 기능 회귀**
-- pageSearch 호출부: `buildResultItem(ins)`(1737), `buildResultItem(ins)`(2185) — 2번째 인자 생략 시 기본값 `'pageSearch'` 적용 → 기존 동작 유지(호환).
-- `openSpeciesFromIndex(ins, fromPage='pageSearch')`(1796)가 `openSpeciesDetail({...}, fromPage)`(1813~1848 영역, 35행째 `}, fromPage`)로 전달 → `openSpeciesDetail`(3285)이 `previousSpeciesPage = fromPage`(3287) 설정 → 뒤로가기 시 `showPage(previousSpeciesPage)`(3352)로 복귀. pageSaved 흐름 정상.
-- 기존 호출 `openSpeciesFromIndex(ins)`(1935), `(ins, 'pageDiscover')`(1920-1921) 모두 시그니처 호환.
-- JS 문법: 인라인 스크립트 블록 `new Function(code)` 파싱 통과 (errors: 0).
+**CSS 클래스 ↔ HTML/JS 정합성**
+- 신규/재사용 클래스 전부 style.css에 정의됨: `species-scroll`, `see-all`, `theme-loading`, `order-grid`, `order-card-mini`, `sort-btn`, `featured-grid`, `featured-card--large`, `section-sub`, `species-card`, `species-detail-card`. 미정의 클래스 없음.
+
+**JS 문법**
+- 인라인 `<script>` 블록 `node --check` 통과 (JS SYNTAX OK).
 
 ### Fail ❌
 - 없음.
 
 ### 수동 테스트 필요
-- 즐겨찾기 canonical 매칭 실제 동작: `localStorage('entoma_favorites')`에 저자명 제거형(예: `Anax parthenope`)으로 저장된 항목이 `search_index.json`의 저자명 포함 `ins.sci`와 canonical 비교로 매칭되는지는 런타임 데이터 의존 → 브라우저에서 실종 추가 후 Saved 진입 확인 권장.
-- 합성 볼드 시각 품질: `font-weight: 100 900` 범위 선언으로 600/700 사용처(다수)가 합성 볼드로 렌더되는데, 실제 굵기 표현 품질은 브라우저 렌더링 육안 확인 필요(코드 레벨 검증 불가).
-- pageshow 갱신 타이밍: 즐겨찾기 해제 후 재진입 시 목록 갱신은 이벤트 발행 경로상 정상이나, popstate(뒤로가기) 경유 진입에서도 `pageshow:pageSaved` 발행되는지 실브라우저 확인 권장.
+- 테마 섹션 데이터 매칭 결과: `filterInsectsByTheme`는 nibr_cache.json의 실제 텍스트 키워드(포식/해충/야행성/석주명)에 의존. 각 테마가 실제로 종을 반환하는지는 캐시 데이터 내용에 따라 달라지므로 브라우저 실행 확인 권장. 데이터 0건 시 "해당하는 곤충 데이터가 없습니다" fallback은 코드상 처리됨(1657~1662).
+- `attachDragScroll`의 포인터 드래그 vs 카드 클릭 구분(4px 임계), 실제 터치 디바이스 동작은 수동 확인 필요.
+- 오늘의 곤충 카드 배경 이미지 `replaceWith` 후 레이아웃(긴 학명 시 featured-info 오버레이 겹침)은 실제 렌더 확인 권장.
 
 ### 종합: 전체 Pass
-QA-1 ~ QA-5 전 항목 코드 레벨 정합성 통과. 끊긴 경계면(셀렉터-요소, 함수 정의-호출, 이벤트 발행-구독, CSS-HTML 클래스) 없음. Critical/일반 Fail 0건.
+체크리스트 전 항목 코드 레벨 검증 통과. 끊긴 셀렉터·미정의 CSS·잔존 참조 없음. 데이터 의존 3건만 수동 확인 권장(Critical 아님).

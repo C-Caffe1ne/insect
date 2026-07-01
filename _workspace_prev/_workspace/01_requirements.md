@@ -1,45 +1,65 @@
 ## 요구사항
 
 ### 사용자 요청
-각 곤충마다 비어있는 데이터, 중복 데이터를 **여러 차례 검토 후** JSON 파일 코드 삭제 및 최적화.
+검색 페이지의 각 목의 대한 설명을 목 페이지 검색 바 밑으로 옮기고 검색페이지에서 목 설명 없애줘. 오류, 버그를 반드시 확인하고 작업해줘.
 
 ### 분류된 작업 유형
-**위험한 데이터 정리** — 21,359종 곤충 데이터(42MB)에서 빈/중복 필드 제거. 사용자 강조:
-> 반드시 여러번의 검토를 진행하고 코드 삭제
+기능 이동 (UI 재배치)
 
-### 작업 파이프라인
-- **Round 1 (완료)**: 자체 인벤토리 — 빈/중복 패턴 6종 식별
-- **Round 2 (이 단계)**: code-reviewer가 프론트엔드 의존성 교차 검증
-- **Round 3 (이 단계, 병렬)**: qa-agent가 시나리오 시뮬레이션 — 제거 시 회귀 검사
-- **STOP**: 사용자 승인 대기
-- **Round 4**: 승인 후 web-developer 실행 (백업 포함)
-- **Round 5**: 회귀 재검증
+### 관련 파일
+- project/index.html
+- project/style.css
 
-### Round 1에서 식별된 제거 후보 (검토 대상)
+### 현재 상태
+- `pageOrderGuide` (`id="pageOrderGuide"`) — 검색 페이지 하위 페이지. `ORDER_GUIDE_DESC` 배열로 각 목(目)의 설명을 아코디언 방식으로 렌더링 (`renderOrderGuide()`, 약 line 2208).
+- `pageFamilyDetail` (`id="pageFamilyDetail"`) — 목별 종 목록 페이지. 검색 바(`family-search-section`)는 있으나 목 설명 없음.
+- `ORDER_GUIDE_DESC` 배열 (line 1052) — 16목의 `{ id, kr, sci, desc }` 데이터. `id`는 소문자 학명 (`coleoptera`, `lepidoptera` 등).
+- `ordersData` 객체도 동일한 `id` 필드를 가짐.
 
-| # | 패턴 | 종 수 | 절감 추정 | 위험도 |
-|---|---|---|---|---|
-| 1 | `digitalContent` 전체 (5,596 빈 응답 + 4,398 HTTP 500) | 9,994 | ~2.19MB | 낮음 — 실데이터 0건 |
-| 2 | Yn 상수 3개 제거: `hrmflSpecsYn`, `phspYn`, `ntmYn` (모든 종 'N') | 21,359 | ~0.7MB | 검토 필요 — 프론트 사용 여부 |
-| 3 | `taxonomy.order`/`taxonomy.family` 중복 (파일 헤더와 100% 일치) | 21,359 | ~4.3MB | **검토 필요** — 종 상세 페이지가 사용 |
-| 4 | `taxonomy.subgenus` 80%가 완전 빈 객체 | 17,148 | ~3.5MB | 빈 것만 제거 가능 |
-| 5 | `eol.eats`, `eol.visitsFlowersOf`, `eol.pathogenOf` 100% 빈 배열 | 2,595 | ~0.5MB | 낮음 |
-| 6 | `gbif.vernacularName` 100% 빈 | 97 | 적음 | 낮음 |
-| 7 | `inat.imageUrl` 빈 값 238종 | 238 | 적음 | 검토 필요 |
+### 변경 계획
 
-### 점검 항목 (각 에이전트)
+#### HTML (pageFamilyDetail)
+`family-search-section` 아래, `species-detail-section` 위에 추가:
+```html
+<div id="familyOrderDesc" class="family-order-desc" hidden></div>
+```
 
-**code-reviewer**:
-- 프론트엔드(`project/index.html` 인라인 JS)가 위 7개 패턴 중 어떤 필드를 직접 참조하는지 grep
-- 특히 `insect.taxonomy.order`, `insect.taxonomy.family`, `insect.digitalContent`, `insect.hrmflSpecsYn` 등
-- 제거 안전성 판정 (각 패턴별 위험도 갱신)
+#### JS 변경 1: openOrderSpecies()  (line ~1407)
+해당 목의 설명을 `ORDER_GUIDE_DESC`에서 찾아 `#familyOrderDesc`에 표시:
+```js
+const descEl = document.getElementById('familyOrderDesc');
+if (descEl) {
+  const guideEntry = ORDER_GUIDE_DESC.find(d => d.id === order.id);
+  if (guideEntry?.desc) {
+    descEl.textContent = guideEntry.desc;
+    descEl.hidden = false;
+  } else {
+    descEl.textContent = '';
+    descEl.hidden = true;
+  }
+}
+```
 
-**qa-agent**:
-- 시나리오: 분류 보기 → 목 펼치기 → 과 → 종 카드 → 종 상세 페이지
-- 각 화면이 표시하는 필드 추적
-- 제거 시 어떤 슬롯이 빈 폴백으로 떨어질지 예측
+#### JS 변경 2: openThemeSpecies()  (line ~1655)
+테마 보기에서도 pageFamilyDetail을 사용하므로 설명 숨김:
+```js
+const descEl = document.getElementById('familyOrderDesc');
+if (descEl) { descEl.textContent = ''; descEl.hidden = true; }
+```
 
-### 산출물
-- `_workspace/03_review_output.md` (code-reviewer)
-- `_workspace/04_qa_output.md` (qa-agent)
-- 그 후 오케스트레이터가 **plan 보고서 + 사용자 확인 요청** 작성
+#### JS 변경 3: renderOrderGuide()  (line ~2208)
+- `li.innerHTML`에서 `<p class="order-guide-item-desc">` 제거
+- chevron SVG 제거
+- `role="button"`, `tabindex="0"`, `aria-expanded` 속성 제거
+- `addEventListener('click', ...)` 및 `addEventListener('keydown', ...)` 제거
+
+#### CSS 변경 1: .family-order-desc 신규 (style.css)
+`family-search-section` 바로 아래에 연결되는 설명 텍스트 스타일.
+
+#### CSS 변경 2: .order-guide-item
+`cursor: pointer` → `cursor: default` (더 이상 클릭 불가)
+
+### 참고 사항
+- `openThemeSpecies()`도 `pageFamilyDetail`을 열므로 반드시 설명 숨김 처리 필요.
+- `ORDER_GUIDE_DESC`의 `id`와 `ordersData[].id` 는 모두 소문자 학명이므로 직접 매칭 가능.
+- 설명 없는 목(데이터 미존재)의 경우 element를 `hidden` 처리.
