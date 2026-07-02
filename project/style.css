@@ -239,7 +239,6 @@ ul { list-style: none; }
    ══════════════════════════════════════════════ */
 .section {
   padding: 0 24px;
-  margin-bottom: 36px;
 }
 
 .section-head {
@@ -247,6 +246,7 @@ ul { list-style: none; }
   justify-content: space-between;
   align-items: flex-end;
   margin-bottom: 18px;
+  margin-top: 16px;
 }
 
 .section-title {
@@ -1005,6 +1005,11 @@ ul { list-style: none; }
 
 .nav-item.active span {
   color: var(--green-mid);
+}
+
+/* iOS 네이티브 셸(Capacitor)에서는 진짜 UITabBar(Liquid Glass)를 쓰므로 웹 하단 네비는 숨김 */
+.is-native-ios .bottom-nav {
+  display: none;
 }
 
 /* ══════════════════════════════════════════════
