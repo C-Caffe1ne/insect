@@ -41,6 +41,11 @@ class MainViewController: UIViewController, UITabBarDelegate {
     }
 
     private func setupTabBar() {
+        let appearance = UITabBarAppearance()
+        appearance.configureWithTransparentBackground()
+        tabBar.standardAppearance = appearance
+        tabBar.scrollEdgeAppearance = appearance
+
         discoverItem.tag = 0
         searchItem.tag = 1
         profileItem.tag = 2
