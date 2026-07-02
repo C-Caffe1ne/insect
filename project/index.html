@@ -1021,10 +1021,14 @@
     let currentSpeciesSort = 'kr';
     let selectedSpecies = null;
     let previousSpeciesPage = 'pageFamilyDetail';
-    let previousFamilyPage = 'pageDiscover';
     const _scrollPosCache = new Map(); // pageId → scrollTop, 뒤로가기 시 복원용
     let _activePageId = 'pageDiscover'; // 스와이프 백 제스처 차단 판단용, showPage 호출 시마다 갱신
     const SWIPE_BACK_BLOCKED_PAGES = new Set(['pageDiscover', 'pageSearch', 'pageProfile']); // 하단 네비 탭 페이지는 화면 스와이프 뒤로가기 비활성
+    // 서브페이지(목/종)에서 뒤로 갔을 때의 목적지 pageId. 정방향 진입 시 showPage에서 갱신.
+    // 네이티브 인터랙티브 스와이프가 드래그 중 목적지를 미리 렌더할 때 참조한다.
+    const _subPageBackTarget = { pageFamilyDetail: 'pageDiscover', pageSpeciesDetail: 'pageFamilyDetail' };
+    let _swipePreview = null;    // 진행 중인 네이티브 스와이프 프리뷰 { from, to, reopenModal }
+    let _finalizingSwipe = null; // commit()이 history.back() 후 popstate에서 재렌더를 건너뛰게 하는 플래그
     let searchIndexData = null;
     let searchIndexLoading = null;
 
@@ -1329,7 +1333,6 @@
       }
 
       _resetFamilySearch();
-      previousFamilyPage = 'pageDiscover';
       renderSpeciesSorted();
       showPage('pageFamilyDetail', { keepNav: true });
     }
@@ -1576,7 +1579,6 @@
       const _themeDescWrap = document.getElementById('familyOrderDescWrap');
       if (_themeDescWrap) { _themeDescWrap.hidden = true; }
 
-      previousFamilyPage = 'pageSearch';
       renderSpeciesSorted();
       showPage('pageFamilyDetail', { keepNav: true });
     }
@@ -1679,6 +1681,14 @@
       const tab = navId === 'navSearch' ? 'search' : navId === 'navProfile' ? 'profile' : 'discover';
       window.Capacitor.Plugins.TabBarBridge?.select({ tab });
     }
+    // 되돌릴 히스토리가 있는 목/종 상세 페이지에서만 네이티브 엣지 스와이프 뒤로가기를 켠다.
+    // 홈/검색/내 정보(탭 루트)에서는 꺼서, 스와이프 도중 popstate로 사후 취소하며 생기는
+    // 스냅백 렉을 애초에 발생시키지 않는다.
+    function _syncNativeSwipeGesture(pageId) {
+      if (!window.Capacitor?.isNativePlatform?.()) return;
+      const enabled = pageId === 'pageFamilyDetail' || pageId === 'pageSpeciesDetail';
+      window.Capacitor.Plugins.NavigationGestureBridge?.setEnabled({ enabled });
+    }
     // 네이티브 탭바 탭 → 웹 페이지 전환 (Swift에서 evaluateJavaScript로 호출)
     window.nativeTabSelect = function (tab) {
       const pageId = tab === 'search' ? 'pageSearch' : tab === 'profile' ? 'pageProfile' : 'pageDiscover';
@@ -1703,19 +1713,49 @@
       allPages.forEach(p => p.classList.remove('active'));
       if (!options.keepNav) syncNavForPage(pageId);
       const target = document.getElementById(pageId);
-      if (target) target.classList.add('active');
+      const restoredTop = (options.restoreScroll && _scrollPosCache.has(pageId))
+        ? _scrollPosCache.get(pageId)
+        : 0;
+      // 탭 루트(홈/검색/내 정보)는 테마 섹션·이미지·목 카드 그리드가 많은 무거운 페이지.
+      const isTabRoot = SWIPE_BACK_BLOCKED_PAGES.has(pageId);
       if (target) {
-        target.scrollTop = (options.restoreScroll && _scrollPosCache.has(pageId))
-          ? _scrollPosCache.get(pageId)
-          : 0;
+        // 네이티브 엣지 스와이프 뒤로가기(popstate)로 들어온 전환은 WKWebView가 이미
+        // 자체 슬라이드 애니메이션을 재생 중이므로, CSS의 pageFadeIn을 또 겹쳐 재생하면
+        // 특히 카드가 많은 목 페이지에서 리플로우가 겹쳐 렉이 발생한다. 이 경우만 생략.
+        target.classList.toggle('skip-page-anim', !!options._fromHistory);
+        if (options._fromHistory && restoredTop > 0 && !isTabRoot) {
+          // 가벼운 콘텐츠 서브페이지(목/종): iOS WKWebView의
+          // -webkit-overflow-scrolling:touch 레이어는 display:none→block 직후의
+          // scrollTop 대입을 첫 페인트에 바로 반영하지 않아 "다른 위치로 그려졌다가
+          // 원래 위치로 스냅"이 보인다. 위치가 자리잡을 때까지 한 프레임 숨겼다 보여준다.
+          target.style.visibility = 'hidden';
+          target.classList.add('active');
+          target.scrollTop = restoredTop;
+          requestAnimationFrame(() => {
+            target.scrollTop = restoredTop;
+            target.style.visibility = '';
+          });
+        } else {
+          // 탭 루트는 visibility 토글이 무거운 페이지 전체를 강제 리페인트해 렉·터치
+          // 먹통을 유발하므로 절대 쓰지 않는다. 네이티브 스와이프 스냅샷이 이미 올바른
+          // 스크롤을 보여주므로, 그와 일치하도록 동기 복원만 한다.
+          target.classList.add('active');
+          target.scrollTop = restoredTop;
+        }
       }
       _activePageId = pageId;
+      // 네이티브 제스처 토글은 진행 중인 인터랙티브 전환의 마무리(스냅샷 해제)와 같은
+      // 프레임에 겹치면 터치가 잠깐 먹통이 될 수 있어, 한 프레임 뒤로 미뤄 실행한다.
+      requestAnimationFrame(() => _syncNativeSwipeGesture(pageId));
       document.dispatchEvent(new CustomEvent('pageshow:' + pageId));
       const fab = document.getElementById('searchScrollTopBtn');
       if (fab) fab.hidden = true;
       if (!options._fromHistory) {
         const hash = PAGE_HASHES[pageId];
         if (options.keepNav && hash) {
+          // 이 서브페이지에서 뒤로 갈 목적지 = 지금 떠나는 페이지. 네이티브 스와이프
+          // 프리뷰와 history.back() 목적지가 항상 일치하도록 기록.
+          if (prevActive) _subPageBackTarget[pageId] = prevActive.id;
           history.pushState({ page: pageId }, '', '#' + hash);
         } else {
           const cleanUrl = location.href.split('#')[0];
@@ -1728,6 +1768,17 @@
     history.replaceState({ page: 'pageDiscover' }, '', location.href.split('#')[0]);
 
     window.addEventListener('popstate', (e) => {
+      // 네이티브 인터랙티브 스와이프가 확정(commit)되어 history.back()이 부른 popstate.
+      // DOM은 이미 목적지로 프리뷰 렌더돼 있으므로 재렌더 없이 상태만 맞춘다(깜빡임 방지).
+      if (_finalizingSwipe) {
+        const fin = _finalizingSwipe;
+        _finalizingSwipe = null;
+        _activePageId = fin.to;
+        syncNavForPage(fin.to);
+        requestAnimationFrame(() => _syncNativeSwipeGesture(fin.to));
+        if (fin.reopenModal) reopenFeatureModal();
+        return;
+      }
       // 홈/검색/내 정보 페이지에서는 화면 스와이프(엣지 제스처) 뒤로가기를 무효화하고
       // 현재 화면을 그대로 유지한다 (하단 네비 탭 전환과 동일한 진입점만 허용).
       if (SWIPE_BACK_BLOCKED_PAGES.has(_activePageId)) {
@@ -1736,15 +1787,68 @@
         history.pushState({ page: _activePageId }, '', url);
         return;
       }
+      // 종 상세를 벗어나는 뒤로가기이고, 진입 경로가 featureModal이었다면
+      // 목적지 페이지를 보여준 뒤 모달을 다시 열어준다.
+      const reopenModalAfterNav = _activePageId === 'pageSpeciesDetail' && previousSpeciesPage === 'featureModal';
       const pageId = e.state?.page || 'pageDiscover';
       const isSubPage = pageId === 'pageFamilyDetail' || pageId === 'pageSpeciesDetail';
       showPage(pageId, { keepNav: isSubPage, _fromHistory: true, restoreScroll: true });
       syncNavForPage(pageId);
+      if (reopenModalAfterNav) reopenFeatureModal();
     });
 
+    // ── 네이티브 인터랙티브 스와이프 뒤로가기 브릿지 ──
+    // Swift(SwipeBackController)가 엣지 팬 제스처를 구동한다. 드래그 시작 시 네이티브가
+    // 현재 페이지 스냅샷을 위에 올리고, 아래 API로 웹 DOM을 제어해 목적지 페이지의 실제
+    // 콘텐츠가 드래그를 따라 드러나게 한다. (히스토리는 commit 시에만 실제로 되돌린다.)
+    function _computeBackTarget() {
+      const to = _subPageBackTarget[_activePageId];
+      if (!to) return null;
+      const reopenModal = _activePageId === 'pageSpeciesDetail' && previousSpeciesPage === 'featureModal';
+      return { to, reopenModal };
+    }
+    // 목적지 페이지를 히스토리·네이티브 토글 없이 즉시 렌더(프리뷰 전용).
+    function _renderPreview(pageId) {
+      const prevActive = document.querySelector('.page.active');
+      if (prevActive && prevActive.id !== pageId) _scrollPosCache.set(prevActive.id, prevActive.scrollTop);
+      allPages.forEach(p => p.classList.remove('active'));
+      const target = document.getElementById(pageId);
+      if (!target) return;
+      target.classList.add('skip-page-anim');
+      target.classList.add('active');
+      target.scrollTop = _scrollPosCache.has(pageId) ? _scrollPosCache.get(pageId) : 0;
+    }
+    window.EntomaSwipeNav = {
+      // 제스처 시작 — 목적지가 있으면 프리뷰 렌더 후 true, 없으면 false.
+      begin() {
+        const t = _computeBackTarget();
+        if (!t) return false;
+        _swipePreview = { from: _activePageId, to: t.to, reopenModal: t.reopenModal };
+        _renderPreview(t.to);
+        return true;
+      },
+      // 확정 — 이미 목적지가 보이는 상태. 히스토리만 실제로 되돌려 스택을 일치시킨다.
+      commit() {
+        if (!_swipePreview) return;
+        const p = _swipePreview;
+        _swipePreview = null;
+        _finalizingSwipe = { to: p.to, reopenModal: p.reopenModal };
+        history.back();
+      },
+      // 취소 — 원래(현재) 페이지로 되돌린다.
+      cancel() {
+        if (!_swipePreview) return;
+        const p = _swipePreview;
+        _swipePreview = null;
+        _renderPreview(p.from);
+      },
+    };
+
+    // 백버튼 — 항상 실제 브라우저 히스토리를 한 단계 되돌린다(history.back()).
+    // showPage()를 직접 호출해 새 history 항목을 push/replace하면 popstate 스택이
+    // 어긋나 "뒤로가기를 반복하면 이전에 봤던 하위 페이지로 되돌아가는" 버그가 생긴다.
     document.getElementById('familyDetailBackBtn').addEventListener('click', () => {
-      showPage(previousFamilyPage, { restoreScroll: true });
-      syncNavForPage(previousFamilyPage);
+      history.back();
     });
 
     // ── 목 설명 토글 ──
@@ -3223,16 +3327,12 @@
       }
     }
 
-    // 백버튼 — 이전 페이지로 복귀 (기본 pageFamilyDetail)
+    // 백버튼 — 이전 페이지로 복귀. history.back()으로 실제 브라우저 히스토리를
+    // 되돌려야 popstate 스택이 어긋나지 않는다(featureModal 재오픈은 popstate 핸들러에서 처리).
     const speciesDetailBackBtn = document.getElementById('speciesDetailBackBtn');
     if (speciesDetailBackBtn) {
       speciesDetailBackBtn.addEventListener('click', () => {
-        if (previousSpeciesPage === 'featureModal') {
-          showPage('pageDiscover', { keepNav: true, restoreScroll: true });
-          reopenFeatureModal();
-        } else {
-          showPage(previousSpeciesPage || 'pageFamilyDetail', { keepNav: true, restoreScroll: true });
-        }
+        history.back();
       });
     }
 

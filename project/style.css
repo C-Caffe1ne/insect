@@ -1054,6 +1054,12 @@ ul { list-style: none; }
   }
 }
 
+/* 네이티브 스와이프 백(popstate)으로 전환된 페이지는 CSS 페이드인을 생략 —
+   WKWebView 자체 슬라이드 트랜지션과 겹쳐 렉/스냅이 발생하는 것을 방지 */
+.page.active.skip-page-anim {
+  animation: none;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .page.active {
     animation: none;
