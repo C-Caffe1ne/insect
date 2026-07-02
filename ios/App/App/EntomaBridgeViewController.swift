@@ -54,8 +54,9 @@ final class SwipeBackController: NSObject, UIGestureRecognizerDelegate {
     private var isTransitioning = false // 스냅샷을 올린 전환 진행 중
     private var isSettling = false      // commit/cancel 마무리 애니메이션 진행 중
 
-    private let parallax: CGFloat = 0.25 // 목적지가 왼쪽으로 밀려 있는 정도(화면 폭 기준)
+    private let parallax: CGFloat = 0.5 // 목적지가 왼쪽으로 밀려 있는 정도(화면 폭 기준)
     private let maxDim: CGFloat = 0.12   // 목적지 위 어둠 오버레이 최대 불투명도
+    private let paintSettleDelay = 0.05  // 취소 시 복원 페이지 리페인트를 기다렸다 스냅샷 제거(초)
 
     var isEnabled: Bool {
         get { edgePan.isEnabled }
@@ -170,9 +171,17 @@ final class SwipeBackController: NSObject, UIGestureRecognizerDelegate {
                 self.dimView?.backgroundColor = UIColor.black.withAlphaComponent(self.maxDim)
                 self.snapshot?.layer.shadowOpacity = 0.22
             }, completion: { _ in
-                // 스냅샷이 전체를 덮은 상태에서 DOM을 원래 페이지로 되돌린 뒤 스냅샷 제거.
+                // 스냅샷이 전체를 덮은 상태에서 먼저 원래 페이지 DOM을 복원하고 webView
+                // 위치도 정상화한다(둘 다 스냅샷 아래라 보이지 않음).
+                webView.transform = .identity
                 self.evaluate("window.EntomaSwipeNav && EntomaSwipeNav.cancel()") { _ in
-                    self.teardown(webView: webView)
+                    // evaluateJavaScript 콜백은 JS 실행 완료 시점이라 WKWebView가 복원된
+                    // 페이지를 아직 다시 그리기 전일 수 있다. 그 상태에서 스냅샷을 걷으면
+                    // 안 그려진(혹은 직전 목적지) 프레임이 노출돼 깜빡인다. 리페인트 시간을
+                    // 준 뒤 스냅샷을 제거한다.
+                    DispatchQueue.main.asyncAfter(deadline: .now() + self.paintSettleDelay) {
+                        self.teardown(webView: webView)
+                    }
                 }
             })
         }

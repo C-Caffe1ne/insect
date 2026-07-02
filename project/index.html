@@ -1817,6 +1817,8 @@
       target.classList.add('skip-page-anim');
       target.classList.add('active');
       target.scrollTop = _scrollPosCache.has(pageId) ? _scrollPosCache.get(pageId) : 0;
+      // 레이아웃을 동기 강제(reflow)해 네이티브가 스냅샷을 걷기 전에 리페인트가 끝나도록.
+      void target.offsetHeight;
     }
     window.EntomaSwipeNav = {
       // 제스처 시작 — 목적지가 있으면 프리뷰 렌더 후 true, 없으면 false.
