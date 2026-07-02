@@ -5,5 +5,6 @@ import Capacitor
 class EntomaBridgeViewController: CAPBridgeViewController {
     override func capacitorDidLoad() {
         bridge?.registerPluginInstance(TabBarBridgePlugin())
+        bridge?.webView?.allowsBackForwardNavigationGestures = true
     }
 }

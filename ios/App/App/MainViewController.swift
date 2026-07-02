@@ -36,7 +36,7 @@ class MainViewController: UIViewController, UITabBarDelegate {
             bridgeVC.view.topAnchor.constraint(equalTo: view.topAnchor),
             bridgeVC.view.leadingAnchor.constraint(equalTo: view.leadingAnchor),
             bridgeVC.view.trailingAnchor.constraint(equalTo: view.trailingAnchor),
-            bridgeVC.view.bottomAnchor.constraint(equalTo: tabBar.topAnchor)
+            bridgeVC.view.bottomAnchor.constraint(equalTo: view.bottomAnchor)
         ])
     }
 
