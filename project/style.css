@@ -828,11 +828,11 @@ ul { list-style: none; }
   font-size: 13px;
   line-height: 1.75;
   color: var(--text-secondary);
-  word-break: keep-all;
+  word-break: normal;
   max-height: 0;
   overflow: hidden;
   opacity: 0;
-  transition: max-height 0.3s ease, opacity 0.25s ease, margin-top 0.25s ease;
+  transition: max-height 0.1s ease, opacity 0.2s ease, margin-top 0.2s ease;
 }
 
 .family-order-desc-wrap.open .family-order-desc {
@@ -1059,7 +1059,7 @@ ul { list-style: none; }
    시작하면 첫 프레임이 빈 화면으로 "깜빡→확 열림"처럼 보이므로, 페이지를 solid
    패널처럼 오른쪽에서 밀어 넣는다. translate3d 로 GPU 합성 강제(WKWebView 리페인트 방지). */
 @keyframes pageSlideFromRight {
-  from { transform: translate3d(80%, 0, 0); }
+  from { transform: translate3d(100%, 0, 0); }
   to   { transform: translate3d(0, 0, 0); }
 }
 
@@ -1070,7 +1070,7 @@ ul { list-style: none; }
 }
 
 .page.active.slide-forward {
-  animation: pageSlideFromRight 250ms cubic-bezier(0.32, 0.72, 0, 1);
+  animation: pageSlideFromRight 320ms cubic-bezier(0, 0.27, 0.18, 1.01);
   will-change: transform;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
