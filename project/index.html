@@ -604,51 +604,24 @@
         </div>
       </section>
 
-      <!-- 숨김 파일 인풋 -->
+      <!-- 숨김 파일 인풋 (capture 미지정 → iOS 네이티브 촬영/앨범/파일 시트) -->
       <input type="file" id="profilePhotoInput" accept="image/*" hidden>
-      <input type="file" id="profilePhotoCameraInput" accept="image/*" capture="user" hidden>
       <input type="file" id="profileBgInput" accept="image/*" hidden>
-      <input type="file" id="profileBgCameraInput" accept="image/*" capture="environment" hidden>
 
-      <!-- 프로필 편집 액션시트 -->
+      <!-- 프로필 편집 액션시트 (항목 선택 → 바로 네이티브 촬영/앨범/파일 피커) -->
       <div class="profile-edit-sheet" id="profileEditSheet" hidden>
         <div class="profile-edit-sheet-backdrop" id="profileEditSheetBackdrop"></div>
-        <!-- Step 1: 항목 선택 -->
         <div class="profile-edit-sheet-panel" id="profileEditStep1">
           <p class="profile-edit-sheet-title">프로필 편집</p>
           <button class="profile-edit-sheet-item" id="gotoProfilePhoto">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
             프로필 사진
-            <svg style="margin-left:auto;opacity:.35" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
           </button>
           <button class="profile-edit-sheet-item" id="gotoProfileBg">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
             배경화면
-            <svg style="margin-left:auto;opacity:.35" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
           </button>
         </div>
-        <!-- Step 2: 사진 추가 / 삭제 -->
-        <div class="profile-edit-sheet-panel" id="profileEditStep2" hidden>
-          <div class="profile-edit-sheet-nav">
-            <button class="profile-edit-sheet-back-btn" id="profileEditStep2Back">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
-            </button>
-            <p class="profile-edit-sheet-title" id="profileEditStep2Title"></p>
-          </div>
-          <button class="profile-edit-sheet-item" id="doTakePhoto">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
-            카메라로 촬영
-          </button>
-          <button class="profile-edit-sheet-item" id="doChoosePhoto">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
-            앨범에서 선택
-          </button>
-          <button class="profile-edit-sheet-item profile-edit-delete" id="doDeletePhoto" hidden>
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"/><path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"/><path d="M10 11v6"/><path d="M14 11v6"/><path d="M9 6V4h6v2"/></svg>
-            삭제
-          </button>
-        </div>
-        <button class="profile-edit-sheet-cancel" id="profileEditSheetCancel">취소</button>
       </div>
 
       <!-- 크롭 모달 -->
@@ -661,13 +634,11 @@
         <div class="profile-crop-viewport" id="profileCropViewport">
           <img id="profileCropImg" alt="" draggable="false">
           <div class="profile-crop-frame" id="profileCropFrame">
-            <div class="profile-crop-resize-handle" id="profileCropResizeHandle"></div>
+            <div class="profile-crop-handle profile-crop-handle--tl"></div>
+            <div class="profile-crop-handle profile-crop-handle--tr"></div>
+            <div class="profile-crop-handle profile-crop-handle--bl"></div>
+            <div class="profile-crop-handle profile-crop-handle--br"></div>
           </div>
-        </div>
-        <div class="profile-crop-footer">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
-          <input type="range" class="profile-crop-zoom" id="profileCropZoom" min="1" max="3" step="0.01" value="1">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
         </div>
       </div>
 
@@ -938,18 +909,18 @@
     };
 
     const ORDER_GUIDE_DESC = [
-      { id: 'zygentoma',     kr: '좀목',       sci: 'Zygentoma',     desc: '날개가 없는 원시적인 곤충. 비늘 모양의 체표와 3개의 긴 미모(꼬리)가 특징이다. 어두운 곳을 좋아하며 종이·섬유·전분을 먹어 가정 해충이 되기도 한다.' },
-      { id: 'ephemeroptera', kr: '하루살이목',  sci: 'Ephemeroptera',  desc: '유충은 1~3년을 물속에서 보내지만 성충의 수명은 하루에서 길어야 수 일에 불과하다. 성충은 입이 퇴화되어 먹이를 먹지 않으며 오직 번식만을 위해 존재한다.' },
-      { id: 'odonata',       kr: '잠자리목',   sci: 'Odonata',        desc: '앞·뒷날개가 독립적으로 움직이는 탁월한 비행 능력을 가진 포식성 곤충. 유충(약충)은 물속에서 생활하며 성충과 유충 모두 다른 작은 곤충을 사냥한다.' },
-      { id: 'blattodea',     kr: '바퀴목',      sci: 'Blattodea',      desc: '3억 년이 넘는 역사를 가진 매우 원시적인 그룹으로 흰개미를 포함한다. 납작한 몸체와 빠른 주행 능력이 특징이며 대부분 야행성이다.' },
-      { id: 'mantodea',      kr: '사마귀목',   sci: 'Mantodea',       desc: '낫 모양으로 변형된 앞다리로 먹이를 낚아채는 포식성 곤충. 삼각형 머리를 자유롭게 돌릴 수 있으며 특유의 기도 자세로 잘 알려져 있다.' },
+      { id: 'zygentoma',     kr: '좀목',       sci: 'Zygentoma',    desc: '날개가 없는 원시적인 곤충. 비늘 모양의 체표와 3개의 긴 미모(꼬리)가 특징이다. 어두운 곳을 좋아하며 종이·섬유·전분을 먹어 가정 해충이 되기도 한다.' },
+      { id: 'ephemeroptera', kr: '하루살이목',  sci: 'Ephemeroptera', desc: '유충은 1~3년을 물속에서 보내지만 성충의 수명은 하루에서 길어야 수 일에 불과하다. 성충은 입이 퇴화되어 먹이를 먹지 않으며 오직 번식만을 위해 존재한다.' },
+      { id: 'odonata',       kr: '잠자리목',   sci: 'Odonata',       desc: '앞·뒷날개가 독립적으로 움직이는 탁월한 비행 능력을 가진 포식성 곤충. 유충(약충)은 물속에서 생활하며 성충과 유충 모두 다른 작은 곤충을 사냥한다.' },
+      { id: 'blattodea',     kr: '바퀴목',      sci: 'Blattodea',    desc: '3억 년이 넘는 역사를 가진 매우 원시적인 그룹으로 흰개미를 포함한다. 납작한 몸체와 빠른 주행 능력이 특징이며 대부분 야행성이다.' },
+      { id: 'mantodea',      kr: '사마귀목',   sci: 'Mantodea',      desc: '낫 모양으로 변형된 앞다리로 먹이를 낚아채는 포식성 곤충. 삼각형 머리를 자유롭게 돌릴 수 있으며 특유의 기도 자세로 잘 알려져 있다.' },
       { id: 'dermaptera',    kr: '집게벌레목', sci: 'Dermaptera',     desc: '배 끝에 강력한 집게 모양의 미모를 가진 곤충. 주로 야행성으로 식물 잔해·곤충·썩은 유기물을 먹으며 알을 직접 돌보는 모성 행동을 보인다.' },
-      { id: 'orthoptera',    kr: '메뚜기목',   sci: 'Orthoptera',     desc: '도약에 특화된 굵고 긴 뒷다리가 특징이다. 메뚜기·귀뚜라미·여치를 포함하며 수컷은 날개나 다리를 마찰시켜 특유의 울음소리를 낸다.' },
-      { id: 'phasmida',      kr: '대벌레목',   sci: 'Phasmida',       desc: '식물의 잎·가지와 거의 구별되지 않는 뛰어난 위장 능력을 지닌 곤충. 모두 식식성이며 일부 종은 수컷 없이 단독으로 번식(처녀생식)한다.' },
-      { id: 'hemiptera',     kr: '노린재목',   sci: 'Hemiptera',      desc: '관 모양의 입으로 식물 수액이나 동물의 체액을 빨아 먹는다. 매미·진딧물·깍지벌레·노린재를 포함하며 불완전변태 곤충 중 가장 많은 종 수를 자랑한다.' },
+      { id: 'orthoptera',    kr: '메뚜기목',   sci: 'Orthoptera',    desc: '도약에 특화된 굵고 긴 뒷다리가 특징이다. 메뚜기·귀뚜라미·여치를 포함하며 수컷은 날개나 다리를 마찰시켜 특유의 울음소리를 낸다.' },
+      { id: 'phasmida',      kr: '대벌레목',   sci: 'Phasmida',      desc: '식물의 잎·가지와 거의 구별되지 않는 뛰어난 위장 능력을 지닌 곤충. 모두 식식성이며 일부 종은 수컷 없이 단독으로 번식(처녀생식)한다.' },
+      { id: 'hemiptera',     kr: '노린재목',   sci: 'Hemiptera',     desc: '관 모양의 입으로 식물 수액이나 동물의 체액을 빨아 먹는다. 매미·진딧물·깍지벌레·노린재를 포함하며 불완전변태 곤충 중 가장 많은 종 수를 자랑한다.' },
       { id: 'neuroptera',    kr: '풀잠자리목', sci: 'Neuroptera',     desc: '날개 전체에 그물처럼 촘촘한 시맥이 발달한 포식성 곤충. 풀잠자리·명주잠자리가 대표적이며 유충도 진딧물 등을 잡아먹는 사냥꾼이다.' },
       { id: 'coleoptera',    kr: '딱정벌레목', sci: 'Coleoptera',     desc: '앞날개가 딱딱한 시초(elytra)로 변형되어 뒷날개를 보호한다. 전체 동물 종의 약 25%를 차지할 만큼 지구상에서 가장 다양한 종 수를 보유한 목이다.' },
-      { id: 'diptera',       kr: '파리목',      sci: 'Diptera',        desc: '앞날개 한 쌍만으로 비행하며 뒷날개는 평균곤(halteres)이라는 균형 기관으로 퇴화되었다. 모기·등에·파리·각다귀 등을 포함하며 수분·분해·기생에 핵심 역할을 한다.' },
+      { id: 'diptera',       kr: '파리목',      sci: 'Diptera',      desc: '앞날개 한 쌍만으로 비행하며 뒷날개는 평균곤(halteres)이라는 균형 기관으로 퇴화되었다. 모기·등에·파리·각다귀 등을 포함하며 수분·분해·기생에 핵심 역할을 한다.' },
       { id: 'mecoptera',     kr: '밑들이목',   sci: 'Mecoptera',      desc: '머리가 주둥이처럼 아래로 늘어진 원시적인 곤충. 종 수는 적지만 진화학적으로 파리목·벌목·날도래목의 공통 조상과 가까운 위치를 차지한다.' },
       { id: 'trichoptera',   kr: '날도래목',   sci: 'Trichoptera',    desc: '유충이 모래·나뭇조각·돌을 엮어 집(통소)을 짓는 수서 곤충. 성충의 날개는 털로 덮여 있어 나비·나방과 구별되며, 수질 오염 지표종으로도 활용된다.' },
       { id: 'lepidoptera',   kr: '나비목',     sci: 'Lepidoptera',    desc: '날개 표면이 수천 개의 작은 인편(비늘 가루)으로 뒤덮인 곤충. 나비와 나방을 합쳐 약 16만 종이 기재되어 딱정벌레목 다음으로 큰 목이다.' },
@@ -3741,28 +3712,16 @@
     document.addEventListener('pageshow:pageProfile', loadProfileImages);
     loadProfileImages();
 
-    // ── 액션시트 (2-depth) ──
+    // ── 액션시트 (항목 선택 → 네이티브 피커) ──
     const _editSheet    = document.getElementById('profileEditSheet');
     const _editBackdrop = document.getElementById('profileEditSheetBackdrop');
-    const _editCancel   = document.getElementById('profileEditSheetCancel');
     const _avatarBtn    = document.getElementById('profileAvatarContainer');
-    const _photoInput       = document.getElementById('profilePhotoInput');
-    const _photoCameraInput = document.getElementById('profilePhotoCameraInput');
-    const _bgInput          = document.getElementById('profileBgInput');
-    const _bgCameraInput    = document.getElementById('profileBgCameraInput');
+    const _photoInput   = document.getElementById('profilePhotoInput');
+    const _bgInput      = document.getElementById('profileBgInput');
 
     function _profilePage() { return document.getElementById('pageProfile'); }
 
-    let _editContext = null; // 'avatar' | 'bg'
-
-    function _showStep(n) {
-      const s1 = document.getElementById('profileEditStep1');
-      const s2 = document.getElementById('profileEditStep2');
-      if (s1) s1.hidden = (n !== 1);
-      if (s2) s2.hidden = (n !== 2);
-    }
     function openProfileEditSheet() {
-      _showStep(1);
       const pg = _profilePage();
       if (pg) { pg.scrollTop = 0; pg.style.overflowY = 'hidden'; }
       if (_editSheet) _editSheet.hidden = false;
@@ -3780,47 +3739,15 @@
       });
     }
     if (_editBackdrop) _editBackdrop.addEventListener('click', closeProfileEditSheet);
-    if (_editCancel)   _editCancel.addEventListener('click', closeProfileEditSheet);
 
-    // Step 1 → Step 2
-    function _openStep2(context) {
-      _editContext = context;
-      const isAvatar  = context === 'avatar';
-      const storageKey = isAvatar ? PROFILE_PHOTO_KEY : PROFILE_BG_KEY;
-      const hasExisting = !!localStorage.getItem(storageKey);
-      const titleEl = document.getElementById('profileEditStep2Title');
-      const delBtn    = document.getElementById('doDeletePhoto');
-      const chooseBtn = document.getElementById('doChoosePhoto');
-      if (titleEl) titleEl.textContent = isAvatar ? '프로필 사진' : '배경화면';
-      if (delBtn)    delBtn.hidden = !hasExisting;
-      if (chooseBtn) chooseBtn.style.borderBottom = hasExisting ? '' : 'none';
-      _showStep(2);
-    }
-    document.getElementById('gotoProfilePhoto')?.addEventListener('click', () => _openStep2('avatar'));
-    document.getElementById('gotoProfileBg')?.addEventListener('click',    () => _openStep2('bg'));
-    document.getElementById('profileEditStep2Back')?.addEventListener('click', () => _showStep(1));
-
-    // Step 2 액션
-    document.getElementById('doTakePhoto')?.addEventListener('click', () => {
+    // 항목 선택 → 시트 닫고 바로 네이티브 촬영/앨범/파일 피커
+    document.getElementById('gotoProfilePhoto')?.addEventListener('click', () => {
       closeProfileEditSheet();
-      if (_editContext === 'avatar') _photoCameraInput?.click();
-      else                           _bgCameraInput?.click();
+      _photoInput?.click();
     });
-    document.getElementById('doChoosePhoto')?.addEventListener('click', () => {
+    document.getElementById('gotoProfileBg')?.addEventListener('click', () => {
       closeProfileEditSheet();
-      if (_editContext === 'avatar') _photoInput?.click();
-      else                           _bgInput?.click();
-    });
-    document.getElementById('doDeletePhoto')?.addEventListener('click', () => {
-      if (_editContext === 'avatar') {
-        const avatarImg = document.getElementById('profileAvatarImg');
-        if (avatarImg) avatarImg.src = 'images/yujin_profile.png';
-        localStorage.removeItem(PROFILE_PHOTO_KEY);
-      } else {
-        _setBgStyle(null);
-        localStorage.removeItem(PROFILE_BG_KEY);
-      }
-      closeProfileEditSheet();
+      _bgInput?.click();
     });
 
     // ── 파일 → DataURL ──
@@ -3854,18 +3781,6 @@
       const file = _bgInput.files[0];
       if (!file) return;
       _bgInput.value = '';
-      openCrop(await readFileAsDataURL(file), 'bg');
-    });
-    _photoCameraInput?.addEventListener('change', async () => {
-      const file = _photoCameraInput.files[0];
-      if (!file) return;
-      _photoCameraInput.value = '';
-      openCrop(await readFileAsDataURL(file), 'avatar');
-    });
-    _bgCameraInput?.addEventListener('change', async () => {
-      const file = _bgCameraInput.files[0];
-      if (!file) return;
-      _bgCameraInput.value = '';
       openCrop(await readFileAsDataURL(file), 'bg');
     });
 
@@ -3968,49 +3883,67 @@
     const _cropImg      = document.getElementById('profileCropImg');
     const _cropFrame    = document.getElementById('profileCropFrame');
     const _cropViewport = document.getElementById('profileCropViewport');
-    const _cropZoom     = document.getElementById('profileCropZoom');
 
     const CROP_CFG = {
       avatar: { w: 260, h: 260, circle: true  },
       bg:     { w: 300, h: 195, circle: false }
     };
+    const MINF = 70; // 프레임 최소 폭(px)
 
-    let _cropMode = null, _cropMinScale = 1, _cropAspect = 1;
-    let _cropX = 0, _cropY = 0, _cropScale = 1;
-    let _cropDrag = false, _cropLX = 0, _cropLY = 0;
-    let _resizing = false, _resizeLX = 0, _resizeBaseW = 0, _resizeBaseH = 0;
+    // 사진(이미지) 상태 — 좌상단 기준 transform (translate + scale)
+    let _cropMode = null, _cropAspect = 1;
+    let _imgX = 0, _imgY = 0, _imgScale = 1;
+    let _minScale = 0.1, _maxScale = 10;
+    // 프레임 상태 — 뷰포트 좌표계(px)
+    let _frameX = 0, _frameY = 0, _frameW = 100, _frameH = 100;
+    // 제스처 상태
+    let _gesture = null, _resizeCorner = null;
+    let _panLX = 0, _panLY = 0;
+    let _vpRect = { left: 0, top: 0, width: 1, height: 1 };
     const _pointers = new Map();
-    let _pinchDist0 = 0, _pinchScale0 = 1;
+    let _pinchBaseDist = 1, _pinchBaseMidX = 0, _pinchBaseMidY = 0;
+    let _pinchBaseScale = 1, _pinchBaseImgX = 0, _pinchBaseImgY = 0;
+    let _settleRAF = 0, _settleTO = 0;
 
     function openCrop(dataUrl, mode) {
       _cropMode = mode;
-      _cropX = 0; _cropY = 0;
       const cfg = CROP_CFG[mode];
-      _cropFrame.style.width  = cfg.w + 'px';
-      _cropFrame.style.height = cfg.h + 'px';
-      _cropFrame.classList.toggle('profile-crop-frame--circle', cfg.circle);
-      if (_cropZoom) _cropZoom.value = 1;
       _cropAspect = cfg.w / cfg.h;
+      _cropFrame.classList.toggle('profile-crop-frame--circle', cfg.circle);
+      _pointers.clear(); _gesture = null; _cancelSettle();
       const pg = _profilePage();
       if (pg) { pg.scrollTop = 0; pg.style.overflowY = 'hidden'; }
+      _setNativeTabBarHidden(true);
       if (_cropModal) _cropModal.hidden = false;
       _cropImg.onload = () => {
         requestAnimationFrame(() => {
-          _cropImg.style.width    = `${_cropImg.naturalWidth}px`;
-          _cropImg.style.height   = `${_cropImg.naturalHeight}px`;
+          const natW = _cropImg.naturalWidth, natH = _cropImg.naturalHeight;
+          _cropImg.style.width    = `${natW}px`;
+          _cropImg.style.height   = `${natH}px`;
           _cropImg.style.maxWidth = 'none';
-          // 프레임을 여백 없이 꽉 채우는 최소 스케일 (cover)
-          _cropMinScale = Math.max(cfg.w / _cropImg.naturalWidth, cfg.h / _cropImg.naturalHeight);
-          _cropScale    = _cropMinScale;
-          _cropX = 0; _cropY = 0;
-          if (_cropZoom) _cropZoom.value = 1;
-          _applyTransform();
+          const vpW = _cropViewport.offsetWidth, vpH = _cropViewport.offsetHeight;
+          // 프레임 초기 크기 — 뷰포트 안에 여백 두고 중앙 배치
+          let fw = cfg.w, fh = cfg.h;
+          if (fw > vpW - 48) { fw = vpW - 48; fh = fw / _cropAspect; }
+          if (fh > vpH - 48) { fh = vpH - 48; fw = fh * _cropAspect; }
+          _frameW = fw; _frameH = fh;
+          _frameX = (vpW - fw) / 2; _frameY = (vpH - fh) / 2;
+          // 사진 최소 스케일 = 프레임을 꼭 덮는 크기(그보다 작아질 수 없음), 초기값도 최소
+          _recomputeBounds();
+          _imgScale = _minScale;
+          const cx = _frameX + fw / 2, cy = _frameY + fh / 2;
+          _imgX = cx - natW * _imgScale / 2;
+          _imgY = cy - natH * _imgScale / 2;
+          _applyFrame(); _applyTransform();
         });
       };
       _cropImg.src = dataUrl;
     }
 
     function closeCrop() {
+      _cancelSettle();
+      _pointers.clear(); _gesture = null;
+      _setNativeTabBarHidden(false);
       if (_cropModal) _cropModal.hidden = true;
       if (_cropImg) {
         _cropImg.src            = '';
@@ -4024,90 +3957,212 @@
 
     function _applyTransform() {
       if (_cropImg) _cropImg.style.transform =
-        `translate(calc(-50% + ${_cropX}px), calc(-50% + ${_cropY}px)) scale(${_cropScale})`;
+        `translate(${_imgX}px, ${_imgY}px) scale(${_imgScale})`;
+    }
+    function _applyFrame() {
+      _cropFrame.style.left   = _frameX + 'px';
+      _cropFrame.style.top    = _frameY + 'px';
+      _cropFrame.style.width  = _frameW + 'px';
+      _cropFrame.style.height = _frameH + 'px';
     }
 
-    function _clampCrop() {
-      if (!_cropMode || !_cropImg) return;
-      const fw = _cropFrame.offsetWidth;
-      const fh = _cropFrame.offsetHeight;
-      const hw = Math.max(0, (_cropImg.naturalWidth  * _cropScale - fw) / 2);
-      const hh = Math.max(0, (_cropImg.naturalHeight * _cropScale - fh) / 2);
-      _cropX = Math.max(-hw, Math.min(hw, _cropX));
-      _cropY = Math.max(-hh, Math.min(hh, _cropY));
+    // 사진 크기 조정 중에는 네이티브 탭바(UITabBar)를 숨긴다
+    function _setNativeTabBarHidden(hidden) {
+      if (!window.Capacitor?.isNativePlatform?.()) return;
+      window.Capacitor.Plugins.TabBarBridge?.setHidden({ hidden });
+    }
+
+    // 사진 최소 스케일 = 프레임을 꼭 덮는 크기(cover), 최대 = 최소×4
+    function _coverScale() {
+      const natW = _cropImg.naturalWidth || 1, natH = _cropImg.naturalHeight || 1;
+      return Math.max(_frameW / natW, _frameH / natH);
+    }
+    function _recomputeBounds() {
+      _minScale = _coverScale();
+      _maxScale = _minScale * 4;
+    }
+    // 스케일 소프트 클램프(초과분에 저항) → 놓으면 한계로 복귀(바운스)
+    function _softClampScale(s) {
+      if (s < _minScale) return _minScale - (_minScale - s) * 0.35;
+      if (s > _maxScale) return _maxScale + (s - _maxScale) * 0.35;
+      return s;
+    }
+    function _cancelSettle() {
+      if (_settleTO)  { clearTimeout(_settleTO); _settleTO = 0; }
+      if (_settleRAF) { cancelAnimationFrame(_settleRAF); _settleRAF = 0; }
+    }
+    // 마지막 조작 후 delay(ms) 뒤 자동 정렬(위치·사이즈) 실행 — 확대/축소/이동 공통 300ms
+    function _scheduleSettle(delay) {
+      _cancelSettle();
+      _settleTO = setTimeout(() => { _settleTO = 0; _runSettle(); }, delay);
+    }
+    // 현재 스케일에서 프레임을 완전히 덮도록 사진 위치를 즉시 클램프 (프레임 ⊆ 사진)
+    function _clampPos() {
+      const natW = _cropImg.naturalWidth || 1, natH = _cropImg.naturalHeight || 1;
+      const pw = natW * _imgScale, ph = natH * _imgScale;
+      _imgX = (pw <= _frameW) ? _frameX + (_frameW - pw) / 2
+                              : Math.max(_frameX + _frameW - pw, Math.min(_frameX, _imgX));
+      _imgY = (ph <= _frameH) ? _frameY + (_frameH - ph) / 2
+                              : Math.max(_frameY + _frameH - ph, Math.min(_frameY, _imgY));
+    }
+    // 유효 상태(스케일∈[min,max], 프레임 완전 덮기)의 목표값 산출
+    function _settleTargets() {
+      const scale = Math.min(_maxScale, Math.max(_minScale, _imgScale));
+      const natW = _cropImg.naturalWidth || 1, natH = _cropImg.naturalHeight || 1;
+      let x = _imgX, y = _imgY;
+      if (scale !== _imgScale) {
+        const cx = _frameX + _frameW / 2, cy = _frameY + _frameH / 2;
+        const nX = (cx - _imgX) / _imgScale, nY = (cy - _imgY) / _imgScale;
+        x = cx - nX * scale; y = cy - nY * scale;
+      }
+      const pw = natW * scale, ph = natH * scale;
+      x = (pw <= _frameW) ? _frameX + (_frameW - pw) / 2
+                          : Math.max(_frameX + _frameW - pw, Math.min(_frameX, x));
+      y = (ph <= _frameH) ? _frameY + (_frameH - ph) / 2
+                          : Math.max(_frameY + _frameH - ph, Math.min(_frameY, y));
+      return { scale, x, y };
+    }
+    // 자동 정렬 애니메이션 — 위치와 사이즈를 동시에 목표로 이징(스프링)
+    function _runSettle() {
+      if (_settleRAF) { cancelAnimationFrame(_settleRAF); _settleRAF = 0; }
+      const t = _settleTargets();
+      const near = () => Math.abs(t.scale - _imgScale) < 0.0006
+                      && Math.abs(t.x - _imgX) < 0.3 && Math.abs(t.y - _imgY) < 0.3;
+      if (near()) { _imgScale = t.scale; _imgX = t.x; _imgY = t.y; _applyTransform(); return; }
+      const step = () => {
+        _imgScale += (t.scale - _imgScale) * 0.22;
+        _imgX     += (t.x - _imgX) * 0.22;
+        _imgY     += (t.y - _imgY) * 0.22;
+        if (near()) {
+          _imgScale = t.scale; _imgX = t.x; _imgY = t.y;
+          _applyTransform(); _settleRAF = 0; return;
+        }
+        _applyTransform();
+        _settleRAF = requestAnimationFrame(step);
+      };
+      _settleRAF = requestAnimationFrame(step);
+    }
+
+    // 히트테스트 — 프레임 코너 판정(뷰포트 로컬 좌표). 코너 외 드래그는 전부 사진 이동.
+    function _hitCorner(lx, ly) {
+      const R = 26;
+      const cs = {
+        tl: [_frameX, _frameY],            tr: [_frameX + _frameW, _frameY],
+        bl: [_frameX, _frameY + _frameH],  br: [_frameX + _frameW, _frameY + _frameH]
+      };
+      for (const k in cs) if (Math.hypot(lx - cs[k][0], ly - cs[k][1]) <= R) return k;
+      return null;
+    }
+    // 프레임은 화면 중앙 고정 — 코너 드래그는 중심 기준 대칭 리사이즈(비율 고정)
+    function _doResize(lx, ly) {
+      const aspect = _cropAspect;
+      const vpW = _vpRect.width, vpH = _vpRect.height;
+      const ccx = vpW / 2, ccy = vpH / 2;
+      let halfW = Math.max(Math.abs(lx - ccx), Math.abs(ly - ccy) * aspect);
+      const maxHalfW = Math.min(vpW / 2 - 8, (vpH / 2 - 8) * aspect);
+      halfW = Math.max(MINF / 2, Math.min(maxHalfW, halfW));
+      const halfH = halfW / aspect;
+      _frameW = halfW * 2; _frameH = halfH * 2;
+      _frameX = ccx - halfW; _frameY = ccy - halfH;
+    }
+    function _beginPinch() {
+      const pts = [..._pointers.values()];
+      _pinchBaseDist  = Math.hypot(pts[0].x - pts[1].x, pts[0].y - pts[1].y) || 1;
+      _pinchBaseMidX  = (pts[0].x + pts[1].x) / 2 - _vpRect.left;
+      _pinchBaseMidY  = (pts[0].y + pts[1].y) / 2 - _vpRect.top;
+      _pinchBaseScale = _imgScale;
+      _pinchBaseImgX  = _imgX; _pinchBaseImgY = _imgY;
+      _gesture = 'pinch';
     }
 
     if (_cropViewport) {
       _cropViewport.addEventListener('pointerdown', (e) => {
+        _cancelSettle();
+        if (_pointers.size === 0) _vpRect = _cropViewport.getBoundingClientRect();
         _pointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
-        if (_pointers.size === 1) {
-          _cropDrag = true; _cropLX = e.clientX; _cropLY = e.clientY;
-          _cropViewport.setPointerCapture(e.pointerId);
-        } else if (_pointers.size === 2) {
-          _cropDrag = false;
-          const pts = [..._pointers.values()];
-          _pinchDist0  = Math.hypot(pts[0].x - pts[1].x, pts[0].y - pts[1].y);
-          _pinchScale0 = _cropScale;
-        }
+        _cropViewport.setPointerCapture(e.pointerId);
+        if (_pointers.size === 2) { _beginPinch(); return; }
+        if (_pointers.size > 2) return;
+        // 단일 포인터 — 좌표로 제스처 판정
+        const lx = e.clientX - _vpRect.left, ly = e.clientY - _vpRect.top;
+        const corner = _hitCorner(lx, ly);
+        if (corner) { _gesture = 'frameResize'; _resizeCorner = corner; }
+        else { _gesture = 'pan'; _panLX = e.clientX; _panLY = e.clientY; }
       });
       _cropViewport.addEventListener('pointermove', (e) => {
+        if (!_pointers.has(e.pointerId)) return;
         _pointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
-        if (_pointers.size >= 2) {
+        if (_gesture === 'pinch' && _pointers.size >= 2) {
+          // 두 손가락 — 사진 확대/축소 + 이동 (미드포인트 기준)
           const pts  = [..._pointers.values()];
-          const dist = Math.hypot(pts[0].x - pts[1].x, pts[0].y - pts[1].y);
-          _cropScale = Math.max(_cropMinScale, Math.min(_cropMinScale * 3, _pinchScale0 * (dist / _pinchDist0)));
-          if (_cropZoom) _cropZoom.value = (_cropScale / _cropMinScale).toFixed(2);
-          _clampCrop(); _applyTransform();
-        } else if (_cropDrag) {
-          _cropX += e.clientX - _cropLX; _cropY += e.clientY - _cropLY;
-          _cropLX = e.clientX; _cropLY = e.clientY;
-          _clampCrop(); _applyTransform();
+          const dist = Math.hypot(pts[0].x - pts[1].x, pts[0].y - pts[1].y) || 1;
+          const midX = (pts[0].x + pts[1].x) / 2 - _vpRect.left;
+          const midY = (pts[0].y + pts[1].y) / 2 - _vpRect.top;
+          const newS = _softClampScale(_pinchBaseScale * dist / _pinchBaseDist);
+          const nX = (_pinchBaseMidX - _pinchBaseImgX) / _pinchBaseScale;
+          const nY = (_pinchBaseMidY - _pinchBaseImgY) / _pinchBaseScale;
+          _imgScale = newS;
+          _imgX = midX - nX * newS;
+          _imgY = midY - nY * newS;
+          _applyTransform();
+        } else if (_gesture === 'pan') {
+          _imgX += e.clientX - _panLX; _imgY += e.clientY - _panLY;
+          _panLX = e.clientX; _panLY = e.clientY; _applyTransform();
+        } else if (_gesture === 'frameResize') {
+          _doResize(e.clientX - _vpRect.left, e.clientY - _vpRect.top);
+          _recomputeBounds();   // min/max 값만 갱신 — 사진은 즉시 변경 안 하고 settle(300ms)에서 확대
+          _applyFrame();
         }
       });
-      _cropViewport.addEventListener('pointerup', (e) => {
+      const _endPointer = (e) => {
+        if (!_pointers.has(e.pointerId)) return;
         _pointers.delete(e.pointerId);
-        if (_pointers.size === 0) {
-          _cropDrag = false;
-        } else if (_pointers.size === 1) {
+        if (_pointers.size === 1) {
+          // 핀치 → 한 손가락 남으면 사진 이동으로 전환 (아직 조작 중 → 정렬 예약 안 함)
           const pt = [..._pointers.values()][0];
-          _cropDrag = true; _cropLX = pt.x; _cropLY = pt.y;
+          _gesture = 'pan'; _panLX = pt.x; _panLY = pt.y;
+          _cancelSettle();
+        } else if (_pointers.size === 0) {
+          _gesture = null;
+          _scheduleSettle(300);
         }
-      });
-      _cropViewport.addEventListener('pointercancel', (e) => {
-        _pointers.delete(e.pointerId); _cropDrag = false;
-      });
+      };
+      _cropViewport.addEventListener('pointerup', _endPointer);
+      _cropViewport.addEventListener('pointercancel', _endPointer);
       _cropViewport.addEventListener('wheel', (e) => {
         e.preventDefault();
+        const rect = _cropViewport.getBoundingClientRect();
+        const mx = e.clientX - rect.left, my = e.clientY - rect.top;
         const factor = e.deltaY < 0 ? 1.08 : 0.93;
-        _cropScale = Math.max(_cropMinScale, Math.min(_cropMinScale * 3, _cropScale * factor));
-        if (_cropZoom) _cropZoom.value = (_cropScale / _cropMinScale).toFixed(2);
-        _clampCrop(); _applyTransform();
+        const nX = (mx - _imgX) / _imgScale, nY = (my - _imgY) / _imgScale;
+        const newS = _softClampScale(_imgScale * factor);
+        _imgScale = newS; _imgX = mx - nX * newS; _imgY = my - nY * newS;
+        _applyTransform();
+        _scheduleSettle(300);
       }, { passive: false });
     }
 
-    _cropZoom?.addEventListener('input', () => {
-      _cropScale = _cropMinScale * parseFloat(_cropZoom.value);
-      _clampCrop(); _applyTransform();
-    });
-
     document.getElementById('profileCropConfirmBtn')?.addEventListener('click', () => {
-      const fw   = _cropFrame.offsetWidth;
-      const fh   = _cropFrame.offsetHeight;
+      const fw   = _frameW, fh = _frameH;
       const outW = _cropMode === 'avatar' ? 400 : 800;
       const outH = _cropMode === 'avatar' ? 400 : Math.round(outW * fh / fw);
       const canvas = document.createElement('canvas');
       canvas.width = outW; canvas.height = outH;
       const ctx = canvas.getContext('2d');
+      // 프레임이 사진 밖으로 나간 여백은 흰색으로 채움
+      ctx.fillStyle = '#ffffff';
+      ctx.fillRect(0, 0, outW, outH);
       if (_cropMode === 'avatar') {
         ctx.beginPath();
         ctx.arc(outW / 2, outH / 2, outW / 2, 0, Math.PI * 2);
         ctx.clip();
       }
-      const srcW = fw / _cropScale;
-      const srcH = fh / _cropScale;
-      const srcX = _cropImg.naturalWidth  / 2 - _cropX / _cropScale - srcW / 2;
-      const srcY = _cropImg.naturalHeight / 2 - _cropY / _cropScale - srcH / 2;
-      ctx.drawImage(_cropImg, srcX, srcY, srcW, srcH, 0, 0, outW, outH);
+      // 프레임(뷰포트 좌표) → 사진 원본 좌표 역산
+      const sx = (_frameX - _imgX) / _imgScale;
+      const sy = (_frameY - _imgY) / _imgScale;
+      const sw = fw / _imgScale;
+      const sh = fh / _imgScale;
+      ctx.drawImage(_cropImg, sx, sy, sw, sh, 0, 0, outW, outH);
       const dataUrl = canvas.toDataURL('image/jpeg', 0.92);
       closeCrop();
       if (_cropMode === 'avatar') applyProfilePhoto(dataUrl);
@@ -4115,33 +4170,6 @@
     });
 
     document.getElementById('profileCropCancelBtn')?.addEventListener('click', closeCrop);
-
-    // ── 프레임 리사이즈 핸들 ──
-    const _resizeHandle = document.getElementById('profileCropResizeHandle');
-    if (_resizeHandle) {
-      _resizeHandle.addEventListener('pointerdown', (e) => {
-        e.stopPropagation();
-        _resizing = true;
-        _resizeLX    = e.clientX;
-        _resizeBaseW = _cropFrame.offsetWidth;
-        _resizeBaseH = _cropFrame.offsetHeight;
-        _resizeHandle.setPointerCapture(e.pointerId);
-      });
-      _resizeHandle.addEventListener('pointermove', (e) => {
-        if (!_resizing) return;
-        const vpW = _cropViewport ? _cropViewport.offsetWidth  : 400;
-        const vpH = _cropViewport ? _cropViewport.offsetHeight : 400;
-        const dx   = e.clientX - _resizeLX;
-        let newW = Math.max(80, Math.min(vpW - 32, _resizeBaseW + dx));
-        const newH = newW / _cropAspect;
-        if (newH > vpH - 32) { newW = (vpH - 32) * _cropAspect; }
-        _cropFrame.style.width  = newW + 'px';
-        _cropFrame.style.height = (newW / _cropAspect) + 'px';
-        _clampCrop(); _applyTransform();
-      });
-      _resizeHandle.addEventListener('pointerup',     () => { _resizing = false; });
-      _resizeHandle.addEventListener('pointercancel', () => { _resizing = false; });
-    }
 
   </script>
 

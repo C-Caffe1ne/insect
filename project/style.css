@@ -1054,36 +1054,33 @@ ul { list-style: none; }
   }
 }
 
-/* 서브페이지 진입 — 오른쪽 → 왼쪽 슬라이드-인 */
+/* 서브페이지 진입 — 오른쪽 → 왼쪽 슬라이드-인.
+   opacity 페이드 없이 불투명 유지 — 이전 페이지가 display:none 된 직후 투명에서
+   시작하면 첫 프레임이 빈 화면으로 "깜빡→확 열림"처럼 보이므로, 페이지를 solid
+   패널처럼 오른쪽에서 밀어 넣는다. translate3d 로 GPU 합성 강제(WKWebView 리페인트 방지). */
 @keyframes pageSlideFromRight {
-  from {
-    opacity: 0;
-    transform: translateX(14%);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
+  from { transform: translate3d(80%, 0, 0); }
+  to   { transform: translate3d(0, 0, 0); }
 }
 
 /* 뒤로가기 — 왼쪽 → 오른쪽 슬라이드-인 */
 @keyframes pageSlideFromLeft {
-  from {
-    opacity: 0;
-    transform: translateX(-14%);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
+  from { transform: translate3d(-40%, 0, 0); }
+  to   { transform: translate3d(0, 0, 0); }
 }
 
 .page.active.slide-forward {
-  animation: pageSlideFromRight 420ms cubic-bezier(0.22, 1, 0.36, 1);
+  animation: pageSlideFromRight 250ms cubic-bezier(0.32, 0.72, 0, 1);
+  will-change: transform;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
 .page.active.slide-back {
-  animation: pageSlideFromLeft 420ms cubic-bezier(0.22, 1, 0.36, 1);
+  animation: pageSlideFromLeft 360ms cubic-bezier(0.32, 0.72, 0, 1);
+  will-change: transform;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
 /* 네이티브 스와이프 백(popstate)으로 전환된 페이지는 CSS 애니메이션을 생략 —
@@ -1491,6 +1488,12 @@ ul { list-style: none; }
 
 .profile-edit-sheet[hidden] { display: none; }
 
+/* 네이티브 iOS: 떠 있는 UITabBar가 웹뷰 위에 렌더되므로,
+   패널이 탭바에 가려지지 않도록 하단 여백 확보(취소 버튼 제거분 보정 → 위치 유지) */
+.is-native-ios .profile-edit-sheet {
+  padding-bottom: calc(80px + env(safe-area-inset-bottom));
+}
+
 .profile-edit-sheet-backdrop {
   position: absolute;
   inset: 0;
@@ -1544,26 +1547,6 @@ ul { list-style: none; }
 .profile-edit-sheet-item:last-of-type { border-bottom: none; }
 .profile-edit-sheet-item:active { background: rgba(255,255,255,0.06); }
 
-.profile-edit-sheet-cancel {
-  display: block;
-  width: 100%;
-  padding: 16px;
-  margin-top: 10px;
-  background: var(--bg-primary, #0d0f12);
-  border: 1px solid rgba(255,255,255,0.10);
-  border-radius: 16px;
-  color: var(--text-secondary);
-  font-size: 15px;
-  font-weight: 600;
-  font-family: inherit;
-  cursor: pointer;
-  position: relative;
-  z-index: 1;
-  transition: background 0.15s;
-}
-
-.profile-edit-sheet-cancel:active { background: rgba(255,255,255,0.06); }
-
 /* ── Step 2 nav (뒤로 + 타이틀) ── */
 .profile-edit-sheet-nav {
   display: flex;
@@ -1607,7 +1590,8 @@ ul { list-style: none; }
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 16px 20px 14px;
+  /* 취소/완료 헤더를 다이나믹 아일랜드(노치) 아래로 배치 */
+  padding: calc(14px + env(safe-area-inset-top)) 20px 14px;
   border-bottom: 1px solid rgba(255,255,255,0.08);
   flex-shrink: 0;
 }
@@ -1641,24 +1625,22 @@ ul { list-style: none; }
 
 #profileCropImg {
   position: absolute;
-  left: 50%;
-  top: 50%;
+  left: 0;
+  top: 0;
   max-width: none;
   max-height: none;
   pointer-events: none;
   user-select: none;
   -webkit-user-drag: none;
-  transform-origin: center center;
+  transform-origin: 0 0;
 }
 
 .profile-crop-frame {
   position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  /* left/top/width/height 는 JS 가 뷰포트 좌표(px)로 직접 설정 */
   pointer-events: none;
-  border: 2px solid rgba(255,255,255,0.88);
-  box-shadow: 0 0 0 9999px rgba(0,0,0,0.62);
+  border: 2px solid rgba(255,255,255,0.9);
+  box-shadow: 0 0 0 9999px rgba(0,0,0,0.55);
   z-index: 2;
 }
 .profile-crop-frame--circle { border-radius: 50%; }
@@ -1693,45 +1675,29 @@ ul { list-style: none; }
       transparent calc(50% + 0.5px));
 }
 
-/* 리사이즈 핸들 */
-.profile-crop-resize-handle {
+/* 코너 리사이즈 핸들 (4개, 비율 고정 리사이즈용 · 히트테스트는 JS 좌표로 처리) */
+.profile-crop-handle {
   position: absolute;
-  bottom: -12px;
-  right: -12px;
-  width: 26px;
-  height: 26px;
-  pointer-events: auto;
-  cursor: nwse-resize;
+  width: 24px;
+  height: 24px;
+  pointer-events: none;
   z-index: 3;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
-.profile-crop-resize-handle::before {
+.profile-crop-handle::before {
   content: '';
-  width: 14px;
-  height: 14px;
-  border-right: 2.5px solid rgba(255,255,255,0.9);
-  border-bottom: 2.5px solid rgba(255,255,255,0.9);
-  border-radius: 0 0 3px 0;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  box-sizing: border-box;
 }
-.profile-crop-frame--circle .profile-crop-resize-handle { display: none; }
-
-.profile-crop-footer {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-  padding: 18px 24px;
-  color: rgba(255,255,255,0.38);
-  border-top: 1px solid rgba(255,255,255,0.06);
-  flex-shrink: 0;
-}
-.profile-crop-zoom {
-  flex: 1;
-  height: 3px;
-  accent-color: rgba(63,135,136,1);
-  cursor: pointer;
-}
+.profile-crop-handle--tl { left: -3px; top: -3px; }
+.profile-crop-handle--tl::before { left: 0; top: 0; border-top: 3px solid #fff; border-left: 3px solid #fff; border-top-left-radius: 4px; }
+.profile-crop-handle--tr { right: -3px; top: -3px; }
+.profile-crop-handle--tr::before { right: 0; top: 0; border-top: 3px solid #fff; border-right: 3px solid #fff; border-top-right-radius: 4px; }
+.profile-crop-handle--bl { left: -3px; bottom: -3px; }
+.profile-crop-handle--bl::before { left: 0; bottom: 0; border-bottom: 3px solid #fff; border-left: 3px solid #fff; border-bottom-left-radius: 4px; }
+.profile-crop-handle--br { right: -3px; bottom: -3px; }
+.profile-crop-handle--br::before { right: 0; bottom: 0; border-bottom: 3px solid #fff; border-right: 3px solid #fff; border-bottom-right-radius: 4px; }
 
 /* ── 프로필 카드 편집 버튼 ── */
 .profile-card-edit-btn {

@@ -20,6 +20,7 @@ class MainViewController: UIViewController, UITabBarDelegate {
         setupBridgeViewController()
 
         NotificationCenter.default.addObserver(self, selector: #selector(handleWebTabSync(_:)), name: .nativeTabBarSelect, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(handleWebTabHidden(_:)), name: .nativeTabBarSetHidden, object: nil)
     }
 
     deinit {
@@ -85,6 +86,20 @@ class MainViewController: UIViewController, UITabBarDelegate {
         }
         DispatchQueue.main.async {
             self.tabBar.selectedItem = item
+        }
+    }
+
+    // MARK: - 웹(크롭 등 전체화면 편집) → 네이티브 탭바 숨김/표시
+    @objc private func handleWebTabHidden(_ note: Notification) {
+        let hidden = (note.object as? Bool) ?? false
+        DispatchQueue.main.async {
+            guard self.tabBar.isHidden != hidden else { return }
+            if !hidden { self.tabBar.isHidden = false }
+            UIView.animate(withDuration: 0.2, animations: {
+                self.tabBar.alpha = hidden ? 0 : 1
+            }, completion: { _ in
+                self.tabBar.isHidden = hidden
+            })
         }
     }
 }
