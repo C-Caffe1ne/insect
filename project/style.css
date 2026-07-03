@@ -1036,7 +1036,7 @@ ul { list-style: none; }
   -webkit-overflow-scrolling: touch;
   overscroll-behavior: contain;
   scrollbar-width: none;
-  animation: pageFadeIn 260ms cubic-bezier(0.22, 1, 0.36, 1);
+  animation: pageFadeIn 420ms cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 .page::-webkit-scrollbar {
@@ -1054,14 +1054,49 @@ ul { list-style: none; }
   }
 }
 
-/* 네이티브 스와이프 백(popstate)으로 전환된 페이지는 CSS 페이드인을 생략 —
-   WKWebView 자체 슬라이드 트랜지션과 겹쳐 렉/스냅이 발생하는 것을 방지 */
+/* 서브페이지 진입 — 오른쪽 → 왼쪽 슬라이드-인 */
+@keyframes pageSlideFromRight {
+  from {
+    opacity: 0;
+    transform: translateX(14%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* 뒤로가기 — 왼쪽 → 오른쪽 슬라이드-인 */
+@keyframes pageSlideFromLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-14%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.page.active.slide-forward {
+  animation: pageSlideFromRight 420ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.page.active.slide-back {
+  animation: pageSlideFromLeft 420ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* 네이티브 스와이프 백(popstate)으로 전환된 페이지는 CSS 애니메이션을 생략 —
+   WKWebView 자체 슬라이드 트랜지션과 겹쳐 렉/스냅이 발생하는 것을 방지.
+   (.slide-* 뒤에 두어 방향 규칙보다 우선하도록 순서 유지) */
 .page.active.skip-page-anim {
   animation: none;
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .page.active {
+  .page.active,
+  .page.active.slide-forward,
+  .page.active.slide-back {
     animation: none;
   }
 }

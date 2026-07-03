@@ -1719,10 +1719,13 @@
       // 탭 루트(홈/검색/내 정보)는 테마 섹션·이미지·목 카드 그리드가 많은 무거운 페이지.
       const isTabRoot = SWIPE_BACK_BLOCKED_PAGES.has(pageId);
       if (target) {
-        // 네이티브 엣지 스와이프 뒤로가기(popstate)로 들어온 전환은 WKWebView가 이미
-        // 자체 슬라이드 애니메이션을 재생 중이므로, CSS의 pageFadeIn을 또 겹쳐 재생하면
-        // 특히 카드가 많은 목 페이지에서 리플로우가 겹쳐 렉이 발생한다. 이 경우만 생략.
-        target.classList.toggle('skip-page-anim', !!options._fromHistory);
+        // 전환 방향 결정 — 뒤로가기=왼쪽에서, 서브페이지 진입=오른쪽에서 슬라이드-인.
+        // 탭 루트 전환(dir·keepNav·_fromHistory 없음)은 방향 없는 페이드.
+        // 네이티브 엣지 스와이프 백은 showPage를 거치지 않으므로 여기서 다루지 않는다.
+        const _slideDir = options.dir || (options._fromHistory ? 'back' : (options.keepNav ? 'forward' : ''));
+        target.classList.remove('skip-page-anim', 'slide-forward', 'slide-back');
+        if (_slideDir === 'forward') target.classList.add('slide-forward');
+        else if (_slideDir === 'back') target.classList.add('slide-back');
         if (options._fromHistory && restoredTop > 0 && !isTabRoot) {
           // 가벼운 콘텐츠 서브페이지(목/종): iOS WKWebView의
           // -webkit-overflow-scrolling:touch 레이어는 display:none→block 직후의
@@ -1897,21 +1900,21 @@
     const profileBackBtn = document.getElementById('profileBackBtn');
     if (profileBackBtn) {
       profileBackBtn.addEventListener('click', () => {
-        showPage('pageDiscover', { restoreScroll: true });
+        showPage('pageDiscover', { restoreScroll: true, dir: 'back' });
         document.getElementById('navDiscover').classList.add('active');
       });
     }
 
     // ── 즐겨찾기 페이지 뒤로가기 → 프로필 ──
     document.getElementById('savedBackBtn').addEventListener('click', () => {
-      showPage('pageProfile', { restoreScroll: true });
+      showPage('pageProfile', { restoreScroll: true, dir: 'back' });
       document.getElementById('navProfile').classList.add('active');
     });
 
     // ── 프로필 즐겨찾기 '전체 보기' → 즐겨찾기 페이지 ──
     document.getElementById('profileSavedViewAll').addEventListener('click', (e) => {
       e.preventDefault();
-      showPage('pageSaved');
+      showPage('pageSaved', { dir: 'forward' });
       document.getElementById('navProfile').classList.add('active');
     });
 
@@ -3665,7 +3668,7 @@
 
       // 뒤로 가기 버튼
       document.getElementById('settingsBackBtn').addEventListener('click', () => {
-        showPage('pageDiscover', { restoreScroll: true });
+        showPage('pageDiscover', { restoreScroll: true, dir: 'back' });
         updateNav('navDiscover');
       });
     }
@@ -3677,7 +3680,7 @@
 
     // 내 정보 페이지 설정 버튼
     document.getElementById('profileSettingsBtn').addEventListener('click', () => {
-      showPage('pageSettings');
+      showPage('pageSettings', { dir: 'forward' });
       updateNav('navSettings');
     });
 

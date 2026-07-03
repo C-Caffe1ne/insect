@@ -53,10 +53,12 @@ final class SwipeBackController: NSObject, UIGestureRecognizerDelegate {
     private var dimView: UIView?
     private var isTransitioning = false // 스냅샷을 올린 전환 진행 중
     private var isSettling = false      // commit/cancel 마무리 애니메이션 진행 중
+    private var previewReady = false    // 목적지 프리뷰 페인트 완료 여부(그 전엔 스냅샷 유지)
+    private var transitionID = 0        // 전환마다 증가 — 지연 콜백이 다음 전환에 오작동하지 않게 식별
 
     private let parallax: CGFloat = 0.5 // 목적지가 왼쪽으로 밀려 있는 정도(화면 폭 기준)
     private let maxDim: CGFloat = 0.12   // 목적지 위 어둠 오버레이 최대 불투명도
-    private let paintSettleDelay = 0.05  // 취소 시 복원 페이지 리페인트를 기다렸다 스냅샷 제거(초)
+    private let paintSettleDelay = 0.05  // 목적지/복원 페이지 리페인트를 기다리는 시간(초)
 
     var isEnabled: Bool {
         get { edgePan.isEnabled }
@@ -89,6 +91,9 @@ final class SwipeBackController: NSObject, UIGestureRecognizerDelegate {
             beginTransition(container: container, webView: webView, width: width)
         case .changed:
             guard isTransitioning, !isSettling else { return }
+            // 프리뷰가 아직 렌더 전이면 스냅샷을 걷지 않는다 — 걷으면 목적지 대신 직전
+            // 페이지가 왼쪽 틈에 잠깐 드러났다 목적지로 바뀌며 깜빡인다. 준비될 때까지 덮어둠.
+            guard previewReady else { applyProgress(0, width: width, webView: webView); return }
             applyProgress(g.translation(in: container).x / width, width: width, webView: webView)
         case .ended, .cancelled, .failed:
             guard isTransitioning, !isSettling else { return }
@@ -114,6 +119,8 @@ final class SwipeBackController: NSObject, UIGestureRecognizerDelegate {
         }
 
         isTransitioning = true
+        previewReady = false
+        transitionID += 1
         webView.scrollView.isScrollEnabled = false // 전환 중 세로 스크롤 개입 방지
 
         snap.frame = webView.frame
@@ -135,7 +142,15 @@ final class SwipeBackController: NSObject, UIGestureRecognizerDelegate {
         // 목적지(webView)를 웹에서 프리뷰 렌더. 목적지가 없으면 전환을 접는다.
         evaluate("window.EntomaSwipeNav ? (EntomaSwipeNav.begin() ? '1' : '0') : '0'") { [weak self] r in
             guard let self = self, self.isTransitioning else { return }
-            if (r as? String) != "1" { self.teardown(webView: webView) }
+            if (r as? String) != "1" { self.teardown(webView: webView); return }
+            // 이 콜백은 JS 실행 완료 시점 — WKWebView가 목적지를 아직 화면에 페인트하기 전일 수
+            // 있다. 여기서 바로 스냅샷을 걷으면 안 그려진 프레임이 잠깐 드러나 미세하게 깜빡인다.
+            // 리페인트 시간을 준 뒤에만 걷기를 허용한다.(id 확인으로 다음 전환의 콜백과 섞임 방지)
+            let id = self.transitionID
+            DispatchQueue.main.asyncAfter(deadline: .now() + self.paintSettleDelay) {
+                guard self.isTransitioning, self.transitionID == id else { return }
+                self.previewReady = true // 목적지 페인트 완료 → 이제 스냅샷을 걷어도 됨
+            }
         }
 
         applyProgress(0, width: width, webView: webView)
@@ -196,5 +211,6 @@ final class SwipeBackController: NSObject, UIGestureRecognizerDelegate {
         webView.scrollView.isScrollEnabled = true
         isTransitioning = false
         isSettling = false
+        previewReady = false
     }
 }
