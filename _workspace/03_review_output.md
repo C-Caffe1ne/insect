@@ -1,73 +1,81 @@
-## 코드 리뷰 결과 — App Store 등록 준비 변경분
+## 코드 리뷰 결과 — 개인정보처리방침 추가분
 
-리뷰 대상: `project/index.html`, `project/style.css` (git diff 기준)
-검증 방법: 실제 파일 Read + 프로젝트 전역 `grep` + 인라인 스크립트 파싱 검사. 개발자 보고를 신뢰하지 않고 재검증함.
+리뷰 대상: `project/index.html`, `project/style.css`, 신규 `project/privacy.html`
+검증 방식: 실제 파일 Read + grep/diff/node 출력 근거. 추측 없음.
 
 ---
 
 ### Critical (즉시 수정 필요)
 
-**없음.**
-
-핵심 리스크였던 **삭제 회귀는 전수 재검증 결과 깨끗하다.** 아래 심볼 전부 `project/` 전역(`*.html/*.js/*.mjs/*.css`)에서 잔존 참조 0건(grep exit=1):
-
-```
-updateNav  dailyNotification  rateApp  support@example.com
-DEFAULT_SETTINGS  loadSettings  saveSettings  applySettings
-initSettingsPage  insectAppSettings  navSettings  alert(  pageshow:pageSettings
-```
-
-- 런타임 ReferenceError 유발 경로 없음. `showPage()` 내부 `syncNavForPage()` 가 네비 동기화를 대체하므로 `updateNav` 호출 2곳 삭제는 안전.
-- 인라인 `<script>` 블록 전체 파싱 성공(`new Function` 검사 통과) — 구문 오류 없음.
-- XSS: 신규 코드는 `_settingsVersionEl.textContent = APP_VERSION`(상수)와 `href` 대입뿐. `innerHTML` 사용 없음. 안전.
-- null 가드: 신규 DOM 조회(`settingsVersion`, `reportBug`, `creditsNavBtn`, `settingsBackBtn`, `creditsBackBtn`) 전부 `if (el)` 가드 적용됨.
-- 범위 이탈 없음: `git status` 상 변경은 `project/index.html`, `project/style.css`, `_workspace/*` 뿐. `ios/`·`*.json`·`*.swift`·`Info.plist` 미변경(grep exit=1).
-- mailto 앵커(index.html:731): `encodeURIComponent`로 subject/body 정상 인코딩. `target="_blank"` 없음 → WKWebView에서 시스템 메일 앱으로 정상 위임(요구사항 6 충족). HTML 폴백 `href="mailto:..."` 존재로 JS 미실행 시에도 동작.
-- 페이지 통합: `#pageCredits` 는 `allPages`(querySelectorAll('.page')) 자동 포함, `_subPageBackTarget.pageCredits='pageSettings'`(index.html:1029) 등록, FAB 숨김 조건(index.html:2257) 추가, `syncNavForPage`(1698)는 pageCredits를 navDiscover로 폴백. `slide-forward/back`·`pageFadeIn`(#pageSettings,#pageCredits)까지 정상 연결. **pageSettings와 완전히 동일한 패턴을 따르므로 회귀 없음.**
-- 이벤트 리스너 누수: `pageshow:pageSettings` 재등록 루프 제거 확인. 신규 리스너는 전부 top-level 모듈 스코프에서 1회 등록 → 페이지 재진입 시 재등록 경로 없음. A-2 누수 해소됨.
+**없음.** 신규 코드에 XSS(innerHTML), 리스너 누수, null 접근, 접근성 차단 이슈가 발견되지 않았습니다.
 
 ---
 
-### Warning (권장 수정)
+### Warning (권장)
 
-**W-1. 고아 CSS `.toggle-switch`/`.toggle-slider` — 개발자 판단 오류. 실제로는 전부 죽은 코드.**
-- 위치: `style.css:3823-3870` (`.toggle-switch`, `.toggle-slider`, `:before`, `input:checked` 규칙 전체) + `style.css:3945-3946` (reduced-motion 블록 내 `.toggle-slider, .toggle-slider:before`).
-- 근거: 알림 섹션 삭제로 `toggle-switch`/`toggle-slider` 는 `index.html` 에서 **매치 0건**(grep exit=1). 참조하는 HTML 요소가 존재하지 않음.
-- **개발자 보고의 판단이 틀렸다.** 개발자는 "reduced-motion 미디어 쿼리가 `.toggle-slider`를 참조하고 있어 제거 시 부수효과 위험"이라며 유지했으나, 그 reduced-motion 규칙(3945-3946) 자체가 **존재하지 않는 요소를 겨냥하는 또 하나의 죽은 규칙**이다. "참조"가 아니라 "동반 사망". 제거해도 매칭되는 DOM이 없어 부수효과가 발생할 수 없다.
-- 영향: 런타임 오류·기능 문제 없음(미매칭 규칙은 무시됨). 다만 CLAUDE.md "미사용 선택자 없음" 위반이며, App Store 심사 정리 취지상 죽은 UI 코드는 걷어내는 것이 옳다.
-- 수정 제안: `.toggle-switch`~`input:checked + .toggle-slider:before` 블록(3823-3870) 삭제. reduced-motion 블록(3943-3948)은 `.toggle-slider, .toggle-slider:before` 두 셀렉터를 빼고 `.settings-button { transition: none; }` 만 남긴다.
-  ```css
-  @media (prefers-reduced-motion: reduce) {
-    .settings-button {
-      transition: none;
-    }
-  }
-  ```
+**없음.** CLAUDE.md 규칙(2칸 인덴트·세미콜론·`const`/`let`·외부 .js 금지·클래스 재사용·커스텀 프로퍼티) 위반이 없습니다. 신규 CSS `.credits-list`는 하드코딩 색상 없이 `--text-secondary` 토큰을 재사용합니다.
 
 ---
 
-### Suggestion (선택 개선)
+### Suggestion (선택)
 
-**S-1. `profileSettingsBtn` null 가드 부재 — 신규 패턴과 불일치**
-- `index.html:3657`: `document.getElementById('profileSettingsBtn').addEventListener(...)` — 이번에 같은 블록을 수정(updateNav 제거)했으나 null 가드 없이 유지. 신규 코드는 전부 `if (el)` 가드를 적용했는데 이 한 줄만 예외.
-- 실사용상 `profileSettingsBtn`(index.html:506)은 항상 존재해 위험은 낮음(기존 코드). 일관성 차원에서 `const _btn = document.getElementById('profileSettingsBtn'); if (_btn) _btn.addEventListener(...)` 로 통일 권장.
+- **[privacy.html:10] 미사용 CSS 변수** — `--bg-card: #1a1a1a` 를 선언했으나 문서 내에서 참조되지 않습니다(`grep -c "var(--bg-card)" privacy.html` → 0). 삭제하거나 실제로 사용하면 됩니다.
+- **[privacy.html:10,15] 앱 팔레트와 미세 불일치** — 자립형 페이지라 색을 인라인 복제한 것은 요구사항(E)대로 올바르나, 값이 앱 원본과 약간 다릅니다. `--bg-card`는 앱 `#1a1d1b` vs 여기 `#1a1a1a`(미사용이라 무영향), `--border-subtle`는 앱 `rgba(255,255,255,0.05)` vs 여기 `0.08`(§경계선에 실제 사용, 살짝 더 진함). 팔레트 완전 일치를 원하면 `0.05`로 맞추세요. 시각적으로 무해한 수준입니다.
+- **[privacy.html:155] 이메일 평문 처리** — `hwanghs5290@gmail.com` 을 평문으로 둔 것은 "http 0건" 요건과 무관하며(`mailto:`는 http 문자열이 아님), `mailto:` 링크로 바꾸면 http 카운트를 0으로 유지하면서 사용성이 개선됩니다. 개발자의 의도적 결정이므로 필수는 아닙니다.
+- **[문서 정합성, 범위 밖] CLAUDE.md의 LocalStorage 키 표가 낡음** — CLAUDE.md는 `insectAppSettings`, `entoma_profile_photo`, `entoma_profile_bg` 를 키로 나열하지만, 실제 코드의 활성 키는 `entoma_favorites`, `entoma_recent`, `user_avatar`, `user_bg`, `user_profile_info` 입니다(`entoma_profile_*`는 `user_*`로 마이그레이션 후 삭제됨, `insectAppSettings`/`defaultHomeTab`은 코드에 0건). 방침 본문은 **실제 코드 기준으로 정확**하므로 이번 변경분에는 영향이 없으나, CLAUDE.md 갱신을 권합니다.
 
-**S-2. `creditsBackBtn` SVG에 `aria-hidden="true"` 부재**
-- `index.html:743`의 뒤로가기 SVG는 `aria-hidden`이 없다. 다만 기존 `settingsBackBtn`(686-691) SVG도 동일하게 없어 **기존 관례와는 일치**한다. 버튼에 `aria-label="뒤로"`가 있어 실접근성 문제는 경미. 아이콘 전용 `creditsNavBtn`은 SVG에 `aria-hidden="true"`를 올바르게 넣었으므로, 일관성을 위해 back 버튼 SVG에도 추가하는 것을 권장(선택).
+---
 
-**S-3. 네이티브 엣지 스와이프 백은 on-device QA 검증 필요(코드 결함 아님)**
-- `pageCredits`는 `PAGE_HASHES`에 없어 forward 진입 시 `history.replaceState`만 하고 `pushState`는 하지 않는다(showPage 1756-1766). 이는 `pageSettings`와 **완전히 동일한 기존 동작**이며, `_subPageBackTarget`에는 등록돼 있어 스와이프 프리뷰 목적지는 pageSettings로 잡힌다. 정적 분석상 회귀 근거는 없으나, 네이티브 셸 동작이라 실기기에서 "credits에서 엣지 스와이프 백 → settings 복귀"를 QA가 실제로 확인할 것을 권장.
+### 사실 정확성 검증 (법적 문서 — 최우선 항목)
 
-**S-4. 외부 링크 `target="_blank"` WKWebView 동작 확인(요구사항 스펙대로 구현됨)**
-- credits 외부 링크 3곳(index.html:760, 768, 769)은 요구사항 D-3 지시대로 `target="_blank" rel="noopener noreferrer"` 적용. `rel` 조합은 보안상 적절. Capacitor WKWebView에서 새 창/시스템 브라우저로 실제 열리는지는 QA 확인 대상(구현 자체는 스펙 준수).
+**본문 대조 결과: 두 표면 모두 §F와 문구 단위로 완전 일치.**
 
-**S-5. 잔여 `insectAppSettings` LocalStorage(무해) — 개발자 이미 인지**
-- 구버전 사용자 단말에 남은 `insectAppSettings` 값은 더 이상 읽지/쓰지 않아 무해. 마이그레이션/클린업은 선택. 이번 범위 밖 처리 타당.
+- 조항 제목 1~10: §F == `#pagePrivacy` == `privacy.html` (모두 True).
+- 본문/불릿 전체 33개 항목: 두 표면 모두 §F와 **EXACT MATCH** (정규화 후 프로그램 대조).
+- 날조된 사실 스캔(`암호화`, `익명화`, `동의`, `보관 기간`, `SSL/TLS`, `쿠키`, `가명`): 두 표면 모두 **0건**. §F에 없는 문장 추가·사실 변경 없음.
+
+**방침 주장 ↔ 실제 코드 교차 검증:**
+
+| 방침 주장 | 검증 명령/근거 | 결과 |
+|---|---|---|
+| 회원가입·로그인·계정 없음 | 인증 로직 grep | 방침 문구 외 0건 ✓ |
+| 광고 SDK·분석·추적 없음 | `gtag/analytics/firebase/sentry/facebook/fbq/mixpanel/amplitude` grep | `<img>` 오탐뿐, SDK 0건 ✓ |
+| 기기 내부에만 저장(4종) | `localStorage.setItem` 전수 | `entoma_favorites`(즐겨찾기), `entoma_recent`(최근), `user_avatar`+`user_bg`(사진/배경), `user_profile_info`(이름/핸들/지역) → 방침 4개 항목과 1:1 매핑. **미공개 저장 흐름 없음** ✓ |
+| 외부 서버 3곳 | `inat_photo_cache.json` 호스트 집계 | 이미지 다운로드 호스트 3개(`inaturalist-open-data.s3.amazonaws.com`, `static.inaturalist.org`, `species.nibr.go.kr`) 정확히 일치 ✓ (아래 참고) |
+| 서체는 앱에 내장 | `@font-face src` | 전부 `url('fonts/*.woff2')` 로컬 번들, CDN 0건 ✓ |
+
+- **참고(결함 아님):** 캐시에는 4번째 호스트 `www.inaturalist.org`(3건)가 있으나, 이는 이미지 `src`가 아니라 종 페이지 `pageUrl`(탭 시 브라우저로 열리는 링크)입니다. 방침 §4 마지막 문단("앱 내 링크… iNaturalist … 기본 브라우저가 열립니다")이 이를 별도로 고지하므로 방침은 정확합니다.
+- `fetch()` 호출은 로컬 JSON 3개(`inat_photo_cache.json`, `nibr_cache.json`, `search_index.json`)뿐 — 외부 서버로의 데이터 전송 없음, 방침과 일치.
+
+### privacy.html 자립성
+
+- `grep -c "http" project/privacy.html` → **0** (완료 기준 5 충족).
+- 외부 리소스 참조(src=/href=/`<link>`/`<script>`/`url()`/@import/CDN) **0건**.
+- `<html lang="ko">`, `<meta charset="UTF-8">`, viewport, `<title>개인정보처리방침 — KoIn Pedia</title>` 모두 존재.
+- heading 계층 정상: `<h1>` → `<h2>`×10, `<main>` 랜드마크 사용. 시스템 폰트 스택.
+
+### 신규 페이지 통합 (3개 지점 재검증 — 개발자 보고 아닌 직접 grep)
+
+1. `_subPageBackTarget` — index.html:1129 에 `pagePrivacy: 'pageSettings'` ✓
+2. FAB 숨김 조건 — index.html:2357 에 `page.id === 'pagePrivacy'` ✓
+3. 페이지 애니메이션 — style.css:3968 `#pagePrivacy` ✓
+4. `allPages`(`querySelectorAll('.page')`) 자동 포함, `syncNavForPage` 미매칭→navDiscover 폴백 — `pageCredits`와 동일 경로, 별도 수정 불필요 ✓
+
+### 이벤트 리스너 / XSS / 접근성
+
+- `_privacyNavBtn`(3757)·`_privacyBackBtn`(3765)은 설정 1회성 초기화 블록(주석 3720 "pageshow마다 재등록하지 않아 리스너 누수 없음") 바로 뒤 **최상위**에 등록. `pageshow` 핸들러 밖 → 5회 반복해도 재등록 없음 ✓
+- 둘 다 `if (el) { ... }` null 가드 유지, `getElementById` 참조가 HTML `id`와 1:1 ✓
+- 신규 리스너 블록에 `innerHTML` 사용 0건 ✓
+- `privacyNavBtn` `aria-label="개인정보처리방침 보기"` + chevron SVG `aria-hidden="true"`; `privacyBackBtn` `aria-label="뒤로"`. 뒤로 SVG는 `aria-hidden` 없으나 기존 `creditsBackBtn`과 동일 패턴이고 버튼이 라벨링되어 있어 결함 아님 ✓
+- 신규 `id` 각 1건(중복 없음): `privacyNavBtn`/`privacyBackBtn`/`pagePrivacy` ✓
+- 인라인 스크립트 `node --check` → **PASS** (완료 기준 7) ✓
+
+### 범위 이탈
+
+- `git status --porcelain` 상 `ios/`, `*.swift`, `Info.plist`, 데이터 JSON 변경 **0건** — 범위 클린 ✓
 
 ---
 
 ### 종합 평가
 
-삭제 비중이 큰 변경임에도 **런타임 회귀·XSS·리스너 누수·범위 이탈이 전무한 견고한 작업**이다. 신규 `#pageCredits`는 기존 pageSettings 패턴(allPages·_subPageBackTarget·FAB·애니메이션·nav 폴백)에 정확히 맞물리고, mailto 앵커·null 가드·접근성 라벨도 요구사항을 충실히 충족한다. 유일한 실질 지적은 개발자가 "유지"로 판단한 toggle 고아 CSS가 사실은 전부 죽은 코드라는 점(W-1)이며, 이는 기능이 아닌 정리 이슈다.
-
-**Critical 0개 / Warning 1개 / Suggestion 5개**
+법적 문서로서 가장 중요한 "본문이 §F와 일치하고 코드 사실과 부합하는가"를 통과했습니다 — 두 표면 모두 문구 단위 완전 일치이고, 수집·저장·통신·서체 관련 모든 주장이 실제 코드와 교차 검증됩니다. 통합 3지점·리스너 1회 등록·자립성·범위 준수 전부 이상 없으며, Critical/Warning 0건입니다. 제안 사항은 privacy.html의 미사용/미세 불일치 CSS 변수와 문서(CLAUDE.md) 갱신 정도로, 배포를 막지 않습니다.

@@ -3948,9 +3948,24 @@ ul { list-style: none; }
   text-decoration: underline;
 }
 
+.credits-list {
+  margin: 0 0 10px;
+  padding: 0 12px 0 32px;
+  color: var(--text-secondary);
+  font-size: 13px;
+  line-height: 1.7;
+  list-style: disc;
+  word-break: keep-all;
+}
+
+.credits-list li {
+  margin-bottom: 4px;
+}
+
 /* Settings Page Animation */
 #pageSettings,
-#pageCredits {
+#pageCredits,
+#pagePrivacy {
   animation: pageFadeIn 260ms cubic-bezier(0.22, 1, 0.36, 1);
 }
 

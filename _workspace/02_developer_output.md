@@ -1,85 +1,70 @@
-# 구현 완료 — App Store 등록 준비 (더미 핸들러 수정 + 설정 정비 + 출처 페이지)
+## 구현 완료 — App Store 6번: 개인정보처리방침
 
-## 수정한 파일
+### 생성/수정된 파일
 
-### `project/index.html`
-1. **알림 설정 섹션 전체 삭제** (구 697–711): `dailyNotification` 토글 + `toggle-switch` 마크업 제거.
-2. **앱 정보 섹션 재구성**:
-   - 버전 항목: 빈 껍데기 → `<span class="settings-item-value" id="settingsVersion">` (JS가 `1.0` 주입).
-   - 데이터 출처 항목: 빈 껍데기 → chevron 버튼 `<button class="settings-button settings-nav-btn" id="creditsNavBtn">` (→ `#pageCredits` 진입).
-   - settings-item-content 닫는 태그의 비정상 26칸 들여쓰기를 정상 들여쓰기로 정리.
-3. **지원 섹션 정비**:
-   - 앱 평가하기 항목 통째 삭제.
-   - 오류 및 버그 제보: `<button id="reportBug">` → `<a class="settings-button" id="reportBug" href="mailto:hwanghs5290@gmail.com">` 앵커로 교체.
-4. **신규 페이지 `#pageCredits`** 추가 (`#pageSettings` 바로 다음). 액션바(`creditsBackBtn`) + 4개 섹션(데이터/이미지/서체/오픈소스).
-5. **설정 JS 블록 전면 교체** (구 3581–3659): 죽은 설정 스캐폴딩 전부 삭제하고 1회성 top-level 초기화로 대체.
-6. **`_subPageBackTarget`**에 `pageCredits: 'pageSettings'` 추가.
-7. **scroll-to-top FAB 조건**에 `page.id === 'pageCredits'` 추가.
+- **`project/index.html`** (수정)
+  - A. `#pageSettings`의 `.settings-container` 최하단(지원 섹션 다음)에 "법적 고지" 섹션 + `privacyNavBtn` chevron 항목 추가. `creditsNavBtn` 마크업 패턴 그대로 복제.
+  - B. `#pageCredits` 바로 다음에 신규 인앱 페이지 `#pagePrivacy` 추가. `.profile-action-bar` + `privacyBackBtn`, `.settings-container` > `.credits-title` / `.credits-source` / `.settings-section` × 10 (조항 1~10) 구조. 목록은 신규 `.credits-list` 사용.
+  - C1. `_subPageBackTarget`에 `pagePrivacy: 'pageSettings'` 추가.
+  - C2. scroll-to-top FAB 숨김 조건에 `page.id === 'pagePrivacy'` 추가.
+  - D. `_creditsBackBtn` 배선 다음에 `_privacyNavBtn`(→`showPage('pagePrivacy', { dir: 'forward' })`), `_privacyBackBtn`(→`showPage('pageSettings', { restoreScroll: true, dir: 'back' })`)를 **최상위 1회성**으로 등록. 둘 다 null 가드 유지.
 
-### `project/style.css`
-1. `.settings-button` 베이스에 `display:inline-flex; align-items/justify-content:center; box-sizing:border-box; text-decoration:none;` 추가 — `<a>`가 `<button>`과 동일하게 렌더되도록(인라인 `<a>`는 `min-width` 무시 + 밑줄 발생 문제 해결).
-2. `/* ── 출처 및 라이선스 ── */` 섹션 신규 추가: `.settings-item-value`, `.settings-nav-btn`(+`:hover`), `.credits-title`, `.credits-body`, `.credits-source`, `.credits-link`(+`:hover`).
-3. 페이지 페이드 애니메이션 셀렉터를 `#pageSettings, #pageCredits`로 확장.
+- **`project/style.css`** (수정)
+  - C3. `#pageSettings, #pageCredits` 페이지 애니메이션 셀렉터에 `#pagePrivacy` 추가.
+  - 신규 `.credits-list` / `.credits-list li` 클래스 추가 (기존 `/* credits */` 섹션 내, `.credits-link:hover` 다음). 색·폰트·`word-break`는 `.credits-body`와 동일 토큰 재사용, 하드코딩 색상 없음.
 
-모든 신규 CSS는 커스텀 프로퍼티(`--text-primary`, `--text-secondary`, `--text-muted`, `--green-soft`, `--green-mid`, `--bg-input`, `--border-subtle`, `--radius-pill`, `--font-body`, `--font-display`)만 사용. 하드코딩 색상 없음.
+- **`project/privacy.html`** (신규 생성)
+  - E. 완전 자립형 정적 페이지. `<html lang="ko">`, `<meta charset="UTF-8">`, viewport, `<title>개인정보처리방침 — KoIn Pedia</title>`. CSS는 `<style>` 인라인, 시스템 폰트 스택, 다크 배경(`#121212`) + 밝은 본문. **외부 리소스 0개.** 호스트명은 평문(링크 아님). `<meta http-equiv>` 미사용 — "http" 문자열 0건 보장.
 
-## 삭제한 심볼 + 삭제 전 grep 참조 확인
+### 데이터 바인딩
 
-`grep -n` 으로 각 심볼의 전 참조처를 확인한 뒤 삭제했다. 확인 결과 모든 참조가 삭제 대상 블록(구 3581–3659) 내부에만 존재 → 외부 의존 없음.
+이 작업은 JSON 데이터 바인딩이 아닌 정적 법적 문서 렌더링이다. 본문 문구는 요구사항 §F를 **그대로** 사용했고, 사실을 추가·변경하지 않았다. `#pagePrivacy`와 `privacy.html`의 조항 제목·본문은 동일하다.
 
-| 삭제 심볼 | 삭제 전 참조처 (grep) | 판정 |
-|---|---|---|
-| `DEFAULT_SETTINGS` | 3582(정의), 3589(loadSettings 내부) | 블록 내부 전용 → 삭제 안전 |
-| `loadSettings` | 3587(정의), 3605, 3612, 3658 | 전부 삭제 대상 블록 내 → 안전 |
-| `saveSettings` | 3593(정의), 3614 | 안전 |
-| `applySettings` | 3598(정의), 3659 | no-op, 안전 |
-| `initSettingsPage` | 3604(정의), 3642(pageshow 핸들러) | 안전 |
-| `insectAppSettings` (LS키) | 3588, 3594 (loadSettings/saveSettings 내부) | 두 함수 삭제로 함께 소멸 |
-| `dailyNotification` | 706(html), 3583, 3608, 3611, 3613 | 안전 |
-| `rateApp` | 744(html), 3628 | 안전 |
-| `updateNav(...)` 호출 | 3636, 3648 (정의처 0곳) | 미정의 함수 호출 → 삭제 |
-| 주석 처리된 `navSettings` 블록 | 3651–3655 | 죽은 코드 → 삭제 |
-| `pageshow:pageSettings` 리스너 | 3641–3643 | 리스너 누수 원인 → 삭제 |
+### 신규 id / CSS 클래스 (QA 셀렉터 교차 검증용)
 
-`profileSettingsBtn` 리스너는 유지하되 내부 `updateNav('navSettings')` 한 줄만 제거.
+| 유형 | 이름 | 정의 위치 |
+|------|------|-----------|
+| id | `privacyNavBtn` | index.html:739 (button), JS 3757 |
+| id | `privacyBackBtn` | index.html:804 (button), JS 3765 |
+| id | `pagePrivacy` | index.html (`.page` div) |
+| CSS class | `.credits-list`, `.credits-list li` | style.css (신규) |
 
-## `#pageCredits` 셀렉터 목록 (QA 셀렉터 교차 검증용)
+재사용 클래스: `.settings-section`, `.settings-section-title`, `.settings-item`, `.settings-item-content`, `.settings-item-title`, `.settings-control`, `.settings-button`, `.settings-nav-btn`, `.settings-container`, `.credits-title`, `.credits-body`, `.credits-source`, `.profile-action-bar`, `.action-btn`.
 
-### id (JS 참조 존재 여부 명시)
-| id | 위치 | JS 참조 |
-|---|---|---|
-| `pageCredits` | `<div class="page">` | `showPage('pageCredits',...)`(2곳), `_subPageBackTarget`, FAB 조건, `allPages`(querySelectorAll('.page')) 자동 포함 |
-| `creditsBackBtn` | 액션바 버튼 | `document.getElementById('creditsBackBtn')` → click 리스너 |
-| `creditsNavBtn` | 설정>데이터 출처 버튼(#pageSettings 내) | `document.getElementById('creditsNavBtn')` → click 리스너 |
-| `settingsVersion` | 설정>버전 값 span(#pageSettings 내) | `document.getElementById('settingsVersion').textContent = APP_VERSION` |
-| `reportBug` | 설정>제보 앵커(#pageSettings 내) | `document.getElementById('reportBug').href = ...` |
+### C의 3개 등록 지점 — 실제 반영 내용
 
-### CSS 클래스 (신규)
-`credits-title`, `credits-body`, `credits-source`, `credits-link` (모두 style.css에 정의됨), 재사용: `settings-container`, `settings-section`, `settings-section-title`, `profile-action-bar`, `action-btn`.
+1. **`_subPageBackTarget`** (index.html:1129)
+   `const _subPageBackTarget = { pageFamilyDetail: 'pageDiscover', pageSpeciesDetail: 'pageFamilyDetail', pageCredits: 'pageSettings', pagePrivacy: 'pageSettings' };`
+2. **FAB 숨김 조건** (index.html:2357)
+   `scrollTopBtn.hidden = page.id === 'pageSettings' || page.id === 'pageCredits' || page.id === 'pagePrivacy' || page.scrollTop < 200;`
+3. **style.css 페이지 애니메이션** (style.css:3966~3968)
+   `#pageSettings,` / `#pageCredits,` / `#pagePrivacy {` → 공통 `pageFadeIn`.
 
-### `data-slot`
-`#pageCredits`에는 `data-slot` 속성을 사용하지 않음(정적 고지 페이지 — 동적 바인딩 슬롯 불필요). 값 주입은 `#settingsVersion`(textContent)과 `#reportBug`(href) 두 곳뿐이며 둘 다 `#pageSettings` 소속.
+(4번 `allPages`는 `querySelectorAll('.page')`로 자동 포함, `syncNavForPage()`는 미매칭 시 navDiscover 폴백 — 별도 수정 불필요. 5번 `SWIPE_BACK_BLOCKED_PAGES`는 탭 루트 전용이라 추가하지 않음.)
 
-## 완료 기준 자체 검증 (실제 grep 출력 근거)
+### 완료 기준 8개 자체 검증 (실제 명령 출력 근거)
 
-1. **`grep -n "updateNav\|dailyNotification\|rateApp\|support@example.com" project/index.html` → 0건**: 실행 결과 매치 없음(exit=1). ✅
-2. **`grep -n "alert(" project/index.html` → 0건**: 실행 결과 매치 없음(exit=1). ✅
-3. **버전 1.0 표시**: `705: <span class="settings-item-value" id="settingsVersion">` + `3618: const APP_VERSION = '1.0';` + `3622: _settingsVersionEl.textContent = APP_VERSION;`. ✅
-4. **설정 > 데이터 출처 → #pageCredits → 뒤로 → #pageSettings**: `creditsNavBtn` click → `showPage('pageCredits',{dir:'forward'})`(3636); `creditsBackBtn` click → `showPage('pageSettings',{restoreScroll:true,dir:'back'})`(3652). ✅
-5. **설정 5회 열어도 리스너 미중복**: `pageshow:pageSettings` 리스너 제거됨(grep 0건). 모든 설정/크레딧 리스너를 top-level 모듈 스코프에서 `getElementById` 후 1회 등록 → 페이지 재진입 시 재등록 경로 없음. ✅
-6. **`#pageCredits` 셀렉터 1:1 정합**: 위 셀렉터 표의 모든 id가 JS 참조와 일치(누락/오타 0). CSS 클래스 4종 모두 style.css에 정의 확인(`.credits-title/body/source/link`). ✅
+1. **설정 하단 항목 → #pagePrivacy 진입**: `privacyNavBtn`(index.html:739) → JS 3757 `showPage('pagePrivacy', { dir: 'forward' })`. PASS.
+2. **뒤로 → #pageSettings 스크롤 복원**: `privacyBackBtn`(index.html:804) → JS 3765 `showPage('pageSettings', { restoreScroll: true, dir: 'back' })`. PASS.
+3. **3개 등록 지점**: `grep -n "pagePrivacy: 'pageSettings'" index.html` → 1129 / `grep -n "page.id === 'pagePrivacy'" index.html` → 2357 / `grep -n "pagePrivacy" style.css` → 3968. 3곳 모두 확인. PASS.
+4. **리스너 누수 없음 (1회 등록)**: `_privacyNavBtn`/`_privacyBackBtn` 배선이 `pageshow:` 밖, 설정 초기화 블록(APP_VERSION 근처) 최상위에 위치. 5회 반복해도 재등록 없음. PASS.
+5. **privacy.html 존재 + 외부 리소스 0**: 파일 존재(5778 bytes). `grep -c "http" project/privacy.html` → **0**. PASS.
+6. **본문·조항 §F 일치**: 두 페이지 조항 제목(1~10) 대조 결과 완전 일치. 본문 §F 그대로. PASS.
+7. **node --check 통과**: 인라인 스크립트(1029~4282행) 추출 후 `node --check` → 오류 없음(PASS 출력). PASS.
+8. **신규 id HTML/JS 1:1**: `privacyNavBtn`, `privacyBackBtn` 각각 HTML 정의 1건 + JS `getElementById` 참조 1건. PASS.
 
-추가 검증: 인라인 스크립트(134,086자) `node --check` 통과 — 구문 오류 없음.
+### 주요 설계 결정
 
-## 범위 밖이라 손대지 않은 항목
+1. **`.credits-list` 신규 추가**: §B가 허용한 대로, 조항 2·4·9의 목록을 시멘틱 `<ul>`로 처리. `.credits-body`와 동일 토큰(`--text-secondary`, `font-size:13px`, `line-height:1.7`, `word-break:keep-all`)을 써 시각 위계를 통일했다.
+2. **§4 호스트명을 인앱 페이지에서도 평문 리스트로**: §F 원문이 불릿이고, 링크 목적이 아닌 "통신 대상 고지"이므로 `<a>`가 아닌 `<li>` 평문으로 표기 (privacy.html의 http 0건 요건과도 일관).
+3. **privacy.html에서 `<meta http-equiv>` 회피**: charset은 `<meta charset="UTF-8">`만 사용해 "http" 문자열이 문서 전체에서 0건이 되도록 했다. 이메일도 평문(mailto 링크 아님).
 
-- **고아 CSS `toggle-switch`/`toggle-slider`**(style.css): 알림 섹션 삭제로 미사용이 되었으나, `@media (prefers-reduced-motion)` 블록이 이를 참조하고 있어 제거 시 부수효과 위험이 있어 유지. 무해한 죽은 CSS. 후속 정리 권장.
-- **기존 사용자 `insectAppSettings` LocalStorage 잔여값**: 더 이상 읽거나 쓰지 않음. 마이그레이션/클린업은 이번 범위 밖으로 판단해 미처리(무해).
-- **CLAUDE.md 문서 드리프트**: `insectAppSettings`가 `defaultHomeTab`을 담는다는 서술은 실제 코드와 불일치(코드에 존재한 적 없음). doc-writer가 CLAUDE.md 정정 필요(요구사항 B-1 명시 사항).
-- **`_subPageBackTarget`에 `pageSettings`가 없는 별개 이슈**: 요구사항 D-2 지시대로 이번 작업에서 건드리지 않음.
-- `ios/`, 데이터 JSON, 네이티브 Swift/Info.plist: 지시대로 미수정.
+### 코드 리뷰어 확인 요청 사항
 
-## 해석 근거 (요구사항 모호 지점)
+- `#pagePrivacy` 뒤로가기 시 `restoreScroll: true`가 설정 스크롤 위치를 실제로 복원하는지(`_scrollPosCache`가 forward 진입 시 pageSettings의 scrollTop을 저장하는 흐름) — `pageCredits`와 동일 경로이므로 회귀 없음이 예상되나 교차 확인 요청.
+- 네이티브 스와이프-백 프리뷰가 `_subPageBackTarget.pagePrivacy`를 참조해 pageSettings를 미리 렌더하는 경로가 정상 동작하는지.
 
-- **reportBug 앵커 + encodeURIComponent**: 정적 href만으로는 `encodeURIComponent` 요구를 충족할 수 없어, HTML에 폴백 `href="mailto:hwanghs5290@gmail.com"`를 두고 JS에서 subject/body(앱 버전 포함)를 `encodeURIComponent`로 인코딩해 최종 href를 주입. JS 미실행 시에도 기본 mailto는 동작.
-- **데이터 출처 chevron**: `.settings-button` 재사용 지시에 따라 `.settings-nav-btn` modifier로 min-width/padding만 축소해 아이콘 전용 버튼으로 구현.
+### 범위 밖 (미조치)
+
+- `ios/App/App/public/`는 빌드 산출물이라 미수정. 실제 기기 반영은 `npx cap sync` 필요(개발자 범위 밖).
+- `ios/` 네이티브 파일, `Info.plist`, 데이터 JSON은 이번 범위 밖으로 미수정.
