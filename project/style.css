@@ -3,7 +3,10 @@
    Design System & Styles
    ══════════════════════════════════════════════ */
 
-/* ── Reset ── */
+/* ── Fonts ── */
+/* 전부 로컬 번들. 오프라인(비행기 모드)에서도 서체가 깨지지 않도록
+   Google Fonts CDN 원격 로드를 제거했다. Cormorant Garamond / Inter 는
+   가변 폰트(wght 축) 단일 파일을 latin·latin-ext 서브셋으로 나눠 싣는다. */
 @font-face {
   font-family: 'Line Seed KR';
   src: url('fonts/LINESeedKR-Rg.woff2') format('woff2');
@@ -12,6 +15,67 @@
   font-display: swap;
 }
 
+/* Cormorant Garamond — latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  src: url('fonts/CormorantGaramond-latin.woff2') format('woff2');
+  font-weight: 300 700;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Cormorant Garamond — latin-ext */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  src: url('fonts/CormorantGaramond-latin-ext.woff2') format('woff2');
+  font-weight: 300 700;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* Cormorant Garamond — latin (italic) */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  src: url('fonts/CormorantGaramond-italic-latin.woff2') format('woff2');
+  font-weight: 300 700;
+  font-style: italic;
+  font-display: swap;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Cormorant Garamond — latin-ext (italic) */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  src: url('fonts/CormorantGaramond-italic-latin-ext.woff2') format('woff2');
+  font-weight: 300 700;
+  font-style: italic;
+  font-display: swap;
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* Inter — latin */
+@font-face {
+  font-family: 'Inter';
+  src: url('fonts/Inter-latin.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Inter — latin-ext */
+@font-face {
+  font-family: 'Inter';
+  src: url('fonts/Inter-latin-ext.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* ── Reset ── */
 *, *::before, *::after {
   margin: 0;
   padding: 0;
@@ -3793,15 +3857,20 @@ ul { list-style: none; }
 
 /* Settings Button */
 .settings-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 8px 16px;
+  min-width: 80px;
   background: var(--bg-input);
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-pill);
-  padding: 8px 16px;
   color: var(--text-primary);
   font-size: 14px;
   font-weight: 500;
   font-family: var(--font-body);
-  min-width: 80px;
+  text-decoration: none;
   outline: none;
   transition: all 0.2s ease;
 }
@@ -3815,65 +3884,79 @@ ul { list-style: none; }
   transform: scale(0.98);
 }
 
-/* Toggle Switch */
-.toggle-switch {
-  position: relative;
-  display: inline-block;
-  width: 48px;
-  height: 28px;
+/* ── 출처 및 라이선스 ── */
+.settings-item-value {
+  color: var(--text-primary);
+  font-size: 14px;
+  font-weight: 500;
+  font-family: var(--font-body);
 }
 
-.toggle-switch input {
-  opacity: 0;
-  width: 0;
-  height: 0;
+/* 데이터 출처 → 페이지 이동 chevron 버튼 (.settings-button 재사용, 아이콘 전용으로 축소) */
+.settings-nav-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+  padding: 8px;
+  color: var(--text-muted);
 }
 
-.toggle-slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: var(--bg-input);
-  border: 1px solid var(--border-subtle);
-  transition: 0.3s;
-  border-radius: 28px;
+.settings-nav-btn:hover {
+  color: var(--green-soft);
 }
 
-.toggle-slider:before {
-  position: absolute;
-  content: "";
-  height: 20px;
-  width: 20px;
-  left: 3px;
-  bottom: 3px;
-  background-color: var(--text-muted);
-  transition: 0.3s;
-  border-radius: 50%;
+.credits-title {
+  margin: 0 12px 24px;
+  color: var(--text-primary);
+  font-family: var(--font-display);
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
 }
 
-.toggle-switch input:checked + .toggle-slider {
-  background-color: var(--green-mid);
-  border-color: var(--green-mid);
+.credits-body {
+  margin: 0 0 10px;
+  padding: 0 12px;
+  color: var(--text-secondary);
+  font-size: 13px;
+  line-height: 1.7;
+  word-break: keep-all;
 }
 
-.toggle-switch input:checked + .toggle-slider:before {
-  transform: translateX(20px);
-  background-color: white;
+.credits-source {
+  margin: 14px 0 2px;
+  padding: 0 12px;
+  color: var(--text-muted);
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.credits-link {
+  display: block;
+  width: fit-content;
+  margin-top: 8px;
+  padding: 2px 12px;
+  color: var(--green-soft);
+  font-size: 13px;
+  text-decoration: none;
+  word-break: break-all;
+}
+
+.credits-link:hover {
+  color: var(--green-mid);
+  text-decoration: underline;
 }
 
 /* Settings Page Animation */
-#pageSettings {
+#pageSettings,
+#pageCredits {
   animation: pageFadeIn 260ms cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 /* Responsive for Settings */
 @media (prefers-reduced-motion: reduce) {
-  .settings-button,
-  .toggle-slider,
-  .toggle-slider:before {
+  .settings-button {
     transition: none;
   }
 }

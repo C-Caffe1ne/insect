@@ -25,7 +25,7 @@
 | `#pageSaved` | 즐겨찾기 |
 | `#pageProfile` | 내 정보 (프로필·배경 편집 포함) |
 | `#pageSettings` | 설정 |
-| `#pageOrderGuide` | 목(Order) 분류 기준 안내 |
+| `#pageCredits` | 출처 및 라이선스 고지 (데이터·이미지·서체·오픈소스) |
 
 ### JSON 캐시 파일
 
@@ -50,10 +50,14 @@ node project/scripts/build_nibr_cache.mjs
 
 | 키 | 용도 |
 |----|------|
-| `entoma_favorites` | 즐겨찾기 학명 배열 (JSON) |
-| `insectAppSettings` | 앱 설정 (`defaultHomeTab` 등) |
-| `entoma_profile_photo` | 프로필 사진 DataURL |
-| `entoma_profile_bg` | 배경 이미지 DataURL |
+| `entoma_favorites` | 즐겨찾기 학명 배열 (JSON, 상수 `FAV_KEY`) |
+| `entoma_recent` | 최근 본 곤충 목록 (JSON, 최대 30개, 상수 `RECENT_KEY`) |
+| `user_avatar` | 프로필 사진 DataURL (상수 `PROFILE_PHOTO_KEY`) |
+| `user_bg` | 배경 이미지 DataURL (상수 `PROFILE_BG_KEY`) |
+| `user_profile_info` | 프로필 텍스트 정보 `{name, handle, location}` (JSON, 상수 `PROFILE_INFO_KEY`) |
+
+> 구 키 `entoma_profile_photo` / `entoma_profile_bg` 는 1회성 마이그레이션 함수 `_migrateProfileKeys()`(index.html) 에서만 참조된다. 값을 `user_avatar` / `user_bg` 로 옮긴 뒤 원본을 삭제하므로 활성 저장 키가 아니다.
+> `insectAppSettings` 키는 2026-07-10 App Store 대응 변경으로 관련 설정 스캐폴딩과 함께 코드에서 제거되었다.
 
 ---
 
@@ -148,3 +152,4 @@ node project/scripts/build_nibr_cache.mjs
 |------|----------|------|------|
 | 2026-05-22 | 프로젝트 하네스 초기 구성 | 전체 | revfactory/harness 패턴 기반 곤충도감 도메인 적용 |
 | 2026-06-29 | CLAUDE.md 전면 리팩토링 | 전체 | 크롭 모달·핀치줌·2-depth 액션시트 추가 후 현행화 |
+| 2026-07-10 | 더미 핸들러 제거, `#pageCredits` 출처·라이선스 고지 페이지 추가, 페이지·LocalStorage 키 표 정정 | `index.html`, `style.css`, `CLAUDE.md`, `README.md` | App Store 심사 대응 — 더미 핸들러 제거, 출처·라이선스 고지 페이지 추가 |

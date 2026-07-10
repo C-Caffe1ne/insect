@@ -21,6 +21,7 @@ python3 -m http.server 8000
 - 보전 상태와 분류 계층 표시
 - NIBR eCatalog 300종의 형태·생태·서식지 정보 연결
 - iNaturalist 이미지와 출처 표시
+- 설정 > 데이터 출처에서 출처·라이선스 고지 페이지(`#pageCredits`) 확인 — 데이터·이미지·서체·오픈소스 출처를 안내
 
 ## 데이터 구조
 
@@ -102,5 +103,60 @@ insect/
 - CSS
 - Vanilla JavaScript
 - 정적 JSON 캐시
+- Capacitor (iOS 래핑) — `@capacitor/core` `@capacitor/ios` `@capacitor/cli` `^8.4.1`
 
-데이터 출처: 국립생물자원관 NIBR, iNaturalist
+## 라이선스 및 출처
+
+앱 내에서는 설정 > 데이터 출처 → 출처 및 라이선스 고지 페이지(`#pageCredits`)에서 아래 내용을 안내합니다.
+
+### 데이터
+
+- 국립생물자원관(NIBR) — 「한반도의 생물다양성」 eCatalog. 종별 형태·생태·서식지 정보 300종의 출처입니다. (`https://species.nibr.go.kr`)
+- 출처 표시: "출처: 국립생물자원관" 수준으로만 표기합니다.
+- ⚠️ TODO(확인 필요): 공공누리(KOGL) 유형(제1~4유형)이 아직 확인되지 않았습니다. 유형이 확정되기 전까지 특정 유형을 명시하지 마세요.
+
+### 이미지
+
+iNaturalist 커뮤니티가 Creative Commons 라이선스로 공개한 사진을 사용합니다. (`https://www.inaturalist.org`, `https://creativecommons.org/licenses/`)
+
+`project/inat_photo_cache.json` 의 실제 라이선스 분포(총 897장):
+
+| 라이선스 | 사진 수 |
+|---------|--------|
+| `cc-by-nc` | 596 |
+| `cc-by` | 126 |
+| `cc-by-nc-nd` | 69 |
+| 라이선스 미지정(빈 값 `""`) | 39 |
+| `cc-by-nc-sa` | 26 |
+| `cc0` | 26 |
+| `cc-by-sa` | 14 |
+| 공공누리 제3유형(NIBR 업로드) | 1 |
+| **합계** | **897** |
+
+### 서체
+
+- LINE Seed KR — © LINE Corporation
+- Cormorant Garamond, Inter — SIL Open Font License 1.1
+  (라이선스 원문: `project/fonts/OFL-CormorantGaramond.txt`, `project/fonts/OFL-Inter.txt`)
+
+모든 서체는 `project/fonts/` 에 로컬 번들되어 있다. Google Fonts CDN 원격 로드는
+제거했으므로 오프라인에서도 서체가 깨지지 않고, 사용자 IP가 외부로 전달되지 않는다.
+Cormorant Garamond 와 Inter 는 가변 폰트(wght 축) 단일 파일을 `latin` / `latin-ext`
+서브셋으로 나눠 싣고, `@font-face` 의 `unicode-range` 로 필요한 서브셋만 로드한다.
+
+한글·키릴 문자는 LINE Seed KR 이 커버하고, Inter 는 LINE Seed KR 에 없는 악센트 라틴
+문자(`é`, `č`, `ø` 등 18자)를 메운다. CJK 한자는 iOS 시스템 폰트로 폴백한다.
+
+> TODO: LINE Seed KR 라이선스 원문이 저장소에 포함되어 있지 않다. 배포본에 동봉할 것.
+> 번들된 `LINESeedKR-Rg.woff2` 는 정적 Regular(400) 인데 `@font-face` 가
+> `font-weight: 100 900` 으로 선언되어 있어 한글 굵은 글씨에 합성 볼드가 적용되지
+> 않는다. `LINESeedKR-Bd.woff2` 를 함께 번들해 가중치별 페이스를 선언할 것.
+
+### 오픈소스
+
+- Capacitor — MIT License, © Ionic
+
+### 알려진 이슈 (해결 필요)
+
+- **이미지 라이선스 위반 소지**: 위 분포 중 `cc-by-nc-nd` 69장(개작 금지, ND)과 라이선스 미지정 39장이 포함되어 있습니다. 그런데 `project/style.css` 는 사진에 `object-fit: cover`(크롭)와 `filter: saturate()/brightness()`(색보정)를 적용해 원본을 개작(derivative)해 표시합니다. ND 조건과 라이선스 미지정 항목에 대해 개작 표시가 라이선스 위반이 될 수 있으므로, 해당 사진을 원본 표시로 전환하거나 교체·제외하는 조치가 필요합니다.
+- **`package.json` 라이선스 확인 필요**: 현재 `"license": "ISC"` 로 설정되어 있습니다. 데이터(NIBR)와 이미지(CC)가 별도 라이선스를 가지는데 코드 라이선스가 ISC로 되어 있어 실제 배포 의도와 일치하는지 확인이 필요합니다. (TODO)
