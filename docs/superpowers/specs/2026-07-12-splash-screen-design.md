@@ -8,10 +8,11 @@
 
 앱을 실행하면 흰 화면이 한 번 번쩍인 뒤 검은 앱이 나타난다. 그 사이 `search_index.json` / `nibr_cache.json` 을 fetch 하는 동안 "오늘의 곤충" 카드와 테마 그리드는 `불러오는 중…` 플레이스홀더 상태로 노출된다.
 
-원인은 두 가지다.
+원인은 세 가지다.
 
-1. `Splash.imageset` 이 Capacitor 기본 흰색 이미지이고, `LaunchScreen.storyboard` 의 배경이 `systemBackgroundColor`(라이트 모드에서 흰색)다. 반면 웹 앱은 다크 전용(`theme-color: #0a0a0a`)이다.
-2. `@capacitor/splash-screen` 플러그인이 설치되어 있지 않다. 따라서 런치스크린은 WebView가 생성되는 즉시 사라지고, 콘텐츠가 페인트되기까지의 공백이 그대로 사용자에게 보인다.
+1. **`Info.plist` 의 `UILaunchStoryboardName` 이 `Main.storyboard` 를 가리키고 있었다.** (커밋되지 않은 로컬 변경. 구현 중에 발견) 런치스크린이 `LaunchScreen.storyboard` 가 아니라 Capacitor 브리지 VC를 가리키고 있었으므로, 스플래시가 애초에 렌더될 수 없었다. 이것이 "로딩화면이 아예 안 나온다"의 직접 원인이다. `LaunchScreen`(확장자 없음 — Apple 문서의 정식 표기)으로 되돌린다.
+2. `Splash.imageset` 이 Capacitor 기본 흰색 이미지이고, `LaunchScreen.storyboard` 의 배경이 `systemBackgroundColor`(라이트 모드에서 흰색)다. 반면 웹 앱은 다크 전용(`theme-color: #0a0a0a`)이다.
+3. `@capacitor/splash-screen` 플러그인이 설치되어 있지 않다. 따라서 런치스크린은 WebView가 생성되는 즉시 사라지고, 콘텐츠가 페인트되기까지의 공백이 그대로 사용자에게 보인다.
 
 ## 목표
 
@@ -46,9 +47,11 @@ JS가 SplashScreen.hide({ fadeOutDuration: 300 }) 호출
 
 ### 1. 스플래시 에셋
 
-`Insect Order png/ver.3_W.png` (1024², 곤충이 프레임을 꽉 채운 앱 아이콘 아트워크)를 그대로 쓸 수 없다. `LaunchScreen.storyboard` 의 imageView가 `scaleAspectFill` 이므로 정사각 캔버스가 세로 화면에서 좌우로 크게 잘린다. iPhone 15 Pro(1179×2556) 기준 가시 영역은 캔버스 폭의 약 46%뿐이다. 꽉 찬 곤충은 양옆이 날아간다.
+`Insect Order png/ver.3_W.png` (1024²)를 그대로 쓸 수 없다. `LaunchScreen.storyboard` 의 imageView가 `scaleAspectFill` 이므로 정사각 캔버스가 세로 화면에서 좌우로 크게 잘린다. iPhone 15 Pro(1179×2556) 기준 가시 영역은 캔버스 폭의 약 46%뿐이다.
 
-따라서 **2732×2732 검정(`#0a0a0a`) 캔버스 중앙에 로고를 820px(캔버스의 30%)로 축소 합성**한다. 어떤 기기 비율로 잘려도 로고는 가시 영역 안에 들어온다.
+따라서 **2732×2732 `#0a0a0a` 캔버스 중앙에 로고를 820px(캔버스의 30%)로 축소 합성**한다. 어떤 기기 비율로 잘려도 로고는 가시 영역 안에 들어온다.
+
+**로고 제시 방식 — 라운드 코너 아이콘 타일** (구현 중 결정). `ver.3_W.png` 는 독립 로고가 아니라 **앱 아이콘 구성**이다. 곤충이 프레임에 꽉 차게 그려져 있어, 검정 배경을 걷어내면 날개가 직선으로 잘린 단면이 그대로 노출되어 망가진 이미지처럼 보인다. 그래서 배경을 걷어내지 않고, 원본을 iOS 아이콘 비율의 라운드 코너(반경 22.37%)로 마스킹한 **타일**로 제시한다. 잘린 단면이 코너 안으로 숨고, "앱 아이콘이 떠 있는 스플래시"라는 의도가 분명해지며, 홈스크린 아이콘과도 시각적으로 연결된다.
 
 합성은 Swift + CoreGraphics 로 한다. 이 머신에는 Pillow도 ImageMagick도 없고, Xcode의 `swift` 는 있다. 합성 스크립트는 일회성이므로 저장소에 커밋하지 않는다.
 

@@ -9,6 +9,7 @@ class EntomaBridgeViewController: CAPBridgeViewController {
     override func capacitorDidLoad() {
         bridge?.registerPluginInstance(TabBarBridgePlugin())
         bridge?.registerPluginInstance(NavigationGestureBridgePlugin())
+        bridge?.registerPluginInstance(SplashBridgePlugin())
 
         guard let webView = bridge?.webView else { return }
 

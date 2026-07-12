@@ -1584,6 +1584,8 @@
         title: '육식 곤충',
         sub: '포식자로 살아가는 곤충들',
         keywords: ['포식', '육식', '사냥', '잡아먹', '포획'],
+        // 사마귀목·잠자리목은 전 종이 포식성 — NIBR 설명 키워드와 무관하게 항상 포함
+        orders: ['mantodea', 'odonata'],
       },
       {
         id: 'pest',
@@ -1612,11 +1614,16 @@
       return keywords.some(kw => text.includes(kw));
     }
 
-    function filterInsectsByTheme(keywords, limit) {
+    function matchInsectByTheme(ins, theme) {
+      if (theme.orders?.includes((ins.o || '').toLowerCase())) return true;
+      return matchInsectByNibrKeywords(ins, theme.keywords);
+    }
+
+    function filterInsectsByTheme(theme, limit) {
       const insects = searchIndexData?.insects || [];
       const result = [];
       for (const ins of insects) {
-        if (matchInsectByNibrKeywords(ins, keywords)) {
+        if (matchInsectByTheme(ins, theme)) {
           result.push(ins);
           if (limit && result.length >= limit) break;
         }
@@ -1664,7 +1671,7 @@
     }
 
     function openThemeSpecies(theme) {
-      const matched = filterInsectsByTheme(theme.keywords);
+      const matched = filterInsectsByTheme(theme);
       currentSpeciesList = matched.map(mapIndexSpecies);
       currentSpeciesSort = 'kr';
 
@@ -1715,7 +1722,7 @@
         const seeAllBtn = document.getElementById(`themeSeeAll-${theme.id}`);
         if (!scrollEl) return;
 
-        const matched = filterInsectsByTheme(theme.keywords, 10);
+        const matched = filterInsectsByTheme(theme, 10);
         scrollEl.replaceChildren();
 
         if (matched.length === 0) {
@@ -4279,6 +4286,29 @@
     });
 
     document.getElementById('profileCropCancelBtn')?.addEventListener('click', closeCrop);
+
+    // ── 스플래시 해제 ──
+    // 네이티브 런치스크린을 launchAutoHide: false 로 띄워두고 여기서 걷어낸다.
+    // 데이터 로드 완료와 최소 노출 시간 중 "늦은 쪽"에 해제 —
+    // 빠른 기기에서 스플래시가 번쩍이지 않고, 느린 기기에서 "불러오는 중…" 이 새지 않는다.
+    const SPLASH_MIN_MS = 1200;   // 최소 노출
+    const SPLASH_MAX_MS = 5000;   // 하드캡 — 스플래시에 갇히는 경우 방지
+
+    function hideSplash() {
+      // SplashBridge 는 MainViewController 가 소유한 네이티브 스플래시를 걷어낸다.
+      // 네이티브 브리지가 window.Capacitor 를 주입한다. 브라우저에선 no-op.
+      window.Capacitor?.Plugins?.SplashBridge?.hide();
+    }
+
+    // loader 3종은 메모이즈된 프로미스라 재호출 비용이 없다.
+    // 이중 rAF 로 renderThemeSections() 결과가 실제로 페인트된 뒤에 걷어낸다.
+    const _splashData = Promise.all([loadSearchIndex(), loadNibrCache(), loadInatPhotoCache()])
+      .catch(() => {})
+      .then(() => new Promise(r => requestAnimationFrame(() => requestAnimationFrame(r))));
+    const _splashMin = new Promise(r => setTimeout(r, SPLASH_MIN_MS));
+    const _splashCap = new Promise(r => setTimeout(r, SPLASH_MAX_MS));
+
+    Promise.race([Promise.all([_splashData, _splashMin]), _splashCap]).then(hideSplash);
 
   </script>
 
