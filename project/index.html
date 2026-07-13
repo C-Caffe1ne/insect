@@ -700,19 +700,6 @@
               <span class="settings-item-value" id="settingsVersion"></span>
             </div>
           </div>
-          <div class="settings-item">
-            <div class="settings-item-content">
-              <span class="settings-item-title">데이터 출처</span>
-            </div>
-            <div class="settings-control">
-              <button class="settings-button settings-nav-btn" id="creditsNavBtn" aria-label="출처 및 라이선스 보기">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                  stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                  <polyline points="9 18 15 12 9 6"></polyline>
-                </svg>
-              </button>
-            </div>
-          </div>
         </section>
 
         <!-- 지원 -->
@@ -736,150 +723,35 @@
               <span class="settings-item-title">개인정보처리방침</span>
             </div>
             <div class="settings-control">
-              <button class="settings-button settings-nav-btn" id="privacyNavBtn" aria-label="개인정보처리방침 보기">
+              <a class="settings-button settings-nav-btn" id="privacyNavBtn"
+                href="https://c-caffe1ne.github.io/insect/privacy.html" target="_blank" rel="noopener noreferrer"
+                aria-label="개인정보처리방침 보기 (외부 브라우저로 열림)">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                   stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                  <polyline points="9 18 15 12 9 6"></polyline>
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
                 </svg>
-              </button>
+              </a>
             </div>
           </div>
-        </section>
-      </div>
-    </div>
-
-    <!-- ─── 출처 및 라이선스 ─── -->
-    <div class="page" id="pageCredits">
-      <!-- Top Action Bar -->
-      <div class="profile-action-bar">
-        <button class="action-btn" id="creditsBackBtn" aria-label="뒤로">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-            stroke-linecap="round" stroke-linejoin="round">
-            <line x1="19" y1="12" x2="5" y2="12"></line>
-            <polyline points="12 19 5 12 12 5"></polyline>
-          </svg>
-        </button>
-      </div>
-
-      <div class="settings-container">
-        <h2 class="credits-title">출처 및 라이선스</h2>
-
-        <!-- 데이터 출처 -->
-        <section class="settings-section">
-          <h3 class="settings-section-title">데이터 출처</h3>
-          <p class="credits-body">국립생물자원관(NIBR) — 「한반도의 생물다양성」 eCatalog</p>
-          <p class="credits-body">본 앱의 종별 형태·생태·서식지 정보 300종은 국립생물자원관 자료를 바탕으로 합니다.</p>
-          <p class="credits-source">출처: 국립생물자원관</p>
-          <a class="credits-link" href="https://species.nibr.go.kr" target="_blank" rel="noopener noreferrer">species.nibr.go.kr</a>
-        </section>
-
-        <!-- 이미지 출처 -->
-        <section class="settings-section">
-          <h3 class="settings-section-title">이미지 출처</h3>
-          <p class="credits-body">iNaturalist 커뮤니티가 Creative Commons 라이선스로 공개한 사진을 사용합니다.</p>
-          <p class="credits-body">개별 사진의 저작자와 라이선스는 각 종 상세 화면의 "이미지 출처"에 표시됩니다.</p>
-          <a class="credits-link" href="https://www.inaturalist.org" target="_blank" rel="noopener noreferrer">www.inaturalist.org</a>
-          <a class="credits-link" href="https://creativecommons.org/licenses/" target="_blank" rel="noopener noreferrer">creativecommons.org/licenses</a>
-        </section>
-
-        <!-- 서체 -->
-        <section class="settings-section">
-          <h3 class="settings-section-title">서체</h3>
-          <p class="credits-body">LINE Seed KR — © LINE Corporation</p>
-          <p class="credits-body">Cormorant Garamond, Inter — SIL Open Font License 1.1</p>
-        </section>
-
-        <!-- 오픈소스 -->
-        <section class="settings-section">
-          <h3 class="settings-section-title">오픈소스</h3>
-          <p class="credits-body">Capacitor — MIT License, © Ionic</p>
-        </section>
-      </div>
-    </div>
-
-    <!-- ─── 개인정보처리방침 ─── -->
-    <div class="page" id="pagePrivacy">
-      <!-- Top Action Bar -->
-      <div class="profile-action-bar">
-        <button class="action-btn" id="privacyBackBtn" aria-label="뒤로">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-            stroke-linecap="round" stroke-linejoin="round">
-            <line x1="19" y1="12" x2="5" y2="12"></line>
-            <polyline points="12 19 5 12 12 5"></polyline>
-          </svg>
-        </button>
-      </div>
-
-      <div class="settings-container">
-        <h2 class="credits-title">개인정보처리방침</h2>
-        <p class="credits-source">시행일: 2026년 7월 10일</p>
-        <p class="credits-body">KoIn Pedia(이하 "앱")는 이용자의 개인정보를 수집하지 않습니다. 이 방침은 앱이 어떤 정보를 다루고 다루지 않는지를 설명합니다.</p>
-
-        <section class="settings-section">
-          <h3 class="settings-section-title">1. 수집하는 개인정보</h3>
-          <p class="credits-body">앱에는 회원가입, 로그인, 계정 생성 기능이 없습니다. 앱은 이름, 이메일, 전화번호, 위치, 기기 식별자를 포함한 어떠한 개인정보도 수집하거나 서버로 전송하지 않습니다. 앱에는 광고 SDK, 분석 도구, 추적 기술이 포함되어 있지 않습니다.</p>
-        </section>
-
-        <section class="settings-section">
-          <h3 class="settings-section-title">2. 기기 내부에만 저장되는 정보</h3>
-          <p class="credits-body">다음 정보는 이용자 기기 내부 저장소에만 저장되며 외부로 전송되지 않습니다. 개발자는 이 정보에 접근할 수 없습니다.</p>
-          <ul class="credits-list">
-            <li>즐겨찾기한 곤충 목록</li>
-            <li>최근 본 곤충 목록</li>
-            <li>프로필 사진 및 배경 이미지</li>
-            <li>프로필에 입력한 이름, 핸들, 지역</li>
-          </ul>
-        </section>
-
-        <section class="settings-section">
-          <h3 class="settings-section-title">3. 카메라 및 사진 접근 권한</h3>
-          <p class="credits-body">프로필 사진과 배경 이미지를 설정할 때에만 카메라와 사진 라이브러리에 접근합니다. 선택한 이미지는 기기 내부에만 저장되며 어디에도 업로드되지 않습니다. 권한은 iOS 설정에서 언제든 철회할 수 있습니다.</p>
-        </section>
-
-        <section class="settings-section">
-          <h3 class="settings-section-title">4. 외부 서버와의 통신</h3>
-          <p class="credits-body">앱은 곤충 사진을 다음 외부 서버에서 내려받아 표시합니다. 이 과정에서 이용자의 IP 주소가 해당 서버에 전달됩니다. 이는 인터넷상 이미지 표시에 기술적으로 수반되는 것으로, 이용자를 식별하거나 추적하기 위한 목적이 아닙니다.</p>
-          <ul class="credits-list">
-            <li>inaturalist-open-data.s3.amazonaws.com (Amazon Web Services)</li>
-            <li>static.inaturalist.org (iNaturalist)</li>
-            <li>species.nibr.go.kr (국립생물자원관)</li>
-          </ul>
-          <p class="credits-body">곤충 분류와 종 정보 데이터, 그리고 서체는 앱에 내장되어 있어 네트워크 통신 없이 이용할 수 있습니다.</p>
-          <p class="credits-body">앱 내 링크(국립생물자원관, iNaturalist, Creative Commons)를 누르면 기기의 기본 브라우저가 열립니다. 이후의 정보 처리는 해당 사이트의 개인정보처리방침을 따릅니다.</p>
-        </section>
-
-        <section class="settings-section">
-          <h3 class="settings-section-title">5. 제3자 제공 및 처리 위탁</h3>
-          <p class="credits-body">앱이 수집하는 개인정보가 없으므로, 제3자에게 제공하거나 처리를 위탁하는 개인정보가 없습니다.</p>
-        </section>
-
-        <section class="settings-section">
-          <h3 class="settings-section-title">6. 보유 및 파기</h3>
-          <p class="credits-body">기기에 저장된 정보는 이용자가 앱 내에서 해당 항목을 삭제하거나 앱을 삭제하면 함께 삭제됩니다. 개발자가 별도로 보유하는 정보는 없습니다.</p>
-        </section>
-
-        <section class="settings-section">
-          <h3 class="settings-section-title">7. 이용자의 권리</h3>
-          <p class="credits-body">앱이 개인정보를 수집하지 않으므로 열람·정정·삭제·처리정지를 요청할 대상 정보가 없습니다. 기기에 저장된 정보는 이용자가 직접 관리할 수 있습니다.</p>
-        </section>
-
-        <section class="settings-section">
-          <h3 class="settings-section-title">8. 만 14세 미만 아동</h3>
-          <p class="credits-body">앱은 만 14세 미만 아동을 포함한 모든 이용자로부터 개인정보를 수집하지 않습니다.</p>
-        </section>
-
-        <section class="settings-section">
-          <h3 class="settings-section-title">9. 문의</h3>
-          <p class="credits-body">개인정보 처리에 관한 문의는 아래로 연락해 주십시오.</p>
-          <ul class="credits-list">
-            <li>운영자: KoIn Pedia 개발자</li>
-            <li>이메일: hwanghs5290@gmail.com</li>
-          </ul>
-        </section>
-
-        <section class="settings-section">
-          <h3 class="settings-section-title">10. 방침의 변경</h3>
-          <p class="credits-body">이 방침이 변경되는 경우 앱 내 본 화면과 공개 페이지를 통해 고지합니다.</p>
+          <div class="settings-item">
+            <div class="settings-item-content">
+              <span class="settings-item-title">데이터 출처</span>
+            </div>
+            <div class="settings-control">
+              <a class="settings-button settings-nav-btn" id="creditsNavBtn"
+                href="https://c-caffe1ne.github.io/insect/credits.html" target="_blank" rel="noopener noreferrer"
+                aria-label="출처 및 라이선스 보기 (외부 브라우저로 열림)">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            </div>
+          </div>
         </section>
       </div>
     </div>
@@ -1126,7 +998,7 @@
     const SWIPE_BACK_BLOCKED_PAGES = new Set(['pageDiscover', 'pageSearch', 'pageProfile']); // 하단 네비 탭 페이지는 화면 스와이프 뒤로가기 비활성
     // 서브페이지(목/종)에서 뒤로 갔을 때의 목적지 pageId. 정방향 진입 시 showPage에서 갱신.
     // 네이티브 인터랙티브 스와이프가 드래그 중 목적지를 미리 렌더할 때 참조한다.
-    const _subPageBackTarget = { pageFamilyDetail: 'pageDiscover', pageSpeciesDetail: 'pageFamilyDetail', pageCredits: 'pageSettings', pagePrivacy: 'pageSettings' };
+    const _subPageBackTarget = { pageFamilyDetail: 'pageDiscover', pageSpeciesDetail: 'pageFamilyDetail' };
     let _swipePreview = null;    // 진행 중인 네이티브 스와이프 프리뷰 { from, to, reopenModal }
     let _finalizingSwipe = null; // commit()이 history.back() 후 popstate에서 재렌더를 건너뛰게 하는 플래그
     let searchIndexData = null;
@@ -2360,7 +2232,7 @@
       allPages.forEach(page => {
         page.addEventListener('scroll', () => {
           if (page.classList.contains('active')) {
-            scrollTopBtn.hidden = page.id === 'pageSettings' || page.id === 'pageCredits' || page.id === 'pagePrivacy' || page.scrollTop < 200;
+            scrollTopBtn.hidden = page.id === 'pageSettings' || page.scrollTop < 200;
           }
         }, { passive: true });
       });
@@ -3740,43 +3612,11 @@
       _reportBugLink.href = `mailto:hwanghs5290@gmail.com?subject=${_reportSubject}&body=${_reportBody}`;
     }
 
-    // 데이터 출처 → 출처 및 라이선스 페이지 진입
-    const _creditsNavBtn = document.getElementById('creditsNavBtn');
-    if (_creditsNavBtn) {
-      _creditsNavBtn.addEventListener('click', () => {
-        showPage('pageCredits', { dir: 'forward' });
-      });
-    }
-
     // 설정 페이지 뒤로가기 → 탐색
     const _settingsBackBtn = document.getElementById('settingsBackBtn');
     if (_settingsBackBtn) {
       _settingsBackBtn.addEventListener('click', () => {
         showPage('pageDiscover', { restoreScroll: true, dir: 'back' });
-      });
-    }
-
-    // 출처 및 라이선스 페이지 뒤로가기 → 설정
-    const _creditsBackBtn = document.getElementById('creditsBackBtn');
-    if (_creditsBackBtn) {
-      _creditsBackBtn.addEventListener('click', () => {
-        showPage('pageSettings', { restoreScroll: true, dir: 'back' });
-      });
-    }
-
-    // 개인정보처리방침 페이지 진입
-    const _privacyNavBtn = document.getElementById('privacyNavBtn');
-    if (_privacyNavBtn) {
-      _privacyNavBtn.addEventListener('click', () => {
-        showPage('pagePrivacy', { dir: 'forward' });
-      });
-    }
-
-    // 개인정보처리방침 페이지 뒤로가기 → 설정
-    const _privacyBackBtn = document.getElementById('privacyBackBtn');
-    if (_privacyBackBtn) {
-      _privacyBackBtn.addEventListener('click', () => {
-        showPage('pageSettings', { restoreScroll: true, dir: 'back' });
       });
     }
 

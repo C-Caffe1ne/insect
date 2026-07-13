@@ -3884,7 +3884,7 @@ ul { list-style: none; }
   transform: scale(0.98);
 }
 
-/* ── 출처 및 라이선스 ── */
+/* ── 설정 항목 값 · 외부 링크 ── */
 .settings-item-value {
   color: var(--text-primary);
   font-size: 14px;
@@ -3892,7 +3892,7 @@ ul { list-style: none; }
   font-family: var(--font-body);
 }
 
-/* 데이터 출처 → 페이지 이동 chevron 버튼 (.settings-button 재사용, 아이콘 전용으로 축소) */
+/* 개인정보처리방침·데이터 출처 → 외부 브라우저 링크 (.settings-button 재사용, 아이콘 전용으로 축소) */
 .settings-nav-btn {
   display: inline-flex;
   align-items: center;
@@ -3906,66 +3906,8 @@ ul { list-style: none; }
   color: var(--green-soft);
 }
 
-.credits-title {
-  margin: 0 12px 24px;
-  color: var(--text-primary);
-  font-family: var(--font-display);
-  font-size: 30px;
-  font-weight: 600;
-  letter-spacing: -0.01em;
-}
-
-.credits-body {
-  margin: 0 0 10px;
-  padding: 0 12px;
-  color: var(--text-secondary);
-  font-size: 13px;
-  line-height: 1.7;
-  word-break: keep-all;
-}
-
-.credits-source {
-  margin: 14px 0 2px;
-  padding: 0 12px;
-  color: var(--text-muted);
-  font-size: 12px;
-  font-weight: 500;
-}
-
-.credits-link {
-  display: block;
-  width: fit-content;
-  margin-top: 8px;
-  padding: 2px 12px;
-  color: var(--green-soft);
-  font-size: 13px;
-  text-decoration: none;
-  word-break: break-all;
-}
-
-.credits-link:hover {
-  color: var(--green-mid);
-  text-decoration: underline;
-}
-
-.credits-list {
-  margin: 0 0 10px;
-  padding: 0 12px 0 32px;
-  color: var(--text-secondary);
-  font-size: 13px;
-  line-height: 1.7;
-  list-style: disc;
-  word-break: keep-all;
-}
-
-.credits-list li {
-  margin-bottom: 4px;
-}
-
 /* Settings Page Animation */
-#pageSettings,
-#pageCredits,
-#pagePrivacy {
+#pageSettings {
   animation: pageFadeIn 260ms cubic-bezier(0.22, 1, 0.36, 1);
 }
 
