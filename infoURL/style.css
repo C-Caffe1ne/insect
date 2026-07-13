@@ -79,6 +79,15 @@ a:focus-visible,
   padding: 2.5rem 1.5rem 1.5rem;
 }
 
+.site-logo {
+  display: block;
+  width: 56px;
+  height: 56px;
+  margin: 0 0 0.85rem;
+  border-radius: 13px;
+  border: 1px solid var(--border-subtle);
+}
+
 .site-title {
   margin: 0;
   font-size: 1.25rem;
