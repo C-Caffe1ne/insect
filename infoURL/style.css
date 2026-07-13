@@ -1,0 +1,346 @@
+/* ── Font ── */
+@font-face {
+  font-family: 'Line Seed KR';
+  src: url('fonts/LINESeedKR-Rg.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ── Tokens (앱 다크 테마와 동일) ── */
+:root {
+  --bg-deep:    #0a0a0a;
+  --bg-card:    #1a1d1b;
+
+  --green-dim:  #5c6b62;
+  --green-mid:  #7fa88e;
+  --green-soft: #8ca892;
+
+  --text-primary:   #edefec;
+  --text-secondary: #90a198;
+
+  --border-subtle: rgba(255, 255, 255, 0.05);
+  --border-faint:  rgba(255, 255, 255, 0.04);
+
+  --maxw: 44rem;
+}
+
+/* ── Base ── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg-deep);
+  color: var(--text-primary);
+  font-family: 'Line Seed KR', -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo',
+    'Malgun Gothic', sans-serif;
+  font-size: 1rem;
+  line-height: 1.75;
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+}
+
+a {
+  color: var(--green-soft);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(140, 168, 146, 0.3);
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+a:hover {
+  color: var(--green-mid);
+  border-bottom-color: var(--green-mid);
+}
+
+a:focus-visible,
+:focus-visible {
+  outline: 2px solid var(--green-mid);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* ── Header ── */
+.site-header {
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.site-header__inner {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem 1.5rem;
+}
+
+.site-title {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.site-title a {
+  color: var(--text-primary);
+  border-bottom: none;
+}
+
+.site-tagline {
+  margin: 0.35rem 0 0;
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+}
+
+/* ── Nav ── */
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+}
+
+.site-nav a {
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+  border-bottom: 1px solid transparent;
+  padding-bottom: 0.15rem;
+}
+
+.site-nav a:hover {
+  color: var(--text-primary);
+  border-bottom-color: var(--border-subtle);
+}
+
+.site-nav a[aria-current='page'] {
+  color: var(--green-soft);
+  border-bottom-color: var(--green-soft);
+}
+
+/* ── Layout ── */
+main {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem 4rem;
+}
+
+.page-title {
+  margin: 0 0 0.5rem;
+  font-size: 1.75rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.35;
+}
+
+.page-meta {
+  margin: 0 0 2.5rem;
+  color: var(--green-dim);
+  font-size: 0.8125rem;
+}
+
+.lead {
+  margin: 0 0 2.5rem;
+  color: var(--text-secondary);
+  font-size: 1.0625rem;
+  line-height: 1.8;
+}
+
+section {
+  margin-bottom: 2.75rem;
+}
+
+h2 {
+  margin: 0 0 1rem;
+  font-size: 1.0625rem;
+  font-weight: 700;
+  color: var(--green-soft);
+  letter-spacing: -0.01em;
+}
+
+h3 {
+  margin: 0 0 0.75rem;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+p {
+  margin: 0 0 1rem;
+  color: var(--text-secondary);
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+ul {
+  margin: 0 0 1rem;
+  padding-left: 1.125rem;
+  color: var(--text-secondary);
+}
+
+li {
+  margin-bottom: 0.4rem;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+/* ── Card ── */
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-faint);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.card:last-child {
+  margin-bottom: 0;
+}
+
+/* ── FAQ ── */
+.faq {
+  border-top: 1px solid var(--border-subtle);
+}
+
+.faq details {
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.faq summary {
+  padding: 1.125rem 2rem 1.125rem 0;
+  cursor: pointer;
+  position: relative;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  list-style: none;
+}
+
+.faq summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq summary::after {
+  content: '+';
+  position: absolute;
+  right: 0.25rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--green-dim);
+  font-size: 1.125rem;
+  line-height: 1;
+}
+
+.faq details[open] summary::after {
+  content: '−';
+}
+
+.faq summary:hover {
+  color: var(--green-soft);
+}
+
+.faq .faq-answer {
+  padding: 0 0 1.25rem;
+}
+
+/* ── Feature list ── */
+.features {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.features li {
+  padding: 0.875rem 0;
+  border-bottom: 1px solid var(--border-faint);
+}
+
+.features li:last-child {
+  border-bottom: none;
+}
+
+.features strong {
+  display: block;
+  color: var(--text-primary);
+  font-weight: 700;
+  font-size: 0.9375rem;
+  margin-bottom: 0.15rem;
+}
+
+/* ── Definition table (앱 정보) ── */
+.info-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9375rem;
+}
+
+.info-table th,
+.info-table td {
+  text-align: left;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--border-faint);
+  vertical-align: top;
+}
+
+.info-table tr:last-child th,
+.info-table tr:last-child td {
+  border-bottom: none;
+}
+
+.info-table th {
+  width: 9rem;
+  font-weight: 400;
+  color: var(--green-dim);
+}
+
+.info-table td {
+  color: var(--text-secondary);
+}
+
+/* ── Footer ── */
+.site-footer {
+  border-top: 1px solid var(--border-subtle);
+}
+
+.site-footer__inner {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 2rem 1.5rem 3rem;
+  color: var(--green-dim);
+  font-size: 0.8125rem;
+}
+
+.site-footer__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.site-footer__links a {
+  color: var(--text-secondary);
+  border-bottom: none;
+}
+
+.site-footer__links a:hover {
+  color: var(--green-soft);
+}
+
+/* ── Small screens ── */
+@media (max-width: 30rem) {
+  .page-title {
+    font-size: 1.5rem;
+  }
+
+  .info-table th {
+    width: 7rem;
+  }
+}
