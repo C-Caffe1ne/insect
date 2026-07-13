@@ -1,0 +1,29 @@
+{
+  "name": "insect",
+  "version": "1.0.0",
+  "description": "한국 곤충 분류와 종 정보를 탐색하는 정적 웹 도감입니다.",
+  "main": "index.js",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.104.2",
+    "@capacitor/cli": "^8.4.1",
+    "@capacitor/core": "^8.4.1",
+    "@capacitor/ios": "^8.4.1",
+    "iceberg-js": "^0.8.1",
+    "tslib": "^2.8.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/C-Caffe1ne/insect.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/C-Caffe1ne/insect/issues"
+  },
+  "homepage": "https://github.com/C-Caffe1ne/insect#readme"
+}
