@@ -26,6 +26,9 @@
 | `#pageProfile` | 내 정보 (프로필·배경 편집 포함) |
 | `#pageSettings` | 설정 |
 | `#pageCredits` | 출처 및 라이선스 고지 (데이터·이미지·서체·오픈소스) |
+| `#pagePrivacy` | 개인정보처리방침 (시행일 2026-07-10, 10개 절) |
+
+> `#pageCredits` 와 `#pagePrivacy` 의 본문은 공개 지원 사이트(`infoURL/`)의 `credits.html` / `privacy.html` 과 **문구가 일치해야 한다.** 방침 10조가 "변경 시 앱 내 화면과 공개 페이지를 통해 고지한다"고 명시하고 있다. 한쪽만 고치지 말 것.
 
 ### JSON 캐시 파일
 
@@ -61,11 +64,45 @@ node project/scripts/build_nibr_cache.mjs
 
 ---
 
+## 공개 지원 사이트 (`infoURL/`)
+
+App Store Connect가 요구하는 Support URL·Privacy Policy URL을 제공하는 **별도의 정적 사이트.**
+도감 앱(`project/`)과는 독립적이며 서로 파일을 공유하지 않는다.
+
+| 파일 | 내용 |
+|------|------|
+| `infoURL/index.html` | 지원 — 앱 소개, 주요 기능, FAQ, 문의 |
+| `infoURL/privacy.html` | 개인정보처리방침 (앱 `#pagePrivacy` 와 동일 문구) |
+| `infoURL/credits.html` | 출처 및 라이선스 (앱 `#pageCredits` 와 동일 문구) |
+| `infoURL/style.css` | 공용 스타일 (앱 다크 테마 토큰 재사용) |
+| `infoURL/fonts/LINESeedKR-Rg.woff2` | `project/fonts/` 에서 복사한 사본 |
+
+### 배포
+
+`.github/workflows/pages.yml` 이 `korean_H` 또는 `appstore-prep` push 시 `infoURL/` 만
+아티팩트로 올려 GitHub Pages에 배포한다 (`infoURL/**` 경로 필터).
+
+| App Store Connect 필드 | URL |
+|------------------------|-----|
+| Support URL | `https://c-caffe1ne.github.io/insect/` |
+| Privacy Policy URL | `https://c-caffe1ne.github.io/insect/privacy.html` |
+
+### 주의
+
+- **자체 완결형이어야 한다.** Pages는 `infoURL/` 만 서빙하므로 `project/` 의 CSS·폰트·JSON을
+  상대 경로로 참조할 수 없다. 필요한 자산은 `infoURL/` 안으로 복사할 것.
+- **방침·출처 문구를 한쪽만 고치지 말 것.** 앱 내 `#pagePrivacy` / `#pageCredits` 와
+  `privacy.html` / `credits.html` 은 항상 같은 내용을 유지한다.
+- 설계서: `docs/superpowers/specs/2026-07-13-support-site-design.md`
+
+---
+
 ## 코드 작성 규칙
 
 ### 일반
 
-- **모든 변경은 `project/` 안에서만.** `.app` 클래스 외부 DOM에 절대 접근하지 말 것.
+- **도감 앱의 모든 변경은 `project/` 안에서만.** `.app` 클래스 외부 DOM에 절대 접근하지 말 것.
+  (공개 지원 사이트 작업은 예외 — `infoURL/` 안에서만 하며, `.app` 컨테이너 규칙이 적용되지 않는다.)
 - HTML 구조 변경 시 CSS selector와의 정합성을 먼저 확인.
 - JS는 `index.html` 최하단 `<script>` 블록에 인라인 작성. 외부 `.js` 파일 추가 금지.
 - 인덴트: 공백 2칸. 세미콜론 사용. `const` / `let` (var 금지).
@@ -153,3 +190,4 @@ node project/scripts/build_nibr_cache.mjs
 | 2026-05-22 | 프로젝트 하네스 초기 구성 | 전체 | revfactory/harness 패턴 기반 곤충도감 도메인 적용 |
 | 2026-06-29 | CLAUDE.md 전면 리팩토링 | 전체 | 크롭 모달·핀치줌·2-depth 액션시트 추가 후 현행화 |
 | 2026-07-10 | 더미 핸들러 제거, `#pageCredits` 출처·라이선스 고지 페이지 추가, 페이지·LocalStorage 키 표 정정 | `index.html`, `style.css`, `CLAUDE.md`, `README.md` | App Store 심사 대응 — 더미 핸들러 제거, 출처·라이선스 고지 페이지 추가 |
+| 2026-07-13 | 공개 지원 사이트 `infoURL/` 신설 + GitHub Pages 배포, 페이지 표에 누락된 `#pagePrivacy` 추가 | `infoURL/`, `.github/workflows/pages.yml`, `CLAUDE.md` | App Store Connect의 Support URL·Privacy Policy URL 확보 |
