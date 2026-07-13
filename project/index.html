@@ -2181,7 +2181,6 @@
 
     // 인덱스 검색 결과 → 종 상세 진입
     function openSpeciesFromIndex(ins, fromPage = 'pageSearch') {
-      pushRecentEntry(ins);
       // 상세 페이지가 참조할 수 있도록 selectedOrder/selectedFamily 동기화
       const order = ordersData.find(d => d.id === ins.o || d.scientificName === ins.os);
       if (order) {
@@ -3394,6 +3393,9 @@
       if (!species) return;
       previousSpeciesPage = fromPage;
       selectedSpecies = species;
+      // 종 상세 진입은 모두 이 함수를 거치므로 여기서 한 번만 기록한다
+      // (분류 보기 / 검색 / 즐겨찾기 / 최근 본 곤충 전 경로 포괄).
+      pushRecentEntry(species);
 
       // enrich/render는 절대 navigation을 막지 않게 try/catch로 감싼다.
       // 어떤 데이터 결함으로 throw돼도 showPage는 반드시 실행되어
@@ -3510,12 +3512,14 @@
       localStorage.setItem(RECENT_KEY, JSON.stringify(arr));
     }
 
-    // ins 객체를 최근 목록 맨 앞에 추가 (중복 제거, 최대 RECENT_MAX 유지)
-    function pushRecentEntry(ins) {
-      if (!ins?.sci) return;
-      const canonical = canonicalizeSciName(ins.sci);
+    // species 객체를 최근 목록 맨 앞에 추가 (중복 제거, 최대 RECENT_MAX 유지)
+    function pushRecentEntry(sp) {
+      const sci = sp?.rawScientificName || sp?.scientificName || '';
+      const canonical = canonicalizeSciName(sci);
+      // placeholder('학명 미상')처럼 학명이 아닌 값은 저장하지 않는다
+      if (!/^[A-Z][a-z]+/.test(canonical)) return;
       let arr = loadRecent().filter(e => canonicalizeSciName(e.sci) !== canonical);
-      arr.unshift({ sci: ins.sci, kr: ins.kr || ins.eolKo || '', img: lookupInatPhotos(ins)[0]?.url || ins.img || null });
+      arr.unshift({ sci, kr: sp.commonName || '', img: sp.images?.[0] || null });
       if (arr.length > RECENT_MAX) arr = arr.slice(0, RECENT_MAX);
       saveRecent(arr);
       // 프로필 조회 통계 실시간 반영
@@ -4291,7 +4295,7 @@
     // 네이티브 런치스크린을 launchAutoHide: false 로 띄워두고 여기서 걷어낸다.
     // 데이터 로드 완료와 최소 노출 시간 중 "늦은 쪽"에 해제 —
     // 빠른 기기에서 스플래시가 번쩍이지 않고, 느린 기기에서 "불러오는 중…" 이 새지 않는다.
-    const SPLASH_MIN_MS = 1200;   // 최소 노출
+    const SPLASH_MIN_MS = 2000;   // 최소 노출
     const SPLASH_MAX_MS = 5000;   // 하드캡 — 스플래시에 갇히는 경우 방지
 
     function hideSplash() {
