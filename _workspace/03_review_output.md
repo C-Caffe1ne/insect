@@ -1,81 +1,49 @@
-## 코드 리뷰 결과 — 개인정보처리방침 추가분
+## 코드 리뷰 결과
 
-리뷰 대상: `project/index.html`, `project/style.css`, 신규 `project/privacy.html`
-검증 방식: 실제 파일 Read + grep/diff/node 출력 근거. 추측 없음.
-
----
+대상: `project/index.html` — `#pageSaved`(즐겨찾기)·`#pageRecent`(최근 본 곤충)로 iOS 엣지 스와이프 뒤로가기(`EntomaSwipeNav`) 인프라 확장.
+요구사항이 지정한 정확히 4곳만 변경되었음을 git diff로 확인 (그 외 hunk = 이전 세션의 미커밋 `pageRecent`/콘텐츠 보호 스캐폴딩, 이번 작업 범위 아님).
 
 ### Critical (즉시 수정 필요)
-
-**없음.** 신규 코드에 XSS(innerHTML), 리스너 누수, null 접근, 접근성 차단 이슈가 발견되지 않았습니다.
-
----
+- 없음.
 
 ### Warning (권장)
-
-**없음.** CLAUDE.md 규칙(2칸 인덴트·세미콜론·`const`/`let`·외부 .js 금지·클래스 재사용·커스텀 프로퍼티) 위반이 없습니다. 신규 CSS `.credits-list`는 하드코딩 색상 없이 `--text-secondary` 토큰을 재사용합니다.
-
----
+- 없음.
 
 ### Suggestion (선택)
 
-- **[privacy.html:10] 미사용 CSS 변수** — `--bg-card: #1a1a1a` 를 선언했으나 문서 내에서 참조되지 않습니다(`grep -c "var(--bg-card)" privacy.html` → 0). 삭제하거나 실제로 사용하면 됩니다.
-- **[privacy.html:10,15] 앱 팔레트와 미세 불일치** — 자립형 페이지라 색을 인라인 복제한 것은 요구사항(E)대로 올바르나, 값이 앱 원본과 약간 다릅니다. `--bg-card`는 앱 `#1a1d1b` vs 여기 `#1a1a1a`(미사용이라 무영향), `--border-subtle`는 앱 `rgba(255,255,255,0.05)` vs 여기 `0.08`(§경계선에 실제 사용, 살짝 더 진함). 팔레트 완전 일치를 원하면 `0.05`로 맞추세요. 시각적으로 무해한 수준입니다.
-- **[privacy.html:155] 이메일 평문 처리** — `hwanghs5290@gmail.com` 을 평문으로 둔 것은 "http 0건" 요건과 무관하며(`mailto:`는 http 문자열이 아님), `mailto:` 링크로 바꾸면 http 카운트를 0으로 유지하면서 사용성이 개선됩니다. 개발자의 의도적 결정이므로 필수는 아닙니다.
-- **[문서 정합성, 범위 밖] CLAUDE.md의 LocalStorage 키 표가 낡음** — CLAUDE.md는 `insectAppSettings`, `entoma_profile_photo`, `entoma_profile_bg` 를 키로 나열하지만, 실제 코드의 활성 키는 `entoma_favorites`, `entoma_recent`, `user_avatar`, `user_bg`, `user_profile_info` 입니다(`entoma_profile_*`는 `user_*`로 마이그레이션 후 삭제됨, `insectAppSettings`/`defaultHomeTab`은 코드에 0건). 방침 본문은 **실제 코드 기준으로 정확**하므로 이번 변경분에는 영향이 없으나, CLAUDE.md 갱신을 권합니다.
+- **[index.html:1923, 1935] 백버튼 null 가드 부재 (기존 패턴과 일치, 회귀 아님)**
+  `document.getElementById('savedBackBtn').addEventListener(...)` / `recentBackBtn` 이 null 가드 없이 바로 `.addEventListener`를 호출한다. 두 요소는 정적 마크업(466, 498행, `id`+`aria-label="뒤로"` 모두 존재)이라 실제 위험은 없고, `familyDetailBackBtn`(1869)·`speciesDetailBackBtn`(3364)과 동일한 무가드 패턴이라 일관적이다. 다만 바로 위 `profileBackBtn`(1914-1920)은 `if (profileBackBtn)` 가드를 두므로 스타일이 엇갈린다. 통일하려면 백버튼도 가드로 감싸는 편이 낫다 — 필수는 아님.
+  → 예: `const savedBackBtn = document.getElementById('savedBackBtn'); if (savedBackBtn) savedBackBtn.addEventListener('click', () => history.back());`
 
----
+- **[index.html:1812-1813] popstate 복귀 시 `syncNavForPage` 이중 호출 (기존 구조, 무해)**
+  `pageSaved`/`pageRecent`로 popstate 복귀할 때 `isSubPage=false → keepNav:false`이므로 `showPage()` 내부(1728)에서 `syncNavForPage`가 한 번 돌고, 이어 1813행에서 다시 명시적으로 호출된다. 멱등이라 부작용은 없고, 1813행은 원래 `keepNav:true`(family/species)일 때를 위한 것이라 이번 변경이 만든 문제가 아니다. 정리 대상으로만 참고.
 
-### 사실 정확성 검증 (법적 문서 — 최우선 항목)
+### 중점 검토 항목 확인 결과
 
-**본문 대조 결과: 두 표면 모두 §F와 문구 단위로 완전 일치.**
+**1) 히스토리 스택 정합성 — 종 상세로 더 깊이 들어갔다 나오는 경로 (안전)**
+- 진입 배선 추적: `pageSaved`의 결과 카드는 `buildResultItem(ins, 'pageSaved')`(3414)로 생성되고 클릭 시 `openSpeciesFromIndex(ins, 'pageSaved')`(2089) → `openSpeciesDetail(species, 'pageSaved')`(2136)로 이어진다. `pageRecent`도 동일(`'pageRecent'`, 3546). 여기서 `previousSpeciesPage='pageSaved'`가 되고, `showPage('pageSpeciesDetail', {keepNav:true})`(3343/3351/3357) 시 `prevActive.id='pageSaved'`가 `_subPageBackTarget.pageSpeciesDetail`에 동적 기록된다(1775).
+- 스택 트레이스 (Profile→전체보기→Saved→종상세→back→back):
+  `pageProfile`(replaceState) → `pageSaved`(pushState `#saved`, `_subPageBackTarget.pageSaved='pageProfile'`) → `pageSpeciesDetail`(pushState `#species`, `_subPageBackTarget.pageSpeciesDetail='pageSaved'`).
+  종상세 back → popstate: `pageId='pageSaved'`, `isSubPage=false` → `showPage('pageSaved', {keepNav:false, _fromHistory:true, restoreScroll:true})`. `_fromHistory:true`라 pushState/replaceState 블록(1770)은 스킵되어 히스토리 변형 없음, `dir='back'` 슬라이드 적용. 재차 back → `pageId='pageProfile'` → 정상 복귀. 스택이 정확히 한 스텝씩 소비되며 어긋나는 지점 없음.
+- 네이티브 스와이프 경로도 동일하게 안전: 종상세에서 `EntomaSwipeNav.begin()` → `_computeBackTarget()`가 `_subPageBackTarget.pageSpeciesDetail='pageSaved'`를 읽어 프리뷰 렌더 → `commit()`이 `_finalizingSwipe={to:'pageSaved'}` 후 `history.back()`. popstate의 `_finalizingSwipe` 분기(1790)가 재렌더 없이 `syncNavForPage('pageSaved')`만 수행하고 rAF로 `_syncNativeSwipeGesture('pageSaved')`를 다시 켠다 — `pageSaved`가 이제 enabled 목록에 포함되므로 프로필까지 연속 스와이프가 이어지고, 최종 `pageProfile` 도달 시 blocked/미enabled로 제스처가 꺼진다. family/species 흐름과 동형.
+- `previousSpeciesPage='pageSaved'/'pageRecent'`이므로 `reopenModal` 조건(`=== 'featureModal'`)은 false → 스와이프/뒤로가기 시 featureModal이 오작동으로 재오픈되지 않음. 확인됨.
 
-- 조항 제목 1~10: §F == `#pagePrivacy` == `privacy.html` (모두 True).
-- 본문/불릿 전체 33개 항목: 두 표면 모두 §F와 **EXACT MATCH** (정규화 후 프로그램 대조).
-- 날조된 사실 스캔(`암호화`, `익명화`, `동의`, `보관 기간`, `SSL/TLS`, `쿠키`, `가명`): 두 표면 모두 **0건**. §F에 없는 문장 추가·사실 변경 없음.
+**2) `keepNav:true`로 `syncNavForPage`가 스킵되는 부수효과 — 의도대로 (안전)**
+- 정방향 진입(`showPage('pageSaved', {keepNav:true})`)에서 `if (!options.keepNav) syncNavForPage()`(1728)가 스킵된다. 그러나 출발점 `pageProfile`과 목적지 `pageSaved`/`pageRecent`는 모두 `navProfile` 탭에 속하므로(1716) nav 상태·네이티브 탭바(`_syncNativeTabBar`)가 바뀔 필요가 없다. 스킵은 무해하며 family/species(navDiscover 유지) 패턴과 정확히 대칭이다.
+- 뒤이은 `document.getElementById('navProfile').classList.add('active')`(1931/1943)는 이미 활성인 탭을 재활성화하는 안전망 no-op으로, 요구사항 지시대로 유지됨.
+- 복귀(popstate)에서는 `isSubPage=false → keepNav:false`라 `syncNavForPage`가 정상 실행되어 `navProfile`이 확실히 활성화된다. `isSubPage` 판정에 두 페이지를 넣지 않은 것이 옳다는 요구사항 판단과 일치.
 
-**방침 주장 ↔ 실제 코드 교차 검증:**
+**3) `_subPageBackTarget` 미충전 시 `begin()`의 안전성 (안전)**
+- `_computeBackTarget()`(1821)은 `_subPageBackTarget[_activePageId]`가 falsy면 `null`을 반환하고, `begin()`(1842)은 `if (!t) return false`로 프리뷰를 렌더하지 않고 그대로 false를 반환한다 → 네이티브가 깨진 프리뷰 없이 제스처를 무시. 목적지 부재 시 그레이스풀.
+- 목적지 없이 제스처만 켜지는 창(window)도 없음: 초기 로드는 `history.replaceState({page:'pageDiscover'}, cleanUrl)`(1785)로 해시를 제거하고 `pageDiscover`로 강제 부팅하므로 `#saved` 직접 딥링크로 `pageSaved`에 바로 진입할 수 없다. 또한 `showPage` 내부에서 `_subPageBackTarget` 등록·pushState는 동기 실행(1775-1776)이고 `_syncNativeSwipeGesture`(제스처 ON)는 rAF로 지연 실행(1766)되므로, 제스처가 켜질 때는 항상 목적지가 이미 채워져 있다.
 
-| 방침 주장 | 검증 명령/근거 | 결과 |
-|---|---|---|
-| 회원가입·로그인·계정 없음 | 인증 로직 grep | 방침 문구 외 0건 ✓ |
-| 광고 SDK·분석·추적 없음 | `gtag/analytics/firebase/sentry/facebook/fbq/mixpanel/amplitude` grep | `<img>` 오탐뿐, SDK 0건 ✓ |
-| 기기 내부에만 저장(4종) | `localStorage.setItem` 전수 | `entoma_favorites`(즐겨찾기), `entoma_recent`(최근), `user_avatar`+`user_bg`(사진/배경), `user_profile_info`(이름/핸들/지역) → 방침 4개 항목과 1:1 매핑. **미공개 저장 흐름 없음** ✓ |
-| 외부 서버 3곳 | `inat_photo_cache.json` 호스트 집계 | 이미지 다운로드 호스트 3개(`inaturalist-open-data.s3.amazonaws.com`, `static.inaturalist.org`, `species.nibr.go.kr`) 정확히 일치 ✓ (아래 참고) |
-| 서체는 앱에 내장 | `@font-face src` | 전부 `url('fonts/*.woff2')` 로컬 번들, CDN 0건 ✓ |
+**4) 코드 스타일 (CLAUDE.md 준수 확인)**
+- 2칸 인덴트, 세미콜론, `const`/`let` 유지(`var` 신규 도입 0건 — grep 확인). 한글 `// ── … ──` 주석 스타일 일관. JS는 `index.html` 인라인 유지, 외부 `.js` 미추가. `project/` 범위 준수(`style.css` 무변경).
+- 구 `savedBackBtn` 본문(`showPage('pageProfile', {restoreScroll, dir:'back'})` + `navProfile.classList.add`)이 잔여 없이 `history.back();` 한 줄로 완전 교체됨을 diff로 확인. `recentBackBtn`/`profileRecentViewAll`도 `savedBackBtn`/`profileSavedViewAll`과 동일 패턴.
 
-- **참고(결함 아님):** 캐시에는 4번째 호스트 `www.inaturalist.org`(3건)가 있으나, 이는 이미지 `src`가 아니라 종 페이지 `pageUrl`(탭 시 브라우저로 열리는 링크)입니다. 방침 §4 마지막 문단("앱 내 링크… iNaturalist … 기본 브라우저가 열립니다")이 이를 별도로 고지하므로 방침은 정확합니다.
-- `fetch()` 호출은 로컬 JSON 3개(`inat_photo_cache.json`, `nibr_cache.json`, `search_index.json`)뿐 — 외부 서버로의 데이터 전송 없음, 방침과 일치.
-
-### privacy.html 자립성
-
-- `grep -c "http" project/privacy.html` → **0** (완료 기준 5 충족).
-- 외부 리소스 참조(src=/href=/`<link>`/`<script>`/`url()`/@import/CDN) **0건**.
-- `<html lang="ko">`, `<meta charset="UTF-8">`, viewport, `<title>개인정보처리방침 — KoIn Pedia</title>` 모두 존재.
-- heading 계층 정상: `<h1>` → `<h2>`×10, `<main>` 랜드마크 사용. 시스템 폰트 스택.
-
-### 신규 페이지 통합 (3개 지점 재검증 — 개발자 보고 아닌 직접 grep)
-
-1. `_subPageBackTarget` — index.html:1129 에 `pagePrivacy: 'pageSettings'` ✓
-2. FAB 숨김 조건 — index.html:2357 에 `page.id === 'pagePrivacy'` ✓
-3. 페이지 애니메이션 — style.css:3968 `#pagePrivacy` ✓
-4. `allPages`(`querySelectorAll('.page')`) 자동 포함, `syncNavForPage` 미매칭→navDiscover 폴백 — `pageCredits`와 동일 경로, 별도 수정 불필요 ✓
-
-### 이벤트 리스너 / XSS / 접근성
-
-- `_privacyNavBtn`(3757)·`_privacyBackBtn`(3765)은 설정 1회성 초기화 블록(주석 3720 "pageshow마다 재등록하지 않아 리스너 누수 없음") 바로 뒤 **최상위**에 등록. `pageshow` 핸들러 밖 → 5회 반복해도 재등록 없음 ✓
-- 둘 다 `if (el) { ... }` null 가드 유지, `getElementById` 참조가 HTML `id`와 1:1 ✓
-- 신규 리스너 블록에 `innerHTML` 사용 0건 ✓
-- `privacyNavBtn` `aria-label="개인정보처리방침 보기"` + chevron SVG `aria-hidden="true"`; `privacyBackBtn` `aria-label="뒤로"`. 뒤로 SVG는 `aria-hidden` 없으나 기존 `creditsBackBtn`과 동일 패턴이고 버튼이 라벨링되어 있어 결함 아님 ✓
-- 신규 `id` 각 1건(중복 없음): `privacyNavBtn`/`privacyBackBtn`/`pagePrivacy` ✓
-- 인라인 스크립트 `node --check` → **PASS** (완료 기준 7) ✓
-
-### 범위 이탈
-
-- `git status --porcelain` 상 `ios/`, `*.swift`, `Info.plist`, 데이터 JSON 변경 **0건** — 범위 클린 ✓
-
----
+**5) XSS·이벤트 리스너 누수 (이번 변경 범위에 없음)**
+- 변경분은 순수 네비게이션/히스토리 배선으로 `innerHTML`·외부 데이터 삽입이 없다. 결과 카드 렌더(`buildResultItem`)는 `textContent`/`createElement`만 사용(2064·2071·2074·2082) — 안전.
+- 백버튼·전체보기 핸들러 4종은 모두 초기화 블록에서 1회만 등록되며 `renderSavedPage`/`renderRecentPage` 렌더 루프 밖에 있어 리스너 누적 없음. `history.back()` 교체로 오히려 핸들러가 단순해짐.
 
 ### 종합 평가
-
-법적 문서로서 가장 중요한 "본문이 §F와 일치하고 코드 사실과 부합하는가"를 통과했습니다 — 두 표면 모두 문구 단위 완전 일치이고, 수집·저장·통신·서체 관련 모든 주장이 실제 코드와 교차 검증됩니다. 통합 3지점·리스너 1회 등록·자립성·범위 준수 전부 이상 없으며, Critical/Warning 0건입니다. 제안 사항은 privacy.html의 미사용/미세 불일치 CSS 변수와 문서(CLAUDE.md) 갱신 정도로, 배포를 막지 않습니다.
+요구사항의 4개 수정 지점이 정확히·최소 diff로 반영되었고, 종 상세로 내려갔다 올라오는 심화 경로와 네이티브 스와이프/버튼 뒤로가기 양쪽 모두에서 히스토리 스택이 어긋나지 않음을 코드 경로 추적으로 확인했다. Critical·Warning 0건이며, 지적한 두 Suggestion(백버튼 null 가드·popstate 이중 syncNav)은 모두 기존 코드에 이미 존재하던 스타일 사안으로 이번 변경이 유발한 결함이 아니다. 머지 가능 상태로 판단한다.

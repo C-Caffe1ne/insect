@@ -490,6 +490,38 @@
     </div>
 
     <!-- ═══════════════════════════════════════════ -->
+    <!-- PAGE 5b: RECENT (최근 본 곤충 전체보기)      -->
+    <!-- pageSaved 패턴 복제 — 기존 saved-*/empty-* 클래스 재사용 -->
+    <!-- ═══════════════════════════════════════════ -->
+    <div class="page" id="pageRecent">
+      <div class="saved-page-header">
+        <button class="saved-back-btn" id="recentBackBtn" aria-label="뒤로">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <line x1="19" y1="12" x2="5" y2="12"></line>
+            <polyline points="12 19 5 12 12 5"></polyline>
+          </svg>
+        </button>
+        <h2 class="saved-page-title">최근 본 곤충</h2>
+        <p class="saved-page-sub">최근에 조회한 곤충들을 다시 확인해보세요.</p>
+      </div>
+
+      <ul class="saved-result-list" id="recentResultList" role="list" hidden></ul>
+
+      <!-- Premium Recent Empty State -->
+      <div class="saved-empty-state">
+        <div class="empty-icon-glow">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <circle cx="12" cy="12" r="9"></circle>
+            <polyline points="12 7 12 12 15 15"></polyline>
+          </svg>
+        </div>
+        <p class="empty-title">아직 조회한 곤충이 없습니다</p>
+        <p class="empty-sub">도감에서 곤충 상세 정보를 확인하면 여기에 기록됩니다.</p>
+      </div>
+    </div>
+
+    <!-- ═══════════════════════════════════════════ -->
     <!-- PAGE 6: PROFILE (내 정보)                    -->
     <!-- ═══════════════════════════════════════════ -->
     <div class="page" id="pageProfile">
@@ -583,7 +615,7 @@
           <div>
             <h3 class="profile-section-title">최근 본 곤충</h3>
           </div>
-          <a href="#" class="profile-view-all">전체 보기</a>
+          <a href="#" class="profile-view-all" id="profileRecentViewAll">전체 보기</a>
         </div>
 
         <div class="profile-recent-scroll" id="profileRecentScroll"></div>
@@ -1649,7 +1681,9 @@
 
     const PAGE_HASHES = {
       pageFamilyDetail: 'family',
-      pageSpeciesDetail: 'species'
+      pageSpeciesDetail: 'species',
+      pageSaved: 'saved',
+      pageRecent: 'recent'
     };
 
     // ── 네이티브(iOS) 탭바 브릿지 ──
@@ -1665,7 +1699,8 @@
     // 스냅백 렉을 애초에 발생시키지 않는다.
     function _syncNativeSwipeGesture(pageId) {
       if (!window.Capacitor?.isNativePlatform?.()) return;
-      const enabled = pageId === 'pageFamilyDetail' || pageId === 'pageSpeciesDetail';
+      const enabled = pageId === 'pageFamilyDetail' || pageId === 'pageSpeciesDetail'
+        || pageId === 'pageSaved' || pageId === 'pageRecent';
       window.Capacitor.Plugins.NavigationGestureBridge?.setEnabled({ enabled });
     }
     // 네이티브 탭바 탭 → 웹 페이지 전환 (Swift에서 evaluateJavaScript로 호출)
@@ -1678,7 +1713,7 @@
       allNavItems.forEach(n => n.classList.remove('active'));
       let activeId;
       if (pageId === 'pageSearch') activeId = 'navSearch';
-      else if (pageId === 'pageProfile' || pageId === 'pageSaved') activeId = 'navProfile';
+      else if (pageId === 'pageProfile' || pageId === 'pageSaved' || pageId === 'pageRecent') activeId = 'navProfile';
       else activeId = 'navDiscover';
       document.getElementById(activeId).classList.add('active');
       _syncNativeTabBar(activeId);
@@ -1886,14 +1921,25 @@
 
     // ── 즐겨찾기 페이지 뒤로가기 → 프로필 ──
     document.getElementById('savedBackBtn').addEventListener('click', () => {
-      showPage('pageProfile', { restoreScroll: true, dir: 'back' });
-      document.getElementById('navProfile').classList.add('active');
+      history.back();
     });
 
     // ── 프로필 즐겨찾기 '전체 보기' → 즐겨찾기 페이지 ──
     document.getElementById('profileSavedViewAll').addEventListener('click', (e) => {
       e.preventDefault();
-      showPage('pageSaved', { dir: 'forward' });
+      showPage('pageSaved', { keepNav: true, dir: 'forward' });
+      document.getElementById('navProfile').classList.add('active');
+    });
+
+    // ── 최근 본 곤충 페이지 뒤로가기 → 프로필 ──
+    document.getElementById('recentBackBtn').addEventListener('click', () => {
+      history.back();
+    });
+
+    // ── 프로필 최근 본 곤충 '전체 보기' → 최근 본 곤충 페이지 ──
+    document.getElementById('profileRecentViewAll').addEventListener('click', (e) => {
+      e.preventDefault();
+      showPage('pageRecent', { keepNav: true, dir: 'forward' });
       document.getElementById('navProfile').classList.add('active');
     });
 
@@ -3475,6 +3521,45 @@
 
     document.addEventListener('pageshow:pageProfile', renderProfileRecent);
 
+    // 최근 본 곤충 전체보기 페이지 — loadRecent() 순서(최신순)를 보존하며 search_index에서 매칭
+    async function renderRecentPage() {
+      const list = document.getElementById('recentResultList');
+      const emptyState = document.querySelector('#pageRecent .saved-empty-state');
+      if (!list) return;
+
+      const arr = loadRecent();
+      list.innerHTML = '';
+
+      if (arr.length === 0) {
+        emptyState?.removeAttribute('hidden');
+        list.hidden = true;
+        return;
+      }
+
+      const data = await loadSearchIndex();
+      const insects = data?.insects || [];
+      // 즐겨찾기(Set 필터)와 달리 최근 조회 순서를 유지해야 하므로 arr를 순회하며 매칭한다.
+      const frag = document.createDocumentFragment();
+      arr.forEach(entry => {
+        const canonical = canonicalizeSciName(entry.sci);
+        const ins = insects.find(i => canonicalizeSciName(i.sci) === canonical);
+        if (ins) frag.appendChild(buildResultItem(ins, 'pageRecent'));
+      });
+
+      // 최근 목록은 있으나 전부 매칭 실패한 경우도 빈 상태로 처리
+      if (!frag.childElementCount) {
+        emptyState?.removeAttribute('hidden');
+        list.hidden = true;
+        return;
+      }
+
+      emptyState?.setAttribute('hidden', '');
+      list.hidden = false;
+      list.appendChild(frag);
+    }
+
+    document.addEventListener('pageshow:pageRecent', renderRecentPage);
+
     // 프로필 즐겨찾기 미리보기 — 최대 2장 카드 + 통계 카운트
     async function renderProfileFavorites() {
       const row = document.getElementById('profileFavRow');
@@ -4130,6 +4215,58 @@
     });
 
     document.getElementById('profileCropCancelBtn')?.addEventListener('click', closeCrop);
+
+    // ── 콘텐츠 보호 (텍스트 선택·복사 / 이미지 저장·드래그 방지) ──
+    // .app 컨테이너 한 곳에 이벤트를 위임해 방어한다. 검색·프로필 편집 등 입력 요소는
+    // 정상 선택·복사·붙여넣기가 필요하므로 예외 처리. 크롭 모달은 pointer/wheel 이벤트만
+    // 쓰므로 아래 dragstart/contextmenu/selectstart/copy/cut 방어와 충돌하지 않는다.
+    // 클립보드 우회(개발자도구 등)까지는 막지 못하나 일반 사용자의 복사·저장은 억제한다.
+    const _protectRoot = document.querySelector('.app');
+
+    // 이벤트 대상이 편집 가능한 컨텍스트(input·textarea·select·contenteditable)인지 판정.
+    // contextmenu/dragstart/selectstart 는 target(및 조상) 기준으로만 판정한다.
+    function _isEditableTarget(target) {
+      let el = target && target.nodeType === 3 ? target.parentElement : target;
+      if (el && el.nodeType === 1) {
+        if (el.closest('input, textarea, select')) return true;
+        if (el.isContentEditable) return true; // contenteditable 상속까지 정확 판정
+      }
+      return false;
+    }
+
+    // 키보드 복사(Cmd/Ctrl+C)는 target 이 아닌 포커스 요소 기준이라 activeElement 도 확인한다.
+    // copy/cut 전용 — contextmenu/selectstart 에 같이 쓰면 "입력창이 포커스를 쥔 채 다른 곳을
+    // 우클릭/롱프레스"하는 흔한 상황에서 방어가 전역으로 풀려버린다.
+    function _isEditableClipboard(e) {
+      if (_isEditableTarget(e.target)) return true;
+      const active = document.activeElement;
+      return !!(active && (active.matches?.('input, textarea, select') || active.isContentEditable));
+    }
+
+    if (_protectRoot) {
+      // 우클릭·롱프레스 컨텍스트 메뉴 차단 (입력 요소는 붙여넣기 등 위해 허용)
+      _protectRoot.addEventListener('contextmenu', (e) => {
+        if (_isEditableTarget(e.target)) return;
+        e.preventDefault();
+      });
+      // 이미지 드래그(끌어서 저장·복사) 차단
+      _protectRoot.addEventListener('dragstart', (e) => {
+        const t = e.target;
+        if (t && t.nodeType === 1 && t.closest('img')) e.preventDefault();
+      });
+      // 복사·잘라내기 차단 (입력 요소에서는 정상 허용)
+      const _blockClipboard = (e) => {
+        if (_isEditableClipboard(e)) return;
+        e.preventDefault();
+      };
+      _protectRoot.addEventListener('copy', _blockClipboard);
+      _protectRoot.addEventListener('cut', _blockClipboard);
+      // 선택 시작 차단 — CSS user-select 미지원 구형 WebView 대비 이중 방어 (입력 요소 예외)
+      _protectRoot.addEventListener('selectstart', (e) => {
+        if (_isEditableTarget(e.target)) return;
+        e.preventDefault();
+      });
+    }
 
     // ── 스플래시 해제 ──
     // 네이티브 런치스크린을 launchAutoHide: false 로 띄워두고 여기서 걷어낸다.

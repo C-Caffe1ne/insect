@@ -187,6 +187,35 @@ ul { list-style: none; }
   }
 }
 
+/* ── Content Protection (텍스트 선택·복사 / 이미지 저장·드래그 방지) ── */
+/* 앱 전역 텍스트 선택·iOS 롱프레스 콜아웃 차단 — 입력 폼은 아래에서 예외 복원 */
+.app {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none; /* iOS 롱프레스 콜아웃(텍스트/이미지 복사·저장 메뉴) 차단 */
+}
+
+/* 입력 요소(검색창·프로필 편집)는 정상 선택·커서 이동·붙여넣기가 필요하므로 예외 */
+.app input,
+.app textarea,
+.app select,
+.app [contenteditable]:not([contenteditable="false"]) {
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+  -webkit-touch-callout: default;
+}
+
+/* 이미지 롱프레스 저장·끌어서 저장(드래그) 차단 (pointer-events 는 유지 → 클릭 정상) */
+.app img {
+  -webkit-touch-callout: none;
+  -webkit-user-drag: none;
+  user-drag: none;
+}
+
 /* ══════════════════════════════════════════════
    PLACEHOLDER IMAGES (CSS gradients)
    ══════════════════════════════════════════════ */
@@ -1105,6 +1134,26 @@ ul { list-style: none; }
 
 .page::-webkit-scrollbar {
   display: none;
+}
+
+/* 종 상세페이지는 예외 — 스크롤바를 보이게 표시 */
+#pageSpeciesDetail.page.active {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255,255,255,0.12) transparent;
+}
+
+#pageSpeciesDetail.page::-webkit-scrollbar {
+  display: block;
+  width: 4px;
+}
+
+#pageSpeciesDetail.page::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+#pageSpeciesDetail.page::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.12);
+  border-radius: 2px;
 }
 
 @keyframes pageFadeIn {

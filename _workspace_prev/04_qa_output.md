@@ -1,54 +1,53 @@
 ## QA 검증 결과
 
-검증 대상: `project/index.html`, `project/style.css`
-검증 방식: 경계면 교차 비교 (HTML↔CSS↔JS 셀렉터/클래스/함수 정합성), JS 문법 파싱
+검증 대상: `project/index.html` 의 `#pageRecent`(최근 본 곤충 전체보기) 신규 서브페이지.
+방식: HTML id ↔ JS `getElementById`/`querySelector` 철자 단위 교차 비교, 이벤트 흐름 추적, 라우팅 상수 grep 재확인, 경계값 코드 흐름 추적. (빌드 도구 없는 정적 HTML — 소스 정합성 검증)
+
+---
 
 ### Pass ✅
 
-**QA-1: 뱃지 제거**
-- HTML 클래스 제거: `index.html`에서 `badge-item`, `badge-ring`, `badge-name`, `profile-badges-scroll` grep 결과 0건 (exit 1).
-- CSS 선택자 제거: `style.css`에서 `.badge-item`, `.badge-ring`, `.badge-name`, `.profile-badges-scroll` grep 결과 0건 (exit 1).
-- BADGES 텍스트 제거: `index.html` 전체에서 `BADGES`/`Badges`(주석 포함) grep 0건.
-- 통계 캡슐 정상화: `#pageProfile` 통계 컨테이너(`index.html:641-651`)는 `조회`(127) | divider 1개 | `저장`(42) 구조. BADGES stat item 및 잉여 divider 제거 확인.
-- "Badges Earned" 섹션 전체 삭제 확인: `#pageProfile`(588~733)에 `profile-section`이 「나의 컬렉션」(656)·「최근 만난 곤충」(688) 2개만 존재.
+- **[1] `#pageRecent` DOM 등록**: `<div class="page" id="pageRecent">`(496행)가 `#pageSaved`(490행 종료) 뒤·`#pageProfile`(527행) 앞에 형제 `.page` 로 존재. 세 페이지 모두 `.app` 컨테이너 내부 형제이며 `class="page"` 를 가지므로 `allPages = document.querySelectorAll('.page')`(런타임 조회)에 자동 포함. `showPage`/`popstate` 가 별도 등록 없이 인식.
 
-**QA-2: 영어→한글 번역 (#pageProfile 범위 588~733)**
-- aria-label: `뒤로`(592), `설정`(599) — Go Back / Settings 없음.
-- stat label: `조회`(644), `저장`(649) — VIEWED / SAVED / BADGES 없음.
-- 섹션 제목/부제: `나의 컬렉션`(659) / `관심 있는 곤충들`(660), `최근 만난 곤충`(691) / `최근에 발견한 곤충들`(692).
-- 링크: `전체 보기`(662, 694) — VIEW ALL 없음.
-- collection-tag: `즐겨찾기`(670, 679) — FAVORITE 없음.
-- recent-time-badge: `오늘`(705) / `어제`(716) / `2일 전`(727) — TODAY/YESTERDAY/2 DAYS AGO 없음.
-- head: `<title>ENTOMA · KR — 한국 곤충도감`(11), meta description `한국 곤충 분류와 종 정보를 탐색하는 프리미엄 곤충도감입니다.`(13).
-- 주의(비결함): 잔존 영어 grep 매치는 HTML 주석 `<!-- My Collection Section -->`(655), `<!-- Recently Encountered Section -->`(687) 및 태스크 범위 밖 Discover 페이지 `featured-tag` "TODAY"(94)뿐. 모두 렌더링 텍스트 아님 → 요구사항 범위 충족.
+- **[2] `recentBackBtn` / `recentResultList` 철자 일치**: HTML `id="recentBackBtn"`(498행) ↔ JS `document.getElementById('recentBackBtn')`(1933행) 정확히 일치. HTML `id="recentResultList"`(509행) ↔ JS `document.getElementById('recentResultList')`(3525행) 정확히 일치. 오타·대소문자 불일치 없음. 각 id 문서 내 유일(정의 1회).
 
-**QA-3: 즐겨찾기 페이지 JS 연결**
-- `<ul id="savedResultList" class="saved-result-list" role="list" hidden>` 존재: `index.html:570`.
-- `renderSavedPage` 정의: `index.html:3369` (async function).
-- pageshow 리스너: `document.addEventListener('pageshow:pageSaved', renderSavedPage)` — `index.html:3403`.
-- `pageshow:pageSaved` 이벤트 실제 발행 확인: `showPage()`가 모든 페이지 전환 시 `document.dispatchEvent(new CustomEvent('pageshow:' + pageId))` 발행 (`index.html:1582`) → Saved 진입 시마다 renderSavedPage 실행됨.
-- `buildResultItem(ins, fromPage = 'pageSearch')` 시그니처 파라미터화: `index.html:1742`. 내부 click/keydown 핸들러가 `openSpeciesFromIndex(ins, fromPage)` 호출(1784) → fromPage 반영.
-- renderSavedPage가 `buildResultItem(ins, 'pageSaved')` 호출: `index.html:3399`. (리스너 중복 부착 버그 없음 — 단일 버전 buildResultItem 재사용.)
-- 의존 함수 전부 존재: `loadFavorites`(3359), `loadSearchIndex`(1663), `canonicalizeSciName`(3025), `.saved-empty-state`(573). 저자명 포함 학명 대응을 위해 `favs.has(ins.sci) || favs.has(canonicalizeSciName(ins.sci))` 필터 적용(3387-3388).
+- **[3] `profileRecentViewAll` 부여 및 충돌 없음**: 프로필 "최근 본 곤충" 섹션(613~625행) 헤더의 `<a href="#" class="profile-view-all" id="profileRecentViewAll">전체 보기</a>`(618행) ↔ JS 리스너 `document.getElementById('profileRecentViewAll')`(1939행) 일치. 즐겨찾기 섹션의 `profileSavedViewAll`(603행 HTML / 1926행 JS)과 id·리스너가 완전히 분리 — 각각 다른 섹션·다른 목적지(`pageSaved` vs `pageRecent`)로 배선되어 혼동/충돌 없음.
 
-**QA-4: 폰트 설정 (style.css @font-face Line Seed KR, 7~12행)**
-- `font-weight: 100 900` 범위로 변경 확인 (style.css:10) — 단일값(400/700) 아님.
-- `font-display: swap` 추가 확인 (style.css:12).
-- src 단일 `fonts/LINESeedKR-Rg.woff2`(9) 유지, 합성 볼드 허용 구성.
+- **[4] `pageshow:pageRecent` 바인딩 ↔ dispatch 경로 일치**: `document.addEventListener('pageshow:pageRecent', renderRecentPage)`(3560행)로 등록. `showPage()`가 전환 시 `document.dispatchEvent(new CustomEvent('pageshow:' + pageId))`(1764행)를 호출 → `pageId==='pageRecent'` 이면 `'pageshow:pageRecent'` 발생 → 리스너 발화. 리스너 등록(3560)·dispatch(1764) 모두 스크립트 최초 파싱 시 실행, 실제 전환(클릭)은 그 이후이므로 타이밍 문제 없음.
 
-**QA-5: 기존 기능 회귀**
-- pageSearch 호출부: `buildResultItem(ins)`(1737), `buildResultItem(ins)`(2185) — 2번째 인자 생략 시 기본값 `'pageSearch'` 적용 → 기존 동작 유지(호환).
-- `openSpeciesFromIndex(ins, fromPage='pageSearch')`(1796)가 `openSpeciesDetail({...}, fromPage)`(1813~1848 영역, 35행째 `}, fromPage`)로 전달 → `openSpeciesDetail`(3285)이 `previousSpeciesPage = fromPage`(3287) 설정 → 뒤로가기 시 `showPage(previousSpeciesPage)`(3352)로 복귀. pageSaved 흐름 정상.
-- 기존 호출 `openSpeciesFromIndex(ins)`(1935), `(ins, 'pageDiscover')`(1920-1921) 모두 시그니처 호환.
-- JS 문법: 인라인 스크립트 블록 `new Function(code)` 파싱 통과 (errors: 0).
+- **[5] `syncNavForPage()` 분기 확장 정합**: 1713행 `else if (pageId === 'pageProfile' || pageId === 'pageSaved' || pageId === 'pageRecent') activeId = 'navProfile';` — 기존 `pageProfile || pageSaved` OR 체인에 `|| pageId === 'pageRecent'` 만 추가. 문법 정상, 앞선 `pageSearch` 분기·뒤 `else` 분기와 독립. pageRecent가 이전엔 `else → navDiscover`(오작동)로 빠지던 것을 navProfile로 교정. 다른 페이지 분기 결과 불변.
+
+- **[6] 뒤로가기 목적지 실존**: `recentBackBtn` 클릭(1933~1936) → `showPage('pageProfile', { restoreScroll: true, dir: 'back' })`. `id="pageProfile"`(527행) 실존. 동반 `document.getElementById('navProfile')`(1935) → `id="navProfile"`(817행) 실존. `savedBackBtn`(1920) 패턴과 바이트 단위 동일. `history.back()` 미사용 — replaceState 서브페이지 특성에 맞는 직접 호출.
+
+- **[7] 함수 정의 순서 / 호이스팅**: `renderRecentPage`(3524)가 호출하는 5개 함수 전부 **함수 선언(function declaration)** — `loadRecent`(3423), `loadSearchIndex`(1967), `canonicalizeSciName`(3275), `buildResultItem`(2046), `openSpeciesFromIndex`(2100, 간접). 화살표/`const` 할당 아님 → 스크립트 스코프 전체로 호이스팅. 게다가 `renderRecentPage`는 이벤트 발화(런타임) 시점에만 실행되므로 파싱 순서와 무관하게 모든 참조 함수가 정의 완료 상태. `renderRecentPage` 자신도 선언식이라 3560행 리스너 등록 시 참조 안전.
+
+- **[8] `hidden` 초기 상태 ↔ JS 토글 정합**: 마크업에서 `#recentResultList` 은 `hidden` 속성 보유(509행), `.saved-empty-state` 는 `hidden` 없이 시작(512행) — `#pageSaved` 원본(477/480행)과 동일 컨벤션. JS(`renderRecentPage`)는 데이터 있을 때 `emptyState.setAttribute('hidden','')` + `list.hidden=false`, 없을 때 `emptyState.removeAttribute('hidden')` + `list.hidden=true` 로 상호 배타 토글. 초기값(리스트 숨김·빈상태 표시)과 렌더 후 상태가 모순 없이 맞물림.
+
+- **[9] 라우팅 상수 3종 미등록 (독립 재확인)**: grep 재실행 결과 —
+  - `SWIPE_BACK_BLOCKED_PAGES`(1030행) = `{'pageDiscover','pageSearch','pageProfile'}` → **pageRecent 없음**
+  - `_subPageBackTarget`(1033행 초기값) = `{pageFamilyDetail, pageSpeciesDetail}` → **pageRecent 없음**
+  - `PAGE_HASHES`(1682~1685행) = `{pageFamilyDetail, pageSpeciesDetail}` → **pageRecent 없음**
+  세 상수 전체 `pageRecent` 매치 0건. `pageSaved` 와 동일하게 hash 없는 단순 replaceState 서브페이지로 유지 확인. `showPage('pageRecent',{dir:'forward'})`(1941)은 hash 미존재 → replaceState 경로(1774~1777) 진입.
+
+- **[10] 경계값 코드 흐름**:
+  - **빈 배열(`entoma_recent`=[])**: `loadRecent()`(3423)가 `[]` 반환 → `arr.length===0` 조기 반환(3532~3536) → 빈 상태 표시, `list.hidden=true`. 크래시·루프 없음.
+  - **30개 만재**: `pushRecentEntry`(3440)가 `RECENT_MAX=30` 로 slice 유지 → `arr.forEach`(3542)가 최대 30회 순회. 항목당 `insects.find`(≤300종) O(n) — 최악 9,000회 정규식 실행이나 유한·결정적. 무한루프 없음(리뷰 Suggestion의 Map 최적화는 성능 개선일 뿐 정확성 무관).
+  - **search_index 매칭 실패**: `insects.find(...)` → `undefined` → `if (ins)`(3545) 가드로 조용히 스킵(throw 없음). 전부 실패 시 `frag.childElementCount===0` → 빈 상태 처리(3549~3553).
+  - **로드 실패 fallback**: `loadSearchIndex()`(1967)가 fetch 실패를 catch 하고 `{insects:[],...}`(1981) 반환 → `data?.insects || []` = `[]` → 전 항목 미매칭 → 빈 상태. 예외 전파 없음.
+  - **`entry.sci` 결측**: `canonicalizeSciName(raw)` 가 `if(!raw) return ''`(3276) 가드 보유. 단, `pushRecentEntry`(3437)가 `/^[A-Z][a-z]+/` 통과 학명만 저장하므로 실사용에서 빈 sci 진입 불가. 오염 저장소라도 최악은 오매칭/미매칭일 뿐 크래시 없음.
+
+**부가 확인**: `entry.sci` 필드 정합 — `pushRecentEntry`(3439)가 `{ sci, kr, img }` 로 저장, `renderRecentPage`(3543)가 `entry.sci` 참조 → 스키마 일치. XSS 회피(리뷰 재확인) — 카드는 raw `entry` 가 아닌 search_index `ins` 로 `buildResultItem(ins,'pageRecent')` 생성. `fromPage='pageRecent'` 전파 → 종 상세 뒤로가기 복귀 경로 정확(리뷰 항목 3과 일치).
 
 ### Fail ❌
-- 없음.
+
+- **없음.** 검증 10개 항목 전부 통과. 셀렉터-요소 불일치, 리스너-DOM 단절, 상수 오등록, 경계값 크래시 경로 없음.
 
 ### 수동 테스트 필요
-- 즐겨찾기 canonical 매칭 실제 동작: `localStorage('entoma_favorites')`에 저자명 제거형(예: `Anax parthenope`)으로 저장된 항목이 `search_index.json`의 저자명 포함 `ins.sci`와 canonical 비교로 매칭되는지는 런타임 데이터 의존 → 브라우저에서 실종 추가 후 Saved 진입 확인 권장.
-- 합성 볼드 시각 품질: `font-weight: 100 900` 범위 선언으로 600/700 사용처(다수)가 합성 볼드로 렌더되는데, 실제 굵기 표현 품질은 브라우저 렌더링 육안 확인 필요(코드 레벨 검증 불가).
-- pageshow 갱신 타이밍: 즐겨찾기 해제 후 재진입 시 목록 갱신은 이벤트 발행 경로상 정상이나, popstate(뒤로가기) 경유 진입에서도 `pageshow:pageSaved` 발행되는지 실브라우저 확인 권장.
+
+- **전환 애니메이션 시각 확인**: `dir:'forward'`/`dir:'back'` slide 클래스 토글(1736~1739)의 실제 슬라이드 방향·프레임 부드러움은 코드로 방향만 검증 가능, 시각적 품질은 실기기(iOS WKWebView) 확인 권장.
+- **empty-state 순간 노출**: 첫 진입 시 `await loadSearchIndex()` 이전 빈 상태가 한 프레임 보였다 사라질 수 있음(리뷰 Suggestion과 동일, `renderSavedPage` 상속 패턴 — 회귀 아님). 캐시 미적재 상태에서의 실제 깜빡임 여부는 실기기 확인 대상.
+- **네이티브 엣지 스와이프 동작**: `pageRecent` 는 `_subPageBackTarget` 미등록으로 `_computeBackTarget`(1818)이 `null` 반환 → 네이티브 스와이프 백 프리뷰 대상 아님(pageSaved 동일 설계). 실제 Capacitor 셸에서 스와이프가 무반응인지(의도된 동작)는 실기기 확인 권장.
 
 ### 종합: 전체 Pass
-QA-1 ~ QA-5 전 항목 코드 레벨 정합성 통과. 끊긴 경계면(셀렉터-요소, 함수 정의-호출, 이벤트 발행-구독, CSS-HTML 클래스) 없음. Critical/일반 Fail 0건.
+
+10개 검증 항목 전부 통과. `#pageSaved` 패턴을 셀렉터·라우팅 상수 제외·리스너 배선·접근성·경계처리까지 정확히 복제했고, 신규 id 4종(`pageRecent`/`recentBackBtn`/`recentResultList`/`profileRecentViewAll`) 모두 HTML 실존 ↔ JS 참조 철자 일치. Critical/Fail 0건. 현 구현 배포 가능.

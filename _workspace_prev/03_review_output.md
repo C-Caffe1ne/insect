@@ -1,65 +1,66 @@
 ## 코드 리뷰 결과
 
-검토 대상: `project/index.html`, `project/style.css`
-검토 범위: 즐겨찾기 페이지 JS, HTML 번역 누락, badge 클래스 삭제, `@font-face` weight 범위
-JS 구문 검증: `new Function()` 파싱 통과 (단일 스크립트 블록, 약 105K자)
+검토 대상: `project/index.html` 의 `#pageRecent`(최근 본 곤충 전체보기) 신규 서브페이지 관련 변경만.
+콘텐츠 보호(contextmenu/dragstart/copy/cut/selectstart) 변경은 별개 기능이므로 검토 제외.
 
 ---
 
 ### Critical (즉시 수정 필요)
 
-없음. 이번 4개 태스크 변경분에서 XSS, 이벤트 리스너 누수, null 접근, fetch 미처리 등의 Critical 이슈는 발견되지 않았습니다.
-
-검증 근거:
-- `buildResultItem`(index.html:1742)은 모든 데이터를 `textContent`로 삽입 (`krEl.textContent = ins.kr`, `sciEl.textContent = ins.sci`, 분류 span도 `textContent`). XSS 안전.
-- `renderSavedPage`(index.html:3369)는 `getElementById` 결과를 `if (!list) return` null 가드 처리. `emptyState?.` 옵셔널 체이닝 사용.
-- `loadSearchIndex`(index.html:1663)는 `.catch`로 fetch 실패를 처리하고 빈 인덱스로 폴백. `renderSavedPage`는 `data?.insects || []`로 추가 방어.
-- `pageshow:pageSaved` 리스너(index.html:3403)는 모듈 스크립트 최상위에서 1회만 등록. 중복 등록 경로 없음 (반복 호출되는 init 함수 내부 아님).
+- **없음.** 이번 작업 범위(`#pageRecent`) 내에 Critical 이슈 없음.
 
 ---
 
 ### Warning (권장)
 
-- **[style.css:7-13] `@font-face font-weight: 100 900`이 정적 폰트에 선언됨 — 가짜 굵기 합성 발생.**
-  `font-weight: 100 900` 2값 구문 자체는 CSS Fonts L4 표준이며 유효합니다. 그러나 `src`가 `fonts/LINESeedKR-Rg.woff2` (정적 Regular 단일 굵기) 한 개뿐이고, `fonts/` 디렉토리에 가변 폰트나 Bold/Light 파일이 없습니다. CSS는 300~700 굵기를 광범위하게 사용하므로(style.css 전체에 `font-weight: 600/700` 다수), 브라우저가 600/700을 faux-bold로 합성합니다. 한글 본문 가독성·렌더 품질 저하 가능.
-  → 수정 제안: 실제 가진 굵기에 맞춰 `font-weight: 400;`(정적 단일값)로 선언하거나, 가변 폰트(`LINESeedKR-VF.woff2`) 또는 굵기별 파일을 추가하고 각 weight에 별도 `@font-face`를 선언. 정적 Regular만 쓸 거라면 범위 선언은 제거.
-
-- **[index.html:637-638, 671-672, 680-681] `#pageProfile`에 번역 누락 영어 텍스트 잔존.**
-  태스크 2의 검토 항목입니다. 다음이 영어로 남아 있습니다:
-  - `profile-name` "Yujin Park", `profile-handle-location` "@yujin.entoma · Seoul, KR"
-  - `collection-title` "Jewel Beetle"(671), "Asian Swallowtail"(680) — 다른 카드의 통명(`recent-title-kr`)은 모두 한글인데 컬렉션 카드만 영어 통명. 일관성 불일치.
-  → 수정 제안: 컬렉션 통명을 한글로 ("비단벌레", "산호랑나비" 등). 학명(`collection-scientific` `Chrysochroa fulgidissima` 등)과 `recent-title-sci`는 학명 표기 관례상 그대로 두는 것이 맞음. 프로필 이름/핸들은 도감 톤에 맞춰 한글화 검토(선택).
-
-- **[index.html:632, 667, 676] 영어 `alt` 텍스트 잔존.**
-  `<img ... alt="Yujin Park">`(632), `alt="Jewel Beetle"`(667), `alt="Asian Swallowtail">`(676). 화면 표시 텍스트 한글화 시 `alt`도 함께 한글로 통일 권장 (스크린리더 일관성).
-
-- **[style.css:2652-2668] 미사용 CSS 규칙 `.result-badges` / `.result-badge` / `--eol` / `--nibr`.**
-  HTML·JS 어디에서도 이 클래스를 참조하지 않습니다(`grep` 교차 확인). 이번 태스크가 만든 것은 아니나(기존 잔존), badge 정리 맥락에서 함께 제거 검토 권장.
-
-- **[index.html:688] 인라인 스타일 정적 사용.**
-  `<section class="profile-section" style="margin-bottom: 24px;">` — 동적 조작이 아닌 정적 값이므로 CSS 클래스로 이동 권장. (기존 코드, 이번 변경 외.)
+- **없음.** 요청된 7개 확인 항목 모두 통과. 라우팅 상수 오등록·리스너 누수·null 접근·접근성 누락 없음.
 
 ---
 
 ### Suggestion (선택)
 
-- **[index.html:3387-3388] 즐겨찾기 canonical 매칭 — 개발자 보완 적절. 추가 메모만.**
-  `favs.has(ins.sci) || favs.has(canonicalizeSciName(ins.sci))` 보완은 정확합니다. 실제 `search_index.json` 300종 중 183종이 괄호 저자명 포함이고, 괄호 없는 종조차 말미에 저자명을 가집니다(예: `"Ctenolepisma longicaudata Escherich"`). 따라서 `favs.has(ins.sci)`는 사실상 절대 매칭되지 않고, canonical 폴백이 실제 동작을 담당합니다. 즐겨찾기 저장값(`openSpeciesFromIndex` → `scientificName = canonicalizeSciName(ins.sci)`, index.html:1808-1833)과 동일 변환이므로 결정적으로 일치. 로직 정상.
-  → 첫 번째 `favs.has(ins.sci)` 항은 실질 효과가 없어 가독성상 제거해도 무방하나, 미래에 raw sci로 저장하는 경로가 생길 가능성에 대비한 방어로 남겨두는 것도 합리적. 의도를 주석으로 명시하면 좋음.
+- **[index.html:3542-3546] `insects.find()` 반복 순회 → Map 사전 구축 (개발자 질의 Q1 회신)**
+  `arr.forEach` 안에서 항목마다 `insects.find(i => canonicalizeSciName(i.sci) === canonical)` 를 호출하므로, 최악의 경우 `canonicalizeSciName` 가 최근 30개 × 300종 ≈ 9,000회 실행된다(각 호출에 정규식 다수). 최근 목록 순서를 보존하면서도 O(n×m)→O(n+m) 로 줄이려면 루프 진입 전 canonical→ins Map을 한 번만 만들면 된다.
+  → 수정 제안:
+  ```js
+  const bySci = new Map();
+  insects.forEach(i => { const c = canonicalizeSciName(i.sci); if (c && !bySci.has(c)) bySci.set(c, i); });
+  arr.forEach(entry => {
+    const ins = bySci.get(canonicalizeSciName(entry.sci));
+    if (ins) frag.appendChild(buildResultItem(ins, 'pageRecent'));
+  });
+  ```
+  실사용 규모(30×300)에선 체감 지연이 없어 **현 구현도 허용 범위**이며, 순수 개선 제안이다. 순서 보존 로직 자체는 정확하다.
 
-- **[index.html:1742] `buildResultItem(ins, fromPage='pageSearch')` 호환성 — 안전.**
-  기본값 파라미터라 기존 `buildResultItem(ins)` 호출부(1737, 2185)는 `pageSearch`로 자동 동작. `renderSavedPage`만 `'pageSaved'` 전달. 후방 호환 OK.
+- **[index.html:512-521] 빈 상태 아이콘 시계 교체 (개발자 질의 Q2 회신)**
+  하트(즐겨찾기 의미) 대신 시계 SVG(`<circle>`+`<polyline>`)로 교체한 판단은 적절하다. `stroke-width="1.8"` 등 `.empty-icon-glow` 상속 스타일과 일관되고 CSS 규칙 추가가 전혀 없어 "신규 CSS 불필요" 설계 의도에 부합한다. **컨벤션 상충 없음.**
 
-- **[index.html:3833 영역] Step B 흐름 — 수정 불필요 확인.**
-  `openSpeciesFromIndex(ins, fromPage)` → `openSpeciesDetail(..., fromPage)`로 `fromPage`를 전달하므로 `'pageSaved'` 뒤로가기 복귀 동작은 추가 작업 없이 성립.
+- **[index.html:509 / 512] 최초 진입 시 empty-state 순간 노출 (pageSaved 상속, 회귀 아님)**
+  `.saved-empty-state` 가 마크업에 `hidden` 없이 시작하고 `await loadSearchIndex()` 이후에야 `setAttribute('hidden','')` 되므로, search_index가 아직 캐시되지 않은 첫 렌더에서 빈 상태가 한순간 보였다 사라질 수 있다. 이는 복제 원본인 `renderSavedPage`(3410행)와 **완전히 동일한 기존 패턴**이라 이번 작업의 회귀가 아니며, `loadSearchIndex` 가 메모이즈되어 통상 즉시 resolve되므로 실사용 영향은 미미하다. 굳이 개선한다면 렌더 시작 시점에 `emptyState?.setAttribute('hidden','')` 를 먼저 두면 되나, pageSaved와의 패턴 일관성 유지가 우선이므로 **현 상태 유지 권장.**
 
-- **[index.html:570] `<ul ... hidden>` 가시성 — 정상.**
-  `.saved-result-list`(style.css:1285)는 `display`를 강제하지 않고 `[hidden]` 오버라이드 규칙도 없어 네이티브 `[hidden]`(display:none)이 정상 적용됨.
+---
+
+### 검증 완료 항목 (요청 7개 교차 확인)
+
+1. **XSS 안전 (통과)** — `renderRecentPage`(3524)는 raw `entry` 를 DOM에 직접 꽂지 않는다. `entry.sci` 는 `canonicalizeSciName(entry.sci)` 매칭 계산에만 쓰이고, 실제 카드는 `search_index` 에서 찾은 `ins` 객체로 `buildResultItem(ins,'pageRecent')`(2046) 이 생성한다. `buildResultItem` 은 `krEl/sciEl/taxEl` 전부 `textContent`, 이미지도 `img.src`/`img.alt` **속성 할당**만 사용 → `innerHTML` 삽입 경로 없음. 확인 요청대로 `entry` 가 아닌 `ins` 를 쓰는 것이 맞다.
+   - (참고, **범위 외**) 인접한 기존 함수 `renderProfileRecent`(3495-3497)는 `entry.kr`/`entry.sci` 를 `innerHTML` 템플릿에 직접 삽입한다. 같은 `entoma_recent` 데이터원을 쓰지만 이번 작업이 건드리지 않은 사전 존재 코드(요구사항서에서 수정 금지 명시)라 이번 리뷰 대상은 아니다. 다만 신규 `renderRecentPage` 가 바로 이 함정을 피해 안전하게 구현됐다는 점을 확증한다. 별도 정리 시 오케스트레이터가 인지하도록 남겨 둔다.
+
+2. **히스토리/뒤로가기 정합성 (통과)** — `pageRecent` 가 `SWIPE_BACK_BLOCKED_PAGES`(1030), `PAGE_HASHES`(1682-1685), `_subPageBackTarget` 초기값(1033) **어디에도 없음**(grep로 교차 확인). `recentBackBtn`(1933)은 `history.back()` 이 아니라 `showPage('pageProfile',{restoreScroll:true,dir:'back'})` 직접 호출 → `pageSaved`(1920) 패턴과 바이트 단위로 동일. `showPage('pageRecent',{dir:'forward'})` 는 hash 없음 → `replaceState` 경로(1774-1777)로 처리되어 pageSaved와 동일한 단순 서브페이지로 동작.
+
+3. **`fromPage` 전파 → 종 상세 복귀 (통과)** — `buildResultItem(ins,'pageRecent')` → li 클릭 → `openSpeciesFromIndex(ins,'pageRecent')`(2100) → `openSpeciesDetail(...,'pageRecent')`(3309): `previousSpeciesPage='pageRecent'` 저장 후 `showPage('pageSpeciesDetail',{keepNav:true})`. `pageSpeciesDetail` 은 `PAGE_HASHES` 에 있으므로 `_subPageBackTarget['pageSpeciesDetail']='pageRecent'`(1772) 기록 + `pushState`. 종 상세 뒤로가기 `history.back()` → popstate `e.state.page='pageRecent'` → `showPage('pageRecent',...)` + `syncNavForPage('pageRecent')` + `pageshow:pageRecent` 재렌더. **정확히 pageRecent로 복귀** 확인. (네이티브 스와이프 프리뷰 경로도 `_subPageBackTarget` 값이 pageRecent로 갱신되어 pageSaved와 동일하게 동작.)
+
+4. **이벤트 리스너 누수 없음 (통과)** — `pageshow:pageRecent` document 리스너는 스크립트 초기화 시 **1회만** 등록(grep count=1). 재렌더 시 `list.innerHTML=''` 로 기존 `<li>` 를 제거하면 그에 붙은 click/keydown 리스너도 노드와 함께 GC 대상이 되고, `buildResultItem` 은 매 호출마다 **새로 만든** `<li>` 에만 리스너를 부착 → 동일 엘리먼트 중복 부착 없음.
+
+5. **매칭 실패 빈 상태 (통과)** — `arr.length===0` 조기 반환(빈 최근 목록) + `if(!frag.childElementCount)` 가드(전부 매칭 실패)로 두 경우 모두 empty-state 노출 + `list.hidden=true`. `if(ins)` 가드로 미매칭 항목 조용히 스킵(throw 없음). `renderSavedPage` 와 동일한 빈 상태 시맨틱.
+
+6. **접근성 (통과, pageSaved 동급)** — `recentResultList` 에 `role="list"` + `hidden`(509), `recentBackBtn` 에 `aria-label="뒤로"`(498), empty-state div는 `hidden` 없이 시작해 JS 토글(컨벤션 동일). 아이콘 SVG는 라벨된 버튼/빈상태 내부의 장식 요소로 pageSaved와 동일 처리. 신규 페이지 접근성 수준이 원본과 일치.
+
+7. **`syncNavForPage` 부작용 없음 (통과)** — 1713행에서 기존 `pageProfile || pageSaved` else-if 에 `|| pageId === 'pageRecent'` 만 추가. 이전에는 pageRecent가 `else → navDiscover`(오작동)로 빠졌을 것을 navProfile로 교정하는 것으로, 추가된 OR 조건은 pageRecent 외 다른 페이지의 분기 결과를 바꾸지 않는다.
+
+**부가 확인**: 신규 id 4종(`pageRecent`/`recentBackBtn`/`recentResultList`/`profileRecentViewAll`) 문서 내 유일(각 정의 1회), `#pageRecent .saved-empty-state` 셀렉터 단일 해석, 인덴트 2칸·`const`/`let`·세미콜론 등 CLAUDE.md 코드 규약 준수. `style.css` 무수정 확인.
 
 ---
 
 ### 종합 평가
 
-이번 4개 태스크 변경분은 Critical 0개로 품질이 양호하며, 특히 즐겨찾기 canonical 매칭 버그를 선제적으로 발견·수정한 점이 우수합니다(데이터 300종으로 교차 검증 완료). 다만 (1) 정적 Regular 폰트에 `font-weight: 100 900` 범위 선언은 표준상 유효하나 faux-bold 합성을 유발하므로 단일값/가변폰트로 정정 권장하고, (2) `#pageProfile`의 컬렉션 카드 영어 통명·alt가 번역 누락으로 남아 있어 보완이 필요합니다.
-
-— 발신: code-reviewer · 리뷰 완료, Critical 0개 / Warning 5개 / Suggestion 4개
+`#pageSaved` 패턴을 XSS 회피 지점(raw entry 대신 search_index `ins` 사용)·라우팅 상수 제외·리스너 등록 위치·접근성·문구까지 정확히 복제한 견고한 구현으로, 요청된 7개 확인 항목 전부 통과했고 **Critical·Warning 0건**이다. 제안 사항(find→Map 최적화)은 실사용 규모에서 무해한 선택 개선이며 현 구현 그대로 배포 가능하다.

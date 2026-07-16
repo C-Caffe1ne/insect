@@ -1,70 +1,90 @@
-## 구현 완료 — App Store 6번: 개인정보처리방침
+## 구현 완료
 
-### 생성/수정된 파일
+즐겨찾기(`#pageSaved`)·최근 본 곤충(`#pageRecent`) 페이지에 iOS 엣지 스와이프 뒤로가기를 켜기 위해,
+기존 `pageFamilyDetail`/`pageSpeciesDetail` 스와이프 백 인프라(`EntomaSwipeNav` / Swift `SwipeBackController`)를
+두 페이지로 확장했다. 요구사항 문서의 4개 수정 지점만 최소 diff로 반영. **Swift·CSS 변경 없음.**
 
-- **`project/index.html`** (수정)
-  - A. `#pageSettings`의 `.settings-container` 최하단(지원 섹션 다음)에 "법적 고지" 섹션 + `privacyNavBtn` chevron 항목 추가. `creditsNavBtn` 마크업 패턴 그대로 복제.
-  - B. `#pageCredits` 바로 다음에 신규 인앱 페이지 `#pagePrivacy` 추가. `.profile-action-bar` + `privacyBackBtn`, `.settings-container` > `.credits-title` / `.credits-source` / `.settings-section` × 10 (조항 1~10) 구조. 목록은 신규 `.credits-list` 사용.
-  - C1. `_subPageBackTarget`에 `pagePrivacy: 'pageSettings'` 추가.
-  - C2. scroll-to-top FAB 숨김 조건에 `page.id === 'pagePrivacy'` 추가.
-  - D. `_creditsBackBtn` 배선 다음에 `_privacyNavBtn`(→`showPage('pagePrivacy', { dir: 'forward' })`), `_privacyBackBtn`(→`showPage('pageSettings', { restoreScroll: true, dir: 'back' })`)를 **최상위 1회성**으로 등록. 둘 다 null 가드 유지.
+### 수정된 파일
+- `project/index.html` — (유일한 수정 대상. CLAUDE.md 규칙 준수: JS 인라인 유지, 2칸 인덴트, 세미콜론, `const`/`let`.)
 
-- **`project/style.css`** (수정)
-  - C3. `#pageSettings, #pageCredits` 페이지 애니메이션 셀렉터에 `#pagePrivacy` 추가.
-  - 신규 `.credits-list` / `.credits-list li` 클래스 추가 (기존 `/* credits */` 섹션 내, `.credits-link:hover` 다음). 색·폰트·`word-break`는 `.credits-body`와 동일 토큰 재사용, 하드코딩 색상 없음.
+### 각 수정의 diff 요약 (라인 번호는 수정 후 기준)
 
-- **`project/privacy.html`** (신규 생성)
-  - E. 완전 자립형 정적 페이지. `<html lang="ko">`, `<meta charset="UTF-8">`, viewport, `<title>개인정보처리방침 — KoIn Pedia</title>`. CSS는 `<style>` 인라인, 시스템 폰트 스택, 다크 배경(`#121212`) + 밝은 본문. **외부 리소스 0개.** 호스트명은 평문(링크 아님). `<meta http-equiv>` 미사용 — "http" 문자열 0건 보장.
+1. **`PAGE_HASHES` 확장** (index.html 1682–1687)
+   - `pageSaved: 'saved'`, `pageRecent: 'recent'` 두 항목 추가.
+   - 효과: `showPage(..., { keepNav: true })`가 `history.pushState(..., '#saved'/'#recent')`를 태우고
+     `_subPageBackTarget[pageId]`를 동적 등록할 수 있게 됨(둘 다 `PAGE_HASHES[pageId]` 존재가 전제).
+
+2. **`_syncNativeSwipeGesture` enabled 조건 확장** (index.html 1702–1703)
+   - 기존: `pageId === 'pageFamilyDetail' || pageId === 'pageSpeciesDetail'`
+   - 변경: 위에 `|| pageId === 'pageSaved' || pageId === 'pageRecent'` 추가.
+   - 효과: 두 페이지가 active일 때 네이티브 `NavigationGestureBridge.setEnabled({enabled:true})` 호출 → 엣지 제스처 인식기 ON.
+
+3. **뒤로가기 버튼 2곳 → `history.back()` 교체** (index.html 1923–1925, 1935–1937)
+   - `savedBackBtn` / `recentBackBtn`: 기존 `showPage('pageProfile', { restoreScroll:true, dir:'back' })` + `navProfile.classList.add('active')`
+     → `history.back();` 한 줄로 교체 (family/species 백버튼과 동일 패턴).
+   - 효과: pushState로 쌓인 히스토리 항목을 정상 소비. 복귀 슬라이드 방향(`back`)과 스크롤 복원은
+     popstate 핸들러(index.html 1809, `_fromHistory:true`)가 자동 적용하므로 인자 불필요.
+
+4. **'전체 보기' 진입 핸들러 2곳 → `keepNav: true` 추가** (index.html 1930, 1942)
+   - `profileSavedViewAll`: `showPage('pageSaved', { dir:'forward' })` → `{ keepNav: true, dir:'forward' }`
+   - `profileRecentViewAll`: `showPage('pageRecent', { dir:'forward' })` → `{ keepNav: true, dir:'forward' }`
+   - 뒤이은 `navProfile.classList.add('active')` 줄은 그대로 유지(무해, 안전망).
+   - 효과: `keepNav && hash` 분기로 진입해 `_subPageBackTarget` 등록 + `history.pushState`가 실행됨.
 
 ### 데이터 바인딩
+- 이번 작업은 순수 네비게이션/히스토리 배선 확장으로 JSON 데이터 바인딩 변경 없음.
+- 관련 렌더링(`renderSavedPage`/`renderRecentPage` — `pageshow:pageSaved`/`pageshow:pageRecent`)은 기존 그대로.
 
-이 작업은 JSON 데이터 바인딩이 아닌 정적 법적 문서 렌더링이다. 본문 문구는 요구사항 §F를 **그대로** 사용했고, 사실을 추가·변경하지 않았다. `#pagePrivacy`와 `privacy.html`의 조항 제목·본문은 동일하다.
+### 주요 설계 결정 (왜 3가지가 모두 필요한가)
+1. **push(진입) + back(퇴장) + enable(제스처) 3박자.** 스와이프 백이 되돌아갈 목적지를 가지려면
+   진입 시 히스토리 항목이 실제로 쌓여야(`pushState`, 항목 4) 하고, 그 항목을 뒤로가기 버튼이 정확히
+   한 스텝 소비해야(`history.back()`, 항목 3) popstate 스택이 어긋나지 않는다. 마지막으로 제스처
+   인식기 자체가 켜져야(항목 2) 한다. 항목 1(`PAGE_HASHES`)은 항목 4의 push와 `_subPageBackTarget`
+   동적 등록이 실행되기 위한 전제 조건이다.
+2. **`showPage()` 직접 호출을 `history.back()`으로 교체한 이유.** pushState로 항목을 쌓아둔 채
+   뒤로가기 버튼이 `showPage()`(replaceState 경로)를 직접 부르면 방금 쌓은 항목이 그대로 남아
+   "한 번 더 눌러야 실제로 나가지는" 스택 어긋남 버그가 생긴다. `history.back()`은 그 항목을
+   정확히 소비하고 popstate → `showPage(..., {_fromHistory:true})`로 목적지를 재렌더한다.
+3. **`_subPageBackTarget` 초기 리터럴·popstate `isSubPage` 판정은 손대지 않음(요구사항대로).**
+   `pageSaved`/`pageRecent`는 `showPage`의 `keepNav && hash` 분기에서 런타임 동적 등록되므로 초기값
+   불필요. popstate에서 `isSubPage=false`가 되어 `syncNavForPage()`가 도는 것이 의도된 동작(두 페이지
+   모두 `navProfile` 탭 소속). `SWIPE_BACK_BLOCKED_PAGES`(Discover/Search/Profile)도 그대로 둠.
 
-### 신규 id / CSS 클래스 (QA 셀렉터 교차 검증용)
+### 완료 후 필수 확인 결과
 
-| 유형 | 이름 | 정의 위치 |
-|------|------|-----------|
-| id | `privacyNavBtn` | index.html:739 (button), JS 3757 |
-| id | `privacyBackBtn` | index.html:804 (button), JS 3765 |
-| id | `pagePrivacy` | index.html (`.page` div) |
-| CSS class | `.credits-list`, `.credits-list li` | style.css (신규) |
+**grep 검증 (의도한 4곳만 변경, 다른 참조처 없음 확인):**
+- `PAGE_HASHES` — 1683 family / 1684 species / **1685 saved(신규)** / **1686 recent(신규)**.
+  별개 객체 `_subPageBackTarget`(1033)는 초기 리터럴 그대로(pageFamilyDetail/pageSpeciesDetail만) — 요구사항대로 미변경.
+- `_syncNativeSwipeGesture` enabled — 1702–1703에 `pageSaved`/`pageRecent` 추가 확인.
+  (1716의 `syncNavForPage` pageRecent 분기는 이전 pageRecent 작업의 기존 코드로, 이번에 건드리지 않음.)
+- `savedBackBtn`(1923)/`recentBackBtn`(1935) 클릭 핸들러 = `history.back();` 단일 호출로 교체 확인.
+  마크업 정의(466, 498)는 그대로.
+- `profileSavedViewAll`(1928)/`profileRecentViewAll`(1940) 핸들러의 `showPage` 호출에 `keepNav: true` 추가 확인.
+  마크업 앵커(603, 618)는 그대로.
 
-재사용 클래스: `.settings-section`, `.settings-section-title`, `.settings-item`, `.settings-item-content`, `.settings-item-title`, `.settings-control`, `.settings-button`, `.settings-nav-btn`, `.settings-container`, `.credits-title`, `.credits-body`, `.credits-source`, `.profile-action-bar`, `.action-btn`.
+**정적 검증:**
+- 인라인 `<script>` 블록 `new Function()` 파싱 OK (3363줄, 문법 오류 없음).
+- `git diff --stat`: 내 4개 편집 외의 hunk(pageRecent HTML 블록·`renderRecentPage`·콘텐츠 보호 로직·
+  `profileRecentViewAll` id 부여)는 **세션 시작 전부터 워킹트리에 있던 미커밋 변경**(CLAUDE.md 2026-07-16
+  changelog의 pageRecent/콘텐츠 보호 항목)이며 이번 작업에서 추가·수정하지 않았다.
 
-### C의 3개 등록 지점 — 실제 반영 내용
+**로직 트레이스 (브라우저 관찰 가능 범위, 코드 경로 수기 추적):**
+- 프로필에서 '전체 보기' 클릭 → `showPage('pageSaved', {keepNav:true, dir:'forward'})`
+  → `_subPageBackTarget.pageSaved = 'pageProfile'` 등록 + `pushState({page:'pageSaved'}, '', '#saved')` → 주소창 `#saved` 부착.
+- `savedBackBtn` 클릭 → `history.back()` → popstate: `_activePageId('pageSaved')`는 BLOCKED 아님 → `e.state.page='pageProfile'`,
+  `isSubPage=false` → `showPage('pageProfile', {_fromHistory:true, restoreScroll:true})` → 프로필 복귀(back 슬라이드), 해시 제거.
+- 히스토리 1스텝만 소비: 복귀 지점 `pageProfile`은 `SWIPE_BACK_BLOCKED_PAGES`에 속해, 이후 추가 뒤로가기 popstate는
+  재-pushState로 무효화되어 프로필에서 멈춘다(연속 입력에도 이탈 없음). `pageRecent`도 `#recent`로 동일.
 
-1. **`_subPageBackTarget`** (index.html:1129)
-   `const _subPageBackTarget = { pageFamilyDetail: 'pageDiscover', pageSpeciesDetail: 'pageFamilyDetail', pageCredits: 'pageSettings', pagePrivacy: 'pageSettings' };`
-2. **FAB 숨김 조건** (index.html:2357)
-   `scrollTopBtn.hidden = page.id === 'pageSettings' || page.id === 'pageCredits' || page.id === 'pagePrivacy' || page.scrollTop < 200;`
-3. **style.css 페이지 애니메이션** (style.css:3966~3968)
-   `#pageSettings,` / `#pageCredits,` / `#pagePrivacy {` → 공통 `pageFadeIn`.
-
-(4번 `allPages`는 `querySelectorAll('.page')`로 자동 포함, `syncNavForPage()`는 미매칭 시 navDiscover 폴백 — 별도 수정 불필요. 5번 `SWIPE_BACK_BLOCKED_PAGES`는 탭 루트 전용이라 추가하지 않음.)
-
-### 완료 기준 8개 자체 검증 (실제 명령 출력 근거)
-
-1. **설정 하단 항목 → #pagePrivacy 진입**: `privacyNavBtn`(index.html:739) → JS 3757 `showPage('pagePrivacy', { dir: 'forward' })`. PASS.
-2. **뒤로 → #pageSettings 스크롤 복원**: `privacyBackBtn`(index.html:804) → JS 3765 `showPage('pageSettings', { restoreScroll: true, dir: 'back' })`. PASS.
-3. **3개 등록 지점**: `grep -n "pagePrivacy: 'pageSettings'" index.html` → 1129 / `grep -n "page.id === 'pagePrivacy'" index.html` → 2357 / `grep -n "pagePrivacy" style.css` → 3968. 3곳 모두 확인. PASS.
-4. **리스너 누수 없음 (1회 등록)**: `_privacyNavBtn`/`_privacyBackBtn` 배선이 `pageshow:` 밖, 설정 초기화 블록(APP_VERSION 근처) 최상위에 위치. 5회 반복해도 재등록 없음. PASS.
-5. **privacy.html 존재 + 외부 리소스 0**: 파일 존재(5778 bytes). `grep -c "http" project/privacy.html` → **0**. PASS.
-6. **본문·조항 §F 일치**: 두 페이지 조항 제목(1~10) 대조 결과 완전 일치. 본문 §F 그대로. PASS.
-7. **node --check 통과**: 인라인 스크립트(1029~4282행) 추출 후 `node --check` → 오류 없음(PASS 출력). PASS.
-8. **신규 id HTML/JS 1:1**: `privacyNavBtn`, `privacyBackBtn` 각각 HTML 정의 1건 + JS `getElementById` 참조 1건. PASS.
-
-### 주요 설계 결정
-
-1. **`.credits-list` 신규 추가**: §B가 허용한 대로, 조항 2·4·9의 목록을 시멘틱 `<ul>`로 처리. `.credits-body`와 동일 토큰(`--text-secondary`, `font-size:13px`, `line-height:1.7`, `word-break:keep-all`)을 써 시각 위계를 통일했다.
-2. **§4 호스트명을 인앱 페이지에서도 평문 리스트로**: §F 원문이 불릿이고, 링크 목적이 아닌 "통신 대상 고지"이므로 `<a>`가 아닌 `<li>` 평문으로 표기 (privacy.html의 http 0건 요건과도 일관).
-3. **privacy.html에서 `<meta http-equiv>` 회피**: charset은 `<meta charset="UTF-8">`만 사용해 "http" 문자열이 문서 전체에서 0건이 되도록 했다. 이메일도 평문(mailto 링크 아님).
+**미실행 항목(정직한 고지):**
+- 네이티브 엣지 스와이프 제스처 자체는 iOS 네이티브 셸에서만 동작(`window.Capacitor?.isNativePlatform?.()`가
+  false면 `_syncNativeSwipeGesture` 즉시 return). 일반 브라우저·시뮬레이터 외 환경에서 스와이프 제스처는 검증 불가 — 요구사항이 명시한 제약.
+- 헤드리스 브라우저 클릭 스루는 실제로 구동하지 않았고, 위 '전체 보기→뒤로가기→해시 push/pop' 흐름은 코드 경로 수기 트레이스로 확인.
 
 ### 코드 리뷰어 확인 요청 사항
-
-- `#pagePrivacy` 뒤로가기 시 `restoreScroll: true`가 설정 스크롤 위치를 실제로 복원하는지(`_scrollPosCache`가 forward 진입 시 pageSettings의 scrollTop을 저장하는 흐름) — `pageCredits`와 동일 경로이므로 회귀 없음이 예상되나 교차 확인 요청.
-- 네이티브 스와이프-백 프리뷰가 `_subPageBackTarget.pagePrivacy`를 참조해 pageSettings를 미리 렌더하는 경로가 정상 동작하는지.
-
-### 범위 밖 (미조치)
-
-- `ios/App/App/public/`는 빌드 산출물이라 미수정. 실제 기기 반영은 `npx cap sync` 필요(개발자 범위 밖).
-- `ios/` 네이티브 파일, `Info.plist`, 데이터 JSON은 이번 범위 밖으로 미수정.
+- popstate 핸들러(1808)의 `isSubPage` 판정에 `pageSaved`/`pageRecent`가 포함되지 않아,
+  뒤로가기 시 `showPage(..., { keepNav: false })`로 복귀한다. 이는 목적지가 `pageProfile`(탭 루트)이므로
+  `syncNavForPage`가 도는 것이 옳다는 요구사항 판단과 일치 — 이 판정을 그대로 두는 것이 맞는지 교차 확인 요청.
+- `savedBackBtn`/`recentBackBtn`에서 `history.back()`으로 바꾸며 `navProfile.classList.add('active')`를 제거했는데,
+  복귀 시 nav 활성화는 popstate → `syncNavForPage('pageProfile')`가 담당하므로 중복 불필요하다고 판단. 누락 아님을 확인 요청.
+- family/species 백버튼과 완전히 동일 패턴(`history.back()` 단독)인지, 스크롤 복원·슬라이드 방향이 자동 적용되는 경로가 두 신규 페이지에도 동일하게 성립하는지 확인 요청.
